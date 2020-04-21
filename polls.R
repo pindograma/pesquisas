@@ -64,7 +64,7 @@ get_quantity_1 = function(vec, rgx, val) {
 
 get_quantity_2 = function(vec, rgx, suffix_rgx, val) {
   pattern_locations = str_locate_all(vec, rgx)
-  number_locations = str_locate_all(vec, '\\d[\\d\\,\\.]*(?=' + suffix_rgx + ')')
+  number_locations = str_locate_all(vec, paste0('\\d[\\d\\,\\.]*(?=', suffix_rgx, ')'))
   
   pmap_dbl(
     list(pattern_locations, number_locations, vec),
@@ -84,13 +84,13 @@ get_quantity_2 = function(vec, rgx, suffix_rgx, val) {
       } else NA })
 }
 
-rgx_confidence = '(?:confian.a|confiabilidade|coeficiente de seguranca).*?(\d[\d\,\.]*)(?=.*?%|.*?cento)'
-rgx_error = '(?:erro).*?(\d[\d\,\.]*)(?=.*?%|.*?cento|.*?pontos|.*?p.*?p)'
+rgx_confidence = '(?:confian.a|confiabilidade|coeficiente de seguranca).*?(\\d[\\d\\,\\.]*)(?=.*?%|.*?cento)'
+rgx_error = '(?:erro).*?(\\d[\\d\\,\\.]*)(?=.*?%|.*?cento|.*?pontos|.*?p.*?p)'
 
 df$confidence_interval_1 = get_quantity_1(df$norm_pa, rgx_confidence, 95)
 df$confidence_interval_1_met = get_quantity_1(df$norm_met, rgx_confidence, 95)
 df$confidence_interval_2 = get_quantity_2(df$norm_pa, 'confian.a|confiabilidade', '.*?%|.*?cento', 95)
-df$confidence_interval_2_met = get_quantity_2(df$norm_met, 'confian.a|confiabilidade', '.*?%|.*?cento')
+df$confidence_interval_2_met = get_quantity_2(df$norm_met, 'confian.a|confiabilidade', '.*?%|.*?cento', 95)
 
 df$error_1 = get_quantity_1(df$norm_pa, rgx_error, 4)
 df$error_1_met = get_quantity_1(df$norm_met, rgx_error, 4)
@@ -122,3 +122,32 @@ is_phone = function(x) {
 
 df$is_fluxo = !is.na(str_match(df$norm_met, 'fluxo')) | !is.na(str_match(df$norm_pa, 'fluxo'))
 df$is_phone = is_phone(df$norm_met) | is_phone(df$norm_pa)
+
+df$self_hired = df$NR_CPF_CNPJ_CONTRATANTE == '#NE'
+df$adj_cnpj_contratante = ifelse(df$self_hired, '', df$NR_CPF_CNPJ_CONTRATANTE)
+df$adj_cnpj_pagante = ifelse(df$self_hired, '', df$NR_CPF_CNPJ_PAGANTE)
+df$adj_contratante = ifelse(df$self_hired, '', df$NM_CONTRATANTE)
+df$adj_pagante = ifelse(df$self_hired, '', df$NM_PAGANTE_PESQUISA)
+
+df$adj_confidence_interval = ifelse(is.na(df$confidence_interval_final), '', df$confidence_interval_final)
+df$adj_error = ifelse(is.na(df$error_final), '', df$error_final)
+
+write.csv(df %>% select(
+  NR_IDENTIFICACAO_PESQUISA,
+  DT_REGISTRO,
+  NR_CNPJ_EMPRESA,
+  DT_INICIO_PESQUISA,
+  DT_FIM_PESQUISA,
+  QT_ENTREVISTADOS,
+  NM_ESTATISTICO_RESP,
+  CD_CONRE,
+  VR_PESQUISA,
+  adj_contratante,
+  self_hired,
+  adj_pagante,
+  adj_cnpj_contratante,
+  confidence_interval_final,
+  error_final,
+  adj_cnpj_pagante,
+  is_phone,
+  is_fluxo), './polls.csv', row.names=F)

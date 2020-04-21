@@ -147,6 +147,7 @@ el = ca %>% select(
   CARGO,
   DT_ELEICAO,
   NR_TURNO) %>% distinct()
+el = el %>% filter(!is.na(DT_ELEICAO)) # Suplementares Suspensas
 
 write.csv(el, 'el.csv', row.names=F)
 
