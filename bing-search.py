@@ -1,3 +1,9 @@
+# bing-search.py
+# (c) 2020 CincoNoveSeis Jornalismo Ltda.
+#
+# This program is licensed under the GNU General Public License, version 3.
+# See the LICENSE file for details.
+
 from azure.cognitiveservices.search.websearch import WebSearchClient
 from msrest.authentication import CognitiveServicesCredentials
 from pprint import pprint

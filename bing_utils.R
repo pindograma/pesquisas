@@ -1,3 +1,9 @@
+# bing_utils.R
+# (c) 2020 CincoNoveSeis Jornalismo Ltda.
+#
+# This program is licensed under the GNU General Public License, version 3.
+# See the LICENSE file for details.
+
 generate_bing_csv = function(name, filtered) {
   filtered %>% %>% distinct(f_id)
 }

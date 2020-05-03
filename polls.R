@@ -1,3 +1,9 @@
+# polls.R
+# (c) 2020 CincoNoveSeis Jornalismo Ltda.
+#
+# This program is licensed under the GNU General Public License, version 3.
+# See the LICENSE file for details.
+
 library(stringi)
 library(stringr)
 library(purrr)
