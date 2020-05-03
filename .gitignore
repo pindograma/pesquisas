@@ -7,3 +7,7 @@
 *.Rhistory
 
 gapi-key*.txt
+gapi-endpoint.txt
+
+bing_input.txt
+bing_outputs
