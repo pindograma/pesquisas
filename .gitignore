@@ -1,6 +1,9 @@
 *.csv
+*.tsv
 *.Rproj
 .DS_Store
 .Rproj.user
 *.Rdata
 *.Rhistory
+
+gapi-key*.txt
