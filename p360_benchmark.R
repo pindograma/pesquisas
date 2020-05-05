@@ -123,7 +123,7 @@ get_success_rate = function(df_filtered_polls, imported_polls) {
 get_benchmark = function(p3_f, imported_polls) {
   f1 = imported_polls %>%
     filter(candidate != 'BASE' & candidate != 'Branco/ Nulo' & candidate != 'Nao sabe/ Nao respondeu' & candidate != 'Citou outro nome')
-  f2 = f1 %>% group_by(tse_id, estimulada, position) %>% filter(sum(scenario)/n() == first(scenario))
+  f2 = f1 %>% group_by(tse_id, estimulada, position) %>% filter(sum(scenario)/n() == first(scenario)) %>% ungroup()
   print(sprintf('We are verifying %d imported polls...', f2 %>% distinct(tse_id) %>% nrow()))
   
   p3_f = p3_f %>%
