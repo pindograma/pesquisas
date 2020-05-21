@@ -51,6 +51,14 @@ rm(X2012, X2014, X2016, X2018, df1, df2)
 df = df %>% select(-DT_GERACAO, -HH_GERACAO)
 df = df %>% distinct()
 
+df$nr_cnpj = as.numeric(df$NR_CNPJ_EMPRESA)
+df$f_id = paste0(
+  substring(df$NR_IDENTIFICACAO_PESQUISA, 1, 2),
+  '-',
+  substring(df$NR_IDENTIFICACAO_PESQUISA, 3, 7),
+  '/',
+  substring(df$NR_IDENTIFICACAO_PESQUISA, 8, 12))
+
 normalize = function(x) {
   tolower(stri_trans_general(str = x, id = 'Latin-ASCII'))
 }
