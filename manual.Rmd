@@ -1,0 +1,1272 @@
+---
+title: "Poll Organizer"
+author: "Daniel T. Ferreira"
+
+output: html_document
+---
+
+## Introduction
+
+This pipeline does the following tasks:
+
+(1) Read from a very dirty set of manually-filled spreadsheets with polling
+results; correct its errors; clean its contents; and merge it with actual
+election results.
+
+(2) Do basically the same thing with the Poder360 polling database.
+
+(3) Merge the result of processes (1) and (2), allowing for polls to be compared
+with election results; and for Poder360 polls to be compared with our polls.
+
+## Priors
+
+First of all, let's import required libraries and set a few options:
+
+```{r}
+library(purrr)
+library(tidyr)
+library(dplyr)
+library(readr)
+library(stringi)
+library(stringr)
+library(sqldf)
+library(lubridate)
+library(cepespR)
+library(mgsub)
+library(fastDummies)
+
+options('sqldf.dll' = '/Users/Daniel/Downloads/sqlite/spellfix.so')
+```
+
+And now, let's define some helpers and data cleaning functions:
+
+```{r}
+rtypes = cols(
+  'resul1' = col_character(),
+  'resul2' = col_character(),
+  'resul3' = col_character(),
+  'resul4' = col_character(),
+  'resul5' = col_character(),
+  'resul6' = col_character(),
+  'resul7' = col_character(),
+  'resul8' = col_character(),
+  'resul9' = col_character(),
+  'resul10' = col_character(),
+  'resul11' = col_character(),
+  'resul12' = col_character(),
+  'resul13' = col_character(),
+  'resul14' = col_character(),
+  'resul15' = col_character(),
+  'resul16' = col_character(),
+  'resul17' = col_character(),
+  'resul18' = col_character(),
+  'resul19' = col_character(),
+  'resul20' = col_character(),
+  'resul21' = col_character(),
+  'resul22' = col_character(),
+  'resul23' = col_character(),
+  'resul24' = col_character(),
+  'resul25' = col_character(),
+  'resul26' = col_character(),
+  'resul27' = col_character(),
+  'resul28' = col_character(),
+  'resul29' = col_character(),
+  'resul30' = col_character(),
+  'resul31' = col_character(),
+  'resul32' = col_character(),
+  'resul33' = col_character(),
+  'resul34' = col_character(),
+  'resul35' = col_character(),
+  'resul36' = col_character(),
+  'resul37' = col_character(),
+  'resul38' = col_character(),
+  'resul39' = col_character(),
+  'resul40' = col_character(),
+  'resul41' = col_character(),
+  'resul42' = col_character(),
+  'resul43' = col_character()
+)
+
+election_dates = tibble(
+  year = c(2012, 2014, 2016, 2018),
+  first_round_date = c(
+    make_date(year = 2012, month = 10, day = 7),
+    make_date(year = 2014, month = 10, day = 5),
+    make_date(year = 2016, month = 10, day = 2),
+    make_date(year = 2018, month = 10, day = 7)
+  ),
+  second_round_date = c(
+    make_date(year = 2012, month = 10, day = 28),
+    make_date(year = 2014, month = 10, day = 26),
+    make_date(year = 2016, month = 10, day = 30),
+    make_date(year = 2018, month = 10, day = 28)
+  )
+)
+
+normalize_simple = function(x) {
+  str_squish(toupper(stri_trans_general(str = x, id = 'Latin-ASCII')))
+}
+
+normalize_cand = function(x) {
+  normalize_simple(x) %>%
+    str_replace_all('[\\.\\-]', ' ') %>%
+    str_replace_all('\\sJR', ' JUNIOR') %>%
+    str_replace_all('\\sPROF', ' PROFESSOR') %>%
+    str_replace_all('\\sDR', ' DOUTOR') %>%
+    str_replace_all('\\s+D[AEO]S?\\s+', ' ') %>%
+    str_squish()
+}
+
+normalize_cand_2 = function(x) {
+  word(x, 1, sep = '\\(') %>%
+    word(1, sep = '-') %>%
+    normalize_cand()
+}
+
+normalize_cand_rm_titles = function(x, fun = normalize_cand) {
+  titles = c('DR ', 'DRA ', 'PROF ', 'PROFA ', 'PASTOR ', 'PASTORA ',
+            'DOUTOR ', 'DOUTORA ', 'PROFESSOR ', 'PROFESSORA ',
+            'GENERAL ', 'DELEGADO ', 'DELEGADA ', 'BRIGADEIRO ',
+            'COMANDANTE ', 'JORNALISTA ', 'PROMOTOR ', 'JUIZ ',
+            'PROMOTORA ', 'JUIZA ')
+  
+  fun(x) %>%
+    mgsub(titles, rep(' ', length(titles))) %>%
+    str_squish()
+}
+
+normalize_estatistico = function(x) {
+  normalize_simple(x) %>%
+    str_replace('^: ', '') %>%
+    str_replace('CONRE.*$', '') %>%
+    str_replace('CPF.*', '') %>%
+    str_replace_all(' D[AEO]S? ', ' ') %>%
+    str_replace_all('[\\-\\.]', ' ') %>%
+    str_replace_all('0', 'O') %>%
+    str_squish()
+}
+
+open_patch = function(x, fun = read_csv) {
+  fun(x, col_types = rtypes) %>%
+    filter(as.logical(util)) %>%
+    mutate(tse_id = normalize_simple(tse_id)) %>%
+    mutate_at(vars(matches('resul')), str_to_dbl) %>%
+    mutate(year = suppressWarnings(as.numeric(str_sub(tse_id, start = -4))))
+}
+
+spread_list = function(pred) {
+  imap_dfr(pred, function(l, i) {
+      if (length(l) == 0) { return(tibble()) }
+      tibble(lhs = rep(i, length(l)), rhs = unlist(l))
+  })
+}
+
+str_to_dbl = function(x) {
+  as.double(sub(',', '.', x, fixed=T))
+}
+
+text_is_phone = function(x) {
+  as.vector(
+    !is.na(str_match(x, 'telefon')) &
+    is.na(str_match(x, 'verificacao')) &
+    is.na(str_match(x, 'monitoramento')) &
+    is.na(str_match(x, 'endereco')) &
+    is.na(str_match(x, 'telefone[\\s\\(:]*[\\d]')) &
+    is.na(str_match(x, 'wi-fi'))
+  )
+}
+
+concatenate_id = function(x, y) {
+  paste0(ifelse(x == 'TSE', 'BR', ifelse(
+    nchar(x) == 6, substring(x, first=5, last=6), NA
+  )), y)
+}
+
+party_pattern = 'PARTIDO|DIRETORIO| PT |PMDB|PSDB|ELEICOES|PREFEITO|GOVERNADOR|PSB|PDT|ELEICAO|PC DO B|PCDOB| PP | PR | PSL | PSC | PV'
+```
+
+Now, let's get a list of all candidates in all Brazilian elections from the
+Cepesp API:
+
+```{r}
+years_1 = c(2012, 2016)
+positions_1 = c('Vereador', 'Prefeito')
+
+years_2 = c(2014, 2018)
+positions_2 = c('Deputado Estadual', 'Deputado Federal', 'Senador', 'Governador',
+                'Presidente')
+
+cands_1 = map_dfr(years_1, function(y) {
+  map_dfr(positions_1, function(p) {
+    get_candidates(y, p, columns_list = list(
+      'ANO_ELEICAO', 'NUM_TURNO', 'SIGLA_UF', 'SIGLA_UE', 'DESCRICAO_UE',
+      'CODIGO_CARGO', 'NOME_CANDIDATO', 'NOME_URNA_CANDIDATO', 'NUMERO_CANDIDATO'
+    ), cache = T)
+  })
+})
+
+cands_2 = map_dfr(years_2, function(y) {
+  map_dfr(positions_2, function(p) {
+    get_candidates(y, p, columns_list = list(
+      'ANO_ELEICAO', 'NUM_TURNO', 'SIGLA_UF', 'SIGLA_UE', 'DESCRICAO_UE',
+      'CODIGO_CARGO', 'NOME_CANDIDATO', 'NOME_URNA_CANDIDATO', 'NUMERO_CANDIDATO'
+    ), cache = T)
+  })
+})
+
+cands_orig = tibble(bind_rows(cands_1, cands_2))
+rm(cands_1, cands_2)
+
+cands = cands_orig %>%
+  mutate(NOME_CANDIDATO = normalize_cand(NOME_CANDIDATO)) %>%
+  mutate(NOME_URNA_CANDIDATO = normalize_cand(NOME_URNA_CANDIDATO)) %>%
+  mutate(NOME_URNA_CANDIDATO = recode(NOME_URNA_CANDIDATO,
+    `ELMANO O VEIN TRABALHADOR` = 'ELMANO FERRER',
+    `DR. PESSOA (DR. ZEZIM)` = 'DR. PESSOA'
+  )) %>%
+  mutate(CODIGO_CARGO = ifelse(CODIGO_CARGO == 8, 7, CODIGO_CARGO))
+```
+
+And let's import the TSE polling database, applying a couple normalizations:
+
+```{r}
+open_tse_file = function(path) {
+  read_delim(path, ';',
+    escape_double = F,
+    locale = locale(date_format = '%d/%m/%Y', decimal_mark = ',', encoding = 'ISO-8859-1'),
+    trim_ws = T)
+}
+
+X2012 <- open_tse_file("~/pindograma/dados-externos/polling/tse_2012.csv")
+X2014 <- open_tse_file("~/pindograma/dados-externos/polling/tse_2014.csv")
+X2016 <- open_tse_file("~/pindograma/dados-externos/polling/tse_2016.csv")
+X2018 <- open_tse_file("~/pindograma/dados-externos/polling/tse_2018.csv")
+
+df1 = rbind(X2012, X2014)
+df2 = rbind(X2016, X2018) %>% rename(NR_IDENTIFICACAO_PESQUISA = NR_PROTOCOLO_REGISTRO)
+df_orig = rbind(df1, df2) %>% select(-DT_GERACAO, -HH_GERACAO)
+rm(X2012, X2014, X2016, X2018, df1, df2)
+
+estatisticos_ids = read_csv('estatisticos_ids.csv')
+
+df = df_orig %>%
+  distinct() %>%
+  mutate(nr_cnpj = as.numeric(NR_CNPJ_EMPRESA)) %>%
+  mutate(f_id = paste0(
+    substring(NR_IDENTIFICACAO_PESQUISA, 1, 2), '-',
+    substring(NR_IDENTIFICACAO_PESQUISA, 3, 7), '/',
+    substring(NR_IDENTIFICACAO_PESQUISA, 8, 12))) %>%
+  mutate_if(is.Date, function(x, e, a) {
+    if_else(grepl('Suplementares', e), x, make_date(
+      year = a,
+      month = month(x),
+      day = day(x)
+    ))
+  }, .$NM_ELEICAO, .$AA_ELEICAO) %>%
+  mutate(cmp_ue = normalize_simple(NM_UE)) %>%
+  mutate(norm_est = normalize_estatistico(NM_ESTATISTICO_RESP)) %>%
+  left_join(estatisticos_ids, by = c('norm_est' = 'norm_est')) %>%
+  group_by(AA_ELEICAO, est_id) %>%
+  mutate(inhouse_stat = n_distinct(NR_CNPJ_EMPRESA) == 1) %>%
+  mutate(stat_number = n()) %>%
+  ungroup() %>%
+  group_by(NR_CNPJ_EMPRESA) %>%
+  mutate(pollster_size = n()) %>%
+  mutate(pollster_stat_number = n_distinct(est_id)) %>%
+  mutate(pollster_inhouse_stat = all(inhouse_stat)) %>%
+  ungroup() %>%
+  mutate(norm_met = tolower(normalize_simple(DS_METODOLOGIA_PESQUISA))) %>%
+  mutate(norm_pa = tolower(normalize_simple(DS_PLANO_AMOSTRAL))) %>%
+  mutate(is_fluxo = as.vector(!is.na(str_match(norm_met, 'fluxo')) | !is.na(str_match(norm_pa, 'fluxo')))) %>%
+  mutate(is_phone = text_is_phone(norm_met) | text_is_phone(norm_pa)) %>%
+  mutate(self_hired = normalize_simple(NM_CONTRATANTE) == normalize_simple(NM_EMPRESA) | NR_CPF_CNPJ_CONTRATANTE == NR_CNPJ_EMPRESA) %>%
+  mutate(partisan = grepl(party_pattern, normalize_simple(NM_CONTRATANTE)))
+
+df_for_merge = df %>%
+  select(-NR_CPF_CNPJ_CONTRATANTE, -NM_CONTRATANTE, -NM_PAGANTE_PESQUISA, -NR_CPF_CNPJ_PAGANTE, -DS_ORIGEM_RECURSO) %>%
+  distinct()
+```
+
+## Pindograma Polls
+
+Now, let's basically import all of Pindograma's manually-filled polling
+spreadsheets and apply some basic normalizations and small corrections:
+
+```{r}
+dfs = map(list.files('manual', full.names = T, pattern = 'csv'), function(x) {
+  read_csv(x, col_types = rtypes) %>%
+    mutate(manual_filename = x)
+}) %>%
+ map(mutate_at, vars(matches('resul')), str_to_dbl) %>%
+ map(mutate_at, vars(any_of(c('vv', 'util', 'estimulada', 'suspensa'))), as.numeric)
+
+df_manual = bind_rows(dfs)
+
+df_c = df_manual %>%
+  rename(new_id = `outro id`) %>%
+  mutate(new_id = ifelse(!is.na(outro_id), outro_id, new_id)) %>%
+  mutate(new_id = ifelse(new_id == 'SEM ID' | new_id == '?', NA, new_id)) %>%
+  select(-X3, -X4, -X5, -feito_por, -estado, -outro_id) %>%
+  distinct() %>%
+  mutate(tse_id = normalize_simple(tse_id)) %>%
+  mutate(util = (util | !is.na(instituto)) & !is.na(cand1)) %>%
+  filter(util) %>%
+  filter(!grepl('poder360', url) & !grepl('fernandorodrigues', url) & !grepl('imguol', url)) %>%
+  mutate(position = tolower(position)) %>%
+  rowwise() %>%
+  mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
+  ungroup() %>%
+  mutate_at(vars(matches('cand')), normalize_cand) %>%
+  mutate_at(vars(matches('resul')), function(x, t) {
+    case_when(
+      x < 1 ~ ifelse(t <= 1, x * 100, x),
+      T ~ x
+    )
+  }, .$total) %>%
+  distinct(tse_id, position, estimulada, cand1, resul1, cand2, resul2, .keep_all = T) %>%
+  rename(NM_UE = cidade) %>%
+  rename(SG_UE = sg_ue) %>%
+  filter(!endsWith(tse_id, '2010')) %>%
+  mutate(tse_id = ifelse(!is.na(new_id), new_id, tse_id)) %>%
+  mutate(tse_id = recode(tse_id,
+    `RJ-0001/2012` = 'RJ-00001/2012',
+    `RJ-0015/2012` = 'RJ-00015/2012',
+    `PI-087993/2018` = 'PI-08793/2018',
+    `MA-07213/2018` = 'MA-07213/2016',
+    `RN-0533/2018` = 'RN-00533/2018',
+    `RN 02146/2018` = 'RN-02146/2018',
+    `PA 02395/2018` = 'PA-02395/2018',
+    `DF-06620-2018` = 'DF-06620/2018',
+    `MS-09808-2018` = 'MS-09808/2018',
+    `MS-09855-2018` = 'MS-09855/2018'
+  )) %>%
+  mutate(year = suppressWarnings(as.numeric(str_sub(tse_id, start = -4))))
+```
+
+The first thing we do is add some information to the database to fix the
+"duplicate ID problem". TSE poll IDs are not unique, and we need to make sure
+we're not confusing them when we merge our dataset with the TSE's polling
+dataset.
+
+To that end, we apply a patch that adds the pollster CNPJ as a column. This,
+along with the poll location column, is enough guarantee for disambuiguating
+polls with the same IDs when merging. (In 14 cases, this is not enough; in which
+case we just end up dropping the poll. This is unfortunate but very rare.)
+
+For reference -- to select polls for `patch_6`, the following criterion was
+used:
+
+```
+patch_6_generated = df_c %>% filter(tse_id %in% dup_polls)
+```
+
+We won't use this data for now, but it'll come in handy later. We will also
+exclude duplicated IDs from `df_c*`, which will allow us to operate without fear
+of collision there.
+
+```{r}
+dup_polls = df_for_merge %>%
+  group_by(f_id) %>%
+  filter(n() > 1) %>%
+  ungroup() %>%
+  pull(f_id)
+
+patch_6_1 = open_patch('patch_6.csv') %>% mutate(CNPJ = str_pad(CNPJ, 14, pad = '0'))
+patch_6_2 = open_patch('patch_6_sup.csv') %>%
+  mutate(CNPJ = str_pad(CNPJ, 14, pad = '0'))
+patch_6_3 = open_patch('patch_6_sup_2.csv') %>%
+  mutate(CNPJ = str_pad(CNPJ, 14, pad = '0'))
+
+df_c2 = df_c %>% filter(!(tse_id %in% dup_polls))
+```
+
+The second thing we need to do is correct a few positions typed in by mistake.
+This is important, otherwise the following step will break.
+
+```{r}
+df_c2_2 = df_c2 %>%
+  mutate(position = ifelse(position == 'br', 'pr', position)) %>%
+  mutate(for_patch_2 = (
+     ((year == 2012 | year == 2016) & (position == 'de' | position == 'df' | position == 's' | position == 'g' | position == 'pr')) |
+     ((year == 2014 | year == 2018) & (position == 'p' | position == 'v'))
+  ))
+
+patch_2 = bind_rows(open_patch('patch_2.csv'), open_patch('patch_2_sup.csv')) %>%
+  select(-scenario, -for_patch_3)
+
+df_c2_3 = bind_rows(
+  df_c2_2 %>% filter(!for_patch_2),
+  patch_2
+)
+```
+
+The third issue that requires patching is the "BR problem". Basically,
+presidential polls need to be registered under a poll ID that starts with "BR",
+whereas every other poll needs to start with the state abbreviation.
+
+However, during the process of manually filling in polls, some presidential
+polls ended up under state IDs; and some non-presidential polls ended up under
+BR IDs. Here, we correct this problem.
+
+There are a few caveats, however. If we are unable to find a corresponding BR
+ID for a presidential poll, we will drop the presidential poll. This is because
+this means that the presidential poll was not actually registered with the
+government as such, and we could get in trouble for publishing it.
+
+```{r}
+df_c3_stage0 = df_c2_3 %>%
+  mutate(for_patch_1 = (startsWith(tse_id, 'BR') & position != 'pr') |
+                       (!startsWith(tse_id, 'BR') & position == 'pr')) %>%
+  group_by(position, estimulada, cand1, resul1, cand2, resul2, cand3, resul3) %>%
+  filter(!(n() > 1 & sum(for_patch_1) < n() & for_patch_1)) %>%
+  ungroup()
+
+br_polls = df_for_merge %>%
+  filter(startsWith(NR_IDENTIFICACAO_PESQUISA, 'BR')) %>%
+  select(DT_INICIO_PESQUISA, DT_FIM_PESQUISA, NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, f_id, NR_IDENTIFICACAO_PESQUISA, DS_DADO_MUNICIPIO) %>%
+  rename(br_poll_id = f_id) %>%
+  rename(br_poll_id_raw = NR_IDENTIFICACAO_PESQUISA)
+
+state_polls = df_for_merge %>%
+  filter(!startsWith(NR_IDENTIFICACAO_PESQUISA, 'BR')) %>%
+  select(DT_INICIO_PESQUISA, DT_FIM_PESQUISA, NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, f_id) %>%
+  rename(state_poll_id = f_id)
+
+brmerged = df_c3_stage0 %>%
+  filter(position == 'pr' & !startsWith(tse_id, 'BR')) %>%
+  distinct(tse_id, position) %>%
+  mutate(joinid = row_number()) %>%
+  inner_join(df_for_merge, by = c('tse_id' = 'f_id')) %>%
+  inner_join(br_polls %>% select(-DS_DADO_MUNICIPIO), by = c(
+    'DT_INICIO_PESQUISA' = 'DT_INICIO_PESQUISA',
+    'DT_FIM_PESQUISA' = 'DT_FIM_PESQUISA',
+    'QT_ENTREVISTADOS' = 'QT_ENTREVISTADOS',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  select(tse_id, position, br_poll_id)
+
+statemerged = df_c3_stage0 %>%
+  filter(position != 'pr' & startsWith(tse_id, 'BR')) %>%
+  distinct(tse_id, position) %>%
+  mutate(joinid = row_number()) %>%
+  inner_join(df_for_merge, by = c('tse_id' = 'f_id')) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  inner_join(state_polls, by = c(
+    'DT_INICIO_PESQUISA' = 'DT_INICIO_PESQUISA',
+    'DT_FIM_PESQUISA' = 'DT_FIM_PESQUISA',
+    'QT_ENTREVISTADOS' = 'QT_ENTREVISTADOS',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  select(tse_id, position, state_poll_id)
+
+df_c3_stage1 = df_c3_stage0 %>%
+  left_join(brmerged, by = c(
+  'tse_id' = 'tse_id',
+  'position' = 'position'
+)) %>%
+  left_join(statemerged, by = c(
+    'tse_id' = 'tse_id',
+    'position' = 'position'
+  )) %>%
+  mutate(tse_id = case_when(
+    !is.na(br_poll_id) ~ br_poll_id,
+    !is.na(state_poll_id) ~ state_poll_id,
+    T ~ tse_id
+  )) %>%
+  mutate(for_patch_1 = (startsWith(tse_id, 'BR') & position != 'pr') |
+                       (!startsWith(tse_id, 'BR') & position == 'pr'))
+
+patch_1_exclusions = open_patch('patch_1_exclusions.csv') %>%
+  filter(person != 'BIA') %>%
+  select(-OBS, -sg_uf, -ds_cargos, -estado, -city, -ID, -wrong) %>%
+  rename(SG_UE = sg_ue, NM_UE = nm_ue) %>%
+  rename(cannot_find_id = `1 = Preencher`)
+
+# If we can't find the proper ID manually, *and* we can't find it by crossing
+# within the database, then there's no option but to discard it.
+df_c3_stage2 = df_c3_stage1 %>%
+  anti_join(patch_1_exclusions %>% filter(!is.na(cannot_find_id)), by = c(
+    'tse_id' = 'tse_id',
+    'position' = 'position'
+  ))
+
+patch_1 = open_patch('patch_1.csv') %>%
+  filter(tse_id %in% (df_c3_stage2 %>% filter(for_patch_1) %>% pull(tse_id)))
+
+patch_1_sup = open_patch('patch_1_sup.csv') %>%
+  rename(tse_id_new = new_tse_id)
+
+df_c3 = bind_rows(
+  df_c3_stage2 %>% filter(!for_patch_1),
+  bind_rows(patch_1, patch_1_sup)
+) %>%
+  mutate(tse_id = ifelse(!is.na(tse_id_new), tse_id_new, tse_id))
+
+patch_6_post = open_patch('patch_6_sup_3.csv')
+
+df_c3 = df_c3 %>% filter(!(tse_id %in% patch_6_post$tse_id))
+```
+
+Now, it's time to apply a sequence of patches that solve a number of specific
+errors with our manual work:
+
+```{r}
+df_c3 = df_c3 %>%
+  rowwise() %>%
+  mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
+  mutate(for_patch_3 = total > 102 & position != 's') %>%
+  ungroup()
+
+patch_3 = open_patch('patch_3.csv') %>%
+  select(-ID, -correction_1_pending, -for_correction_1) %>%
+  filter(tse_id %in% (df_c3 %>% filter(for_patch_3) %>% pull(tse_id)))
+
+patch_3_sup = open_patch('patch_3_sup.csv')
+
+df_c4 = bind_rows(
+  df_c3 %>% filter(!for_patch_3),
+  bind_rows(patch_3, patch_3_sup)
+) %>%
+  rowwise() %>%
+  mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
+  mutate(for_patch_5 = total > 98 & total < 102 & (is.na(vv) | !vv)) %>%
+  ungroup()
+
+patch_5 = open_patch('patch_5.csv') %>%
+  filter(tse_id %in% (df_c4 %>% filter(for_patch_5) %>% pull(tse_id)))
+
+patch_5_sup = open_patch('patch_5_sup.csv') %>%
+  mutate(SG_UE = as.character(SG_UE))
+
+df_c5 = bind_rows(
+  df_c4 %>% filter(!for_patch_5),
+  patch_5,
+  patch_5_sup
+)
+```
+
+Now we apply the "full replacement" patches:
+
+```{r}
+df_c6 = df_c5 %>%
+  distinct(tse_id, estimulada, position, cand1, resul1, cand2, resul2, .keep_all = T) %>%
+  group_by(cand1, resul1, cand2, resul2, cand3, resul3) %>%
+  mutate(for_patch_7 = n() > 1 & n_distinct(tse_id) > 1) %>%
+  ungroup()
+
+# TODO: WARNING: Patch 7 does not contain everything it should.
+# Part of this is due to pure weirdness; part of this is because Pedro
+# changed IDs directly instead of creating a new_tse_id column.
+# This is causing us to lose ~20 lines.
+patch_7 = open_patch('patch_7.csv')
+
+df_c6_1 = bind_rows(
+  df_c6 %>% filter(!for_patch_7),
+  patch_7
+)
+
+patch_6 = bind_rows(patch_6_1, patch_6_2, patch_6_3) %>%
+  mutate(tse_id = ifelse(!is.na(new_tse_id), new_tse_id, tse_id))
+
+df_c6_2 = bind_rows(
+  df_c6_1 %>% filter(!((tse_id %in% patch_6$tse_id) & !(tse_id %in% patch_6_post$tse_id))),
+  patch_6,
+  patch_6_post
+) %>%
+  group_by(estimulada, tse_id, SG_UE, NM_UE, CNPJ, vv, position) %>%
+  mutate(for_patch_9 = n() > 1) %>%
+  ungroup()
+
+patch_9 = open_patch('patch_9.csv', read_csv2) %>%
+  mutate(tse_id = ifelse(!is.na(new_tse_id), new_tse_id, tse_id))
+
+df_c6_3 = bind_rows(
+  df_c6_2 %>% filter(!for_patch_9),
+  patch_9
+) %>%
+  group_by(estimulada, tse_id, SG_UE, NM_UE, CNPJ, vv, position) %>%
+  mutate(for_patch_9_round_2 = n() > 1) %>%
+  ungroup()
+
+patch_9_round_2 = open_patch('patch_9_round_2.csv', read_csv2) %>%
+  mutate(CNPJ = as.character(CNPJ))
+
+df_c6_4 = bind_rows(
+  df_c6_3 %>% filter(!for_patch_9_round_2),
+  patch_9_round_2
+) %>%
+  group_by(tse_id, position, estimulada, vv, cand1, resul1, cand2, resul2) %>%
+  mutate(for_patch_9_round_3 = n() > 1) %>%
+  ungroup()
+
+patch_9_round_3 = open_patch('patch_9_round_3.csv', read_csv2) %>%
+  mutate(CNPJ = as.character(CNPJ))
+
+df_c6_5 = bind_rows(
+  df_c6_4 %>% filter(!for_patch_9_round_3),
+  patch_9_round_3
+)
+
+patch_8 = open_patch('patch_8_fixes.csv')
+
+df_c7 = bind_rows(
+  df_c6_5 %>% filter(!(tse_id %in% patch_8$tse_id)),
+  patch_8
+)
+```
+
+Now, we bring our manual inputs into a more parseable format:
+
+```{r}
+cur = df_c7 %>%
+  mutate(scenario_id = row_number())
+
+lhs = cur %>%
+  pivot_longer(cols = starts_with('cand'),
+               names_to = 'index',
+               names_prefix = 'cand',
+               values_to = 'candidate',
+               values_drop_na = T) %>%
+  select(-matches('resul'))
+
+rhs = cur %>%
+  pivot_longer(cols = starts_with('resul'),
+               names_to = 'index',
+               names_prefix = 'resul',
+               values_to = 'result',
+               values_drop_na = T) %>%
+  select(-matches('cand'))
+
+manual = inner_join(lhs, rhs, by = c(
+  'index' = 'index',
+  'scenario_id' = 'scenario_id'
+)) %>%
+  select(-matches('\\.y'), -index) %>%
+  rename_at(vars(matches('\\.x')), function(x) { str_sub(x, end = -3) }) %>%
+  mutate(ID = row_number()) %>%
+  mutate(NM_UE = ifelse(manual_filename == 'manual/9-(leva-geral_2-1(965))-pedro20-splited_fixed-entrega.xlsx.csv', SG_UE, NM_UE)) %>%
+  mutate(SG_UE = ifelse(manual_filename == 'manual/9-(leva-geral_2-1(965))-pedro20-splited_fixed-entrega.xlsx.csv', NA, SG_UE)) %>%
+  mutate(SG_UE = ifelse(nchar(SG_UE) != 2, str_pad(SG_UE, 5, pad = '0'), SG_UE)) %>%
+  mutate(NM_UE = normalize_simple(NM_UE))
+
+rm(lhs, rhs)
+```
+
+And now, it's time to merge our polls with the TSE database:
+
+```{r}
+# WARNING: We are losing some polls here.
+manual_tse_0 = bind_rows(
+  inner_join(manual %>% filter((position != 'p' & position != 'v') | (is.na(NM_UE) & is.na(SG_UE))), df_for_merge, by = c(
+    'tse_id' = 'f_id'
+  )) %>%
+    select(-matches('\\.x')) %>%
+    rename_at(vars(matches('\\.y')), function(x) { str_sub(x, end = -3) }),
+  inner_join(manual %>% filter((position == 'p' | position == 'v') & is.na(NM_UE) & !is.na(SG_UE)), df_for_merge, by = c(
+    'tse_id' = 'f_id',
+    'SG_UE' = 'SG_UE'
+  )) %>%
+    select(-matches('\\.x')) %>%
+    rename_at(vars(matches('\\.y')), function(x) { str_sub(x, end = -3) }),
+  inner_join(manual %>% filter((position == 'p' | position == 'v') & !is.na(NM_UE) & !is.na(SG_UE)), df_for_merge, by = c(
+    'tse_id' = 'f_id',
+    'SG_UE' = 'SG_UE'
+  )) %>% 
+    select(-matches('\\.x')) %>%
+    rename_at(vars(matches('\\.y')), function(x) { str_sub(x, end = -3) }),
+  inner_join(manual %>% filter((position == 'p' | position == 'v') & !is.na(NM_UE) & is.na(SG_UE)), df_for_merge, by = c(
+    'tse_id' = 'f_id',
+    'NM_UE' = 'cmp_ue'
+  )) %>% 
+    select(-matches('\\.x'), -NM_UE.y) %>%
+    rename_at(vars(matches('\\.y')), function(x) { str_sub(x, end = -3) })
+) %>%
+  group_by(ID) %>%
+  filter(n() == 1 | CNPJ == NR_CNPJ_EMPRESA) %>%
+  ungroup() %>%
+  mutate(CD_CARGO = recode(position,
+    `p` = 11,
+    `v` = 13,
+    `pr` = 1,
+    `de` = 7,
+    `df` = 6,
+    `g` = 3,
+    `s` = 5
+  )) %>%
+  inner_join(election_dates, by = c('year' = 'year')) %>%
+  mutate(turno = ifelse(DT_FIM_PESQUISA <= first_round_date | grepl('Suplementares', NM_ELEICAO), 1, 2)) %>%
+  select(-OBS) %>%
+  mutate(candidate_without_title = normalize_cand_rm_titles(candidate))
+```
+
+`manual_tse_0` is the so-called "Planilhão". It contains the raw data for our
+analyses.
+
+Now, let's take a last stab at removing duplicates and irregularities:
+
+```{r}
+manual_tse = manual_tse_0 %>%
+  distinct(scenario_id, candidate, result, .keep_all = T) %>%
+  group_by(scenario_id) %>%
+  filter(n_distinct(candidate) == n()) %>%
+  mutate(scenario_count = n()) %>%
+  ungroup() %>%
+  group_by(tse_id, estimulada, position, vv, SG_UE, NR_CNPJ_EMPRESA) %>%
+  filter(scenario_count == max(scenario_count)) %>%
+  ungroup() %>%
+  select(-scenario_count)
+```
+
+Now, it's time to merge candidate names with those present in the TSE database.
+Let's start by creating some functions to help us do this:
+
+```{r}
+Rcpp::sourceCpp('src/wordmatch.cpp')
+
+name_match = function(l, key, candkey = 'candidate', threshold = 0) {
+  l %>%
+    group_split(year, SG_UF, SG_UE, CD_CARGO) %>%
+    map_dfr(function(x) {
+      x = x %>% mutate(rn = row_number())
+      if (nrow(x) == 0) {
+        return(tibble())
+      }
+      
+      d = cands %>%
+        filter(ANO_ELEICAO == x$year[1] &
+               NUM_TURNO == x$turno[1] &
+               SIGLA_UF == x$SG_UF[1] &
+               SIGLA_UE == x$SG_UE[1] &
+               CODIGO_CARGO == x$CD_CARGO[1]) %>%
+        mutate(rn = row_number())
+      if (nrow(d) == 0) {
+        return(tibble())
+      }
+      
+      w = spread_list(word_match(str_split(x[[candkey]], ' '), d[[key]], threshold))
+      if (nrow(w) == 0) {
+        return(tibble())
+      }
+      
+      inner_join(x, w, by = c('rn' = 'lhs')) %>%
+        inner_join(d, by = c('rhs' = 'rn')) %>%
+        group_by(rn) %>%
+        filter(n() == 1) %>%
+        ungroup()
+    }) %>%
+    ungroup() %>%
+    select(-rhs, -ANO_ELEICAO, -NUM_TURNO, -SIGLA_UF, -SIGLA_UE, -CODIGO_CARGO)
+}
+
+match_polls_with_candidates = function(data, use_sql = T) {
+  left = data %>%
+    mutate(ID = row_number()) %>%
+    group_by(scenario_id) %>%
+    mutate(scenario_count = n()) %>%
+    ungroup()
+  
+  j1 = inner_join(left, cands, by = c(
+    'year' = 'ANO_ELEICAO',
+    'turno' = 'NUM_TURNO',
+    'SG_UF' = 'SIGLA_UF',
+    'SG_UE' = 'SIGLA_UE',
+    'CD_CARGO' = 'CODIGO_CARGO',
+    'candidate' = 'NOME_URNA_CANDIDATO'
+  ))
+  left = left %>% filter(!(ID %in% j1$ID))
+  
+  j1_1 = inner_join(left, cands, by = c(
+    'year' = 'ANO_ELEICAO',
+    'turno' = 'NUM_TURNO',
+    'SG_UF' = 'SIGLA_UF',
+    'SG_UE' = 'SIGLA_UE',
+    'CD_CARGO' = 'CODIGO_CARGO',
+    'candidate_without_title' = 'NOME_URNA_CANDIDATO'
+  ))
+  left = left %>% filter(!(ID %in% j1_1$ID))
+  
+  j2 = inner_join(left, cands, by = c(
+    'year' = 'ANO_ELEICAO',
+    'turno' = 'NUM_TURNO',
+    'SG_UF' = 'SIGLA_UF',
+    'SG_UE' = 'SIGLA_UE',
+    'CD_CARGO' = 'CODIGO_CARGO',
+    'candidate' = 'NOME_CANDIDATO'
+  ))
+  left = left %>% filter(!(ID %in% j2$ID))
+  
+  j2_1 = inner_join(left, cands, by = c(
+    'year' = 'ANO_ELEICAO',
+    'turno' = 'NUM_TURNO',
+    'SG_UF' = 'SIGLA_UF',
+    'SG_UE' = 'SIGLA_UE',
+    'CD_CARGO' = 'CODIGO_CARGO',
+    'candidate_without_title' = 'NOME_CANDIDATO'
+  ))
+  left = left %>% filter(!(ID %in% j2_1$ID))
+  
+  if (use_sql) {
+    j3 = sqldf('
+    SELECT * FROM left INNER JOIN cands ON
+    left.year = cands.ANO_ELEICAO AND
+    left.turno = cands.NUM_TURNO AND
+    left.SG_UF = cands.SIGLA_UF AND
+    left.SG_UE = cands.SIGLA_UE AND
+    left.CD_CARGO = cands.CODIGO_CARGO AND
+    editdist3(left.candidate, cands.NOME_URNA_CANDIDATO) <= 200') %>%
+      select(-ANO_ELEICAO, -NUM_TURNO, -SIGLA_UF, -SIGLA_UE, -CODIGO_CARGO)
+    left = left %>% filter(!(ID %in% j3$ID))
+    
+    j3_1 = sqldf('
+    SELECT * FROM left INNER JOIN cands ON
+    left.year = cands.ANO_ELEICAO AND
+    left.turno = cands.NUM_TURNO AND
+    left.SG_UF = cands.SIGLA_UF AND
+    left.SG_UE = cands.SIGLA_UE AND
+    left.CD_CARGO = cands.CODIGO_CARGO AND
+    editdist3(left.candidate_without_title, cands.NOME_URNA_CANDIDATO) <= 200') %>%
+      select(-ANO_ELEICAO, -NUM_TURNO, -SIGLA_UF, -SIGLA_UE, -CODIGO_CARGO)
+    left = left %>% filter(!(ID %in% j3_1$ID))
+    
+    j4 = sqldf('
+    SELECT * FROM left INNER JOIN cands ON
+    left.year = cands.ANO_ELEICAO AND
+    left.turno = cands.NUM_TURNO AND
+    left.SG_UF = cands.SIGLA_UF AND
+    left.SG_UE = cands.SIGLA_UE AND
+    left.CD_CARGO = cands.CODIGO_CARGO AND
+    editdist3(left.candidate, cands.NOME_CANDIDATO) <= 200') %>%
+      select(-ANO_ELEICAO, -NUM_TURNO, -SIGLA_UF, -SIGLA_UE, -CODIGO_CARGO)
+    left = left %>% filter(!(ID %in% j4$ID))
+    
+    j4_1 = sqldf('
+    SELECT * FROM left INNER JOIN cands ON
+    left.year = cands.ANO_ELEICAO AND
+    left.turno = cands.NUM_TURNO AND
+    left.SG_UF = cands.SIGLA_UF AND
+    left.SG_UE = cands.SIGLA_UE AND
+    left.CD_CARGO = cands.CODIGO_CARGO AND
+    editdist3(left.candidate_without_title, cands.NOME_CANDIDATO) <= 200') %>%
+      select(-ANO_ELEICAO, -NUM_TURNO, -SIGLA_UF, -SIGLA_UE, -CODIGO_CARGO)
+    left = left %>% filter(!(ID %in% j4_1$ID))
+  } else {
+    j3 = tibble()
+    j3_1 = tibble()
+    j4 = tibble()
+    j4_1 = tibble()
+  }
+  
+  j5 = name_match(left, 'NOME_CANDIDATO')
+  left = left %>% filter(!(ID %in% j5$ID))
+  
+  j6 = name_match(left, 'NOME_URNA_CANDIDATO')
+  left = left %>% filter(!(ID %in% j6$ID))
+  
+  j7 = name_match(left, 'NOME_CANDIDATO', threshold = 2)
+  left = left %>% filter(!(ID %in% j7$ID))
+  
+  j8 = name_match(left, 'NOME_URNA_CANDIDATO', threshold = 2)
+  left = left %>% filter(!(ID %in% j8$ID))
+  
+  j5_1 = name_match(left, 'NOME_CANDIDATO', candkey = 'candidate_without_title')
+  left = left %>% filter(!(ID %in% j5_1$ID))
+  
+  j6_1 = name_match(left, 'NOME_URNA_CANDIDATO', candkey = 'candidate_without_title')
+  left = left %>% filter(!(ID %in% j6_1$ID))
+  
+  #j7_1 = name_match(left, 'NOME_CANDIDATO', candkey = 'candidate_without_title', threshold = 2)
+  #left = left %>% filter(!(ID %in% j7_1$ID))
+  
+  #j8_1 = name_match(left, 'NOME_URNA_CANDIDATO', candkey = 'candidate_without_title', threshold = 2)
+  #left = left %>% filter(!(ID %in% j8_1$ID))
+  
+  bind_rows(j1, j1_1, j2, j2_1, j3, j3_1, j4, j4_1, j5, j6, j7, j8, j5_1, j6_1) %>%
+    group_by(scenario_id) %>%
+    mutate(is_complete = n() == scenario_count) %>%
+    ungroup()
+}
+```
+
+And now, let's match everything with a single line:
+
+```{r}
+manual_matches = match_polls_with_candidates(manual_tse)
+```
+
+Now, it's time to apply everything we've done with the manual dataset so far to
+the polls that are parsed automatically from pollster PDFs. This will be much
+faster, since all we have to do is parse the already normalized input:
+
+```{r}
+pdf_parsed = map_dfr(list.files('./parsed', full.names = T), function(x) {
+  read_csv(x, col_types = cols(
+    'value' = col_double()
+  )) %>%
+    mutate(fname = word(x, 3, sep = '/')) %>%
+    mutate(cnpj = case_when(
+      startsWith(fname, 'datafolha') ~ '07630546000175',
+      startsWith(fname, 'ibope') ~ '68802370000186',
+      startsWith(fname, 'parana') ~ '81908345000140',
+      fname == 'escutec.csv' ~ '10892795000143',
+      fname == 'verita.csv' ~ '00654576000172',
+      T ~ NA_character_
+    ))
+}) %>%
+  mutate(candidate = normalize_cand_2(candidate)) %>%
+  mutate(candidate_without_title = normalize_cand_rm_titles(candidate)) %>%
+  filter(!grepl('EM BRANCO|NULO|NENHUM|BASE|TOTAL|OUTROS|OUTRAS|NAO SABE|NAO RESPOND|RECUSA|NS\\/NR|CITOU OUTRO', candidate)) %>%
+  mutate(joinid = row_number()) %>%
+  rename(result = value) %>%
+  filter(result != 0)
+
+# TODO:
+# - Solve Multidados CNPJ
+# - Manually fix 21 conflicts
+pdf_polls = inner_join(pdf_parsed, df_for_merge, by = c(
+  'tse_id' = 'NR_IDENTIFICACAO_PESQUISA',
+  'cnpj' = 'NR_CNPJ_EMPRESA'
+)) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  mutate(year = suppressWarnings(as.numeric(str_sub(tse_id, start = -4)))) %>%
+  inner_join(election_dates, by = c('year' = 'year')) %>%
+  mutate(turno = ifelse(DT_FIM_PESQUISA <= first_round_date | grepl('Suplementares', NM_ELEICAO), 1, 2)) %>%
+  mutate(CD_CARGO = recode(position,
+    `p` = 11,
+    `v` = 13,
+    `pr` = 1,
+    `de` = 7,
+    `df` = 6,
+    `g` = 3,
+    `s` = 5
+  )) %>%
+  group_by(tse_id, estimulada, position, scenario) %>%
+  filter(n_distinct(candidate) == n()) %>%
+  mutate(scenario_count = n()) %>%
+  mutate(scenario_id = cur_group_id()) %>%
+  ungroup() %>%
+  group_by(tse_id, estimulada, position, cnpj) %>%
+  filter(scenario_count == max(scenario_count)) %>%
+  ungroup() %>%
+  select(-scenario_count)
+
+pdf_matches = match_polls_with_candidates(pdf_polls, F)
+```
+
+And let's close this bit by merging the two:
+
+```{r}
+polls = bind_rows(pdf_matches, manual_matches)
+```
+
+## Poder360 Polls
+
+The Poder360 polls database has many of the same issues that our manual one
+did, and now's the time to correct them.
+
+We start by importing the dataset, removing unwanted polls (e.g. second round
+simulations before the first round of the election takes place), and performing
+basic normalizations.
+
+```{r}
+all_p3 = read_delim('poder360/all.csv', ';', escape_double = F, trim_ws = T)
+p360_empresa_correspondence <- read_csv("../dados/polling/p360_empresa_correspondence.csv")
+
+dfp3 = all_p3 %>%
+  filter(year(data_pesquisa) == ano) %>%
+  mutate(num_registro = normalize_simple(num_registro)) %>%
+  mutate(raw_nr = str_replace_all(num_registro, '[\\s\\-\\/]', '')) %>%
+  mutate(raw_nr = recode(raw_nr,
+    `RN00032014` = 'RN000032014',
+    `PI00782014` = 'PI000782014',
+    `PI00852014` = 'PI000852014',
+    `PI00932014` = 'PI000932014',
+    `DF00043214` = 'DF000432014',
+    `BR10372014` = 'BR010372014',
+    `GO14952016` = 'GO014952016',
+    `C055462018` = 'AC055462018',
+    `0001362012` = 'MG001362012'
+  )) %>%
+  mutate(raw_nr = ifelse(nchar(raw_nr) == 9, concatenate_id(orgao_registro, raw_nr), raw_nr)) %>%
+  mutate(cmp_ue = normalize_simple(ifelse(!is.na(cidade), cidade, unidade_federativa_nome))) %>%
+  mutate(has_problematic_id = is.na(raw_nr) | (ambito != 'BR' & ambito != 'RE' & ambito != str_sub(raw_nr, end = 2))) %>%
+  left_join(election_dates, by = c('ano' = 'year')) %>%
+  mutate(turno_realizacao = ifelse(data_pesquisa <= first_round_date, 1, 2)) %>%
+  mutate(position = recode(cargos_id,
+    `2` = 'p',
+    `1` = 'g',
+    `4` = 's',
+    `3` = 'pr'
+  )) %>%
+  mutate(CD_CARGO = recode(position,
+    `p` = 11,
+    `pr` = 1,
+    `g` = 3,
+    `s` = 5
+  )) %>%
+  mutate(estimulada = tipo_id == 2) %>%
+  mutate(raw_cand = normalize_cand(candidato)) %>%
+  mutate(candidate_without_title = normalize_cand_rm_titles(raw_cand)) %>%
+  filter(turno_realizacao == turno) %>%
+  filter(tipo_id != 3) %>%
+  filter(ambito != 'RE') %>%
+  filter(percentual != 0) %>%
+  filter(condicao == 0 & !grepl('EM BRANCO|NULO|NENHUM|BASE|TOTAL|OUTROS|OUTRAS|NAO SABE|NAO RESPOND|RECUSA|NS\\/NR|CITOU OUTRO', raw_cand))
+```
+
+The Poder360 database comes with a number of ID-less polls, or polls with
+invalid IDs. To address this, we try matching these polls with the TSE poll
+database by pollster and date:
+
+```{r}
+without_id = dfp3 %>%
+  filter(has_problematic_id) %>%
+  select(pesquisa_id, data_pesquisa, instituto, unidade_federativa_nome, cidade, cmp_ue) %>%
+  distinct(data_pesquisa, instituto, unidade_federativa_nome, cidade, .keep_all = T) %>%
+  inner_join(p360_empresa_correspondence, by = c('instituto' = 'instituto')) %>%
+  mutate(joinid = row_number())
+
+matches = sqldf('
+SELECT * FROM without_id INNER JOIN df_for_merge ON
+without_id.cmp_ue = df_for_merge.cmp_ue AND
+without_id.cnpj = df_for_merge.NR_CNPJ_EMPRESA AND
+ABS(julianday(without_id.data_pesquisa) - julianday(df_for_merge.DT_FIM_PESQUISA)) < 5') %>%
+  subset(select = -c(cmp_ue)) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup()
+
+dfp3_2 = dfp3 %>%
+  left_join(matches %>% select(pesquisa_id, NR_IDENTIFICACAO_PESQUISA),
+            by = c('pesquisa_id'='pesquisa_id')) %>%
+  mutate(raw_nr = ifelse(has_problematic_id, NR_IDENTIFICACAO_PESQUISA, raw_nr)) %>%
+  filter(!is.na(raw_nr) & nchar(raw_nr) == 11)
+```
+
+Now, we basically repeat the algorithm we applied to our manual polls to solve
+the "BR problem". Fortunately, the post-filtered Poder360 database doesn't
+have presidential polls outside BR polls; all we have to deal with are non-BR
+presidential polls:
+
+```{r}
+p3merged = dfp3_2 %>%
+  filter(position == 'pr' & !startsWith(raw_nr, 'BR')) %>%
+  distinct(raw_nr, cmp_ue, instituto, position) %>%
+  mutate(joinid = row_number()) %>%
+  inner_join(df_for_merge, by = c('raw_nr' = 'NR_IDENTIFICACAO_PESQUISA')) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  mutate(joinid = row_number())
+  
+p3j1 = p3merged %>%
+  inner_join(br_polls %>% select(-DS_DADO_MUNICIPIO), by = c(
+    'DT_INICIO_PESQUISA' = 'DT_INICIO_PESQUISA',
+    'DT_FIM_PESQUISA' = 'DT_FIM_PESQUISA',
+    'QT_ENTREVISTADOS' = 'QT_ENTREVISTADOS',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup()
+
+p3j2 = p3merged %>%
+  filter(!(joinid %in% p3j1$joinid)) %>%
+  inner_join(br_polls, by = c(
+    'DT_INICIO_PESQUISA' = 'DT_INICIO_PESQUISA',
+    'DT_FIM_PESQUISA' = 'DT_FIM_PESQUISA',
+    'QT_ENTREVISTADOS' = 'QT_ENTREVISTADOS',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA',
+    'DS_DADO_MUNICIPIO' = 'DS_DADO_MUNICIPIO'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup()
+
+p3j = bind_rows(p3j1, p3j2) %>%
+  select(raw_nr, position, br_poll_id_raw)
+
+dfp3_3 = left_join(dfp3_2, p3j, by = c('raw_nr' = 'raw_nr', 'position' = 'position')) %>%
+  mutate(raw_nr = ifelse(!is.na(br_poll_id_raw), br_poll_id_raw, raw_nr)) %>%
+  filter(!(position == 'pr' & !startsWith(raw_nr, 'BR'))) %>%
+  mutate(cmp_ue = ifelse(position == 'pr', 'BRASIL', cmp_ue))
+```
+
+Let's remove excessive scenarios:
+
+```{r}
+dfp3_4 = dfp3_3 %>%
+  group_by(raw_nr, estimulada, position, voto_tipo, instituto, cmp_ue, cenario_id) %>%
+  mutate(scenario_count = n()) %>%
+  mutate(scenario_id = cur_group_id()) %>%
+  ungroup() %>%
+  distinct(scenario_id, raw_cand, percentual, .keep_all = T) %>%
+  group_by(scenario_id) %>%
+  filter(n_distinct(raw_cand) == n()) %>%
+  ungroup() %>%
+  group_by(raw_nr, estimulada, position, voto_tipo, instituto, cmp_ue) %>%
+  filter(scenario_count == max(scenario_count)) %>%
+  ungroup() %>%
+  select(-scenario_count)
+```
+
+Finally, we merge the Poder360 database with the TSE polls database, and
+subsequently match the candidates:
+
+```{r}
+p360_joined = dfp3_4 %>%
+  mutate(joinid = row_number()) %>%
+  inner_join(df_for_merge, by = c(
+    'raw_nr' = 'NR_IDENTIFICACAO_PESQUISA',
+    'cmp_ue' = 'cmp_ue'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  mutate(vv = voto_tipo == 'Votos Válidos')
+
+to_match = p360_joined %>%
+  rename(year = ano, candidate = raw_cand)
+
+p3_matched = match_polls_with_candidates(to_match)
+
+shared = p3_matched %>%
+  inner_join(polls, by = c(
+    'raw_nr' = 'NR_IDENTIFICACAO_PESQUISA',
+    'estimulada' = 'estimulada',
+    'position' = 'position',
+    'NUMERO_CANDIDATO' = 'NUMERO_CANDIDATO'
+  ))
+
+# TODO:
+# Resolver n_distinct(ambito) > 1 dentro da mesma pesquisa
+# Tentar reduzir as without_id.
+# use party to cross cands and p360 as a backup!
+```
+
+Now, let's join everything:
+
+```{r}
+polls_to_merge = polls %>%
+  mutate(NR_IDENTIFICACAO_PESQUISA = ifelse(is.na(NR_IDENTIFICACAO_PESQUISA), tse_id, NR_IDENTIFICACAO_PESQUISA)) %>%
+  mutate(NR_CNPJ_EMPRESA = ifelse(is.na(NR_CNPJ_EMPRESA), cnpj, NR_CNPJ_EMPRESA)) %>%
+  mutate(vv = !is.na(vv)) %>%
+  mutate(main_source = case_when(
+    !is.na(url) ~ 'Pindograma-Manual',
+    !is.na(fname) ~ 'Pindograma-PDFParser',
+    !is.na(instituto) ~ 'Pindograma-PDFManual'
+  )) %>%
+  mutate(source = case_when(
+    !is.na(url) ~ url,
+    !is.na(fname) ~ fname,
+    !is.na(instituto) ~ instituto
+  ))
+
+p3_without_pindograma_polls = p3_matched %>%
+  rename(result = percentual) %>%
+  mutate(NR_IDENTIFICACAO_PESQUISA = raw_nr) %>%
+  mutate(main_source = 'Poder360') %>%
+  mutate(source = NA) %>%
+  anti_join(polls_to_merge, by = c(
+    'NR_IDENTIFICACAO_PESQUISA' = 'NR_IDENTIFICACAO_PESQUISA',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA',
+    'SG_UE' = 'SG_UE',
+    'position' = 'position',
+    'estimulada' = 'estimulada',
+    'vv' = 'vv'
+  ))
+
+ambito = read_csv2('ambito.csv') %>%
+  select(-DS_METODOLOGIA_PESQUISA, -DS_PLANO_AMOSTRAL, -DS_DADO_MUNICIPIO) %>%
+  mutate(SG_UE = ifelse(LOCAL == 'CID', CID_UE, LOCAL)) %>%
+  mutate(SG_UE = ifelse(nchar(SG_UE) != 2, str_pad(SG_UE, 5, pad = '0'), SG_UE)) %>%
+  mutate(id = str_replace_all(X1, '[\\-\\/]', '')) %>%
+  rename(polled_UE = SG_UE) %>%
+  distinct(id, .keep_all = T)
+
+all_polls = bind_rows(
+  polls_to_merge,
+  p3_without_pindograma_polls
+) %>%
+  distinct(year, NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, CD_CARGO,
+           estimulada, NUMERO_CANDIDATO, result, DT_FIM_PESQUISA, vv, turno,
+           is_fluxo, is_phone, self_hired, QT_ENTREVISTADOS, source, scenario_id, is_complete) %>%
+  left_join(ambito, by = c('NR_IDENTIFICACAO_PESQUISA' = 'id')) %>%
+  mutate(polled_UE = ifelse(!is.na(polled_UE), polled_UE, SG_UE)) %>%
+  select(-X1, -LOCAL, -CIDNAME, -CID_UE) %>%
+  mutate(state = case_when(
+    polled_UE == 'BR' ~ 'BR',
+    nchar(polled_UE) == 2 ~ polled_UE,
+    T ~ str_sub(NR_IDENTIFICACAO_PESQUISA, start = 1, end = 2)
+  ))
+```
+
+```{r}
+pvotes = get_votes(
+  year = '2016, 2012',
+  position = 'Prefeito',
+  blank_votes = T,
+  null_votes = T,
+  regional_aggregation = 'Municipality',
+  columns_list = list('ANO_ELEICAO', 'SIGLA_UE', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  cache = T) %>%
+    tibble()
+
+gov_votes_city = get_votes(
+  year = '2018, 2014',
+  position = 'Governor',
+  blank_votes = T,
+  null_votes = T,
+  regional_aggregation = 'Municipality',
+  columns_list = list('ANO_ELEICAO', 'COD_MUN_TSE', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  cache = T) %>%
+    rename(SIGLA_UE = COD_MUN_TSE) %>%
+    tibble()
+
+gov_votes_state = get_votes(
+  year = '2018, 2014',
+  position = 'Governor',
+  blank_votes = T,
+  null_votes = T,
+  columns_list = list('ANO_ELEICAO', 'UF', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  regional_aggregation = 'State',
+  cache = T) %>%
+    tibble() %>%
+    rename(SIGLA_UE = UF)
+
+pres_votes_state = get_votes(
+  year = '2018, 2014',
+  position = 'President',
+  blank_votes = T,
+  null_votes = T,
+  columns_list = list('ANO_ELEICAO', 'UF', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  regional_aggregation = 'State',
+  cache = T) %>%
+    tibble() %>%
+    rename(SIGLA_UE = UF)
+
+pres_votes_natl = get_votes(
+  year = "2018, 2014",
+  position = 'Presidente',
+  blank_votes = T,
+  null_votes = T,
+  regional_aggregation = 'Brazil',
+  columns_list = list('ANO_ELEICAO', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  cache = T) %>%
+    tibble() %>%
+    mutate(SIGLA_UE = 'BR')
+```
+
+## License
+
+This file is (c) 2020 CincoNoveSeis Jornalismo Ltda., and is licensed under the
+GNU General Public License, version 3.
