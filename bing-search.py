@@ -29,7 +29,7 @@ with open('gapi-key-oscar.txt', 'r') as f:
                 try:
                     time.sleep(0.4)
                     web_data = client.web.search(
-                        query = '"{}"'.format(tse_id),
+                        query = '{}'.format(tse_id),
                         count = 10,
                         responseFilter = 'Webpages')
 

@@ -5,10 +5,16 @@
 # See the LICENSE file for details.
 
 generate_bing_csv = function(name, filtered) {
-  filtered %>% distinct(f_id) %>% write.csv(paste0(name, '.csv'), row.names=F)
+  filtered %>% distinct(id_pesq) %>% write.csv(paste0(name, '.csv'), row.names=F)
 }
 
 generate_devonthink_csv = function(name, filtered, bing_df) {
   left_join(bing_df, filtered %>% select(f_id, SG_UF, NM_UE, DS_CARGOS), by=c('tse_id'='f_id')) %>%
     write.csv(paste0(name, '.csv'), row.names=F)
+}
+
+generate_devonthink_csv_2020 = function(name, filtered, bing_df) {
+  left_join(bing_df, filtered %>% select(id_pesq, info_uf, info_muni, info_position), by = c('tse_id' = 'id_pesq')) %>%
+    select(-name, -snippet) %>%
+    write.csv(paste0(name, '.csv'), row.names = F)
 }
