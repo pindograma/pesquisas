@@ -1,5 +1,5 @@
-*.csv
-*.tsv
+.Rbuildignore
+.cepespdata
 *.Rproj
 .DS_Store
 .Rproj.user
@@ -11,3 +11,5 @@ gapi-endpoint.txt
 
 bing_input.txt
 bing_outputs
+
+output
