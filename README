@@ -22,6 +22,8 @@ Primeiro, instale os seguintes pacotes no R:
 > install.packages('lubridate')
 > install.packages('mgsub')
 > install.packages('sqldf')
+> install.packages('fastdigest')
+> install.packages('fastDummies')
 >
 > if (!require("devtools")) install.packages("devtools")
 > devtools::install_github("Cepesp-Fgv/cepesp-r")

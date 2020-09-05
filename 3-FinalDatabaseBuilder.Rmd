@@ -23,6 +23,7 @@ library(lubridate)
 library(mgsub)
 library(sqldf)
 library(cepespR)
+library(fastdigest)
 
 options('sqldf.dll' = paste0(getwd(), '/', 'spellfix.so'))
 
