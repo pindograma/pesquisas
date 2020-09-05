@@ -1,0 +1,211 @@
+---
+title: "Pindograma Polls Database Builder"
+author: "Daniel T. Ferreira"
+
+output: html_document
+---
+
+<!--
+This file is (c) 2020 CincoNoveSeis Jornalismo Ltda.
+It is licensed under the GNU General Public License, version 3.
+-->
+
+Let's start with the libraries we need:
+
+```{r}
+library(purrr)
+library(tidyr)
+library(dplyr)
+library(readr)
+library(stringi)
+library(stringr)
+library(lubridate)
+library(mgsub)
+library(sqldf)
+library(cepespR)
+
+options('sqldf.dll' = '/Users/Daniel/Downloads/sqlite/spellfix.so')
+
+Rcpp::sourceCpp('src/wordmatch.cpp')
+source('polling_utils.R')
+source('poll_to_candidate_matcher.R')
+```
+
+Then, let's download data about all candidates using the Cepesp API:
+
+```{r}
+years_1 = c(2012, 2016)
+positions_1 = c('Vereador', 'Prefeito')
+
+years_2 = c(2014, 2018)
+positions_2 = c('Deputado Estadual', 'Deputado Federal', 'Senador', 'Governador',
+                'Presidente')
+
+cands_1 = map_dfr(years_1, function(y) {
+  map_dfr(positions_1, function(p) {
+    get_candidates(y, p, columns_list = list(
+      'ANO_ELEICAO', 'NUM_TURNO', 'SIGLA_UF', 'SIGLA_UE', 'DESCRICAO_UE',
+      'CODIGO_CARGO', 'NOME_CANDIDATO', 'NOME_URNA_CANDIDATO', 'NUMERO_CANDIDATO'
+    ), cache = T)
+  })
+})
+
+cands_2 = map_dfr(years_2, function(y) {
+  map_dfr(positions_2, function(p) {
+    get_candidates(y, p, columns_list = list(
+      'ANO_ELEICAO', 'NUM_TURNO', 'SIGLA_UF', 'SIGLA_UE', 'DESCRICAO_UE',
+      'CODIGO_CARGO', 'NOME_CANDIDATO', 'NOME_URNA_CANDIDATO', 'NUMERO_CANDIDATO'
+    ), cache = T)
+  })
+})
+
+cands_orig = tibble(bind_rows(cands_1, cands_2))
+rm(cands_1, cands_2)
+
+cands = cands_orig %>%
+  mutate(NOME_CANDIDATO = normalize_cand(NOME_CANDIDATO)) %>%
+  mutate(NOME_URNA_CANDIDATO = normalize_cand(NOME_URNA_CANDIDATO)) %>%
+  mutate(NOME_URNA_CANDIDATO = recode(NOME_URNA_CANDIDATO,
+    `ELMANO O VEIN TRABALHADOR` = 'ELMANO FERRER',
+    `DR. PESSOA (DR. ZEZIM)` = 'DR. PESSOA'
+  )) %>%
+  mutate(CODIGO_CARGO = ifelse(CODIGO_CARGO == 8, 7, CODIGO_CARGO))
+
+rm(cands_orig)
+```
+
+Now, let's take a last stab at removing duplicates and unwanted scenarios from
+Pindograma's two datasets:
+
+```{r}
+manual_tse = read_csv('output/raw_pindograma_manual_polls.csv') %>%
+  distinct(scenario_id, candidate, result, .keep_all = T) %>%
+  group_by(scenario_id) %>%
+  filter(n_distinct(candidate) == n()) %>%
+  mutate(scenario_count = n()) %>%
+  ungroup() %>%
+  group_by(NR_IDENTIFICACAO_PESQUISA, estimulada, CD_CARGO, vv, SG_UE, NR_CNPJ_EMPRESA) %>%
+  mutate(multiple_scenarios = n_distinct(scenario_id) > 1) %>%
+  filter(scenario_count == max(scenario_count)) %>%
+  ungroup() %>%
+  select(-scenario_count) %>%
+  mutate(candidate_without_title = normalize_cand_rm_titles(candidate))
+
+pdf_polls = read_csv('output/raw_pindograma_automatic_polls.csv') %>%
+  filter(!grepl('EM BRANCO|NULO|NENHUM|BASE|TOTAL|OUTROS|OUTRAS|NAO SABE|NAO RESPOND|RECUSA|NS\\/NR|CITOU OUTRO', candidate)) %>%
+  group_by(NR_IDENTIFICACAO_PESQUISA, estimulada, CD_CARGO, scenario_id) %>%
+  filter(n_distinct(candidate) == n()) %>%
+  mutate(scenario_count = n()) %>%
+  ungroup() %>%
+  group_by(NR_IDENTIFICACAO_PESQUISA, estimulada, CD_CARGO, NR_CNPJ_EMPRESA) %>%
+  mutate(multiple_scenarios = n_distinct(scenario_id) > 1) %>%
+  filter(scenario_count == max(scenario_count)) %>%
+  ungroup() %>%
+  select(-scenario_count) %>%
+  mutate(candidate_without_title = normalize_cand_rm_titles(candidate))
+```
+
+And now, let's match everything with a single line:
+
+```{r}
+manual_matches = match_polls_with_candidates(manual_tse)
+```
+
+Now, it's time to apply everything we've done with the manual dataset so far to
+the polls that are parsed automatically from pollster PDFs:
+
+```{r}
+pdf_matches = match_polls_with_candidates(pdf_polls, F)
+```
+
+Let's do the same with the Poder360 polls:
+
+```{r}
+p3_polls = read_csv('output/pindograma_poder360_polls.csv')
+p3_matched = match_polls_with_candidates(p3_polls)
+```
+
+Now, let's join everything. We take the following order of precedence:
+
+1. Polls extracted automatically from PDFs;
+2. Polls extracted manually by Pindograma;
+3. Polls from Poder360.
+
+```{r}
+manual_matches_without_pdf = manual_matches %>%
+  anti_join(pdf_matches, by = c(
+    'NR_IDENTIFICACAO_PESQUISA',
+    'SG_UE',
+    'NR_CNPJ_EMPRESA'
+  ))
+
+polls = bind_rows(pdf_matches, manual_matches_without_pdf)
+
+p3_without_pindograma_polls = p3_matched %>%
+  anti_join(polls, by = c(
+    'NR_IDENTIFICACAO_PESQUISA' = 'NR_IDENTIFICACAO_PESQUISA',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA',
+    'SG_UE' = 'SG_UE',
+    'CD_CARGO' = 'CD_CARGO',
+    'estimulada' = 'estimulada',
+    'vv' = 'vv'
+  ))
+
+ambito = read_csv2('data/manual-data/ambito.csv') %>%
+  select(-DS_METODOLOGIA_PESQUISA, -DS_PLANO_AMOSTRAL, -DS_DADO_MUNICIPIO) %>%
+  mutate(SG_UE = ifelse(LOCAL == 'CID', CID_UE, LOCAL)) %>%
+  mutate(SG_UE = ifelse(nchar(SG_UE) != 2, str_pad(SG_UE, 5, pad = '0'), SG_UE)) %>%
+  mutate(id = str_replace_all(X1, '[\\-\\/]', '')) %>%
+  rename(polled_UE = SG_UE) %>%
+  distinct(id, .keep_all = T)
+
+company_names = read_csv('data/manual-data/nomes_empresas.csv')
+
+all_polls__ = bind_rows(
+  polls,
+  p3_without_pindograma_polls
+) %>%
+  distinct(year, NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, CD_CARGO,
+           estimulada, NUMERO_CANDIDATO, result, DT_FIM_PESQUISA, vv, turno,
+           is_fluxo, is_phone, self_hired, QT_ENTREVISTADOS, main_source, source, scenario_id, is_complete) %>%
+  left_join(ambito, by = c('NR_IDENTIFICACAO_PESQUISA' = 'id')) %>%
+  mutate(polled_UE = ifelse(!is.na(polled_UE), polled_UE, SG_UE)) %>%
+  select(-X1, -LOCAL, -CIDNAME, -CID_UE) %>%
+  mutate(state = case_when(
+    polled_UE == 'BR' ~ 'BR',
+    nchar(polled_UE) == 2 ~ polled_UE,
+    T ~ str_sub(NR_IDENTIFICACAO_PESQUISA, start = 1, end = 2)
+  ))
+
+all_polls_ = all_polls__ %>%
+  group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, estimulada, CD_CARGO, vv, scenario_id) %>%
+  mutate(group_digest = fastdigest(cur_data() %>% arrange(NUMERO_CANDIDATO) %>% select(NUMERO_CANDIDATO, result))) %>%
+  ungroup() %>%
+  group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, estimulada, CD_CARGO, vv, group_digest) %>%
+  filter(scenario_id == first(scenario_id)) %>%
+  ungroup()
+
+all_polls = all_polls_ %>%
+  mutate(company_id = case_when(
+    NR_CNPJ_EMPRESA %in% c('24776969000117', '07742623000189', '67662494000140', '14931054000185', '26195312000191') ~ 'REALIDADE',
+    NR_CNPJ_EMPRESA %in% c('23254436000102', '00852438000106', '00852501000104') ~ 'VOX POPULI',
+    NR_CNPJ_EMPRESA %in% c('05939922000263', '32208779000121') ~ 'GERP',
+    NR_CNPJ_EMPRESA %in% c('10828442000184', '22198794000182') ~ 'MULTIPLA',
+    NR_CNPJ_EMPRESA %in% c('17070395000100', '06154093000195') ~ 'MULTIDADOS',
+    NR_CNPJ_EMPRESA %in% c('09656847000101', '09283689000183') ~ 'PROMIDIA',
+    NR_CNPJ_EMPRESA %in% c('03622028000159', '39795414000190') ~ 'FUTURA',
+    NR_CNPJ_EMPRESA %in% c('26968293000199', '11785871000184') ~ 'RANKING',
+    NR_CNPJ_EMPRESA %in% c('57541377000175', '16623147000178') ~ 'DGABC',
+    NR_CNPJ_EMPRESA %in% c('01077145000153', '10575983000148') ~ 'DATAMETRICA',
+    NR_CNPJ_EMPRESA %in% c('13776203000116', '12784563000105') ~ 'ARBEIT',
+    T ~ NR_CNPJ_EMPRESA
+  )) %>%
+  left_join(company_names, 'company_id')
+```
+
+Finally, let's print it:
+
+```{r}
+all_polls %>%
+  write.csv('output/pindograma_polls.csv', row.names = F)
+```

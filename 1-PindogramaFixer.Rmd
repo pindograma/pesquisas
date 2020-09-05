@@ -1,0 +1,606 @@
+---
+title: "Pindograma Polls Fixer"
+author: "Daniel T. Ferreira"
+
+output: html_document
+---
+
+<!--
+This file is (c) 2020 CincoNoveSeis Jornalismo Ltda.
+It is licensed under the GNU General Public License, version 3.
+-->
+
+## Introduction
+
+This pipeline reads from a very dirty set of manually-filled spreadsheets with
+polling results; corrects its errors; and cleans its contents.
+
+## Priors
+
+First of all, let's import required libraries and set a few options:
+
+```{r}
+library(purrr)
+library(tidyr)
+library(dplyr)
+library(readr)
+library(stringi)
+library(stringr)
+library(lubridate)
+library(mgsub)
+
+source('polling_utils.R')
+source('polls_registry.R')
+```
+
+Let's define some helpers:
+
+```{r}
+rtypes = cols(
+  'resul1' = col_character(),
+  'resul2' = col_character(),
+  'resul3' = col_character(),
+  'resul4' = col_character(),
+  'resul5' = col_character(),
+  'resul6' = col_character(),
+  'resul7' = col_character(),
+  'resul8' = col_character(),
+  'resul9' = col_character(),
+  'resul10' = col_character(),
+  'resul11' = col_character(),
+  'resul12' = col_character(),
+  'resul13' = col_character(),
+  'resul14' = col_character(),
+  'resul15' = col_character(),
+  'resul16' = col_character(),
+  'resul17' = col_character(),
+  'resul18' = col_character(),
+  'resul19' = col_character(),
+  'resul20' = col_character(),
+  'resul21' = col_character(),
+  'resul22' = col_character(),
+  'resul23' = col_character(),
+  'resul24' = col_character(),
+  'resul25' = col_character(),
+  'resul26' = col_character(),
+  'resul27' = col_character(),
+  'resul28' = col_character(),
+  'resul29' = col_character(),
+  'resul30' = col_character(),
+  'resul31' = col_character(),
+  'resul32' = col_character(),
+  'resul33' = col_character(),
+  'resul34' = col_character(),
+  'resul35' = col_character(),
+  'resul36' = col_character(),
+  'resul37' = col_character(),
+  'resul38' = col_character(),
+  'resul39' = col_character(),
+  'resul40' = col_character(),
+  'resul41' = col_character(),
+  'resul42' = col_character(),
+  'resul43' = col_character()
+)
+
+open_patch = function(x, fun = read_csv) {
+  fun(paste0('data/manual-data/', x), col_types = rtypes) %>%
+    filter(as.logical(util)) %>%
+    mutate(tse_id = normalize_simple(tse_id)) %>%
+    mutate_at(vars(matches('resul')), str_to_dbl) %>%
+    mutate(year = suppressWarnings(as.numeric(str_sub(tse_id, start = -4))))
+}
+```
+
+And let's import the TSE polling database:
+
+```{r}
+estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
+
+df = load_poll_registry_data('./data/tse', estatisticos_ids)
+df_for_merge = get_poll_registry_for_merge(df)
+```
+
+## Pindograma Polls
+
+Now, let's basically import all of Pindograma's manually-filled polling
+spreadsheets and apply some basic normalizations and small corrections:
+
+```{r}
+dfs = map(list.files('data/manual-data/manual', full.names = T, pattern = 'csv'), function(x) {
+  read_csv(x, col_types = rtypes) %>%
+    mutate(manual_filename = x)
+}) %>%
+ map(mutate_at, vars(matches('resul')), str_to_dbl) %>%
+ map(mutate_at, vars(any_of(c('vv', 'util', 'estimulada', 'suspensa'))), as.numeric)
+
+df_manual = bind_rows(dfs)
+
+df_c = df_manual %>%
+  rename(new_id = `outro id`) %>%
+  mutate(new_id = ifelse(!is.na(outro_id), outro_id, new_id)) %>%
+  mutate(new_id = ifelse(new_id == 'SEM ID' | new_id == '?', NA, new_id)) %>%
+  select(-X3, -X4, -X5, -feito_por, -estado, -outro_id) %>%
+  distinct() %>%
+  mutate(tse_id = normalize_simple(tse_id)) %>%
+  mutate(util = (util | !is.na(instituto)) & !is.na(cand1)) %>%
+  filter(util) %>%
+  filter(!grepl('poder360', url) & !grepl('fernandorodrigues', url) & !grepl('imguol', url)) %>%
+  mutate(position = tolower(position)) %>%
+  rowwise() %>%
+  mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
+  ungroup() %>%
+  mutate_at(vars(matches('cand')), normalize_cand) %>%
+  mutate_at(vars(matches('resul')), function(x, t) {
+    case_when(
+      x < 1 ~ ifelse(t <= 1, x * 100, x),
+      T ~ x
+    )
+  }, .$total) %>%
+  distinct(tse_id, position, estimulada, cand1, resul1, cand2, resul2, .keep_all = T) %>%
+  rename(NM_UE = cidade) %>%
+  rename(SG_UE = sg_ue) %>%
+  filter(!endsWith(tse_id, '2010')) %>%
+  mutate(tse_id = ifelse(!is.na(new_id), new_id, tse_id)) %>%
+  mutate(tse_id = recode(tse_id,
+    `RJ-0001/2012` = 'RJ-00001/2012',
+    `RJ-0015/2012` = 'RJ-00015/2012',
+    `PI-087993/2018` = 'PI-08793/2018',
+    `MA-07213/2018` = 'MA-07213/2016',
+    `RN-0533/2018` = 'RN-00533/2018',
+    `RN 02146/2018` = 'RN-02146/2018',
+    `PA 02395/2018` = 'PA-02395/2018',
+    `DF-06620-2018` = 'DF-06620/2018',
+    `MS-09808-2018` = 'MS-09808/2018',
+    `MS-09855-2018` = 'MS-09855/2018'
+  )) %>%
+  mutate(year = suppressWarnings(as.numeric(str_sub(tse_id, start = -4))))
+```
+
+The first thing we do is add some information to the database to fix the
+"duplicate ID problem". TSE poll IDs are not unique, and we need to make sure
+we're not confusing them when we merge our dataset with the TSE's polling
+dataset.
+
+To that end, we apply a patch that adds the pollster CNPJ as a column. This,
+along with the poll location column, is enough guarantee for disambuiguating
+polls with the same IDs when merging. (In 14 cases, this is not enough; in which
+case we just end up dropping the poll. This is unfortunate but very rare.)
+
+For reference -- to select polls for `patch_6.csv`, the following criterion was
+used:
+
+```
+patch_6_generated = df_c %>% filter(tse_id %in% dup_polls)
+```
+
+We won't use this data for now, but it'll come in handy later. We will also
+exclude duplicated IDs from `df_c*`, which will allow us to operate without fear
+of collision there.
+
+```{r}
+dup_polls = df_for_merge %>%
+  group_by(f_id) %>%
+  filter(n() > 1) %>%
+  ungroup() %>%
+  pull(f_id)
+
+patch_6_1 = open_patch('patch_6.csv') %>% mutate(CNPJ = str_pad(CNPJ, 14, pad = '0'))
+patch_6_2 = open_patch('patch_6_sup.csv') %>%
+  mutate(CNPJ = str_pad(CNPJ, 14, pad = '0'))
+patch_6_3 = open_patch('patch_6_sup_2.csv') %>%
+  mutate(CNPJ = str_pad(CNPJ, 14, pad = '0'))
+
+df_c2 = df_c %>% filter(!(tse_id %in% dup_polls))
+```
+
+The second thing we need to do is correct a few positions typed in by mistake.
+This is important, otherwise the following step will break.
+
+```{r}
+df_c2_2 = df_c2 %>%
+  mutate(position = ifelse(position == 'br', 'pr', position)) %>%
+  mutate(for_patch_2 = (
+     ((year == 2012 | year == 2016) & (position == 'de' | position == 'df' | position == 's' | position == 'g' | position == 'pr')) |
+     ((year == 2014 | year == 2018) & (position == 'p' | position == 'v'))
+  ))
+
+patch_2 = bind_rows(open_patch('patch_2.csv'), open_patch('patch_2_sup.csv')) %>%
+  select(-scenario, -for_patch_3)
+
+df_c2_3 = bind_rows(
+  df_c2_2 %>% filter(!for_patch_2),
+  patch_2
+)
+```
+
+The third issue that requires patching is the "BR problem". Basically,
+presidential polls need to be registered under a poll ID that starts with "BR",
+whereas every other poll needs to start with the state abbreviation.
+
+However, during the process of manually filling in polls, some presidential
+polls ended up under state IDs; and some non-presidential polls ended up under
+BR IDs. Here, we correct this problem.
+
+There are a few caveats, however. If we are unable to find a corresponding BR
+ID for a presidential poll, we will drop the presidential poll. This is because
+this means that the presidential poll was not actually registered with the
+government as such, and we could get in trouble for publishing it. (It also
+stops us from getting a bunch of useful information from the TSE database.)
+
+```{r}
+df_c3_stage0 = df_c2_3 %>%
+  mutate(for_patch_1 = (startsWith(tse_id, 'BR') & position != 'pr') |
+                       (!startsWith(tse_id, 'BR') & position == 'pr')) %>%
+  group_by(position, estimulada, cand1, resul1, cand2, resul2, cand3, resul3) %>%
+  filter(!(n() > 1 & sum(for_patch_1) < n() & for_patch_1)) %>%
+  ungroup()
+
+br_polls = df_for_merge %>%
+  filter(startsWith(NR_IDENTIFICACAO_PESQUISA, 'BR')) %>%
+  select(DT_INICIO_PESQUISA, DT_FIM_PESQUISA, NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, f_id, NR_IDENTIFICACAO_PESQUISA, DS_DADO_MUNICIPIO) %>%
+  rename(br_poll_id = f_id) %>%
+  rename(br_poll_id_raw = NR_IDENTIFICACAO_PESQUISA)
+
+state_polls = df_for_merge %>%
+  filter(!startsWith(NR_IDENTIFICACAO_PESQUISA, 'BR')) %>%
+  select(DT_INICIO_PESQUISA, DT_FIM_PESQUISA, NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, f_id) %>%
+  rename(state_poll_id = f_id)
+
+brmerged = df_c3_stage0 %>%
+  filter(position == 'pr' & !startsWith(tse_id, 'BR')) %>%
+  distinct(tse_id, position) %>%
+  mutate(joinid = row_number()) %>%
+  inner_join(df_for_merge, by = c('tse_id' = 'f_id')) %>%
+  inner_join(br_polls %>% select(-DS_DADO_MUNICIPIO), by = c(
+    'DT_INICIO_PESQUISA' = 'DT_INICIO_PESQUISA',
+    'DT_FIM_PESQUISA' = 'DT_FIM_PESQUISA',
+    'QT_ENTREVISTADOS' = 'QT_ENTREVISTADOS',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  select(tse_id, position, br_poll_id)
+
+statemerged = df_c3_stage0 %>%
+  filter(position != 'pr' & startsWith(tse_id, 'BR')) %>%
+  distinct(tse_id, position) %>%
+  mutate(joinid = row_number()) %>%
+  inner_join(df_for_merge, by = c('tse_id' = 'f_id')) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  inner_join(state_polls, by = c(
+    'DT_INICIO_PESQUISA' = 'DT_INICIO_PESQUISA',
+    'DT_FIM_PESQUISA' = 'DT_FIM_PESQUISA',
+    'QT_ENTREVISTADOS' = 'QT_ENTREVISTADOS',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  select(tse_id, position, state_poll_id)
+
+df_c3_stage1 = df_c3_stage0 %>%
+  left_join(brmerged, by = c(
+  'tse_id' = 'tse_id',
+  'position' = 'position'
+)) %>%
+  left_join(statemerged, by = c(
+    'tse_id' = 'tse_id',
+    'position' = 'position'
+  )) %>%
+  mutate(tse_id = case_when(
+    !is.na(br_poll_id) ~ br_poll_id,
+    !is.na(state_poll_id) ~ state_poll_id,
+    T ~ tse_id
+  )) %>%
+  mutate(for_patch_1 = (startsWith(tse_id, 'BR') & position != 'pr') |
+                       (!startsWith(tse_id, 'BR') & position == 'pr'))
+
+patch_1_exclusions = open_patch('patch_1_exclusions.csv') %>%
+  filter(person != 'BIA') %>%
+  select(-OBS, -sg_uf, -ds_cargos, -estado, -city, -ID, -wrong) %>%
+  rename(SG_UE = sg_ue, NM_UE = nm_ue) %>%
+  rename(cannot_find_id = `1 = Preencher`)
+
+# If we can't find the proper ID manually, *and* we can't find it by crossing
+# within the database, then there's no option but to discard it.
+df_c3_stage2 = df_c3_stage1 %>%
+  anti_join(patch_1_exclusions %>% filter(!is.na(cannot_find_id)), by = c(
+    'tse_id' = 'tse_id',
+    'position' = 'position'
+  ))
+
+patch_1 = open_patch('patch_1.csv') %>%
+  filter(tse_id %in% (df_c3_stage2 %>% filter(for_patch_1) %>% pull(tse_id)))
+
+patch_1_sup = open_patch('patch_1_sup.csv') %>%
+  rename(tse_id_new = new_tse_id)
+
+df_c3 = bind_rows(
+  df_c3_stage2 %>% filter(!for_patch_1),
+  bind_rows(patch_1, patch_1_sup)
+) %>%
+  mutate(tse_id = ifelse(!is.na(tse_id_new), tse_id_new, tse_id))
+
+patch_6_post = open_patch('patch_6_sup_3.csv')
+
+df_c3 = df_c3 %>% filter(!(tse_id %in% patch_6_post$tse_id))
+```
+
+Now, it's time to apply a sequence of patches that solve a number of specific
+errors with our manual work:
+
+```{r}
+df_c3 = df_c3 %>%
+  rowwise() %>%
+  mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
+  mutate(for_patch_3 = total > 102 & position != 's') %>%
+  ungroup()
+
+patch_3 = open_patch('patch_3.csv') %>%
+  select(-ID, -correction_1_pending, -for_correction_1) %>%
+  filter(tse_id %in% (df_c3 %>% filter(for_patch_3) %>% pull(tse_id)))
+
+patch_3_sup = open_patch('patch_3_sup.csv')
+
+df_c4 = bind_rows(
+  df_c3 %>% filter(!for_patch_3),
+  bind_rows(patch_3, patch_3_sup)
+) %>%
+  rowwise() %>%
+  mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
+  mutate(for_patch_5 = total > 98 & total < 102 & (is.na(vv) | !vv)) %>%
+  ungroup()
+
+patch_5 = open_patch('patch_5.csv') %>%
+  filter(tse_id %in% (df_c4 %>% filter(for_patch_5) %>% pull(tse_id)))
+
+patch_5_sup = open_patch('patch_5_sup.csv') %>%
+  mutate(SG_UE = as.character(SG_UE))
+
+df_c5 = bind_rows(
+  df_c4 %>% filter(!for_patch_5),
+  patch_5,
+  patch_5_sup
+)
+```
+
+Now we apply the "full replacement" patches:
+
+```{r}
+df_c6 = df_c5 %>%
+  distinct(tse_id, estimulada, position, cand1, resul1, cand2, resul2, .keep_all = T) %>%
+  group_by(cand1, resul1, cand2, resul2, cand3, resul3) %>%
+  mutate(for_patch_7 = n() > 1 & n_distinct(tse_id) > 1) %>%
+  ungroup()
+
+# TODO: WARNING: Patch 7 does not contain everything it should.
+# Part of this is due to pure weirdness; part of this is because Pedro
+# changed IDs directly instead of creating a new_tse_id column.
+# This is causing us to lose ~20 lines.
+patch_7 = open_patch('patch_7.csv')
+
+df_c6_1 = bind_rows(
+  df_c6 %>% filter(!for_patch_7),
+  patch_7
+)
+
+patch_6 = bind_rows(patch_6_1, patch_6_2, patch_6_3) %>%
+  mutate(tse_id = ifelse(!is.na(new_tse_id), new_tse_id, tse_id))
+
+df_c6_2 = bind_rows(
+  df_c6_1 %>% filter(!((tse_id %in% patch_6$tse_id) & !(tse_id %in% patch_6_post$tse_id))),
+  patch_6,
+  patch_6_post
+) %>%
+  group_by(estimulada, tse_id, SG_UE, NM_UE, CNPJ, vv, position) %>%
+  mutate(for_patch_9 = n() > 1) %>%
+  ungroup()
+
+patch_9 = open_patch('patch_9.csv', read_csv2) %>%
+  mutate(tse_id = ifelse(!is.na(new_tse_id), new_tse_id, tse_id))
+
+df_c6_3 = bind_rows(
+  df_c6_2 %>% filter(!for_patch_9),
+  patch_9
+) %>%
+  group_by(estimulada, tse_id, SG_UE, NM_UE, CNPJ, vv, position) %>%
+  mutate(for_patch_9_round_2 = n() > 1) %>%
+  ungroup()
+
+patch_9_round_2 = open_patch('patch_9_round_2.csv', read_csv2) %>%
+  mutate(CNPJ = as.character(CNPJ))
+
+df_c6_4 = bind_rows(
+  df_c6_3 %>% filter(!for_patch_9_round_2),
+  patch_9_round_2
+) %>%
+  group_by(tse_id, position, estimulada, vv, cand1, resul1, cand2, resul2) %>%
+  mutate(for_patch_9_round_3 = n() > 1) %>%
+  ungroup()
+
+patch_9_round_3 = open_patch('patch_9_round_3.csv', read_csv2) %>%
+  mutate(CNPJ = as.character(CNPJ))
+
+df_c6_5 = bind_rows(
+  df_c6_4 %>% filter(!for_patch_9_round_3),
+  patch_9_round_3
+)
+
+patch_8 = open_patch('patch_8_fixes.csv')
+
+df_c7 = bind_rows(
+  df_c6_5 %>% filter(!(tse_id %in% patch_8$tse_id)),
+  patch_8
+)
+```
+
+Now, we bring our manual inputs into a more parseable format:
+
+```{r}
+cur = df_c7 %>%
+  mutate(scenario_id = row_number())
+
+lhs = cur %>%
+  pivot_longer(cols = starts_with('cand'),
+               names_to = 'index',
+               names_prefix = 'cand',
+               values_to = 'candidate',
+               values_drop_na = T) %>%
+  select(-matches('resul'))
+
+rhs = cur %>%
+  pivot_longer(cols = starts_with('resul'),
+               names_to = 'index',
+               names_prefix = 'resul',
+               values_to = 'result',
+               values_drop_na = T) %>%
+  select(-matches('cand'))
+
+manual = inner_join(lhs, rhs, by = c(
+  'index' = 'index',
+  'scenario_id' = 'scenario_id'
+)) %>%
+  select(-matches('\\.y'), -index) %>%
+  rename_at(vars(matches('\\.x')), function(x) { str_sub(x, end = -3) }) %>%
+  mutate(ID = row_number()) %>%
+  mutate(NM_UE = ifelse(manual_filename == 'manual/9-(leva-geral_2-1(965))-pedro20-splited_fixed-entrega.xlsx.csv', SG_UE, NM_UE)) %>%
+  mutate(SG_UE = ifelse(manual_filename == 'manual/9-(leva-geral_2-1(965))-pedro20-splited_fixed-entrega.xlsx.csv', NA, SG_UE)) %>%
+  mutate(SG_UE = ifelse(nchar(SG_UE) != 2, str_pad(SG_UE, 5, pad = '0'), SG_UE)) %>%
+  mutate(NM_UE = normalize_simple(NM_UE))
+
+rm(lhs, rhs)
+```
+
+And now, it's time to merge our polls with the TSE database:
+
+```{r}
+# WARNING: We are losing some polls here.
+manual_tse_0 = bind_rows(
+  inner_join(manual %>% filter((position != 'p' & position != 'v') | (is.na(NM_UE) & is.na(SG_UE))), df_for_merge, by = c(
+    'tse_id' = 'f_id'
+  )) %>%
+    select(-matches('\\.x')) %>%
+    rename_at(vars(matches('\\.y')), function(x) { str_sub(x, end = -3) }),
+  inner_join(manual %>% filter((position == 'p' | position == 'v') & is.na(NM_UE) & !is.na(SG_UE)), df_for_merge, by = c(
+    'tse_id' = 'f_id',
+    'SG_UE' = 'SG_UE'
+  )) %>%
+    select(-matches('\\.x')) %>%
+    rename_at(vars(matches('\\.y')), function(x) { str_sub(x, end = -3) }),
+  inner_join(manual %>% filter((position == 'p' | position == 'v') & !is.na(NM_UE) & !is.na(SG_UE)), df_for_merge, by = c(
+    'tse_id' = 'f_id',
+    'SG_UE' = 'SG_UE'
+  )) %>% 
+    select(-matches('\\.x')) %>%
+    rename_at(vars(matches('\\.y')), function(x) { str_sub(x, end = -3) }),
+  inner_join(manual %>% filter((position == 'p' | position == 'v') & !is.na(NM_UE) & is.na(SG_UE)), df_for_merge, by = c(
+    'tse_id' = 'f_id',
+    'NM_UE' = 'cmp_ue'
+  )) %>% 
+    select(-matches('\\.x'), -NM_UE.y) %>%
+    rename_at(vars(matches('\\.y')), function(x) { str_sub(x, end = -3) })
+) %>%
+  group_by(ID) %>%
+  filter(n() == 1 | CNPJ == NR_CNPJ_EMPRESA) %>%
+  ungroup() %>%
+  mutate(CD_CARGO = recode(position,
+    `p` = 11,
+    `v` = 13,
+    `pr` = 1,
+    `de` = 7,
+    `df` = 6,
+    `g` = 3,
+    `s` = 5
+  )) %>%
+  inner_join(election_dates, by = c('year' = 'year')) %>%
+  mutate(turno = ifelse(DT_FIM_PESQUISA <= first_round_date | grepl('Suplementares', NM_ELEICAO), 1, 2)) %>%
+  select(-OBS)
+```
+
+`manual_tse_0` is the so-called "Planilhão". It contains the raw data for our
+analyses.
+
+```{r}
+manual_tse_0 %>%
+  mutate(main_source = ifelse(!is.na(instituto), 'Pindograma-PDFManual', 'Pindograma-Manual')) %>%
+  mutate(source = ifelse(!is.na(instituto), instituto, url)) %>%
+  select(year, NR_IDENTIFICACAO_PESQUISA, SG_UE, NM_UE, CD_CARGO, estimulada, vv, scenario_id,
+         main_source, source, candidate, result, DT_INICIO_PESQUISA, DT_FIM_PESQUISA, DT_REGISTRO,
+         NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, cmp_ue, norm_est, est_id, is_fluxo, is_phone, self_hired, partisan,
+         first_round_date, second_round_date, turno) %>%
+  mutate(vv = !is.na(vv)) %>%
+  write.csv('output/raw_pindograma_manual_polls.csv', row.names = F)
+```
+
+## Pindograma Polls (Automatic)
+
+Pindograma didn't only collect polls manually. We also generated a bunch of
+them by extracting pollster PDFs. These polls require little normalization,
+but they still need to be crossed with the TSE's polling database. This is
+what we do:
+
+```{r}
+pdf_parsed = map_dfr(list.files('./data/parsed', full.names = T), function(x) {
+  read_csv(x, col_types = cols(
+    'value' = col_double()
+  )) %>%
+    mutate(fname = basename(x)) %>%
+    mutate(cnpj = case_when(
+      startsWith(fname, 'datafolha') ~ '07630546000175',
+      startsWith(fname, 'ibope') ~ '68802370000186',
+      startsWith(fname, 'parana') ~ '81908345000140',
+      startsWith(fname, 'escutec') ~ '10892795000143',
+      fname == 'verita.csv' ~ '00654576000172',
+      T ~ NA_character_
+    ))
+}) %>%
+  mutate(candidate = normalize_cand_2(candidate)) %>%
+  mutate(joinid = row_number()) %>%
+  rename(result = value) %>%
+  filter(result != 0)
+
+# TODO:
+# - Solve Multidados CNPJ
+# - Manually fix 21 conflicts
+pdf_polls = inner_join(pdf_parsed, df_for_merge, by = c(
+  'tse_id' = 'NR_IDENTIFICACAO_PESQUISA',
+  'cnpj' = 'NR_CNPJ_EMPRESA'
+)) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  mutate(year = suppressWarnings(as.numeric(str_sub(tse_id, start = -4)))) %>%
+  inner_join(election_dates, by = c('year' = 'year')) %>%
+  mutate(turno = ifelse(DT_FIM_PESQUISA <= first_round_date | grepl('Suplementares', NM_ELEICAO), 1, 2)) %>%
+  mutate(CD_CARGO = recode(position,
+    `p` = 11,
+    `v` = 13,
+    `pr` = 1,
+    `de` = 7,
+    `df` = 6,
+    `g` = 3,
+    `s` = 5
+  )) %>%
+  group_by(tse_id, estimulada, position, scenario) %>%
+  mutate(scenario_id = cur_group_id()) %>%
+  ungroup()
+```
+
+Finally, we also export its contents to another spreadsheet, in a format
+that's compatible with our "planilhão":
+
+```{r}
+pdf_polls %>%
+  mutate(main_source = 'Pindograma-PDFParser') %>%
+  mutate(source = fname) %>%
+  select(year, tse_id, SG_UE, NM_UE, CD_CARGO, estimulada, scenario_id,
+         candidate, result, DT_INICIO_PESQUISA, DT_FIM_PESQUISA, DT_REGISTRO,
+         cnpj, QT_ENTREVISTADOS, cmp_ue, norm_est, est_id, is_fluxo, is_phone, self_hired, partisan,
+         first_round_date, second_round_date, turno, main_source, source) %>%
+  rename(NR_CNPJ_EMPRESA = cnpj, NR_IDENTIFICACAO_PESQUISA = tse_id) %>%
+  mutate(vv = F) %>%
+  write.csv('output/raw_pindograma_automatic_polls.csv', row.names = F)
+```

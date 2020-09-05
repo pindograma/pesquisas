@@ -1,0 +1,250 @@
+---
+title: "Poder360 Polls Fixer"
+author: "Daniel T. Ferreira"
+
+output: html_document
+---
+
+<!--
+This file is (c) 2020 CincoNoveSeis Jornalismo Ltda.
+It is licensed under the GNU General Public License, version 3.
+-->
+
+Let's fix Poder360 polls! First, let's import some useful libraries.
+
+```{r}
+library(purrr)
+library(tidyr)
+library(dplyr)
+library(readr)
+library(stringi)
+library(stringr)
+library(lubridate)
+library(mgsub)
+library(sqldf)
+
+source('polling_utils.R')
+source('polls_registry.R')
+```
+
+And define an useful function:
+
+```{r}
+concatenate_id = function(x, y) {
+  paste0(ifelse(x == 'TSE', 'BR', ifelse(
+    nchar(x) == 6, substring(x, first=5, last=6), NA
+  )), y)
+}
+```
+
+Then, we import the TSE Registry data:
+
+```{r}
+estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
+
+df = load_poll_registry_data('./data/tse', estatisticos_ids)
+df_for_merge = get_poll_registry_for_merge(df)
+```
+
+We start by importing the dataset, removing unwanted polls (e.g. second round
+simulations before the first round of the election takes place), and performing
+basic normalizations.
+
+```{r}
+all_p3 = read_delim('data/poder360/all.csv', ';', escape_double = F, trim_ws = T)
+p360_empresa_correspondence <- read_csv("data/manual-data/p360_empresa_correspondence.csv")
+
+dfp3 = all_p3 %>%
+  filter(year(data_pesquisa) == ano) %>%
+  mutate(num_registro = normalize_simple(num_registro)) %>%
+  mutate(raw_nr = str_replace_all(num_registro, '[\\s\\-\\/]', '')) %>%
+  mutate(raw_nr = recode(raw_nr,
+    `RN00032014` = 'RN000032014',
+    `PI00782014` = 'PI000782014',
+    `PI00852014` = 'PI000852014',
+    `PI00932014` = 'PI000932014',
+    `DF00043214` = 'DF000432014',
+    `BR10372014` = 'BR010372014',
+    `GO14952016` = 'GO014952016',
+    `C055462018` = 'AC055462018',
+    `0001362012` = 'MG001362012'
+  )) %>%
+  mutate(raw_nr = ifelse(nchar(raw_nr) == 9, concatenate_id(orgao_registro, raw_nr), raw_nr)) %>%
+  mutate(cmp_ue = normalize_simple(ifelse(!is.na(cidade), cidade, unidade_federativa_nome))) %>%
+  mutate(has_problematic_id = is.na(raw_nr) | (ambito != 'BR' & ambito != 'RE' & ambito != str_sub(raw_nr, end = 2))) %>%
+  left_join(election_dates, by = c('ano' = 'year')) %>%
+  mutate(turno_realizacao = ifelse(data_pesquisa <= first_round_date, 1, 2)) %>%
+  mutate(position = recode(cargos_id,
+    `2` = 'p',
+    `1` = 'g',
+    `4` = 's',
+    `3` = 'pr'
+  )) %>%
+  mutate(CD_CARGO = recode(position,
+    `p` = 11,
+    `pr` = 1,
+    `g` = 3,
+    `s` = 5
+  )) %>%
+  mutate(estimulada = tipo_id == 2) %>%
+  mutate(raw_cand = normalize_cand(candidato)) %>%
+  mutate(candidate_without_title = normalize_cand_rm_titles(raw_cand)) %>%
+  filter(turno_realizacao == turno) %>%
+  mutate(norm_cenario_desc = normalize_simple(cenario_descricao)) %>%
+  filter(tipo_id != 3 & !grepl('REJEICAO', norm_cenario_desc)) %>%
+  filter(ambito != 'RE') %>%
+  filter(percentual != 0) %>%
+  filter(condicao == 0 & !grepl('EM BRANCO|NULO|NENHUM|BASE|TOTAL|OUTROS|OUTRAS|NAO SABE|NAO RESPOND|RECUSA|NS\\/NR|CITOU OUTRO', raw_cand))
+```
+
+The Poder360 database comes with a number of ID-less polls, or polls with
+invalid IDs. To address this, we try matching these polls with the TSE poll
+database by pollster and date.
+
+Note that there is some room for improvement here! There are some companies
+that should be easy enough to match if we put in more effort.
+
+```{r}
+without_id = dfp3 %>%
+  filter(has_problematic_id) %>%
+  select(pesquisa_id, data_pesquisa, instituto, unidade_federativa_nome, cidade, cmp_ue) %>%
+  distinct(data_pesquisa, instituto, unidade_federativa_nome, cidade, .keep_all = T) %>%
+  inner_join(p360_empresa_correspondence, by = c('instituto' = 'instituto')) %>%
+  mutate(joinid = row_number())
+
+matches = sqldf('
+SELECT * FROM without_id INNER JOIN df_for_merge ON
+without_id.cmp_ue = df_for_merge.cmp_ue AND
+without_id.cnpj = df_for_merge.NR_CNPJ_EMPRESA AND
+ABS(julianday(without_id.data_pesquisa) - julianday(df_for_merge.DT_FIM_PESQUISA)) < 5') %>%
+  subset(select = -c(cmp_ue)) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup()
+
+dfp3_2 = dfp3 %>%
+  left_join(matches %>% select(pesquisa_id, NR_IDENTIFICACAO_PESQUISA),
+            by = c('pesquisa_id' = 'pesquisa_id')) %>%
+  mutate(raw_nr = ifelse(has_problematic_id, NR_IDENTIFICACAO_PESQUISA, raw_nr)) %>%
+  filter(!is.na(raw_nr) & nchar(raw_nr) == 11) %>%
+  select(-NR_IDENTIFICACAO_PESQUISA)
+```
+
+Now, we basically repeat the algorithm we applied to our manual polls to solve
+the "BR problem". Fortunately, the post-filtered Poder360 database doesn't
+have presidential polls outside BR polls; all we have to deal with are non-BR
+presidential polls:
+
+```{r}
+br_polls = df_for_merge %>%
+  filter(startsWith(NR_IDENTIFICACAO_PESQUISA, 'BR')) %>%
+  select(DT_INICIO_PESQUISA, DT_FIM_PESQUISA, NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, f_id, NR_IDENTIFICACAO_PESQUISA, DS_DADO_MUNICIPIO) %>%
+  rename(br_poll_id = f_id) %>%
+  rename(br_poll_id_raw = NR_IDENTIFICACAO_PESQUISA)
+
+state_polls = df_for_merge %>%
+  filter(!startsWith(NR_IDENTIFICACAO_PESQUISA, 'BR')) %>%
+  select(DT_INICIO_PESQUISA, DT_FIM_PESQUISA, NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, f_id) %>%
+  rename(state_poll_id = f_id)
+
+p3merged = dfp3_2 %>%
+  filter(position == 'pr' & !startsWith(raw_nr, 'BR')) %>%
+  distinct(raw_nr, cmp_ue, instituto, position) %>%
+  mutate(joinid = row_number()) %>%
+  inner_join(df_for_merge, by = c('raw_nr' = 'NR_IDENTIFICACAO_PESQUISA')) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  mutate(joinid = row_number())
+  
+p3j1 = p3merged %>%
+  inner_join(br_polls %>% select(-DS_DADO_MUNICIPIO), by = c(
+    'DT_INICIO_PESQUISA' = 'DT_INICIO_PESQUISA',
+    'DT_FIM_PESQUISA' = 'DT_FIM_PESQUISA',
+    'QT_ENTREVISTADOS' = 'QT_ENTREVISTADOS',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup()
+
+p3j2 = p3merged %>%
+  filter(!(joinid %in% p3j1$joinid)) %>%
+  inner_join(br_polls, by = c(
+    'DT_INICIO_PESQUISA' = 'DT_INICIO_PESQUISA',
+    'DT_FIM_PESQUISA' = 'DT_FIM_PESQUISA',
+    'QT_ENTREVISTADOS' = 'QT_ENTREVISTADOS',
+    'NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA',
+    'DS_DADO_MUNICIPIO' = 'DS_DADO_MUNICIPIO'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup()
+
+p3j = bind_rows(p3j1, p3j2) %>%
+  select(raw_nr, position, br_poll_id_raw)
+
+dfp3_3 = left_join(dfp3_2, p3j, by = c('raw_nr' = 'raw_nr', 'position' = 'position')) %>%
+  mutate(raw_nr = ifelse(!is.na(br_poll_id_raw), br_poll_id_raw, raw_nr)) %>%
+  filter(!(position == 'pr' & !startsWith(raw_nr, 'BR'))) %>%
+  mutate(cmp_ue = ifelse(position == 'pr', 'BRASIL', cmp_ue))
+```
+
+Let's remove excessive scenarios:
+
+```{r}
+dfp3_4 = dfp3_3 %>%
+  group_by(raw_nr, estimulada, position, voto_tipo, instituto, cmp_ue, cenario_id) %>%
+  mutate(scenario_count = n()) %>%
+  mutate(scenario_id = cur_group_id()) %>%
+  ungroup() %>%
+  distinct(scenario_id, raw_cand, percentual, .keep_all = T) %>%
+  group_by(scenario_id) %>%
+  filter(n_distinct(raw_cand) == n()) %>%
+  ungroup() %>%
+  group_by(raw_nr, estimulada, position, voto_tipo, instituto, cmp_ue) %>%
+  mutate(multiple_scenarios = n_distinct(scenario_id) > 1) %>%
+  filter(scenario_count == max(scenario_count)) %>%
+  ungroup() %>%
+  select(-scenario_count)
+```
+
+Finally, we merge the Poder360 database with the TSE polls database, and
+subsequently match the candidates:
+
+```{r}
+p360_joined = dfp3_4 %>%
+  mutate(joinid = row_number()) %>%
+  inner_join(df_for_merge, by = c(
+    'raw_nr' = 'NR_IDENTIFICACAO_PESQUISA',
+    'cmp_ue' = 'cmp_ue'
+  )) %>%
+  group_by(joinid) %>%
+  filter(n() == 1) %>%
+  ungroup() %>%
+  mutate(norm_voto_tipo = normalize_simple(voto_tipo)) %>%
+  mutate(vv = norm_voto_tipo == 'VOTOS VALIDOS' | grepl('VALIDOS', norm_cenario_desc)) %>%
+  group_by(raw_nr, SG_UE, NR_CNPJ_EMPRESA) %>%
+  filter(n_distinct(ambito) == 1) %>%
+  ungroup()
+```
+
+And let's save the result:
+
+```{r}
+p360_joined %>%
+  mutate(main_source = 'Poder360', source = NA) %>%
+  rename(NR_IDENTIFICACAO_PESQUISA = raw_nr, year = ano, candidate = raw_cand, result = percentual) %>%
+  select(year, NR_IDENTIFICACAO_PESQUISA, SG_UE, NM_UE, CD_CARGO, estimulada, scenario_id, vv,
+         candidate, result, DT_INICIO_PESQUISA, DT_FIM_PESQUISA, DT_REGISTRO,
+         NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, cmp_ue, norm_est, est_id, is_fluxo, is_phone, self_hired, partisan,
+         first_round_date, second_round_date, turno, main_source, source, candidate_without_title) %>%
+  write.csv('output/pindograma_poder360_polls.csv', row.names = F)
+```
+
+<!--
+# TODO:
+# Resolver n_distinct(ambito) > 1 dentro da mesma pesquisa
+# Tentar reduzir as without_id.
+# use party to cross cands and p360 as a backup!
+-->

@@ -1,0 +1,16 @@
+```{r}
+polls_without_scenarios = polls %>%
+  filter(!multiple_scenarios)
+
+shared = p3_matched %>%
+  filter(!multiple_scenarios) %>%
+  filter(position != 's') %>%
+  inner_join(polls_without_scenarios, by = c(
+    'raw_nr' = 'NR_IDENTIFICACAO_PESQUISA',
+    'estimulada' = 'estimulada',
+    'position' = 'position',
+    'vv' = 'vv',
+    'NUMERO_CANDIDATO' = 'NUMERO_CANDIDATO'
+  )) %>%
+  mutate(agree = abs(result - percentual) <= 0.2)
+```

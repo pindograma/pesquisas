@@ -1,0 +1,168 @@
+---
+title: "Pindograma Selected Polls Exporter"
+author: "Daniel T. Ferreira"
+
+output: html_document
+---
+
+<!--
+This file is (c) 2020 CincoNoveSeis Jornalismo Ltda.
+It is licensed under the GNU General Public License, version 3.
+-->
+
+Let's start by getting the votes:
+
+```{r}
+pvotes = get_votes(
+  year = '2016, 2012',
+  position = 'Prefeito',
+  blank_votes = T,
+  null_votes = T,
+  regional_aggregation = 'Municipality',
+  columns_list = list('ANO_ELEICAO', 'SIGLA_UE', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  cache = T) %>%
+    tibble()
+
+gov_votes_city = get_votes(
+  year = '2018, 2014',
+  position = 'Governor',
+  blank_votes = T,
+  null_votes = T,
+  regional_aggregation = 'Municipality',
+  columns_list = list('ANO_ELEICAO', 'COD_MUN_TSE', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  cache = T) %>%
+    rename(SIGLA_UE = COD_MUN_TSE) %>%
+    tibble()
+
+gov_votes_state = get_votes(
+  year = '2018, 2014',
+  position = 'Governor',
+  blank_votes = T,
+  null_votes = T,
+  columns_list = list('ANO_ELEICAO', 'UF', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  regional_aggregation = 'State',
+  cache = T) %>%
+    tibble() %>%
+    rename(SIGLA_UE = UF)
+
+pres_votes_state = get_votes(
+  year = '2018, 2014',
+  position = 'President',
+  blank_votes = T,
+  null_votes = T,
+  columns_list = list('ANO_ELEICAO', 'UF', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  regional_aggregation = 'State',
+  cache = T) %>%
+    tibble() %>%
+    rename(SIGLA_UE = UF)
+
+pres_votes_natl = get_votes(
+  year = "2018, 2014",
+  position = 'Presidente',
+  blank_votes = T,
+  null_votes = T,
+  regional_aggregation = 'Brazil',
+  columns_list = list('ANO_ELEICAO', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
+  cache = T) %>%
+    tibble() %>%
+    mutate(SIGLA_UE = 'BR')
+
+votes = bind_rows(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, gov_votes_city) %>%
+  filter(NUMERO_CANDIDATO != 95 & NUMERO_CANDIDATO != 96) %>%
+  group_by(ANO_ELEICAO, NUM_TURNO, SIGLA_UE, CODIGO_CARGO) %>%
+  mutate(qtde_all_valid = sum(QTDE_VOTOS)) %>%
+  arrange(desc(QTDE_VOTOS), .by_group = T) %>%
+  ungroup()
+
+rm(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, gov_votes_city)
+```
+
+Now, let's clean our polls by removing all sorts of bizarre things that we got
+in our database.
+
+```{r}
+cleaned_polls = all_polls %>%
+  filter(CD_CARGO %in% c(1, 3, 11)) %>%
+  group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, estimulada, CD_CARGO, vv, scenario_id) %>%
+  mutate(unique_poll = cur_group_id()) %>%
+  ungroup() %>%
+  group_by(unique_poll) %>%
+  filter(all(result < 100)) %>%
+  ungroup() %>%
+  group_by(unique_poll, NUMERO_CANDIDATO) %>%
+  filter(all(n() == 1)) %>% # TODO: Manual candidate matching
+  ungroup() %>%
+  filter(result >= 1)
+
+no_vv_polls = cleaned_polls %>%
+  filter(!vv)
+```
+
+Now, let's get a dataset of "early polls" and one of "late polls". Early polls
+are the espontânea polls made before the candidates are officially registered
+with the TSE. Late polls are estimulada polls that come after the candidates
+are officially registered (though if a poll only releases espontânea data,
+we will use it as if it were an estimulada poll).
+
+In both cases, we remove polls with more than one scenario. This makes sense,
+since after the official candidate list is available, we don't need scenarios;
+and espontânea polls don't have scenarios by definition. Most of the times, these
+multiple scenarios exist because of badly inputted data.
+
+There is one exception to this rule -- the races where a candidate is
+registered, but where there is significant doubt about whether that candidate
+will be able to run. This was the case in the 2018 presidential election.
+These cases are "special" and marked as such.
+
+Alas -- these are the polls that will feed our polling average.
+
+```{r}
+get_final_poll_list = function(p) {
+  p %>%
+    group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, estimulada, CD_CARGO, vv) %>%
+    filter(n_distinct(scenario_id) == 1) %>%
+    ungroup() %>%
+    inner_join(votes, by = c(
+      'year' = 'ANO_ELEICAO',
+      'turno' = 'NUM_TURNO',
+      'polled_UE' = 'SIGLA_UE',
+      'CD_CARGO' = 'CODIGO_CARGO',
+      'NUMERO_CANDIDATO' = 'NUMERO_CANDIDATO'
+    )) %>%
+    left_join(df_for_merge %>% select(NR_CNPJ_EMPRESA, NR_IDENTIFICACAO_PESQUISA,
+                                      partisan, DT_INICIO_PESQUISA, hirer,
+                                      confidence_interval_final, error_final),
+              by = c('NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA', 'NR_IDENTIFICACAO_PESQUISA' = 'NR_IDENTIFICACAO_PESQUISA')) %>%
+    mutate(non_partisan = !partisan & !self_hired) %>%
+    group_by(year, turno,
+             NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, CD_CARGO, estimulada, vv, scenario_id, source,
+             DT_INICIO_PESQUISA, DT_FIM_PESQUISA, self_hired, is_phone, is_fluxo, QT_ENTREVISTADOS,
+             non_partisan, first_round_date, second_round_date, is_complete, state,
+             hirer, confidence_interval_final, error_final) %>%
+    mutate(valid_result = ifelse(vv, result, result / sum(result) * 100)) %>%
+    mutate(pct = QTDE_VOTOS / sum(QTDE_VOTOS) * 100) %>%
+    filter(sum(QTDE_VOTOS) >= 0.90 * qtde_all_valid) %>%
+    mutate(undecided = ifelse(vv, NA, 100 - sum(result))) %>%
+    ungroup()
+}
+
+early_polls = no_vv_polls %>%
+  left_join(election_dates, 'year') %>%
+  filter(DT_FIM_PESQUISA <= candidate_registry_date) %>%
+  filter(estimulada == 0) %>%
+  get_final_poll_list()
+
+late_polls = no_vv_polls %>%
+  left_join(election_dates, 'year') %>%
+  filter(DT_FIM_PESQUISA > candidate_registry_date) %>%
+  group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, CD_CARGO, vv) %>%
+  filter(n_distinct(estimulada) == 1 | estimulada == 1) %>%
+  ungroup() %>%
+  get_final_poll_list()
+
+early_polls %>%
+  write.csv('output/early_polls.csv', row.names = F)
+
+late_polls %>%
+  write.csv('output/late_polls.csv', row.names = F)
+```
