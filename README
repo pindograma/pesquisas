@@ -1,0 +1,75 @@
+Bem-vindo aos scripts de pesquisas eleitorais do Pindograma!
+
+--- Introdução ---
+
+Se você está interessado ou interessada em dados de pesquisas eleitorais,
+esse repositório provavelmente não vai lhe ajudar muito. Ele está aqui para
+documentar o processo de construção da base de pesquisas do Pindograma, e
+para permitir que pessoas encontrem, eventualmente, erros no nosso trabalho.
+
+Dito isso, aqui você encontra os scripts que geram a base de dados usada
+pelo Agregador de Pesquisas e pelo Ranking de Pesquisas do Pindograma. 
+Você também encontra detalhes de como o Ranking de Pesquisas é calculado.
+
+Caso você queira entender o processo melhor antes de mergular no código,
+recomendamos a leitura de <METODOLOGIA 1> e <METODOLOGIA 2>.
+
+--- Instalação ---
+
+Primeiro, instale os seguintes pacotes no R:
+
+> install.packages('tidyverse')
+> install.packages('lubridate')
+> install.packages('mgsub')
+> install.packages('sqldf')
+>
+> if (!require("devtools")) install.packages("devtools")
+> devtools::install_github("Cepesp-Fgv/cepesp-r")
+
+Depois, você precisa gerar o arquivo "spellfix.so" do SQLite3. Para isso,
+execute os seguintes comandos no Shell:
+
+$ brew install sqlite
+$ wget https://www.sqlite.org/src/zip/sqlite.zip
+$ unzip sqlite.zip
+$ clang -g -fPIC -dynamiclib sqlite/ext/misc/spellfix.c -o spellfix.so
+
+Caso você encontre um erro no comando `clang`, é possível que você não tenha
+o header `sqlite3.h` instalado no seu computador. Para resolver isso, rode os
+seguintes comandos depois de ter rodado os comandos acima:
+
+$ wget https://sqlite.org/2020/sqlite-amalgamation-3330000.zip
+$ unzip sqlite-amalgamation-3330000.zip
+$ clang -g -fPIC -dynamiclib sqlite/ext/misc/spellfix.c -o spellfix.so -Isqlite-amalgamation-3330000
+
+Por fim, mova o arquivo "spellfix.so" para o diretório root do projeto.
+
+--- Scripts ---
+
+Para gerar as bases do Pindograma a partir dos dados em data/*, rode, em
+sequência, os scripts *.Rmd no diretório principal do projeto.
+
+Os scripts pools_organizer.py, bing-search.py e bing_utils.R são usados em uma
+fase anterior do processo -- para gerar os arquivos em
+data/manual-data/manual/*.
+
+--- Dados ---
+
+* data/parsed: Dados gerados com o
+  https://github.com/pindograma/pdf-poll-parser a partir de PDFs de pesquisas
+  de institutos.
+
+* data/poder360: Dados extraídos do agregador do Poder360.
+
+* data/tse: Dados extraídos do Repositório de Dados Eleitorais do TSE.
+
+* data/manual-data: Dados criados manualmente pela equipe do Pindograma.
+
+--- Licença ---
+
+Todo o código deste repositório está licenciado para você sob os termos da GNU
+GPL v3.0, cuja íntegra pode ser encontrada no arquivo LICENSE.
+
+Todos os dados produzidos pelo Pindograma nesse repositório estão licenciados
+sob os termos da Open Database License v1.0
+(https://opendatacommons.org/licenses/odbl/1-0/).
