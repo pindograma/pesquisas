@@ -24,7 +24,7 @@ library(mgsub)
 library(sqldf)
 library(cepespR)
 
-options('sqldf.dll' = '/Users/Daniel/Downloads/sqlite/spellfix.so')
+options('sqldf.dll' = paste0(getwd(), '/', 'spellfix.so'))
 
 Rcpp::sourceCpp('src/wordmatch.cpp')
 source('polling_utils.R')
