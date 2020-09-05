@@ -1,6 +1,5 @@
 .Rbuildignore
 .cepespdata
-*.Rproj
 .DS_Store
 .Rproj.user
 *.Rdata
