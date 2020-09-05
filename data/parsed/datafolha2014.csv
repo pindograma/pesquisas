@@ -1,0 +1,1731 @@
+tse_id,estimulada,position,scenario,candidate,value
+BR003862014,False,pr,0,Dilma,24.0
+BR003862014,False,pr,0,Aecio Neves,11.0
+BR003862014,False,pr,0,Marina Silva,5.0
+BR003862014,False,pr,0,Eduardo Campos,2.0
+BR003862014,False,pr,0,Lula,0.0
+BR003862014,False,pr,0,Pastor Everaldo,0.0
+BR003862014,False,pr,0,Ze Maria,0.0
+BR003862014,False,pr,0,Luciana Genro,0.0
+BR003862014,False,pr,0,Jose Serra,0.0
+BR003862014,False,pr,0,Eymael,0.0
+BR003862014,False,pr,0,No atual/No que esta,0.0
+BR003862014,False,pr,0,No candidato do PT/ candidato do Lula,0.0
+BR003862014,False,pr,0,Outras respostas,1.0
+BR003862014,False,pr,0,Branco/ Nulo/ Nenhum,6.0
+BR003862014,False,pr,0,Nao Respondeu,0.0
+BR003862014,False,pr,0,Nao Sabe,49.0
+BR003862014,False,pr,0,Total em %,100.0
+BR003862014,False,pr,0,Base ponderada,2843.0
+BR003862014,False,pr,0,Total Nos. absolutos,2843.0
+BR005172014,False,pr,1,Dilma,27.0
+BR005172014,False,pr,1,Marina Silva,24.0
+BR005172014,False,pr,1,Aecio Neves,10.0
+BR005172014,False,pr,1,Branco/ Nulo/ Nenhum,6.0
+BR005172014,False,pr,1,Outras respostas,1.0
+BR005172014,False,pr,1,Nao Sabe,30.0
+BR005172014,False,pr,1,Total em %,100.0
+BR005172014,False,pr,1,Base ponderada,10054.0
+BR005172014,False,pr,1,Total Nos. absolutos,10054.0
+BR005172014,False,pr,2,Dilma,27.0
+BR005172014,False,pr,2,Marina Silva,24.0
+BR005172014,False,pr,2,Aecio Neves,10.0
+BR005172014,False,pr,2,Branco/ Nulo/ Nenhum,6.0
+BR005172014,False,pr,2,Outras respostas,1.0
+BR005172014,False,pr,2,Nao Sabe,30.0
+BR005172014,False,pr,2,Nao respondeu',0.0
+BR005172014,False,pr,2,Total em %,100.0
+BR005172014,False,pr,2,Base ponderada,10054.0
+BR005172014,False,pr,2,Total Nos. absolutos,10054.0
+BR005842014,False,pr,3,Marina Silva,35.0
+BR005842014,False,pr,3,Dilma,19.0
+BR005842014,False,pr,3,Aecio Neves,13.0
+BR005842014,False,pr,3,Pastor Everaldo,1.0
+BR005842014,False,pr,3,Luciana Genro,0.0
+BR005842014,False,pr,3,No atual/No que est?,0.0
+BR005842014,False,pr,3,No candidato do PT/ candidato do Lula,0.0
+BR005842014,False,pr,3,Ze Maria,0.0
+BR005842014,False,pr,3,Eymael,0.0
+BR005842014,False,pr,3,Eduardo Jorge,0.0
+BR005842014,False,pr,3,Eduardo Campos,0.0
+BR005842014,False,pr,3,Outras respostas,0.0
+BR005842014,False,pr,3,Branco/ Nulo/ Nenhum,4.0
+BR005842014,False,pr,3,Nao sabe,26.0
+BR005842014,False,pr,3,Nao respondeu,0.0
+BR005842014,False,pr,3,Total em %,100.0
+BR005842014,False,pr,3,Base ponderada,765.0
+BR005842014,False,pr,3,Total Nos. absolutos,765.0
+BR005842014,False,pr,4,Dilma,27.0
+BR005842014,False,pr,4,Aecio Neves,18.0
+BR005842014,False,pr,4,Marina Silva,17.0
+BR005842014,False,pr,4,No candidato do PT/ candidato do Lula,0.0
+BR005842014,False,pr,4,Eduardo Jorge,0.0
+BR005842014,False,pr,4,Pastor Everaldo,0.0
+BR005842014,False,pr,4,Luciana Genro,0.0
+BR005842014,False,pr,4,Branco/ Nulo/ Nenhum,5.0
+BR005842014,False,pr,4,Outras respostas,1.0
+BR005842014,False,pr,4,Nao Sabe,32.0
+BR005842014,False,pr,4,Nao respondeu,0.0
+BR005842014,False,pr,4,Total em %,100.0
+BR005842014,False,pr,4,Base ponderada,1295.0
+BR005842014,False,pr,4,Total Nos. absolutos,1295.0
+BR005842014,False,pr,5,Marina Silva,40.0
+BR005842014,False,pr,5,Dilma,33.0
+BR005842014,False,pr,5,Aecio Neves,1.0
+BR005842014,False,pr,5,Luciana Genro,0.0
+BR005842014,False,pr,5,No candidato do PT/ candidato do Lula,0.0
+BR005842014,False,pr,5,Eduardo Campos,0.0
+BR005842014,False,pr,5,Eduardo Jorge,0.0
+BR005842014,False,pr,5,Branco/ Nulo/ Nenhum,4.0
+BR005842014,False,pr,5,Outras respostas,1.0
+BR005842014,False,pr,5,Nao Sabe,19.0
+BR005842014,False,pr,5,Nao Vota,0.0
+BR005842014,False,pr,5,Nao respondeu,0.0
+BR005842014,False,pr,5,Total em %,100.0
+BR005842014,False,pr,5,Base ponderada,1211.0
+BR005842014,False,pr,5,Total Nos. absolutos,1211.0
+BR005842014,False,pr,6,Marina Silva,25.0
+BR005842014,False,pr,6,Dilma,22.0
+BR005842014,False,pr,6,Aecio Neves,9.0
+BR005842014,False,pr,6,Luciana Genro,0.0
+BR005842014,False,pr,6,Eduardo Jorge,0.0
+BR005842014,False,pr,6,No atual/No que est?,0.0
+BR005842014,False,pr,6,Pastor Everaldo,0.0
+BR005842014,False,pr,6,Lula,0.0
+BR005842014,False,pr,6,Ze Maria,0.0
+BR005842014,False,pr,6,No candidato do PT/ candidato do Lula,0.0
+BR005842014,False,pr,6,Outras respostas,1.0
+BR005842014,False,pr,6,Branco/ Nulo/ Nenhum,8.0
+BR005842014,False,pr,6,Nao Sabe,32.0
+BR005842014,False,pr,6,Nao Vota,0.0
+BR005842014,False,pr,6,Nao respondeu,0.0
+BR005842014,False,pr,6,Total em %,100.0
+BR005842014,False,pr,6,Base ponderada,1348.0
+BR005842014,False,pr,6,Total Nos. absolutos,1348.0
+BR005842014,False,pr,7,Marina Silva,28.0
+BR005842014,False,pr,7,Dilma,18.0
+BR005842014,False,pr,7,Aecio Neves,11.0
+BR005842014,False,pr,7,Luciana Genro,0.0
+BR005842014,False,pr,7,Pastor Everaldo,0.0
+BR005842014,False,pr,7,No candidato do PT/ candidato do Lula,0.0
+BR005842014,False,pr,7,Eduardo Jorge,0.0
+BR005842014,False,pr,7,Levy Fidelix,0.0
+BR005842014,False,pr,7,Lula,0.0
+BR005842014,False,pr,7,Eymael,0.0
+BR005842014,False,pr,7,Eduardo Campos,0.0
+BR005842014,False,pr,7,No atual/No que est?,0.0
+BR005842014,False,pr,7,Outras respostas,2.0
+BR005842014,False,pr,7,Branco/ Nulo/ Nenhum,7.0
+BR005842014,False,pr,7,Nao Sabe,33.0
+BR005842014,False,pr,7,Nao Vota,0.0
+BR005842014,False,pr,7,Nao respondeu',0.0
+BR005842014,False,pr,7,Total em %,100.0
+BR005842014,False,pr,7,Base ponderada,2046.0
+BR005842014,False,pr,7,Total Nos. absolutos,2046.0
+BR006652014,False,pr,8,Dilma,30.0
+BR006652014,False,pr,8,Marina Silva,24.0
+BR006652014,False,pr,8,Aecio Neves,12.0
+BR006652014,False,pr,8,Luciana Genro,0.0
+BR006652014,False,pr,8,Pastor Everaldo,0.0
+BR006652014,False,pr,8,No atual/No que est?,0.0
+BR006652014,False,pr,8,Levy Fidelix,0.0
+BR006652014,False,pr,8,No candidato do PT/ candidato do Lula,0.0
+BR006652014,False,pr,8,Ze Maria,0.0
+BR006652014,False,pr,8,Eduardo Jorge,0.0
+BR006652014,False,pr,8,Jose Serra,0.0
+BR006652014,False,pr,8,Eymael,0.0
+BR006652014,False,pr,8,Mauro Iasi,0.0
+BR006652014,False,pr,8,Lula,0.0
+BR006652014,False,pr,8,Branco/ Nulo/ Nenhum,5.0
+BR006652014,False,pr,8,Outras respostas,1.0
+BR006652014,False,pr,8,Nao Sabe,26.0
+BR006652014,False,pr,8,Total em %,100.0
+BR006652014,False,pr,8,Base ponderada,5340.0
+BR006652014,False,pr,8,Total Nos. absolutos,5340.0
+BR006952014,False,pr,9,Dilma,48.0
+BR006952014,False,pr,9,Marina Silva,16.0
+BR006952014,False,pr,9,Aecio Neves,7.0
+BR006952014,False,pr,9,No atual/No que est?,0.0
+BR006952014,False,pr,9,No candidato do PT/ candidato do Lula,0.0
+BR006952014,False,pr,9,Eduardo Campos,0.0
+BR006952014,False,pr,9,Pastor Everaldo,0.0
+BR006952014,False,pr,9,Levy Fidelix,0.0
+BR006952014,False,pr,9,Lula,0.0
+BR006952014,False,pr,9,Luciana Genro,0.0
+BR006952014,False,pr,9,Outras respostas,1.0
+BR006952014,False,pr,9,Branco/ Nulo/ Nenhum,4.0
+BR006952014,False,pr,9,Nao Sabe,24.0
+BR006952014,False,pr,9,Total em %,100.0
+BR006952014,False,pr,9,Base ponderada,1200.0
+BR006952014,False,pr,9,Total Nos. absolutos,1200.0
+BR007822014,False,pr,10,Dilma,33.0
+BR007822014,False,pr,10,Marina Silva,21.0
+BR007822014,False,pr,10,Aecio Neves,14.0
+BR007822014,False,pr,10,Luciana Genro,0.0
+BR007822014,False,pr,10,Pastor Everaldo,0.0
+BR007822014,False,pr,10,Eduardo Jorge,0.0
+BR007822014,False,pr,10,No atual/No que est?,0.0
+BR007822014,False,pr,10,Eymael,0.0
+BR007822014,False,pr,10,Ze Maria,0.0
+BR007822014,False,pr,10,Levy Fidelix,0.0
+BR007822014,False,pr,10,Lula,0.0
+BR007822014,False,pr,10,Eduardo Campos,0.0
+BR007822014,False,pr,10,No candidato do PT/ candidato do Lula,0.0
+BR007822014,False,pr,10,Jose Serra,0.0
+BR007822014,False,pr,10,Mauro Iasi,0.0
+BR007822014,False,pr,10,Branco/ Nulo/ Nenhum,5.0
+BR007822014,False,pr,10,Outras respostas,1.0
+BR007822014,False,pr,10,Nao Sabe,25.0
+BR007822014,False,pr,10,Nao Vota,0.0
+BR007822014,False,pr,10,Nao respondeu',0.0
+BR007822014,False,pr,10,Total em %,100.0
+BR007822014,False,pr,10,Base ponderada,11474.0
+BR007822014,False,pr,10,Total Nos. absolutos,11474.0
+BR007822014,False,pr,11,Dilma,33.0
+BR007822014,False,pr,11,Marina Silva,21.0
+BR007822014,False,pr,11,Aecio Neves,14.0
+BR007822014,False,pr,11,Luciana Genro,0.0
+BR007822014,False,pr,11,Pastor Everaldo,0.0
+BR007822014,False,pr,11,Eduardo Jorge,0.0
+BR007822014,False,pr,11,No atual/No que est?,0.0
+BR007822014,False,pr,11,Eymael,0.0
+BR007822014,False,pr,11,Ze Maria,0.0
+BR007822014,False,pr,11,Levy Fidelix,0.0
+BR007822014,False,pr,11,Lula,0.0
+BR007822014,False,pr,11,Eduardo Campos,0.0
+BR007822014,False,pr,11,No candidato do PT/ candidato do Lula,0.0
+BR007822014,False,pr,11,Jose Serra,0.0
+BR007822014,False,pr,11,Mauro Iasi,0.0
+BR007822014,False,pr,11,Branco/ Nulo/ Nenhum,5.0
+BR007822014,False,pr,11,Outras respostas,1.0
+BR007822014,False,pr,11,Nao Sabe,25.0
+BR007822014,False,pr,11,Nao respondeu',0.0
+BR007822014,False,pr,11,Total em %,100.0
+BR007822014,False,pr,11,Base ponderada,11474.0
+BR007822014,False,pr,11,Total Nos. absolutos,11474.0
+BR009052014,False,pr,12,Dilma,35.0
+BR009052014,False,pr,12,Marina Silva,20.0
+BR009052014,False,pr,12,Aecio Neves,16.0
+BR009052014,False,pr,12,Luciana Genro,1.0
+BR009052014,False,pr,12,Pastor Everaldo,0.0
+BR009052014,False,pr,12,Eduardo Jorge,0.0
+BR009052014,False,pr,12,No candidato do PT/ candidato do Lula,0.0
+BR009052014,False,pr,12,No atual/No que est?,0.0
+BR009052014,False,pr,12,Levy Fidelix,0.0
+BR009052014,False,pr,12,Rui Costa Pimenta,0.0
+BR009052014,False,pr,12,Jose Serra,0.0
+BR009052014,False,pr,12,Ze Maria,0.0
+BR009052014,False,pr,12,Eymael,0.0
+BR009052014,False,pr,12,Mauro Iasi,0.0
+BR009052014,False,pr,12,Lula,0.0
+BR009052014,False,pr,12,Branco/ Nulo/ Nenhum,5.0
+BR009052014,False,pr,12,Outras respostas,1.0
+BR009052014,False,pr,12,Nao Sabe,22.0
+BR009052014,False,pr,12,Nao Vota,0.0
+BR009052014,False,pr,12,Nao respondeu',0.0
+BR009052014,False,pr,12,Total em %,100.0
+BR009052014,False,pr,12,Base ponderada,7520.0
+BR009052014,False,pr,12,Total Nos. absolutos,7520.0
+BR009332014,False,pr,13,Dilma,35.0
+BR009332014,False,pr,13,Marina Silva,20.0
+BR009332014,False,pr,13,Aecio Neves,17.0
+BR009332014,False,pr,13,Luciana Genro,1.0
+BR009332014,False,pr,13,Pastor Everaldo,0.0
+BR009332014,False,pr,13,Eduardo Jorge,0.0
+BR009332014,False,pr,13,No candidato do PT/ candidato do Lula,0.0
+BR009332014,False,pr,13,Levy Fidelix,0.0
+BR009332014,False,pr,13,No atual/No que est?,0.0
+BR009332014,False,pr,13,Ze Maria,0.0
+BR009332014,False,pr,13,Lula,0.0
+BR009332014,False,pr,13,Mauro Iasi,0.0
+BR009332014,False,pr,13,Eymael,0.0
+BR009332014,False,pr,13,Jose Serra,0.0
+BR009332014,False,pr,13,Outras respostas,1.0
+BR009332014,False,pr,13,Branco/ Nulo/ Nenhum,5.0
+BR009332014,False,pr,13,Nao Sabe,20.0
+BR009332014,False,pr,13,Nao respondeu',0.0
+BR009332014,False,pr,13,Total em %,100.0
+BR009332014,False,pr,13,Base ponderada,12022.0
+BR009332014,False,pr,13,Total Nos. absolutos,12022.0
+BR010372014,False,pr,14,Dilma,36.0
+BR010372014,False,pr,14,Aecio Neves,20.0
+BR010372014,False,pr,14,Marina Silva,19.0
+BR010372014,False,pr,14,Nao Sabe,16.0
+BR010372014,False,pr,14,Branco/ Nulo/ Nenhum,5.0
+BR010372014,False,pr,14,Outras respostas,1.0
+BR010372014,False,pr,14,Luciana Genro,1.0
+BR010372014,False,pr,14,Pastor Everaldo,0.0
+BR010372014,False,pr,14,Eduardo Jorge,0.0
+BR010372014,False,pr,14,Levy Fidelix,0.0
+BR010372014,False,pr,14,Nao respondeu,0.0
+BR010372014,False,pr,14,No candidato do PT/ candidato do Lula,0.0
+BR010372014,False,pr,14,No atual/No que est?,0.0
+BR010372014,False,pr,14,Lula,0.0
+BR010372014,False,pr,14,Ze Maria,0.0
+BR010372014,False,pr,14,Eymael,0.0
+BR010372014,False,pr,14,Mauro Iasi,0.0
+BR010372014,False,pr,14,Rui Costa Pimenta,0.0
+BR010372014,False,pr,14,Jose Serra,0.0
+BR010372014,False,pr,14,Total em %,100.0
+BR010372014,False,pr,14,Base ponderada,18116.0
+BR010372014,False,pr,14,Total Nos. absolutos,18116.0
+CE000132014,False,g,15,Eunicio,17.0
+CE000132014,False,g,15,Camilo,7.0
+CE000132014,False,g,15,Cid Gomes,3.0
+CE000132014,False,g,15,Eliane Novais,1.0
+CE000132014,False,g,15,Ailton Lopes,0.0
+CE000132014,False,g,15,Branco/ Nulo/ Nenhum,6.0
+CE000132014,False,g,15,Outras respostas,6.0
+CE000132014,False,g,15,Nao Sabe,61.0
+CE000132014,False,g,15,Total em %,100.0
+CE000132014,False,g,15,Base ponderada,1108.0
+CE000132014,False,g,15,Total Nos. absolutos,1108.0
+CE000212014,False,g,16,Eunicio,19.0
+CE000212014,False,g,16,Camilo,18.0
+CE000212014,False,g,16,Tasso Jereissati,2.0
+CE000212014,False,g,16,Eliane Novais,1.0
+CE000212014,False,g,16,Cid Gomes,1.0
+CE000212014,False,g,16,Ailton Lopes,0.0
+CE000212014,False,g,16,No atual/ No que esta,0.0
+CE000212014,False,g,16,Outras respostas,3.0
+CE000212014,False,g,16,Branco/ Nulo/ Nenhum,6.0
+CE000212014,False,g,16,Nao Sabe,48.0
+CE000212014,False,g,16,Nao Vota,0.0
+CE000212014,False,g,16,Total em %,100.0
+CE000212014,False,g,16,Base ponderada,1042.0
+CE000212014,False,g,16,Total Nos. absolutos,1042.0
+CE000252014,False,g,17,Eunicio,27.0
+CE000252014,False,g,17,Camilo,23.0
+CE000252014,False,g,17,Tasso Jereissati,1.0
+CE000252014,False,g,17,Cid Gomes,1.0
+CE000252014,False,g,17,Eliane Novais,1.0
+CE000252014,False,g,17,Ailton Lopes,1.0
+CE000252014,False,g,17,No candidato do PT/ candidato da Dilma,0.0
+CE000252014,False,g,17,Outras respostas,3.0
+CE000252014,False,g,17,Nao Vota,0.0
+CE000252014,False,g,17,Branco/ Nulo/ Nenhum,6.0
+CE000252014,False,g,17,Nao Sabe,37.0
+CE000252014,False,g,17,Total em %,100.0
+CE000252014,False,g,17,Base ponderada,1280.0
+CE000252014,False,g,17,Total Nos. absolutos,1280.0
+CE000292014,False,g,18,Eunicio,31.0
+CE000292014,False,g,18,Camilo,29.0
+CE000292014,False,g,18,Tasso Jereissati,1.0
+CE000292014,False,g,18,Eliane Novais,1.0
+CE000292014,False,g,18,Ailton Lopes,1.0
+CE000292014,False,g,18,No candidato do PT/ candidato da Dilma,0.0
+CE000292014,False,g,18,Cid Gomes,0.0
+CE000292014,False,g,18,Outras respostas,4.0
+CE000292014,False,g,18,Nulo/ Nenhum,6.0
+CE000292014,False,g,18,Recusa,0.0
+CE000292014,False,g,18,Nao Sabe,25.0
+CE000292014,False,g,18,Total em %,100.0
+CE000292014,False,g,18,Base ponderada,1719.0
+CE000292014,False,g,18,Total Nos. absolutos,1719.0
+DF000292014,False,g,19,Arruda,25.0
+DF000292014,False,g,19,Agnelo Queiroz,16.0
+DF000292014,False,g,19,Rollemberg,6.0
+DF000292014,False,g,19,Luiz Pitiman,2.0
+DF000292014,False,g,19,Toninho do PSOL,2.0
+DF000292014,False,g,19,Branco/ Nulo/ Nenhum,13.0
+DF000292014,False,g,19,Nao Sabe,34.0
+DF000292014,False,g,19,Outras respostas,1.0
+DF000292014,False,g,19,Nao Vota,0.0
+DF000292014,False,g,19,Recusa,0.0
+DF000292014,False,g,19,Total em %,100.0
+DF000292014,False,g,19,Base ponderada,736.0
+DF000292014,False,g,19,Total Nos. absolutos,736.0
+DF000402014,False,g,20,Arruda,30.0
+DF000402014,False,g,20,Agnelo Queiroz,14.0
+DF000402014,False,g,20,Rollemberg,11.0
+DF000402014,False,g,20,Branco/ Nulo/ Nenhum,7.0
+DF000402014,False,g,20,Toninho do PSOL,2.0
+DF000402014,False,g,20,Luiz Pitiman,2.0
+DF000402014,False,g,20,No atual/ No que Esta,0.0
+DF000402014,False,g,20,Outras respostas,1.0
+DF000402014,False,g,20,Nao sabe,33.0
+DF000402014,False,g,20,Recusa,0.0
+DF000402014,False,g,20,Total em %,100.0
+DF000402014,False,g,20,Base ponderada,765.0
+DF000402014,False,g,20,Total Nos. absolutos,765.0
+MG000632014,False,g,21,Fernando Pimentel,6.0
+MG000632014,False,g,21,Pimenta da Veiga,5.0
+MG000632014,False,g,21,Aecio Neves,3.0
+MG000632014,False,g,21,Anastasia,1.0
+MG000632014,False,g,21,Tarcisio Delgado,0.0
+MG000632014,False,g,21,No atual/ No que esta,0.0
+MG000632014,False,g,21,Cleide Donaria,0.0
+MG000632014,False,g,21,Fidelis,0.0
+MG000632014,False,g,21,Outras respostas,4.0
+MG000632014,False,g,21,Branco/ Nulo/ Nenhum,8.0
+MG000632014,False,g,21,Nao Sabe,72.0
+MG000632014,False,g,21,Nao Vota,0.0
+MG000632014,False,g,21,Total em %,100.0
+MG000632014,False,g,21,Base ponderada,1238.0
+MG000632014,False,g,21,Total Nos. absolutos,1238.0
+MG000752014,False,g,22,Fernando Pimentel,15.0
+MG000752014,False,g,22,Pimenta da Veiga,7.0
+MG000752014,False,g,22,Aecio Neves,2.0
+MG000752014,False,g,22,Anastacia,1.0
+MG000752014,False,g,22,Tarcisio Delgado,1.0
+MG000752014,False,g,22,Outras respostas,2.0
+MG000752014,False,g,22,Branco/ Nulo/ Nenhum,8.0
+MG000752014,False,g,22,Nao Sabe,64.0
+MG000752014,False,g,22,Total em %,100.0
+MG000752014,False,g,22,Base ponderada,1212.0
+MG000752014,False,g,22,Total Nos. absolutos,1212.0
+MG000802014,False,g,23,Fernando Pimentel,14.0
+MG000802014,False,g,23,Pimenta da Veiga,8.0
+MG000802014,False,g,23,Antonio Anastasia,2.0
+MG000802014,False,g,23,Aecio Neves,1.0
+MG000802014,False,g,23,Tarcisio Delgado,1.0
+MG000802014,False,g,23,No candidato do PT/ candidato do Lula,0.0
+MG000802014,False,g,23,Eduardo Ferreira,0.0
+MG000802014,False,g,23,Professor Tulio Lopes,0.0
+MG000802014,False,g,23,Fidelis,0.0
+MG000802014,False,g,23,Branco/ Nulo/ Nenhum,7.0
+MG000802014,False,g,23,Outras respostas,2.0
+MG000802014,False,g,23,Nao Sabe,65.0
+MG000802014,False,g,23,Recusa,0.0
+MG000802014,False,g,23,Total em %,100.0
+MG000802014,False,g,23,Base ponderada,1295.0
+MG000802014,False,g,23,Total Nos. absolutos,1295.0
+MG001152014,False,g,24,Nao Sabe,54.0
+MG001152014,False,g,24,Fernando Pimentel,20.0
+MG001152014,False,g,24,Pimenta da Veiga,11.0
+MG001152014,False,g,24,Branco/ Nulo/ Nenhum,5.0
+MG001152014,False,g,24,Outras respostas,4.0
+MG001152014,False,g,24,Antonio Anastasia,3.0
+MG001152014,False,g,24,Aecio Neves,1.0
+MG001152014,False,g,24,Tarcisio Delgado,1.0
+MG001152014,False,g,24,No candidato do PT/ candidato do Lula,1.0
+MG001152014,False,g,24,Fidelis,0.0
+MG001152014,False,g,24,Cleide Donaria,0.0
+MG001152014,False,g,24,Professor Tulio Lopes,0.0
+MG001152014,False,g,24,Eduardo Ferreira,0.0
+MG001152014,False,g,24,Total em %,100.0
+MG001152014,False,g,24,Base ponderada,1457.0
+MG001152014,False,g,24,Total Nos. absolutos,1457.0
+MG001732014,False,g,25,Fernando Pimentel,27.0
+MG001732014,False,g,25,Pimenta da Veiga,14.0
+MG001732014,False,g,25,Antonio Anastasia,2.0
+MG001732014,False,g,25,Tarcisio Delgado,1.0
+MG001732014,False,g,25,Aecio Neves,1.0
+MG001732014,False,g,25,Fidelis,0.0
+MG001732014,False,g,25,Eduardo Ferreira,0.0
+MG001732014,False,g,25,Professor Tulio Lopes,0.0
+MG001732014,False,g,25,No candidato do PT/ candidato do Lula,1.0
+MG001732014,False,g,25,Outras respostas,3.0
+MG001732014,False,g,25,Branco/ Nulo/ Nenhum,8.0
+MG001732014,False,g,25,Nao Sabe,42.0
+MG001732014,False,g,25,Total em %,100.0
+MG001732014,False,g,25,Base ponderada,1474.0
+MG001732014,False,g,25,Total Nos. absolutos,1474.0
+PE000172014,False,g,26,Armando Monteiro,16.0
+PE000172014,False,g,26,Paulo Camara,6.0
+PE000172014,False,g,26,Pantaleao,0.0
+PE000172014,False,g,26,Branco/ Nulo/ Nenhum,8.0
+PE000172014,False,g,26,Outras respostas,7.0
+PE000172014,False,g,26,Nao Sabe,62.0
+PE000172014,False,g,26,Nao Vota,0.0
+PE000172014,False,g,26,Total em %,100.0
+PE000172014,False,g,26,Base ponderada,1198.0
+PE000172014,False,g,26,Total Nos. absolutos,1198.0
+PE000212014,False,g,27,Paulo Camara,28.0
+PE000212014,False,g,27,Armando Monteiro,17.0
+PE000212014,False,g,27,Ze Gomes,0.0
+PE000212014,False,g,27,Jair Pedro,0.0
+PE000212014,False,g,27,Miguel Anacleto,0.0
+PE000212014,False,g,27,Outras respostas,4.0
+PE000212014,False,g,27,Branco/ Nulo/ Nenhum,6.0
+PE000212014,False,g,27,Nao Vota,0.0
+PE000212014,False,g,27,Nao Sabe,44.0
+PE000212014,False,g,27,Total em %,100.0
+PE000212014,False,g,27,Base ponderada,1185.0
+PE000212014,False,g,27,Total Nos. absolutos,1185.0
+PE000232014,False,g,28,Paulo Camara,32.0
+PE000232014,False,g,28,Armando Monteiro,18.0
+PE000232014,False,g,28,Ze Gomes,0.0
+PE000232014,False,g,28,No candidato do PT/ candidato da Dilma,0.0
+PE000232014,False,g,28,Jair Pedro,0.0
+PE000232014,False,g,28,Miguel Anacleto,0.0
+PE000232014,False,g,28,Branco/ Nulo/ Nenhum,7.0
+PE000232014,False,g,28,Outras respostas,4.0
+PE000232014,False,g,28,Nao Sabe,39.0
+PE000232014,False,g,28,Recusa,0.0
+PE000232014,False,g,28,Nao Vota,0.0
+PE000232014,False,g,28,Total em %,100.0
+PE000232014,False,g,28,Base ponderada,1211.0
+PE000232014,False,g,28,Total Nos. absolutos,1211.0
+PE000362014,False,g,29,Paulo Camara,36.0
+PE000362014,False,g,29,Armando Monteiro,23.0
+PE000362014,False,g,29,Pantaleao,0.0
+PE000362014,False,g,29,Jair Pedro,0.0
+PE000362014,False,g,29,Outras respostas,7.0
+PE000362014,False,g,29,Nao Vota,0.0
+PE000362014,False,g,29,Branco/ Nulo/ Nenhum,6.0
+PE000362014,False,g,29,Nao Sabe,28.0
+PE000362014,False,g,29,Total em %,100.0
+PE000362014,False,g,29,Base ponderada,1264.0
+PE000362014,False,g,29,Total Nos. absolutos,1264.0
+PO813763,False,g,30,Rollemberg,31.0
+PO813763,False,g,30,Agnelo Queiroz,19.0
+PO813763,False,g,30,Jofran Frejat,19.0
+PO813763,False,g,30,Luiz Pitiman,2.0
+PO813763,False,g,30,Toninho do PSOL,2.0
+PO813763,False,g,30,No atual/ No que Esta,0.0
+PO813763,False,g,30,Nao Vota,0.0
+PO813763,False,g,30,Outras respostas,2.0
+PO813763,False,g,30,Branco/ Nulo/ Nenhum,4.0
+PO813763,False,g,30,Nao sabe,21.0
+PO813763,False,g,30,Total em %,100.0
+PO813763,False,g,30,Base ponderada,1199.0
+PO813763,False,g,30,Total Nos. absolutos,1199.0
+PR000142014,False,g,31,Beto Richa,17.0
+PR000142014,False,g,31,Requiao,16.0
+PR000142014,False,g,31,Gleisi Hoffmann,5.0
+PR000142014,False,g,31,No atual/ No que esta,0.0
+PR000142014,False,g,31,Ogier Buchi,0.0
+PR000142014,False,g,31,Bernardo Pilotto,0.0
+PR000142014,False,g,31,Branco/ Nulo/ Nenhum,5.0
+PR000142014,False,g,31,Outras respostas,2.0
+PR000142014,False,g,31,Nao Sabe,55.0
+PR000142014,False,g,31,Nao Vota,0.0
+PR000142014,False,g,31,Total em %,100.0
+PR000142014,False,g,31,Base ponderada,1226.0
+PR000142014,False,g,31,Total Nos. absolutos,1226.0
+PR000312014,False,g,32,Beto Richa,31.0
+PR000312014,False,g,32,Requiao,18.0
+PR000312014,False,g,32,Gleisi Hoffmann,6.0
+PR000312014,False,g,32,Ogier Buchi,0.0
+PR000312014,False,g,32,Bernardo Pilotto,0.0
+PR000312014,False,g,32,Geonisio Marinho,0.0
+PR000312014,False,g,32,No atual/No que esta,0.0
+PR000312014,False,g,32,No candidato do PT/ candidato do Lula,0.0
+PR000312014,False,g,32,Outras respostas,2.0
+PR000312014,False,g,32,Branco/ Nulo/ Nenhum,4.0
+PR000312014,False,g,32,Nao Vota,0.0
+PR000312014,False,g,32,Nao Sabe,38.0
+PR000312014,False,g,32,Total em %,100.0
+PR000312014,False,g,32,Base ponderada,1201.0
+PR000312014,False,g,32,Total Nos. absolutos,1201.0
+PR000352014,False,g,33,Beto Richa,31.0
+PR000352014,False,g,33,Requiao,21.0
+PR000352014,False,g,33,Gleisi Hoffmann,6.0
+PR000352014,False,g,33,Alvaro Dias,1.0
+PR000352014,False,g,33,Ogier Buchi,0.0
+PR000352014,False,g,33,Tulio Bandeira,0.0
+PR000352014,False,g,33,No atual/No que esta,0.0
+PR000352014,False,g,33,Bernardo Pilotto,0.0
+PR000352014,False,g,33,Outras respostas,2.0
+PR000352014,False,g,33,Branco/ Nulo/ Nenhum,5.0
+PR000352014,False,g,33,Nao Sabe,34.0
+PR000352014,False,g,33,Total em %,100.0
+PR000352014,False,g,33,Base ponderada,1256.0
+PR000352014,False,g,33,Total Nos. absolutos,1256.0
+PR000392014,False,g,34,Beto Richa,33.0
+PR000392014,False,g,34,Requiao,22.0
+PR000392014,False,g,34,Gleisi Hoffmann,7.0
+PR000392014,False,g,34,Ogier Buchi,0.0
+PR000392014,False,g,34,Bernardo Pilotto,0.0
+PR000392014,False,g,34,Geonisio Marinho,0.0
+PR000392014,False,g,34,No atual/No que esta,0.0
+PR000392014,False,g,34,Branco/ Nulo/ Nenhum,4.0
+PR000392014,False,g,34,Outras respostas,1.0
+PR000392014,False,g,34,Nao Sabe,31.0
+PR000392014,False,g,34,Total em %,100.0
+PR000392014,False,g,34,Base ponderada,1333.0
+PR000392014,False,g,34,Total Nos. absolutos,1333.0
+PR000392014,False,s,35,Alvaro Dias (PSDB),63.0
+PR000392014,False,s,35,Ricardo Gomyde (PCdoB),8.0
+PR000392014,False,s,35,Marcelo Almeida (PMDB),4.0
+PR000392014,False,s,35,Professor Piva (PSOL),1.0
+PR000392014,False,s,35,Adilson Senador da Familia (PRTB),1.0
+PR000392014,False,s,35,Luiz Barbara (PTC),0.0
+PR000392014,False,s,35,Mauri Viana (PRP),0.0
+PR000392014,False,s,35,Castagna (PSTU),0.0
+PR000392014,False,s,35,Em branco/nulo/ nenhum,8.0
+PR000392014,False,s,35,Nao sabe,15.0
+PR000392014,False,s,35,Total em %,100.0
+PR000392014,False,s,35,Base ponderada,1333.0
+PR000392014,False,s,35,Total Nos. absolutos,1333.0
+PR000452014,False,g,36,Beto Richa,38.0
+PR000452014,False,g,36,Requiao,21.0
+PR000452014,False,g,36,Gleisi Hoffmann,7.0
+PR000452014,False,g,36,Ogier Buchi,0.0
+PR000452014,False,g,36,Bernardo Pilotto,0.0
+PR000452014,False,g,36,Rodrigo Tomazini,0.0
+PR000452014,False,g,36,No atual/No que esta,0.0
+PR000452014,False,g,36,Outras respostas,3.0
+PR000452014,False,g,36,Branco/ Nulo/ Nenhum,3.0
+PR000452014,False,g,36,Nao Sabe,27.0
+PR000452014,False,g,36,Total em %,100.0
+PR000452014,False,g,36,Base ponderada,1367.0
+PR000452014,False,g,36,Total Nos. absolutos,1367.0
+RJ000192014,False,g,37,Garotinho,12.0
+RJ000192014,False,g,37,Luiz Fernando Pezao,8.0
+RJ000192014,False,g,37,Marcelo Crivella,5.0
+RJ000192014,False,g,37,Lindberg Farias,2.0
+RJ000192014,False,g,37,Sergio Cabral,1.0
+RJ000192014,False,g,37,Dayse Oliveira,0.0
+RJ000192014,False,g,37,Tarcisio Motta,0.0
+RJ000192014,False,g,37,No atual/ No que esta,0.0
+RJ000192014,False,g,37,No candidato do PT/ candidato da Dilma,0.0
+RJ000192014,False,g,37,Ney Nunes,0.0
+RJ000192014,False,g,37,Branco/ Nulo/ Nenhum,14.0
+RJ000192014,False,g,37,Outras respostas,2.0
+RJ000192014,False,g,37,Nao Sabe,55.0
+RJ000192014,False,g,37,Nao Vota,0.0
+RJ000192014,False,g,37,Total em %,100.0
+RJ000192014,False,g,37,Base ponderada,1317.0
+RJ000192014,False,g,37,Total Nos. absolutos,1317.0
+RJ000282014,False,g,38,Luiz Fernando Pezao,17.0
+RJ000282014,False,g,38,Garotinho,16.0
+RJ000282014,False,g,38,Marcelo Crivella,9.0
+RJ000282014,False,g,38,Lindberg Farias,5.0
+RJ000282014,False,g,38,Tarcisio Motta,1.0
+RJ000282014,False,g,38,Outras respostas,2.0
+RJ000282014,False,g,38,Branco/ Nulo/ Nenhum,11.0
+RJ000282014,False,g,38,Nao Sabe,39.0
+RJ000282014,False,g,38,Total em %,100.0
+RJ000282014,False,g,38,Base ponderada,1308.0
+RJ000282014,False,g,38,Total Nos. absolutos,1308.0
+RJ000462014,False,g,39,Luiz Fernando Pezao,24.0
+RJ000462014,False,g,39,Garotinho,15.0
+RJ000462014,False,g,39,Marcelo Crivella,9.0
+RJ000462014,False,g,39,Lindberg Farias,5.0
+RJ000462014,False,g,39,Tarcisio Motta,1.0
+RJ000462014,False,g,39,Ney Nunes,0.0
+RJ000462014,False,g,39,Dayse Oliveira,0.0
+RJ000462014,False,g,39,Outras respostas,1.0
+RJ000462014,False,g,39,Branco/ Nulo/ Nenhum,9.0
+RJ000462014,False,g,39,Nao Sabe,35.0
+RJ000462014,False,g,39,Recusa,0.0
+RJ000462014,False,g,39,Total em %,100.0
+RJ000462014,False,g,39,Base ponderada,1405.0
+RJ000462014,False,g,39,Total Nos. absolutos,1405.0
+RJ000592014,False,g,40,Luiz Fernando Pezao,24.0
+RJ000592014,False,g,40,Garotinho,13.0
+RJ000592014,False,g,40,Marcelo Crivella,11.0
+RJ000592014,False,g,40,Lindberg Farias,6.0
+RJ000592014,False,g,40,Tarcisio Motta,4.0
+RJ000592014,False,g,40,Dayse Oliveira,0.0
+RJ000592014,False,g,40,Ney Nunes,0.0
+RJ000592014,False,g,40,No atual/ No que esta,0.0
+RJ000592014,False,g,40,Outras respostas,2.0
+RJ000592014,False,g,40,Branco/ Nulo/ Nenhum,9.0
+RJ000592014,False,g,40,Nao Vota,0.0
+RJ000592014,False,g,40,Recusa,0.0
+RJ000592014,False,g,40,Nao Sabe,31.0
+RJ000592014,False,g,40,Total em %,100.0
+RJ000592014,False,g,40,Base ponderada,1496.0
+RJ000592014,False,g,40,Total Nos. absolutos,1496.0
+RS000092014,False,g,41,Ana Amelia Lemos,13.0
+RS000092014,False,g,41,Tarso Genro,12.0
+RS000092014,False,g,41,Jose Ivo Sartori,2.0
+RS000092014,False,g,41,Vieira da Cunha,1.0
+RS000092014,False,g,41,Roberto Robaina,0.0
+RS000092014,False,g,41,No atual/ No que esta,0.0
+RS000092014,False,g,41,No candidato do PT/ candidato da Dilma,0.0
+RS000092014,False,g,41,Outras respostas,3.0
+RS000092014,False,g,41,Branco/ Nulo/ Nenhum,7.0
+RS000092014,False,g,41,Nao Sabe,61.0
+RS000092014,False,g,41,Nao Vota,0.0
+RS000092014,False,g,41,Total em %,100.0
+RS000092014,False,g,41,Base ponderada,1233.0
+RS000092014,False,g,41,Total Nos. absolutos,1233.0
+RS000122014,False,g,42,Ana Amelia Lemos,21.0
+RS000122014,False,g,42,Tarso Genro,18.0
+RS000122014,False,g,42,Jose Ivo Sartori,6.0
+RS000122014,False,g,42,Vieira da Cunha,1.0
+RS000122014,False,g,42,Roberto Robaina,0.0
+RS000122014,False,g,42,Joao Carlos Rodrigues,0.0
+RS000122014,False,g,42,Outras respostas,3.0
+RS000122014,False,g,42,Branco/ Nulo/ Nenhum,3.0
+RS000122014,False,g,42,Recusa/ Nao respondeu,0.0
+RS000122014,False,g,42,Nao Sabe,48.0
+RS000122014,False,g,42,Total em %,100.0
+RS000122014,False,g,42,Base ponderada,1197.0
+RS000122014,False,g,42,Total Nos. absolutos,1197.0
+RS000152014,False,g,43,Ana Amelia Lemos,20.0
+RS000152014,False,g,43,Tarso Genro,18.0
+RS000152014,False,g,43,Jose Ivo Sartori,7.0
+RS000152014,False,g,43,Vieira da Cunha,1.0
+RS000152014,False,g,43,Roberto Robaina,0.0
+RS000152014,False,g,43,Estivalete,0.0
+RS000152014,False,g,43,No candidato do PT/ candidato da Dilma,0.0
+RS000152014,False,g,43,Outras respostas,3.0
+RS000152014,False,g,43,Branco/ Nulo/ Nenhum,6.0
+RS000152014,False,g,43,Nao Vota,0.0
+RS000152014,False,g,43,Nao Sabe,46.0
+RS000152014,False,g,43,Total em %,100.0
+RS000152014,False,g,43,Base ponderada,1258.0
+RS000152014,False,g,43,Total Nos. absolutos,1258.0
+RS000212014,False,g,44,Tarso Genro,20.0
+RS000212014,False,g,44,Ana Amelia Lemos,20.0
+RS000212014,False,g,44,Jose Ivo Sartori,13.0
+RS000212014,False,g,44,Vieira da Cunha,1.0
+RS000212014,False,g,44,Roberto Robaina,0.0
+RS000212014,False,g,44,No candidato do PT/ candidato da Dilma,0.0
+RS000212014,False,g,44,No atual/ No que esta,0.0
+RS000212014,False,g,44,Outras respostas,2.0
+RS000212014,False,g,44,Branco/ Nulo/ Nenhum,5.0
+RS000212014,False,g,44,Recusa,0.0
+RS000212014,False,g,44,Nao Sabe,39.0
+RS000212014,False,g,44,Total em %,100.0
+RS000212014,False,g,44,Base ponderada,1374.0
+RS000212014,False,g,44,Total Nos. absolutos,1374.0
+RS000232014,False,g,45,Tarso Genro,22.0
+RS000232014,False,g,45,Ana Amelia Lemos,20.0
+RS000232014,False,g,45,Jose Ivo Sartori,19.0
+RS000232014,False,g,45,Vieira da Cunha,1.0
+RS000232014,False,g,45,Roberto Robaina,0.0
+RS000232014,False,g,45,No atual/ No que esta,0.0
+RS000232014,False,g,45,No candidato do PT/ candidato da Dilma,0.0
+RS000232014,False,g,45,Humberto Carvalho,0.0
+RS000232014,False,g,45,Branco/ Nulo/ Nenhum,3.0
+RS000232014,False,g,45,Outras respostas,3.0
+RS000232014,False,g,45,Nao Sabe,31.0
+RS000232014,False,g,45,Nao Vota,0.0
+RS000232014,False,g,45,Total em %,100.0
+RS000232014,False,g,45,Base ponderada,1355.0
+RS000232014,False,g,45,Total Nos. absolutos,1357.0
+RS000262014,False,g,46,Tarso Genro,25.0
+RS000262014,False,g,46,Jose Ivo Sartori,21.0
+RS000262014,False,g,46,Ana Amelia Lemos,20.0
+RS000262014,False,g,46,Vieira da Cunha,2.0
+RS000262014,False,g,46,Roberto Robaina,1.0
+RS000262014,False,g,46,No candidato do PT/ candidato da Dilma,0.0
+RS000262014,False,g,46,Estivalete,0.0
+RS000262014,False,g,46,No atual/ No que esta,0.0
+RS000262014,False,g,46,Humberto Carvalho,0.0
+RS000262014,False,g,46,Outras respostas,2.0
+RS000262014,False,g,46,Nulo/ Nenhum,4.0
+RS000262014,False,g,46,Nao Sabe,25.0
+RS000262014,False,g,46,Recusa,0.0
+RS000262014,False,g,46,Total em %,100.0
+RS000262014,False,g,46,Base ponderada,1886.0
+RS000262014,False,g,46,Total Nos. absolutos,1886.0
+SP000162014,False,g,47,Geraldo Alckmin,20.0
+SP000162014,False,g,47,Skaf,4.0
+SP000162014,False,g,47,Padilha,2.0
+SP000162014,False,g,47,No candidato do PT/ candidato da Dilma,1.0
+SP000162014,False,g,47,No atual/ No que esta,0.0
+SP000162014,False,g,47,Gilberto Natalini,0.0
+SP000162014,False,g,47,Outras respostas,2.0
+SP000162014,False,g,47,Branco/ Nulo/ Nenhum,12.0
+SP000162014,False,g,47,Nao Sabe,59.0
+SP000162014,False,g,47,Nao Vota,0.0
+SP000162014,False,g,47,Total em %,100.0
+SP000162014,False,g,47,Base ponderada,2045.0
+SP000162014,False,g,47,Total Nos. absolutos,2045.0
+SP000512014,False,g,48,Geraldo Alckmin,31.0
+SP000512014,False,g,48,Skaf,14.0
+SP000512014,False,g,48,Padilha,5.0
+SP000512014,False,g,48,No candidato do PT/ candidato da Dilma,1.0
+SP000512014,False,g,48,No atual/ No que esta,0.0
+SP000512014,False,g,48,Wagner Farias,0.0
+SP000512014,False,g,48,Maringoni,0.0
+SP000512014,False,g,48,Gilberto Natalini,0.0
+SP000512014,False,g,48,Laercio Benko,0.0
+SP000512014,False,g,48,Raimundo Sena,0.0
+SP000512014,False,g,48,Outras respostas,4.0
+SP000512014,False,g,48,Branco/ Nulo/ Nenhum,8.0
+SP000512014,False,g,48,Nao Vota,0.0
+SP000512014,False,g,48,Nao Sabe,36.0
+SP000512014,False,g,48,Recusa,0.0
+SP000512014,False,g,48,Total em %,100.0
+SP000512014,False,g,48,Base ponderada,2132.0
+SP000512014,False,g,48,Total Nos. absolutos,2132.0
+SP000542014,False,g,49,Geraldo Alckmin,32.0
+SP000542014,False,g,49,Skaf,14.0
+SP000542014,False,g,49,Padilha,6.0
+SP000542014,False,g,49,Jose Serra,2.0
+SP000542014,False,g,49,Maringoni,0.0
+SP000542014,False,g,49,Laercio Benko,0.0
+SP000542014,False,g,49,Gilberto Natalini,0.0
+SP000542014,False,g,49,Wagner Farias,0.0
+SP000542014,False,g,49,Walter Ciglioni,0.0
+SP000542014,False,g,49,No candidato do PT/ candidato da Dilma,1.0
+SP000542014,False,g,49,No atual/ No que esta,0.0
+SP000542014,False,g,49,Outras respostas,3.0
+SP000542014,False,g,49,Nao Vota,0.0
+SP000542014,False,g,49,Branco/ Nulo/ Nenhum,8.0
+SP000542014,False,g,49,Recusa,0.0
+SP000542014,False,g,49,Nao Sabe,34.0
+SP000542014,False,g,49,Total em %,100.0
+SP000542014,False,g,49,Base ponderada,2112.0
+SP000542014,False,g,49,Total Nos. absolutos,2112.0
+BR003862014,True,pr,50,Dilma (PT),41.0
+BR003862014,True,pr,50,Marina Silva (PSB),21.0
+BR003862014,True,pr,50,Aecio Neves (PSDB),25.0
+BR003862014,True,pr,50,Pastor Everaldo (PSC),4.0
+BR003862014,True,pr,50,Eduardo Jorge (PV),1.0
+BR003862014,True,pr,50,Ze Maria (PSTU),1.0
+BR003862014,True,pr,50,Rui Costa Pimenta (PCO),1.0
+BR003862014,True,pr,50,Luciana Genro (PSOL),1.0
+BR003862014,True,pr,50,Mauro Iasi (PCB),0.0
+BR003862014,True,pr,50,Levy Fidelix (PRTB),0.0
+BR003862014,True,pr,50,Eymael (PSDC),0.0
+BR003862014,True,pr,50,Nao sabe,12.0
+BR003862014,True,pr,50,Em branco/nulo/ nenhum,13.0
+BR003862014,True,pr,50,Total em %,100.0
+BR003862014,True,pr,50,Base ponderada,2843.0
+BR003862014,True,pr,50,Total Nos. absolutos,2843.0
+BR005172014,True,pr,51,Dilma (PT),35.0
+BR005172014,True,pr,51,Marina Silva (PSB),34.0
+BR005172014,True,pr,51,Aecio Neves (PSDB),14.0
+BR005172014,True,pr,51,Pastor Everaldo (PSC),1.0
+BR005172014,True,pr,51,Eduardo Jorge (PV),1.0
+BR005172014,True,pr,51,Luciana Genro (PSOL),1.0
+BR005172014,True,pr,51,Ze Maria (PSTU),1.0
+BR005172014,True,pr,51,Rui Costa Pimenta (PCO),0.0
+BR005172014,True,pr,51,Mauro Iasi (PCB),0.0
+BR005172014,True,pr,51,Levy Fidelix (PRTB),0.0
+BR005172014,True,pr,51,Eymael (PSDC),0.0
+BR005172014,True,pr,51,Em branco/nulo/ nenhum,6.0
+BR005172014,True,pr,51,Nao sabe,7.0
+BR005172014,True,pr,51,Total em %,100.0
+BR005172014,True,pr,51,Base ponderada,10054.0
+BR005172014,True,pr,51,Total Nos. absolutos,10054.0
+BR005842014,True,pr,52,Marina Silva (PSB),43.0
+BR005842014,True,pr,52,Dilma (PT),22.0
+BR005842014,True,pr,52,Aecio Neves (PSDB),17.0
+BR005842014,True,pr,52,Pastor Everaldo (PSC),1.0
+BR005842014,True,pr,52,Ze Maria (PSTU),1.0
+BR005842014,True,pr,52,Luciana Genro (PSOL),1.0
+BR005842014,True,pr,52,Eymael (PSDC),0.0
+BR005842014,True,pr,52,Rui Costa Pimenta (PCO),0.0
+BR005842014,True,pr,52,Mauro Iasi (PCB),0.0
+BR005842014,True,pr,52,Eduardo Jorge (PV),0.0
+BR005842014,True,pr,52,Em branco/ nulo/ nenhum,6.0
+BR005842014,True,pr,52,Nao sabe,9.0
+BR005842014,True,pr,52,Total em %,100.0
+BR005842014,True,pr,52,Base ponderada,765.0
+BR005842014,True,pr,52,Total Nos. absolutos,765.0
+BR005842014,True,pr,53,Marina Silva (PSB),44.0
+BR005842014,True,pr,53,Dilma (PT),34.0
+BR005842014,True,pr,53,Aecio Neves (PSDB),8.0
+BR005842014,True,pr,53,Ze Maria (PSTU),0.0
+BR005842014,True,pr,53,Outros nomes,0.0
+BR005842014,True,pr,53,Nenhum deles,1.0
+BR005842014,True,pr,53,Nao sabe,13.0
+BR005842014,True,pr,53,Total em %,100.0
+BR005842014,True,pr,53,Base ponderada,765.0
+BR005842014,True,pr,53,Total Nos. absolutos,765.0
+BR005842014,True,pr,54,Dilma (PT),33.0
+BR005842014,True,pr,54,Aecio Neves (PSDB),26.0
+BR005842014,True,pr,54,Marina Silva (PSB),25.0
+BR005842014,True,pr,54,Pastor Everaldo (PSC),1.0
+BR005842014,True,pr,54,Eduardo Jorge (PV),0.0
+BR005842014,True,pr,54,Ze Maria (PSTU),0.0
+BR005842014,True,pr,54,Luciana Genro (PSOL),0.0
+BR005842014,True,pr,54,Rui Costa Pimenta (PCO),0.0
+BR005842014,True,pr,54,Levy Fidelix (PRTB),0.0
+BR005842014,True,pr,54,Mauro Iasi (PCB),0.0
+BR005842014,True,pr,54,Em branco/nulo/ nenhum,5.0
+BR005842014,True,pr,54,Nao sabe,9.0
+BR005842014,True,pr,54,Total em %,100.0
+BR005842014,True,pr,54,Base ponderada,1295.0
+BR005842014,True,pr,54,Total Nos. absolutos,1295.0
+BR005842014,True,pr,55,Dilma (PT),45.0
+BR005842014,True,pr,55,Marina Silva (PSB),27.0
+BR005842014,True,pr,55,Aecio Neves (PSDB),12.0
+BR005842014,True,pr,55,Luciana Genro (PSOL),0.0
+BR005842014,True,pr,55,Outros nomes,0.0
+BR005842014,True,pr,55,Nenhum deles,0.0
+BR005842014,True,pr,55,Nao sabe,15.0
+BR005842014,True,pr,55,Total em %,100.0
+BR005842014,True,pr,55,Base ponderada,1295.0
+BR005842014,True,pr,55,Total Nos. absolutos,1295.0
+BR005842014,True,pr,56,Marina Silva (PSB),45.0
+BR005842014,True,pr,56,Dilma (PT),38.0
+BR005842014,True,pr,56,Aecio Neves (PSDB),2.0
+BR005842014,True,pr,56,Pastor Everaldo (PSC),1.0
+BR005842014,True,pr,56,Eduardo Jorge (PV),1.0
+BR005842014,True,pr,56,Rui Costa Pimenta (PCO),0.0
+BR005842014,True,pr,56,Luciana Genro (PSOL),0.0
+BR005842014,True,pr,56,Mauro Iasi (PCB),0.0
+BR005842014,True,pr,56,Ze Maria (PSTU),0.0
+BR005842014,True,pr,56,Levy Fidelix (PRTB),0.0
+BR005842014,True,pr,56,Eymael (PSDC),0.0
+BR005842014,True,pr,56,Em branco/ nulo/ nenhum,6.0
+BR005842014,True,pr,56,Nao sabe,7.0
+BR005842014,True,pr,56,Total em %,100.0
+BR005842014,True,pr,56,Base ponderada,1211.0
+BR005842014,True,pr,56,Total Nos. absolutos,1211.0
+BR005842014,True,pr,57,Marina Silva (PSB),45.0
+BR005842014,True,pr,57,Dilma (PT),41.0
+BR005842014,True,pr,57,Aecio Neves (PSDB),1.0
+BR005842014,True,pr,57,Eduardo Jorge (PV),0.0
+BR005842014,True,pr,57,Luciana Genro (PSOL),0.0
+BR005842014,True,pr,57,Rui Costa Pimenta (PCO),0.0
+BR005842014,True,pr,57,Outros nomes,0.0
+BR005842014,True,pr,57,Nenhum deles,0.0
+BR005842014,True,pr,57,Nao sabe,12.0
+BR005842014,True,pr,57,Total em %,100.0
+BR005842014,True,pr,57,Base ponderada,1211.0
+BR005842014,True,pr,57,Total Nos. absolutos,1211.0
+BR005842014,True,pr,58,Marina Silva (PSB),36.0
+BR005842014,True,pr,58,Dilma (PT),30.0
+BR005842014,True,pr,58,Aecio Neves (PSDB),12.0
+BR005842014,True,pr,58,Pastor Everaldo (PSC),1.0
+BR005842014,True,pr,58,Luciana Genro (PSOL),1.0
+BR005842014,True,pr,58,Eduardo Jorge (PV),1.0
+BR005842014,True,pr,58,Ze Maria (PSTU),1.0
+BR005842014,True,pr,58,Mauro Iasi (PCB),0.0
+BR005842014,True,pr,58,Rui Costa Pimenta (PCO),0.0
+BR005842014,True,pr,58,Eymael (PSDC),0.0
+BR005842014,True,pr,58,Levy Fidelix (PRTB),0.0
+BR005842014,True,pr,58,Em branco/nulo/ nenhum,9.0
+BR005842014,True,pr,58,Nao sabe,7.0
+BR005842014,True,pr,58,Total em %,100.0
+BR005842014,True,pr,58,Base ponderada,1348.0
+BR005842014,True,pr,58,Total Nos. absolutos,1348.0
+BR005842014,True,pr,59,Dilma (PT),41.0
+BR005842014,True,pr,59,Marina Silva (PSB),37.0
+BR005842014,True,pr,59,Aecio Neves (PSDB),5.0
+BR005842014,True,pr,59,Eduardo Jorge (PV),0.0
+BR005842014,True,pr,59,Levy Fidelix (PRTB),0.0
+BR005842014,True,pr,59,Pastor Everaldo (PSC),0.0
+BR005842014,True,pr,59,Outros nomes,0.0
+BR005842014,True,pr,59,Nenhum deles,0.0
+BR005842014,True,pr,59,Nao sabe,16.0
+BR005842014,True,pr,59,Total em %,100.0
+BR005842014,True,pr,59,Base ponderada,1348.0
+BR005842014,True,pr,59,Total Nos. absolutos,1348.0
+BR005842014,True,pr,60,Marina Silva (PSB),40.0
+BR005842014,True,pr,60,Dilma (PT),26.0
+BR005842014,True,pr,60,Aecio Neves (PSDB),16.0
+BR005842014,True,pr,60,Pastor Everaldo (PSC),2.0
+BR005842014,True,pr,60,Luciana Genro (PSOL),1.0
+BR005842014,True,pr,60,Eduardo Jorge (PV),1.0
+BR005842014,True,pr,60,Levy Fidelix (PRTB),1.0
+BR005842014,True,pr,60,Rui Costa Pimenta (PCO),0.0
+BR005842014,True,pr,60,Eymael (PSDC),0.0
+BR005842014,True,pr,60,Mauro Iasi (PCB),0.0
+BR005842014,True,pr,60,Ze Maria (PSTU),0.0
+BR005842014,True,pr,60,Em branco/nulo/ nenhum,8.0
+BR005842014,True,pr,60,Nao sabe,6.0
+BR005842014,True,pr,60,Total em %,100.0
+BR005842014,True,pr,60,Base ponderada,2046.0
+BR005842014,True,pr,60,Total Nos. absolutos,2046.0
+BR005842014,True,pr,61,Marina Silva (PSB),43.0
+BR005842014,True,pr,61,Dilma (PT),35.0
+BR005842014,True,pr,61,Aecio Neves (PSDB),6.0
+BR005842014,True,pr,61,Pastor Everaldo (PSC),0.0
+BR005842014,True,pr,61,Ze Maria (PSTU),0.0
+BR005842014,True,pr,61,Outros nomes,0.0
+BR005842014,True,pr,61,Nenhum deles,0.0
+BR005842014,True,pr,61,Nao sabe,14.0
+BR005842014,True,pr,61,Total em %,100.0
+BR005842014,True,pr,61,Base ponderada,2046.0
+BR005842014,True,pr,61,Total Nos. absolutos,2046.0
+BR006652014,True,pr,62,Dilma (PT),37.0
+BR006652014,True,pr,62,Marina Silva (PSB),30.0
+BR006652014,True,pr,62,Aecio Neves (PSDB),17.0
+BR006652014,True,pr,62,Pastor Everaldo (PSC),1.0
+BR006652014,True,pr,62,Luciana Genro (PSOL),1.0
+BR006652014,True,pr,62,Eduardo Jorge (PV),1.0
+BR006652014,True,pr,62,Ze Maria (PSTU),0.0
+BR006652014,True,pr,62,Rui Costa Pimenta (PCO),0.0
+BR006652014,True,pr,62,Eymael (PSDC),0.0
+BR006652014,True,pr,62,Mauro Iasi (PCB),0.0
+BR006652014,True,pr,62,Levy Fidelix (PRTB),0.0
+BR006652014,True,pr,62,Em branco/ nulo/ nenhum,6.0
+BR006652014,True,pr,62,Nao sabe,7.0
+BR006652014,True,pr,62,Total em %,100.0
+BR006652014,True,pr,62,Base ponderada,5340.0
+BR006652014,True,pr,62,Total Nos. absolutos,5340.0
+BR006952014,True,pr,63,Dilma (PT),58.0
+BR006952014,True,pr,63,Marina Silva (PSB),18.0
+BR006952014,True,pr,63,Aecio Neves (PSDB),9.0
+BR006952014,True,pr,63,Pastor Everaldo (PSC),1.0
+BR006952014,True,pr,63,Eduardo Jorge (PV),0.0
+BR006952014,True,pr,63,Ze Maria (PSTU),0.0
+BR006952014,True,pr,63,Luciana Genro (PSOL),0.0
+BR006952014,True,pr,63,Eymael (PSDC),0.0
+BR006952014,True,pr,63,Levy Fidelix (PRTB),0.0
+BR006952014,True,pr,63,Mauro Iasi (PCB),0.0
+BR006952014,True,pr,63,Em branco/nulo/ nenhum,5.0
+BR006952014,True,pr,63,Nao sabe,8.0
+BR006952014,True,pr,63,Total em %,100.0
+BR006952014,True,pr,63,Base ponderada,1200.0
+BR006952014,True,pr,63,Total Nos. absolutos,1200.0
+BR007822014,True,pr,64,Dilma (PT),40.0
+BR007822014,True,pr,64,Marina Silva (PSB),27.0
+BR007822014,True,pr,64,Aecio Neves (PSDB),18.0
+BR007822014,True,pr,64,Pastor Everaldo (PSC),1.0
+BR007822014,True,pr,64,Luciana Genro (PSOL),1.0
+BR007822014,True,pr,64,Eduardo Jorge (PV),1.0
+BR007822014,True,pr,64,Ze Maria (PSTU),0.0
+BR007822014,True,pr,64,Rui Costa Pimenta (PCO),0.0
+BR007822014,True,pr,64,Eymael (PSDC),0.0
+BR007822014,True,pr,64,Levy Fidelix (PRTB),0.0
+BR007822014,True,pr,64,Mauro Iasi (PCB),0.0
+BR007822014,True,pr,64,Em branco/ nulo/ nenhum,5.0
+BR007822014,True,pr,64,Nao sabe,6.0
+BR007822014,True,pr,64,Total em %,100.0
+BR007822014,True,pr,64,Base ponderada,11474.0
+BR007822014,True,pr,64,Total Nos. absolutos,11474.0
+BR009052014,True,pr,65,Dilma (PT),40.0
+BR009052014,True,pr,65,Marina Silva (PSB),25.0
+BR009052014,True,pr,65,Aecio Neves (PSDB),20.0
+BR009052014,True,pr,65,Pastor Everaldo (PSC),1.0
+BR009052014,True,pr,65,Luciana Genro (PSOL),1.0
+BR009052014,True,pr,65,Eduardo Jorge (PV),0.0
+BR009052014,True,pr,65,Rui Costa Pimenta (PCO),0.0
+BR009052014,True,pr,65,Levy Fidelix (PRTB),0.0
+BR009052014,True,pr,65,Ze Maria (PSTU),0.0
+BR009052014,True,pr,65,Eymael (PSDC),0.0
+BR009052014,True,pr,65,Mauro Iasi (PCB),0.0
+BR009052014,True,pr,65,Em branco/ nulo/ nenhum,5.0
+BR009052014,True,pr,65,Nao sabe,5.0
+BR009052014,True,pr,65,Total em %,100.0
+BR009052014,True,pr,65,Base ponderada,7520.0
+BR009052014,True,pr,65,Total Nos. absolutos,7520.0
+BR009332014,True,pr,66,Dilma (PT),40.0
+BR009332014,True,pr,66,Marina Silva (PSB),24.0
+BR009332014,True,pr,66,Aecio Neves (PSDB),21.0
+BR009332014,True,pr,66,Pastor Everaldo (PSC),1.0
+BR009332014,True,pr,66,Luciana Genro (PSOL),1.0
+BR009332014,True,pr,66,Eduardo Jorge (PV),1.0
+BR009332014,True,pr,66,Ze Maria (PSTU),0.0
+BR009332014,True,pr,66,Levy Fidelix (PRTB),0.0
+BR009332014,True,pr,66,Rui Costa Pimenta (PCO),0.0
+BR009332014,True,pr,66,Eymael (PSDC),0.0
+BR009332014,True,pr,66,Mauro Iasi (PCB),0.0
+BR009332014,True,pr,66,Em branco/ nulo/ nenhum,5.0
+BR009332014,True,pr,66,Nao sabe,5.0
+BR009332014,True,pr,66,Total em %,100.0
+BR009332014,True,pr,66,Base ponderada,12022.0
+BR009332014,True,pr,66,Total Nos. absolutos,12022.0
+BR010372014,True,pr,67,Dilma (PT),40.0
+BR010372014,True,pr,67,Aecio Neves (PSDB),24.0
+BR010372014,True,pr,67,Marina Silva (PSB),22.0
+BR010372014,True,pr,67,Nao sabe,5.0
+BR010372014,True,pr,67,Em branco/ nulo/ nenhum,4.0
+BR010372014,True,pr,67,Luciana Genro (PSOL),1.0
+BR010372014,True,pr,67,Pastor Everaldo (PSC),1.0
+BR010372014,True,pr,67,Eduardo Jorge (PV),1.0
+BR010372014,True,pr,67,Levy Fidelix (PRTB),0.0
+BR010372014,True,pr,67,Ze Maria (PSTU),0.0
+BR010372014,True,pr,67,Rui Costa Pimenta (PCO),0.0
+BR010372014,True,pr,67,Eymael (PSDC),0.0
+BR010372014,True,pr,67,Mauro Iasi (PCB),0.0
+BR010372014,True,pr,67,Total em %,100.0
+BR010372014,True,pr,67,Base ponderada,18116.0
+BR010372014,True,pr,67,Total Nos. absolutos,18116.0
+BR010682014,True,pr,68,Aecio Neves (PSDB),46.0
+BR010682014,True,pr,68,Dilma (PT),44.0
+BR010682014,True,pr,68,Em branco/ nulo/ nenhum,4.0
+BR010682014,True,pr,68,Nao sabe,6.0
+BR010682014,True,pr,68,Total em %,100.0
+BR010682014,True,pr,68,Base ponderada,2879.0
+BR010682014,True,pr,68,Total Nos. absolutos,2879.0
+BR010982014,True,pr,69,Aecio Neves (PSDB),45.0
+BR010982014,True,pr,69,Dilma (PT),43.0
+BR010982014,True,pr,69,Em branco/ nulo/ nenhum,6.0
+BR010982014,True,pr,69,Nao sabe,6.0
+BR010982014,True,pr,69,Total em %,100.0
+BR010982014,True,pr,69,Base ponderada,9081.0
+BR010982014,True,pr,69,Total Nos. absolutos,9081.0
+BR010982014,True,pr,70,Aecio Neves (PSDB),45.0
+BR010982014,True,pr,70,Dilma (PT),43.0
+BR010982014,True,pr,70,Total em %,6.0
+BR010982014,True,pr,70,Base ponderada,100.0
+BR010982014,True,pr,70,Total Nos. absolutos,9081.0
+BR011622014,True,pr,71,Dilma (PT),48.0
+BR011622014,True,pr,71,Aecio Neves (PSDB),42.0
+BR011622014,True,pr,71,Nao sabe,5.0
+BR011622014,True,pr,71,Em branco/ nulo/ nenhum,5.0
+BR011622014,True,pr,71,Total em %,100.0
+BR011622014,True,pr,71,Base ponderada,9910.0
+BR011622014,True,pr,71,Total Nos. absolutos,9910.0
+BR012102014,True,pr,72,Dilma (PT),47.0
+BR012102014,True,pr,72,Aecio Neves (PSDB),43.0
+BR012102014,True,pr,72,Em branco/ nulo/ nenhum,5.0
+BR012102014,True,pr,72,Nao sabe,5.0
+BR012102014,True,pr,72,Total em %,100.0
+BR012102014,True,pr,72,Base ponderada,19318.0
+BR012102014,True,pr,72,Total Nos. absolutos,19318.0
+CE000132014,True,g,73,Eunicio (PMDB),47.0
+CE000132014,True,g,73,Camilo (PT),19.0
+CE000132014,True,g,73,Eliane Novais (PSB),7.0
+CE000132014,True,g,73,Ailton Lopes (PSOL),4.0
+CE000132014,True,g,73,Em branco/nulo/ nenhum,10.0
+CE000132014,True,g,73,Nao sabe,13.0
+CE000132014,True,g,73,Total em %,100.0
+CE000132014,True,g,73,Base ponderada,1108.0
+CE000132014,True,g,73,Total Nos. absolutos,1108.0
+CE000212014,True,g,74,Eunicio (PMDB),41.0
+CE000212014,True,g,74,Camilo (PT),31.0
+CE000212014,True,g,74,Eliane Novais (PSB),4.0
+CE000212014,True,g,74,Ailton Lopes (PSOL),2.0
+CE000212014,True,g,74,Em branco/nulo/ nenhum,8.0
+CE000212014,True,g,74,Nao sabe,15.0
+CE000212014,True,g,74,Total em %,100.0
+CE000212014,True,g,74,Base ponderada,1042.0
+CE000212014,True,g,74,Total Nos. absolutos,1042.0
+CE000252014,True,g,75,Eunicio (PMDB),39.0
+CE000252014,True,g,75,Camilo (PT),37.0
+CE000252014,True,g,75,Eliane Novais (PSB),1.0
+CE000252014,True,g,75,Ailton Lopes (PSOL),1.0
+CE000252014,True,g,75,Em branco/nulo/ nenhum,7.0
+CE000252014,True,g,75,Nao sabe,14.0
+CE000252014,True,g,75,Total em %,100.0
+CE000252014,True,g,75,Base ponderada,1280.0
+CE000252014,True,g,75,Total Nos. absolutos,1280.0
+CE000252014,True,s,76,Tasso Jereissati (PSDB),58.0
+CE000252014,True,s,76,Mauro Filho (PROS),21.0
+CE000252014,True,s,76,Raquel Dias (PSTU),1.0
+CE000252014,True,s,76,Geovana Cartaxo (PSB),1.0
+CE000252014,True,s,76,Em branco/nulo/ nenhum,7.0
+CE000252014,True,s,76,Nao sabe,12.0
+CE000252014,True,s,76,Total em %,100.0
+CE000252014,True,s,76,Base ponderada,1280.0
+CE000252014,True,s,76,Total Nos. absolutos,1280.0
+CE000292014,True,g,77,Eunicio (PMDB),41.0
+CE000292014,True,g,77,Camilo (PT),38.0
+CE000292014,True,g,77,Eliane Novais (PSB),3.0
+CE000292014,True,g,77,Ailton Lopes (PSOL),2.0
+CE000292014,True,g,77,Em branco/nulo/ nenhum,6.0
+CE000292014,True,g,77,Nao sabe,11.0
+CE000292014,True,g,77,Total em %,100.0
+CE000292014,True,g,77,Base ponderada,1719.0
+CE000292014,True,g,77,Total Nos. absolutos,1719.0
+CE000292014,True,s,78,Tasso Jereissati (PSDB),57.0
+CE000292014,True,s,78,Mauro Filho (PROS),21.0
+CE000292014,True,s,78,Geovana Cartaxo (PSB),1.0
+CE000292014,True,s,78,Raquel Dias (PSTU),1.0
+CE000292014,True,s,78,Em branco/nulo/ nenhum,9.0
+CE000292014,True,s,78,Nao sabe,12.0
+CE000292014,True,s,78,Total em %,100.0
+CE000292014,True,s,78,Base ponderada,1719.0
+CE000292014,True,s,78,Total Nos. absolutos,1719.0
+CE000322014,True,g,79,Camilo (PT),45.0
+CE000322014,True,g,79,Eunicio (PMDB),40.0
+CE000322014,True,g,79,Em branco/nulo/ nenhum,6.0
+CE000322014,True,g,79,Nao sabe,9.0
+CE000322014,True,g,79,Total em %,100.0
+CE000322014,True,g,79,Base ponderada,1293.0
+CE000322014,True,g,79,Total Nos. absolutos,1293.0
+CE000342014,True,g,80,Camilo (PT),49.0
+CE000342014,True,g,80,Eunicio (PMDB),38.0
+CE000342014,True,g,80,Em branco/nulo/ nenhum,5.0
+CE000342014,True,g,80,Nao sabe,8.0
+CE000342014,True,g,80,Total em %,100.0
+CE000342014,True,g,80,Base ponderada,1240.0
+CE000342014,True,g,80,Total Nos. absolutos,1240.0
+CE000362014,True,g,81,Camilo (PT),46.0
+CE000362014,True,g,81,Eunicio (PMDB),43.0
+CE000362014,True,g,81,Em branco/ nulo/ nenhum,4.0
+CE000362014,True,g,81,Nao sabe,7.0
+CE000362014,True,g,81,Total em %,100.0
+CE000362014,True,g,81,Base ponderada,2412.0
+CE000362014,True,g,81,Total Nos. absolutos,2412.0
+DF000292014,True,g,82,Arruda (PR),35.0
+DF000292014,True,g,82,Agnelo Queiroz (PT),19.0
+DF000292014,True,g,82,Rollemberg (PSB),13.0
+DF000292014,True,g,82,Toninho do PSOL (PSOL),7.0
+DF000292014,True,g,82,Luiz Pitiman (PSDB),4.0
+DF000292014,True,g,82,Perci Marrara (PCO),0.0
+DF000292014,True,g,82,Em branco/nulo/ nenhum,12.0
+DF000292014,True,g,82,Nao sabe,10.0
+DF000292014,True,g,82,Total em %,100.0
+DF000292014,True,g,82,Base ponderada,736.0
+DF000292014,True,g,82,Total Nos. absolutos,736.0
+DF000402014,True,g,83,Arruda (PR),37.0
+DF000402014,True,g,83,Agnelo Queiroz (PT),19.0
+DF000402014,True,g,83,Rollemberg (PSB),18.0
+DF000402014,True,g,83,Toninho do PSOL (PSOL),4.0
+DF000402014,True,g,83,Luiz Pitiman (PSDB),4.0
+DF000402014,True,g,83,Em branco/nulo/ nenhum,8.0
+DF000402014,True,g,83,Nao sabe,10.0
+DF000402014,True,g,83,Total em %,100.0
+DF000402014,True,g,83,Base ponderada,765.0
+DF000402014,True,g,83,Total Nos. absolutos,765.0
+DF000832014,True,g,84,Rollemberg (PSB),46.0
+DF000832014,True,g,84,Jofran Frejat (PR),35.0
+DF000832014,True,g,84,Em branco/nulo/ nenhum,10.0
+DF000832014,True,g,84,Nao sabe,9.0
+DF000832014,True,g,84,Total em %,100.0
+DF000832014,True,g,84,Base ponderada,1217.0
+DF000832014,True,g,84,Total Nos. absolutos,1217.0
+DF000872014,True,g,85,Rollemberg (PSB),47.0
+DF000872014,True,g,85,Jofran Frejat (PR),36.0
+DF000872014,True,g,85,Em branco/nulo/ nenhum,10.0
+DF000872014,True,g,85,Nao sabe,7.0
+DF000872014,True,g,85,Total em %,100.0
+DF000872014,True,g,85,Base ponderada,1212.0
+DF000872014,True,g,85,Total Nos. absolutos,1212.0
+MG000632014,True,g,86,Fernando Pimentel (PT),29.0
+MG000632014,True,g,86,Pimenta da Veiga (PSDB),16.0
+MG000632014,True,g,86,Tarcisio Delgado (PSB),4.0
+MG000632014,True,g,86,Professor Tulio Lopes (PCB),2.0
+MG000632014,True,g,86,Eduardo Ferreira (PSDC),2.0
+MG000632014,True,g,86,Fidelis (PSOL),1.0
+MG000632014,True,g,86,Cleide Donaria (PCO),0.0
+MG000632014,True,g,86,Em branco/nulo/ nenhum,14.0
+MG000632014,True,g,86,Nao sabe,31.0
+MG000632014,True,g,86,Total em %,100.0
+MG000632014,True,g,86,Base ponderada,1238.0
+MG000632014,True,g,86,Total Nos. absolutos,1238.0
+MG000752014,True,g,87,Fernando Pimentel (PT),32.0
+MG000752014,True,g,87,Pimenta da Veiga (PSDB),24.0
+MG000752014,True,g,87,Tarcisio Delgado (PSB),3.0
+MG000752014,True,g,87,Professor Tulio Lopes (PCB),1.0
+MG000752014,True,g,87,Eduardo Ferreira (PSDC),1.0
+MG000752014,True,g,87,Cleide Donaria (PCO),1.0
+MG000752014,True,g,87,Fidelis (PSOL),1.0
+MG000752014,True,g,87,Em branco/nulo/ nenhum,11.0
+MG000752014,True,g,87,Nao sabe,26.0
+MG000752014,True,g,87,Total em %,100.0
+MG000752014,True,g,87,Base ponderada,1212.0
+MG000752014,True,g,87,Total Nos. absolutos,1212.0
+MG000802014,True,g,88,Fernando Pimentel (PT),34.0
+MG000802014,True,g,88,Pimenta da Veiga (PSDB),23.0
+MG000802014,True,g,88,Tarcisio Delgado (PSB),3.0
+MG000802014,True,g,88,Eduardo Ferreira (PSDC),2.0
+MG000802014,True,g,88,Fidelis (PSOL),2.0
+MG000802014,True,g,88,Professor Tulio Lopes (PCB),1.0
+MG000802014,True,g,88,Cleide Donaria (PCO),1.0
+MG000802014,True,g,88,Em branco/nulo/ nenhum,9.0
+MG000802014,True,g,88,Nao sabe,26.0
+MG000802014,True,g,88,Total em %,100.0
+MG000802014,True,g,88,Base ponderada,1295.0
+MG000802014,True,g,88,Total Nos. absolutos,1295.0
+MG001152014,True,g,89,Fernando Pimentel (PT),36.0
+MG001152014,True,g,89,Pimenta da Veiga (PSDB),25.0
+MG001152014,True,g,89,Nao sabe,21.0
+MG001152014,True,g,89,Em branco/nulo/ nenhum,9.0
+MG001152014,True,g,89,Tarcisio Delgado (PSB),3.0
+MG001152014,True,g,89,Fidelis (PSOL),2.0
+MG001152014,True,g,89,Eduardo Ferreira (PSDC),2.0
+MG001152014,True,g,89,Professor Tulio Lopes (PCB),1.0
+MG001152014,True,g,89,Cleide Donaria (PCO),0.0
+MG001152014,True,g,89,Total em %,100.0
+MG001152014,True,g,89,Base ponderada,1457.0
+MG001152014,True,g,89,Total Nos. absolutos,1457.0
+MG001152014,True,s,90,Antonio Anastasia (PSDB),41.0
+MG001152014,True,s,90,Nao sabe,22.0
+MG001152014,True,s,90,Josue Alencar (PMDB),21.0
+MG001152014,True,s,90,Em branco/nulo/ nenhum,10.0
+MG001152014,True,s,90,Tarcisio (PSDC),2.0
+MG001152014,True,s,90,Margarida Vieira (PSB),2.0
+MG001152014,True,s,90,Graca (PCO),1.0
+MG001152014,True,s,90,Geraldo Batata (PSTU),1.0
+MG001152014,True,s,90,Edilson Nascimento (PTdoB),1.0
+MG001152014,True,s,90,Pablo Lima (PCB),0.0
+MG001152014,True,s,90,Total em %,100.0
+MG001152014,True,s,90,Base ponderada,1457.0
+MG001152014,True,s,90,Total Nos. absolutos,1457.0
+MG001732014,True,g,91,Fernando Pimentel (PT),45.0
+MG001732014,True,g,91,Pimenta da Veiga (PSDB),27.0
+MG001732014,True,g,91,Tarcisio Delgado (PSB),3.0
+MG001732014,True,g,91,Fidelis (PSOL),2.0
+MG001732014,True,g,91,Eduardo Ferreira (PSDC),2.0
+MG001732014,True,g,91,Professor Tulio Lopes (PCB),1.0
+MG001732014,True,g,91,Cleide Donaria (PCO),0.0
+MG001732014,True,g,91,Em branco/nulo/ nenhum,10.0
+MG001732014,True,g,91,Nao sabe,12.0
+MG001732014,True,g,91,Total em %,100.0
+MG001732014,True,g,91,Base ponderada,1474.0
+MG001732014,True,g,91,Total Nos. absolutos,1474.0
+MG001732014,True,s,92,Antonio Anastasia (PSDB),47.0
+MG001732014,True,s,92,Josue Alencar (PMDB),21.0
+MG001732014,True,s,92,Margarida Vieira (PSB),2.0
+MG001732014,True,s,92,Tarcisio (PSDC),1.0
+MG001732014,True,s,92,Edilson Nascimento (PTdoB),1.0
+MG001732014,True,s,92,Geraldo Batata (PSTU),1.0
+MG001732014,True,s,92,Graca (PCO),0.0
+MG001732014,True,s,92,Pablo Lima (PCB),0.0
+MG001732014,True,s,92,Em branco/nulo/ nenhum,11.0
+MG001732014,True,s,92,Nao sabe,15.0
+MG001732014,True,s,92,Total em %,100.0
+MG001732014,True,s,92,Base ponderada,1474.0
+MG001732014,True,s,92,Total Nos. absolutos,1474.0
+PE000172014,True,g,93,Armando Monteiro (PTB),47.0
+PE000172014,True,g,93,Paulo Camara (PSB),13.0
+PE000172014,True,g,93,Ze Gomes (PSOL),2.0
+PE000172014,True,g,93,Jair Pedro (PSTU),1.0
+PE000172014,True,g,93,Pantaleao (PCO),1.0
+PE000172014,True,g,93,Miguel Anacleto (PCB),1.0
+PE000172014,True,g,93,Em branco/nulo/ nenhum,15.0
+PE000172014,True,g,93,Nao sabe,19.0
+PE000172014,True,g,93,Total em %,100.0
+PE000172014,True,g,93,Base ponderada,1198.0
+PE000172014,True,g,93,Total Nos. absolutos,1198.0
+PE000212014,True,g,94,Armando Monteiro (PTB),36.0
+PE000212014,True,g,94,Paulo Camara (PSB),36.0
+PE000212014,True,g,94,Ze Gomes (PSOL),1.0
+PE000212014,True,g,94,Miguel Anacleto (PCB),1.0
+PE000212014,True,g,94,Pantaleao (PCO),1.0
+PE000212014,True,g,94,Jair Pedro (PSTU),0.0
+PE000212014,True,g,94,Em branco/nulo/ nenhum,9.0
+PE000212014,True,g,94,Nao sabe,17.0
+PE000212014,True,g,94,Total em %,100.0
+PE000212014,True,g,94,Base ponderada,1185.0
+PE000212014,True,g,94,Total Nos. absolutos,1185.0
+PE000232014,True,g,95,Paulo Camara (PSB),39.0
+PE000232014,True,g,95,Armando Monteiro (PTB),33.0
+PE000232014,True,g,95,Ze Gomes (PSOL),1.0
+PE000232014,True,g,95,Miguel Anacleto (PCB),1.0
+PE000232014,True,g,95,Jair Pedro (PSTU),0.0
+PE000232014,True,g,95,Pantaleao (PCO),0.0
+PE000232014,True,g,95,Nao sabe,16.0
+PE000232014,True,g,95,Em branco/nulo/ nenhum,9.0
+PE000232014,True,g,95,Total em %,100.0
+PE000232014,True,g,95,Base ponderada,1211.0
+PE000232014,True,g,95,Total Nos. absolutos,1211.0
+PE000362014,True,g,96,Paulo Camara (PSB),46.0
+PE000362014,True,g,96,Armando Monteiro (PTB),36.0
+PE000362014,True,g,96,Ze Gomes (PSOL),1.0
+PE000362014,True,g,96,Jair Pedro (PSTU),0.0
+PE000362014,True,g,96,Miguel Anacleto (PCB),0.0
+PE000362014,True,g,96,Pantaleao (PCO),0.0
+PE000362014,True,g,96,Em branco/nulo/ nenhum,8.0
+PE000362014,True,g,96,Nao sabe,9.0
+PE000362014,True,g,96,Total em %,100.0
+PE000362014,True,g,96,Base ponderada,1264.0
+PE000362014,True,g,96,Total Nos. absolutos,1264.0
+PE000362014,True,s,97,Joao Paulo (PT),37.0
+PE000362014,True,s,97,Fernando Bezerra Coelho (PSB),30.0
+PE000362014,True,s,97,Simone Fontana (PSTU),1.0
+PE000362014,True,s,97,Albanise Pires (PSOL),1.0
+PE000362014,True,s,97,Oxis (PCB),0.0
+PE000362014,True,s,97,Em branco/nulo/ nenhum,14.0
+PE000362014,True,s,97,Nao sabe,17.0
+PE000362014,True,s,97,Total em %,100.0
+PE000362014,True,s,97,Base ponderada,1264.0
+PE000362014,True,s,97,Total Nos. absolutos,1264.0
+PO813763,True,g,98,Rollemberg (PSB),39.0
+PO813763,True,g,98,Jofran Frejat (PR),23.0
+PO813763,True,g,98,Agnelo Queiroz (PT),21.0
+PO813763,True,g,98,Luiz Pitiman (PSDB),4.0
+PO813763,True,g,98,Toninho do PSOL (PSOL),3.0
+PO813763,True,g,98,Perci Marrara (PCO),0.0
+PO813763,True,g,98,Em branco/nulo/ nenhum,4.0
+PO813763,True,g,98,Nao sabe,5.0
+PO813763,True,g,98,Total em %,100.0
+PO813763,True,g,98,Base ponderada,1199.0
+PO813763,True,g,98,Total Nos. absolutos,1199.0
+PO813763,True,s,99,Reguffe (PDT),41.0
+PO813763,True,s,99,Magela (PT),19.0
+PO813763,True,s,99,Gim Argello (PTB),14.0
+PO813763,True,s,99,Sandra Quezado (PSDB),3.0
+PO813763,True,s,99,Robson (PSTU),1.0
+PO813763,True,s,99,Aldemario (PSOL),0.0
+PO813763,True,s,99,Jamil Magari (PCB),0.0
+PO813763,True,s,99,Em branco/nulo/ nenhum,7.0
+PO813763,True,s,99,Nao sabe,15.0
+PO813763,True,s,99,Total em %,100.0
+PO813763,True,s,99,Base ponderada,1199.0
+PO813763,True,s,99,Total Nos. absolutos,1199.0
+PR000142014,True,g,100,Beto Richa (PSDB),39.0
+PR000142014,True,g,100,Requiao (PMDB),33.0
+PR000142014,True,g,100,Gleisi Hoffmann (PT),11.0
+PR000142014,True,g,100,Bernardo Pilotto (PSOL),1.0
+PR000142014,True,g,100,Ogier Buchi (PRP),1.0
+PR000142014,True,g,100,Tulio Bandeira (PTC),0.0
+PR000142014,True,g,100,Geonisio Marinho (PRTB),0.0
+PR000142014,True,g,100,Rodrigo Tomazini (PSTU),0.0
+PR000142014,True,g,100,Em branco/nulo/ nenhum,5.0
+PR000142014,True,g,100,Nao sabe,10.0
+PR000142014,True,g,100,Total em %,100.0
+PR000142014,True,g,100,Base ponderada,1226.0
+PR000142014,True,g,100,Total Nos. absolutos,1226.0
+PR000312014,True,g,101,Beto Richa (PSDB),44.0
+PR000312014,True,g,101,Requiao (PMDB),28.0
+PR000312014,True,g,101,Gleisi Hoffmann (PT),10.0
+PR000312014,True,g,101,Ogier Buchi (PRP),1.0
+PR000312014,True,g,101,Bernardo Pilotto (PSOL),0.0
+PR000312014,True,g,101,Rodrigo Tomazini (PSTU),0.0
+PR000312014,True,g,101,Tulio Bandeira (PTC),0.0
+PR000312014,True,g,101,Geonisio Marinho (PRTB),0.0
+PR000312014,True,g,101,Em branco/ nulo/ nenhum,5.0
+PR000312014,True,g,101,Nao sabe,10.0
+PR000312014,True,g,101,Total em %,100.0
+PR000312014,True,g,101,Base ponderada,1201.0
+PR000312014,True,g,101,Total Nos. absolutos,1201.0
+PR000312014,True,g,102,Beto Richa (PSDB),44.0
+PR000312014,True,g,102,Requiao (PMDB),28.0
+PR000312014,True,g,102,Gleisi Hoffmann (PT),10.0
+PR000312014,True,g,102,Ogier Buchi (PRP),1.0
+PR000312014,True,g,102,Bernardo Pilotto (PSOL),0.0
+PR000312014,True,g,102,Rodrigo Tomazini (PSTU),0.0
+PR000312014,True,g,102,Tulio Bandeira (PTC),0.0
+PR000312014,True,g,102,Geonisio Marinho (PRTB),0.0
+PR000312014,True,g,102,Em branco/nulo/ nenhum,5.0
+PR000312014,True,g,102,Nao sabe,10.0
+PR000312014,True,g,102,Total em %,100.0
+PR000312014,True,g,102,Base ponderada,1201.0
+PR000312014,True,g,102,Total Nos. absolutos,1201.0
+PR000352014,True,g,103,Beto Richa (PSDB),44.0
+PR000352014,True,g,103,Requiao (PMDB),30.0
+PR000352014,True,g,103,Gleisi Hoffmann (PT),10.0
+PR000352014,True,g,103,Ogier Buchi (PRP),1.0
+PR000352014,True,g,103,Tulio Bandeira (PTC),0.0
+PR000352014,True,g,103,Bernardo Pilotto (PSOL),0.0
+PR000352014,True,g,103,Geonisio Marinho (PRTB),0.0
+PR000352014,True,g,103,Rodrigo Tomazini (PSTU),0.0
+PR000352014,True,g,103,Em branco/nulo/ nenhum,6.0
+PR000352014,True,g,103,Nao sabe,9.0
+PR000352014,True,g,103,Total em %,100.0
+PR000352014,True,g,103,Base ponderada,1256.0
+PR000352014,True,g,103,Total Nos. absolutos,1256.0
+PR000352014,True,s,104,Alvaro Dias (PSDB),59.0
+PR000352014,True,s,104,Ricardo Gomyde (PCdoB),6.0
+PR000352014,True,s,104,Marcelo Almeida (PMDB),6.0
+PR000352014,True,s,104,Professor Piva (PSOL),1.0
+PR000352014,True,s,104,Mauri Viana (PRP),1.0
+PR000352014,True,s,104,Adilson Senador da Familia (PRTB),1.0
+PR000352014,True,s,104,Castagna (PSTU),0.0
+PR000352014,True,s,104,Luiz Barbara (PTC),0.0
+PR000352014,True,s,104,Em branco/nulo/ nenhum,9.0
+PR000352014,True,s,104,Nao sabe,18.0
+PR000352014,True,s,104,Total em %,100.0
+PR000352014,True,s,104,Base ponderada,1256.0
+PR000352014,True,s,104,Total Nos. absolutos,1256.0
+PR000392014,True,g,105,Beto Richa (PSDB),45.0
+PR000392014,True,g,105,Requiao (PMDB),30.0
+PR000392014,True,g,105,Gleisi Hoffmann (PT),10.0
+PR000392014,True,g,105,Ogier Buchi (PRP),1.0
+PR000392014,True,g,105,Bernardo Pilotto (PSOL),0.0
+PR000392014,True,g,105,Geonisio Marinho (PRTB),0.0
+PR000392014,True,g,105,Rodrigo Tomazini (PSTU),0.0
+PR000392014,True,g,105,Tulio Bandeira (PTC),0.0
+PR000392014,True,g,105,Em branco/nulo/ nenhum,6.0
+PR000392014,True,g,105,Nao sabe,9.0
+PR000392014,True,g,105,Total em %,100.0
+PR000392014,True,g,105,Base ponderada,1333.0
+PR000392014,True,g,105,Total Nos. absolutos,1333.0
+PR000452014,True,g,106,Beto Richa (PSDB),49.0
+PR000452014,True,g,106,Requiao (PMDB),27.0
+PR000452014,True,g,106,Gleisi Hoffmann (PT),11.0
+PR000452014,True,g,106,Ogier Buchi (PRP),1.0
+PR000452014,True,g,106,Bernardo Pilotto (PSOL),0.0
+PR000452014,True,g,106,Geonisio Marinho (PRTB),0.0
+PR000452014,True,g,106,Tulio Bandeira (PTC),0.0
+PR000452014,True,g,106,Rodrigo Tomazini (PSTU),0.0
+PR000452014,True,g,106,Em branco/nulo/ nenhum,4.0
+PR000452014,True,g,106,Nao sabe,7.0
+PR000452014,True,g,106,Total em %,100.0
+PR000452014,True,g,106,Base ponderada,1367.0
+PR000452014,True,g,106,Total Nos. absolutos,1367.0
+PR000452014,True,s,107,Alvaro Dias (PSDB),65.0
+PR000452014,True,s,107,Ricardo Gomyde (PCdoB),7.0
+PR000452014,True,s,107,Marcelo Almeida (PMDB),4.0
+PR000452014,True,s,107,Professor Piva (PSOL),1.0
+PR000452014,True,s,107,Mauri Viana (PRP),1.0
+PR000452014,True,s,107,Adilson Senador da Familia (PRTB),1.0
+PR000452014,True,s,107,Luiz Barbara (PTC),0.0
+PR000452014,True,s,107,Castagna (PSTU),0.0
+PR000452014,True,s,107,Em branco/nulo/ nenhum,6.0
+PR000452014,True,s,107,Nao sabe,15.0
+PR000452014,True,s,107,Total em %,100.0
+PR000452014,True,s,107,Base ponderada,1367.0
+PR000452014,True,s,107,Total Nos. absolutos,1367.0
+RJ000192014,True,g,108,Garotinho (PR),25.0
+RJ000192014,True,g,108,Marcelo Crivella (PRB),18.0
+RJ000192014,True,g,108,Luiz Fernando Pezao (PMDB),16.0
+RJ000192014,True,g,108,Lindberg Farias (PT),12.0
+RJ000192014,True,g,108,Tarcisio Motta (PSOL),1.0
+RJ000192014,True,g,108,Dayse Oliveira (PSTU),1.0
+RJ000192014,True,g,108,Ney Nunes (PCB),1.0
+RJ000192014,True,g,108,Em branco/nulo/ nenhum,17.0
+RJ000192014,True,g,108,Nao sabe,10.0
+RJ000192014,True,g,108,Total em %,100.0
+RJ000192014,True,g,108,Base ponderada,1317.0
+RJ000192014,True,g,108,Total Nos. absolutos,1317.0
+RJ000282014,True,g,109,Garotinho (PR),28.0
+RJ000282014,True,g,109,Luiz Fernando Pezao (PMDB),23.0
+RJ000282014,True,g,109,Marcelo Crivella (PRB),18.0
+RJ000282014,True,g,109,Lindberg Farias (PT),11.0
+RJ000282014,True,g,109,Tarcisio Motta (PSOL),3.0
+RJ000282014,True,g,109,Dayse Oliveira (PSTU),1.0
+RJ000282014,True,g,109,Ney Nunes (PCB),0.0
+RJ000282014,True,g,109,Em branco/nulo/ nenhum,10.0
+RJ000282014,True,g,109,Nao sabe,6.0
+RJ000282014,True,g,109,Total em %,100.0
+RJ000282014,True,g,109,Base ponderada,1308.0
+RJ000282014,True,g,109,Total Nos. absolutos,1308.0
+RJ000462014,True,g,110,Luiz Fernando Pezao (PMDB),31.0
+RJ000462014,True,g,110,Garotinho (PR),23.0
+RJ000462014,True,g,110,Marcelo Crivella (PRB),17.0
+RJ000462014,True,g,110,Lindberg Farias (PT),12.0
+RJ000462014,True,g,110,Tarcisio Motta (PSOL),2.0
+RJ000462014,True,g,110,Dayse Oliveira (PSTU),1.0
+RJ000462014,True,g,110,Ney Nunes (PCB),0.0
+RJ000462014,True,g,110,Em branco/nulo/ nenhum,9.0
+RJ000462014,True,g,110,Nao sabe,5.0
+RJ000462014,True,g,110,Total em %,100.0
+RJ000462014,True,g,110,Base ponderada,1405.0
+RJ000462014,True,g,110,Total Nos. absolutos,1405.0
+RJ000462014,True,s,111,Romario (PSB),48.0
+RJ000462014,True,s,111,Cesar Maia (DEM),23.0
+RJ000462014,True,s,111,Eduardo Serra (PCB),4.0
+RJ000462014,True,s,111,Carlos Lupi (PDT),3.0
+RJ000462014,True,s,111,Liliam Sa (PROS),2.0
+RJ000462014,True,s,111,Pedro Rosa (PSOL),1.0
+RJ000462014,True,s,111,Diplomata Sebastiao Neves (PRB),1.0
+RJ000462014,True,s,111,Heitor Fernandes (PSTU),0.0
+RJ000462014,True,s,111,Em branco/nulo/ nenhum,11.0
+RJ000462014,True,s,111,Nao sabe,6.0
+RJ000462014,True,s,111,Total em %,100.0
+RJ000462014,True,s,111,Base ponderada,1405.0
+RJ000462014,True,s,111,Total Nos. absolutos,1405.0
+RJ000592014,True,g,112,Luiz Fernando Pezao (PMDB),30.0
+RJ000592014,True,g,112,Garotinho (PR),21.0
+RJ000592014,True,g,112,Marcelo Crivella (PRB),17.0
+RJ000592014,True,g,112,Lindberg Farias (PT),13.0
+RJ000592014,True,g,112,Tarcisio Motta (PSOL),6.0
+RJ000592014,True,g,112,Dayse Oliveira (PSTU),1.0
+RJ000592014,True,g,112,Ney Nunes (PCB),0.0
+RJ000592014,True,g,112,Em branco/nulo/ nenhum,8.0
+RJ000592014,True,g,112,Nao sabe,5.0
+RJ000592014,True,g,112,Total em %,100.0
+RJ000592014,True,g,112,Base ponderada,1496.0
+RJ000592014,True,g,112,Total Nos. absolutos,1496.0
+RJ000592014,True,s,113,Romario (PSB),51.0
+RJ000592014,True,s,113,Cesar Maia (DEM),20.0
+RJ000592014,True,s,113,Eduardo Serra (PCB),3.0
+RJ000592014,True,s,113,Carlos Lupi (PDT),2.0
+RJ000592014,True,s,113,Liliam Sa (PROS),2.0
+RJ000592014,True,s,113,Pedro Rosa (PSOL),1.0
+RJ000592014,True,s,113,Diplomata Sebastiao Neves (PRB),1.0
+RJ000592014,True,s,113,Heitor Fernandes (PSTU),0.0
+RJ000592014,True,s,113,Em branco/nulo/ nenhum,10.0
+RJ000592014,True,s,113,Nao sabe,10.0
+RJ000592014,True,s,113,Total em %,100.0
+RJ000592014,True,s,113,Base ponderada,1496.0
+RJ000592014,True,s,113,Total Nos. absolutos,1496.0
+RJ000692014,True,g,114,Luiz Fernando Pezao (PMDB),46.0
+RJ000692014,True,g,114,Marcelo Crivella (PRB),36.0
+RJ000692014,True,g,114,Em branco/nulo/ nenhum,10.0
+RJ000692014,True,g,114,Nao sabe,8.0
+RJ000692014,True,g,114,Total em %,100.0
+RJ000692014,True,g,114,Base ponderada,1493.0
+RJ000692014,True,g,114,Total Nos. absolutos,1493.0
+RJ000752014,True,g,115,Luiz Fernando Pezao (PMDB),46.0
+RJ000752014,True,g,115,Marcelo Crivella (PRB),38.0
+RJ000752014,True,g,115,Em branco/nulo/ nenhum,10.0
+RJ000752014,True,g,115,Nao sabe,6.0
+RJ000752014,True,g,115,Total em %,100.0
+RJ000752014,True,g,115,Base ponderada,1554.0
+RJ000752014,True,g,115,Total Nos. absolutos,1554.0
+RJ000782014,True,g,116,Luiz Fernando Pezao (PMDB),46.0
+RJ000782014,True,g,116,Marcelo Crivella (PRB),38.0
+RJ000782014,True,g,116,Em branco/ nulo/ nenhum,10.0
+RJ000782014,True,g,116,Nao sabe,5.0
+RJ000782014,True,g,116,Total em %,100.0
+RJ000782014,True,g,116,Base ponderada,2969.0
+RJ000782014,True,g,116,Total Nos. absolutos,2969.0
+RS000092014,True,g,117,Ana Amelia Lemos (PP),39.0
+RS000092014,True,g,117,Tarso Genro (PT),30.0
+RS000092014,True,g,117,Jose Ivo Sartori (PMDB),7.0
+RS000092014,True,g,117,Vieira da Cunha (PDT),3.0
+RS000092014,True,g,117,Joao Carlos Rodrigues (PMN),1.0
+RS000092014,True,g,117,Roberto Robaina (PSOL),1.0
+RS000092014,True,g,117,Estivalete (PRTB),0.0
+RS000092014,True,g,117,Humberto Carvalho (PCB),0.0
+RS000092014,True,g,117,Em branco/nulo/ nenhum,6.0
+RS000092014,True,g,117,Nao sabe,14.0
+RS000092014,True,g,117,Total em %,100.0
+RS000092014,True,g,117,Base ponderada,1233.0
+RS000092014,True,g,117,Total Nos. absolutos,1233.0
+RS000122014,True,g,118,Ana Amelia Lemos (PP),39.0
+RS000122014,True,g,118,Tarso Genro (PT),31.0
+RS000122014,True,g,118,Jose Ivo Sartori (PMDB),10.0
+RS000122014,True,g,118,Vieira da Cunha (PDT),3.0
+RS000122014,True,g,118,Roberto Robaina (PSOL),0.0
+RS000122014,True,g,118,Humberto Carvalho (PCB),0.0
+RS000122014,True,g,118,Joao Carlos Rodrigues (PMN),0.0
+RS000122014,True,g,118,Estivalete (PRTB),0.0
+RS000122014,True,g,118,Em branco/nulo/ nenhum,3.0
+RS000122014,True,g,118,Nao sabe,14.0
+RS000122014,True,g,118,Total em %,100.0
+RS000122014,True,g,118,Base ponderada,1197.0
+RS000122014,True,g,118,Total Nos. absolutos,1197.0
+RS000152014,True,g,119,Ana Amelia Lemos (PP),37.0
+RS000152014,True,g,119,Tarso Genro (PT),28.0
+RS000152014,True,g,119,Jose Ivo Sartori (PMDB),11.0
+RS000152014,True,g,119,Vieira da Cunha (PDT),2.0
+RS000152014,True,g,119,Roberto Robaina (PSOL),1.0
+RS000152014,True,g,119,Humberto Carvalho (PCB),0.0
+RS000152014,True,g,119,Estivalete (PRTB),0.0
+RS000152014,True,g,119,Em branco/ nulo/ nenhum,3.0
+RS000152014,True,g,119,Nao sabe,17.0
+RS000152014,True,g,119,Total em %,100.0
+RS000152014,True,g,119,Base ponderada,1258.0
+RS000152014,True,g,119,Total Nos. absolutos,1258.0
+RS000152014,True,g,120,Ana Amelia Lemos (PP),37.0
+RS000152014,True,g,120,Tarso Genro (PT),28.0
+RS000152014,True,g,120,Jose Ivo Sartori (PMDB),11.0
+RS000152014,True,g,120,Vieira da Cunha (PDT),2.0
+RS000152014,True,g,120,Roberto Robaina (PSOL),1.0
+RS000152014,True,g,120,Humberto Carvalho (PCB),0.0
+RS000152014,True,g,120,Estivalete (PRTB),0.0
+RS000152014,True,g,120,Em branco/nulo/ nenhum,3.0
+RS000152014,True,g,120,Nao sabe,17.0
+RS000152014,True,g,120,Total em %,100.0
+RS000152014,True,g,120,Base ponderada,1258.0
+RS000152014,True,g,120,Total Nos. absolutos,1258.0
+RS000212014,True,g,121,Ana Amelia Lemos (PP),31.0
+RS000212014,True,g,121,Tarso Genro (PT),31.0
+RS000212014,True,g,121,Jose Ivo Sartori (PMDB),17.0
+RS000212014,True,g,121,Vieira da Cunha (PDT),2.0
+RS000212014,True,g,121,Roberto Robaina (PSOL),1.0
+RS000212014,True,g,121,Estivalete (PRTB),0.0
+RS000212014,True,g,121,Humberto Carvalho (PCB),0.0
+RS000212014,True,g,121,Em branco/nulo/ nenhum,4.0
+RS000212014,True,g,121,Nao sabe,14.0
+RS000212014,True,g,121,Total em %,100.0
+RS000212014,True,g,121,Base ponderada,1374.0
+RS000212014,True,g,121,Total Nos. absolutos,1374.0
+RS000212014,True,s,122,Olivio Dutra (PT),31.0
+RS000212014,True,s,122,Lasier Martins (PDT),29.0
+RS000212014,True,s,122,Simon (PMDB),13.0
+RS000212014,True,s,122,Simone Leite (PP),5.0
+RS000212014,True,s,122,Ciro Machado (PMN),1.0
+RS000212014,True,s,122,Julio Flores (PSTU),0.0
+RS000212014,True,s,122,Gold (PRP),0.0
+RS000212014,True,s,122,Em branco/nulo/ nenhum,5.0
+RS000212014,True,s,122,Nao sabe,17.0
+RS000212014,True,s,122,Total em %,100.0
+RS000212014,True,s,122,Base ponderada,1374.0
+RS000212014,True,s,122,Total Nos. absolutos,1374.0
+RS000232014,True,g,123,Tarso Genro (PT),32.0
+RS000232014,True,g,123,Ana Amelia Lemos (PP),28.0
+RS000232014,True,g,123,Jose Ivo Sartori (PMDB),23.0
+RS000232014,True,g,123,Vieira da Cunha (PDT),2.0
+RS000232014,True,g,123,Roberto Robaina (PSOL),1.0
+RS000232014,True,g,123,Humberto Carvalho (PCB),0.0
+RS000232014,True,g,123,Estivalete (PRTB),0.0
+RS000232014,True,g,123,Em branco/nulo/ nenhum,3.0
+RS000232014,True,g,123,Nao sabe,11.0
+RS000232014,True,g,123,Total em %,100.0
+RS000232014,True,g,123,Base ponderada,1358.0
+RS000232014,True,g,123,Total Nos. absolutos,1358.0
+RS000232014,True,s,124,Lasier Martins (PDT),31.0
+RS000232014,True,s,124,Olivio Dutra (PT),30.0
+RS000232014,True,s,124,Simon (PMDB),13.0
+RS000232014,True,s,124,Simone Leite (PP),5.0
+RS000232014,True,s,124,Julio Flores (PSTU),1.0
+RS000232014,True,s,124,Ciro Machado (PMN),0.0
+RS000232014,True,s,124,Gold (PRP),0.0
+RS000232014,True,s,124,Em branco/nulo/ nenhum,5.0
+RS000232014,True,s,124,Nao sabe,15.0
+RS000232014,True,s,124,Total em %,100.0
+RS000232014,True,s,124,Base ponderada,1358.0
+RS000232014,True,s,124,Total Nos. absolutos,1358.0
+RS000262014,True,g,125,Tarso Genro (PT),31.0
+RS000262014,True,g,125,Ana Amelia Lemos (PP),25.0
+RS000262014,True,g,125,Jose Ivo Sartori (PMDB),25.0
+RS000262014,True,g,125,Vieira da Cunha (PDT),3.0
+RS000262014,True,g,125,Roberto Robaina (PSOL),1.0
+RS000262014,True,g,125,Humberto Carvalho (PCB),0.0
+RS000262014,True,g,125,Estivalete (PRTB),0.0
+RS000262014,True,g,125,Em branco/nulo/ nenhum,4.0
+RS000262014,True,g,125,Nao sabe,10.0
+RS000262014,True,g,125,Total em %,100.0
+RS000262014,True,g,125,Base ponderada,1886.0
+RS000262014,True,g,125,Total Nos. absolutos,1886.0
+RS000262014,True,s,126,Olivio Dutra (PT),31.0
+RS000262014,True,s,126,Lasier Martins (PDT),30.0
+RS000262014,True,s,126,Simon (PMDB),13.0
+RS000262014,True,s,126,Simone Leite (PP),4.0
+RS000262014,True,s,126,Julio Flores (PSTU),1.0
+RS000262014,True,s,126,Ciro Machado (PMN),0.0
+RS000262014,True,s,126,Gold (PRP),0.0
+RS000262014,True,s,126,Em branco/nulo/ nenhum,6.0
+RS000262014,True,s,126,Nao sabe,14.0
+RS000262014,True,s,126,Total em %,100.0
+RS000262014,True,s,126,Base ponderada,1886.0
+RS000262014,True,s,126,Total Nos. absolutos,1886.0
+RS000282014,True,g,127,Jose Ivo Sartori (PMDB),52.0
+RS000282014,True,g,127,Tarso Genro (PT),35.0
+RS000282014,True,g,127,Em branco/nulo/ nenhum,6.0
+RS000282014,True,g,127,Nao sabe,7.0
+RS000282014,True,g,127,Total em %,100.0
+RS000282014,True,g,127,Base ponderada,1452.0
+RS000282014,True,g,127,Total Nos. absolutos,1452.0
+RS000362014,True,g,128,Jose Ivo Sartori (PMDB),54.0
+RS000362014,True,g,128,Tarso Genro (PT),36.0
+RS000362014,True,g,128,Em branco/ nulo/ nenhum,4.0
+RS000362014,True,g,128,Nao sabe,6.0
+RS000362014,True,g,128,Total em %,100.0
+RS000362014,True,g,128,Base ponderada,3031.0
+RS000362014,True,g,128,Total Nos. absolutos,3031.0
+SP000162014,True,g,129,Geraldo Alckmin (PSDB),55.0
+SP000162014,True,g,129,Skaf (PMDB),16.0
+SP000162014,True,g,129,Padilha (PT),5.0
+SP000162014,True,g,129,Gilberto Natalini (PV),1.0
+SP000162014,True,g,129,Raimundo Sena (PCO),1.0
+SP000162014,True,g,129,Wagner Farias (PCB),1.0
+SP000162014,True,g,129,Maringoni (PSOL),0.0
+SP000162014,True,g,129,Walter Ciglioni (PRTB),0.0
+SP000162014,True,g,129,Laercio Benko (PHS),0.0
+SP000162014,True,g,129,Em branco/nulo/ nenhum,12.0
+SP000162014,True,g,129,Nao sabe,7.0
+SP000162014,True,g,129,Total em %,100.0
+SP000162014,True,g,129,Base ponderada,2045.0
+SP000162014,True,g,129,Total Nos. absolutos,2045.0
+SP000512014,True,g,130,Geraldo Alckmin (PSDB),49.0
+SP000512014,True,g,130,Skaf (PMDB),23.0
+SP000512014,True,g,130,Padilha (PT),10.0
+SP000512014,True,g,130,Laercio Benko (PHS),1.0
+SP000512014,True,g,130,Gilberto Natalini (PV),1.0
+SP000512014,True,g,130,Maringoni (PSOL),0.0
+SP000512014,True,g,130,Wagner Farias (PCB),0.0
+SP000512014,True,g,130,Raimundo Sena (PCO),0.0
+SP000512014,True,g,130,Walter Ciglioni (PRTB),0.0
+SP000512014,True,g,130,Em branco/nulo/ nenhum,8.0
+SP000512014,True,g,130,Nao sabe,6.0
+SP000512014,True,g,130,Total em %,100.0
+SP000512014,True,g,130,Base ponderada,2132.0
+SP000512014,True,g,130,Total Nos. absolutos,2132.0
+SP000512014,True,s,131,Jose Serra (PSDB),39.0
+SP000512014,True,s,131,Eduardo Suplicy (PT),30.0
+SP000512014,True,s,131,Gilberto Kassab (PSD),9.0
+SP000512014,True,s,131,Marlene Campos Machado (PTB),2.0
+SP000512014,True,s,131,Ana Luiza (PSTU),1.0
+SP000512014,True,s,131,Fernando Lucas (PRP),0.0
+SP000512014,True,s,131,Kaka Wera (PV),0.0
+SP000512014,True,s,131,Senador Flaquer (PRTB),0.0
+SP000512014,True,s,131,Edmilson Costa (PCB),0.0
+SP000512014,True,s,131,Juraci Garcia (PCO),0.0
+SP000512014,True,s,131,Em branco/nulo/ nenhum,9.0
+SP000512014,True,s,131,Nao sabe,9.0
+SP000512014,True,s,131,Total em %,100.0
+SP000512014,True,s,131,Base ponderada,2132.0
+SP000512014,True,s,131,Total Nos. absolutos,2132.0
+SP000542014,True,g,132,Geraldo Alckmin (PSDB),50.0
+SP000542014,True,g,132,Skaf (PMDB),22.0
+SP000542014,True,g,132,Padilha (PT),11.0
+SP000542014,True,g,132,Gilberto Natalini (PV),1.0
+SP000542014,True,g,132,Laercio Benko (PHS),1.0
+SP000542014,True,g,132,Maringoni (PSOL),1.0
+SP000542014,True,g,132,Raimundo Sena (PCO),0.0
+SP000542014,True,g,132,Walter Ciglioni (PRTB),0.0
+SP000542014,True,g,132,Wagner Farias (PCB),0.0
+SP000542014,True,g,132,Em branco/nulo/ nenhum,7.0
+SP000542014,True,g,132,Nao sabe,7.0
+SP000542014,True,g,132,Total em %,100.0
+SP000542014,True,g,132,Base ponderada,2112.0
+SP000542014,True,g,132,Total Nos. absolutos,2112.0
+SP000542014,True,s,133,Jose Serra (PSDB),39.0
+SP000542014,True,s,133,Eduardo Suplicy (PT),33.0
+SP000542014,True,s,133,Gilberto Kassab (PSD),8.0
+SP000542014,True,s,133,Marlene Campos Machado (PTB),2.0
+SP000542014,True,s,133,Ana Luiza (PSTU),1.0
+SP000542014,True,s,133,Fernando Lucas (PRP),0.0
+SP000542014,True,s,133,Juraci Garcia (PCO),0.0
+SP000542014,True,s,133,Kaka Wera (PV),0.0
+SP000542014,True,s,133,Senador Flaquer (PRTB),0.0
+SP000542014,True,s,133,Edmilson Costa (PCB),0.0
+SP000542014,True,s,133,Em branco/nulo/ nenhum,8.0
+SP000542014,True,s,133,Nao sabe,9.0
+SP000542014,True,s,133,Total em %,100.0
+SP000542014,True,s,133,Base ponderada,2112.0
+SP000542014,True,s,133,Total Nos. absolutos,2112.0

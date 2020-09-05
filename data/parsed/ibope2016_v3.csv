@@ -1,0 +1,4334 @@
+tse_id,estimulada,position,scenario,candidate,value
+AC044342016,False,p,0,Nao sabe/ Nao respondeu,31.0
+AC044342016,False,p,0,Branco/ Nulo,8.0
+AC044342016,False,p,0,Outros,0.0
+AC044342016,False,p,0,Raimundo Vaz,1.0
+AC044342016,False,p,0,Marcus Alexandre,44.0
+AC044342016,False,p,0,Eliane Sinhasique,15.0
+AC044342016,False,p,0,BASE,602.0
+AC074782016,False,p,1,Nao sabe/ Nao respondeu,10.0
+AC074782016,False,p,1,Branco/ Nulo,6.0
+AC074782016,False,p,1,Vaz,6.0
+AC074782016,False,p,1,Marcus Alexandre,52.0
+AC074782016,False,p,1,Eliane Sinhasique,24.0
+AC074782016,False,p,1,Carlos Gomes,1.0
+AC074782016,False,p,1,BASE,602.0
+AL000882016,False,p,2,Nao sabe/ Nao respondeu,39.0
+AL000882016,False,p,2,Branco/ Nulo,25.0
+AL000882016,False,p,2,Outros,1.0
+AL000882016,False,p,2,Rui Palmeira,15.0
+AL000882016,False,p,2,Joao Henrique Caldas/ JHC,4.0
+AL000882016,False,p,2,Cicero Almeida,16.0
+AL000882016,False,p,2,BASE,602.0
+AL004922016,False,p,3,Nao sabe/ Nao respondeu,12.0
+AL004922016,False,p,3,Branco/ Nulo,12.0
+AL004922016,False,p,3,Outros,0.0
+AL004922016,False,p,3,Rui Palmeira,37.0
+AL004922016,False,p,3,Paulao,2.0
+AL004922016,False,p,3,JHC,16.0
+AL004922016,False,p,3,Gustavo Pessoa,1.0
+AL004922016,False,p,3,Fernando do Village,0.0
+AL004922016,False,p,3,Cicero Almeida,21.0
+AL004922016,False,p,3,BASE,602.0
+AL037762016,False,p,4,Nao sabe/ Nao respondeu,6.0
+AL037762016,False,p,4,Branco/ Nulo,13.0
+AL037762016,False,p,4,Rui Palmeira,50.0
+AL037762016,False,p,4,Cicero Almeida,31.0
+AL037762016,False,p,4,BASE,602.0
+AL040542016,False,p,5,Nao sabe/ Nao respondeu,8.0
+AL040542016,False,p,5,Branco/ Nulo,17.0
+AL040542016,False,p,5,Rui Palmeira,51.0
+AL040542016,False,p,5,Cicero Almeida,24.0
+AL040542016,False,p,5,BASE,602.0
+AL071322016,False,p,6,Nao sabe/ Nao respondeu,16.0
+AL071322016,False,p,6,Branco/ Nulo,16.0
+AL071322016,False,p,6,Outros,1.0
+AL071322016,False,p,6,Rui Palmeira,31.0
+AL071322016,False,p,6,Paulao,1.0
+AL071322016,False,p,6,JHC,12.0
+AL071322016,False,p,6,Cicero Almeida,22.0
+AL071322016,False,p,6,BASE,602.0
+AM007542016,False,p,7,Nao sabe/ Nao respondeu,37.0
+AM007542016,False,p,7,Branco/ Nulo,14.0
+AM007542016,False,p,7,Outros,3.0
+AM007542016,False,p,7,Silas Camara,4.0
+AM007542016,False,p,7,Serafim Correa,4.0
+AM007542016,False,p,7,Marcelo Ramos,8.0
+AM007542016,False,p,7,Jose Ricardo,3.0
+AM007542016,False,p,7,Hissa Abrahao,3.0
+AM007542016,False,p,7,Henrique Oliveira,3.0
+AM007542016,False,p,7,Artur Neto,22.0
+AM007542016,False,p,7,BASE,805.0
+AM032622016,False,p,8,Nao sabe/ Nao respondeu,10.0
+AM032622016,False,p,8,Branco/ Nulo,10.0
+AM032622016,False,p,8,Outros,0.0
+AM032622016,False,p,8,Marcelo Ramos,35.0
+AM032622016,False,p,8,Artur Neto,44.0
+AM032622016,False,p,8,BASE,805.0
+AM042392016,False,p,9,Nao sabe/ Nao respondeu,5.0
+AM042392016,False,p,9,Branco/ Nulo,12.0
+AM042392016,False,p,9,Outros,0.0
+AM042392016,False,p,9,Marcelo Ramos,34.0
+AM042392016,False,p,9,Artur Neto,48.0
+AM042392016,False,p,9,BASE,805.0
+AM072392016,False,p,10,Nao sabe/ Nao respondeu,8.0
+AM072392016,False,p,10,Branco/ Nulo,8.0
+AM072392016,False,p,10,Outros,0.0
+AM072392016,False,p,10,Silas Camara,6.0
+AM072392016,False,p,10,Serafim Correa,7.0
+AM072392016,False,p,10,Queiroz,1.0
+AM072392016,False,p,10,Marcelo Ramos,18.0
+AM072392016,False,p,10,Luiz Castro,1.0
+AM072392016,False,p,10,Jose Ricardo,5.0
+AM072392016,False,p,10,Hissa Abrahao,4.0
+AM072392016,False,p,10,Henrique Oliveira,2.0
+AM072392016,False,p,10,Artur Neto,39.0
+AM072392016,False,p,10,BASE,805.0
+AM078792016,False,p,11,Nao sabe/ Nao respondeu,17.0
+AM078792016,False,p,11,Branco/ Nulo,8.0
+AM078792016,False,p,11,Outros,1.0
+AM078792016,False,p,11,Silas Camara,5.0
+AM078792016,False,p,11,Serafim Correa,7.0
+AM078792016,False,p,11,Marcelo Ramos,14.0
+AM078792016,False,p,11,Jose Ricardo,3.0
+AM078792016,False,p,11,Hissa Abrahao,4.0
+AM078792016,False,p,11,Henrique Oliveira,2.0
+AM078792016,False,p,11,Artur Neto,38.0
+AM078792016,False,p,11,BASE,805.0
+AP015142016,False,p,12,Nao sabe/ Nao respondeu,13.0
+AP015142016,False,p,12,Branco/ Nulo,14.0
+AP015142016,False,p,12,Outros,0.0
+AP015142016,False,p,12,Ruy Smith,2.0
+AP015142016,False,p,12,Promotor Moises,7.0
+AP015142016,False,p,12,Gilvam Borges,16.0
+AP015142016,False,p,12,Genival Cruz,2.0
+AP015142016,False,p,12,Clecio,33.0
+AP015142016,False,p,12,Aline,12.0
+AP015142016,False,p,12,BASE,602.0
+AP051822016,False,p,13,Nao sabe/ Nao respondeu,33.0
+AP051822016,False,p,13,Branco/ Nulo,22.0
+AP051822016,False,p,13,Outros,2.0
+AP051822016,False,p,13,Ruy Smith,4.0
+AP051822016,False,p,13,Promotor Moises,5.0
+AP051822016,False,p,13,Gilvam Borges,3.0
+AP051822016,False,p,13,Genival Cruz,1.0
+AP051822016,False,p,13,Dora Nascimento,2.0
+AP051822016,False,p,13,Clecio,21.0
+AP051822016,False,p,13,Aline,6.0
+AP051822016,False,p,13,BASE,602.0
+AP053612016,False,p,14,Nao sabe/ Nao respondeu,14.0
+AP053612016,False,p,14,Branco/ Nulo,15.0
+AP053612016,False,p,14,Outros,1.0
+AP053612016,False,p,14,Ruy Smith,8.0
+AP053612016,False,p,14,Promotor Moises,5.0
+AP053612016,False,p,14,Gilvam Borges,9.0
+AP053612016,False,p,14,Genival Cruz,3.0
+AP053612016,False,p,14,Dora Nascimento,6.0
+AP053612016,False,p,14,Clecio,22.0
+AP053612016,False,p,14,Aline,15.0
+AP053612016,False,p,14,BASE,602.0
+AP078462016,False,p,15,Nao sabe/ Nao respondeu,4.0
+AP078462016,False,p,15,Branco/ Nulo,7.0
+AP078462016,False,p,15,Outros,0.0
+AP078462016,False,p,15,Gilvam Borges,33.0
+AP078462016,False,p,15,Clecio,55.0
+AP078462016,False,p,15,BASE,602.0
+AP089552016,False,p,16,Nao sabe/ Nao respondeu,6.0
+AP089552016,False,p,16,Branco/ Nulo,10.0
+AP089552016,False,p,16,Gilvam Borges,37.0
+AP089552016,False,p,16,Clecio,47.0
+AP089552016,False,p,16,BASE,602.0
+BA016192016,False,p,17,Nao sabe/ Nao respondeu,15.0
+BA016192016,False,p,17,Branco/ Nulo,16.0
+BA016192016,False,p,17,Outros,0.0
+BA016192016,False,p,17,Jailce Andrade,1.0
+BA016192016,False,p,17,Elinaldo,45.0
+BA016192016,False,p,17,Caetano,22.0
+BA016192016,False,p,17,BASE,406.0
+BA021512016,False,p,18,Nao sabe/ Nao respondeu,10.0
+BA021512016,False,p,18,Branco/ Nulo,11.0
+BA021512016,False,p,18,Outros,0.0
+BA021512016,False,p,18,Ze Neto,9.0
+BA021512016,False,p,18,Jose Ronaldo,64.0
+BA021512016,False,p,18,Jhonatas Monteiro,3.0
+BA021512016,False,p,18,Jairo,3.0
+BA021512016,False,p,18,BASE,504.0
+BA022372016,False,p,19,Nao sabe/ Nao respondeu,10.0
+BA022372016,False,p,19,Branco/ Nulo,10.0
+BA022372016,False,p,19,Outros,1.0
+BA022372016,False,p,19,Pastor Sargento Isidorio,6.0
+BA022372016,False,p,19,Alice Portugal,12.0
+BA022372016,False,p,19,ACM Neto,61.0
+BA022372016,False,p,19,BASE,805.0
+BA022572016,False,p,20,Nao sabe/ Nao respondeu,23.0
+BA022572016,False,p,20,Branco/ Nulo,19.0
+BA022572016,False,p,20,Outros,2.0
+BA022572016,False,p,20,Pastor Isidorio,1.0
+BA022572016,False,p,20,Alice Portugal,3.0
+BA022572016,False,p,20,ACM Neto,52.0
+BA022572016,False,p,20,BASE,602.0
+BA028092016,False,p,21,Nao sabe/ Nao respondeu,9.0
+BA028092016,False,p,21,Branco/ Nulo,12.0
+BA028092016,False,p,21,Outros,1.0
+BA028092016,False,p,21,Pastor Sargento Isidorio,6.0
+BA028092016,False,p,21,Alice Portugal,8.0
+BA028092016,False,p,21,ACM Neto,65.0
+BA028092016,False,p,21,BASE,805.0
+BA029732016,False,p,22,Nao sabe/ Nao respondeu,21.0
+BA029732016,False,p,22,Branco/ Nulo,16.0
+BA029732016,False,p,22,Outros,3.0
+BA029732016,False,p,22,Jailce Andrade,1.0
+BA029732016,False,p,22,Elinaldo,40.0
+BA029732016,False,p,22,Caetano,18.0
+BA029732016,False,p,22,BASE,406.0
+BA035752016,False,p,23,Nao sabe/ Nao respondeu,11.0
+BA035752016,False,p,23,Branco/ Nulo,9.0
+BA035752016,False,p,23,Outros,1.0
+BA035752016,False,p,23,Ze Neto,11.0
+BA035752016,False,p,23,Leonardo Pedreira,1.0
+BA035752016,False,p,23,Jose Ronaldo,62.0
+BA035752016,False,p,23,Jhonatas Monteiro,4.0
+BA035752016,False,p,23,Jairo,1.0
+BA035752016,False,p,23,BASE,504.0
+BA050232016,False,p,24,Nao sabe/ Nao respondeu,22.0
+BA050232016,False,p,24,Branco/ Nulo,20.0
+BA050232016,False,p,24,Outros,1.0
+BA050232016,False,p,24,Edson Almeida,12.0
+BA050232016,False,p,24,Dinha,39.0
+BA050232016,False,p,24,Cezar Diesel,6.0
+BA050232016,False,p,24,BASE,406.0
+BA066172016,False,p,25,Nao sabe/ Nao respondeu,18.0
+BA066172016,False,p,25,Branco/ Nulo,6.0
+BA066172016,False,p,25,Outros,0.0
+BA066172016,False,p,25,Zito Barbosa,47.0
+BA066172016,False,p,25,Tito,12.0
+BA066172016,False,p,25,Antonio Henrique,17.0
+BA066172016,False,p,25,BASE,406.0
+BA080252016,False,p,26,Nao sabe/ Nao respondeu,11.0
+BA080252016,False,p,26,Branco/ Nulo,14.0
+BA080252016,False,p,26,Outros,2.0
+BA080252016,False,p,26,Pastor Sargento Isidorio,4.0
+BA080252016,False,p,26,Alice Portugal,7.0
+BA080252016,False,p,26,ACM Neto,62.0
+BA080252016,False,p,26,BASE,602.0
+BA083042016,False,p,27,Nao sabe/ Nao respondeu,19.0
+BA083042016,False,p,27,Branco/ Nulo,15.0
+BA083042016,False,p,27,Outros,1.0
+BA083042016,False,p,27,Ze Neto,8.0
+BA083042016,False,p,27,Jose Ronaldo,53.0
+BA083042016,False,p,27,Jhonatas Monteiro,4.0
+BA083042016,False,p,27,Jairo,1.0
+BA083042016,False,p,27,BASE,504.0
+BA083772016,False,p,28,Nao sabe/ Nao respondeu,16.0
+BA083772016,False,p,28,Branco/ Nulo,11.0
+BA083772016,False,p,28,Outros,0.0
+BA083772016,False,p,28,Tonha Magalhaes,49.0
+BA083772016,False,p,28,Dr. Pitagoras,24.0
+BA083772016,False,p,28,BASE,406.0
+CE001252016,False,p,29,Nao sabe/ Nao respondeu,13.0
+CE001252016,False,p,29,Branco/ Nulo,12.0
+CE001252016,False,p,29,Outros,0.0
+CE001252016,False,p,29,Ronaldo Martins,2.0
+CE001252016,False,p,29,Roberto Claudio,31.0
+CE001252016,False,p,29,Luizianne,13.0
+CE001252016,False,p,29,Joao Alfredo,1.0
+CE001252016,False,p,29,Heitor Ferrer,5.0
+CE001252016,False,p,29,Capitao Wagner,23.0
+CE001252016,False,p,29,BASE,805.0
+CE006092016,False,p,30,Nao sabe/ Nao respondeu,37.0
+CE006092016,False,p,30,Branco/ Nulo,19.0
+CE006092016,False,p,30,Outros,1.0
+CE006092016,False,p,30,Ronaldo Martins,1.0
+CE006092016,False,p,30,Roberto Claudio,21.0
+CE006092016,False,p,30,Luizianne Lins,8.0
+CE006092016,False,p,30,Joao Alfredo,1.0
+CE006092016,False,p,30,Heitor Ferrer,3.0
+CE006092016,False,p,30,Capitao Wagner,9.0
+CE006092016,False,p,30,BASE,805.0
+CE009542016,False,p,31,Nao sabe/ Nao respondeu,13.0
+CE009542016,False,p,31,Branco/ Nulo,6.0
+CE009542016,False,p,31,Outros,1.0
+CE009542016,False,p,31,Sergio Rufino,48.0
+CE009542016,False,p,31,Diego,33.0
+CE009542016,False,p,31,BASE,301.0
+CE010762016,False,p,32,Nao sabe/ Nao respondeu,50.0
+CE010762016,False,p,32,Branco/ Nulo,15.0
+CE010762016,False,p,32,Outros,1.0
+CE010762016,False,p,32,Raimundao,11.0
+CE010762016,False,p,32,Normando,5.0
+CE010762016,False,p,32,Helaine Mendonca,1.0
+CE010762016,False,p,32,Gilmar Bender,7.0
+CE010762016,False,p,32,Francisco Fabiano,1.0
+CE010762016,False,p,32,Flavia Soares,1.0
+CE010762016,False,p,32,Demontier Cinquentinha,2.0
+CE010762016,False,p,32,Arnon Bezerra,7.0
+CE010762016,False,p,32,BASE,504.0
+CE015412016,False,p,33,Nao sabe/ Nao respondeu,16.0
+CE015412016,False,p,33,Branco/ Nulo,8.0
+CE015412016,False,p,33,Outros,0.0
+CE015412016,False,p,33,Paulinha,4.0
+CE015412016,False,p,33,Joao Barroso,44.0
+CE015412016,False,p,33,Geraldinho,3.0
+CE015412016,False,p,33,Dr. Dagmauro,25.0
+CE015412016,False,p,33,BASE,301.0
+CE019782016,False,p,34,Nao sabe/ Nao respondeu,19.0
+CE019782016,False,p,34,Branco/ Nulo,8.0
+CE019782016,False,p,34,Outros,2.0
+CE019782016,False,p,34,Moses Rodrigues,30.0
+CE019782016,False,p,34,Ivo Gomes,33.0
+CE019782016,False,p,34,Dr Guimaraes,8.0
+CE019782016,False,p,34,BASE,504.0
+CE023502016,False,p,35,Nao sabe/ Nao respondeu,47.0
+CE023502016,False,p,35,Branco/ Nulo,5.0
+CE023502016,False,p,35,Valdomiro Junior,0.0
+CE023502016,False,p,35,Dudu Eleoterio,4.0
+CE023502016,False,p,35,Ecildo Filho,41.0
+CE023502016,False,p,35,Dr. Nelson,3.0
+CE023502016,False,p,35,BASE,301.0
+CE027232016,False,p,36,Nao sabe/ Nao respondeu,17.0
+CE027232016,False,p,36,Branco/ Nulo,13.0
+CE027232016,False,p,36,Outros,1.0
+CE027232016,False,p,36,Ze Ailton,36.0
+CE027232016,False,p,36,Samuel Araripe,33.0
+CE027232016,False,p,36,Caca Araujo,1.0
+CE027232016,False,p,36,BASE,504.0
+CE032992016,False,p,37,Nao sabe/ Nao respondeu,13.0
+CE032992016,False,p,37,Branco/ Nulo,13.0
+CE032992016,False,p,37,Naumi Amorim,49.0
+CE032992016,False,p,37,Eduardo Pessoa,26.0
+CE032992016,False,p,37,BASE,504.0
+CE034102016,False,p,38,Nao sabe/ Nao respondeu,16.0
+CE034102016,False,p,38,Branco/ Nulo,5.0
+CE034102016,False,p,38,Outros,0.0
+CE034102016,False,p,38,Professor Arimatea,1.0
+CE034102016,False,p,38,Claudio Pinho,57.0
+CE034102016,False,p,38,Bethrose,21.0
+CE034102016,False,p,38,BASE,406.0
+CE041332016,False,p,39,Nao sabe/ Nao respondeu,15.0
+CE041332016,False,p,39,Branco/ Nulo,8.0
+CE041332016,False,p,39,Outros,1.0
+CE041332016,False,p,39,Rochinha,14.0
+CE041332016,False,p,39,Marcus,1.0
+CE041332016,False,p,39,Chico Cesar,61.0
+CE041332016,False,p,39,BASE,301.0
+CE043672016,False,p,40,Nao sabe/ Nao respondeu,19.0
+CE043672016,False,p,40,Branco/ Nulo,11.0
+CE043672016,False,p,40,Mano Morais,42.0
+CE043672016,False,p,40,Evanildo Simao,29.0
+CE043672016,False,p,40,BASE,301.0
+CE043962016,False,p,41,Nao sabe/ Nao respondeu,12.0
+CE043962016,False,p,41,Branco/ Nulo,2.0
+CE043962016,False,p,41,Tiao Rosa,1.0
+CE043962016,False,p,41,Joaozinho,31.0
+CE043962016,False,p,41,Jeova Madeiro,54.0
+CE043962016,False,p,41,BASE,301.0
+CE047192016,False,p,42,Nao sabe/ Nao respondeu,42.0
+CE047192016,False,p,42,Branco/ Nulo,17.0
+CE047192016,False,p,42,Xavier Maia,6.0
+CE047192016,False,p,42,Ivan Silverio,13.0
+CE047192016,False,p,42,Expedito Ferreira,3.0
+CE047192016,False,p,42,Crisanto Damasceno,1.0
+CE047192016,False,p,42,Bismarck Maia,18.0
+CE047192016,False,p,42,BASE,301.0
+CE047742016,False,p,43,Nao sabe/ Nao respondeu,22.0
+CE047742016,False,p,43,Branco/ Nulo,7.0
+CE047742016,False,p,43,Outros,0.0
+CE047742016,False,p,43,Raimundao,5.0
+CE047742016,False,p,43,Normando,6.0
+CE047742016,False,p,43,Helaine Mendonca,1.0
+CE047742016,False,p,43,Gilmar Bender,27.0
+CE047742016,False,p,43,Francisco Fabiano,2.0
+CE047742016,False,p,43,Flavia Soares,1.0
+CE047742016,False,p,43,Demontier Cinquentinha,2.0
+CE047742016,False,p,43,Arnon Bezerra,28.0
+CE047742016,False,p,43,BASE,602.0
+CE050352016,False,p,44,Nao sabe/ Nao respondeu,7.0
+CE050352016,False,p,44,Branco/ Nulo,11.0
+CE050352016,False,p,44,Outros,0.0
+CE050352016,False,p,44,Roberto Claudio,47.0
+CE050352016,False,p,44,Capitao Wagner,35.0
+CE050352016,False,p,44,BASE,805.0
+CE071182016,False,p,45,Nao sabe/ Nao respondeu,7.0
+CE071182016,False,p,45,Branco/ Nulo,11.0
+CE071182016,False,p,45,Outros,0.0
+CE071182016,False,p,45,Roberto Claudio,43.0
+CE071182016,False,p,45,Capitao Wagner,39.0
+CE071182016,False,p,45,BASE,805.0
+CE073262016,False,p,46,Nao sabe/ Nao respondeu,22.0
+CE073262016,False,p,46,Branco/ Nulo,10.0
+CE073262016,False,p,46,Outros,1.0
+CE073262016,False,p,46,Raimundao,10.0
+CE073262016,False,p,46,Normando,8.0
+CE073262016,False,p,46,Helaine Mendonca,1.0
+CE073262016,False,p,46,Gilmar Bender,12.0
+CE073262016,False,p,46,Francisco Fabiano,2.0
+CE073262016,False,p,46,Flavia Soares,1.0
+CE073262016,False,p,46,Demontier Cinquentinha,3.0
+CE073262016,False,p,46,Arnon Bezerra,30.0
+CE073262016,False,p,46,BASE,504.0
+CE074792016,False,p,47,Nao sabe/ Nao respondeu,32.0
+CE074792016,False,p,47,Branco/ Nulo,12.0
+CE074792016,False,p,47,Outros,2.0
+CE074792016,False,p,47,Moses Rodrigues,24.0
+CE074792016,False,p,47,Ivo Gomes,23.0
+CE074792016,False,p,47,Dr Guimaraes,8.0
+CE074792016,False,p,47,BASE,504.0
+CE076792016,False,p,48,Nao sabe/ Nao respondeu,27.0
+CE076792016,False,p,48,Branco/ Nulo,15.0
+CE076792016,False,p,48,Outros,1.0
+CE076792016,False,p,48,Silvio Nascimento,4.0
+CE076792016,False,p,48,Potim,3.0
+CE076792016,False,p,48,Naumi Amorim,31.0
+CE076792016,False,p,48,Eduardo Pessoa,18.0
+CE076792016,False,p,48,Daniel Gadelha,1.0
+CE076792016,False,p,48,BASE,504.0
+CE091872016,False,p,49,Nao sabe/ Nao respondeu,13.0
+CE091872016,False,p,49,Branco/ Nulo,14.0
+CE091872016,False,p,49,Outros,0.0
+CE091872016,False,p,49,Naumi Amorim,46.0
+CE091872016,False,p,49,Eduardo Pessoa,28.0
+CE091872016,False,p,49,BASE,504.0
+CE093852016,False,p,50,Nao sabe/ Nao respondeu,13.0
+CE093852016,False,p,50,Branco/ Nulo,6.0
+CE093852016,False,p,50,Outros,0.0
+CE093852016,False,p,50,Moses Rodrigues,32.0
+CE093852016,False,p,50,Ivo Gomes,39.0
+CE093852016,False,p,50,Dr Guimaraes,9.0
+CE093852016,False,p,50,BASE,602.0
+CE095782016,False,p,51,Nao sabe/ Nao respondeu,13.0
+CE095782016,False,p,51,Branco/ Nulo,14.0
+CE095782016,False,p,51,Outros,0.0
+CE095782016,False,p,51,Ronaldo Martins,2.0
+CE095782016,False,p,51,Roberto Claudio,31.0
+CE095782016,False,p,51,Luizianne,12.0
+CE095782016,False,p,51,Joao Alfredo,1.0
+CE095782016,False,p,51,Heitor Ferrer,5.0
+CE095782016,False,p,51,Capitao Wagner,21.0
+CE095782016,False,p,51,BASE,805.0
+CE096572016,False,p,52,Nao sabe/ Nao respondeu,12.0
+CE096572016,False,p,52,Branco/ Nulo,1.0
+CE096572016,False,p,52,Regivaldo,27.0
+CE096572016,False,p,52,Adail Machado,60.0
+CE096572016,False,p,52,BASE,301.0
+ES001622016,False,p,53,Nao sabe/ Nao respondeu,53.0
+ES001622016,False,p,53,Branco/ Nulo,18.0
+ES001622016,False,p,53,Outros,3.0
+ES001622016,False,p,53,Perly Cipriano,1.0
+ES001622016,False,p,53,Luciano,10.0
+ES001622016,False,p,53,Lelo Coimbra,5.0
+ES001622016,False,p,53,Andre Moreira,1.0
+ES001622016,False,p,53,Amaro Neto,9.0
+ES001622016,False,p,53,BASE,602.0
+ES006722016,False,p,54,Nao sabe/ Nao respondeu,7.0
+ES006722016,False,p,54,Branco/ Nulo,9.0
+ES006722016,False,p,54,Luciano,43.0
+ES006722016,False,p,54,Amaro Neto,41.0
+ES006722016,False,p,54,BASE,602.0
+ES035672016,False,p,55,Nao sabe/ Nao respondeu,16.0
+ES035672016,False,p,55,Branco/ Nulo,10.0
+ES035672016,False,p,55,Perly Cipriano,3.0
+ES035672016,False,p,55,Luciano,31.0
+ES035672016,False,p,55,Lelo Coimbra,15.0
+ES035672016,False,p,55,Andre Moreira,3.0
+ES035672016,False,p,55,Amaro Neto,22.0
+ES035672016,False,p,55,BASE,602.0
+ES044732016,False,p,56,Nao sabe/ Nao respondeu,8.0
+ES044732016,False,p,56,Branco/ Nulo,10.0
+ES044732016,False,p,56,Outros,0.0
+ES044732016,False,p,56,Luciano,47.0
+ES044732016,False,p,56,Amaro Neto,34.0
+ES044732016,False,p,56,BASE,602.0
+ES097962016,False,p,57,Nao sabe/ Nao respondeu,23.0
+ES097962016,False,p,57,Branco/ Nulo,14.0
+ES097962016,False,p,57,Perly Cipriano,3.0
+ES097962016,False,p,57,Luciano,24.0
+ES097962016,False,p,57,Lelo Coimbra,11.0
+ES097962016,False,p,57,Andre Moreira,1.0
+ES097962016,False,p,57,Amaro Neto,23.0
+ES097962016,False,p,57,BASE,602.0
+GO008932016,False,p,58,Nao sabe/ Nao respondeu,23.0
+GO008932016,False,p,58,Branco/ Nulo,13.0
+GO008932016,False,p,58,Outros,0.0
+GO008932016,False,p,58,Vanderlan,21.0
+GO008932016,False,p,58,Iris Rezende,29.0
+GO008932016,False,p,58,Francisco Jr,1.0
+GO008932016,False,p,58,Delegado Waldir,9.0
+GO008932016,False,p,58,Adriana Accorsi,4.0
+GO008932016,False,p,58,BASE,602.0
+GO076152016,False,p,59,Nao sabe/ Nao respondeu,13.0
+GO076152016,False,p,59,Branco/ Nulo,14.0
+GO076152016,False,p,59,Outros,1.0
+GO076152016,False,p,59,Vanderlan,21.0
+GO076152016,False,p,59,Iris Rezende,33.0
+GO076152016,False,p,59,Francisco Jr,4.0
+GO076152016,False,p,59,Delegado Waldir,9.0
+GO076152016,False,p,59,Adriana Accorsi,4.0
+GO076152016,False,p,59,BASE,602.0
+GO085562016,False,p,60,Nao sabe/ Nao respondeu,38.0
+GO085562016,False,p,60,Branco/ Nulo,14.0
+GO085562016,False,p,60,Outros,1.0
+GO085562016,False,p,60,Vanderlan,7.0
+GO085562016,False,p,60,Iris Rezende,25.0
+GO085562016,False,p,60,Francisco Junior,1.0
+GO085562016,False,p,60,Delegado Waldir,10.0
+GO085562016,False,p,60,Adriana Accorsi,3.0
+GO085562016,False,p,60,BASE,602.0
+GO088702016,False,p,61,Nao sabe/ Nao respondeu,5.0
+GO088702016,False,p,61,Branco/ Nulo,12.0
+GO088702016,False,p,61,Outros,0.0
+GO088702016,False,p,61,Vanderlan,35.0
+GO088702016,False,p,61,Iris Rezende,47.0
+GO088702016,False,p,61,BASE,602.0
+GO096242016,False,p,62,Nao sabe/ Nao respondeu,7.0
+GO096242016,False,p,62,Branco/ Nulo,14.0
+GO096242016,False,p,62,Vanderlan,31.0
+GO096242016,False,p,62,Iris Rezende,48.0
+GO096242016,False,p,62,BASE,602.0
+MA002392016,False,p,63,Nao sabe/ Nao respondeu,16.0
+MA002392016,False,p,63,Branco/ Nulo,14.0
+MA002392016,False,p,63,Outros,1.0
+MA002392016,False,p,63,Wellington do Curso,22.0
+MA002392016,False,p,63,Rose Sales,1.0
+MA002392016,False,p,63,Fabio Camara,3.0
+MA002392016,False,p,63,Eliziane Gama,7.0
+MA002392016,False,p,63,Eduardo Braide,2.0
+MA002392016,False,p,63,Edivaldo Holanda Junior,34.0
+MA002392016,False,p,63,BASE,805.0
+MA034482016,False,p,64,Nao sabe/ Nao respondeu,7.0
+MA034482016,False,p,64,Branco/ Nulo,6.0
+MA034482016,False,p,64,Outros,0.0
+MA034482016,False,p,64,Eduardo Braide,41.0
+MA034482016,False,p,64,Edivaldo Holanda Junior,46.0
+MA034482016,False,p,64,BASE,805.0
+MA045802016,False,p,65,Nao sabe/ Nao respondeu,8.0
+MA045802016,False,p,65,Branco/ Nulo,5.0
+MA045802016,False,p,65,Outros,0.0
+MA045802016,False,p,65,Eduardo Braide,46.0
+MA045802016,False,p,65,Edivaldo Holanda Junior,41.0
+MA045802016,False,p,65,BASE,805.0
+MA053052016,False,p,66,Nao sabe/ Nao respondeu,16.0
+MA053052016,False,p,66,Branco/ Nulo,10.0
+MA053052016,False,p,66,Outros,0.0
+MA053052016,False,p,66,Wellington do Curso,24.0
+MA053052016,False,p,66,Rose Sales,2.0
+MA053052016,False,p,66,Fabio Camara,4.0
+MA053052016,False,p,66,Eliziane Gama,6.0
+MA053052016,False,p,66,Eduardo Braide,3.0
+MA053052016,False,p,66,Edivaldo Holanda Junior,34.0
+MA053052016,False,p,66,Claudia Durans,1.0
+MA053052016,False,p,66,BASE,805.0
+MA088272016,False,p,67,Nao sabe/ Nao respondeu,32.0
+MA088272016,False,p,67,Branco/ Nulo,20.0
+MA088272016,False,p,67,Outros,2.0
+MA088272016,False,p,67,Wellington do Curso,13.0
+MA088272016,False,p,67,Rose Sales,2.0
+MA088272016,False,p,67,Fabio Camara,1.0
+MA088272016,False,p,67,Eliziane Gama,6.0
+MA088272016,False,p,67,Eduardo Braide,2.0
+MA088272016,False,p,67,Edivaldo Holanda Junior,23.0
+MA088272016,False,p,67,BASE,805.0
+MG001842016,False,p,68,Nao sabe/ Nao respondeu,7.0
+MG001842016,False,p,68,Branco/ Nulo,21.0
+MG001842016,False,p,68,Outros,0.0
+MG001842016,False,p,68,Margarida Salomao,22.0
+MG001842016,False,p,68,Bruno Siqueira,50.0
+MG001842016,False,p,68,BASE,602.0
+MG009622016,False,p,69,Nao sabe/ Nao respondeu,10.0
+MG009622016,False,p,69,Branco/ Nulo,12.0
+MG009622016,False,p,69,Outros,1.0
+MG009622016,False,p,69,Ozeas Diretor,47.0
+MG009622016,False,p,69,Dr Afonso Carlos,30.0
+MG009622016,False,p,69,BASE,301.0
+MG012262016,False,p,70,Nao sabe/ Nao respondeu,38.0
+MG012262016,False,p,70,Branco/ Nulo,12.0
+MG012262016,False,p,70,Outros,0.0
+MG012262016,False,p,70,Merim Toco,1.0
+MG012262016,False,p,70,Grego,28.0
+MG012262016,False,p,70,Elder Abreu,21.0
+MG012262016,False,p,70,BASE,406.0
+MG015742016,False,p,71,Nao sabe/ Nao respondeu,26.0
+MG015742016,False,p,71,Branco/ Nulo,5.0
+MG015742016,False,p,71,Outros,1.0
+MG015742016,False,p,71,Ozeas Diretor,39.0
+MG015742016,False,p,71,Eduardo Mathias da Cemig,1.0
+MG015742016,False,p,71,Dr Afonso Carlos,28.0
+MG015742016,False,p,71,BASE,301.0
+MG021202016,False,p,72,Nao sabe/ Nao respondeu,10.0
+MG021202016,False,p,72,Branco/ Nulo,19.0
+MG021202016,False,p,72,Outros,0.0
+MG021202016,False,p,72,Kalil,38.0
+MG021202016,False,p,72,Joao Leite,32.0
+MG021202016,False,p,72,BASE,1001.0
+MG021862016,False,p,73,Nao sabe/ Nao respondeu,38.0
+MG021862016,False,p,73,Branco/ Nulo,18.0
+MG021862016,False,p,73,Zaire Rezende,1.0
+MG021862016,False,p,73,Odelmo Leao,38.0
+MG021862016,False,p,73,Joao Bittar,0.0
+MG021862016,False,p,73,Luiz Humberto,0.0
+MG021862016,False,p,73,Leonidio Boucas,0.0
+MG021862016,False,p,73,Gilmar Machado,4.0
+MG021862016,False,p,73,BASE,406.0
+MG024812016,False,p,74,Nao sabe/ Nao respondeu,23.0
+MG024812016,False,p,74,Branco/ Nulo,18.0
+MG024812016,False,p,74,Outros,1.0
+MG024812016,False,p,74,Vanessa Portugal,1.0
+MG024812016,False,p,74,Sargento Rodrigues,1.0
+MG024812016,False,p,74,Rodrigo Pacheco,2.0
+MG024812016,False,p,74,Reginaldo Lopes,2.0
+MG024812016,False,p,74,Maria da Consolacao,1.0
+MG024812016,False,p,74,Marcelo Alvaro Antonio,1.0
+MG024812016,False,p,74,Luis Tibe,2.0
+MG024812016,False,p,74,Kalil,19.0
+MG024812016,False,p,74,Joao Leite,24.0
+MG024812016,False,p,74,Eros Biondini,3.0
+MG024812016,False,p,74,Delio Malheiros,2.0
+MG024812016,False,p,74,BASE,1001.0
+MG024982016,False,p,75,Nao sabe/ Nao respondeu,51.0
+MG024982016,False,p,75,Branco/ Nulo,22.0
+MG024982016,False,p,75,Outros,2.0
+MG024982016,False,p,75,Wilson Rezato,2.0
+MG024982016,False,p,75,Noraldino,6.0
+MG024982016,False,p,75,Margarida Salomao,7.0
+MG024982016,False,p,75,Lafayette,1.0
+MG024982016,False,p,75,Bruno Siqueira,9.0
+MG024982016,False,p,75,BASE,602.0
+MG025942016,False,p,76,Nao sabe/ Nao respondeu,7.0
+MG025942016,False,p,76,Branco/ Nulo,23.0
+MG025942016,False,p,76,Outros,0.0
+MG025942016,False,p,76,Kalil,36.0
+MG025942016,False,p,76,Joao Leite,33.0
+MG025942016,False,p,76,BASE,1001.0
+MG032152016,False,p,77,BASE,504.0
+MG032152016,False,p,77,Almir Silva,2.0
+MG032152016,False,p,77,Angela Mairink,1.0
+MG032152016,False,p,77,Edson Santana,0.0
+MG032152016,False,p,77,De - da So Farois,0.0
+MG032152016,False,p,77,J.Junior,1.0
+MG032152016,False,p,77,Lerin,4.0
+MG032152016,False,p,77,Paulo Piau,9.0
+MG032152016,False,p,77,Ripossati,1.0
+MG032152016,False,p,77,Samir Cecilio,1.0
+MG032152016,False,p,77,Wagner Junior,2.0
+MG032152016,False,p,77,Anderson Adauto,4.0
+MG032152016,False,p,77,Denise da Supra,0.0
+MG032152016,False,p,77,Samuel Pereira,0.0
+MG032152016,False,p,77,Branco/ Nulo,14.0
+MG032152016,False,p,77,Nao sabe/ Nao respondeu,60.0
+MG040952016,False,p,78,Nao sabe/ Nao respondeu,11.0
+MG040952016,False,p,78,Branco/ Nulo,10.0
+MG040952016,False,p,78,Outros,0.0
+MG040952016,False,p,78,Gilmar Machado,5.0
+MG040952016,False,p,78,Odelmo Leao,63.0
+MG040952016,False,p,78,Gilberto Cunha,1.0
+MG040952016,False,p,78,Alexandre Andrade,10.0
+MG040952016,False,p,78,BASE,602.0
+MG041732016,False,p,79,Nao sabe/ Nao respondeu,15.0
+MG041732016,False,p,79,Branco/ Nulo,18.0
+MG041732016,False,p,79,Outros,1.0
+MG041732016,False,p,79,Sargento Rodrigues,1.0
+MG041732016,False,p,79,Rodrigo Pacheco,3.0
+MG041732016,False,p,79,Reginaldo Lopes,2.0
+MG041732016,False,p,79,Maria da Consolacao,1.0
+MG041732016,False,p,79,Marcelo Alvaro Antonio,1.0
+MG041732016,False,p,79,Luis Tibe,2.0
+MG041732016,False,p,79,Kalil,21.0
+MG041732016,False,p,79,Joao Leite,28.0
+MG041732016,False,p,79,Eros Biondini,2.0
+MG041732016,False,p,79,Delio Malheiros,4.0
+MG041732016,False,p,79,BASE,1106.0
+MG042752016,False,p,80,Nao sabe/ Nao respondeu,21.0
+MG042752016,False,p,80,Branco/ Nulo,14.0
+MG042752016,False,p,80,Outros,2.0
+MG042752016,False,p,80,Wagner Junior,10.0
+MG042752016,False,p,80,Simea,1.0
+MG042752016,False,p,80,Paulo Piau,36.0
+MG042752016,False,p,80,Lerin,10.0
+MG042752016,False,p,80,Angela,6.0
+MG042752016,False,p,80,BASE,504.0
+MG042892016,False,p,81,Nao sabe/ Nao respondeu,57.0
+MG042892016,False,p,81,Branco/ Nulo,21.0
+MG042892016,False,p,81,Outros,3.0
+MG042892016,False,p,81,Sargento Rodrigues,1.0
+MG042892016,False,p,81,Reginaldo Lopes,1.0
+MG042892016,False,p,81,Luis Tibe,2.0
+MG042892016,False,p,81,Kalil,6.0
+MG042892016,False,p,81,Joao Leite,6.0
+MG042892016,False,p,81,Eros Biondini,1.0
+MG042892016,False,p,81,Delio Malheiros,1.0
+MG042892016,False,p,81,BASE,805.0
+MG058052016,False,p,82,Nao sabe/ Nao respondeu,13.0
+MG058052016,False,p,82,Branco/ Nulo,16.0
+MG058052016,False,p,82,Outros,0.0
+MG058052016,False,p,82,Wilson Rezato,7.0
+MG058052016,False,p,82,Noraldino,9.0
+MG058052016,False,p,82,Margarida Salomao,19.0
+MG058052016,False,p,82,Lafayette,3.0
+MG058052016,False,p,82,Bruno Siqueira,32.0
+MG058052016,False,p,82,BASE,602.0
+MG059862016,False,p,83,Nao sabe/ Nao respondeu,25.0
+MG059862016,False,p,83,Branco/ Nulo,15.0
+MG059862016,False,p,83,Outros,1.0
+MG059862016,False,p,83,Wilson Rezato,7.0
+MG059862016,False,p,83,Noraldino,8.0
+MG059862016,False,p,83,Margarida Salomao,18.0
+MG059862016,False,p,83,Lafayette,3.0
+MG059862016,False,p,83,Bruno Siqueira,23.0
+MG059862016,False,p,83,BASE,602.0
+MG065552016,False,p,84,Nao sabe/ Nao respondeu,16.0
+MG065552016,False,p,84,Branco/ Nulo,11.0
+MG065552016,False,p,84,Outros,0.0
+MG065552016,False,p,84,Gilmar Machado,6.0
+MG065552016,False,p,84,Odelmo Leao,59.0
+MG065552016,False,p,84,Gilberto Cunha,1.0
+MG065552016,False,p,84,Alexandre Andrade,6.0
+MG065552016,False,p,84,BASE,602.0
+MG069892016,False,p,85,Nao sabe/ Nao respondeu,7.0
+MG069892016,False,p,85,Branco/ Nulo,23.0
+MG069892016,False,p,85,Outros,0.0
+MG069892016,False,p,85,Kalil,36.0
+MG069892016,False,p,85,Joao Leite,33.0
+MG069892016,False,p,85,BASE,1204.0
+MG072442016,False,p,86,Nao sabe/ Nao respondeu,8.0
+MG072442016,False,p,86,Branco/ Nulo,15.0
+MG072442016,False,p,86,Margarida Salomao,31.0
+MG072442016,False,p,86,Bruno Siqueira,46.0
+MG072442016,False,p,86,BASE,602.0
+MG073662016,False,p,87,Nao sabe/ Nao respondeu,24.0
+MG073662016,False,p,87,Branco/ Nulo,21.0
+MG073662016,False,p,87,Outros,1.0
+MG073662016,False,p,87,Sargento Rodrigues,1.0
+MG073662016,False,p,87,Rodrigo Pacheco,1.0
+MG073662016,False,p,87,Reginaldo Lopes,2.0
+MG073662016,False,p,87,Maria da Consolacao,1.0
+MG073662016,False,p,87,Marcelo Alvaro Antonio,1.0
+MG073662016,False,p,87,Luis Tibe,2.0
+MG073662016,False,p,87,Kalil,15.0
+MG073662016,False,p,87,Joao Leite,24.0
+MG073662016,False,p,87,Eros Biondini,4.0
+MG073662016,False,p,87,Delio Malheiros,3.0
+MG073662016,False,p,87,BASE,1001.0
+MG074522016,False,p,88,Nao sabe/ Nao respondeu,31.0
+MG074522016,False,p,88,Branco/ Nulo,13.0
+MG074522016,False,p,88,Outros,1.0
+MG074522016,False,p,88,Gilmar Machado,4.0
+MG074522016,False,p,88,Odelmo Leao,51.0
+MG074522016,False,p,88,BASE,602.0
+MG085552016,False,p,89,Nao sabe/ Nao respondeu,19.0
+MG085552016,False,p,89,Branco/ Nulo,18.0
+MG085552016,False,p,89,Outros,0.0
+MG085552016,False,p,89,Vanessa Portugal,1.0
+MG085552016,False,p,89,Sargento Rodrigues,1.0
+MG085552016,False,p,89,Rodrigo Pacheco,2.0
+MG085552016,False,p,89,Reginaldo Lopes,3.0
+MG085552016,False,p,89,Maria da Consolacao,1.0
+MG085552016,False,p,89,Marcelo Alvaro Antonio,1.0
+MG085552016,False,p,89,Luis Tibe,3.0
+MG085552016,False,p,89,Kalil,19.0
+MG085552016,False,p,89,Joao Leite,27.0
+MG085552016,False,p,89,Eros Biondini,3.0
+MG085552016,False,p,89,Delio Malheiros,2.0
+MG085552016,False,p,89,BASE,1001.0
+MG090142016,False,p,90,Nao sabe/ Nao respondeu,24.0
+MG090142016,False,p,90,Branco/ Nulo,13.0
+MG090142016,False,p,90,Outros,1.0
+MG090142016,False,p,90,Raul Belem,37.0
+MG090142016,False,p,90,Nilton Eduardo,1.0
+MG090142016,False,p,90,Marcao,25.0
+MG090142016,False,p,90,BASE,406.0
+MS003722016,False,p,91,Nao sabe/ Nao respondeu,9.0
+MS003722016,False,p,91,Branco/ Nulo,18.0
+MS003722016,False,p,91,Outros,0.0
+MS003722016,False,p,91,Rose Modesto,27.0
+MS003722016,False,p,91,Marquinhos Trad,46.0
+MS003722016,False,p,91,BASE,602.0
+MS019632016,False,p,92,Nao sabe/ Nao respondeu,20.0
+MS019632016,False,p,92,Branco/ Nulo,17.0
+MS019632016,False,p,92,Outros,2.0
+MS019632016,False,p,92,Rose Modesto,16.0
+MS019632016,False,p,92,Marquinhos Trad,31.0
+MS019632016,False,p,92,Coronel David,2.0
+MS019632016,False,p,92,Alcides Bernal,13.0
+MS019632016,False,p,92,BASE,602.0
+MS036352016,False,p,93,Nao sabe/ Nao respondeu,7.0
+MS036352016,False,p,93,Branco/ Nulo,19.0
+MS036352016,False,p,93,Outros,0.0
+MS036352016,False,p,93,Rose Modesto,32.0
+MS036352016,False,p,93,Marquinhos Trad,42.0
+MS036352016,False,p,93,BASE,602.0
+MS074842016,False,p,94,Nao sabe/ Nao respondeu,32.0
+MS074842016,False,p,94,Branco/ Nulo,16.0
+MS074842016,False,p,94,Outros,2.0
+MS074842016,False,p,94,Rose Modesto,17.0
+MS074842016,False,p,94,Marquinhos Trad,22.0
+MS074842016,False,p,94,Marcelo Bluma,1.0
+MS074842016,False,p,94,Coronel David,1.0
+MS074842016,False,p,94,Alex do PT,1.0
+MS074842016,False,p,94,Alcides Bernal,9.0
+MS074842016,False,p,94,BASE,602.0
+MS083222016,False,p,95,Nao sabe/ Nao respondeu,13.0
+MS083222016,False,p,95,Branco/ Nulo,15.0
+MS083222016,False,p,95,Outros,1.0
+MS083222016,False,p,95,Suel do PSTU,1.0
+MS083222016,False,p,95,Rose Modesto,22.0
+MS083222016,False,p,95,Marquinhos Trad,28.0
+MS083222016,False,p,95,Marcelo Bluma,1.0
+MS083222016,False,p,95,Coronel David,2.0
+MS083222016,False,p,95,Athayde,1.0
+MS083222016,False,p,95,Alex do PT,1.0
+MS083222016,False,p,95,Alcides Bernal,15.0
+MS083222016,False,p,95,BASE,602.0
+MT014942016,False,p,96,Nao sabe/ Nao respondeu,14.0
+MT014942016,False,p,96,Branco/ Nulo,14.0
+MT014942016,False,p,96,Outros,0.0
+MT014942016,False,p,96,Wilson Santos,28.0
+MT014942016,False,p,96,Emanuel Pinheiro,43.0
+MT014942016,False,p,96,BASE,602.0
+MT026822016,False,p,97,Nao sabe/ Nao respondeu,7.0
+MT026822016,False,p,97,Branco/ Nulo,19.0
+MT026822016,False,p,97,Wilson Santos,29.0
+MT026822016,False,p,97,Emanuel Pinheiro,45.0
+MT026822016,False,p,97,BASE,602.0
+MT026842016,False,p,98,Nao sabe/ Nao respondeu,30.0
+MT026842016,False,p,98,Branco/ Nulo,12.0
+MT026842016,False,p,98,Outros,0.0
+MT026842016,False,p,98,Wilson Santos,14.0
+MT026842016,False,p,98,Serys Slhessarenko,2.0
+MT026842016,False,p,98,Procurador Mauro,19.0
+MT026842016,False,p,98,Julier,5.0
+MT026842016,False,p,98,Emanuel Pinheiro,18.0
+MT026842016,False,p,98,BASE,602.0
+MT047972016,False,p,99,Nao sabe/ Nao respondeu,42.0
+MT047972016,False,p,99,Branco/ Nulo,17.0
+MT047972016,False,p,99,Outros,1.0
+MT047972016,False,p,99,Wilson Santos,11.0
+MT047972016,False,p,99,Serys Slhessarenko,3.0
+MT047972016,False,p,99,Procurador Mauro,13.0
+MT047972016,False,p,99,Julier,2.0
+MT047972016,False,p,99,Emanuel Pinheiro,10.0
+MT047972016,False,p,99,BASE,602.0
+MT070122016,False,p,100,Nao sabe/ Nao respondeu,24.0
+MT070122016,False,p,100,Branco/ Nulo,13.0
+MT070122016,False,p,100,Outros,2.0
+MT070122016,False,p,100,Wilson Santos,18.0
+MT070122016,False,p,100,Procurador Mauro,15.0
+MT070122016,False,p,100,Julier,5.0
+MT070122016,False,p,100,Emanuel Pinheiro,23.0
+MT070122016,False,p,100,BASE,602.0
+MT078192016,False,p,101,Nao sabe/ Nao respondeu,18.0
+MT078192016,False,p,101,Branco/ Nulo,12.0
+MT078192016,False,p,101,Outros,0.0
+MT078192016,False,p,101,Rosana Martinelli,42.0
+MT078192016,False,p,101,Roberto Dorner,19.0
+MT078192016,False,p,101,Dalton Martini,10.0
+MT078192016,False,p,101,BASE,504.0
+PA004312016,False,p,102,Nao sabe/ Nao respondeu,33.0
+PA004312016,False,p,102,Branco/ Nulo,7.0
+PA004312016,False,p,102,Engenheiro Midson,0.0
+PA004312016,False,p,102,Coronel Barata,1.0
+PA004312016,False,p,102,Professor Jonatas,0.0
+PA004312016,False,p,102,Jones William,31.0
+PA004312016,False,p,102,Jairo Holanda,28.0
+PA004312016,False,p,102,BASE,301.0
+PA022132016,False,p,103,Nao sabe/ Nao respondeu,29.0
+PA022132016,False,p,103,Branco/ Nulo,3.0
+PA022132016,False,p,103,Outros com menos de 1%,1.0
+PA022132016,False,p,103,Valdemar da Pavinorte,2.0
+PA022132016,False,p,103,Marilda Natal,2.0
+PA022132016,False,p,103,Jeova Andrade,61.0
+PA022132016,False,p,103,Anuar Alves,2.0
+PA022132016,False,p,103,BASE,301.0
+PA037132016,False,p,104,Nao sabe/ Nao respondeu,7.0
+PA037132016,False,p,104,Branco/ Nulo,4.0
+PA037132016,False,p,104,Jeova Andrade,67.0
+PA037132016,False,p,104,Jean Carlos,18.0
+PA037132016,False,p,104,Dra. Marilda,4.0
+PA037132016,False,p,104,BASE,301.0
+PA045402016,False,p,105,Nao sabe/ Nao respondeu,46.0
+PA045402016,False,p,105,Branco/ Nulo,2.0
+PA045402016,False,p,105,Outros com menos de 1%,1.0
+PA045402016,False,p,105,Orlene,1.0
+PA045402016,False,p,105,Marilda Natal,2.0
+PA045402016,False,p,105,Jean Carlos,3.0
+PA045402016,False,p,105,Jeova Andrade,46.0
+PA045402016,False,p,105,BASE,301.0
+PA050082016,False,p,106,Nao sabe/ Nao respondeu,16.0
+PA050082016,False,p,106,Branco/ Nulo,4.0
+PA050082016,False,p,106,Jeova Andrade,64.0
+PA050082016,False,p,106,Jean Carlos,11.0
+PA050082016,False,p,106,Dra. Marilda,5.0
+PA050082016,False,p,106,BASE,301.0
+PA064012016,False,p,107,Nao sabe/ Nao respondeu,27.0
+PA064012016,False,p,107,Branco/ Nulo,14.0
+PA064012016,False,p,107,Outros,1.0
+PA064012016,False,p,107,Professor Maneschy,1.0
+PA064012016,False,p,107,Zenaldo Coutinho,8.0
+PA064012016,False,p,107,Ursula Vidal,1.0
+PA064012016,False,p,107,Regina Barata,1.0
+PA064012016,False,p,107,Eder Mauro,17.0
+PA064012016,False,p,107,Edmilson,28.0
+PA064012016,False,p,107,Cleber Rabelo,1.0
+PA064012016,False,p,107,BASE,602.0
+PA069782016,False,p,108,Nao sabe/ Nao respondeu,9.0
+PA069782016,False,p,108,Branco/ Nulo,8.0
+PA069782016,False,p,108,Outros,1.0
+PA069782016,False,p,108,Professor Maneschy,14.0
+PA069782016,False,p,108,Zenaldo Coutinho,20.0
+PA069782016,False,p,108,Ursula Vidal,4.0
+PA069782016,False,p,108,Regina Barata,1.0
+PA069782016,False,p,108,Eder Mauro,15.0
+PA069782016,False,p,108,Edmilson,28.0
+PA069782016,False,p,108,BASE,602.0
+PA076032016,False,p,109,Nao sabe/ Nao respondeu,12.0
+PA076032016,False,p,109,Branco/ Nulo,12.0
+PA076032016,False,p,109,Outros,1.0
+PA076032016,False,p,109,Professor Maneschy,4.0
+PA076032016,False,p,109,Zenaldo Coutinho,17.0
+PA076032016,False,p,109,Ursula Vidal,1.0
+PA076032016,False,p,109,Regina Barata,2.0
+PA076032016,False,p,109,Eder Mauro,19.0
+PA076032016,False,p,109,Edmilson,31.0
+PA076032016,False,p,109,BASE,602.0
+PA081272016,False,p,110,Nao sabe/ Nao respondeu,4.0
+PA081272016,False,p,110,Branco/ Nulo,10.0
+PA081272016,False,p,110,Outros,0.0
+PA081272016,False,p,110,Zenaldo Coutinho,41.0
+PA081272016,False,p,110,Edmilson,45.0
+PA081272016,False,p,110,BASE,602.0
+PA083662016,False,p,111,Nao sabe/ Nao respondeu,6.0
+PA083662016,False,p,111,Branco/ Nulo,15.0
+PA083662016,False,p,111,Outros,0.0
+PA083662016,False,p,111,Zenaldo Coutinho,40.0
+PA083662016,False,p,111,Edmilson,39.0
+PA083662016,False,p,111,BASE,602.0
+PB017162016,False,p,112,Nao sabe/ Nao respondeu,14.0
+PB017162016,False,p,112,Branco/ Nulo,13.0
+PB017162016,False,p,112,Outros,1.0
+PB017162016,False,p,112,Victor Hugo,1.0
+PB017162016,False,p,112,Professor Charliton,2.0
+PB017162016,False,p,112,Luciano Cartaxo,48.0
+PB017162016,False,p,112,Cida Ramos,22.0
+PB017162016,False,p,112,BASE,602.0
+PB064262016,False,p,113,Nao sabe/ Nao respondeu,38.0
+PB064262016,False,p,113,Branco/ Nulo,17.0
+PB064262016,False,p,113,Outros,2.0
+PB064262016,False,p,113,Luciano Cartaxo,31.0
+PB064262016,False,p,113,Cida Ramos,11.0
+PB064262016,False,p,113,BASE,602.0
+PB064262016,False,v,114,Nao sabe/ Nao respondeu,52.0
+PB064262016,False,v,114,Branco/ Nulo,19.0
+PB064262016,False,v,114,Outros com menos de 1%,21.0
+PB064262016,False,v,114,Rafael Monteiro,1.0
+PB064262016,False,v,114,Pedro Alberto Coutinho,1.0
+PB064262016,False,v,114,Marcos Bandeira,1.0
+PB064262016,False,v,114,Joao dos Santos,1.0
+PB064262016,False,v,114,Joao Almeida,1.0
+PB064262016,False,v,114,Felipe Leitao,1.0
+PB064262016,False,v,114,Eliza,1.0
+PB064262016,False,v,114,Durval Ferreira,1.0
+PB064262016,False,v,114,Chico do Sindicato,1.0
+PB064262016,False,v,114,Carlao,1.0
+PB064262016,False,v,114,BASE,602.0
+PE001512016,False,p,115,Nao sabe/ Nao respondeu,5.0
+PE001512016,False,p,115,Branco/ Nulo,12.0
+PE001512016,False,p,115,Outros,0.0
+PE001512016,False,p,115,Joao Paulo,32.0
+PE001512016,False,p,115,Geraldo Julio,50.0
+PE001512016,False,p,115,BASE,1001.0
+PE011712016,False,p,116,Nao sabe/ Nao respondeu,13.0
+PE011712016,False,p,116,Branco/ Nulo,8.0
+PE011712016,False,p,116,Outros,0.0
+PE011712016,False,p,116,Perpetua Rodrigues,1.0
+PE011712016,False,p,116,Odacy Amorim,20.0
+PE011712016,False,p,116,Miguel Coelho,33.0
+PE011712016,False,p,116,Edinaldo Lima,12.0
+PE011712016,False,p,116,Adalberto Cavalcanti,12.0
+PE011712016,False,p,116,BASE,602.0
+PE020252016,False,p,117,Nao sabe/ Nao respondeu,43.0
+PE020252016,False,p,117,Branco/ Nulo,27.0
+PE020252016,False,p,117,Outros,1.0
+PE020252016,False,p,117,Priscila Krause,2.0
+PE020252016,False,p,117,Joao Paulo,11.0
+PE020252016,False,p,117,Geraldo Julio,12.0
+PE020252016,False,p,117,Edilson Silva,1.0
+PE020252016,False,p,117,Daniel Coelho,2.0
+PE020252016,False,p,117,BASE,805.0
+PE029412016,False,p,118,Nao sabe/ Nao respondeu,12.0
+PE029412016,False,p,118,Branco/ Nulo,16.0
+PE029412016,False,p,118,Outros,1.0
+PE029412016,False,p,118,Priscila Krause,3.0
+PE029412016,False,p,118,Pantaleao,0.0
+PE029412016,False,p,118,Joao Paulo,24.0
+PE029412016,False,p,118,Geraldo Julio,32.0
+PE029412016,False,p,118,Edilson Silva,2.0
+PE029412016,False,p,118,Daniel Coelho,9.0
+PE029412016,False,p,118,Carlos Augusto,0.0
+PE029412016,False,p,118,BASE,1001.0
+PE032122016,False,p,119,Nao sabe/ Nao respondeu,34.0
+PE032122016,False,p,119,Branco/ Nulo,20.0
+PE032122016,False,p,119,Outros com menos de 1%,2.0
+PE032122016,False,p,119,Vado da Farmacia,3.0
+PE032122016,False,p,119,Lula Cabral,29.0
+PE032122016,False,p,119,Betinho Gomes,13.0
+PE032122016,False,p,119,BASE,406.0
+PE050112016,False,p,120,Nao sabe/ Nao respondeu,26.0
+PE050112016,False,p,120,Branco/ Nulo,21.0
+PE050112016,False,p,120,Outros,4.0
+PE050112016,False,p,120,Pastor Cleiton Collins,9.0
+PE050112016,False,p,120,Neco,17.0
+PE050112016,False,p,120,Heraldo Selva,7.0
+PE050112016,False,p,120,Anderson Ferreira,15.0
+PE050112016,False,p,120,Adelson Veras,1.0
+PE050112016,False,p,120,BASE,602.0
+PE055582016,False,p,121,Nao sabe/ Nao respondeu,21.0
+PE055582016,False,p,121,Branco/ Nulo,9.0
+PE055582016,False,p,121,Outros,1.0
+PE055582016,False,p,121,Odacy Amorim,16.0
+PE055582016,False,p,121,Miguel Coelho,30.0
+PE055582016,False,p,121,Edinaldo Lima,12.0
+PE055582016,False,p,121,Adalberto Cavalcanti,12.0
+PE055582016,False,p,121,BASE,504.0
+PE062062016,False,p,122,Nao sabe/ Nao respondeu,12.0
+PE062062016,False,p,122,Branco/ Nulo,14.0
+PE062062016,False,p,122,Outros,1.0
+PE062062016,False,p,122,Priscila Krause,2.0
+PE062062016,False,p,122,Joao Paulo,22.0
+PE062062016,False,p,122,Geraldo Julio,37.0
+PE062062016,False,p,122,Edilson Silva,1.0
+PE062062016,False,p,122,Daniel Coelho,12.0
+PE062062016,False,p,122,BASE,1001.0
+PE062722016,False,p,123,Nao sabe/ Nao respondeu,6.0
+PE062722016,False,p,123,Branco/ Nulo,14.0
+PE062722016,False,p,123,Outros,0.0
+PE062722016,False,p,123,Joao Paulo,30.0
+PE062722016,False,p,123,Geraldo Julio,49.0
+PE062722016,False,p,123,BASE,1001.0
+PE081692016,False,p,124,Nao sabe/ Nao respondeu,11.0
+PE081692016,False,p,124,Branco/ Nulo,18.0
+PE081692016,False,p,124,Outros,0.0
+PE081692016,False,p,124,Lula Cabral,46.0
+PE081692016,False,p,124,Gleydson Goes,1.0
+PE081692016,False,p,124,Betinho,23.0
+PE081692016,False,p,124,BASE,406.0
+PE082742016,False,p,125,Nao sabe/ Nao respondeu,7.0
+PE082742016,False,p,125,Branco/ Nulo,4.0
+PE082742016,False,p,125,Ronieri Reis,34.0
+PE082742016,False,p,125,Geomarco,56.0
+PE082742016,False,p,125,BASE,301.0
+PE090352016,False,p,126,Nao sabe/ Nao respondeu,12.0
+PE090352016,False,p,126,Branco/ Nulo,14.0
+PE090352016,False,p,126,Outros,1.0
+PE090352016,False,p,126,Priscila Krause,3.0
+PE090352016,False,p,126,Joao Paulo,23.0
+PE090352016,False,p,126,Geraldo Julio,36.0
+PE090352016,False,p,126,Edilson Silva,1.0
+PE090352016,False,p,126,Daniel Coelho,11.0
+PE090352016,False,p,126,BASE,1106.0
+PE093442016,False,p,127,Nao sabe/ Nao respondeu,6.0
+PE093442016,False,p,127,Branco/ Nulo,11.0
+PE093442016,False,p,127,Outros,0.0
+PE093442016,False,p,127,Joao Paulo,34.0
+PE093442016,False,p,127,Geraldo Julio,49.0
+PE093442016,False,p,127,BASE,1204.0
+PE097782016,False,p,128,Nao sabe/ Nao respondeu,17.0
+PE097782016,False,p,128,Branco/ Nulo,17.0
+PE097782016,False,p,128,Outros,1.0
+PE097782016,False,p,128,Priscila Krause,3.0
+PE097782016,False,p,128,Joao Paulo,21.0
+PE097782016,False,p,128,Geraldo Julio,31.0
+PE097782016,False,p,128,Edilson Silva,2.0
+PE097782016,False,p,128,Daniel Coelho,8.0
+PE097782016,False,p,128,BASE,1001.0
+PI066992016,False,p,129,Nao sabe/ Nao respondeu,14.0
+PI066992016,False,p,129,Branco/ Nulo,7.0
+PI066992016,False,p,129,Outros,0.0
+PI066992016,False,p,129,Firmino Filho,43.0
+PI066992016,False,p,129,Everton Diego,1.0
+PI066992016,False,p,129,Dr. Pessoa,30.0
+PI066992016,False,p,129,Amadeu Campos,5.0
+PI066992016,False,p,129,BASE,602.0
+PI067172016,False,p,130,Nao sabe/ Nao respondeu,32.0
+PI067172016,False,p,130,Branco/ Nulo,17.0
+PI067172016,False,p,130,Outros,2.0
+PI067172016,False,p,130,Firmino Filho,33.0
+PI067172016,False,p,130,Dr. Pessoa,12.0
+PI067172016,False,p,130,Amadeu Campos,5.0
+PI067172016,False,p,130,BASE,602.0
+PR000152016,False,p,131,Nao sabe/ Nao respondeu,10.0
+PR000152016,False,p,131,Branco/ Nulo,19.0
+PR000152016,False,p,131,Rafael Greca,36.0
+PR000152016,False,p,131,Ney Leprevost,35.0
+PR000152016,False,p,131,BASE,1001.0
+PR016102016,False,p,132,Nao sabe/ Nao respondeu,28.0
+PR016102016,False,p,132,Branco/ Nulo,14.0
+PR016102016,False,p,132,Outros,1.0
+PR016102016,False,p,132,Xenia Mello,1.0
+PR016102016,False,p,132,Tadeu Veneri,2.0
+PR016102016,False,p,132,Requiao Filho,3.0
+PR016102016,False,p,132,Rafael Greca,34.0
+PR016102016,False,p,132,Ney Leprevost,3.0
+PR016102016,False,p,132,Maria Victoria,3.0
+PR016102016,False,p,132,Gustavo Fruet,10.0
+PR016102016,False,p,132,BASE,805.0
+PR043002016,False,p,133,Nao sabe/ Nao respondeu,49.0
+PR043002016,False,p,133,Branco/ Nulo,12.0
+PR043002016,False,p,133,Outros,2.0
+PR043002016,False,p,133,Tadeu Veneri,1.0
+PR043002016,False,p,133,Requiao Filho,6.0
+PR043002016,False,p,133,Rafael Greca,14.0
+PR043002016,False,p,133,Ney Leprevost,2.0
+PR043002016,False,p,133,Maria Victoria,1.0
+PR043002016,False,p,133,Gustavo Fruet,13.0
+PR043002016,False,p,133,BASE,602.0
+PR052842016,False,p,134,Nao sabe/ Nao respondeu,22.0
+PR052842016,False,p,134,Branco/ Nulo,17.0
+PR052842016,False,p,134,Outros,1.0
+PR052842016,False,p,134,Xenia Mello,1.0
+PR052842016,False,p,134,Tadeu Veneri,4.0
+PR052842016,False,p,134,Requiao Filho,3.0
+PR052842016,False,p,134,Rafael Greca,25.0
+PR052842016,False,p,134,Ney Leprevost,10.0
+PR052842016,False,p,134,Maria Victoria,4.0
+PR052842016,False,p,134,Gustavo Fruet,13.0
+PR052842016,False,p,134,BASE,1001.0
+PR056332016,False,p,135,Nao sabe/ Nao respondeu,30.0
+PR056332016,False,p,135,Branco/ Nulo,13.0
+PR056332016,False,p,135,Outros,2.0
+PR056332016,False,p,135,Valter Orsi,13.0
+PR056332016,False,p,135,Sandra Graca,4.0
+PR056332016,False,p,135,Odarlone,2.0
+PR056332016,False,p,135,Marcelo Belinati,35.0
+PR056332016,False,p,135,Andre Trindade,1.0
+PR056332016,False,p,135,BASE,700.0
+PR058522016,False,p,136,Nao sabe/ Nao respondeu,49.0
+PR058522016,False,p,136,Branco/ Nulo,18.0
+PR058522016,False,p,136,Outros com menos de 1%,3.0
+PR058522016,False,p,136,Luciano Ducci,1.0
+PR058522016,False,p,136,Tadeu Veneri,1.0
+PR058522016,False,p,136,Requiao Filho,2.0
+PR058522016,False,p,136,Ratinho Junior,5.0
+PR058522016,False,p,136,Rafael Greca,8.0
+PR058522016,False,p,136,Ney Leprevost,1.0
+PR058522016,False,p,136,Maria Victoria,1.0
+PR058522016,False,p,136,Luciano Pizzatto,1.0
+PR058522016,False,p,136,Gustavo Fruet,10.0
+PR058522016,False,p,136,BASE,805.0
+PR087662016,False,p,137,Nao sabe/ Nao respondeu,13.0
+PR087662016,False,p,137,Branco/ Nulo,16.0
+PR087662016,False,p,137,Outros,0.0
+PR087662016,False,p,137,Rafael Greca,33.0
+PR087662016,False,p,137,Ney Leprevost,37.0
+PR087662016,False,p,137,BASE,805.0
+PR093402016,False,p,138,Nao sabe/ Nao respondeu,52.0
+PR093402016,False,p,138,Branco/ Nulo,16.0
+PR093402016,False,p,138,Outros,7.0
+PR093402016,False,p,138,Valter Orsi,2.0
+PR093402016,False,p,138,Sandra Graca,1.0
+PR093402016,False,p,138,Odarlone,1.0
+PR093402016,False,p,138,Marcelo Belinati,20.0
+PR093402016,False,p,138,BASE,602.0
+PR097042016,False,p,139,Nao sabe/ Nao respondeu,18.0
+PR097042016,False,p,139,Branco/ Nulo,16.0
+PR097042016,False,p,139,Outros,0.0
+PR097042016,False,p,139,Valter Orsi,19.0
+PR097042016,False,p,139,Sandra Graca,2.0
+PR097042016,False,p,139,Paulo Silva,1.0
+PR097042016,False,p,139,Odarlone,2.0
+PR097042016,False,p,139,Marcelo Belinati,40.0
+PR097042016,False,p,139,Flavia Romagnoli,0.0
+PR097042016,False,p,139,Andre Trindade,2.0
+PR097042016,False,p,139,BASE,805.0
+RJ002322016,False,p,140,Nao sabe/ Nao respondeu,27.0
+RJ002322016,False,p,140,Branco/ Nulo,25.0
+RJ002322016,False,p,140,Outros,2.0
+RJ002322016,False,p,140,Rosangela Gomes,5.0
+RJ002322016,False,p,140,Rogerio Lisboa,13.0
+RJ002322016,False,p,140,Delegado Carlos Augusto,1.0
+RJ002322016,False,p,140,Bornier,28.0
+RJ002322016,False,p,140,BASE,504.0
+RJ003902016,False,p,141,Nao sabe/ Nao respondeu,23.0
+RJ003902016,False,p,141,Branco/ Nulo,26.0
+RJ003902016,False,p,141,Outros,1.0
+RJ003902016,False,p,141,Rodrigo Neves,30.0
+RJ003902016,False,p,141,Flavio Serafini,7.0
+RJ003902016,False,p,141,Felipe,13.0
+RJ003902016,False,p,141,BASE,602.0
+RJ004072016,False,p,142,Nao sabe/ Nao respondeu,9.0
+RJ004072016,False,p,142,Branco/ Nulo,25.0
+RJ004072016,False,p,142,Outros,0.0
+RJ004072016,False,p,142,Marcelo Freixo,25.0
+RJ004072016,False,p,142,Crivella,41.0
+RJ004072016,False,p,142,BASE,1001.0
+RJ005272016,False,p,143,Nao sabe/ Nao respondeu,15.0
+RJ005272016,False,p,143,Branco/ Nulo,24.0
+RJ005272016,False,p,143,Outros,1.0
+RJ005272016,False,p,143,Pedro Paulo,7.0
+RJ005272016,False,p,143,Osorio,4.0
+RJ005272016,False,p,143,Marcelo Freixo,10.0
+RJ005272016,False,p,143,Jandira Feghali,3.0
+RJ005272016,False,p,143,Indio da Costa,5.0
+RJ005272016,False,p,143,Flavio Bolsonaro,6.0
+RJ005272016,False,p,143,Crivella,24.0
+RJ005272016,False,p,143,Carmen Migueles,1.0
+RJ005272016,False,p,143,Alessandro Molon,1.0
+RJ005272016,False,p,143,BASE,1204.0
+RJ005902016,False,p,144,Nao sabe/ Nao respondeu,7.0
+RJ005902016,False,p,144,Branco/ Nulo,24.0
+RJ005902016,False,p,144,Outros,0.0
+RJ005902016,False,p,144,Marcelo Freixo,28.0
+RJ005902016,False,p,144,Crivella,41.0
+RJ005902016,False,p,144,BASE,1204.0
+RJ012572016,False,p,145,Nao sabe/ Nao respondeu,15.0
+RJ012572016,False,p,145,Branco/ Nulo,18.0
+RJ012572016,False,p,145,Outros,2.0
+RJ012572016,False,p,145,Miguel Jeovani,13.0
+RJ012572016,False,p,145,Livia de Chiquinho,33.0
+RJ012572016,False,p,145,Andre Monica,16.0
+RJ012572016,False,p,145,Anderson Moura,3.0
+RJ012572016,False,p,145,BASE,602.0
+RJ013332016,False,p,146,Nao sabe/ Nao respondeu,18.0
+RJ013332016,False,p,146,Branco/ Nulo,15.0
+RJ013332016,False,p,146,Outros,5.0
+RJ013332016,False,p,146,Marcelo Delaroli,25.0
+RJ013332016,False,p,146,Fabiano Horta,34.0
+RJ013332016,False,p,146,Carolino Santos,1.0
+RJ013332016,False,p,146,Bia do PSOL,2.0
+RJ013332016,False,p,146,BASE,602.0
+RJ026052016,False,p,147,Nao sabe/ Nao respondeu,11.0
+RJ026052016,False,p,147,Branco/ Nulo,5.0
+RJ026052016,False,p,147,Outros,0.0
+RJ026052016,False,p,147,Neco,19.0
+RJ026052016,False,p,147,Carla Machado,65.0
+RJ026052016,False,p,147,BASE,406.0
+RJ031142016,False,p,148,Nao sabe/ Nao respondeu,10.0
+RJ031142016,False,p,148,Branco/ Nulo,17.0
+RJ031142016,False,p,148,Outros,1.0
+RJ031142016,False,p,148,Rogerio Lisboa,44.0
+RJ031142016,False,p,148,Bornier,29.0
+RJ031142016,False,p,148,BASE,504.0
+RJ032562016,False,p,149,Nao sabe/ Nao respondeu,18.0
+RJ032562016,False,p,149,Branco/ Nulo,26.0
+RJ032562016,False,p,149,Outros,1.0
+RJ032562016,False,p,149,Pedro Paulo,7.0
+RJ032562016,False,p,149,Osorio,3.0
+RJ032562016,False,p,149,Marcelo Freixo,7.0
+RJ032562016,False,p,149,Jandira Feghali,4.0
+RJ032562016,False,p,149,Indio da Costa,5.0
+RJ032562016,False,p,149,Flavio Bolsonaro,5.0
+RJ032562016,False,p,149,Crivella,23.0
+RJ032562016,False,p,149,BASE,1204.0
+RJ034732016,False,p,150,Nao sabe/ Nao respondeu,11.0
+RJ034732016,False,p,150,Branco/ Nulo,21.0
+RJ034732016,False,p,150,Outros,0.0
+RJ034732016,False,p,150,Rodrigo Neves,43.0
+RJ034732016,False,p,150,Felipe,25.0
+RJ034732016,False,p,150,BASE,602.0
+RJ037312016,False,p,151,Nao sabe/ Nao respondeu,7.0
+RJ037312016,False,p,151,Branco/ Nulo,24.0
+RJ037312016,False,p,151,Outros,0.0
+RJ037312016,False,p,151,Marcelo Freixo,26.0
+RJ037312016,False,p,151,Crivella,42.0
+RJ037312016,False,p,151,BASE,1204.0
+RJ043992016,False,p,152,Nao sabe/ Nao respondeu,21.0
+RJ043992016,False,p,152,Branco/ Nulo,23.0
+RJ043992016,False,p,152,Outros,0.0
+RJ043992016,False,p,152,Rogerio Cabral,9.0
+RJ043992016,False,p,152,Renato Abi Ramia,6.0
+RJ043992016,False,p,152,Glauber,15.0
+RJ043992016,False,p,152,Dra. Grace,12.0
+RJ043992016,False,p,152,Renato Bravo,14.0
+RJ043992016,False,p,152,BASE,406.0
+RJ056152016,False,p,153,Nao sabe/ Nao respondeu,11.0
+RJ056152016,False,p,153,Branco/ Nulo,18.0
+RJ056152016,False,p,153,Outros,0.0
+RJ056152016,False,p,153,Rogerio Lisboa,41.0
+RJ056152016,False,p,153,Bornier,29.0
+RJ056152016,False,p,153,BASE,504.0
+RJ056512016,False,p,154,Nao sabe/ Nao respondeu,26.0
+RJ056512016,False,p,154,Branco/ Nulo,26.0
+RJ056512016,False,p,154,Outros,2.0
+RJ056512016,False,p,154,Rosangela Gomes,2.0
+RJ056512016,False,p,154,Rogerio Lisboa,16.0
+RJ056512016,False,p,154,Delegado Carlos Augusto,3.0
+RJ056512016,False,p,154,Bornier,25.0
+RJ056512016,False,p,154,BASE,504.0
+RJ064442016,False,p,155,Nao sabe/ Nao respondeu,22.0
+RJ064442016,False,p,155,Branco/ Nulo,27.0
+RJ064442016,False,p,155,Outros,1.0
+RJ064442016,False,p,155,Pedro Paulo,6.0
+RJ064442016,False,p,155,Osorio,3.0
+RJ064442016,False,p,155,Marcelo Freixo,7.0
+RJ064442016,False,p,155,Jandira Feghali,4.0
+RJ064442016,False,p,155,Indio da Costa,4.0
+RJ064442016,False,p,155,Flavio Bolsonaro,3.0
+RJ064442016,False,p,155,Crivella,22.0
+RJ064442016,False,p,155,Alessandro Molon,1.0
+RJ064442016,False,p,155,BASE,1204.0
+RJ064552016,False,p,156,Nao sabe/ Nao respondeu,36.0
+RJ064552016,False,p,156,Branco/ Nulo,12.0
+RJ064552016,False,p,156,Outros com menos de 1%,1.0
+RJ064552016,False,p,156,Washington Quaqua,6.0
+RJ064552016,False,p,156,Marcelo Delaroli,21.0
+RJ064552016,False,p,156,Fabiano Horta,23.0
+RJ064552016,False,p,156,BASE,602.0
+RJ065672016,False,p,157,Nao sabe/ Nao respondeu,45.0
+RJ065672016,False,p,157,Branco/ Nulo,31.0
+RJ065672016,False,p,157,Outros,4.0
+RJ065672016,False,p,157,Pedro Paulo,2.0
+RJ065672016,False,p,157,Osorio,1.0
+RJ065672016,False,p,157,Marcelo Freixo,5.0
+RJ065672016,False,p,157,Jandira Feghali,1.0
+RJ065672016,False,p,157,Indio da Costa,2.0
+RJ065672016,False,p,157,Flavio Bolsonaro,2.0
+RJ065672016,False,p,157,Crivella,7.0
+RJ065672016,False,p,157,BASE,805.0
+RJ088492016,False,p,158,Nao sabe/ Nao respondeu,42.0
+RJ088492016,False,p,158,Branco/ Nulo,20.0
+RJ088492016,False,p,158,Outros com menos de 1%,1.0
+RJ088492016,False,p,158,Silvio Lopes,1.0
+RJ088492016,False,p,158,Riverton Musse,1.0
+RJ088492016,False,p,158,Igor Sardinha,2.0
+RJ088492016,False,p,158,Dr. Aluizio,23.0
+RJ088492016,False,p,158,Danilo Funke,1.0
+RJ088492016,False,p,158,Chico Machado,9.0
+RJ088492016,False,p,158,BASE,602.0
+RJ089582016,False,p,159,Nao sabe/ Nao respondeu,23.0
+RJ089582016,False,p,159,Branco/ Nulo,28.0
+RJ089582016,False,p,159,Outros,1.0
+RJ089582016,False,p,159,Pedro Paulo,6.0
+RJ089582016,False,p,159,Osorio,2.0
+RJ089582016,False,p,159,Marcelo Freixo,7.0
+RJ089582016,False,p,159,Jandira Feghali,4.0
+RJ089582016,False,p,159,Indio da Costa,3.0
+RJ089582016,False,p,159,Flavio Bolsonaro,4.0
+RJ089582016,False,p,159,Crivella,19.0
+RJ089582016,False,p,159,Alessandro Molon,1.0
+RJ089582016,False,p,159,BASE,1001.0
+RJ092622016,False,p,160,Nao sabe/ Nao respondeu,21.0
+RJ092622016,False,p,160,Branco/ Nulo,6.0
+RJ092622016,False,p,160,Outros,1.0
+RJ092622016,False,p,160,Marcelo Delaroli,31.0
+RJ092622016,False,p,160,Fabiano Horta,39.0
+RJ092622016,False,p,160,Carolino Santos,1.0
+RJ092622016,False,p,160,BASE,602.0
+RN039332016,False,p,161,Nao sabe/ Nao respondeu,48.0
+RN039332016,False,p,161,Branco/ Nulo,29.0
+RN039332016,False,p,161,Outros,0.0
+RN039332016,False,p,161,Roberio Paulino,1.0
+RN039332016,False,p,161,Marcia Maia,1.0
+RN039332016,False,p,161,Kelps Lima,2.0
+RN039332016,False,p,161,Fernando Mineiro,2.0
+RN039332016,False,p,161,Carlos Eduardo,17.0
+RN039332016,False,p,161,BASE,602.0
+RN067472016,False,p,162,Nao sabe/ Nao respondeu,27.0
+RN067472016,False,p,162,Branco/ Nulo,20.0
+RN067472016,False,p,162,Outros,1.0
+RN067472016,False,p,162,Roberio Paulino,3.0
+RN067472016,False,p,162,Marcia Maia,3.0
+RN067472016,False,p,162,Kelps,4.0
+RN067472016,False,p,162,Fernando Mineiro,2.0
+RN067472016,False,p,162,Carlos Eduardo,39.0
+RN067472016,False,p,162,BASE,602.0
+RN088082016,False,p,163,Nao sabe/ Nao respondeu,14.0
+RN088082016,False,p,163,Branco/ Nulo,21.0
+RN088082016,False,p,163,Outros,0.0
+RN088082016,False,p,163,Roberio Paulino,4.0
+RN088082016,False,p,163,Marcia Maia,3.0
+RN088082016,False,p,163,Kelps,6.0
+RN088082016,False,p,163,Fernando Mineiro,6.0
+RN088082016,False,p,163,Carlos Eduardo,46.0
+RN088082016,False,p,163,BASE,805.0
+RO012572016,False,p,164,Nao sabe/ Nao respondeu,10.0
+RO012572016,False,p,164,Branco/ Nulo,10.0
+RO012572016,False,p,164,Outros,0.0
+RO012572016,False,p,164,Leo Moraes,29.0
+RO012572016,False,p,164,Dr Hildon,51.0
+RO012572016,False,p,164,BASE,602.0
+RO012662016,False,p,165,Nao sabe/ Nao respondeu,51.0
+RO012662016,False,p,165,Branco/ Nulo,20.0
+RO012662016,False,p,165,Outros,5.0
+RO012662016,False,p,165,Roberto Sobrinho,6.0
+RO012662016,False,p,165,Dr. Ribamar Araujo,1.0
+RO012662016,False,p,165,Pimentel,4.0
+RO012662016,False,p,165,Dr. Mauro,8.0
+RO012662016,False,p,165,Leo Moraes,5.0
+RO012662016,False,p,165,BASE,602.0
+RO024782016,False,p,166,Nao sabe/ Nao respondeu,19.0
+RO024782016,False,p,166,Branco/ Nulo,11.0
+RO024782016,False,p,166,Outros,0.0
+RO024782016,False,p,166,Roberto Sobrinho,12.0
+RO024782016,False,p,166,Dr. Ribamar Araujo,5.0
+RO024782016,False,p,166,Pimentel,10.0
+RO024782016,False,p,166,Dr. Mauro,18.0
+RO024782016,False,p,166,Pimenta de Rondonia,1.0
+RO024782016,False,p,166,Leo Moraes,18.0
+RO024782016,False,p,166,Dr Hildon,5.0
+RO024782016,False,p,166,BASE,602.0
+RO065492016,False,p,167,Nao sabe/ Nao respondeu,13.0
+RO065492016,False,p,167,Branco/ Nulo,10.0
+RO065492016,False,p,167,Outros,0.0
+RO065492016,False,p,167,Leo Moraes,33.0
+RO065492016,False,p,167,Dr Hildon,43.0
+RO065492016,False,p,167,BASE,602.0
+RO087702016,False,p,168,Nao sabe/ Nao respondeu,22.0
+RO087702016,False,p,168,Branco/ Nulo,19.0
+RO087702016,False,p,168,Outros,0.0
+RO087702016,False,p,168,Roberto Sobrinho,12.0
+RO087702016,False,p,168,Dr. Ribamar Araujo,4.0
+RO087702016,False,p,168,Pimentel,9.0
+RO087702016,False,p,168,Dr. Mauro,16.0
+RO087702016,False,p,168,Pimenta de Rondonia,1.0
+RO087702016,False,p,168,Leo Moraes,14.0
+RO087702016,False,p,168,Dr Hildon,3.0
+RO087702016,False,p,168,BASE,602.0
+RR019412016,False,p,169,Nao sabe/ Nao respondeu,26.0
+RR019412016,False,p,169,Branco/ Nulo,10.0
+RR019412016,False,p,169,Outros,1.0
+RR019412016,False,p,169,Teresa,57.0
+RR019412016,False,p,169,Sandro Bare,2.0
+RR019412016,False,p,169,Roberto Ramos,1.0
+RR019412016,False,p,169,Marcio Junqueira,1.0
+RR019412016,False,p,169,Alex Ladislau,1.0
+RR019412016,False,p,169,Abel Galinha,1.0
+RR019412016,False,p,169,BASE,602.0
+RR030432016,False,p,170,Nao sabe/ Nao respondeu,15.0
+RR030432016,False,p,170,Branco/ Nulo,6.0
+RR030432016,False,p,170,Outros,1.0
+RR030432016,False,p,170,Teresa,67.0
+RR030432016,False,p,170,Sandro Bare,4.0
+RR030432016,False,p,170,Roberto Ramos,1.0
+RR030432016,False,p,170,Marcio Junqueira,1.0
+RR030432016,False,p,170,Abel Galinha,4.0
+RR030432016,False,p,170,BASE,602.0
+RR099452016,False,p,171,Nao sabe/ Nao respondeu,14.0
+RR099452016,False,p,171,Branco/ Nulo,6.0
+RR099452016,False,p,171,Outros,0.0
+RR099452016,False,p,171,Teresa,66.0
+RR099452016,False,p,171,Sandro Bare,5.0
+RR099452016,False,p,171,Roberto Ramos,2.0
+RR099452016,False,p,171,Marcio Junqueira,1.0
+RR099452016,False,p,171,Kalil Coelho,1.0
+RR099452016,False,p,171,Jeferson Alves,1.0
+RR099452016,False,p,171,Alex Ladislau,1.0
+RR099452016,False,p,171,Abel Galinha,2.0
+RR099452016,False,p,171,BASE,602.0
+RS004392016,False,p,172,Nao sabe/ Nao respondeu,6.0
+RS004392016,False,p,172,Branco/ Nulo,20.0
+RS004392016,False,p,172,Outros,0.0
+RS004392016,False,p,172,Sebastiao Melo,32.0
+RS004392016,False,p,172,Nelson Marchezan Junior,42.0
+RS004392016,False,p,172,BASE,805.0
+RS039702016,False,p,173,Nao sabe/ Nao respondeu,17.0
+RS039702016,False,p,173,Branco/ Nulo,21.0
+RS039702016,False,p,173,Outros,1.0
+RS039702016,False,p,173,Sebastiao Melo,26.0
+RS039702016,False,p,173,Nelson Marchezan Junior,35.0
+RS039702016,False,p,173,BASE,602.0
+RS056442016,False,p,174,Nao sabe/ Nao respondeu,31.0
+RS056442016,False,p,174,Branco/ Nulo,15.0
+RS056442016,False,p,174,Outros,1.0
+RS056442016,False,p,174,Sebastiao Melo,22.0
+RS056442016,False,p,174,Raul Pont,9.0
+RS056442016,False,p,174,Nelson Marchezan Junior,11.0
+RS056442016,False,p,174,Mauricio,4.0
+RS056442016,False,p,174,Luciana Genro,6.0
+RS056442016,False,p,174,BASE,805.0
+RS060402016,False,p,175,Nao sabe/ Nao respondeu,40.0
+RS060402016,False,p,175,Branco/ Nulo,15.0
+RS060402016,False,p,175,Outros,2.0
+RS060402016,False,p,175,Sebastiao Melo,14.0
+RS060402016,False,p,175,Raul Pont,10.0
+RS060402016,False,p,175,Nelson Marchezan Junior,9.0
+RS060402016,False,p,175,Mauricio,2.0
+RS060402016,False,p,175,Luciana Genro,7.0
+RS060402016,False,p,175,BASE,602.0
+RS083762016,False,p,176,Nao sabe/ Nao respondeu,15.0
+RS083762016,False,p,176,Branco/ Nulo,18.0
+RS083762016,False,p,176,Outros,0.0
+RS083762016,False,p,176,Sebastiao Melo,29.0
+RS083762016,False,p,176,Nelson Marchezan Junior,38.0
+RS083762016,False,p,176,BASE,602.0
+RS092532016,False,p,177,Nao sabe/ Nao respondeu,60.0
+RS092532016,False,p,177,Branco/ Nulo,15.0
+RS092532016,False,p,177,Outros,5.0
+RS092532016,False,p,177,Sebastiao Melo,5.0
+RS092532016,False,p,177,Raul Pont,5.0
+RS092532016,False,p,177,Nelson Marchezan Junior,3.0
+RS092532016,False,p,177,Luciana Genro,7.0
+RS092532016,False,p,177,BASE,602.0
+RS096562016,False,p,178,Nao sabe/ Nao respondeu,26.0
+RS096562016,False,p,178,Branco/ Nulo,15.0
+RS096562016,False,p,178,Outros,1.0
+RS096562016,False,p,178,Sebastiao Melo,19.0
+RS096562016,False,p,178,Raul Pont,11.0
+RS096562016,False,p,178,Nelson Marchezan Junior,13.0
+RS096562016,False,p,178,Mauricio,7.0
+RS096562016,False,p,178,Luciana Genro,8.0
+RS096562016,False,p,178,Julio Flores,1.0
+RS096562016,False,p,178,BASE,805.0
+SC002252016,False,p,179,Nao sabe/ Nao respondeu,46.0
+SC002252016,False,p,179,Branco/ Nulo,15.0
+SC002252016,False,p,179,Outros,1.0
+SC002252016,False,p,179,Udo Dohler,16.0
+SC002252016,False,p,179,Marco Tebaldi,7.0
+SC002252016,False,p,179,Dr. Xuxo,1.0
+SC002252016,False,p,179,Darci de Matos,9.0
+SC002252016,False,p,179,Carlito,4.0
+SC002252016,False,p,179,BASE,602.0
+SC025792016,False,p,180,Nao sabe/ Nao respondeu,13.0
+SC025792016,False,p,180,Branco/ Nulo,12.0
+SC025792016,False,p,180,Outros,0.0
+SC025792016,False,p,180,Udo Dohler,41.0
+SC025792016,False,p,180,Darci de Matos,33.0
+SC025792016,False,p,180,BASE,602.0
+SC032172016,False,p,181,Nao sabe/ Nao respondeu,27.0
+SC032172016,False,p,181,Branco/ Nulo,13.0
+SC032172016,False,p,181,Outros,0.0
+SC032172016,False,p,181,Udo Dohler,26.0
+SC032172016,False,p,181,Rodrigo Meyer Bornholdt,1.0
+SC032172016,False,p,181,Marco Tebaldi,13.0
+SC032172016,False,p,181,Ivan Rocha,1.0
+SC032172016,False,p,181,Dr. Xuxo,1.0
+SC032172016,False,p,181,Darci de Matos,14.0
+SC032172016,False,p,181,Carlito,4.0
+SC032172016,False,p,181,BASE,602.0
+SC047112016,False,p,182,Nao sabe/ Nao respondeu,12.0
+SC047112016,False,p,182,Branco/ Nulo,12.0
+SC047112016,False,p,182,Outros,0.0
+SC047112016,False,p,182,Udo Dohler,36.0
+SC047112016,False,p,182,Darci de Matos,39.0
+SC047112016,False,p,182,BASE,602.0
+SC047162016,False,p,183,Nao sabe/ Nao respondeu,9.0
+SC047162016,False,p,183,Branco/ Nulo,19.0
+SC047162016,False,p,183,Outros,2.0
+SC047162016,False,p,183,Murilo Flores,4.0
+SC047162016,False,p,183,Gean Loureiro,30.0
+SC047162016,False,p,183,Angela Amin,20.0
+SC047162016,False,p,183,Elson,13.0
+SC047162016,False,p,183,Angela Albino,4.0
+SC047162016,False,p,183,BASE,805.0
+SC052572016,False,p,184,Nao sabe/ Nao respondeu,15.0
+SC052572016,False,p,184,Branco/ Nulo,17.0
+SC052572016,False,p,184,Outros,2.0
+SC052572016,False,p,184,Murilo Flores,3.0
+SC052572016,False,p,184,Gean Loureiro,30.0
+SC052572016,False,p,184,Angela Amin,21.0
+SC052572016,False,p,184,Elson,9.0
+SC052572016,False,p,184,Angela Albino,4.0
+SC052572016,False,p,184,BASE,805.0
+SC059162016,False,p,185,Nao sabe/ Nao respondeu,8.0
+SC059162016,False,p,185,Branco/ Nulo,20.0
+SC059162016,False,p,185,Gean Loureiro,41.0
+SC059162016,False,p,185,Angela Amin,31.0
+SC059162016,False,p,185,BASE,805.0
+SC066032016,False,p,186,Nao sabe/ Nao respondeu,8.0
+SC066032016,False,p,186,Branco/ Nulo,19.0
+SC066032016,False,p,186,Outros,1.0
+SC066032016,False,p,186,Gean Loureiro,48.0
+SC066032016,False,p,186,Angela Amin,25.0
+SC066032016,False,p,186,BASE,602.0
+SC084022016,False,p,187,Nao sabe/ Nao respondeu,8.0
+SC084022016,False,p,187,Branco/ Nulo,21.0
+SC084022016,False,p,187,Outros,0.0
+SC084022016,False,p,187,Gean Loureiro,45.0
+SC084022016,False,p,187,Angela Amin,26.0
+SC084022016,False,p,187,BASE,602.0
+SC087132016,False,p,188,Nao sabe/ Nao respondeu,26.0
+SC087132016,False,p,188,Branco/ Nulo,10.0
+SC087132016,False,p,188,Outros,1.0
+SC087132016,False,p,188,Udo Dohler,29.0
+SC087132016,False,p,188,Rodrigo Meyer Bornholdt,1.0
+SC087132016,False,p,188,Professor Marcos,1.0
+SC087132016,False,p,188,Marco Tebaldi,12.0
+SC087132016,False,p,188,Darci de Matos,15.0
+SC087132016,False,p,188,Carlito,5.0
+SC087132016,False,p,188,BASE,602.0
+SE002262016,False,p,189,Nao sabe/ Nao respondeu,7.0
+SE002262016,False,p,189,Branco/ Nulo,14.0
+SE002262016,False,p,189,Outros,0.0
+SE002262016,False,p,189,Valadares Filho,40.0
+SE002262016,False,p,189,Edvaldo Nogueira,39.0
+SE002262016,False,p,189,BASE,602.0
+SE012612016,False,p,190,Nao sabe/ Nao respondeu,15.0
+SE012612016,False,p,190,Branco/ Nulo,24.0
+SE012612016,False,p,190,Outros,1.0
+SE012612016,False,p,190,Joao Tarantella,1.0
+SE012612016,False,p,190,Vera Lucia,1.0
+SE012612016,False,p,190,Valadares Filho,19.0
+SE012612016,False,p,190,Joao Alves,9.0
+SE012612016,False,p,190,Edvaldo Nogueira,28.0
+SE012612016,False,p,190,Dr. Emerson,2.0
+SE012612016,False,p,190,BASE,602.0
+SE016652016,False,p,191,Nao sabe/ Nao respondeu,10.0
+SE016652016,False,p,191,Branco/ Nulo,20.0
+SE016652016,False,p,191,Outros,0.0
+SE016652016,False,p,191,Joao Tarantella,2.0
+SE016652016,False,p,191,Vera Lucia,1.0
+SE016652016,False,p,191,Valadares Filho,22.0
+SE016652016,False,p,191,Sonia Meire,1.0
+SE016652016,False,p,191,Joao Alves,8.0
+SE016652016,False,p,191,Edvaldo Nogueira,33.0
+SE016652016,False,p,191,Dr. Emerson,3.0
+SE016652016,False,p,191,BASE,602.0
+SE056922016,False,p,192,Nao sabe/ Nao respondeu,8.0
+SE056922016,False,p,192,Branco/ Nulo,17.0
+SE056922016,False,p,192,Outros,0.0
+SE056922016,False,p,192,Valadares Filho,39.0
+SE056922016,False,p,192,Edvaldo Nogueira,36.0
+SE056922016,False,p,192,BASE,602.0
+SE095102016,False,p,193,Nao sabe/ Nao respondeu,31.0
+SE095102016,False,p,193,Branco/ Nulo,32.0
+SE095102016,False,p,193,Outros,1.0
+SE095102016,False,p,193,Vera Lucia,1.0
+SE095102016,False,p,193,Valadares Filho,7.0
+SE095102016,False,p,193,Sonia Meire,1.0
+SE095102016,False,p,193,Joao Alves,11.0
+SE095102016,False,p,193,Edvaldo Nogueira,15.0
+SE095102016,False,p,193,Dr. Emerson,1.0
+SE095102016,False,p,193,BASE,602.0
+SP000612016,False,p,194,Nao sabe/ Nao respondeu,21.0
+SP000612016,False,p,194,Branco/ Nulo,16.0
+SP000612016,False,p,194,Outros,0.0
+SP000612016,False,p,194,Luis Fernando da Lomy,26.0
+SP000612016,False,p,194,Helio Consolaro,1.0
+SP000612016,False,p,194,Dilador,36.0
+SP000612016,False,p,194,BASE,504.0
+SP001682016,False,p,195,Nao sabe/ Nao respondeu,12.0
+SP001682016,False,p,195,Branco/ Nulo,14.0
+SP001682016,False,p,195,Outros,0.0
+SP001682016,False,p,195,Raul Marcelo,35.0
+SP001682016,False,p,195,Crespo,39.0
+SP001682016,False,p,195,BASE,602.0
+SP008732016,False,p,196,Nao sabe/ Nao respondeu,17.0
+SP008732016,False,p,196,Branco/ Nulo,17.0
+SP008732016,False,p,196,Outros,1.0
+SP008732016,False,p,196,Marta,11.0
+SP008732016,False,p,196,Major Olimpio,1.0
+SP008732016,False,p,196,Joao Doria,24.0
+SP008732016,False,p,196,Luiza Erundina,3.0
+SP008732016,False,p,196,Fernando Haddad,10.0
+SP008732016,False,p,196,Celso Russomanno,16.0
+SP008732016,False,p,196,BASE,1204.0
+SP009082016,False,p,197,Nao sabe/ Nao respondeu,54.0
+SP009082016,False,p,197,Branco/ Nulo,26.0
+SP009082016,False,p,197,Outros com menos de 1%,3.0
+SP009082016,False,p,197,Paulo Maluf,1.0
+SP009082016,False,p,197,Marta Suplicy,2.0
+SP009082016,False,p,197,Luiza Erundina,2.0
+SP009082016,False,p,197,Joao Doria,2.0
+SP009082016,False,p,197,Fernando Haddad,5.0
+SP009082016,False,p,197,Celso Russomanno,4.0
+SP009082016,False,p,197,Andrea Matarazzo,1.0
+SP009082016,False,p,197,BASE,602.0
+SP011332016,False,p,198,Nao sabe/ Nao respondeu,35.0
+SP011332016,False,p,198,Branco/ Nulo,23.0
+SP011332016,False,p,198,Outros com menos de 1%,2.0
+SP011332016,False,p,198,Teco,1.0
+SP011332016,False,p,198,Jaci Tadeu,2.0
+SP011332016,False,p,198,Igor Soares,18.0
+SP011332016,False,p,198,Dra. Ruth,19.0
+SP011332016,False,p,198,BASE,504.0
+SP011392016,False,p,199,Nao sabe/ Nao respondeu,44.0
+SP011392016,False,p,199,Branco/ Nulo,24.0
+SP011392016,False,p,199,Outros,2.0
+SP011392016,False,p,199,Nino Mengatti,1.0
+SP011392016,False,p,199,Joao Farias,1.0
+SP011392016,False,p,199,Edna Martins,5.0
+SP011392016,False,p,199,Edinho Silva,20.0
+SP011392016,False,p,199,Aluisio Boi,4.0
+SP011392016,False,p,199,BASE,504.0
+SP013982016,False,p,200,Nao sabe/ Nao respondeu,20.0
+SP013982016,False,p,200,Branco/ Nulo,14.0
+SP013982016,False,p,200,Outros,1.0
+SP013982016,False,p,200,Paulo Schiff,3.0
+SP013982016,False,p,200,Marcelo Del Bosco,3.0
+SP013982016,False,p,200,Paulo Alexandre Barbosa,53.0
+SP013982016,False,p,200,Debora Camilo,1.0
+SP013982016,False,p,200,Carina Vitral,5.0
+SP013982016,False,p,200,BASE,805.0
+SP014092016,False,p,201,Nao sabe/ Nao respondeu,59.0
+SP014092016,False,p,201,Branco/ Nulo,18.0
+SP014092016,False,p,201,Outros,6.0
+SP014092016,False,p,201,Raul Marcelo,5.0
+SP014092016,False,p,201,Joao Leandro,2.0
+SP014092016,False,p,201,Helio Godoy,3.0
+SP014092016,False,p,201,Crespo,7.0
+SP014092016,False,p,201,BASE,602.0
+SP014472016,False,p,202,Nao sabe/ Nao respondeu,45.0
+SP014472016,False,p,202,Branco/ Nulo,22.0
+SP014472016,False,p,202,Outros,2.0
+SP014472016,False,p,202,Paulo Altomani,7.0
+SP014472016,False,p,202,Netto Donato,1.0
+SP014472016,False,p,202,Lineu Navarro,2.0
+SP014472016,False,p,202,Dante Peixoto,1.0
+SP014472016,False,p,202,Bragatto,3.0
+SP014472016,False,p,202,Airton Garcia,18.0
+SP014472016,False,p,202,BASE,504.0
+SP014932016,False,p,203,Nao sabe/ Nao respondeu,20.0
+SP014932016,False,p,203,Branco/ Nulo,23.0
+SP014932016,False,p,203,Outros,1.0
+SP014932016,False,p,203,Marta,13.0
+SP014932016,False,p,203,Major Olimpio,1.0
+SP014932016,False,p,203,Joao Doria,11.0
+SP014932016,False,p,203,Luiza Erundina,2.0
+SP014932016,False,p,203,Fernando Haddad,7.0
+SP014932016,False,p,203,Celso Russomanno,21.0
+SP014932016,False,p,203,BASE,1001.0
+SP018842016,False,p,204,Nao sabe/ Nao respondeu,18.0
+SP018842016,False,p,204,Branco/ Nulo,29.0
+SP018842016,False,p,204,Outros,2.0
+SP018842016,False,p,204,Wagner Rodrigues,2.0
+SP018842016,False,p,204,Rodrigo Camargo,2.0
+SP018842016,False,p,204,Ricardo Silva,21.0
+SP018842016,False,p,204,Professor Edmur,1.0
+SP018842016,False,p,204,Gandini,6.0
+SP018842016,False,p,204,Fabio Zan,0.0
+SP018842016,False,p,204,Duarte Nogueira,19.0
+SP018842016,False,p,204,Doutor Hermenegildo,0.0
+SP018842016,False,p,204,Alexandre Sousa,1.0
+SP018842016,False,p,204,BASE,756.0
+SP020292016,False,p,205,Nao sabe/ Nao respondeu,23.0
+SP020292016,False,p,205,Branco/ Nulo,10.0
+SP020292016,False,p,205,Outros,1.0
+SP020292016,False,p,205,Toninho Ferreira,1.0
+SP020292016,False,p,205,Shakespeare,8.0
+SP020292016,False,p,205,Felicio Ramuth,35.0
+SP020292016,False,p,205,Claude Moura,1.0
+SP020292016,False,p,205,Carlinhos Almeida,21.0
+SP020292016,False,p,205,BASE,602.0
+SP022072016,False,p,206,Nao sabe/ Nao respondeu,42.0
+SP022072016,False,p,206,Branco/ Nulo,23.0
+SP022072016,False,p,206,Outros com menos de 1%,0.0
+SP022072016,False,p,206,Mario Ribeiro,1.0
+SP022072016,False,p,206,Carlao Camargo,1.0
+SP022072016,False,p,206,Wellington Formiga,1.0
+SP022072016,False,p,206,Rogerio Franco,12.0
+SP022072016,False,p,206,Quinzinho Pedroso,16.0
+SP022072016,False,p,206,Moises Cabrera,1.0
+SP022072016,False,p,206,Joao dos Santos,1.0
+SP022072016,False,p,206,Adilson Lima,1.0
+SP022072016,False,p,206,BASE,406.0
+SP026052016,False,p,207,Nao sabe/ Nao respondeu,12.0
+SP026052016,False,p,207,Branco/ Nulo,26.0
+SP026052016,False,p,207,Outros,1.0
+SP026052016,False,p,207,Ricardo Silva,25.0
+SP026052016,False,p,207,Duarte Nogueira,37.0
+SP026052016,False,p,207,BASE,700.0
+SP026372016,False,p,208,Nao sabe/ Nao respondeu,14.0
+SP026372016,False,p,208,Branco/ Nulo,16.0
+SP026372016,False,p,208,Outros,1.0
+SP026372016,False,p,208,Raul Marcelo,13.0
+SP026372016,False,p,208,Joao Leandro,6.0
+SP026372016,False,p,208,Helio Godoy,12.0
+SP026372016,False,p,208,Glauber Piva,5.0
+SP026372016,False,p,208,Crespo,32.0
+SP026372016,False,p,208,BASE,602.0
+SP027202016,False,p,209,Nao sabe/ Nao respondeu,24.0
+SP027202016,False,p,209,Branco/ Nulo,16.0
+SP027202016,False,p,209,Paulo Altomani,8.0
+SP027202016,False,p,209,Netto Donato,4.0
+SP027202016,False,p,209,Lineu Navarro,4.0
+SP027202016,False,p,209,Dante Peixoto,1.0
+SP027202016,False,p,209,Bragatto,6.0
+SP027202016,False,p,209,Airton Garcia,37.0
+SP027202016,False,p,209,BASE,504.0
+SP027882016,False,p,210,Nao sabe/ Nao respondeu,14.0
+SP027882016,False,p,210,Branco/ Nulo,22.0
+SP027882016,False,p,210,Outros,0.0
+SP027882016,False,p,210,Nino Mengatti,4.0
+SP027882016,False,p,210,Joao Farias,2.0
+SP027882016,False,p,210,Edna Martins,10.0
+SP027882016,False,p,210,Edinho Silva,41.0
+SP027882016,False,p,210,Celio Peliciari,2.0
+SP027882016,False,p,210,Aluisio Boi,5.0
+SP027882016,False,p,210,BASE,504.0
+SP032562016,False,p,211,Nao sabe/ Nao respondeu,27.0
+SP032562016,False,p,211,Branco/ Nulo,17.0
+SP032562016,False,p,211,Outros,2.0
+SP032562016,False,p,211,Luis Fernando da Lomy,24.0
+SP032562016,False,p,211,Helio Consolaro,1.0
+SP032562016,False,p,211,Dilador,30.0
+SP032562016,False,p,211,BASE,504.0
+SP032972016,False,p,212,Nao sabe/ Nao respondeu,60.0
+SP032972016,False,p,212,Branco/ Nulo,15.0
+SP032972016,False,p,212,Outros,3.0
+SP032972016,False,p,212,Shakespeare,5.0
+SP032972016,False,p,212,Felicio Ramuth,5.0
+SP032972016,False,p,212,Claude Moura,1.0
+SP032972016,False,p,212,Carlinhos Almeida,12.0
+SP032972016,False,p,212,BASE,602.0
+SP038362016,False,p,213,Nao sabe/ Nao respondeu,18.0
+SP038362016,False,p,213,Branco/ Nulo,18.0
+SP038362016,False,p,213,Outros,2.0
+SP038362016,False,p,213,Marta,11.0
+SP038362016,False,p,213,Joao Doria,21.0
+SP038362016,False,p,213,Luiza Erundina,4.0
+SP038362016,False,p,213,Fernando Haddad,11.0
+SP038362016,False,p,213,Celso Russomanno,15.0
+SP038362016,False,p,213,BASE,1204.0
+SP039622016,False,p,214,Nao sabe/ Nao respondeu,9.0
+SP039622016,False,p,214,Branco/ Nulo,13.0
+SP039622016,False,p,214,Outros,1.0
+SP039622016,False,p,214,Paulo Schiff,2.0
+SP039622016,False,p,214,Marcelo Del Bosco,3.0
+SP039622016,False,p,214,Paulo Alexandre Barbosa,63.0
+SP039622016,False,p,214,Edgar Boturao,1.0
+SP039622016,False,p,214,Debora Camilo,1.0
+SP039622016,False,p,214,Carina Vitral,6.0
+SP039622016,False,p,214,BASE,805.0
+SP040502016,False,p,215,Nao sabe/ Nao respondeu,43.0
+SP040502016,False,p,215,Branco/ Nulo,15.0
+SP040502016,False,p,215,Outros com menos de 1%,3.0
+SP040502016,False,p,215,Gil Arantes,3.0
+SP040502016,False,p,215,Rubens Furlan,33.0
+SP040502016,False,p,215,Gil Lancaster,1.0
+SP040502016,False,p,215,Bruna Furlan,2.0
+SP040502016,False,p,215,BASE,406.0
+SP040502016,False,v,216,BASE,406.0
+SP040502016,False,v,216,Alam Miranda,1.0
+SP040502016,False,v,216,Sergio Barganha,1.0
+SP040502016,False,v,216,Bidu,1.0
+SP040502016,False,v,216,Carlinhos do Acougue,1.0
+SP040502016,False,v,216,Kaskata,1.0
+SP040502016,False,v,216,Celso Calegari,1.0
+SP040502016,False,v,216,Janio Goncalves,1.0
+SP040502016,False,v,216,Jo,1.0
+SP040502016,False,v,216,Jose de Melo/ Ze de Melo,2.0
+SP040502016,False,v,216,mercado,1.0
+SP040502016,False,v,216,Zett Bombeirinho,1.0
+SP040502016,False,v,216,Fabinho ex-assessor,15.0
+SP040502016,False,v,216,Outros com menos de 1%,15.0
+SP040502016,False,v,216,Branco/ Nulo,55.0
+SP042812016,False,p,217,Nao sabe/ Nao respondeu,20.0
+SP042812016,False,p,217,Branco/ Nulo,19.0
+SP042812016,False,p,217,Outros,1.0
+SP042812016,False,p,217,Marta,9.0
+SP042812016,False,p,217,Major Olimpio,1.0
+SP042812016,False,p,217,Joao Doria,22.0
+SP042812016,False,p,217,Luiza Erundina,4.0
+SP042812016,False,p,217,Fernando Haddad,9.0
+SP042812016,False,p,217,Celso Russomanno,16.0
+SP042812016,False,p,217,BASE,1204.0
+SP042962016,False,p,218,Nao sabe/ Nao respondeu,13.0
+SP042962016,False,p,218,Branco/ Nulo,17.0
+SP042962016,False,p,218,Outros,1.0
+SP042962016,False,p,218,Rogerio Lins,40.0
+SP042962016,False,p,218,Lapas,29.0
+SP042962016,False,p,218,BASE,602.0
+SP043182016,False,p,219,Nao sabe/ Nao respondeu,59.0
+SP043182016,False,p,219,Branco/ Nulo,20.0
+SP043182016,False,p,219,Outros com menos de 1%,3.0
+SP043182016,False,p,219,Ricardo Silva,11.0
+SP043182016,False,p,219,Fernando Chiarelli,1.0
+SP043182016,False,p,219,Duarte Nogueira,5.0
+SP043182016,False,p,219,BASE,406.0
+SP044722016,False,p,220,Nao sabe/ Nao respondeu,39.0
+SP044722016,False,p,220,Branco/ Nulo,23.0
+SP044722016,False,p,220,Outros,1.0
+SP044722016,False,p,220,Wagner Freitas,1.0
+SP044722016,False,p,220,Martello,3.0
+SP044722016,False,p,220,Jorge Wilson Xerife Consumidor,4.0
+SP044722016,False,p,220,Guti,5.0
+SP044722016,False,p,220,Eloi Pieta,11.0
+SP044722016,False,p,220,Eli Correa Filho,10.0
+SP044722016,False,p,220,Carlos Roberto,3.0
+SP044722016,False,p,220,BASE,504.0
+SP048642016,False,p,221,Nao sabe/ Nao respondeu,9.0
+SP048642016,False,p,221,Branco/ Nulo,22.0
+SP048642016,False,p,221,Outros,0.0
+SP048642016,False,p,221,Ricardo Silva,32.0
+SP048642016,False,p,221,Duarte Nogueira,36.0
+SP048642016,False,p,221,BASE,805.0
+SP050682016,False,p,222,Nao sabe/ Nao respondeu,16.0
+SP050682016,False,p,222,Branco/ Nulo,16.0
+SP050682016,False,p,222,Outros,1.0
+SP050682016,False,p,222,Marcio Pochmann,9.0
+SP050682016,False,p,222,Marcela Moreira,2.0
+SP050682016,False,p,222,Jonas Donizette,41.0
+SP050682016,False,p,222,Dr. Helio,5.0
+SP050682016,False,p,222,Artur Orsi,10.0
+SP050682016,False,p,222,BASE,756.0
+SP053932016,False,p,223,Nao sabe/ Nao respondeu,18.0
+SP053932016,False,p,223,Branco/ Nulo,13.0
+SP053932016,False,p,223,Outros,2.0
+SP053932016,False,p,223,Paulo Pinheiro,21.0
+SP053932016,False,p,223,Lucia Dal Mas,1.0
+SP053932016,False,p,223,Gilberto Costa,6.0
+SP053932016,False,p,223,Fabio Palacio,11.0
+SP053932016,False,p,223,Auricchio,27.0
+SP053932016,False,p,223,BASE,602.0
+SP053932016,False,v,224,Cris Melo,1.0
+SP053932016,False,v,224,Dr. Xavier,1.0
+SP053932016,False,v,224,Caio Salgado,1.0
+SP053932016,False,v,224,Cabo Dias,1.0
+SP053932016,False,v,224,Bil da Construtora,1.0
+SP053932016,False,v,224,Andreia Neves,1.0
+SP053932016,False,v,224,Tite Campanella,1.0
+SP053932016,False,v,224,Sueli Nogueira,1.0
+SP053932016,False,v,224,Severo,1.0
+SP053932016,False,v,224,Roberto da Proerd,1.0
+SP053932016,False,v,224,Pio/ Prof o Pio,2.0
+SP053932016,False,v,224,Paulo Bortura,1.0
+SP053932016,False,v,224,Mauricio Fernandes,1.0
+SP053932016,False,v,224,Marcel Munhoz,1.0
+SP053932016,False,v,224,Moacir Guirao Jr.,1.0
+SP053932016,False,v,224,Getulio Filho PSB,1.0
+SP053932016,False,v,224,Fabio Soares,2.0
+SP053932016,False,v,224,Eduardo Vidoski,1.0
+SP053932016,False,v,224,Edson Parra,1.0
+SP053932016,False,v,224,Eduardo Albuquerque PSDB,1.0
+SP053932016,False,v,224,Sidao da Padaria,3.0
+SP053932016,False,v,224,Chico Bento,1.0
+SP053932016,False,v,224,BASE,602.0
+SP053932016,False,v,224,Nao sabe/ Nao respondeu,34.0
+SP053932016,False,v,224,Branco/ Nulo,12.0
+SP053932016,False,v,224,Outros,28.0
+SP053932016,False,v,224,Rodrigo Sodre,1.0
+SP053932016,False,v,224,Jander lira,1.0
+SP054322016,False,p,225,Nao sabe/ Nao respondeu,51.0
+SP054322016,False,p,225,Branco/ Nulo,23.0
+SP054322016,False,p,225,Outros,3.0
+SP054322016,False,p,225,Ricardo Silva,18.0
+SP054322016,False,p,225,Gandini,1.0
+SP054322016,False,p,225,Duarte Nogueira,4.0
+SP054322016,False,p,225,BASE,602.0
+SP059232016,False,p,226,Nao sabe/ Nao respondeu,18.0
+SP059232016,False,p,226,Branco/ Nulo,13.0
+SP059232016,False,p,226,Outros,1.0
+SP059232016,False,p,226,Igor Soares,44.0
+SP059232016,False,p,226,Dra Ruth,24.0
+SP059232016,False,p,226,BASE,504.0
+SP061552016,False,p,227,Nao sabe/ Nao respondeu,46.0
+SP061552016,False,p,227,Branco/ Nulo,20.0
+SP061552016,False,p,227,Outros,2.0
+SP061552016,False,p,227,Paulo Schiff,1.0
+SP061552016,False,p,227,Marcelo Del Bosco,2.0
+SP061552016,False,p,227,Paulo Alexandre Barbosa,27.0
+SP061552016,False,p,227,Debora Camilo,1.0
+SP061552016,False,p,227,Carina Vitral,2.0
+SP061552016,False,p,227,BASE,805.0
+SP063502016,False,p,228,Nao sabe/ Nao respondeu,51.0
+SP063502016,False,p,228,Branco/ Nulo,21.0
+SP063502016,False,p,228,Outros com menos de 1%,1.0
+SP063502016,False,p,228,William Dib,1.0
+SP063502016,False,p,228,Tarcisio Secoli,2.0
+SP063502016,False,p,228,Orlando Morando,10.0
+SP063502016,False,p,228,Mauricio Soares,1.0
+SP063502016,False,p,228,Marcelo Lima,1.0
+SP063502016,False,p,228,Luiz Marinho,4.0
+SP063502016,False,p,228,Alex Manente,9.0
+SP063502016,False,p,228,BASE,504.0
+SP066552016,False,p,229,Nao sabe/ Nao respondeu,53.0
+SP066552016,False,p,229,Branco/ Nulo,29.0
+SP066552016,False,p,229,Outros,3.0
+SP066552016,False,p,229,Wagner Freitas,0.0
+SP066552016,False,p,229,Martello,1.0
+SP066552016,False,p,229,Jorge Wilson,1.0
+SP066552016,False,p,229,Guti,3.0
+SP066552016,False,p,229,Eloi Pieta,4.0
+SP066552016,False,p,229,Eli Correa Filho,5.0
+SP066552016,False,p,229,Carlos Roberto,2.0
+SP066552016,False,p,229,BASE,812.0
+SP068152016,False,p,230,Nao sabe/ Nao respondeu,15.0
+SP068152016,False,p,230,Branco/ Nulo,16.0
+SP068152016,False,p,230,Outros,1.0
+SP068152016,False,p,230,Paulo Altomani,8.0
+SP068152016,False,p,230,Netto Donato,9.0
+SP068152016,False,p,230,Lineu Navarro,4.0
+SP068152016,False,p,230,Dante Peixoto,5.0
+SP068152016,False,p,230,Bragatto,9.0
+SP068152016,False,p,230,Airton Garcia,34.0
+SP068152016,False,p,230,BASE,504.0
+SP070582016,False,p,231,Nao sabe/ Nao respondeu,43.0
+SP070582016,False,p,231,Branco/ Nulo,27.0
+SP070582016,False,p,231,Outros com menos de 1%,5.0
+SP070582016,False,p,231,Marta Suplicy,2.0
+SP070582016,False,p,231,Luiza Erundina,2.0
+SP070582016,False,p,231,Joao Doria,3.0
+SP070582016,False,p,231,Fernando Haddad,5.0
+SP070582016,False,p,231,Celso Russomanno,10.0
+SP070582016,False,p,231,Andrea Matarazzo,2.0
+SP070582016,False,p,231,BASE,602.0
+SP070712016,False,p,232,Nao sabe/ Nao respondeu,9.0
+SP070712016,False,p,232,Branco/ Nulo,21.0
+SP070712016,False,p,232,Outros,1.0
+SP070712016,False,p,232,Ricardo Silva,31.0
+SP070712016,False,p,232,Duarte Nogueira,38.0
+SP070712016,False,p,232,BASE,700.0
+SP070722016,False,p,233,Nao sabe/ Nao respondeu,45.0
+SP070722016,False,p,233,Branco/ Nulo,23.0
+SP070722016,False,p,233,Outros,3.0
+SP070722016,False,p,233,Marta,4.0
+SP070722016,False,p,233,Joao Doria,4.0
+SP070722016,False,p,233,Luiza Erundina,3.0
+SP070722016,False,p,233,Fernando Haddad,6.0
+SP070722016,False,p,233,Celso Russomanno,11.0
+SP070722016,False,p,233,BASE,805.0
+SP071562016,False,p,234,Nao sabe/ Nao respondeu,16.0
+SP071562016,False,p,234,Branco/ Nulo,14.0
+SP071562016,False,p,234,Outros,0.0
+SP071562016,False,p,234,Vadinho,1.0
+SP071562016,False,p,234,Sara Jane,1.0
+SP071562016,False,p,234,Paulo Pinheiro,23.0
+SP071562016,False,p,234,Marcio Della Bella,1.0
+SP071562016,False,p,234,Lucia Dal Mas,3.0
+SP071562016,False,p,234,Gilberto Costa,4.0
+SP071562016,False,p,234,Fabio Palacio,12.0
+SP071562016,False,p,234,Auricchio,25.0
+SP071562016,False,p,234,BASE,602.0
+SP071562016,False,v,235,BASE,602.0
+SP071562016,False,v,235,Chico Bento,1.0
+SP071562016,False,v,235,Sidao da Padaria,2.0
+SP071562016,False,v,235,Cidao do Sindicato,1.0
+SP071562016,False,v,235,Eder Xavier da Trombeta,1.0
+SP071562016,False,v,235,Edson Parra,1.0
+SP071562016,False,v,235,Eduardo Vidoski,1.0
+SP071562016,False,v,235,Fabio Soares,2.0
+SP071562016,False,v,235,Getulio Filho PSB,1.0
+SP071562016,False,v,235,Horacio Neto,1.0
+SP071562016,False,v,235,Jose Messias,0.0
+SP071562016,False,v,235,Marcel Munhoz,2.0
+SP071562016,False,v,235,Meia do Acougue/ Churrascaria,1.0
+SP071562016,False,v,235,Paulo Bortura,1.0
+SP071562016,False,v,235,Piu/ Pio/ Prof o Piu,3.0
+SP071562016,False,v,235,Moacir Guirao jr.,1.0
+SP071562016,False,v,235,Roberto da Proerd,1.0
+SP071562016,False,v,235,Severo,1.0
+SP071562016,False,v,235,Sueli Nogueira,1.0
+SP071562016,False,v,235,Dr. Seraphim,2.0
+SP071562016,False,v,235,Campanella,1.0
+SP071562016,False,v,235,Nao sabe/ Nao respondeu,25.0
+SP071562016,False,v,235,Branco/ Nulo,10.0
+SP071562016,False,v,235,Outros,31.0
+SP071562016,False,v,235,Olyntho Voltarelli,2.0
+SP071562016,False,v,235,Luis Carlos Batista,1.0
+SP071562016,False,v,235,Everaldo Silva 77777,1.0
+SP071562016,False,v,235,Daniel Cordoba,1.0
+SP071562016,False,v,235,Dr. Xavier,1.0
+SP071562016,False,v,235,Caio Salgado,1.0
+SP071562016,False,v,235,Zenaide da Saude,1.0
+SP072342016,False,p,236,Nao sabe/ Nao respondeu,27.0
+SP072342016,False,p,236,Branco/ Nulo,19.0
+SP072342016,False,p,236,Outros,3.0
+SP072342016,False,p,236,Raul Marcelo,12.0
+SP072342016,False,p,236,Joao Leandro,5.0
+SP072342016,False,p,236,Helio Godoy,5.0
+SP072342016,False,p,236,Glauber Piva,1.0
+SP072342016,False,p,236,Crespo,27.0
+SP072342016,False,p,236,BASE,602.0
+SP073812016,False,p,237,Nao sabe/ Nao respondeu,13.0
+SP073812016,False,p,237,Branco/ Nulo,21.0
+SP073812016,False,p,237,Outros,0.0
+SP073812016,False,p,237,Vaguinho,22.0
+SP073812016,False,p,237,Lauro Michels,44.0
+SP073812016,False,p,237,BASE,602.0
+SP079552016,False,p,238,Nao sabe/ Nao respondeu,26.0
+SP079552016,False,p,238,Branco/ Nulo,21.0
+SP079552016,False,p,238,Outros,1.0
+SP079552016,False,p,238,Marcio Pochmann,7.0
+SP079552016,False,p,238,Marcela Moreira,2.0
+SP079552016,False,p,238,Jonas Donizette,35.0
+SP079552016,False,p,238,Dr. Helio,5.0
+SP079552016,False,p,238,Artur Orsi,3.0
+SP079552016,False,p,238,BASE,756.0
+SP083742016,False,p,239,Nao sabe/ Nao respondeu,29.0
+SP083742016,False,p,239,Branco/ Nulo,30.0
+SP083742016,False,p,239,Outros,2.0
+SP083742016,False,p,239,Rodrigo Camargo,1.0
+SP083742016,False,p,239,Ricardo Silva,18.0
+SP083742016,False,p,239,Gandini,4.0
+SP083742016,False,p,239,Duarte Nogueira,16.0
+SP083742016,False,p,239,Alexandre Sousa,1.0
+SP083742016,False,p,239,BASE,756.0
+SP084912016,False,p,240,Nao sabe/ Nao respondeu,9.0
+SP084912016,False,p,240,Branco/ Nulo,12.0
+SP084912016,False,p,240,Outros,0.0
+SP084912016,False,p,240,Raul Marcelo,34.0
+SP084912016,False,p,240,Crespo,45.0
+SP084912016,False,p,240,BASE,602.0
+SP085242016,False,p,241,Nao sabe/ Nao respondeu,51.0
+SP085242016,False,p,241,Branco/ Nulo,19.0
+SP085242016,False,p,241,Outros,1.0
+SP085242016,False,p,241,Marcio Pochmann,2.0
+SP085242016,False,p,241,Marcela Moreira,1.0
+SP085242016,False,p,241,Jonas Donizette,19.0
+SP085242016,False,p,241,Dr. Helio,4.0
+SP085242016,False,p,241,Artur Orsi,2.0
+SP085242016,False,p,241,BASE,602.0
+SP091762016,False,p,242,Nao sabe/ Nao respondeu,31.0
+SP091762016,False,p,242,Branco/ Nulo,18.0
+SP091762016,False,p,242,Outros,2.0
+SP091762016,False,p,242,Shakespeare,12.0
+SP091762016,False,p,242,Felicio Ramuth,20.0
+SP091762016,False,p,242,Claude Moura,1.0
+SP091762016,False,p,242,Carlinhos Almeida,16.0
+SP091762016,False,p,242,BASE,602.0
+TO003322016,False,p,243,Nao sabe/ Nao respondeu,34.0
+TO003322016,False,p,243,Branco/ Nulo,20.0
+TO003322016,False,p,243,Outros,2.0
+TO003322016,False,p,243,Sargento Aragao,3.0
+TO003322016,False,p,243,Raul Filho,17.0
+TO003322016,False,p,243,Claudia Lelis,6.0
+TO003322016,False,p,243,Carlos Amastha,19.0
+TO003322016,False,p,243,BASE,602.0
+TO063412016,False,p,244,Nao sabe/ Nao respondeu,18.0
+TO063412016,False,p,244,Branco/ Nulo,12.0
+TO063412016,False,p,244,Outros,0.0
+TO063412016,False,p,244,Ze Roberto,2.0
+TO063412016,False,p,244,Sargento Aragao,2.0
+TO063412016,False,p,244,Raul Filho,20.0
+TO063412016,False,p,244,Claudia Lelis,10.0
+TO063412016,False,p,244,Carlos Amastha,36.0
+TO063412016,False,p,244,BASE,602.0
+AC044342016,True,p,245,Nao sabe/ Nao respondeu,5.0
+AC044342016,True,p,245,Branco/ Nulo,5.0
+AC044342016,True,p,245,Raimundo Vaz,4.0
+AC044342016,True,p,245,Marcus Alexandre,57.0
+AC044342016,True,p,245,Eliane Sinhasique,28.0
+AC044342016,True,p,245,Carlos Gomes,1.0
+AC044342016,True,p,245,BASE,602.0
+AC074782016,True,p,246,Nao sabe/ Nao respondeu,3.0
+AC074782016,True,p,246,Branco/ Nulo,4.0
+AC074782016,True,p,246,Vaz,6.0
+AC074782016,True,p,246,Marcus Alexandre,56.0
+AC074782016,True,p,246,Eliane Sinhasique,28.0
+AC074782016,True,p,246,Carlos Gomes,3.0
+AC074782016,True,p,246,BASE,602.0
+AL000882016,True,p,247,Nao sabe/ Nao respondeu,5.0
+AL000882016,True,p,247,Branco/ Nulo,16.0
+AL000882016,True,p,247,Paulo Memoria,1.0
+AL000882016,True,p,247,Rui Palmeira,31.0
+AL000882016,True,p,247,Paulao,3.0
+AL000882016,True,p,247,Joao Henrique Caldas/ JHC,11.0
+AL000882016,True,p,247,Paulo Falcao,0.0
+AL000882016,True,p,247,Gustavo Pessoa,1.0
+AL000882016,True,p,247,Fernando do Village,1.0
+AL000882016,True,p,247,Cicero Almeida,31.0
+AL000882016,True,p,247,BASE,602.0
+AL004922016,True,p,248,Nao sabe/ Nao respondeu,3.0
+AL004922016,True,p,248,Branco/ Nulo,7.0
+AL004922016,True,p,248,Paulo Memoria,1.0
+AL004922016,True,p,248,Rui Palmeira,41.0
+AL004922016,True,p,248,Paulao,2.0
+AL004922016,True,p,248,JHC,21.0
+AL004922016,True,p,248,Gustavo Pessoa,1.0
+AL004922016,True,p,248,Fernando do Village,1.0
+AL004922016,True,p,248,Cicero Almeida,23.0
+AL004922016,True,p,248,BASE,602.0
+AL037762016,True,p,249,Nao sabe/ Nao respondeu,3.0
+AL037762016,True,p,249,Branco/ Nulo,12.0
+AL037762016,True,p,249,Rui Palmeira,54.0
+AL037762016,True,p,249,Cicero Almeida,31.0
+AL037762016,True,p,249,BASE,602.0
+AL040542016,True,p,250,Nao sabe/ Nao respondeu,3.0
+AL040542016,True,p,250,Branco/ Nulo,13.0
+AL040542016,True,p,250,Rui Palmeira,56.0
+AL040542016,True,p,250,Cicero Almeida,28.0
+AL040542016,True,p,250,BASE,602.0
+AL071322016,True,p,251,Nao sabe/ Nao respondeu,5.0
+AL071322016,True,p,251,Branco/ Nulo,10.0
+AL071322016,True,p,251,Paulo Memoria,1.0
+AL071322016,True,p,251,Rui Palmeira,35.0
+AL071322016,True,p,251,Paulao,2.0
+AL071322016,True,p,251,JHC,18.0
+AL071322016,True,p,251,Gustavo Pessoa,1.0
+AL071322016,True,p,251,Fernando do Village,0.0
+AL071322016,True,p,251,Cicero Almeida,28.0
+AL071322016,True,p,251,BASE,602.0
+AM007542016,True,p,252,Nao sabe/ Nao respondeu,3.0
+AM007542016,True,p,252,Branco/ Nulo,8.0
+AM007542016,True,p,252,Silas Camara,8.0
+AM007542016,True,p,252,Serafim Correa,10.0
+AM007542016,True,p,252,Queiroz,1.0
+AM007542016,True,p,252,Marcelo Ramos,16.0
+AM007542016,True,p,252,Luiz Castro,1.0
+AM007542016,True,p,252,Jose Ricardo,5.0
+AM007542016,True,p,252,Hissa Abrahao,8.0
+AM007542016,True,p,252,Henrique Oliveira,8.0
+AM007542016,True,p,252,Artur Neto,32.0
+AM007542016,True,p,252,BASE,805.0
+AM032622016,True,p,253,Nao sabe/ Nao respondeu,4.0
+AM032622016,True,p,253,Branco/ Nulo,9.0
+AM032622016,True,p,253,Marcelo Ramos,40.0
+AM032622016,True,p,253,Artur Neto,47.0
+AM032622016,True,p,253,BASE,805.0
+AM042392016,True,p,254,Nao sabe/ Nao respondeu,3.0
+AM042392016,True,p,254,Branco/ Nulo,8.0
+AM042392016,True,p,254,Marcelo Ramos,39.0
+AM042392016,True,p,254,Artur Neto,50.0
+AM042392016,True,p,254,BASE,805.0
+AM072392016,True,p,255,Nao sabe/ Nao respondeu,3.0
+AM072392016,True,p,255,Branco/ Nulo,4.0
+AM072392016,True,p,255,Silas Camara,6.0
+AM072392016,True,p,255,Serafim Correa,9.0
+AM072392016,True,p,255,Queiroz,1.0
+AM072392016,True,p,255,Marcelo Ramos,22.0
+AM072392016,True,p,255,Luiz Castro,2.0
+AM072392016,True,p,255,Jose Ricardo,6.0
+AM072392016,True,p,255,Hissa Abrahao,4.0
+AM072392016,True,p,255,Henrique Oliveira,2.0
+AM072392016,True,p,255,Artur Neto,41.0
+AM072392016,True,p,255,BASE,805.0
+AM078792016,True,p,256,Nao sabe/ Nao respondeu,3.0
+AM078792016,True,p,256,Branco/ Nulo,4.0
+AM078792016,True,p,256,Silas Camara,5.0
+AM078792016,True,p,256,Serafim Correa,10.0
+AM078792016,True,p,256,Queiroz,1.0
+AM078792016,True,p,256,Marcelo Ramos,20.0
+AM078792016,True,p,256,Luiz Castro,1.0
+AM078792016,True,p,256,Jose Ricardo,6.0
+AM078792016,True,p,256,Hissa Abrahao,5.0
+AM078792016,True,p,256,Henrique Oliveira,3.0
+AM078792016,True,p,256,Artur Neto,42.0
+AM078792016,True,p,256,BASE,805.0
+AP015142016,True,p,257,Nao sabe/ Nao respondeu,1.0
+AP015142016,True,p,257,Branco/ Nulo,8.0
+AP015142016,True,p,257,Ruy Smith,3.0
+AP015142016,True,p,257,Promotor Moises,8.0
+AP015142016,True,p,257,Gilvam Borges,20.0
+AP015142016,True,p,257,Genival Cruz,4.0
+AP015142016,True,p,257,Dora Nascimento,1.0
+AP015142016,True,p,257,Clecio,38.0
+AP015142016,True,p,257,Aline,17.0
+AP015142016,True,p,257,BASE,602.0
+AP051822016,True,p,258,Nao sabe/ Nao respondeu,4.0
+AP051822016,True,p,258,Branco/ Nulo,14.0
+AP051822016,True,p,258,Ruy Smith,6.0
+AP051822016,True,p,258,Promotor Moises,13.0
+AP051822016,True,p,258,Gilvam Borges,12.0
+AP051822016,True,p,258,Genival Cruz,5.0
+AP051822016,True,p,258,Dora Nascimento,5.0
+AP051822016,True,p,258,Clecio,28.0
+AP051822016,True,p,258,Aline,13.0
+AP051822016,True,p,258,BASE,602.0
+AP053612016,True,p,259,Nao sabe/ Nao respondeu,3.0
+AP053612016,True,p,259,Branco/ Nulo,9.0
+AP053612016,True,p,259,Ruy Smith,10.0
+AP053612016,True,p,259,Promotor Moises,9.0
+AP053612016,True,p,259,Gilvam Borges,12.0
+AP053612016,True,p,259,Genival Cruz,5.0
+AP053612016,True,p,259,Dora Nascimento,7.0
+AP053612016,True,p,259,Clecio,27.0
+AP053612016,True,p,259,Aline,18.0
+AP053612016,True,p,259,BASE,602.0
+AP078462016,True,p,260,Nao sabe/ Nao respondeu,2.0
+AP078462016,True,p,260,Branco/ Nulo,5.0
+AP078462016,True,p,260,Gilvam Borges,37.0
+AP078462016,True,p,260,Clecio,56.0
+AP078462016,True,p,260,BASE,602.0
+AP089552016,True,p,261,Nao sabe/ Nao respondeu,4.0
+AP089552016,True,p,261,Branco/ Nulo,6.0
+AP089552016,True,p,261,Gilvam Borges,38.0
+AP089552016,True,p,261,Clecio,52.0
+AP089552016,True,p,261,BASE,602.0
+BA016192016,True,p,262,BASE,406.0
+BA016192016,True,p,262,Caetano,26.0
+BA016192016,True,p,262,Elinaldo,53.0
+BA016192016,True,p,262,Francisco Irmao,1.0
+BA016192016,True,p,262,Jailce Andrade,2.0
+BA016192016,True,p,262,Branco/ Nulo,14.0
+BA016192016,True,p,262,Nao sabe/ Nao respondeu,4.0
+BA021512016,True,p,263,Nao sabe/ Nao respondeu,2.0
+BA021512016,True,p,263,Branco/ Nulo,5.0
+BA021512016,True,p,263,Ze Neto,14.0
+BA021512016,True,p,263,Leonardo Pedreira,0.0
+BA021512016,True,p,263,Jose Ronaldo,70.0
+BA021512016,True,p,263,Jhonatas Monteiro,5.0
+BA021512016,True,p,263,Jairo,3.0
+BA021512016,True,p,263,Angelo Almeida,1.0
+BA021512016,True,p,263,BASE,504.0
+BA022372016,True,p,264,Nao sabe/ Nao respondeu,4.0
+BA022372016,True,p,264,Branco/ Nulo,6.0
+BA022372016,True,p,264,Pastor Sargento Isidorio,8.0
+BA022372016,True,p,264,Fabio Nogueira,0.0
+BA022372016,True,p,264,Da Luz,1.0
+BA022372016,True,p,264,Claudio Silva,1.0
+BA022372016,True,p,264,Celia Sacramento,0.0
+BA022372016,True,p,264,Alice Portugal,15.0
+BA022372016,True,p,264,ACM Neto,65.0
+BA022372016,True,p,264,BASE,805.0
+BA022572016,True,p,265,Nao sabe/ Nao respondeu,3.0
+BA022572016,True,p,265,Branco/ Nulo,13.0
+BA022572016,True,p,265,Pastor Isidorio,6.0
+BA022572016,True,p,265,Fabio Nogueira,1.0
+BA022572016,True,p,265,Da Luz,1.0
+BA022572016,True,p,265,Claudio Silva,0.0
+BA022572016,True,p,265,Celia Sacramento,0.0
+BA022572016,True,p,265,Alice Portugal,8.0
+BA022572016,True,p,265,ACM Neto,68.0
+BA022572016,True,p,265,BASE,602.0
+BA028092016,True,p,266,Nao sabe/ Nao respondeu,3.0
+BA028092016,True,p,266,Branco/ Nulo,8.0
+BA028092016,True,p,266,Pastor Sargento Isidorio,7.0
+BA028092016,True,p,266,Fabio Nogueira,1.0
+BA028092016,True,p,266,Da Luz,0.0
+BA028092016,True,p,266,Claudio Silva,0.0
+BA028092016,True,p,266,Celia Sacramento,0.0
+BA028092016,True,p,266,Alice Portugal,12.0
+BA028092016,True,p,266,ACM Neto,69.0
+BA028092016,True,p,266,BASE,805.0
+BA029732016,True,p,267,Nao sabe/ Nao respondeu,8.0
+BA029732016,True,p,267,Branco/ Nulo,11.0
+BA029732016,True,p,267,Nilton da Resistencia,1.0
+BA029732016,True,p,267,Jailce Andrade,3.0
+BA029732016,True,p,267,Francisco Irmao,1.0
+BA029732016,True,p,267,Elinaldo,52.0
+BA029732016,True,p,267,Caetano,24.0
+BA029732016,True,p,267,BASE,406.0
+BA035752016,True,p,268,Nao sabe/ Nao respondeu,3.0
+BA035752016,True,p,268,Branco/ Nulo,6.0
+BA035752016,True,p,268,Ze Neto,14.0
+BA035752016,True,p,268,Leonardo Pedreira,1.0
+BA035752016,True,p,268,Jose Ronaldo,69.0
+BA035752016,True,p,268,Jhonatas Monteiro,5.0
+BA035752016,True,p,268,Jairo,2.0
+BA035752016,True,p,268,Angelo Almeida,0.0
+BA035752016,True,p,268,BASE,504.0
+BA050232016,True,p,269,Nao sabe/ Nao respondeu,10.0
+BA050232016,True,p,269,Branco/ Nulo,16.0
+BA050232016,True,p,269,Gilson e Diferente,1.0
+BA050232016,True,p,269,Edson Almeida,17.0
+BA050232016,True,p,269,Dinha,46.0
+BA050232016,True,p,269,Cezar Diesel,10.0
+BA050232016,True,p,269,BASE,406.0
+BA066172016,True,p,270,Nao sabe/ Nao respondeu,4.0
+BA066172016,True,p,270,Branco/ Nulo,3.0
+BA066172016,True,p,270,Zito Barbosa,54.0
+BA066172016,True,p,270,Tito,19.0
+BA066172016,True,p,270,Antonio Henrique,20.0
+BA066172016,True,p,270,BASE,406.0
+BA080252016,True,p,271,Nao sabe/ Nao respondeu,4.0
+BA080252016,True,p,271,Branco/ Nulo,9.0
+BA080252016,True,p,271,Pastor Sargento Isidorio,7.0
+BA080252016,True,p,271,Fabio Nogueira,0.0
+BA080252016,True,p,271,Da Luz,2.0
+BA080252016,True,p,271,Claudio Silva,0.0
+BA080252016,True,p,271,Celia Sacramento,0.0
+BA080252016,True,p,271,Alice Portugal,10.0
+BA080252016,True,p,271,ACM Neto,68.0
+BA080252016,True,p,271,BASE,602.0
+BA083042016,True,p,272,Nao sabe/ Nao respondeu,4.0
+BA083042016,True,p,272,Branco/ Nulo,7.0
+BA083042016,True,p,272,Ze Neto,14.0
+BA083042016,True,p,272,Leonardo Pedreira,1.0
+BA083042016,True,p,272,Jose Ronaldo,64.0
+BA083042016,True,p,272,Jhonatas Monteiro,8.0
+BA083042016,True,p,272,Jairo,1.0
+BA083042016,True,p,272,Angelo Almeida,1.0
+BA083042016,True,p,272,BASE,504.0
+BA083772016,True,p,273,Nao sabe/ Nao respondeu,9.0
+BA083772016,True,p,273,Branco/ Nulo,7.0
+BA083772016,True,p,273,Tonha Magalhaes,53.0
+BA083772016,True,p,273,Dr. Pitagoras,31.0
+BA083772016,True,p,273,BASE,406.0
+CE001252016,True,p,274,Nao sabe/ Nao respondeu,3.0
+CE001252016,True,p,274,Branco/ Nulo,7.0
+CE001252016,True,p,274,Tin Gomes,1.0
+CE001252016,True,p,274,Ronaldo Martins,3.0
+CE001252016,True,p,274,Roberto Claudio,34.0
+CE001252016,True,p,274,Luizianne,17.0
+CE001252016,True,p,274,Joao Alfredo,1.0
+CE001252016,True,p,274,Heitor Ferrer,6.0
+CE001252016,True,p,274,Gonzaga,0.0
+CE001252016,True,p,274,Capitao Wagner,28.0
+CE001252016,True,p,274,BASE,805.0
+CE006092016,True,p,275,Nao sabe/ Nao respondeu,5.0
+CE006092016,True,p,275,Branco/ Nulo,10.0
+CE006092016,True,p,275,Tin Gomes,1.0
+CE006092016,True,p,275,Ronaldo Martins,4.0
+CE006092016,True,p,275,Roberto Claudio,29.0
+CE006092016,True,p,275,Luizianne Lins,18.0
+CE006092016,True,p,275,Joao Alfredo,2.0
+CE006092016,True,p,275,Heitor Ferrer,9.0
+CE006092016,True,p,275,Gonzaga,1.0
+CE006092016,True,p,275,Capitao Wagner,21.0
+CE006092016,True,p,275,BASE,805.0
+CE009542016,True,p,276,Nao sabe/ Nao respondeu,6.0
+CE009542016,True,p,276,Branco/ Nulo,3.0
+CE009542016,True,p,276,Sergio Rufino,50.0
+CE009542016,True,p,276,Diego,39.0
+CE009542016,True,p,276,Balaco Farias,2.0
+CE009542016,True,p,276,BASE,301.0
+CE010762016,True,p,277,Nao sabe/ Nao respondeu,9.0
+CE010762016,True,p,277,Branco/ Nulo,9.0
+CE010762016,True,p,277,Raimundao,19.0
+CE010762016,True,p,277,Normando,17.0
+CE010762016,True,p,277,Helaine Mendonca,3.0
+CE010762016,True,p,277,Gilmar Bender,11.0
+CE010762016,True,p,277,Francisco Fabiano,4.0
+CE010762016,True,p,277,Flavia Soares,2.0
+CE010762016,True,p,277,Demontier Cinquentinha,5.0
+CE010762016,True,p,277,Arnon Bezerra,21.0
+CE010762016,True,p,277,BASE,504.0
+CE015412016,True,p,278,Nao sabe/ Nao respondeu,6.0
+CE015412016,True,p,278,Branco/ Nulo,4.0
+CE015412016,True,p,278,Paulinha,6.0
+CE015412016,True,p,278,Laelis,1.0
+CE015412016,True,p,278,Joao Barroso,48.0
+CE015412016,True,p,278,Geraldinho,7.0
+CE015412016,True,p,278,Dr. Dagmauro,28.0
+CE015412016,True,p,278,BASE,301.0
+CE019782016,True,p,279,Nao sabe/ Nao respondeu,5.0
+CE019782016,True,p,279,Branco/ Nulo,6.0
+CE019782016,True,p,279,Josy Vasconcelos,1.0
+CE019782016,True,p,279,Moses Rodrigues,37.0
+CE019782016,True,p,279,Ivo Gomes,40.0
+CE019782016,True,p,279,Dr Guimaraes,11.0
+CE019782016,True,p,279,BASE,504.0
+CE023502016,True,p,280,Nao sabe/ Nao respondeu,6.0
+CE023502016,True,p,280,Branco/ Nulo,6.0
+CE023502016,True,p,280,Ecildo Filho,52.0
+CE023502016,True,p,280,Dudu Eleoterio,17.0
+CE023502016,True,p,280,Dr. Nelson,18.0
+CE023502016,True,p,280,BASE,301.0
+CE027232016,True,p,281,Nao sabe/ Nao respondeu,5.0
+CE027232016,True,p,281,Branco/ Nulo,9.0
+CE027232016,True,p,281,Ze Ailton,41.0
+CE027232016,True,p,281,Samuel Araripe,41.0
+CE027232016,True,p,281,Caca Araujo,4.0
+CE027232016,True,p,281,BASE,504.0
+CE032992016,True,p,282,Nao sabe/ Nao respondeu,4.0
+CE032992016,True,p,282,Branco/ Nulo,9.0
+CE032992016,True,p,282,Naumi Amorim,54.0
+CE032992016,True,p,282,Eduardo Pessoa,33.0
+CE032992016,True,p,282,BASE,504.0
+CE034102016,True,p,283,Nao sabe/ Nao respondeu,6.0
+CE034102016,True,p,283,Branco/ Nulo,5.0
+CE034102016,True,p,283,Professor Arimatea,1.0
+CE034102016,True,p,283,Dra. Lucia do Cmack,0.0
+CE034102016,True,p,283,Claudio Pinho,63.0
+CE034102016,True,p,283,Bethrose,25.0
+CE034102016,True,p,283,BASE,406.0
+CE041332016,True,p,284,Nao sabe/ Nao respondeu,2.0
+CE041332016,True,p,284,Branco/ Nulo,6.0
+CE041332016,True,p,284,Rochinha,19.0
+CE041332016,True,p,284,Marcus,2.0
+CE041332016,True,p,284,Lincoln Machado,1.0
+CE041332016,True,p,284,Chico Cesar,70.0
+CE041332016,True,p,284,BASE,301.0
+CE043672016,True,p,285,Nao sabe/ Nao respondeu,4.0
+CE043672016,True,p,285,Branco/ Nulo,6.0
+CE043672016,True,p,285,Mano Morais,51.0
+CE043672016,True,p,285,Evanildo Simao,39.0
+CE043672016,True,p,285,BASE,301.0
+CE043962016,True,p,286,Nao sabe/ Nao respondeu,3.0
+CE043962016,True,p,286,Branco/ Nulo,3.0
+CE043962016,True,p,286,Tiao Rosa,3.0
+CE043962016,True,p,286,Joaozinho,33.0
+CE043962016,True,p,286,Jeova Madeiro,58.0
+CE043962016,True,p,286,BASE,301.0
+CE043962016,True,p,287,BASE,301.0
+CE043962016,True,p,287,Frota como vice prefeito,33.0
+CE043962016,True,p,287,Nao sabe/ Nao respondeu,4.0
+CE047192016,True,p,288,Nao sabe/ Nao respondeu,3.0
+CE047192016,True,p,288,Branco/ Nulo,11.0
+CE047192016,True,p,288,Xavier Maia,16.0
+CE047192016,True,p,288,Ivan Silverio,17.0
+CE047192016,True,p,288,Expedito Ferreira,14.0
+CE047192016,True,p,288,Crisanto Damasceno,4.0
+CE047192016,True,p,288,Bismarck Maia,35.0
+CE047192016,True,p,288,BASE,301.0
+CE047192016,True,p,289,Nao sabe/ Nao respondeu,2.0
+CE047192016,True,p,289,Branco/ Nulo,11.0
+CE047192016,True,p,289,Xavier Maia,22.0
+CE047192016,True,p,289,Ivan Silverio,17.0
+CE047192016,True,p,289,Crisanto Damasceno,6.0
+CE047192016,True,p,289,Bismarck Maia,42.0
+CE047192016,True,p,289,BASE,301.0
+CE047742016,True,p,290,Nao sabe/ Nao respondeu,4.0
+CE047742016,True,p,290,Branco/ Nulo,5.0
+CE047742016,True,p,290,Raimundao,6.0
+CE047742016,True,p,290,Normando,9.0
+CE047742016,True,p,290,Helaine Mendonca,1.0
+CE047742016,True,p,290,Gilmar Bender,34.0
+CE047742016,True,p,290,Francisco Fabiano,3.0
+CE047742016,True,p,290,Flavia Soares,2.0
+CE047742016,True,p,290,Demontier Cinquentinha,3.0
+CE047742016,True,p,290,Arnon Bezerra,33.0
+CE047742016,True,p,290,BASE,602.0
+CE050352016,True,p,291,Nao sabe/ Nao respondeu,4.0
+CE050352016,True,p,291,Branco/ Nulo,7.0
+CE050352016,True,p,291,Roberto Claudio,51.0
+CE050352016,True,p,291,Capitao Wagner,38.0
+CE050352016,True,p,291,BASE,805.0
+CE071182016,True,p,292,Nao sabe/ Nao respondeu,3.0
+CE071182016,True,p,292,Branco/ Nulo,9.0
+CE071182016,True,p,292,Roberto Claudio,46.0
+CE071182016,True,p,292,Capitao Wagner,42.0
+CE071182016,True,p,292,BASE,805.0
+CE073262016,True,p,293,Nao sabe/ Nao respondeu,6.0
+CE073262016,True,p,293,Branco/ Nulo,5.0
+CE073262016,True,p,293,Raimundao,11.0
+CE073262016,True,p,293,Normando,12.0
+CE073262016,True,p,293,Helaine Mendonca,2.0
+CE073262016,True,p,293,Gilmar Bender,17.0
+CE073262016,True,p,293,Francisco Fabiano,4.0
+CE073262016,True,p,293,Flavia Soares,3.0
+CE073262016,True,p,293,Demontier Cinquentinha,4.0
+CE073262016,True,p,293,Arnon Bezerra,36.0
+CE073262016,True,p,293,BASE,504.0
+CE074792016,True,p,294,Nao sabe/ Nao respondeu,8.0
+CE074792016,True,p,294,Branco/ Nulo,7.0
+CE074792016,True,p,294,Moses Rodrigues,36.0
+CE074792016,True,p,294,Ivo Gomes,33.0
+CE074792016,True,p,294,Edmilson Moreira,1.0
+CE074792016,True,p,294,Dr Guimaraes,15.0
+CE074792016,True,p,294,BASE,504.0
+CE076792016,True,p,295,Nao sabe/ Nao respondeu,7.0
+CE076792016,True,p,295,Branco/ Nulo,12.0
+CE076792016,True,p,295,Silvio Nascimento,6.0
+CE076792016,True,p,295,Potim,6.0
+CE076792016,True,p,295,Naumi Amorim,39.0
+CE076792016,True,p,295,Eduardo Pessoa,27.0
+CE076792016,True,p,295,Daniel Gadelha,2.0
+CE076792016,True,p,295,Baiano Ximenes,1.0
+CE076792016,True,p,295,BASE,504.0
+CE091872016,True,p,296,Nao sabe/ Nao respondeu,5.0
+CE091872016,True,p,296,Branco/ Nulo,10.0
+CE091872016,True,p,296,Naumi Amorim,50.0
+CE091872016,True,p,296,Eduardo Pessoa,35.0
+CE091872016,True,p,296,BASE,504.0
+CE093852016,True,p,297,Nao sabe/ Nao respondeu,5.0
+CE093852016,True,p,297,Branco/ Nulo,4.0
+CE093852016,True,p,297,Josy Vasconcelos,1.0
+CE093852016,True,p,297,Moses Rodrigues,36.0
+CE093852016,True,p,297,Ivo Gomes,43.0
+CE093852016,True,p,297,Dr Guimaraes,11.0
+CE093852016,True,p,297,BASE,602.0
+CE095782016,True,p,298,Nao sabe/ Nao respondeu,2.0
+CE095782016,True,p,298,Branco/ Nulo,7.0
+CE095782016,True,p,298,Tin Gomes,0.0
+CE095782016,True,p,298,Ronaldo Martins,3.0
+CE095782016,True,p,298,Roberto Claudio,34.0
+CE095782016,True,p,298,Luizianne,18.0
+CE095782016,True,p,298,Joao Alfredo,1.0
+CE095782016,True,p,298,Heitor Ferrer,7.0
+CE095782016,True,p,298,Gonzaga,0.0
+CE095782016,True,p,298,Capitao Wagner,28.0
+CE095782016,True,p,298,BASE,805.0
+CE096572016,True,p,299,Nao sabe/ Nao respondeu,7.0
+CE096572016,True,p,299,Branco/ Nulo,1.0
+CE096572016,True,p,299,Regivaldo,29.0
+CE096572016,True,p,299,Adail Machado,63.0
+CE096572016,True,p,299,BASE,301.0
+ES001622016,True,p,300,Nao sabe/ Nao respondeu,7.0
+ES001622016,True,p,300,Branco/ Nulo,14.0
+ES001622016,True,p,300,Perly Cipriano,3.0
+ES001622016,True,p,300,Luciano,24.0
+ES001622016,True,p,300,Lelo Coimbra,15.0
+ES001622016,True,p,300,Andre Moreira,4.0
+ES001622016,True,p,300,Amaro Neto,33.0
+ES001622016,True,p,300,BASE,602.0
+ES006722016,True,p,301,Nao sabe/ Nao respondeu,3.0
+ES006722016,True,p,301,Branco/ Nulo,9.0
+ES006722016,True,p,301,Luciano,45.0
+ES006722016,True,p,301,Amaro Neto,43.0
+ES006722016,True,p,301,BASE,602.0
+ES035672016,True,p,302,Nao sabe/ Nao respondeu,4.0
+ES035672016,True,p,302,Branco/ Nulo,6.0
+ES035672016,True,p,302,Perly Cipriano,5.0
+ES035672016,True,p,302,Luciano,35.0
+ES035672016,True,p,302,Lelo Coimbra,18.0
+ES035672016,True,p,302,Andre Moreira,3.0
+ES035672016,True,p,302,Amaro Neto,29.0
+ES035672016,True,p,302,BASE,602.0
+ES044732016,True,p,303,Nao sabe/ Nao respondeu,3.0
+ES044732016,True,p,303,Branco/ Nulo,8.0
+ES044732016,True,p,303,Luciano,51.0
+ES044732016,True,p,303,Amaro Neto,38.0
+ES044732016,True,p,303,BASE,602.0
+ES097962016,True,p,304,Nao sabe/ Nao respondeu,6.0
+ES097962016,True,p,304,Branco/ Nulo,8.0
+ES097962016,True,p,304,Perly Cipriano,4.0
+ES097962016,True,p,304,Luciano,31.0
+ES097962016,True,p,304,Lelo Coimbra,14.0
+ES097962016,True,p,304,Andre Moreira,3.0
+ES097962016,True,p,304,Amaro Neto,34.0
+ES097962016,True,p,304,BASE,602.0
+GO008932016,True,p,305,Nao sabe/ Nao respondeu,6.0
+GO008932016,True,p,305,Branco/ Nulo,9.0
+GO008932016,True,p,305,Vanderlan,27.0
+GO008932016,True,p,305,Iris Rezende,36.0
+GO008932016,True,p,305,Francisco Jr,2.0
+GO008932016,True,p,305,Flavio Sofiati,1.0
+GO008932016,True,p,305,Delegado Waldir,13.0
+GO008932016,True,p,305,Adriana Accorsi,6.0
+GO008932016,True,p,305,BASE,602.0
+GO076152016,True,p,306,Nao sabe/ Nao respondeu,4.0
+GO076152016,True,p,306,Branco/ Nulo,9.0
+GO076152016,True,p,306,Vanderlan,24.0
+GO076152016,True,p,306,Iris Rezende,39.0
+GO076152016,True,p,306,Francisco Jr,5.0
+GO076152016,True,p,306,Flavio Sofiati,1.0
+GO076152016,True,p,306,Djalma Araujo,0.0
+GO076152016,True,p,306,Delegado Waldir,13.0
+GO076152016,True,p,306,Adriana Accorsi,5.0
+GO076152016,True,p,306,BASE,602.0
+GO085562016,True,p,307,Nao sabe/ Nao respondeu,6.0
+GO085562016,True,p,307,Branco/ Nulo,10.0
+GO085562016,True,p,307,Vanderlan,13.0
+GO085562016,True,p,307,Iris Rezende,37.0
+GO085562016,True,p,307,Francisco Junior,2.0
+GO085562016,True,p,307,Flavio Sofiati,1.0
+GO085562016,True,p,307,Djalma Araujo,1.0
+GO085562016,True,p,307,Delegado Waldir,22.0
+GO085562016,True,p,307,Adriana Accorsi,8.0
+GO085562016,True,p,307,BASE,602.0
+GO088702016,True,p,308,Nao sabe/ Nao respondeu,3.0
+GO088702016,True,p,308,Branco/ Nulo,9.0
+GO088702016,True,p,308,Vanderlan,38.0
+GO088702016,True,p,308,Iris Rezende,50.0
+GO088702016,True,p,308,BASE,602.0
+GO096242016,True,p,309,Nao sabe/ Nao respondeu,5.0
+GO096242016,True,p,309,Branco/ Nulo,12.0
+GO096242016,True,p,309,Vanderlan,35.0
+GO096242016,True,p,309,Iris Rezende,48.0
+GO096242016,True,p,309,BASE,602.0
+MA002392016,True,p,310,Nao sabe/ Nao respondeu,3.0
+MA002392016,True,p,310,Branco/ Nulo,8.0
+MA002392016,True,p,310,Zeluis Lago,1.0
+MA002392016,True,p,310,Wellington do Curso,31.0
+MA002392016,True,p,310,Valdeny Barros,1.0
+MA002392016,True,p,310,Rose Sales,2.0
+MA002392016,True,p,310,Fabio Camara,3.0
+MA002392016,True,p,310,Eliziane Gama,10.0
+MA002392016,True,p,310,Eduardo Braide,3.0
+MA002392016,True,p,310,Edivaldo Holanda Junior,37.0
+MA002392016,True,p,310,Claudia Durans,1.0
+MA002392016,True,p,310,BASE,805.0
+MA034482016,True,p,311,Nao sabe/ Nao respondeu,3.0
+MA034482016,True,p,311,Branco/ Nulo,5.0
+MA034482016,True,p,311,Eduardo Braide,44.0
+MA034482016,True,p,311,Edivaldo Holanda Junior,48.0
+MA034482016,True,p,311,BASE,805.0
+MA045802016,True,p,312,Nao sabe/ Nao respondeu,2.0
+MA045802016,True,p,312,Branco/ Nulo,4.0
+MA045802016,True,p,312,Eduardo Braide,51.0
+MA045802016,True,p,312,Edivaldo Holanda Junior,43.0
+MA045802016,True,p,312,BASE,805.0
+MA053052016,True,p,313,Nao sabe/ Nao respondeu,5.0
+MA053052016,True,p,313,Branco/ Nulo,6.0
+MA053052016,True,p,313,Zeluis Lago,0.0
+MA053052016,True,p,313,Wellington do Curso,28.0
+MA053052016,True,p,313,Valdeny Barros,1.0
+MA053052016,True,p,313,Rose Sales,3.0
+MA053052016,True,p,313,Fabio Camara,4.0
+MA053052016,True,p,313,Eliziane Gama,8.0
+MA053052016,True,p,313,Eduardo Braide,5.0
+MA053052016,True,p,313,Edivaldo Holanda Junior,38.0
+MA053052016,True,p,313,Claudia Durans,2.0
+MA053052016,True,p,313,BASE,805.0
+MA088272016,True,p,314,Nao sabe/ Nao respondeu,5.0
+MA088272016,True,p,314,Branco/ Nulo,12.0
+MA088272016,True,p,314,Zeluis Lago,1.0
+MA088272016,True,p,314,Wellington do Curso,20.0
+MA088272016,True,p,314,Valdeny Barros,0.0
+MA088272016,True,p,314,Rose Sales,5.0
+MA088272016,True,p,314,Fabio Camara,5.0
+MA088272016,True,p,314,Eliziane Gama,16.0
+MA088272016,True,p,314,Eduardo Braide,5.0
+MA088272016,True,p,314,Edivaldo Holanda Junior,29.0
+MA088272016,True,p,314,Claudia Durans,2.0
+MA088272016,True,p,314,BASE,805.0
+MG001842016,True,p,315,Nao sabe/ Nao respondeu,4.0
+MG001842016,True,p,315,Branco/ Nulo,17.0
+MG001842016,True,p,315,Margarida Salomao,25.0
+MG001842016,True,p,315,Bruno Siqueira,54.0
+MG001842016,True,p,315,BASE,602.0
+MG009622016,True,p,316,Nao sabe/ Nao respondeu,3.0
+MG009622016,True,p,316,Branco/ Nulo,6.0
+MG009622016,True,p,316,Paulo Fernando,0.0
+MG009622016,True,p,316,Ozeas Diretor,53.0
+MG009622016,True,p,316,Eduardo Mathias,1.0
+MG009622016,True,p,316,Dr Afonso Carlos,37.0
+MG009622016,True,p,316,BASE,301.0
+MG012262016,True,p,317,Nao sabe/ Nao respondeu,14.0
+MG012262016,True,p,317,Branco/ Nulo,11.0
+MG012262016,True,p,317,Merim Toco,1.0
+MG012262016,True,p,317,Grego,42.0
+MG012262016,True,p,317,Elder Abreu,32.0
+MG012262016,True,p,317,BASE,406.0
+MG015742016,True,p,318,Nao sabe/ Nao respondeu,7.0
+MG015742016,True,p,318,Branco/ Nulo,3.0
+MG015742016,True,p,318,Paulo Fernando,1.0
+MG015742016,True,p,318,Ozeas Diretor,50.0
+MG015742016,True,p,318,Eduardo Mathias da Cemig,1.0
+MG015742016,True,p,318,Dr Afonso Carlos,38.0
+MG015742016,True,p,318,BASE,301.0
+MG021202016,True,p,319,Nao sabe/ Nao respondeu,6.0
+MG021202016,True,p,319,Branco/ Nulo,18.0
+MG021202016,True,p,319,Kalil,41.0
+MG021202016,True,p,319,Joao Leite,35.0
+MG021202016,True,p,319,BASE,1001.0
+MG021862016,True,p,320,Nao sabe/ Nao respondeu,3.0
+MG021862016,True,p,320,Branco/ Nulo,12.0
+MG021862016,True,p,320,Odelmo Leao,69.0
+MG021862016,True,p,320,Leonidio Boucas,4.0
+MG021862016,True,p,320,Gilmar Machado,10.0
+MG021862016,True,p,320,Gilberto Cunha,1.0
+MG021862016,True,p,320,Alexandre Andrade,1.0
+MG021862016,True,p,320,BASE,406.0
+MG024812016,True,p,321,Nao sabe/ Nao respondeu,6.0
+MG024812016,True,p,321,Branco/ Nulo,13.0
+MG024812016,True,p,321,Vanessa Portugal,1.0
+MG024812016,True,p,321,Sargento Rodrigues,2.0
+MG024812016,True,p,321,Rodrigo Pacheco,3.0
+MG024812016,True,p,321,Reginaldo Lopes,4.0
+MG024812016,True,p,321,Maria da Consolacao,2.0
+MG024812016,True,p,321,Marcelo Alvaro Antonio,1.0
+MG024812016,True,p,321,Luis Tibe,3.0
+MG024812016,True,p,321,Kalil,25.0
+MG024812016,True,p,321,Joao Leite,33.0
+MG024812016,True,p,321,Eros Biondini,4.0
+MG024812016,True,p,321,Delio Malheiros,3.0
+MG024812016,True,p,321,BASE,1001.0
+MG024982016,True,p,322,Nao sabe/ Nao respondeu,8.0
+MG024982016,True,p,322,Branco/ Nulo,19.0
+MG024982016,True,p,322,Wilson Rezato,7.0
+MG024982016,True,p,322,Victoria Mello Vic,2.0
+MG024982016,True,p,322,Noraldino,18.0
+MG024982016,True,p,322,Maria Angela,3.0
+MG024982016,True,p,322,Margarida Salomao,22.0
+MG024982016,True,p,322,Lafayette,3.0
+MG024982016,True,p,322,Bruno Siqueira,18.0
+MG024982016,True,p,322,BASE,602.0
+MG025942016,True,p,323,Nao sabe/ Nao respondeu,5.0
+MG025942016,True,p,323,Branco/ Nulo,20.0
+MG025942016,True,p,323,Kalil,39.0
+MG025942016,True,p,323,Joao Leite,36.0
+MG025942016,True,p,323,BASE,1001.0
+MG032152016,True,p,324,Nao sabe/ Nao respondeu,5.0
+MG032152016,True,p,324,Branco/ Nulo,16.0
+MG032152016,True,p,324,Wagner Junior,18.0
+MG032152016,True,p,324,Samir Cecilio,6.0
+MG032152016,True,p,324,Ripossati,4.0
+MG032152016,True,p,324,Publio Rocha,0.0
+MG032152016,True,p,324,Paulo Piau,17.0
+MG032152016,True,p,324,Lerin,16.0
+MG032152016,True,p,324,Josimar,0.0
+MG032152016,True,p,324,J.Junior,1.0
+MG032152016,True,p,324,De - da So Farois,0.0
+MG032152016,True,p,324,Edson Santana,4.0
+MG032152016,True,p,324,Angela Mairink,3.0
+MG032152016,True,p,324,Almir Silva,10.0
+MG032152016,True,p,324,BASE,504.0
+MG032152016,True,p,325,Nao sabe/ Nao respondeu,2.0
+MG032152016,True,p,325,Branco/ Nulo,18.0
+MG032152016,True,p,325,Wagner Junior,26.0
+MG032152016,True,p,325,Paulo Piau,27.0
+MG032152016,True,p,325,Lerin,22.0
+MG032152016,True,p,325,Angela Mairink,5.0
+MG032152016,True,p,325,BASE,504.0
+MG040952016,True,p,326,Nao sabe/ Nao respondeu,4.0
+MG040952016,True,p,326,Branco/ Nulo,5.0
+MG040952016,True,p,326,Gilmar Machado,7.0
+MG040952016,True,p,326,Odelmo Leao,69.0
+MG040952016,True,p,326,Gilberto Cunha,1.0
+MG040952016,True,p,326,Cida,1.0
+MG040952016,True,p,326,Alexandre Andrade,13.0
+MG040952016,True,p,326,BASE,602.0
+MG041732016,True,p,327,Nao sabe/ Nao respondeu,4.0
+MG041732016,True,p,327,Branco/ Nulo,11.0
+MG041732016,True,p,327,Vanessa Portugal,1.0
+MG041732016,True,p,327,Sargento Rodrigues,2.0
+MG041732016,True,p,327,Rodrigo Pacheco,5.0
+MG041732016,True,p,327,Reginaldo Lopes,3.0
+MG041732016,True,p,327,Maria da Consolacao,2.0
+MG041732016,True,p,327,Marcelo Alvaro Antonio,1.0
+MG041732016,True,p,327,Luis Tibe,3.0
+MG041732016,True,p,327,Kalil,25.0
+MG041732016,True,p,327,Joao Leite,35.0
+MG041732016,True,p,327,Eros Biondini,3.0
+MG041732016,True,p,327,Delio Malheiros,5.0
+MG041732016,True,p,327,BASE,1106.0
+MG042752016,True,p,328,Nao sabe/ Nao respondeu,7.0
+MG042752016,True,p,328,Branco/ Nulo,9.0
+MG042752016,True,p,328,Wagner Junior,14.0
+MG042752016,True,p,328,Simea,2.0
+MG042752016,True,p,328,Paulo Piau,41.0
+MG042752016,True,p,328,Lerin,14.0
+MG042752016,True,p,328,Gledston Moreli - De So Farois,1.0
+MG042752016,True,p,328,Froidinho,1.0
+MG042752016,True,p,328,Angela,11.0
+MG042752016,True,p,328,BASE,504.0
+MG042892016,True,p,329,Nao sabe/ Nao respondeu,16.0
+MG042892016,True,p,329,Branco/ Nulo,20.0
+MG042892016,True,p,329,Vanessa Portugal,5.0
+MG042892016,True,p,329,Sargento Rodrigues,3.0
+MG042892016,True,p,329,Rodrigo Pacheco,2.0
+MG042892016,True,p,329,Reginaldo Lopes,3.0
+MG042892016,True,p,329,Maria da Consolacao,3.0
+MG042892016,True,p,329,Marcelo Alvaro Antonio,2.0
+MG042892016,True,p,329,Luis Tibe,6.0
+MG042892016,True,p,329,Kalil,11.0
+MG042892016,True,p,329,Joao Leite,21.0
+MG042892016,True,p,329,Eros Biondini,5.0
+MG042892016,True,p,329,Delio Malheiros,3.0
+MG042892016,True,p,329,BASE,805.0
+MG058052016,True,p,330,Nao sabe/ Nao respondeu,4.0
+MG058052016,True,p,330,Branco/ Nulo,10.0
+MG058052016,True,p,330,Wilson Rezato,10.0
+MG058052016,True,p,330,Victoria Mello Vic,0.0
+MG058052016,True,p,330,Noraldino,12.0
+MG058052016,True,p,330,Maria Angela,1.0
+MG058052016,True,p,330,Margarida Salomao,24.0
+MG058052016,True,p,330,Lafayette,3.0
+MG058052016,True,p,330,Bruno Siqueira,36.0
+MG058052016,True,p,330,BASE,602.0
+MG059862016,True,p,331,Nao sabe/ Nao respondeu,5.0
+MG059862016,True,p,331,Branco/ Nulo,9.0
+MG059862016,True,p,331,Wilson Rezato,9.0
+MG059862016,True,p,331,Victoria Mello Vic,0.0
+MG059862016,True,p,331,Noraldino,15.0
+MG059862016,True,p,331,Maria Angela,1.0
+MG059862016,True,p,331,Margarida Salomao,26.0
+MG059862016,True,p,331,Lafayette,5.0
+MG059862016,True,p,331,Bruno Siqueira,30.0
+MG059862016,True,p,331,BASE,602.0
+MG065552016,True,p,332,Nao sabe/ Nao respondeu,3.0
+MG065552016,True,p,332,Branco/ Nulo,7.0
+MG065552016,True,p,332,Gilmar Machado,9.0
+MG065552016,True,p,332,Odelmo Leao,68.0
+MG065552016,True,p,332,Gilberto Cunha,1.0
+MG065552016,True,p,332,Cida,1.0
+MG065552016,True,p,332,Alexandre Andrade,11.0
+MG065552016,True,p,332,BASE,602.0
+MG069892016,True,p,333,Nao sabe/ Nao respondeu,3.0
+MG069892016,True,p,333,Branco/ Nulo,18.0
+MG069892016,True,p,333,Kalil,42.0
+MG069892016,True,p,333,Joao Leite,37.0
+MG069892016,True,p,333,BASE,1204.0
+MG072442016,True,p,334,Nao sabe/ Nao respondeu,4.0
+MG072442016,True,p,334,Branco/ Nulo,14.0
+MG072442016,True,p,334,Margarida Salomao,33.0
+MG072442016,True,p,334,Bruno Siqueira,49.0
+MG072442016,True,p,334,BASE,602.0
+MG073662016,True,p,335,Nao sabe/ Nao respondeu,7.0
+MG073662016,True,p,335,Branco/ Nulo,14.0
+MG073662016,True,p,335,Vanessa Portugal,1.0
+MG073662016,True,p,335,Sargento Rodrigues,1.0
+MG073662016,True,p,335,Rodrigo Pacheco,3.0
+MG073662016,True,p,335,Reginaldo Lopes,3.0
+MG073662016,True,p,335,Maria da Consolacao,1.0
+MG073662016,True,p,335,Marcelo Alvaro Antonio,2.0
+MG073662016,True,p,335,Luis Tibe,5.0
+MG073662016,True,p,335,Kalil,22.0
+MG073662016,True,p,335,Joao Leite,33.0
+MG073662016,True,p,335,Eros Biondini,4.0
+MG073662016,True,p,335,Delio Malheiros,4.0
+MG073662016,True,p,335,BASE,1001.0
+MG074522016,True,p,336,Nao sabe/ Nao respondeu,6.0
+MG074522016,True,p,336,Branco/ Nulo,9.0
+MG074522016,True,p,336,Gilmar Machado,6.0
+MG074522016,True,p,336,Odelmo Leao,75.0
+MG074522016,True,p,336,Gilberto Cunha,1.0
+MG074522016,True,p,336,Cida,2.0
+MG074522016,True,p,336,Alexandre Andrade,1.0
+MG074522016,True,p,336,BASE,602.0
+MG085552016,True,p,337,Nao sabe/ Nao respondeu,5.0
+MG085552016,True,p,337,Branco/ Nulo,13.0
+MG085552016,True,p,337,Vanessa Portugal,1.0
+MG085552016,True,p,337,Sargento Rodrigues,1.0
+MG085552016,True,p,337,Rodrigo Pacheco,2.0
+MG085552016,True,p,337,Reginaldo Lopes,4.0
+MG085552016,True,p,337,Maria da Consolacao,2.0
+MG085552016,True,p,337,Marcelo Alvaro Antonio,2.0
+MG085552016,True,p,337,Luis Tibe,4.0
+MG085552016,True,p,337,Kalil,24.0
+MG085552016,True,p,337,Joao Leite,35.0
+MG085552016,True,p,337,Eros Biondini,4.0
+MG085552016,True,p,337,Delio Malheiros,3.0
+MG085552016,True,p,337,BASE,1001.0
+MG090142016,True,p,338,Nao sabe/ Nao respondeu,5.0
+MG090142016,True,p,338,Branco/ Nulo,9.0
+MG090142016,True,p,338,Wesley Roel,2.0
+MG090142016,True,p,338,Serginho de Jesus,2.0
+MG090142016,True,p,338,Raul Belem,45.0
+MG090142016,True,p,338,Nilton Eduardo,2.0
+MG090142016,True,p,338,Marcao,35.0
+MG090142016,True,p,338,BASE,406.0
+MS003722016,True,p,339,Nao sabe/ Nao respondeu,5.0
+MS003722016,True,p,339,Branco/ Nulo,16.0
+MS003722016,True,p,339,Rose Modesto,29.0
+MS003722016,True,p,339,Marquinhos Trad,50.0
+MS003722016,True,p,339,BASE,602.0
+MS019632016,True,p,340,Nao sabe/ Nao respondeu,5.0
+MS019632016,True,p,340,Branco/ Nulo,10.0
+MS019632016,True,p,340,Lauro Davi,0.0
+MS019632016,True,p,340,Suel do PSTU,0.0
+MS019632016,True,p,340,Rose Modesto,22.0
+MS019632016,True,p,340,Rosana Santos,1.0
+MS019632016,True,p,340,Pedrossian Filho,0.0
+MS019632016,True,p,340,Marquinhos Trad,41.0
+MS019632016,True,p,340,Marcelo Bluma,1.0
+MS019632016,True,p,340,Elizeu Amarilha,0.0
+MS019632016,True,p,340,Coronel David,3.0
+MS019632016,True,p,340,Athayde,1.0
+MS019632016,True,p,340,Aroldo Figueiro,0.0
+MS019632016,True,p,340,Alex do PT,1.0
+MS019632016,True,p,340,Alcides Bernal,15.0
+MS019632016,True,p,340,Adalton Garcia,0.0
+MS019632016,True,p,340,BASE,602.0
+MS036352016,True,p,341,Nao sabe/ Nao respondeu,4.0
+MS036352016,True,p,341,Branco/ Nulo,17.0
+MS036352016,True,p,341,Rose Modesto,35.0
+MS036352016,True,p,341,Marquinhos Trad,44.0
+MS036352016,True,p,341,BASE,602.0
+MS074842016,True,p,342,Nao sabe/ Nao respondeu,5.0
+MS074842016,True,p,342,Branco/ Nulo,13.0
+MS074842016,True,p,342,Lauro Davi,0.0
+MS074842016,True,p,342,Suel do PSTU,1.0
+MS074842016,True,p,342,Rose Modesto,25.0
+MS074842016,True,p,342,Rosana Santos,2.0
+MS074842016,True,p,342,Pedrossian Filho,1.0
+MS074842016,True,p,342,Marquinhos Trad,31.0
+MS074842016,True,p,342,Marcelo Bluma,1.0
+MS074842016,True,p,342,Coronel David,2.0
+MS074842016,True,p,342,Athayde,1.0
+MS074842016,True,p,342,Aroldo Figueiro,0.0
+MS074842016,True,p,342,Arce,1.0
+MS074842016,True,p,342,Alex do PT,3.0
+MS074842016,True,p,342,Alcides Bernal,14.0
+MS074842016,True,p,342,BASE,602.0
+MS083222016,True,p,343,BASE,602.0
+MS083222016,True,p,343,Alcides Bernal,18.0
+MS083222016,True,p,343,Alex do PT,1.0
+MS083222016,True,p,343,Aroldo Figueiro,0.0
+MS083222016,True,p,343,Athayde,1.0
+MS083222016,True,p,343,Coronel David,3.0
+MS083222016,True,p,343,Marcelo Bluma,2.0
+MS083222016,True,p,343,Marquinhos Trad,34.0
+MS083222016,True,p,343,Pedrossian Filho,1.0
+MS083222016,True,p,343,Rosana Santos,1.0
+MS083222016,True,p,343,Rose Modesto,26.0
+MS083222016,True,p,343,Suel do PSTU,1.0
+MS083222016,True,p,343,Lauro Davi,0.0
+MS083222016,True,p,343,Branco/ Nulo,8.0
+MS083222016,True,p,343,Nao sabe/ Nao respondeu,4.0
+MT014942016,True,p,344,Nao sabe/ Nao respondeu,5.0
+MT014942016,True,p,344,Branco/ Nulo,12.0
+MT014942016,True,p,344,Wilson Santos,32.0
+MT014942016,True,p,344,Emanuel Pinheiro,51.0
+MT014942016,True,p,344,BASE,602.0
+MT026822016,True,p,345,Nao sabe/ Nao respondeu,3.0
+MT026822016,True,p,345,Branco/ Nulo,16.0
+MT026822016,True,p,345,Wilson Santos,32.0
+MT026822016,True,p,345,Emanuel Pinheiro,49.0
+MT026822016,True,p,345,BASE,602.0
+MT026842016,True,p,346,Nao sabe/ Nao respondeu,5.0
+MT026842016,True,p,346,Branco/ Nulo,9.0
+MT026842016,True,p,346,Wilson Santos,20.0
+MT026842016,True,p,346,Serys Slhessarenko,2.0
+MT026842016,True,p,346,Procurador Mauro,30.0
+MT026842016,True,p,346,Julier,7.0
+MT026842016,True,p,346,Emanuel Pinheiro,27.0
+MT026842016,True,p,346,BASE,602.0
+MT047972016,True,p,347,Nao sabe/ Nao respondeu,9.0
+MT047972016,True,p,347,Branco/ Nulo,14.0
+MT047972016,True,p,347,Wilson Santos,18.0
+MT047972016,True,p,347,Serys Slhessarenko,6.0
+MT047972016,True,p,347,Renato Santtana,1.0
+MT047972016,True,p,347,Procurador Mauro,24.0
+MT047972016,True,p,347,Julier,6.0
+MT047972016,True,p,347,Emanuel Pinheiro,22.0
+MT047972016,True,p,347,BASE,602.0
+MT070122016,True,p,348,Nao sabe/ Nao respondeu,5.0
+MT070122016,True,p,348,Branco/ Nulo,7.0
+MT070122016,True,p,348,Wilson Santos,25.0
+MT070122016,True,p,348,Serys Slhessarenko,2.0
+MT070122016,True,p,348,Renato Santtana,2.0
+MT070122016,True,p,348,Procurador Mauro,21.0
+MT070122016,True,p,348,Julier,8.0
+MT070122016,True,p,348,Emanuel Pinheiro,30.0
+MT070122016,True,p,348,BASE,602.0
+MT078192016,True,p,349,Nao sabe/ Nao respondeu,7.0
+MT078192016,True,p,349,Branco/ Nulo,9.0
+MT078192016,True,p,349,Rosana Martinelli,50.0
+MT078192016,True,p,349,Roberto Dorner,22.0
+MT078192016,True,p,349,Dalton Martini,12.0
+MT078192016,True,p,349,BASE,504.0
+PA004312016,True,p,350,Nao sabe/ Nao respondeu,7.0
+PA004312016,True,p,350,Branco/ Nulo,7.0
+PA004312016,True,p,350,Professor Jonatas,6.0
+PA004312016,True,p,350,Jones William,42.0
+PA004312016,True,p,350,Joilson,4.0
+PA004312016,True,p,350,Jairo Holanda,34.0
+PA004312016,True,p,350,BASE,301.0
+PA004312016,True,p,351,Nao sabe/ Nao respondeu,5.0
+PA004312016,True,p,351,Branco/ Nulo,7.0
+PA004312016,True,p,351,Jones William,51.0
+PA004312016,True,p,351,Jairo Holanda,37.0
+PA004312016,True,p,351,BASE,301.0
+PA022132016,True,p,352,Nao sabe/ Nao respondeu,5.0
+PA022132016,True,p,352,Branco/ Nulo,4.0
+PA022132016,True,p,352,Valdemar da Pavinorte,5.0
+PA022132016,True,p,352,Marilda Natal,9.0
+PA022132016,True,p,352,Jeova Andrade,72.0
+PA022132016,True,p,352,Anuar Alves,6.0
+PA022132016,True,p,352,BASE,301.0
+PA037132016,True,p,353,Nao sabe/ Nao respondeu,2.0
+PA037132016,True,p,353,Branco/ Nulo,2.0
+PA037132016,True,p,353,Jeova Andrade,66.0
+PA037132016,True,p,353,Jean Carlos,23.0
+PA037132016,True,p,353,Dra. Marilda,7.0
+PA037132016,True,p,353,BASE,301.0
+PA045402016,True,p,354,Nao sabe/ Nao respondeu,8.0
+PA045402016,True,p,354,Branco/ Nulo,6.0
+PA045402016,True,p,354,Marilda Natal,10.0
+PA045402016,True,p,354,Jean Carlos,9.0
+PA045402016,True,p,354,Jeova Andrade,67.0
+PA045402016,True,p,354,BASE,301.0
+PA050082016,True,p,355,Nao sabe/ Nao respondeu,4.0
+PA050082016,True,p,355,Branco/ Nulo,3.0
+PA050082016,True,p,355,Jeova Andrade,68.0
+PA050082016,True,p,355,Jean Carlos,17.0
+PA050082016,True,p,355,Dra. Marilda,8.0
+PA050082016,True,p,355,BASE,301.0
+PA064012016,True,p,356,Nao sabe/ Nao respondeu,3.0
+PA064012016,True,p,356,Branco/ Nulo,9.0
+PA064012016,True,p,356,Professor Maneschy,2.0
+PA064012016,True,p,356,Zenaldo Coutinho,11.0
+PA064012016,True,p,356,Ursula Vidal,4.0
+PA064012016,True,p,356,Regina Barata,3.0
+PA064012016,True,p,356,Professor Ivanildo,1.0
+PA064012016,True,p,356,Luis Menezes,0.0
+PA064012016,True,p,356,Lelio Costa,1.0
+PA064012016,True,p,356,Eder Mauro,28.0
+PA064012016,True,p,356,Edmilson,37.0
+PA064012016,True,p,356,Cleber Rabelo,1.0
+PA064012016,True,p,356,BASE,602.0
+PA069782016,True,p,357,Nao sabe/ Nao respondeu,2.0
+PA069782016,True,p,357,Branco/ Nulo,3.0
+PA069782016,True,p,357,Professor Maneschy,14.0
+PA069782016,True,p,357,Zenaldo Coutinho,22.0
+PA069782016,True,p,357,Ursula Vidal,5.0
+PA069782016,True,p,357,Regina Barata,1.0
+PA069782016,True,p,357,Professor Ivanildo,1.0
+PA069782016,True,p,357,Luis Menezes,0.0
+PA069782016,True,p,357,Lelio Costa,1.0
+PA069782016,True,p,357,Eder Mauro,19.0
+PA069782016,True,p,357,Edmilson,31.0
+PA069782016,True,p,357,Cleber Rabelo,1.0
+PA069782016,True,p,357,BASE,602.0
+PA076032016,True,p,358,Nao sabe/ Nao respondeu,3.0
+PA076032016,True,p,358,Branco/ Nulo,5.0
+PA076032016,True,p,358,Professor Maneschy,6.0
+PA076032016,True,p,358,Zenaldo Coutinho,20.0
+PA076032016,True,p,358,Ursula Vidal,2.0
+PA076032016,True,p,358,Regina Barata,2.0
+PA076032016,True,p,358,Professor Ivanildo,1.0
+PA076032016,True,p,358,Luis Menezes,0.0
+PA076032016,True,p,358,Lelio Costa,1.0
+PA076032016,True,p,358,Eder Mauro,24.0
+PA076032016,True,p,358,Edmilson,36.0
+PA076032016,True,p,358,Cleber Rabelo,0.0
+PA076032016,True,p,358,BASE,602.0
+PA081272016,True,p,359,Nao sabe/ Nao respondeu,2.0
+PA081272016,True,p,359,Branco/ Nulo,9.0
+PA081272016,True,p,359,Zenaldo Coutinho,43.0
+PA081272016,True,p,359,Edmilson,46.0
+PA081272016,True,p,359,BASE,602.0
+PA083662016,True,p,360,Nao sabe/ Nao respondeu,3.0
+PA083662016,True,p,360,Branco/ Nulo,10.0
+PA083662016,True,p,360,Zenaldo Coutinho,44.0
+PA083662016,True,p,360,Edmilson,43.0
+PA083662016,True,p,360,BASE,602.0
+PB017162016,True,p,361,Nao sabe/ Nao respondeu,6.0
+PB017162016,True,p,361,Branco/ Nulo,8.0
+PB017162016,True,p,361,Victor Hugo,3.0
+PB017162016,True,p,361,Professor Charliton,3.0
+PB017162016,True,p,361,Luciano Cartaxo,53.0
+PB017162016,True,p,361,Cida Ramos,27.0
+PB017162016,True,p,361,BASE,602.0
+PB064262016,True,p,362,Nao sabe/ Nao respondeu,6.0
+PB064262016,True,p,362,Branco/ Nulo,15.0
+PB064262016,True,p,362,Victor Hugo,2.0
+PB064262016,True,p,362,Professor Charliton,2.0
+PB064262016,True,p,362,Luciano Cartaxo,52.0
+PB064262016,True,p,362,Cida Ramos,23.0
+PB064262016,True,p,362,BASE,602.0
+PE001512016,True,p,363,Nao sabe/ Nao respondeu,2.0
+PE001512016,True,p,363,Branco/ Nulo,8.0
+PE001512016,True,p,363,Joao Paulo,36.0
+PE001512016,True,p,363,Geraldo Julio,54.0
+PE001512016,True,p,363,BASE,1001.0
+PE011712016,True,p,364,Nao sabe/ Nao respondeu,6.0
+PE011712016,True,p,364,Branco/ Nulo,7.0
+PE011712016,True,p,364,Perpetua Rodrigues,1.0
+PE011712016,True,p,364,Odacy Amorim,22.0
+PE011712016,True,p,364,Miguel Coelho,36.0
+PE011712016,True,p,364,Edinaldo Lima,15.0
+PE011712016,True,p,364,Adalberto Cavalcanti,13.0
+PE011712016,True,p,364,BASE,602.0
+PE020252016,True,p,365,Nao sabe/ Nao respondeu,6.0
+PE020252016,True,p,365,Branco/ Nulo,15.0
+PE020252016,True,p,365,Simone Fontana,1.0
+PE020252016,True,p,365,Priscila Krause,8.0
+PE020252016,True,p,365,Pantaleao,1.0
+PE020252016,True,p,365,Joao Paulo,27.0
+PE020252016,True,p,365,Geraldo Julio,26.0
+PE020252016,True,p,365,Edilson Silva,4.0
+PE020252016,True,p,365,Daniel Coelho,11.0
+PE020252016,True,p,365,Carlos Augusto Costa,1.0
+PE020252016,True,p,365,BASE,805.0
+PE029412016,True,p,366,Nao sabe/ Nao respondeu,3.0
+PE029412016,True,p,366,Branco/ Nulo,8.0
+PE029412016,True,p,366,Simone Fontana,0.0
+PE029412016,True,p,366,Priscila Krause,3.0
+PE029412016,True,p,366,Pantaleao,0.0
+PE029412016,True,p,366,Joao Paulo,29.0
+PE029412016,True,p,366,Geraldo Julio,39.0
+PE029412016,True,p,366,Edilson Silva,2.0
+PE029412016,True,p,366,Daniel Coelho,15.0
+PE029412016,True,p,366,Carlos Augusto,1.0
+PE029412016,True,p,366,BASE,1001.0
+PE032122016,True,p,367,Nao sabe/ Nao respondeu,4.0
+PE032122016,True,p,367,Branco/ Nulo,14.0
+PE032122016,True,p,367,Nilson Gabriel,3.0
+PE032122016,True,p,367,Lula Cabral,51.0
+PE032122016,True,p,367,Betinho Gomes,27.0
+PE032122016,True,p,367,BASE,406.0
+PE050112016,True,p,368,Nao sabe/ Nao respondeu,4.0
+PE050112016,True,p,368,Branco/ Nulo,17.0
+PE050112016,True,p,368,Pastor Cleiton Collins,18.0
+PE050112016,True,p,368,Neco,23.0
+PE050112016,True,p,368,Inaldo Metalurgico,1.0
+PE050112016,True,p,368,Heraldo Selva,11.0
+PE050112016,True,p,368,Edmar de Oliveira,1.0
+PE050112016,True,p,368,Anderson Ferreira,23.0
+PE050112016,True,p,368,Adilson de Souza,1.0
+PE050112016,True,p,368,Adelson Veras,1.0
+PE050112016,True,p,368,BASE,602.0
+PE055582016,True,p,369,Nao sabe/ Nao respondeu,5.0
+PE055582016,True,p,369,Branco/ Nulo,6.0
+PE055582016,True,p,369,Perpetua Rodrigues,1.0
+PE055582016,True,p,369,Odacy Amorim,23.0
+PE055582016,True,p,369,Miguel Coelho,33.0
+PE055582016,True,p,369,Edinaldo Lima,15.0
+PE055582016,True,p,369,Adalberto Cavalcanti,17.0
+PE055582016,True,p,369,BASE,504.0
+PE062062016,True,p,370,Nao sabe/ Nao respondeu,4.0
+PE062062016,True,p,370,Branco/ Nulo,8.0
+PE062062016,True,p,370,Simone Fontana,0.0
+PE062062016,True,p,370,Priscila Krause,3.0
+PE062062016,True,p,370,Pantaleao,0.0
+PE062062016,True,p,370,Joao Paulo,26.0
+PE062062016,True,p,370,Geraldo Julio,40.0
+PE062062016,True,p,370,Edilson Silva,1.0
+PE062062016,True,p,370,Daniel Coelho,17.0
+PE062062016,True,p,370,Carlos Augusto,1.0
+PE062062016,True,p,370,BASE,1001.0
+PE062722016,True,p,371,Nao sabe/ Nao respondeu,2.0
+PE062722016,True,p,371,Branco/ Nulo,11.0
+PE062722016,True,p,371,Joao Paulo,33.0
+PE062722016,True,p,371,Geraldo Julio,54.0
+PE062722016,True,p,371,BASE,1001.0
+PE073902016,True,p,372,Nao sabe/ Nao respondeu,8.0
+PE073902016,True,p,372,Branco/ Nulo,3.0
+PE073902016,True,p,372,Romonilson,51.0
+PE073902016,True,p,372,Dr. Vital,37.0
+PE073902016,True,p,372,BASE,406.0
+PE081692016,True,p,373,Nao sabe/ Nao respondeu,5.0
+PE081692016,True,p,373,Branco/ Nulo,11.0
+PE081692016,True,p,373,Lula Cabral,52.0
+PE081692016,True,p,373,Gleydson Goes,4.0
+PE081692016,True,p,373,Betinho,28.0
+PE081692016,True,p,373,BASE,406.0
+PE082742016,True,p,374,Nao sabe/ Nao respondeu,4.0
+PE082742016,True,p,374,Branco/ Nulo,2.0
+PE082742016,True,p,374,Ronieri Reis,37.0
+PE082742016,True,p,374,Geomarco,57.0
+PE082742016,True,p,374,BASE,301.0
+PE090352016,True,p,375,Nao sabe/ Nao respondeu,3.0
+PE090352016,True,p,375,Branco/ Nulo,7.0
+PE090352016,True,p,375,Simone Fontana,0.0
+PE090352016,True,p,375,Priscila Krause,3.0
+PE090352016,True,p,375,Pantaleao,0.0
+PE090352016,True,p,375,Joao Paulo,28.0
+PE090352016,True,p,375,Geraldo Julio,41.0
+PE090352016,True,p,375,Edilson Silva,2.0
+PE090352016,True,p,375,Daniel Coelho,15.0
+PE090352016,True,p,375,Carlos Augusto,1.0
+PE090352016,True,p,375,BASE,1106.0
+PE093442016,True,p,376,Nao sabe/ Nao respondeu,2.0
+PE093442016,True,p,376,Branco/ Nulo,10.0
+PE093442016,True,p,376,Joao Paulo,36.0
+PE093442016,True,p,376,Geraldo Julio,52.0
+PE093442016,True,p,376,BASE,1204.0
+PE097782016,True,p,377,Nao sabe/ Nao respondeu,4.0
+PE097782016,True,p,377,Branco/ Nulo,10.0
+PE097782016,True,p,377,Simone Fontana,0.0
+PE097782016,True,p,377,Priscila Krause,4.0
+PE097782016,True,p,377,Pantaleao,0.0
+PE097782016,True,p,377,Joao Paulo,27.0
+PE097782016,True,p,377,Geraldo Julio,38.0
+PE097782016,True,p,377,Edilson Silva,3.0
+PE097782016,True,p,377,Daniel Coelho,13.0
+PE097782016,True,p,377,Carlos Augusto,1.0
+PE097782016,True,p,377,BASE,1001.0
+PI066992016,True,p,378,Nao sabe/ Nao respondeu,3.0
+PI066992016,True,p,378,Branco/ Nulo,4.0
+PI066992016,True,p,378,Luciane Santos,0.0
+PI066992016,True,p,378,Lourdes Melo,1.0
+PI066992016,True,p,378,QuemQuem,1.0
+PI066992016,True,p,378,Firmino Filho,48.0
+PI066992016,True,p,378,Everton Diego,1.0
+PI066992016,True,p,378,Dr. Pessoa,35.0
+PI066992016,True,p,378,Amadeu Campos,7.0
+PI066992016,True,p,378,BASE,602.0
+PI067172016,True,p,379,BASE,602.0
+PI067172016,True,p,379,Amadeu Campos,12.0
+PI067172016,True,p,379,Dr. Pessoa,27.0
+PI067172016,True,p,379,Everton Diego,0.0
+PI067172016,True,p,379,Firmino Filho,46.0
+PI067172016,True,p,379,"Quem""",2.0
+PI067172016,True,p,379,Luciane Santos,8.0
+PI067172016,True,p,379,Branco/ Nulo,4.0
+PR000152016,True,p,380,Nao sabe/ Nao respondeu,5.0
+PR000152016,True,p,380,Branco/ Nulo,14.0
+PR000152016,True,p,380,Rafael Greca,41.0
+PR000152016,True,p,380,Ney Leprevost,40.0
+PR000152016,True,p,380,BASE,1001.0
+PR016102016,True,p,381,Nao sabe/ Nao respondeu,4.0
+PR016102016,True,p,381,Branco/ Nulo,9.0
+PR016102016,True,p,381,Xenia Mello,1.0
+PR016102016,True,p,381,Tadeu Veneri,4.0
+PR016102016,True,p,381,Requiao Filho,8.0
+PR016102016,True,p,381,Rafael Greca,45.0
+PR016102016,True,p,381,Ney Leprevost,6.0
+PR016102016,True,p,381,Maria Victoria,6.0
+PR016102016,True,p,381,Gustavo Fruet,16.0
+PR016102016,True,p,381,Afonso Rangel,0.0
+PR016102016,True,p,381,Ademar Pereira,1.0
+PR016102016,True,p,381,BASE,805.0
+PR043002016,True,p,382,Nao sabe/ Nao respondeu,11.0
+PR043002016,True,p,382,Branco/ Nulo,11.0
+PR043002016,True,p,382,Xenia Mello,1.0
+PR043002016,True,p,382,Tadeu Veneri,2.0
+PR043002016,True,p,382,Requiao Filho,16.0
+PR043002016,True,p,382,Rafael Greca,28.0
+PR043002016,True,p,382,Ney Leprevost,6.0
+PR043002016,True,p,382,Maria Victoria,4.0
+PR043002016,True,p,382,Gustavo Fruet,19.0
+PR043002016,True,p,382,Afonso Rangel,1.0
+PR043002016,True,p,382,Ademar Pereira,1.0
+PR043002016,True,p,382,BASE,602.0
+PR052842016,True,p,383,Nao sabe/ Nao respondeu,5.0
+PR052842016,True,p,383,Branco/ Nulo,9.0
+PR052842016,True,p,383,Xenia Mello,1.0
+PR052842016,True,p,383,Tadeu Veneri,5.0
+PR052842016,True,p,383,Requiao Filho,8.0
+PR052842016,True,p,383,Rafael Greca,30.0
+PR052842016,True,p,383,Ney Leprevost,15.0
+PR052842016,True,p,383,Maria Victoria,7.0
+PR052842016,True,p,383,Gustavo Fruet,19.0
+PR052842016,True,p,383,Ademar Pereira,1.0
+PR052842016,True,p,383,BASE,1001.0
+PR056332016,True,p,384,Nao sabe/ Nao respondeu,4.0
+PR056332016,True,p,384,Branco/ Nulo,10.0
+PR056332016,True,p,384,Valter Orsi,21.0
+PR056332016,True,p,384,Sandra Graca,8.0
+PR056332016,True,p,384,Paulo Silva,1.0
+PR056332016,True,p,384,Odarlone,3.0
+PR056332016,True,p,384,Marcelo Belinati,48.0
+PR056332016,True,p,384,Luciano Odebrecht,1.0
+PR056332016,True,p,384,Flavia Romagnoli,0.0
+PR056332016,True,p,384,Andre Trindade,4.0
+PR056332016,True,p,384,BASE,700.0
+PR058522016,True,p,385,Nao sabe/ Nao respondeu,9.0
+PR058522016,True,p,385,Branco/ Nulo,20.0
+PR058522016,True,p,385,Tadeu Veneri,3.0
+PR058522016,True,p,385,Requiao Filho,16.0
+PR058522016,True,p,385,Rafael Greca,21.0
+PR058522016,True,p,385,Paulo Martins,2.0
+PR058522016,True,p,385,Ney Leprevost,5.0
+PR058522016,True,p,385,Maria Victoria,3.0
+PR058522016,True,p,385,Luciano Pizzatto,3.0
+PR058522016,True,p,385,Gustavo Fruet,18.0
+PR058522016,True,p,385,BASE,805.0
+PR087662016,True,p,386,Nao sabe/ Nao respondeu,5.0
+PR087662016,True,p,386,Branco/ Nulo,12.0
+PR087662016,True,p,386,Rafael Greca,39.0
+PR087662016,True,p,386,Ney Leprevost,44.0
+PR087662016,True,p,386,BASE,805.0
+PR093402016,True,p,387,Nao sabe/ Nao respondeu,9.0
+PR093402016,True,p,387,Branco/ Nulo,15.0
+PR093402016,True,p,387,Valter Orsi,5.0
+PR093402016,True,p,387,Sandra Graca,8.0
+PR093402016,True,p,387,Paulo Silva,2.0
+PR093402016,True,p,387,Odarlone,2.0
+PR093402016,True,p,387,Marcelo Belinati,55.0
+PR093402016,True,p,387,Luciano Odebrecht,2.0
+PR093402016,True,p,387,Flavia Romagnoli,1.0
+PR093402016,True,p,387,Andre Trindade,1.0
+PR093402016,True,p,387,BASE,602.0
+PR097042016,True,p,388,Nao sabe/ Nao respondeu,3.0
+PR097042016,True,p,388,Branco/ Nulo,12.0
+PR097042016,True,p,388,Valter Orsi,23.0
+PR097042016,True,p,388,Sandra Graca,4.0
+PR097042016,True,p,388,Paulo Silva,1.0
+PR097042016,True,p,388,Odarlone,3.0
+PR097042016,True,p,388,Marcelo Belinati,49.0
+PR097042016,True,p,388,Luciano Odebrecht,0.0
+PR097042016,True,p,388,Flavia Romagnoli,1.0
+PR097042016,True,p,388,Andre Trindade,4.0
+PR097042016,True,p,388,BASE,805.0
+RJ002322016,True,p,389,Nao sabe/ Nao respondeu,4.0
+RJ002322016,True,p,389,Branco/ Nulo,14.0
+RJ002322016,True,p,389,Rosangela Gomes,12.0
+RJ002322016,True,p,389,Rogerio Lisboa,26.0
+RJ002322016,True,p,389,Professora Leci,1.0
+RJ002322016,True,p,389,Fernandinho Muguet,1.0
+RJ002322016,True,p,389,Delegado Carlos Augusto,4.0
+RJ002322016,True,p,389,Bornier,36.0
+RJ002322016,True,p,389,Adriano Dias,2.0
+RJ002322016,True,p,389,BASE,504.0
+RJ002322016,True,p,390,Nao sabe/ Nao respondeu,7.0
+RJ002322016,True,p,390,Branco/ Nulo,15.0
+RJ002322016,True,p,390,Rogerio Lisboa,38.0
+RJ002322016,True,p,390,Bornier,40.0
+RJ002322016,True,p,390,BASE,504.0
+RJ002322016,True,p,391,Nao sabe/ Nao respondeu,6.0
+RJ002322016,True,p,391,Branco/ Nulo,17.0
+RJ002322016,True,p,391,Rosangela Gomes,34.0
+RJ002322016,True,p,391,Bornier,43.0
+RJ002322016,True,p,391,BASE,504.0
+RJ003902016,True,p,392,Nao sabe/ Nao respondeu,4.0
+RJ003902016,True,p,392,Branco/ Nulo,16.0
+RJ003902016,True,p,392,Rodrigo Neves,46.0
+RJ003902016,True,p,392,Flavio Serafini,11.0
+RJ003902016,True,p,392,Felipe,23.0
+RJ003902016,True,p,392,Dani Bornia,0.0
+RJ003902016,True,p,392,BASE,602.0
+RJ004072016,True,p,393,Nao sabe/ Nao respondeu,4.0
+RJ004072016,True,p,393,Branco/ Nulo,21.0
+RJ004072016,True,p,393,Marcelo Freixo,29.0
+RJ004072016,True,p,393,Crivella,46.0
+RJ004072016,True,p,393,BASE,1001.0
+RJ005272016,True,p,394,Nao sabe/ Nao respondeu,5.0
+RJ005272016,True,p,394,Branco/ Nulo,14.0
+RJ005272016,True,p,394,Thelma Bastos,0.0
+RJ005272016,True,p,394,Pedro Paulo,9.0
+RJ005272016,True,p,394,Osorio,5.0
+RJ005272016,True,p,394,Marcelo Freixo,12.0
+RJ005272016,True,p,394,Jandira Feghali,5.0
+RJ005272016,True,p,394,Indio da Costa,8.0
+RJ005272016,True,p,394,Flavio Bolsonaro,8.0
+RJ005272016,True,p,394,Cyro Garcia,0.0
+RJ005272016,True,p,394,Crivella,31.0
+RJ005272016,True,p,394,Carmen Migueles,1.0
+RJ005272016,True,p,394,Alessandro Molon,2.0
+RJ005272016,True,p,394,BASE,1204.0
+RJ005902016,True,p,395,Nao sabe/ Nao respondeu,2.0
+RJ005902016,True,p,395,Branco/ Nulo,23.0
+RJ005902016,True,p,395,Marcelo Freixo,32.0
+RJ005902016,True,p,395,Crivella,43.0
+RJ005902016,True,p,395,BASE,1204.0
+RJ012572016,True,p,396,Nao sabe/ Nao respondeu,5.0
+RJ012572016,True,p,396,Branco/ Nulo,10.0
+RJ012572016,True,p,396,Norberto,1.0
+RJ012572016,True,p,396,Miguel Jeovani,16.0
+RJ012572016,True,p,396,Livia de Chiquinho,41.0
+RJ012572016,True,p,396,Andre Monica,20.0
+RJ012572016,True,p,396,Anderson Moura,7.0
+RJ012572016,True,p,396,BASE,602.0
+RJ013332016,True,p,397,Nao sabe/ Nao respondeu,5.0
+RJ013332016,True,p,397,Branco/ Nulo,9.0
+RJ013332016,True,p,397,Marcelo Delaroli,36.0
+RJ013332016,True,p,397,Fabiano Horta,44.0
+RJ013332016,True,p,397,Carolino Santos,2.0
+RJ013332016,True,p,397,Bia do PSOL,4.0
+RJ013332016,True,p,397,BASE,602.0
+RJ026052016,True,p,398,Nao sabe/ Nao respondeu,5.0
+RJ026052016,True,p,398,Branco/ Nulo,4.0
+RJ026052016,True,p,398,Neco,22.0
+RJ026052016,True,p,398,Carla Machado,69.0
+RJ026052016,True,p,398,BASE,406.0
+RJ031142016,True,p,399,Nao sabe/ Nao respondeu,5.0
+RJ031142016,True,p,399,Branco/ Nulo,11.0
+RJ031142016,True,p,399,Rogerio Lisboa,52.0
+RJ031142016,True,p,399,Bornier,32.0
+RJ031142016,True,p,399,BASE,504.0
+RJ032562016,True,p,400,Nao sabe/ Nao respondeu,4.0
+RJ032562016,True,p,400,Branco/ Nulo,14.0
+RJ032562016,True,p,400,Thelma Bastos,0.0
+RJ032562016,True,p,400,Pedro Paulo,10.0
+RJ032562016,True,p,400,Osorio,4.0
+RJ032562016,True,p,400,Marcelo Freixo,10.0
+RJ032562016,True,p,400,Jandira Feghali,7.0
+RJ032562016,True,p,400,Indio da Costa,8.0
+RJ032562016,True,p,400,Flavio Bolsonaro,7.0
+RJ032562016,True,p,400,Cyro Garcia,0.0
+RJ032562016,True,p,400,Crivella,34.0
+RJ032562016,True,p,400,Carmen Migueles,1.0
+RJ032562016,True,p,400,Alessandro Molon,1.0
+RJ032562016,True,p,400,BASE,1204.0
+RJ034732016,True,p,401,Nao sabe/ Nao respondeu,4.0
+RJ034732016,True,p,401,Branco/ Nulo,21.0
+RJ034732016,True,p,401,Rodrigo Neves,47.0
+RJ034732016,True,p,401,Felipe,28.0
+RJ034732016,True,p,401,BASE,602.0
+RJ037312016,True,p,402,Nao sabe/ Nao respondeu,3.0
+RJ037312016,True,p,402,Branco/ Nulo,22.0
+RJ037312016,True,p,402,Marcelo Freixo,29.0
+RJ037312016,True,p,402,Crivella,46.0
+RJ037312016,True,p,402,BASE,1204.0
+RJ043992016,True,p,403,Nao sabe/ Nao respondeu,6.0
+RJ043992016,True,p,403,Branco/ Nulo,14.0
+RJ043992016,True,p,403,Rogerio Cabral,12.0
+RJ043992016,True,p,403,Renato Abi Ramia,11.0
+RJ043992016,True,p,403,HugoMoreno,1.0
+RJ043992016,True,p,403,Glauber,21.0
+RJ043992016,True,p,403,Dra. Grace,17.0
+RJ043992016,True,p,403,Renato Bravo,18.0
+RJ043992016,True,p,403,BASE,406.0
+RJ056152016,True,p,404,Nao sabe/ Nao respondeu,6.0
+RJ056152016,True,p,404,Branco/ Nulo,15.0
+RJ056152016,True,p,404,Rogerio Lisboa,47.0
+RJ056152016,True,p,404,Bornier,32.0
+RJ056152016,True,p,404,BASE,504.0
+RJ056512016,True,p,405,Nao sabe/ Nao respondeu,5.0
+RJ056512016,True,p,405,Branco/ Nulo,18.0
+RJ056512016,True,p,405,Rosangela Gomes,8.0
+RJ056512016,True,p,405,Rogerio Lisboa,25.0
+RJ056512016,True,p,405,Professora Leci,2.0
+RJ056512016,True,p,405,Fernandinho Muguet,1.0
+RJ056512016,True,p,405,Delegado Carlos Augusto,7.0
+RJ056512016,True,p,405,Bornier,33.0
+RJ056512016,True,p,405,Adriano Dias,1.0
+RJ056512016,True,p,405,BASE,504.0
+RJ064442016,True,p,406,Nao sabe/ Nao respondeu,3.0
+RJ064442016,True,p,406,Branco/ Nulo,16.0
+RJ064442016,True,p,406,Thelma Bastos,0.0
+RJ064442016,True,p,406,Pedro Paulo,11.0
+RJ064442016,True,p,406,Osorio,4.0
+RJ064442016,True,p,406,Marcelo Freixo,9.0
+RJ064442016,True,p,406,Jandira Feghali,6.0
+RJ064442016,True,p,406,Indio da Costa,8.0
+RJ064442016,True,p,406,Flavio Bolsonaro,6.0
+RJ064442016,True,p,406,Cyro Garcia,0.0
+RJ064442016,True,p,406,Crivella,35.0
+RJ064442016,True,p,406,Carmen Migueles,1.0
+RJ064442016,True,p,406,Alessandro Molon,1.0
+RJ064442016,True,p,406,BASE,1204.0
+RJ064552016,True,p,407,Nao sabe/ Nao respondeu,7.0
+RJ064552016,True,p,407,Branco/ Nulo,14.0
+RJ064552016,True,p,407,Marcelo Delaroli,37.0
+RJ064552016,True,p,407,Fabiano Horta,39.0
+RJ064552016,True,p,407,Doutor Carolino,3.0
+RJ064552016,True,p,407,BASE,602.0
+RJ065672016,True,p,408,Nao sabe/ Nao respondeu,5.0
+RJ065672016,True,p,408,Branco/ Nulo,20.0
+RJ065672016,True,p,408,Pedro Paulo,6.0
+RJ065672016,True,p,408,Osorio,4.0
+RJ065672016,True,p,408,Marcelo Freixo,12.0
+RJ065672016,True,p,408,Jandira Feghali,6.0
+RJ065672016,True,p,408,Indio da Costa,5.0
+RJ065672016,True,p,408,Flavio Bolsonaro,11.0
+RJ065672016,True,p,408,Cyro Garcia,1.0
+RJ065672016,True,p,408,Crivella,27.0
+RJ065672016,True,p,408,Carmen Migueles,1.0
+RJ065672016,True,p,408,Alessandro Molon,2.0
+RJ065672016,True,p,408,BASE,805.0
+RJ088492016,True,p,409,Nao sabe/ Nao respondeu,4.0
+RJ088492016,True,p,409,Branco/ Nulo,13.0
+RJ088492016,True,p,409,Igor Sardinha,8.0
+RJ088492016,True,p,409,Dr. Aluizio,44.0
+RJ088492016,True,p,409,Danilo Funke,4.0
+RJ088492016,True,p,409,Chico Machado,25.0
+RJ088492016,True,p,409,Andre Longobardi,2.0
+RJ088492016,True,p,409,BASE,602.0
+RJ089582016,True,p,410,Nao sabe/ Nao respondeu,4.0
+RJ089582016,True,p,410,Branco/ Nulo,19.0
+RJ089582016,True,p,410,Pedro Paulo,9.0
+RJ089582016,True,p,410,Osorio,3.0
+RJ089582016,True,p,410,Marcelo Freixo,9.0
+RJ089582016,True,p,410,Jandira Feghali,8.0
+RJ089582016,True,p,410,Indio da Costa,7.0
+RJ089582016,True,p,410,Flavio Bolsonaro,8.0
+RJ089582016,True,p,410,Cyro Garcia,1.0
+RJ089582016,True,p,410,Crivella,31.0
+RJ089582016,True,p,410,Carmen Migueles,0.0
+RJ089582016,True,p,410,Alessandro Molon,1.0
+RJ089582016,True,p,410,BASE,1001.0
+RJ092622016,True,p,411,Nao sabe/ Nao respondeu,4.0
+RJ092622016,True,p,411,Branco/ Nulo,6.0
+RJ092622016,True,p,411,Marcelo Delaroli,38.0
+RJ092622016,True,p,411,Fabiano Horta,48.0
+RJ092622016,True,p,411,Carolino Santos,3.0
+RJ092622016,True,p,411,Bia do PSOL,1.0
+RJ092622016,True,p,411,BASE,602.0
+RN039332016,True,p,412,Nao sabe/ Nao respondeu,5.0
+RN039332016,True,p,412,Branco/ Nulo,25.0
+RN039332016,True,p,412,Rosalia Fernandes,1.0
+RN039332016,True,p,412,Roberio Paulino,7.0
+RN039332016,True,p,412,Marcia Maia,7.0
+RN039332016,True,p,412,Kelps Lima,7.0
+RN039332016,True,p,412,Freitas Jr,1.0
+RN039332016,True,p,412,Fernando Mineiro,7.0
+RN039332016,True,p,412,Carlos Eduardo,40.0
+RN039332016,True,p,412,BASE,602.0
+RN067472016,True,p,413,Nao sabe/ Nao respondeu,5.0
+RN067472016,True,p,413,Branco/ Nulo,17.0
+RN067472016,True,p,413,Rosalia Fernandes,0.0
+RN067472016,True,p,413,Roberio Paulino,4.0
+RN067472016,True,p,413,Marcia Maia,7.0
+RN067472016,True,p,413,Kelps,8.0
+RN067472016,True,p,413,Freitas Jr,1.0
+RN067472016,True,p,413,Fernando Mineiro,5.0
+RN067472016,True,p,413,Carlos Eduardo,53.0
+RN067472016,True,p,413,BASE,602.0
+RN088082016,True,p,414,Nao sabe/ Nao respondeu,4.0
+RN088082016,True,p,414,Branco/ Nulo,12.0
+RN088082016,True,p,414,Rosalia Fernandes,0.0
+RN088082016,True,p,414,Roberio Paulino,6.0
+RN088082016,True,p,414,Marcia Maia,6.0
+RN088082016,True,p,414,Kelps,10.0
+RN088082016,True,p,414,Freitas Jr,0.0
+RN088082016,True,p,414,Fernando Mineiro,7.0
+RN088082016,True,p,414,Carlos Eduardo,55.0
+RN088082016,True,p,414,BASE,805.0
+RO012572016,True,p,415,Nao sabe/ Nao respondeu,5.0
+RO012572016,True,p,415,Branco/ Nulo,8.0
+RO012572016,True,p,415,Leo Moraes,33.0
+RO012572016,True,p,415,Dr Hildon,54.0
+RO012572016,True,p,415,BASE,602.0
+RO012662016,True,p,416,Nao sabe/ Nao respondeu,6.0
+RO012662016,True,p,416,Branco/ Nulo,14.0
+RO012662016,True,p,416,Roberto Sobrinho,22.0
+RO012662016,True,p,416,Dr. Ribamar Araujo,10.0
+RO012662016,True,p,416,Pimentel,10.0
+RO012662016,True,p,416,Dr. Mauro,16.0
+RO012662016,True,p,416,Pimenta de Rondonia,3.0
+RO012662016,True,p,416,Leo Moraes,16.0
+RO012662016,True,p,416,Dr Hildon,3.0
+RO012662016,True,p,416,BASE,602.0
+RO024782016,True,p,417,Nao sabe/ Nao respondeu,2.0
+RO024782016,True,p,417,Branco/ Nulo,6.0
+RO024782016,True,p,417,Roberto Sobrinho,18.0
+RO024782016,True,p,417,Dr. Ribamar Araujo,6.0
+RO024782016,True,p,417,Pimentel,13.0
+RO024782016,True,p,417,Dr. Mauro,22.0
+RO024782016,True,p,417,Pimenta de Rondonia,1.0
+RO024782016,True,p,417,Leo Moraes,24.0
+RO024782016,True,p,417,Dr Hildon,8.0
+RO024782016,True,p,417,BASE,602.0
+RO065492016,True,p,418,Nao sabe/ Nao respondeu,4.0
+RO065492016,True,p,418,Branco/ Nulo,10.0
+RO065492016,True,p,418,Leo Moraes,35.0
+RO065492016,True,p,418,Dr Hildon,51.0
+RO065492016,True,p,418,BASE,602.0
+RO087702016,True,p,419,Nao sabe/ Nao respondeu,4.0
+RO087702016,True,p,419,Branco/ Nulo,10.0
+RO087702016,True,p,419,Roberto Sobrinho,16.0
+RO087702016,True,p,419,Dr. Ribamar Araujo,7.0
+RO087702016,True,p,419,Pimentel,14.0
+RO087702016,True,p,419,Dr. Mauro,21.0
+RO087702016,True,p,419,Pimenta de Rondonia,3.0
+RO087702016,True,p,419,Leo Moraes,21.0
+RO087702016,True,p,419,Dr Hildon,4.0
+RO087702016,True,p,419,BASE,602.0
+RR019412016,True,p,420,Nao sabe/ Nao respondeu,6.0
+RR019412016,True,p,420,Branco/ Nulo,10.0
+RR019412016,True,p,420,Teresa,70.0
+RR019412016,True,p,420,Sandro Bare,3.0
+RR019412016,True,p,420,Roberto Ramos,2.0
+RR019412016,True,p,420,Marcio Junqueira,2.0
+RR019412016,True,p,420,Luis Oca,1.0
+RR019412016,True,p,420,Kalil Coelho,1.0
+RR019412016,True,p,420,Jeferson Alves,2.0
+RR019412016,True,p,420,Alex Ladislau,1.0
+RR019412016,True,p,420,Abel Galinha,2.0
+RR019412016,True,p,420,BASE,602.0
+RR030432016,True,p,421,Nao sabe/ Nao respondeu,3.0
+RR030432016,True,p,421,Branco/ Nulo,5.0
+RR030432016,True,p,421,Teresa,74.0
+RR030432016,True,p,421,Sandro Bare,6.0
+RR030432016,True,p,421,Roberto Ramos,1.0
+RR030432016,True,p,421,Marcio Junqueira,2.0
+RR030432016,True,p,421,Luis Oca,1.0
+RR030432016,True,p,421,Kalil Coelho,1.0
+RR030432016,True,p,421,Jeferson Alves,1.0
+RR030432016,True,p,421,Alex Ladislau,1.0
+RR030432016,True,p,421,Abel Galinha,5.0
+RR030432016,True,p,421,BASE,602.0
+RR099452016,True,p,422,Nao sabe/ Nao respondeu,4.0
+RR099452016,True,p,422,Branco/ Nulo,5.0
+RR099452016,True,p,422,Teresa,73.0
+RR099452016,True,p,422,Sandro Bare,6.0
+RR099452016,True,p,422,Roberto Ramos,3.0
+RR099452016,True,p,422,Marcio Junqueira,1.0
+RR099452016,True,p,422,Luis Oca,0.0
+RR099452016,True,p,422,Kalil Coelho,2.0
+RR099452016,True,p,422,Jeferson Alves,1.0
+RR099452016,True,p,422,Alex Ladislau,1.0
+RR099452016,True,p,422,Abel Galinha,4.0
+RR099452016,True,p,422,BASE,602.0
+RS004392016,True,p,423,Nao sabe/ Nao respondeu,2.0
+RS004392016,True,p,423,Branco/ Nulo,18.0
+RS004392016,True,p,423,Sebastiao Melo,36.0
+RS004392016,True,p,423,Nelson Marchezan Junior,44.0
+RS004392016,True,p,423,BASE,805.0
+RS039702016,True,p,424,Nao sabe/ Nao respondeu,4.0
+RS039702016,True,p,424,Branco/ Nulo,18.0
+RS039702016,True,p,424,Sebastiao Melo,33.0
+RS039702016,True,p,424,Nelson Marchezan Junior,45.0
+RS039702016,True,p,424,BASE,602.0
+RS056442016,True,p,425,Nao sabe/ Nao respondeu,4.0
+RS056442016,True,p,425,Branco/ Nulo,11.0
+RS056442016,True,p,425,Sebastiao Melo,29.0
+RS056442016,True,p,425,Raul Pont,17.0
+RS056442016,True,p,425,Nelson Marchezan Junior,17.0
+RS056442016,True,p,425,Mauricio,7.0
+RS056442016,True,p,425,Marcello Chiodo,1.0
+RS056442016,True,p,425,Luciana Genro,12.0
+RS056442016,True,p,425,Julio Flores,1.0
+RS056442016,True,p,425,Joao Rodrigues,0.0
+RS056442016,True,p,425,Fabio Ostermann,1.0
+RS056442016,True,p,425,BASE,805.0
+RS060402016,True,p,426,Nao sabe/ Nao respondeu,6.0
+RS060402016,True,p,426,Branco/ Nulo,10.0
+RS060402016,True,p,426,Sebastiao Melo,22.0
+RS060402016,True,p,426,Raul Pont,19.0
+RS060402016,True,p,426,Nelson Marchezan Junior,17.0
+RS060402016,True,p,426,Mauricio,4.0
+RS060402016,True,p,426,Marcello Chiodo,1.0
+RS060402016,True,p,426,Luciana Genro,17.0
+RS060402016,True,p,426,Julio Flores,1.0
+RS060402016,True,p,426,Joao Rodrigues,1.0
+RS060402016,True,p,426,Fabio Ostermann,2.0
+RS060402016,True,p,426,BASE,602.0
+RS083762016,True,p,427,Nao sabe/ Nao respondeu,5.0
+RS083762016,True,p,427,Branco/ Nulo,18.0
+RS083762016,True,p,427,Sebastiao Melo,33.0
+RS083762016,True,p,427,Nelson Marchezan Junior,44.0
+RS083762016,True,p,427,BASE,602.0
+RS092532016,True,p,428,Nao sabe/ Nao respondeu,10.0
+RS092532016,True,p,428,Branco/ Nulo,15.0
+RS092532016,True,p,428,Sebastiao Melo,10.0
+RS092532016,True,p,428,Raul Pont,18.0
+RS092532016,True,p,428,Nelson Marchezan Junior,12.0
+RS092532016,True,p,428,Mauricio,3.0
+RS092532016,True,p,428,Marcello Chiodo,2.0
+RS092532016,True,p,428,Luciana Genro,23.0
+RS092532016,True,p,428,Julio Flores,3.0
+RS092532016,True,p,428,Joao Rodrigues,3.0
+RS092532016,True,p,428,Fabio Ostermann,1.0
+RS092532016,True,p,428,BASE,602.0
+RS096562016,True,p,429,Nao sabe/ Nao respondeu,5.0
+RS096562016,True,p,429,Branco/ Nulo,11.0
+RS096562016,True,p,429,Sebastiao Melo,26.0
+RS096562016,True,p,429,Raul Pont,16.0
+RS096562016,True,p,429,Nelson Marchezan Junior,18.0
+RS096562016,True,p,429,Mauricio,9.0
+RS096562016,True,p,429,Marcello Chiodo,1.0
+RS096562016,True,p,429,Luciana Genro,12.0
+RS096562016,True,p,429,Julio Flores,1.0
+RS096562016,True,p,429,Joao Rodrigues,1.0
+RS096562016,True,p,429,Fabio Ostermann,0.0
+RS096562016,True,p,429,BASE,805.0
+SC002252016,True,p,430,Nao sabe/ Nao respondeu,6.0
+SC002252016,True,p,430,Branco/ Nulo,11.0
+SC002252016,True,p,430,Udo Dohler,23.0
+SC002252016,True,p,430,Rodrigo Meyer Bornholdt,3.0
+SC002252016,True,p,430,Professor Marcos,2.0
+SC002252016,True,p,430,Marco Tebaldi,18.0
+SC002252016,True,p,430,Ivan Rocha,1.0
+SC002252016,True,p,430,Dr. Xuxo,6.0
+SC002252016,True,p,430,Darci de Matos,21.0
+SC002252016,True,p,430,Carlito,9.0
+SC002252016,True,p,430,BASE,602.0
+SC025792016,True,p,431,Nao sabe/ Nao respondeu,2.0
+SC025792016,True,p,431,Branco/ Nulo,10.0
+SC025792016,True,p,431,Udo Dohler,47.0
+SC025792016,True,p,431,Darci de Matos,41.0
+SC025792016,True,p,431,BASE,602.0
+SC032172016,True,p,432,Nao sabe/ Nao respondeu,5.0
+SC032172016,True,p,432,Branco/ Nulo,7.0
+SC032172016,True,p,432,Udo Dohler,33.0
+SC032172016,True,p,432,Rodrigo Meyer Bornholdt,2.0
+SC032172016,True,p,432,Professor Marcos,2.0
+SC032172016,True,p,432,Marco Tebaldi,22.0
+SC032172016,True,p,432,Ivan Rocha,1.0
+SC032172016,True,p,432,Dr. Xuxo,2.0
+SC032172016,True,p,432,Darci de Matos,20.0
+SC032172016,True,p,432,Carlito,6.0
+SC032172016,True,p,432,BASE,602.0
+SC047112016,True,p,433,Nao sabe/ Nao respondeu,5.0
+SC047112016,True,p,433,Branco/ Nulo,9.0
+SC047112016,True,p,433,Udo Dohler,44.0
+SC047112016,True,p,433,Darci de Matos,42.0
+SC047112016,True,p,433,BASE,602.0
+SC047162016,True,p,434,Nao sabe/ Nao respondeu,5.0
+SC047162016,True,p,434,Branco/ Nulo,6.0
+SC047162016,True,p,434,Murilo Flores,6.0
+SC047162016,True,p,434,Mauricio Leal,0.0
+SC047162016,True,p,434,Gean Loureiro,36.0
+SC047162016,True,p,434,Angela Amin,24.0
+SC047162016,True,p,434,Gabriela Santetti,1.0
+SC047162016,True,p,434,Elson,17.0
+SC047162016,True,p,434,Angela Albino,5.0
+SC047162016,True,p,434,BASE,805.0
+SC052572016,True,p,435,Nao sabe/ Nao respondeu,6.0
+SC052572016,True,p,435,Branco/ Nulo,7.0
+SC052572016,True,p,435,Murilo Flores,4.0
+SC052572016,True,p,435,Mauricio Leal,1.0
+SC052572016,True,p,435,Gean Loureiro,35.0
+SC052572016,True,p,435,Angela Amin,27.0
+SC052572016,True,p,435,Gabriela Santetti,1.0
+SC052572016,True,p,435,Elson,13.0
+SC052572016,True,p,435,Angela Albino,6.0
+SC052572016,True,p,435,BASE,805.0
+SC059162016,True,p,436,Nao sabe/ Nao respondeu,4.0
+SC059162016,True,p,436,Branco/ Nulo,16.0
+SC059162016,True,p,436,Gean Loureiro,44.0
+SC059162016,True,p,436,Angela Amin,36.0
+SC059162016,True,p,436,BASE,805.0
+SC066032016,True,p,437,Nao sabe/ Nao respondeu,5.0
+SC066032016,True,p,437,Branco/ Nulo,16.0
+SC066032016,True,p,437,Gean Loureiro,53.0
+SC066032016,True,p,437,Angela Amin,26.0
+SC066032016,True,p,437,BASE,602.0
+SC084022016,True,p,438,Nao sabe/ Nao respondeu,4.0
+SC084022016,True,p,438,Branco/ Nulo,17.0
+SC084022016,True,p,438,Gean Loureiro,49.0
+SC084022016,True,p,438,Angela Amin,30.0
+SC084022016,True,p,438,BASE,602.0
+SC087132016,True,p,439,Nao sabe/ Nao respondeu,5.0
+SC087132016,True,p,439,Branco/ Nulo,7.0
+SC087132016,True,p,439,Udo Dohler,36.0
+SC087132016,True,p,439,Rodrigo Meyer Bornholdt,2.0
+SC087132016,True,p,439,Professor Marcos,2.0
+SC087132016,True,p,439,Marco Tebaldi,17.0
+SC087132016,True,p,439,Ivan Rocha,0.0
+SC087132016,True,p,439,Dr. Xuxo,2.0
+SC087132016,True,p,439,Darci de Matos,23.0
+SC087132016,True,p,439,Carlito,6.0
+SC087132016,True,p,439,BASE,602.0
+SC087162016,True,p,440,Nao sabe/ Nao respondeu,9.0
+SC087162016,True,p,440,Branco/ Nulo,10.0
+SC087162016,True,p,440,Murilo Flores,2.0
+SC087162016,True,p,440,Mauricio Leal,1.0
+SC087162016,True,p,440,Gean Loureiro,29.0
+SC087162016,True,p,440,Angela Amin,33.0
+SC087162016,True,p,440,Gabriela Santetti,1.0
+SC087162016,True,p,440,Elson,10.0
+SC087162016,True,p,440,Angela,5.0
+SC087162016,True,p,440,BASE,602.0
+SE002262016,True,p,441,Nao sabe/ Nao respondeu,3.0
+SE002262016,True,p,441,Branco/ Nulo,11.0
+SE002262016,True,p,441,Valadares Filho,44.0
+SE002262016,True,p,441,Edvaldo Nogueira,42.0
+SE002262016,True,p,441,BASE,602.0
+SE012612016,True,p,442,Nao sabe/ Nao respondeu,4.0
+SE012612016,True,p,442,Branco/ Nulo,11.0
+SE012612016,True,p,442,Joao Tarantella,3.0
+SE012612016,True,p,442,Vera Lucia,3.0
+SE012612016,True,p,442,Valadares Filho,26.0
+SE012612016,True,p,442,Sonia Meire,2.0
+SE012612016,True,p,442,Joao Alves,11.0
+SE012612016,True,p,442,Edvaldo Nogueira,36.0
+SE012612016,True,p,442,Dr. Emerson,4.0
+SE012612016,True,p,442,BASE,602.0
+SE016652016,True,p,443,Nao sabe/ Nao respondeu,4.0
+SE016652016,True,p,443,Branco/ Nulo,10.0
+SE016652016,True,p,443,Joao Tarantella,3.0
+SE016652016,True,p,443,Vera Lucia,2.0
+SE016652016,True,p,443,Valadares Filho,27.0
+SE016652016,True,p,443,Sonia Meire,2.0
+SE016652016,True,p,443,Joao Alves,9.0
+SE016652016,True,p,443,Edvaldo Nogueira,39.0
+SE016652016,True,p,443,Dr. Emerson,4.0
+SE016652016,True,p,443,BASE,602.0
+SE056922016,True,p,444,Nao sabe/ Nao respondeu,2.0
+SE056922016,True,p,444,Branco/ Nulo,13.0
+SE056922016,True,p,444,Valadares Filho,44.0
+SE056922016,True,p,444,Edvaldo Nogueira,41.0
+SE056922016,True,p,444,BASE,602.0
+SE095102016,True,p,445,Nao sabe/ Nao respondeu,5.0
+SE095102016,True,p,445,Branco/ Nulo,19.0
+SE095102016,True,p,445,Joao Tarantella,1.0
+SE095102016,True,p,445,Vera Lucia,7.0
+SE095102016,True,p,445,Valadares Filho,15.0
+SE095102016,True,p,445,Sonia Meire,4.0
+SE095102016,True,p,445,Joao Alves,18.0
+SE095102016,True,p,445,Edvaldo Nogueira,28.0
+SE095102016,True,p,445,Dr. Emerson,3.0
+SE095102016,True,p,445,BASE,602.0
+SP000612016,True,p,446,Nao sabe/ Nao respondeu,6.0
+SP000612016,True,p,446,Branco/ Nulo,12.0
+SP000612016,True,p,446,Luis Fernando da Lomy,38.0
+SP000612016,True,p,446,Helio Consolaro,2.0
+SP000612016,True,p,446,Dilador,42.0
+SP000612016,True,p,446,BASE,504.0
+SP001682016,True,p,447,Nao sabe/ Nao respondeu,4.0
+SP001682016,True,p,447,Branco/ Nulo,10.0
+SP001682016,True,p,447,Raul Marcelo,41.0
+SP001682016,True,p,447,Crespo,45.0
+SP001682016,True,p,447,BASE,602.0
+SP008732016,True,p,448,Nao sabe/ Nao respondeu,3.0
+SP008732016,True,p,448,Branco/ Nulo,10.0
+SP008732016,True,p,448,Ricardo Young,0.0
+SP008732016,True,p,448,Marta,16.0
+SP008732016,True,p,448,Major Olimpio,1.0
+SP008732016,True,p,448,Joao Doria,30.0
+SP008732016,True,p,448,Luiza Erundina,5.0
+SP008732016,True,p,448,Levy Fidelix,1.0
+SP008732016,True,p,448,Joao Bico,1.0
+SP008732016,True,p,448,Henrique Areas,0.0
+SP008732016,True,p,448,Fernando Haddad,13.0
+SP008732016,True,p,448,Celso Russomanno,20.0
+SP008732016,True,p,448,Altino,0.0
+SP008732016,True,p,448,BASE,1204.0
+SP009082016,True,p,449,Nao sabe/ Nao respondeu,5.0
+SP009082016,True,p,449,Branco/ Nulo,21.0
+SP009082016,True,p,449,Roberto Tripoli,2.0
+SP009082016,True,p,449,Ricardo Young,0.0
+SP009082016,True,p,449,Pastor Marco Feliciano,4.0
+SP009082016,True,p,449,Marta Suplicy,10.0
+SP009082016,True,p,449,Marlene Campos Machado,0.0
+SP009082016,True,p,449,Major Olimpio,2.0
+SP009082016,True,p,449,Luiza Erundina,8.0
+SP009082016,True,p,449,Levy Fidelix,1.0
+SP009082016,True,p,449,Laercio Benko,1.0
+SP009082016,True,p,449,Joao Doria,6.0
+SP009082016,True,p,449,Fernando Haddad,7.0
+SP009082016,True,p,449,Denise Abreu,0.0
+SP009082016,True,p,449,Delegado Olim,3.0
+SP009082016,True,p,449,Celso Russomanno,26.0
+SP009082016,True,p,449,Andrea Matarazzo,4.0
+SP009082016,True,p,449,BASE,602.0
+SP009082016,True,p,450,Nao sabe/ Nao respondeu,2.0
+SP009082016,True,p,450,Branco/ Nulo,20.0
+SP009082016,True,p,450,Marta Suplicy,13.0
+SP009082016,True,p,450,Luiza Erundina,9.0
+SP009082016,True,p,450,Joao Doria,8.0
+SP009082016,True,p,450,Fernando Haddad,8.0
+SP009082016,True,p,450,Celso Russomanno,34.0
+SP009082016,True,p,450,Andrea Matarazzo,6.0
+SP009082016,True,p,450,BASE,602.0
+SP011332016,True,p,451,Nao sabe/ Nao respondeu,4.0
+SP011332016,True,p,451,Branco/ Nulo,12.0
+SP011332016,True,p,451,Alex da Mata,3.0
+SP011332016,True,p,451,Igor Soares,47.0
+SP011332016,True,p,451,Dra. Ruth,33.0
+SP011332016,True,p,451,Alex Deive,1.0
+SP011332016,True,p,451,BASE,504.0
+SP011392016,True,p,452,Nao sabe/ Nao respondeu,8.0
+SP011392016,True,p,452,Branco/ Nulo,20.0
+SP011392016,True,p,452,Nino Mengatti,3.0
+SP011392016,True,p,452,Joao Farias,7.0
+SP011392016,True,p,452,Edna Martins,15.0
+SP011392016,True,p,452,Edinho Silva,36.0
+SP011392016,True,p,452,Celio Peliciari,2.0
+SP011392016,True,p,452,Aluisio Boi,9.0
+SP011392016,True,p,452,BASE,504.0
+SP013982016,True,p,453,Nao sabe/ Nao respondeu,4.0
+SP013982016,True,p,453,Branco/ Nulo,9.0
+SP013982016,True,p,453,Paulo Schiff,6.0
+SP013982016,True,p,453,Professor Genival Bezerra,1.0
+SP013982016,True,p,453,Marcelo Del Bosco,5.0
+SP013982016,True,p,453,Paulo Alexandre Barbosa,63.0
+SP013982016,True,p,453,Helio Hallite,1.0
+SP013982016,True,p,453,Edgar Boturao,1.0
+SP013982016,True,p,453,Debora Camilo,2.0
+SP013982016,True,p,453,Carina Vitral,8.0
+SP013982016,True,p,453,BASE,805.0
+SP014092016,True,p,454,Nao sabe/ Nao respondeu,8.0
+SP014092016,True,p,454,Branco/ Nulo,16.0
+SP014092016,True,p,454,Raul Marcelo,30.0
+SP014092016,True,p,454,Joao Leandro,5.0
+SP014092016,True,p,454,Helio Godoy,13.0
+SP014092016,True,p,454,Glauber Piva,2.0
+SP014092016,True,p,454,Crespo,26.0
+SP014092016,True,p,454,BASE,602.0
+SP014472016,True,p,455,Nao sabe/ Nao respondeu,5.0
+SP014472016,True,p,455,Branco/ Nulo,16.0
+SP014472016,True,p,455,Paulo Altomani,12.0
+SP014472016,True,p,455,Netto Donato,5.0
+SP014472016,True,p,455,Lineu Navarro,10.0
+SP014472016,True,p,455,Dante Peixoto,3.0
+SP014472016,True,p,455,Bragatto,11.0
+SP014472016,True,p,455,Airton Garcia,38.0
+SP014472016,True,p,455,BASE,504.0
+SP014932016,True,p,456,Nao sabe/ Nao respondeu,3.0
+SP014932016,True,p,456,Branco/ Nulo,13.0
+SP014932016,True,p,456,Ricardo Young,0.0
+SP014932016,True,p,456,Marta,20.0
+SP014932016,True,p,456,Major Olimpio,1.0
+SP014932016,True,p,456,Joao Doria,17.0
+SP014932016,True,p,456,Luiza Erundina,5.0
+SP014932016,True,p,456,Levy Fidelix,1.0
+SP014932016,True,p,456,Joao Bico,1.0
+SP014932016,True,p,456,Henrique Areas,0.0
+SP014932016,True,p,456,Fernando Haddad,9.0
+SP014932016,True,p,456,Celso Russomanno,30.0
+SP014932016,True,p,456,Altino,0.0
+SP014932016,True,p,456,BASE,1001.0
+SP018842016,True,p,457,Nao sabe/ Nao respondeu,5.0
+SP018842016,True,p,457,Branco/ Nulo,19.0
+SP018842016,True,p,457,Wagner Rodrigues,2.0
+SP018842016,True,p,457,Rodrigo Camargo,3.0
+SP018842016,True,p,457,Ricardo Silva,30.0
+SP018842016,True,p,457,Professor Edmur,1.0
+SP018842016,True,p,457,Gandini,9.0
+SP018842016,True,p,457,Fabio Zan,1.0
+SP018842016,True,p,457,Duarte Nogueira,26.0
+SP018842016,True,p,457,Doutor Hermenegildo,2.0
+SP018842016,True,p,457,Alexandre Sousa,2.0
+SP018842016,True,p,457,BASE,756.0
+SP020292016,True,p,458,Nao sabe/ Nao respondeu,3.0
+SP020292016,True,p,458,Branco/ Nulo,6.0
+SP020292016,True,p,458,Toninho Ferreira,2.0
+SP020292016,True,p,458,Shakespeare,14.0
+SP020292016,True,p,458,Luiz Carlos,1.0
+SP020292016,True,p,458,Felicio Ramuth,45.0
+SP020292016,True,p,458,Claude Moura,3.0
+SP020292016,True,p,458,Carlinhos Almeida,26.0
+SP020292016,True,p,458,BASE,602.0
+SP022072016,True,p,459,Nao sabe/ Nao respondeu,9.0
+SP022072016,True,p,459,Branco/ Nulo,19.0
+SP022072016,True,p,459,Wellington Formiga,5.0
+SP022072016,True,p,459,Vanessa Gravino,4.0
+SP022072016,True,p,459,Rogerio Franco,28.0
+SP022072016,True,p,459,Quinzinho Pedroso,27.0
+SP022072016,True,p,459,Moises Cabrera,4.0
+SP022072016,True,p,459,Joao dos Santos,3.0
+SP022072016,True,p,459,Adilson Lima,1.0
+SP022072016,True,p,459,BASE,406.0
+SP022072016,True,p,460,Nao sabe/ Nao respondeu,7.0
+SP022072016,True,p,460,Branco/ Nulo,19.0
+SP022072016,True,p,460,Wellington Formiga,6.0
+SP022072016,True,p,460,Vanessa Gravino,6.0
+SP022072016,True,p,460,Rogerio Franco,31.0
+SP022072016,True,p,460,Quinzinho Pedroso,27.0
+SP022072016,True,p,460,Joao dos Santos,4.0
+SP022072016,True,p,460,BASE,406.0
+SP026052016,True,p,461,Nao sabe/ Nao respondeu,6.0
+SP026052016,True,p,461,Branco/ Nulo,20.0
+SP026052016,True,p,461,Ricardo Silva,32.0
+SP026052016,True,p,461,Duarte Nogueira,42.0
+SP026052016,True,p,461,BASE,700.0
+SP026372016,True,p,462,Nao sabe/ Nao respondeu,3.0
+SP026372016,True,p,462,Branco/ Nulo,10.0
+SP026372016,True,p,462,Raul Marcelo,19.0
+SP026372016,True,p,462,Joao Leandro,9.0
+SP026372016,True,p,462,Helio Godoy,15.0
+SP026372016,True,p,462,Glauber Piva,6.0
+SP026372016,True,p,462,Crespo,38.0
+SP026372016,True,p,462,BASE,602.0
+SP027202016,True,p,463,Nao sabe/ Nao respondeu,5.0
+SP027202016,True,p,463,Branco/ Nulo,13.0
+SP027202016,True,p,463,Paulo Altomani,10.0
+SP027202016,True,p,463,Netto Donato,6.0
+SP027202016,True,p,463,Lineu Navarro,6.0
+SP027202016,True,p,463,Dante Peixoto,2.0
+SP027202016,True,p,463,Bragatto,9.0
+SP027202016,True,p,463,Airton Garcia,49.0
+SP027202016,True,p,463,BASE,504.0
+SP027882016,True,p,464,Nao sabe/ Nao respondeu,5.0
+SP027882016,True,p,464,Branco/ Nulo,16.0
+SP027882016,True,p,464,Nino Mengatti,5.0
+SP027882016,True,p,464,Joao Farias,2.0
+SP027882016,True,p,464,Edna Martins,16.0
+SP027882016,True,p,464,Edinho Silva,46.0
+SP027882016,True,p,464,Celio Peliciari,3.0
+SP027882016,True,p,464,Aluisio Boi,7.0
+SP027882016,True,p,464,BASE,504.0
+SP032562016,True,p,465,Nao sabe/ Nao respondeu,8.0
+SP032562016,True,p,465,Branco/ Nulo,11.0
+SP032562016,True,p,465,Luis Fernando da Lomy,37.0
+SP032562016,True,p,465,Helio Consolaro,3.0
+SP032562016,True,p,465,Dilador,41.0
+SP032562016,True,p,465,BASE,504.0
+SP032972016,True,p,466,Nao sabe/ Nao respondeu,11.0
+SP032972016,True,p,466,Branco/ Nulo,16.0
+SP032972016,True,p,466,Toninho Ferreira,4.0
+SP032972016,True,p,466,Shakespeare,20.0
+SP032972016,True,p,466,Luiz Carlos,3.0
+SP032972016,True,p,466,Felicio Ramuth,16.0
+SP032972016,True,p,466,Claude Moura,4.0
+SP032972016,True,p,466,Carlinhos Almeida,26.0
+SP032972016,True,p,466,BASE,602.0
+SP038362016,True,p,467,Nao sabe/ Nao respondeu,3.0
+SP038362016,True,p,467,Branco/ Nulo,9.0
+SP038362016,True,p,467,Ricardo Young,1.0
+SP038362016,True,p,467,Marta,16.0
+SP038362016,True,p,467,Major Olimpio,1.0
+SP038362016,True,p,467,Joao Doria,28.0
+SP038362016,True,p,467,Luiza Erundina,5.0
+SP038362016,True,p,467,Levy Fidelix,1.0
+SP038362016,True,p,467,Joao Bico,1.0
+SP038362016,True,p,467,Henrique Areas,0.0
+SP038362016,True,p,467,Fernando Haddad,13.0
+SP038362016,True,p,467,Celso Russomanno,22.0
+SP038362016,True,p,467,Altino,0.0
+SP038362016,True,p,467,BASE,1204.0
+SP039622016,True,p,468,Nao sabe/ Nao respondeu,3.0
+SP039622016,True,p,468,Branco/ Nulo,10.0
+SP039622016,True,p,468,Paulo Schiff,3.0
+SP039622016,True,p,468,Professor Genival Bezerra,1.0
+SP039622016,True,p,468,Marcelo Del Bosco,4.0
+SP039622016,True,p,468,Paulo Alexandre Barbosa,66.0
+SP039622016,True,p,468,Helio Hallite,1.0
+SP039622016,True,p,468,Edgar Boturao,2.0
+SP039622016,True,p,468,Debora Camilo,2.0
+SP039622016,True,p,468,Carina Vitral,8.0
+SP039622016,True,p,468,BASE,805.0
+SP040502016,True,p,469,Nao sabe/ Nao respondeu,10.0
+SP040502016,True,p,469,Branco/ Nulo,15.0
+SP040502016,True,p,469,Saulo Goes,4.0
+SP040502016,True,p,469,Rubens Furlan,52.0
+SP040502016,True,p,469,Jaques Munhoz,4.0
+SP040502016,True,p,469,Gil Lancaster,7.0
+SP040502016,True,p,469,Dr. Antonio,4.0
+SP040502016,True,p,469,Carlinhos do Acougue,3.0
+SP040502016,True,p,469,Baltasar Rosa,1.0
+SP040502016,True,p,469,BASE,406.0
+SP040502016,True,p,470,Nao sabe/ Nao respondeu,8.0
+SP040502016,True,p,470,Branco/ Nulo,16.0
+SP040502016,True,p,470,Saulo Goes,4.0
+SP040502016,True,p,470,Rubens Furlan,54.0
+SP040502016,True,p,470,Jaques Munhoz,4.0
+SP040502016,True,p,470,Gil Lancaster,8.0
+SP040502016,True,p,470,Dr. Antonio,5.0
+SP040502016,True,p,470,Baltasar Rosa,1.0
+SP040502016,True,p,470,BASE,406.0
+SP040502016,True,p,471,Nao sabe/ Nao respondeu,9.0
+SP040502016,True,p,471,Branco/ Nulo,16.0
+SP040502016,True,p,471,Saulo Goes,4.0
+SP040502016,True,p,471,Rubens Furlan,55.0
+SP040502016,True,p,471,Jaques Munhoz,4.0
+SP040502016,True,p,471,Dr. Antonio,7.0
+SP040502016,True,p,471,Carlinhos do Acougue,4.0
+SP040502016,True,p,471,Baltasar Rosa,1.0
+SP040502016,True,p,471,BASE,406.0
+SP040502016,True,p,472,Nao sabe/ Nao respondeu,10.0
+SP040502016,True,p,472,Branco/ Nulo,22.0
+SP040502016,True,p,472,Saulo Goes,5.0
+SP040502016,True,p,472,Jaques Munhoz,6.0
+SP040502016,True,p,472,Gil Lancaster,9.0
+SP040502016,True,p,472,Dr. Antonio,9.0
+SP040502016,True,p,472,Bruna Furlan,38.0
+SP040502016,True,p,472,Baltasar Rosa,1.0
+SP040502016,True,p,472,BASE,406.0
+SP040502016,True,p,473,Nao sabe/ Nao respondeu,11.0
+SP040502016,True,p,473,Branco/ Nulo,24.0
+SP040502016,True,p,473,Sonia Furlan,29.0
+SP040502016,True,p,473,Saulo Goes,6.0
+SP040502016,True,p,473,Jaques Munhoz,7.0
+SP040502016,True,p,473,Gil Lancaster,11.0
+SP040502016,True,p,473,Dr. Antonio,11.0
+SP040502016,True,p,473,Baltasar Rosa,1.0
+SP040502016,True,p,473,BASE,406.0
+SP042812016,True,p,474,Nao sabe/ Nao respondeu,4.0
+SP042812016,True,p,474,Branco/ Nulo,10.0
+SP042812016,True,p,474,Ricardo Young,0.0
+SP042812016,True,p,474,Marta,15.0
+SP042812016,True,p,474,Major Olimpio,1.0
+SP042812016,True,p,474,Joao Doria,28.0
+SP042812016,True,p,474,Luiza Erundina,4.0
+SP042812016,True,p,474,Levy Fidelix,1.0
+SP042812016,True,p,474,Joao Bico,1.0
+SP042812016,True,p,474,Henrique Areas,0.0
+SP042812016,True,p,474,Fernando Haddad,12.0
+SP042812016,True,p,474,Celso Russomanno,24.0
+SP042812016,True,p,474,BASE,1204.0
+SP042962016,True,p,475,Nao sabe/ Nao respondeu,4.0
+SP042962016,True,p,475,Branco/ Nulo,13.0
+SP042962016,True,p,475,Rogerio Lins,50.0
+SP042962016,True,p,475,Lapas,33.0
+SP042962016,True,p,475,BASE,602.0
+SP043182016,True,p,476,Nao sabe/ Nao respondeu,7.0
+SP043182016,True,p,476,Branco/ Nulo,23.0
+SP043182016,True,p,476,Wagner Rodrigues,0.0
+SP043182016,True,p,476,Rodrigo Camargo,1.0
+SP043182016,True,p,476,Ricardo Silva,32.0
+SP043182016,True,p,476,Joao Gilberto Sampaio,4.0
+SP043182016,True,p,476,Joao Gandini,5.0
+SP043182016,True,p,476,Dr. Hermenegildo,2.0
+SP043182016,True,p,476,Fernando Chiarelli,6.0
+SP043182016,True,p,476,Fabio Zan,0.0
+SP043182016,True,p,476,Duarte Nogueira,20.0
+SP043182016,True,p,476,BASE,406.0
+SP043182016,True,p,477,Nao sabe/ Nao respondeu,5.0
+SP043182016,True,p,477,Branco/ Nulo,25.0
+SP043182016,True,p,477,Wagner Rodrigues,2.0
+SP043182016,True,p,477,Rodrigo Camargo,2.0
+SP043182016,True,p,477,Ricardo Silva,35.0
+SP043182016,True,p,477,Joao Gandini,6.0
+SP043182016,True,p,477,Dr. Hermenegildo,2.0
+SP043182016,True,p,477,Fabio Zan,1.0
+SP043182016,True,p,477,Duarte Nogueira,22.0
+SP043182016,True,p,477,BASE,406.0
+SP044722016,True,p,478,Nao sabe/ Nao respondeu,7.0
+SP044722016,True,p,478,Branco/ Nulo,19.0
+SP044722016,True,p,478,Wagner Freitas,3.0
+SP044722016,True,p,478,Nefi Antonio Castro Tales,0.0
+SP044722016,True,p,478,Martello,6.0
+SP044722016,True,p,478,Jorge Wilson Xerife Consumidor,9.0
+SP044722016,True,p,478,Guti,11.0
+SP044722016,True,p,478,Eloi Pieta,19.0
+SP044722016,True,p,478,Eli Correa Filho,20.0
+SP044722016,True,p,478,Carlos Roberto,6.0
+SP044722016,True,p,478,Albertao,0.0
+SP044722016,True,p,478,BASE,504.0
+SP048642016,True,p,479,Nao sabe/ Nao respondeu,5.0
+SP048642016,True,p,479,Branco/ Nulo,21.0
+SP048642016,True,p,479,Ricardo Silva,36.0
+SP048642016,True,p,479,Duarte Nogueira,38.0
+SP048642016,True,p,479,BASE,805.0
+SP050682016,True,p,480,Nao sabe/ Nao respondeu,4.0
+SP050682016,True,p,480,Branco/ Nulo,11.0
+SP050682016,True,p,480,Marcos Margarido,0.0
+SP050682016,True,p,480,Surya Guimaraens,1.0
+SP050682016,True,p,480,Marcio Pochmann,13.0
+SP050682016,True,p,480,Marcela Moreira,3.0
+SP050682016,True,p,480,Jonas Donizette,49.0
+SP050682016,True,p,480,Jaco Ramos,0.0
+SP050682016,True,p,480,Edson Dorta,0.0
+SP050682016,True,p,480,Dr. Helio,8.0
+SP050682016,True,p,480,Artur Orsi,11.0
+SP050682016,True,p,480,BASE,756.0
+SP053932016,True,p,481,Nao sabe/ Nao respondeu,7.0
+SP053932016,True,p,481,Branco/ Nulo,10.0
+SP053932016,True,p,481,Vadinho,2.0
+SP053932016,True,p,481,Sara Jane,0.0
+SP053932016,True,p,481,Paulo Pinheiro,24.0
+SP053932016,True,p,481,Marcio Della Bella,1.0
+SP053932016,True,p,481,Lucia Dal Mas,2.0
+SP053932016,True,p,481,Gilberto Costa,9.0
+SP053932016,True,p,481,Fabio Palacio,14.0
+SP053932016,True,p,481,Auricchio,31.0
+SP053932016,True,p,481,BASE,602.0
+SP054322016,True,p,482,Nao sabe/ Nao respondeu,10.0
+SP054322016,True,p,482,Branco/ Nulo,18.0
+SP054322016,True,p,482,Wagner Rodrigues,1.0
+SP054322016,True,p,482,Rodrigo Camargo,1.0
+SP054322016,True,p,482,Ricardo Silva,39.0
+SP054322016,True,p,482,Professor Edmur,2.0
+SP054322016,True,p,482,Gandini,6.0
+SP054322016,True,p,482,Fabio Zan,1.0
+SP054322016,True,p,482,Duarte Nogueira,19.0
+SP054322016,True,p,482,Doutor Hermenegildo,2.0
+SP054322016,True,p,482,Alexandre Sousa,1.0
+SP054322016,True,p,482,BASE,602.0
+SP059232016,True,p,483,Nao sabe/ Nao respondeu,4.0
+SP059232016,True,p,483,Branco/ Nulo,8.0
+SP059232016,True,p,483,Dr Carlos Fernando,2.0
+SP059232016,True,p,483,Professor Alex da Mata,2.0
+SP059232016,True,p,483,Igor Soares,54.0
+SP059232016,True,p,483,Dra Ruth,30.0
+SP059232016,True,p,483,BASE,504.0
+SP061552016,True,p,484,Nao sabe/ Nao respondeu,10.0
+SP061552016,True,p,484,Branco/ Nulo,18.0
+SP061552016,True,p,484,Paulo Schiff,3.0
+SP061552016,True,p,484,Professor Genival Bezerra,1.0
+SP061552016,True,p,484,Marcelo Del Bosco,8.0
+SP061552016,True,p,484,Paulo Alexandre Barbosa,52.0
+SP061552016,True,p,484,Helio Hallite,1.0
+SP061552016,True,p,484,Edgar Boturao,2.0
+SP061552016,True,p,484,Debora Camilo,2.0
+SP061552016,True,p,484,Carina Vitral,3.0
+SP061552016,True,p,484,BASE,805.0
+SP063502016,True,p,485,Nao sabe/ Nao respondeu,8.0
+SP063502016,True,p,485,Branco/ Nulo,27.0
+SP063502016,True,p,485,William Dib,6.0
+SP063502016,True,p,485,Tarcisio Secoli,5.0
+SP063502016,True,p,485,Professor Aldo Santos,3.0
+SP063502016,True,p,485,Mauricio Soares,7.0
+SP063502016,True,p,485,Marcelo Lima,6.0
+SP063502016,True,p,485,Evandro de Lima,1.0
+SP063502016,True,p,485,Alex Manente,37.0
+SP063502016,True,p,485,BASE,504.0
+SP063502016,True,p,486,Nao sabe/ Nao respondeu,7.0
+SP063502016,True,p,486,Branco/ Nulo,22.0
+SP063502016,True,p,486,Tarcisio Secoli,5.0
+SP063502016,True,p,486,Professor Aldo Santos,3.0
+SP063502016,True,p,486,Orlando Morando,25.0
+SP063502016,True,p,486,Mauricio Soares,6.0
+SP063502016,True,p,486,Marcelo Lima,4.0
+SP063502016,True,p,486,Evandro de Lima,0.0
+SP063502016,True,p,486,Alex Manente,28.0
+SP063502016,True,p,486,BASE,504.0
+SP063502016,True,p,487,Nao sabe/ Nao respondeu,6.0
+SP063502016,True,p,487,Branco/ Nulo,23.0
+SP063502016,True,p,487,Tarcisio Secoli,8.0
+SP063502016,True,p,487,Orlando Morando,30.0
+SP063502016,True,p,487,Alex Manente,33.0
+SP063502016,True,p,487,BASE,504.0
+SP066552016,True,p,488,Nao sabe/ Nao respondeu,8.0
+SP066552016,True,p,488,Branco/ Nulo,25.0
+SP066552016,True,p,488,Wagner Freitas,2.0
+SP066552016,True,p,488,Martello,4.0
+SP066552016,True,p,488,Jorge Wilson,8.0
+SP066552016,True,p,488,Guti,13.0
+SP066552016,True,p,488,Eloi Pieta,16.0
+SP066552016,True,p,488,Eli Correa Filho,17.0
+SP066552016,True,p,488,Carlos Roberto,7.0
+SP066552016,True,p,488,BASE,812.0
+SP068152016,True,p,489,Nao sabe/ Nao respondeu,5.0
+SP068152016,True,p,489,Branco/ Nulo,13.0
+SP068152016,True,p,489,Paulo Altomani,9.0
+SP068152016,True,p,489,Netto Donato,11.0
+SP068152016,True,p,489,Lineu Navarro,5.0
+SP068152016,True,p,489,Dante Peixoto,4.0
+SP068152016,True,p,489,Bragatto,13.0
+SP068152016,True,p,489,Airton Garcia,40.0
+SP068152016,True,p,489,BASE,504.0
+SP070582016,True,p,490,Nao sabe/ Nao respondeu,4.0
+SP070582016,True,p,490,Branco/ Nulo,18.0
+SP070582016,True,p,490,Joao Bico,1.0
+SP070582016,True,p,490,Roberto Tripoli,1.0
+SP070582016,True,p,490,Pastor Marco Feliciano,3.0
+SP070582016,True,p,490,Marta Suplicy,10.0
+SP070582016,True,p,490,Marlene Campos Machado,1.0
+SP070582016,True,p,490,Major Olimpio,1.0
+SP070582016,True,p,490,Luiza Erundina,8.0
+SP070582016,True,p,490,Levy Fidelix,2.0
+SP070582016,True,p,490,Laercio Benko,1.0
+SP070582016,True,p,490,Joao Doria,7.0
+SP070582016,True,p,490,Fernando Haddad,7.0
+SP070582016,True,p,490,Denise Abreu,0.0
+SP070582016,True,p,490,Delegado Olim,2.0
+SP070582016,True,p,490,Celso Russomanno,29.0
+SP070582016,True,p,490,Andrea Matarazzo,5.0
+SP070582016,True,p,490,BASE,602.0
+SP070582016,True,p,491,Nao sabe/ Nao respondeu,4.0
+SP070582016,True,p,491,Branco/ Nulo,21.0
+SP070582016,True,p,491,Joao Bico,1.0
+SP070582016,True,p,491,Roberto Tripoli,3.0
+SP070582016,True,p,491,Ricardo Young,0.0
+SP070582016,True,p,491,Pastor Marco Feliciano,5.0
+SP070582016,True,p,491,Marta Suplicy,18.0
+SP070582016,True,p,491,Marlene Campos Machado,1.0
+SP070582016,True,p,491,Major Olimpio,2.0
+SP070582016,True,p,491,Luiza Erundina,12.0
+SP070582016,True,p,491,Levy Fidelix,3.0
+SP070582016,True,p,491,Laercio Benko,1.0
+SP070582016,True,p,491,Joao Doria,8.0
+SP070582016,True,p,491,Fernando Haddad,9.0
+SP070582016,True,p,491,Denise Abreu,1.0
+SP070582016,True,p,491,Delegado Olim,5.0
+SP070582016,True,p,491,Andrea Matarazzo,6.0
+SP070582016,True,p,491,BASE,602.0
+SP070582016,True,p,492,Nao sabe/ Nao respondeu,1.0
+SP070582016,True,p,492,Branco/ Nulo,17.0
+SP070582016,True,p,492,Pastor Marco Feliciano,4.0
+SP070582016,True,p,492,Marta Suplicy,13.0
+SP070582016,True,p,492,Luiza Erundina,11.0
+SP070582016,True,p,492,Joao Doria,8.0
+SP070582016,True,p,492,Fernando Haddad,9.0
+SP070582016,True,p,492,Celso Russomanno,30.0
+SP070582016,True,p,492,Andrea Matarazzo,7.0
+SP070582016,True,p,492,BASE,602.0
+SP070712016,True,p,493,Nao sabe/ Nao respondeu,4.0
+SP070712016,True,p,493,Branco/ Nulo,14.0
+SP070712016,True,p,493,Ricardo Silva,39.0
+SP070712016,True,p,493,Duarte Nogueira,43.0
+SP070712016,True,p,493,BASE,700.0
+SP070722016,True,p,494,Nao sabe/ Nao respondeu,4.0
+SP070722016,True,p,494,Branco/ Nulo,13.0
+SP070722016,True,p,494,Ricardo Young,1.0
+SP070722016,True,p,494,Marta,17.0
+SP070722016,True,p,494,Major Olimpio,2.0
+SP070722016,True,p,494,Joao Doria,9.0
+SP070722016,True,p,494,Luiza Erundina,9.0
+SP070722016,True,p,494,Levy Fidelix,1.0
+SP070722016,True,p,494,Joao Bico,1.0
+SP070722016,True,p,494,Henrique Areas,0.0
+SP070722016,True,p,494,Fernando Haddad,9.0
+SP070722016,True,p,494,Celso Russomanno,33.0
+SP070722016,True,p,494,Altino,1.0
+SP070722016,True,p,494,BASE,805.0
+SP071562016,True,p,495,Nao sabe/ Nao respondeu,7.0
+SP071562016,True,p,495,Branco/ Nulo,11.0
+SP071562016,True,p,495,Vadinho,2.0
+SP071562016,True,p,495,Sara Jane,1.0
+SP071562016,True,p,495,Paulo Pinheiro,24.0
+SP071562016,True,p,495,Marcio Della Bella,1.0
+SP071562016,True,p,495,Lucia Dal Mas,4.0
+SP071562016,True,p,495,Gilberto Costa,7.0
+SP071562016,True,p,495,Fabio Palacio,17.0
+SP071562016,True,p,495,Auricchio,26.0
+SP071562016,True,p,495,BASE,602.0
+SP072342016,True,p,496,Nao sabe/ Nao respondeu,3.0
+SP072342016,True,p,496,Branco/ Nulo,12.0
+SP072342016,True,p,496,Raul Marcelo,23.0
+SP072342016,True,p,496,Joao Leandro,9.0
+SP072342016,True,p,496,Helio Godoy,10.0
+SP072342016,True,p,496,Glauber Piva,3.0
+SP072342016,True,p,496,Crespo,40.0
+SP072342016,True,p,496,BASE,602.0
+SP073812016,True,p,497,Nao sabe/ Nao respondeu,3.0
+SP073812016,True,p,497,Branco/ Nulo,16.0
+SP073812016,True,p,497,Vaguinho,30.0
+SP073812016,True,p,497,Lauro Michels,51.0
+SP073812016,True,p,497,BASE,602.0
+SP079552016,True,p,498,Nao sabe/ Nao respondeu,4.0
+SP079552016,True,p,498,Branco/ Nulo,14.0
+SP079552016,True,p,498,Marcos Margarido,1.0
+SP079552016,True,p,498,Surya Guimaraens,1.0
+SP079552016,True,p,498,Marcio Pochmann,10.0
+SP079552016,True,p,498,Marcela Moreira,4.0
+SP079552016,True,p,498,Jonas Donizette,49.0
+SP079552016,True,p,498,Jaco Ramos,0.0
+SP079552016,True,p,498,Edson Dorta,0.0
+SP079552016,True,p,498,Dr. Helio,12.0
+SP079552016,True,p,498,Artur Orsi,5.0
+SP079552016,True,p,498,BASE,756.0
+SP083742016,True,p,499,Nao sabe/ Nao respondeu,7.0
+SP083742016,True,p,499,Branco/ Nulo,18.0
+SP083742016,True,p,499,Wagner Rodrigues,1.0
+SP083742016,True,p,499,Rodrigo Camargo,2.0
+SP083742016,True,p,499,Ricardo Silva,33.0
+SP083742016,True,p,499,Professor Edmur,1.0
+SP083742016,True,p,499,Gandini,7.0
+SP083742016,True,p,499,Fabio Zan,1.0
+SP083742016,True,p,499,Duarte Nogueira,26.0
+SP083742016,True,p,499,Doutor Hermenegildo,2.0
+SP083742016,True,p,499,Alexandre Sousa,2.0
+SP083742016,True,p,499,BASE,756.0
+SP084912016,True,p,500,Nao sabe/ Nao respondeu,4.0
+SP084912016,True,p,500,Branco/ Nulo,10.0
+SP084912016,True,p,500,Raul Marcelo,38.0
+SP084912016,True,p,500,Crespo,48.0
+SP084912016,True,p,500,BASE,602.0
+SP085242016,True,p,501,Nao sabe/ Nao respondeu,7.0
+SP085242016,True,p,501,Branco/ Nulo,23.0
+SP085242016,True,p,501,Marcos Margarido,0.0
+SP085242016,True,p,501,Surya Guimaraens,0.0
+SP085242016,True,p,501,Marcio Pochmann,5.0
+SP085242016,True,p,501,Marcela Moreira,4.0
+SP085242016,True,p,501,Jonas Donizette,40.0
+SP085242016,True,p,501,Jaco Ramos,1.0
+SP085242016,True,p,501,Edson Dorta,0.0
+SP085242016,True,p,501,Dr. Helio,12.0
+SP085242016,True,p,501,Artur Orsi,8.0
+SP085242016,True,p,501,BASE,602.0
+SP091762016,True,p,502,Nao sabe/ Nao respondeu,5.0
+SP091762016,True,p,502,Branco/ Nulo,10.0
+SP091762016,True,p,502,Toninho Ferreira,1.0
+SP091762016,True,p,502,Shakespeare,21.0
+SP091762016,True,p,502,Luiz Carlos,1.0
+SP091762016,True,p,502,Felicio Ramuth,35.0
+SP091762016,True,p,502,Claude Moura,4.0
+SP091762016,True,p,502,Carlinhos Almeida,23.0
+SP091762016,True,p,502,BASE,602.0
+TO003322016,True,p,503,Nao sabe/ Nao respondeu,8.0
+TO003322016,True,p,503,Branco/ Nulo,15.0
+TO003322016,True,p,503,Ze Roberto,2.0
+TO003322016,True,p,503,Sargento Aragao,8.0
+TO003322016,True,p,503,Raul Filho,27.0
+TO003322016,True,p,503,Claudia Lelis,10.0
+TO003322016,True,p,503,Cassius Assuncao,2.0
+TO003322016,True,p,503,Carlos Amastha,28.0
+TO003322016,True,p,503,BASE,602.0
+TO063412016,True,p,504,Nao sabe/ Nao respondeu,9.0
+TO063412016,True,p,504,Branco/ Nulo,8.0
+TO063412016,True,p,504,Ze Roberto,2.0
+TO063412016,True,p,504,Sargento Aragao,4.0
+TO063412016,True,p,504,Raul Filho,21.0
+TO063412016,True,p,504,Claudia Lelis,15.0
+TO063412016,True,p,504,Cassius Assuncao,0.0
+TO063412016,True,p,504,Carlos Amastha,41.0
+TO063412016,True,p,504,BASE,602.0

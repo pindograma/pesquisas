@@ -1,0 +1,141 @@
+tse_id,estimulada,position,scenario,candidate,value
+MG003052012,False,p,0,BASE,504.0
+MG003052012,False,p,0,Douglas Vasconcelos Bernardes,1.0
+MG003052012,False,p,0,Eneas Chiarini,16.0
+MG003052012,False,p,0,Perugini,37.0
+MG003052012,False,p,0,Citou outro nome,0.0
+MG003052012,False,p,0,Branco/ Nulo,9.0
+MG003052012,False,p,0,Nao sabe/ Nao respondeu,37.0
+MG012492012,False,p,1,BASE,406.0
+MG012492012,False,p,1,Lerin,39.0
+MG012492012,False,p,1,Paulo Piau,43.0
+MG012492012,False,p,1,Branco/ Nulo,7.0
+MG012492012,False,p,1,Nao sabe/ Nao respondeu,12.0
+PI003642012,False,p,2,BASE,602.0
+PI003642012,False,p,2,Beto,8.0
+PI003642012,False,p,2,Daniel Solon,1.0
+PI003642012,False,p,2,Elmano Ferrer,27.0
+PI003642012,False,p,2,Firmino Filho,30.0
+PI003642012,False,p,2,Wellington Dias,14.0
+PI003642012,False,p,2,Vasconcelo Pinheiro,1.0
+PI003642012,False,p,2,Branco/ Nulo,6.0
+PI003642012,False,p,2,Nao sabe/ Nao respondeu,14.0
+SC007102012,False,p,3,BASE,602.0
+SC007102012,False,p,3,Kennedy,50.0
+SC007102012,False,p,3,Udo Dohler,29.0
+SC007102012,False,p,3,Branco/ Nulo,7.0
+SC007102012,False,p,3,Nao sabe/ Nao respondeu,14.0
+SE000382012,False,p,4,BASE,602.0
+SE000382012,False,p,4,Almeida Lima,2.0
+SE000382012,False,p,4,Joao Alves,46.0
+SE000382012,False,p,4,Reynaldo Nunes,1.0
+SE000382012,False,p,4,Valadares Filho,16.0
+SE000382012,False,p,4,Vera Lucia,6.0
+SE000382012,False,p,4,Citou outro nome,0.0
+SE000382012,False,p,4,Branco/ Nulo,12.0
+SE000382012,False,p,4,Nao sabe/ Nao respondeu,18.0
+SP003092012,False,p,5,BASE,602.0
+SP003092012,False,p,5,Alexandre Blanco,8.0
+SP003092012,False,p,5,Antonio Alwan,0.0
+SP003092012,False,p,5,Carlinhos Almeida,29.0
+SP003092012,False,p,5,Cristiano,2.0
+SP003092012,False,p,5,Fabricio Correia,0.0
+SP003092012,False,p,5,Gradella,0.0
+SP003092012,False,p,5,Citou outro nome,2.0
+SP003092012,False,p,5,Branco/ Nulo,11.0
+SP003092012,False,p,5,Nao sabe/ Nao respondeu,48.0
+SP003182012,False,p,6,BASE,602.0
+SP003182012,False,p,6,Aquino,3.0
+SP003182012,False,p,6,Beto Mansur,10.0
+SP003182012,False,p,6,Eneida Koury,0.0
+SP003182012,False,p,6,Paulo Alexandre Barbosa,33.0
+SP003182012,False,p,6,Prof. Fabiao,2.0
+SP003182012,False,p,6,Telma de Souza,12.0
+SP003182012,False,p,6,Branco/ Nulo,11.0
+SP003182012,False,p,6,Nao sabe/ Nao respondeu,28.0
+SP006012012,False,p,7,BASE,504.0
+SP006012012,False,p,7,Eduardo Cotrim,2.0
+SP006012012,False,p,7,Flavio Lazzarotto,1.0
+SP006012012,False,p,7,Paulo Altomani,24.0
+SP006012012,False,p,7,Oswaldo Barba,22.0
+SP006012012,False,p,7,Sacomano,1.0
+SP006012012,False,p,7,Branco/ Nulo,11.0
+SP006012012,False,p,7,Nao sabe/ Nao respondeu,39.0
+SP018642012,False,p,8,BASE,1204.0
+SP018642012,False,p,8,Fernando Haddad,47.0
+SP018642012,False,p,8,Jose Serra,32.0
+SP018642012,False,p,8,Citou outro nome,0.0
+SP018642012,False,p,8,Branco/ Nulo,13.0
+SP018642012,False,p,8,Nao sabe/ Nao respondeu,8.0
+MG003052012,True,p,9,BASE,504.0
+MG003052012,True,p,9,Douglas Vasconcelos Bernardes,3.0
+MG003052012,True,p,9,Eneas Chiarini,26.0
+MG003052012,True,p,9,Perugini,46.0
+MG003052012,True,p,9,Branco/ Nulo,9.0
+MG003052012,True,p,9,Nao sabe/ Nao respondeu,16.0
+MG012492012,True,p,10,BASE,406.0
+MG012492012,True,p,10,Lerin,41.0
+MG012492012,True,p,10,Paulo Piau,46.0
+MG012492012,True,p,10,Branco/ Nulo,7.0
+MG012492012,True,p,10,Nao sabe/ Nao respondeu,6.0
+PI003642012,True,p,11,BASE,602.0
+PI003642012,True,p,11,Beto,9.0
+PI003642012,True,p,11,Daniel Solon,1.0
+PI003642012,True,p,11,Elmano Ferrer,27.0
+PI003642012,True,p,11,Firmino Filho,32.0
+PI003642012,True,p,11,Wellington Dias,14.0
+PI003642012,True,p,11,Maklandel,0.0
+PI003642012,True,p,11,Vasconcelo Pinheiro,1.0
+PI003642012,True,p,11,Branco/ Nulo,6.0
+PI003642012,True,p,11,Nao sabe/ Nao respondeu,10.0
+SC007102012,True,p,12,BASE,602.0
+SC007102012,True,p,12,Kennedy,56.0
+SC007102012,True,p,12,Udo Dohler,32.0
+SC007102012,True,p,12,Branco/ Nulo,6.0
+SC007102012,True,p,12,Nao sabe/ Nao respondeu,6.0
+SE000382012,True,p,13,BASE,602.0
+SE000382012,True,p,13,Almeida Lima,3.0
+SE000382012,True,p,13,Joao Alves,51.0
+SE000382012,True,p,13,Reynaldo Nunes,1.0
+SE000382012,True,p,13,Valadares Filho,20.0
+SE000382012,True,p,13,Vera Lucia,7.0
+SE000382012,True,p,13,Branco/ Nulo,11.0
+SE000382012,True,p,13,Nao sabe/ Nao respondeu,7.0
+SP003092012,True,p,14,BASE,602.0
+SP003092012,True,p,14,Alexandre Blanco,15.0
+SP003092012,True,p,14,Antonio Alwan,1.0
+SP003092012,True,p,14,Carlinhos Almeida,50.0
+SP003092012,True,p,14,Cristiano,4.0
+SP003092012,True,p,14,Fabricio Correia,1.0
+SP003092012,True,p,14,Gradella,0.0
+SP003092012,True,p,14,Gilberto Silverio,0.0
+SP003092012,True,p,14,Nenhum/ Branco/ Nulo,12.0
+SP003092012,True,p,14,Nao sabe/ Nao respondeu,17.0
+SP003182012,True,p,15,BASE,602.0
+SP003182012,True,p,15,Aquino,4.0
+SP003182012,True,p,15,Beto Mansur,13.0
+SP003182012,True,p,15,Eneida Koury,1.0
+SP003182012,True,p,15,Jama,0.0
+SP003182012,True,p,15,Paulo Alexandre Barbosa,41.0
+SP003182012,True,p,15,Prof. Fabiao,3.0
+SP003182012,True,p,15,Telma de Souza,17.0
+SP003182012,True,p,15,Branco/ Nulo,12.0
+SP003182012,True,p,15,Nao sabe/ Nao respondeu,9.0
+SP006012012,True,p,16,BASE,504.0
+SP006012012,True,p,16,Eduardo Cotrim,2.0
+SP006012012,True,p,16,Flavio Lazzarotto,1.0
+SP006012012,True,p,16,Paulo Altomani,25.0
+SP006012012,True,p,16,Professor Ronaldo Mota,0.0
+SP006012012,True,p,16,Oswaldo Barba,23.0
+SP006012012,True,p,16,Sacomano,1.0
+SP006012012,True,p,16,Branco/ Nulo,8.0
+SP006012012,True,p,16,Nao sabe/ Nao respondeu,39.0
+SP018642012,True,p,17,BASE,1204.0
+SP018642012,True,p,17,Fernando Haddad,49.0
+SP018642012,True,p,17,Jose Serra,33.0
+SP018642012,True,p,17,Branco/ Nulo,13.0
+SP018642012,True,p,17,Nao sabe/ Nao respondeu,5.0
+SP018642012,True,p,18,Fernando Haddad,49.0
+SP018642012,True,p,18,Jose Serra,33.0
+SP018642012,True,p,18,Branco/ Nulo,13.0
+SP018642012,True,p,18,Nao sabe/ Nao respondeu,5.0

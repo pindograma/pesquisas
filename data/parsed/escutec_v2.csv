@@ -1,0 +1,2434 @@
+tse_id,estimulada,position,scenario,candidate,value
+MA056232016,False,p,0,França do Macaquinho,22.6
+MA056232016,False,p,0,Airton de Newton,11.4
+MA056232016,False,p,0,Leonardo,1.0
+MA056232016,False,p,0,Otávio Rodrigues,0.7
+MA056232016,False,p,0,Drª. Simone,0.5
+MA056232016,False,p,0,Flávio do Posto,0.5
+MA056232016,False,p,0,Ninguém,0.7
+MA056232016,False,p,0,NS/NR,62.5
+MA056232016,True,p,1,França do Macaquinho,41.4
+MA056232016,True,p,1,Airton de Newton,18.6
+MA056232016,True,p,1,Flávio do Posto,3.2
+MA056232016,True,p,1,Nenhum deles,13.6
+MA056232016,True,p,1,NS/NR,23.1
+MA056232016,True,p,2,França do Macaquinho,43.2
+MA056232016,True,p,2,Airton de Newton,19.1
+MA056232016,True,p,2,Nenhum deles,14.4
+MA056232016,True,p,2,NS/NR,23.3
+MA021482016,False,p,3,Rodrigo Oliveira,63.6
+MA021482016,False,p,3,Glauber Azevedo,23.5
+MA021482016,False,p,3,Ninguém,0.3
+MA021482016,False,p,3,NS/NR,12.6
+MA021482016,True,p,4,Rodrigo Oliveira,64.6
+MA021482016,True,p,4,Glauber Azevedo,23.8
+MA021482016,True,p,4,Nenhum deles,1.3
+MA021482016,True,p,4,NS/NR,10.3
+MA001712012,False,p,5,Chico Nunes,46.8
+MA001712012,False,p,5,Pastor Wilson,25.9
+MA001712012,False,p,5,Josélio do Rádio,13.6
+MA001712012,False,p,5,NS/NR,11.6
+MA001712012,True,p,6,Chico Nunes,48.8
+MA001712012,True,p,6,Pastor Wilson,26.6
+MA001712012,True,p,6,Josélio do Rádio,14.6
+MA001712012,True,p,6,NS/NR,7.6
+MA084052016,False,p,7,Luizinho Barros,51.8
+MA084052016,False,p,7,Dino Penha,13.5
+MA084052016,False,p,7,Carrinho,13.5
+MA084052016,False,p,7,Ninguém,1.8
+MA084052016,False,p,7,NS/NR,19.5
+MA084052016,True,p,8,Luizinho Barros,54.5
+MA084052016,True,p,8,Dino Penha,16.5
+MA084052016,True,p,8,Carrinho,14.8
+MA084052016,True,p,8,Raimundo Borges,1.0
+MA084052016,True,p,8,Nenhum deles,2.3
+MA084052016,True,p,8,NS/NR,11.0
+MA0079916,False,p,9,Francisco Nagib,27.3
+MA0079916,False,p,9,Biné Figueiredo,16.4
+MA0079916,False,p,9,Pedro Belo,7.2
+MA0079916,False,p,9,Camilo Figueiredo,3.0
+MA0079916,False,p,9,Chiquinho do SAAE,3.0
+MA0079916,False,p,9,João dos Plásticos,1.0
+MA0079916,False,p,9,Ricardinho Archer,0.5
+MA0079916,False,p,9,Ninguém,3.2
+MA0079916,False,p,9,NS/NR,38.5
+MA0079916,True,p,10,Francisco Nagib,37.7
+MA0079916,True,p,10,Biné Figueiredo,25.6
+MA0079916,True,p,10,Pedro Belo,14.1
+MA0079916,True,p,10,Chiquinho do SAAE,9.9
+MA0079916,True,p,10,Dr. Mendes,2.0
+MA0079916,True,p,10,João dos Plásticos,1.2
+MA0079916,True,p,10,Nenhum deles,2.2
+MA0079916,True,p,10,NS/NR,7.2
+MA0079916,True,p,11,Francisco Nagib,37.7
+MA0079916,True,p,11,Biné Figueiredo,25.8
+MA0079916,True,p,11,Pedro Belo,15.4
+MA0079916,True,p,11,Chiquinho do SAAE,10.4
+MA0079916,True,p,11,Nenhum deles,2.7
+MA0079916,True,p,11,NS/NR,7.9
+MA0079916,True,p,12,Francisco Nagib,41.4
+MA0079916,True,p,12,Pedro Belo,23.6
+MA0079916,True,p,12,Camilo Figueiredo,8.7
+MA0079916,True,p,12,Nenhum deles,17.4
+MA0079916,True,p,12,NS/NR,8.9
+MA0079916,True,p,13,Francisco Nagib,41.4
+MA0079916,True,p,13,Pedro Belo,24.1
+MA0079916,True,p,13,Rodrigo Figueiredo,6.7
+MA0079916,True,p,13,Nenhum deles,18.6
+MA0079916,True,p,13,NS/NR,9.2
+MA067592016,False,p,14,Mercial Arruda,31.0
+MA067592016,False,p,14,Simone Limeira,11.0
+MA067592016,False,p,14,Marinaldo do Gesso,6.5
+MA067592016,False,p,14,Arthurzinho,2.0
+MA067592016,False,p,14,Adoan Sapucaia,1.5
+MA067592016,False,p,14,Otsuka,1.0
+MA067592016,False,p,14,Ezequiel,0.5
+MA067592016,False,p,14,Ninguém,8.3
+MA067592016,False,p,14,NS/NR,38.3
+MA067592016,True,p,15,Mercial Arruda,51.3
+MA067592016,True,p,15,Simone Limeira,15.0
+MA067592016,True,p,15,Marinaldo do Gesso,9.5
+MA067592016,True,p,15,Adoan Sapucaia,3.3
+MA067592016,True,p,15,Arthurzinho,2.5
+MA067592016,True,p,15,Ezequiel,1.3
+MA067592016,True,p,15,Nenhum deles,11.5
+MA067592016,True,p,15,NS/NR,5.8
+MA067592016,True,p,16,Mercial Arruda,53.3
+MA067592016,True,p,16,Simone Limeira,16.8
+MA067592016,True,p,16,Adoan Sapucaia,3.5
+MA067592016,True,p,16,Arthurzinho,2.8
+MA067592016,True,p,16,Ezequiel,2.3
+MA067592016,True,p,16,Nenhum deles,14.5
+MA067592016,True,p,16,NS/NR,7.0
+MA067592016,True,p,17,Mercial Arruda,53.8
+MA067592016,True,p,17,Marinaldo do Gesso,8.3
+MA067592016,True,p,17,Adoan Sapucaia,4.0
+MA067592016,True,p,17,Arthurzinho,3.3
+MA067592016,True,p,17,Ezequiel,3.0
+MA067592016,True,p,17,Nenhum deles,20.3
+MA067592016,True,p,17,NS/NR,7.5
+MA067592016,True,p,18,Mercial Arruda,51.5
+MA067592016,True,p,18,Simone Limeira,17.3
+MA067592016,True,p,18,Marinaldo do Gesso,10.0
+MA067592016,True,p,18,Nenhum deles,14.3
+MA067592016,True,p,18,NS/NR,7.0
+MA018372016,False,p,19,Talita Laci,24.7
+MA018372016,False,p,19,Ocileia Paraíba,15.0
+MA018372016,False,p,19,Eudes Barros,14.3
+MA018372016,False,p,19,Moreira,2.3
+MA018372016,False,p,19,Ninguém,3.3
+MA018372016,False,p,19,NS/NR,40.3
+MA018372016,True,p,20,Talita Laci,34.0
+MA018372016,True,p,20,Ocileia Paraíba,25.7
+MA018372016,True,p,20,Eudes Barros,21.7
+MA018372016,True,p,20,Moreira,4.7
+MA018372016,True,p,20,Nenhum deles,7.7
+MA018372016,True,p,20,NS/NR,6.3
+MA018372016,True,p,21,Talita Laci,35.3
+MA018372016,True,p,21,Ocileia Paraíba,26.3
+MA018372016,True,p,21,Eudes Barros,24.0
+MA018372016,True,p,21,Nenhum deles,8.3
+MA018372016,True,p,21,NS/NR,6.0
+MA018372016,True,p,22,Talita Laci,43.0
+MA018372016,True,p,22,Ocileia Paraíba,36.7
+MA018372016,True,p,22,Nenhum deles,15.3
+MA018372016,True,p,22,NS/NR,5.0
+MA018372016,True,p,23,Talita Laci,44.0
+MA018372016,True,p,23,Eudes Barros,33.3
+MA018372016,True,p,23,Nenhum deles,19.0
+MA018372016,True,p,23,NS/NR,3.7
+MA008742016,False,p,24,Edmilson Viégas,44.2
+MA008742016,False,p,24,Ronildo Campos,35.0
+MA008742016,False,p,24,Prof. Amarildo,4.6
+MA008742016,False,p,24,Matheus Muniz,1.7
+MA008742016,False,p,24,Ninguém,1.3
+MA008742016,False,p,24,NS/NR,13.2
+MA008742016,True,p,25,Edmilson Viégas,45.2
+MA008742016,True,p,25,Ronildo Campos,37.3
+MA008742016,True,p,25,Prof. Amarildo,5.0
+MA008742016,True,p,25,Matheus Muniz,2.6
+MA008742016,True,p,25,Nenhum deles,3.0
+MA008742016,True,p,25,NS/NR,6.9
+MA004802012,True,p,26,Dulcinha,53.0
+MA004802012,True,p,26,Dr. Flávio,41.0
+MA004802012,True,p,26,Branco/Nulo,2.5
+MA004802012,True,p,26,NS/NR,3.5
+MA061902016,False,p,27,Cláudia,44.2
+MA061902016,False,p,27,Jesiel Araújo,16.0
+MA061902016,False,p,27,Queiroz,15.2
+MA061902016,False,p,27,Tereza Muniz,7.0
+MA061902016,False,p,27,NS/NR,17.6
+MA061902016,True,p,28,Cláudia,49.0
+MA061902016,True,p,28,Jesiel Araújo,17.8
+MA061902016,True,p,28,Queiroz,15.6
+MA061902016,True,p,28,Tereza Muniz,7.6
+MA061902016,True,p,28,Nenhum deles,1.6
+MA061902016,True,p,28,NS/NR,8.4
+MA026352016,False,p,29,Dra. Vianey Bringel,65.0
+MA026352016,False,p,29,Drº Ribamar,11.8
+MA026352016,False,p,29,Dr. Valter Costa,5.0
+MA026352016,False,p,29,Lindenberg Braga,0.5
+MA026352016,False,p,29,Ednalva,0.5
+MA026352016,False,p,29,Ninguém,5.3
+MA026352016,False,p,29,NS/NR,12.0
+MA026352016,True,p,30,Dra. Vianey Bringel,69.5
+MA026352016,True,p,30,Drº Ribamar,14.3
+MA026352016,True,p,30,Dr. Valter Costa,8.0
+MA026352016,True,p,30,Lindenberg Braga,1.0
+MA026352016,True,p,30,Ednalva,1.0
+MA026352016,True,p,30,Nenhum deles,3.0
+MA026352016,True,p,30,NS/NR,3.3
+MA002442016,False,p,31,Emílio Weba,40.0
+MA002442016,False,p,31,Nenhum deles,1.0
+MA002442016,False,p,31,NS/NR,26.0
+MA002442016,True,p,32,Emílio Weba,45.3
+MA002442016,True,p,32,Nenhum deles,6.3
+MA002442016,True,p,32,NS/NR,10.7
+MA001582012,False,p,33,Gleydson Resende,47.0
+MA001582012,False,p,33,Fleury Ribeiro,41.5
+MA001582012,False,p,33,NS/NR,11.5
+MA001582012,True,p,34,Gleydson Resende,47.5
+MA001582012,True,p,34,Fleury Ribeiro,42.5
+MA001582012,True,p,34,NS/NR,10.0
+MA005252012,True,p,35,Edivaldo Holanda Jr.,54.6
+MA005252012,True,p,35,Castelo,34.3
+MA005252012,True,p,35,NS/NR,6.9
+MA005252012,True,p,35,Branco/Nulo,4.3
+MA013782016,False,p,36,Romildo do Hospital,40.0
+MA013782016,False,p,36,Chico Canavieira,19.0
+MA013782016,False,p,36,Alexandre Baquil,19.0
+MA013782016,False,p,36,Antonio Chico,1.5
+MA013782016,False,p,36,Alfredo Filho (Dão),1.3
+MA013782016,False,p,36,Ninguém,0.8
+MA013782016,False,p,36,NS/NR,18.5
+MA013782016,True,p,37,Romildo do Hospital,46.5
+MA013782016,True,p,37,Chico Canavieira,20.8
+MA013782016,True,p,37,Alexandre Baquil,20.5
+MA013782016,True,p,37,Antonio Chico,1.5
+MA013782016,True,p,37,Alfredo Filho (Dão),1.0
+MA013782016,True,p,37,Nenhum deles,0.8
+MA013782016,True,p,37,NS/NR,9.0
+MA070112016,False,p,38,Éric Costa,50.2
+MA070112016,False,p,38,Júnior do Nenzim,33.7
+MA070112016,False,p,38,Selma Carvalho,0.4
+MA070112016,False,p,38,Ninguém,1.6
+MA070112016,False,p,38,NS/NR,14.1
+MA070112016,True,p,39,Éric Costa,54.2
+MA070112016,True,p,39,Júnior do Nenzim,36.1
+MA070112016,True,p,39,Selma Carvalho,0.8
+MA070112016,True,p,39,Nenhum deles,1.8
+MA070112016,True,p,39,NS/NR,7.2
+MA004492012,True,p,40,Cristiane Damião,50.2
+MA004492012,True,p,40,Sabry,41.0
+MA004492012,True,p,40,Maria Lira,0.0
+MA004492012,True,p,40,Branco/Nulo,2.9
+MA004492012,True,p,40,NS/NR,5.9
+MA001942012,False,p,41,Doris,36.0
+MA001942012,False,p,41,Dídima Coelho,25.3
+MA001942012,False,p,41,Zé Mario,23.0
+MA001942012,False,p,41,NS/NR,15.7
+MA001942012,True,p,42,Doris,37.3
+MA001942012,True,p,42,Dídima Coelho,26.3
+MA001942012,True,p,42,Zé Mario,25.7
+MA001942012,True,p,42,NS/NR,10.7
+MA008362016,False,p,43,Ildon Marques,18.8
+MA008362016,False,p,43,Delegado Assis Ramos,11.3
+MA008362016,False,p,43,Rosangela Curado,11.2
+MA008362016,False,p,43,Marco Aurélio,8.0
+MA008362016,False,p,43,Davizinho,3.3
+MA008362016,False,p,43,Pastor Porto,1.3
+MA008362016,False,p,43,Daniel Souza,0.3
+MA008362016,False,p,43,Ninguém,1.0
+MA008362016,False,p,43,NS/NR,44.7
+MA008362016,True,p,44,Ildon Marques,26.2
+MA008362016,True,p,44,Delegado Assis Ramos,19.8
+MA008362016,True,p,44,Rosangela Curado,19.2
+MA008362016,True,p,44,Marco Aurélio,18.2
+MA008362016,True,p,44,Davizinho,6.8
+MA008362016,True,p,44,Pastor Porto,3.2
+MA008362016,True,p,44,Rosi Vicentine,0.3
+MA008362016,True,p,44,Daniel Souza,0.3
+MA008362016,True,p,44,Nenhum deles,2.3
+MA008362016,True,p,44,NS/NR,3.7
+MA008362016,True,p,45,Ildon Marques,27.5
+MA008362016,True,p,45,Delegado Assis Ramos,20.3
+MA008362016,True,p,45,Rosangela Curado,19.8
+MA008362016,True,p,45,Marco Aurélio,19.2
+MA008362016,True,p,45,Pastor Porto,4.2
+MA008362016,True,p,45,Nenhum deles,2.5
+MA008362016,True,p,45,NS/NR,6.5
+MA008362016,True,p,46,Ildon Marques,26.7
+MA008362016,True,p,46,Delegado Assis Ramos,20.5
+MA008362016,True,p,46,Rosangela Curado,19.8
+MA008362016,True,p,46,Marco Aurélio,19.5
+MA008362016,True,p,46,Davizinho,7.8
+MA008362016,True,p,46,Nenhum deles,2.0
+MA008362016,True,p,46,NS/NR,3.7
+MA008362016,True,p,47,Rosangela Curado,30.2
+MA008362016,True,p,47,Marco Aurélio,25.3
+MA008362016,True,p,47,Delegado Assis Ramos,24.7
+MA008362016,True,p,47,Pastor Porto,5.7
+MA008362016,True,p,47,Nenhum deles,7.8
+MA008362016,True,p,47,NS/NR,6.3
+MA003312012,True,p,48,Soliney Silva,58.7
+MA003312012,True,p,48,Américo de Sousa,32.0
+MA003312012,True,p,48,Doralice Santana,1.3
+MA003312012,True,p,48,Branco/Nulo,2.7
+MA003312012,True,p,48,NS/NR,5.3
+PI085672016,False,p,49,Amadeu Campos,5.6
+PI085672016,False,p,49,Firmino Filho,15.7
+PI085672016,False,p,49,Dr. Pessoa,12.2
+PI085672016,False,p,49,Elmano Férer,1.8
+PI085672016,False,p,49,Wellington Dias,0.6
+PI085672016,False,p,49,Fábio Nono,0.3
+PI085672016,False,p,49,Hugo Napoleão,0.2
+PI085672016,False,p,49,Flora Isabel,0.2
+PI085672016,False,p,49,Albert,0.1
+PI085672016,False,p,49,Paixão,0.1
+PI085672016,False,p,49,Silas Freire,0.1
+PI085672016,False,p,49,Graça Amorim,0.1
+PI085672016,False,p,49,Nenhum deles,8.6
+PI085672016,False,p,49,NS/NR,54.4
+PI085672016,True,p,50,Firmino Filho,29.0
+PI085672016,True,p,50,Dr. Pessoa,27.6
+PI085672016,True,p,50,Amadeu Campos,14.9
+PI085672016,True,p,50,Nenhum deles,13.7
+PI085672016,True,p,50,NS/NR,14.8
+PI085672016,True,p,51,Firmino Filho,30.0
+PI085672016,True,p,51,Dr. Pessoa,28.9
+PI085672016,True,p,51,Elmano Férrer,10.2
+PI085672016,True,p,51,Nenhum deles,14.4
+PI085672016,True,p,51,NS/NR,16.5
+MA074382016,False,p,52,Zé Gomes,48.4
+MA074382016,False,p,52,Francisca Primo,43.2
+MA074382016,False,p,52,NS/NR,8.4
+MA074382016,True,p,53,Zé Gomes,50.4
+MA074382016,True,p,53,Francisca Primo,44.0
+MA074382016,True,p,53,Nenhum delels,2.7
+MA074382016,True,p,53,NS/NR,3.0
+MA000852012,False,p,54,Dr. Juran,57.5
+MA000852012,False,p,54,Raimundinho,26.5
+MA000852012,False,p,54,Pryscilla,2.0
+MA000852012,False,p,54,Orfileno Raposão,0.5
+MA000852012,False,p,54,NS/NR,13.3
+MA000852012,True,p,55,Dr. Juran,58.8
+MA000852012,True,p,55,Raimundinho,27.8
+MA000852012,True,p,55,Pryscilla,2.5
+MA000852012,True,p,55,"Lima da Eletronorte",0.5
+MA000852012,True,p,55,Orfileno Raposão,0.3
+MA000852012,True,p,55,Nenhum destes,0.3
+MA000852012,True,p,55,NS/NR,10.0
+MA003962012,True,p,56,Vera,48.3
+MA003962012,True,p,56,Dr. Marcio,37.3
+MA003962012,True,p,56,Banga,2.0
+MA003962012,True,p,56,Riba da Construção Civil,2.5
+MA003962012,True,p,56,Branco/Nulo,3.5
+MA003962012,True,p,56,NS/NR,6.5
+MA098042016,False,p,57,Maisa Burlamaqui,50.0
+MA098042016,False,p,57,Jorge Oliveira,38.7
+MA098042016,False,p,57,NS/NR,11.3
+MA098042016,True,p,58,Maisa Burlamaqui,51.7
+MA098042016,True,p,58,Jorge Oliveira,39.3
+MA098042016,True,p,58,Professor Edilson,0.0
+MA098042016,True,p,58,Nenhum deles,1.3
+MA098042016,True,p,58,NS/NR,7.7
+MA000722012,False,p,59,Léo Coutinho,41.6
+MA000722012,False,p,59,Paulo Marinho Jr.,13.6
+MA000722012,False,p,59,Helton Mesquita,6.2
+MA000722012,False,p,59,Agostinho Neto,1.4
+MA000722012,False,p,59,Herbert Silva,1.1
+MA000722012,False,p,59,Mundico Teixeira,0.9
+MA000722012,False,p,59,Ninguém,5.3
+MA000722012,False,p,59,NS/NR,29.9
+MA000722012,True,p,60,Léo Coutinho,49.9
+MA000722012,True,p,60,Helton Mesquita,10.1
+MA000722012,True,p,60,Paulo Marinho Jr.,21.6
+MA000722012,True,p,60,Mundico Teixeira,1.4
+MA000722012,True,p,60,Agostinho Neto,1.1
+MA000722012,True,p,60,Herbert Silva,0.9
+MA000722012,True,p,60,Nenhum destes,6.2
+MA000722012,True,p,60,NS/NR,8.7
+MA030672016,False,p,61,Edivaldo Holanda Jr.,34.4
+MA030672016,False,p,61,Wellington do Curso,25.4
+MA030672016,False,p,61,Eliziane Gama,9.8
+MA030672016,False,p,61,Eduardo Braide,3.4
+MA030672016,False,p,61,Fábio Câmara,2.4
+MA030672016,False,p,61,Rose Sales,1.6
+MA030672016,False,p,61,Zé Luis Lago,0.4
+MA030672016,False,p,61,Cláudia Durans,0.4
+MA030672016,False,p,61,Valdeny Barros,0.3
+MA030672016,False,p,61,Ninguém,5.9
+MA030672016,False,p,61,NS/NR,16.3
+MA030672016,True,p,62,Edivaldo Holanda Jr.,35.8
+MA030672016,True,p,62,Wellington do Curso,26.3
+MA030672016,True,p,62,Eliziane Gama,11.5
+MA030672016,True,p,62,Eduardo Braide,4.6
+MA030672016,True,p,62,Fábio Câmara,3.5
+MA030672016,True,p,62,Rose Sales,2.9
+MA030672016,True,p,62,Zé Luis Lago,0.5
+MA030672016,True,p,62,Cláudia Durans,0.5
+MA030672016,True,p,62,Valdeny Barros,0.4
+MA030672016,True,p,62,Nenhum deles,5.1
+MA030672016,True,p,62,NS/NR,9.0
+MA030672016,True,p,63,Edivaldo Holanda Jr.,50.4
+MA030672016,True,p,63,Eliziane Gama,22.0
+MA030672016,True,p,63,Nenhum deles,19.5
+MA030672016,True,p,63,NS/NR,8.1
+MA030672016,True,p,64,Edivaldo Holanda Jr.,42.9
+MA030672016,True,p,64,Wellington do Curso,39.6
+MA030672016,True,p,64,Nenhum deles,9.5
+MA030672016,True,p,64,NS/NR,8.0
+MA030672016,True,p,65,Wellington do Curso,53.1
+MA030672016,True,p,65,Eliziane Gama,19.4
+MA030672016,True,p,65,Nenhum deles,19.3
+MA030672016,True,p,65,NS/NR,8.3
+MA033462016,False,p,66,Ruivo,46.0
+MA033462016,False,p,66,Paulo Fubuia,38.0
+MA033462016,False,p,66,Abraão da Farmacia,4.3
+MA033462016,False,p,66,Ninguém,0.7
+MA033462016,False,p,66,NS/NR,10.3
+MA033462016,True,p,67,Ruivo,46.3
+MA033462016,True,p,67,Paulo Fubuia,38.7
+MA033462016,True,p,67,Abraão da Farmacia,4.7
+MA033462016,True,p,67,Nenhum deles,1.7
+MA033462016,True,p,67,NS/NR,8.0
+MA004122012,True,p,68,Daluz,51.3
+MA004122012,True,p,68,Osto,42.1
+MA004122012,True,p,68,Branco/Nulo,2.6
+MA004122012,True,p,68,NS/NR,4.0
+MA033182016,False,p,69,Irene,12.5
+MA033182016,False,p,69,Orlando,7.3
+MA033182016,False,p,69,Raimundinho,5.8
+MA033182016,False,p,69,Juran,40.5
+MA033182016,False,p,69,Ninguém,1.5
+MA033182016,False,p,69,NS/NR,32.5
+MA033182016,True,p,70,Juran,50.3
+MA033182016,True,p,70,Irene,19.3
+MA033182016,True,p,70,Orlando,11.0
+MA033182016,True,p,70,Raimundinho,9.3
+MA033182016,True,p,70,Nenhum deles,2.5
+MA033182016,True,p,70,NS/NR,7.8
+MA033182016,True,p,71,Juran,52.5
+MA033182016,True,p,71,Raimundinho,18.8
+MA033182016,True,p,71,Orlando,14.8
+MA033182016,True,p,71,Nenhum deles,5.3
+MA033182016,True,p,71,NS/NR,8.8
+MA033182016,True,p,72,Juran,50.8
+MA033182016,True,p,72,Irene,22.0
+MA033182016,True,p,72,Orlando,13.8
+MA033182016,True,p,72,Nenhum deles,5.0
+MA033182016,True,p,72,NS/NR,8.5
+MA033182016,True,p,73,Juran,54.3
+MA033182016,True,p,73,Irene,27.0
+MA033182016,True,p,73,Nenhum deles,9.5
+MA033182016,True,p,73,NS/NR,9.3
+MA033182016,True,p,74,Juran,55.3
+MA033182016,True,p,74,Raimundinho,26.5
+MA033182016,True,p,74,Nenhum deles,9.0
+MA033182016,True,p,74,NS/NR,9.3
+MA033182016,True,p,75,Juran,53.3
+MA033182016,True,p,75,Orlando,22.8
+MA033182016,True,p,75,Nenhum deles,11.0
+MA033182016,True,p,75,NS/NR,13.0
+MA000862012,False,p,76,Jairo Madeira,51.7
+MA000862012,False,p,76,Dr. Enoque,24.2
+MA000862012,False,p,76,Chico Soares,6.3
+MA000862012,False,p,76,NS/NR,17.9
+MA000862012,True,p,77,Jairo Madeira,56.0
+MA000862012,True,p,77,Dr. Enoque,24.8
+MA000862012,True,p,77,Chico Soares,7.0
+MA000862012,True,p,77,Evilásio V. Nogueira,1.0
+MA000862012,True,p,77,Nenhum destes,3.3
+MA000862012,True,p,77,NS/NR,7.9
+MA002592012,False,p,78,Luciano Leitoa,54.5
+MA002592012,False,p,78,Edivar Ribeiro,23.0
+MA002592012,False,p,78,"Alexandre Almeida",12.5
+MA002592012,False,p,78,Costa,1.5
+MA002592012,False,p,78,NS/NR,8.5
+MA002592012,True,p,79,Luciano Leitoa,55.0
+MA002592012,True,p,79,Edivar Ribeiro,24.0
+MA002592012,True,p,79,"Alexandre Almeida",13.0
+MA002592012,True,p,79,Costa,1.5
+MA002592012,True,p,79,NS/NR,6.5
+MA0410716,False,p,80,Eric Costa,44.2
+MA0410716,False,p,80,Júnior do Nenzim,26.2
+MA0410716,False,p,80,Dr. Jerômino Ferry,3.2
+MA0410716,False,p,80,Raimundo Carvalho,1.0
+MA0410716,False,p,80,Nenzim,0.6
+MA0410716,False,p,80,Nilda Barbalho,0.4
+MA0410716,False,p,80,Ninguém,2.2
+MA0410716,False,p,80,NS/NR,22.2
+MA0410716,True,p,81,Eric Costa,50.2
+MA0410716,True,p,81,Júnior do Nenzim,29.0
+MA0410716,True,p,81,Dr. Jerômino Ferry,5.2
+MA0410716,True,p,81,Raimundo Carvalho,1.2
+MA0410716,True,p,81,Nenhum deles,5.0
+MA0410716,True,p,81,NS/NR,9.4
+MA0410716,True,p,82,Eric Costa,52.0
+MA0410716,True,p,82,Júnior do Nenzim,30.0
+MA0410716,True,p,82,Raimundo Carvalho,2.0
+MA0410716,True,p,82,Nenhum deles,6.4
+MA0410716,True,p,82,NS/NR,9.6
+MA0410716,True,p,83,Eric Costa,52.4
+MA0410716,True,p,83,Júnior do Nenzim,30.2
+MA0410716,True,p,83,Nenhum deles,7.8
+MA0410716,True,p,83,NS/NR,9.6
+MA0410716,True,p,84,Eric Costa,53.4
+MA0410716,True,p,84,Dr. Jerômino Ferry,26.2
+MA0410716,True,p,84,Nenhum deles,9.6
+MA0410716,True,p,84,NS/NR,10.8
+MA0410716,True,p,85,Eric Costa,56.2
+MA0410716,True,p,85,Raimundo Carvalho,21.0
+MA0410716,True,p,85,Nenhum deles,11.8
+MA0410716,True,p,85,NS/NR,11.0
+MA000922012,False,p,86,Luciano Leitoa,54.3
+MA000922012,False,p,86,Edivar Ribeiro,15.3
+MA000922012,False,p,86,Alexandre Almeida,15.0
+MA000922012,False,p,86,NS/NR,15.5
+MA000922012,True,p,87,Luciano Leitoa,56.0
+MA000922012,True,p,87,Edivar Ribeiro,16.8
+MA000922012,True,p,87,Alexandre Almeida,15.3
+MA000922012,True,p,87,Costa,0.5
+MA000922012,True,p,87,NS/NR,11.5
+MA068632016,False,p,88,Chico Velho,53.7
+MA068632016,False,p,88,Tio Gal,35.7
+MA068632016,False,p,88,Ninguém,0.7
+MA068632016,False,p,88,NS/NR,10.0
+MA068632016,True,p,89,Chico Velho,54.3
+MA068632016,True,p,89,Tio Gal,39.3
+MA068632016,True,p,89,Nenhum deles,1.0
+MA068632016,True,p,89,NS/NR,5.3
+MA001552012,False,p,90,Filuca,42.1
+MA001552012,False,p,90,Zé Arlindo,36.9
+MA001552012,False,p,90,NS/NR,17.2
+MA001552012,True,p,91,Filuca,45.1
+MA001552012,True,p,91,Zé Arlindo,37.2
+MA001552012,True,p,91,NS/NR,11.0
+MA003132012,True,p,92,Castelo,32.0
+MA003132012,True,p,92,Edivaldo Holanda Jr.,30.0
+MA003132012,True,p,92,Washington,13.0
+MA003132012,True,p,92,Eliziane Gama,7.1
+MA003132012,True,p,92,Tadeu  Palácio,4.2
+MA003132012,True,p,92,Marcos Silva,1.7
+MA003132012,True,p,92,Haroldo Saboia,1.0
+MA003132012,True,p,92,Branco/Nulo,2.7
+MA003132012,True,p,92,NS/NR,8.1
+MA003132012,True,p,92,Ednaldo Neves,0.1
+MA001872012,False,p,93,Éric Costa,50.2
+MA001872012,False,p,93,Carlito Santos,41.5
+MA001872012,False,p,93,Antônio Soares,0.3
+MA001872012,False,p,93,NS/NR,8.0
+MA001872012,True,p,94,Éric Costa,51.2
+MA001872012,True,p,94,Carlito Santos,42.5
+MA001872012,True,p,94,Antônio Soares,0.3
+MA001872012,True,p,94,NS/NR,6.0
+MA001152012,False,p,95,Clodomir,38.5
+MA001152012,False,p,95,Tálita  Laci,35.5
+MA001152012,False,p,95,Moreira,5.5
+MA001152012,False,p,95,Vonei,5.0
+MA001152012,False,p,95,NS/NR,15.5
+MA001152012,True,p,96,Clodomir,41.5
+MA001152012,True,p,96,Tálita  Laci,36.5
+MA001152012,True,p,96,Moreira,7.0
+MA001152012,True,p,96,Vonei,5.5
+MA001152012,True,p,96,NS/NR,9.5
+MA019232016,False,p,97,Zé Hélio,54.6
+MA019232016,False,p,97,Rejany Gomes,30.5
+MA019232016,False,p,97,Ninguém,1.0
+MA019232016,False,p,97,NS/NR,13.9
+MA019232016,True,p,98,Zé Hélio,57.0
+MA019232016,True,p,98,Rejany Gomes,34.8
+MA019232016,True,p,98,Nenhum deles,5.6
+MA019232016,True,p,98,NS/NR,2.6
+MA003532012,True,p,99,Neto Carvalho,69.0
+MA003532012,True,p,99,Costa Junior,21.6
+MA003532012,True,p,99,Branco/Nulo,2.8
+MA003532012,True,p,99,NS/NR,6.6
+MA002882012,False,p,100,Jairo Madeira,55.3
+MA002882012,False,p,100,Dr. Enoque,29.5
+MA002882012,False,p,100,Chico Soares,4.0
+MA002882012,False,p,100,NS/NR,11.3
+MA002882012,True,p,101,Jairo Madeira,56.6
+MA002882012,True,p,101,Dr. Enoque,31.1
+MA002882012,True,p,101,Chico Soares,4.3
+MA002882012,True,p,101,NS/NR,7.9
+MA001262012,False,p,102,Tim Ribeiro,53.6
+MA001262012,False,p,102,Márcio Resende,30.7
+MA001262012,False,p,102,NS/NR,15.7
+MA001262012,True,p,103,Tim Ribeiro,56.6
+MA001262012,True,p,103,Márcio Resende,32.7
+MA001262012,True,p,103,NS/NR,10.7
+MA078632016,False,p,104,Juscelino,54.5
+MA078632016,False,p,104,Dr. Benjamim,26.8
+MA078632016,False,p,104,Professor Milton,3.0
+MA078632016,False,p,104,Melgaço,1.0
+MA078632016,False,p,104,NS/NR,14.8
+MA078632016,True,p,105,Juscelino,56.5
+MA078632016,True,p,105,Dr. Benjamim,29.5
+MA078632016,True,p,105,Professor Milton,4.3
+MA078632016,True,p,105,Melgaço,1.0
+MA078632016,True,p,105,Nenhum deles,0.5
+MA078632016,True,p,105,NS/NR,8.3
+MA001962012,False,p,106,Deco,51.2
+MA001962012,False,p,106,Neide Sabóia,28.6
+MA001962012,False,p,106,Valdermir Verde,9.6
+MA001962012,False,p,106,NS/NR,10.6
+MA001962012,True,p,107,Deco,53.5
+MA001962012,True,p,107,Neide Sabóia,28.9
+MA001962012,True,p,107,Valdermir Verde,10.3
+MA001962012,True,p,107,NS/NR,7.3
+MA040392016,False,p,108,Wellington do Curso,22.4
+MA040392016,False,p,108,Edivaldo Holanda Jr.,40.0
+MA040392016,False,p,108,Eliziane Gama,7.3
+MA040392016,False,p,108,Eduardo Braide,4.0
+MA040392016,False,p,108,Fábio Câmara,3.0
+MA040392016,False,p,108,Rose Sales,1.5
+MA040392016,False,p,108,Zé Luis Lago,0.5
+MA040392016,False,p,108,Cláudia Durans,0.5
+MA040392016,False,p,108,Valdeny Barros,0.5
+MA040392016,False,p,108,Ninguém,5.9
+MA040392016,False,p,108,NS/NR,14.5
+MA040392016,True,p,109,Wellington do Curso,24.0
+MA040392016,True,p,109,Edivaldo Holanda Jr.,45.3
+MA040392016,True,p,109,Eliziane Gama,8.8
+MA040392016,True,p,109,Eduardo Braide,5.5
+MA040392016,True,p,109,Fábio Câmara,3.0
+MA040392016,True,p,109,Rose Sales,2.0
+MA040392016,True,p,109,Zé Luis Lago,0.5
+MA040392016,True,p,109,Cláudia Durans,0.5
+MA040392016,True,p,109,Valdeny Barros,0.5
+MA040392016,True,p,109,Nenhum deles,4.0
+MA040392016,True,p,109,NS/NR,6.0
+MA040392016,True,p,110,Edivaldo Holanda Jr.,55.3
+MA040392016,True,p,110,Eliziane Gama,20.1
+MA040392016,True,p,110,Nenhum deles,14.6
+MA040392016,True,p,110,NS/NR,10.0
+MA040392016,True,p,111,Edivaldo Holanda Jr.,48.8
+MA040392016,True,p,111,Wellington do Curso,35.3
+MA040392016,True,p,111,Nenhum deles,7.0
+MA040392016,True,p,111,NS/NR,9.0
+MA040392016,True,p,112,Wellington do Curso,50.0
+MA040392016,True,p,112,Eliziane Gama,23.8
+MA040392016,True,p,112,Nenhum deles,15.4
+MA040392016,True,p,112,NS/NR,10.9
+MA001592012,False,p,113,Dr. Waldênio,46.7
+MA001592012,False,p,113,Drª. Aricelli,41.7
+MA001592012,False,p,113,Odívio,1.0
+MA001592012,False,p,113,NS/NR,10.6
+MA001592012,True,p,114,Dr. Waldênio,48.0
+MA001592012,True,p,114,Drª. Aricelli,42.4
+MA001592012,True,p,114,Odívio,1.7
+MA001592012,True,p,114,NS/NR,7.9
+MA002592016,False,p,115,Zé Gomes,44.3
+MA002592016,False,p,115,Francisca Primo,37.5
+MA002592016,False,p,115,Ninguém,2.3
+MA002592016,False,p,115,NS/NR,16.0
+MA002592016,True,p,116,Zé Gomes,47.5
+MA002592016,True,p,116,Francisca Primo,42.3
+MA002592016,True,p,116,Nenhum deles,2.3
+MA002592016,True,p,116,NS/NR,8.0
+MA003062012,False,p,117,Edvaldo Nascimento,47.3
+MA003062012,False,p,117,Toinho do Juvenil,23.4
+MA003062012,False,p,117,Edmilson Carneiro,17.6
+MA003062012,False,p,117,NS/NR,11.7
+MA003062012,True,p,118,Edvaldo Nascimento,48.8
+MA003062012,True,p,118,Toinho do Juvenil,24.9
+MA003062012,True,p,118,Edmilson Carneiro,18.5
+MA003062012,True,p,118,NS/NR,7.8
+MA0905316,False,p,119,Nicó,51.0
+MA0905316,False,p,119,Lêda,12.5
+MA0905316,False,p,119,Paulo Miranda,6.0
+MA0905316,False,p,119,Cardoso,3.0
+MA0905316,False,p,119,Irapuan,1.0
+MA0905316,False,p,119,Júnior do Posto,0.5
+MA0905316,False,p,119,Odilson,0.5
+MA0905316,False,p,119,Nenhum deles,1.5
+MA0905316,False,p,119,NS/NR,24.0
+MA0905316,True,p,120,Nicó,56.5
+MA0905316,True,p,120,Lêda,22.5
+MA0905316,True,p,120,Paulo Miranda,6.5
+MA0905316,True,p,120,Irapuan,2.5
+MA0905316,True,p,120,Odilson,2.5
+MA0905316,True,p,120,Davi,2.5
+MA0905316,True,p,120,Antônio Aires,0.5
+MA0905316,True,p,120,Neto do Macena,0.5
+MA0905316,True,p,120,Nenhum deles,3.0
+MA0905316,True,p,120,NS/NR,3.0
+MA0905316,True,p,121,Nicó,57.5
+MA0905316,True,p,121,Lêda,24.0
+MA0905316,True,p,121,Paulo Miranda,7.5
+MA0905316,True,p,121,Nenhum deles,4.0
+MA0905316,True,p,121,NS/NR,7.0
+MA0905316,True,p,122,Nicó,64.0
+MA0905316,True,p,122,Lêda,24.0
+MA0905316,True,p,122,Nenhum deles,6.5
+MA0905316,True,p,122,NS/NR,5.5
+MA0905316,True,p,123,Nicó,65.0
+MA0905316,True,p,123,Paulo Miranda,17.5
+MA0905316,True,p,123,Nenhum deles,14.5
+MA0905316,True,p,123,NS/NR,3.0
+MA021612016,False,p,124,Emilio Weba,53.7
+MA021612016,False,p,124,NS/NR,5.7
+MA021612016,True,p,125,Emilio Weba,54.3
+MA021612016,True,p,125,NS/NR,3.7
+MA000732012,False,p,126,Zé Alberto,39.3
+MA000732012,False,p,126,Zé Vieira,34.5
+MA000732012,False,p,126,Nonato Chaves,6.3
+MA000732012,False,p,126,Ninguém,6.3
+MA000732012,False,p,126,NS/NR,13.8
+MA000732012,True,p,127,Zé Alberto,41.3
+MA000732012,True,p,127,Zé Vieira,34.8
+MA000732012,True,p,127,Nonato Chaves,8.0
+MA000732012,True,p,127,Nenhum destes,7.0
+MA000732012,True,p,127,NS/NR,9.0
+MA028092016,False,p,128,Éric Costa,30.2
+MA028092016,False,p,128,Nilda Barbalho,18.5
+MA028092016,False,p,128,Raimundo Carvalho,2.6
+MA028092016,False,p,128,Dr. Jerônimo Ferry,1.8
+MA028092016,False,p,128,Aristides Milhomem,1.2
+MA028092016,False,p,128,Nezinho,0.6
+MA028092016,False,p,128,Carlito,0.4
+MA028092016,False,p,128,Pedro Teles,0.4
+MA028092016,False,p,128,Raimundinho,0.2
+MA028092016,False,p,128,Dr. Alexandre,0.2
+MA028092016,False,p,128,Ninguém,1.2
+MA028092016,False,p,128,NS/NR,42.9
+MA028092016,True,p,129,Éric Costa,40.5
+MA028092016,True,p,129,Nilda Barbalho,26.8
+MA028092016,True,p,129,Dr. Jerônimo Ferry,9.1
+MA028092016,True,p,129,Aristides Milhomem,5.8
+MA028092016,True,p,129,Raimundo Carvalho,3.8
+MA028092016,True,p,129,Nenhum deles,1.8
+MA028092016,True,p,129,NS/NR,12.3
+MA028092016,True,p,130,Éric Costa,46.4
+MA028092016,True,p,130,Nilda Barbalho,30.0
+MA028092016,True,p,130,Raimundo Carvalho,6.3
+MA028092016,True,p,130,Nenhum deles,2.8
+MA028092016,True,p,130,NS/NR,14.5
+MA028092016,True,p,131,Éric Costa,48.2
+MA028092016,True,p,131,Nilda Barbalho,31.2
+MA028092016,True,p,131,Nenhum deles,5.0
+MA028092016,True,p,131,NS/NR,15.7
+MA022442016,False,p,132,Renata Martins,45.7
+MA022442016,False,p,132,Deusimar Serra,37.7
+MA022442016,False,p,132,Nenhum deles,2.3
+MA022442016,False,p,132,NS/NR,14.2
+MA022442016,True,p,133,Renata Martins,48.3
+MA022442016,True,p,133,Deusimar Serra,40.1
+MA022442016,True,p,133,Nenhum deles,2.3
+MA022442016,True,p,133,NS/NR,9.3
+MA001752012,False,p,134,Dr. Miguel,42.9
+MA001752012,False,p,134,Rogério Baiano,15.8
+MA001752012,False,p,134,Prof. Magno,15.8
+MA001752012,False,p,134,Ribamar da Honda,5.7
+MA001752012,False,p,134,NS/NR,20.0
+MA001752012,True,p,135,Dr. Miguel,46.3
+MA001752012,True,p,135,Prof. Magno,18.0
+MA001752012,True,p,135,Rogério Baiano,17.2
+MA001752012,True,p,135,Ribamar da Honda,5.9
+MA001752012,True,p,135,NS/NR,12.6
+MA003442012,True,p,136,Dr. Davi,59.0
+MA003442012,True,p,136,Zé Henrique,29.7
+MA003442012,True,p,136,Sarney,1.9
+MA003442012,True,p,136,Branco/Nulo,3.3
+MA003442012,True,p,136,NS/NR,6.1
+MA003342012,True,p,137,Suely Pereira,66.2
+MA003342012,True,p,137,Elinaldo Colaço,24.5
+MA003342012,True,p,137,Branco/Nulo,4.0
+MA003342012,True,p,137,NS/NR,5.3
+MA066152016,False,p,138,Juran,43.8
+MA066152016,False,p,138,Irene Soares,23.0
+MA066152016,False,p,138,Ninguém,4.8
+MA066152016,False,p,138,NS/NR,28.5
+MA066152016,True,p,139,Juran,48.3
+MA066152016,True,p,139,Irene Soares,28.8
+MA066152016,True,p,139,Nenhum deles,7.3
+MA066152016,True,p,139,NS/NR,15.8
+MA074302016,False,p,140,Talita Laci,41.0
+MA074302016,False,p,140,Ociléia,20.6
+MA074302016,False,p,140,Eudes Barros,20.2
+MA074302016,False,p,140,Mauricio Almeida,1.6
+MA074302016,False,p,140,Branco/Nulo,1.6
+MA074302016,False,p,140,NS/NR,15.0
+MA074302016,True,p,141,Talita Laci,45.0
+MA074302016,True,p,141,Ociléia,23.8
+MA074302016,True,p,141,Eudes Barros,20.6
+MA074302016,True,p,141,Mauricio Almeida,2.4
+MA074302016,True,p,141,Branco/Nulo,3.2
+MA074302016,True,p,141,NS/NR,5.0
+MA001972012,False,p,142,Cita Moniz,44.7
+MA001972012,False,p,142,Carrinho,42.4
+MA001972012,False,p,142,NS/NR,12.9
+MA001972012,True,p,143,Cita Moniz,46.4
+MA001972012,True,p,143,Carrinho,44.0
+MA001972012,True,p,143,NS/NR,9.6
+MA038162016,False,p,144,Juran,48.5
+MA038162016,False,p,144,Irene Soares,32.3
+MA038162016,False,p,144,Ninguém,5.0
+MA038162016,False,p,144,NS/NR,14.3
+MA038162016,True,p,145,Juran,51.3
+MA038162016,True,p,145,Irene Soares,35.3
+MA038162016,True,p,145,Nenhum deles,4.0
+MA038162016,True,p,145,NS/NR,9.5
+MA0881916,False,p,146,Adelbarto,52.5
+MA0881916,False,p,146,Natanael,30.0
+MA0881916,False,p,146,Ninguém,2.5
+MA0881916,False,p,146,NS/NR,15.0
+MA0881916,True,p,147,Adelbarto,56.0
+MA0881916,True,p,147,Natanael,32.5
+MA0881916,True,p,147,Nenhum deles,3.5
+MA0881916,True,p,147,NS/NR,8.0
+MA001032012,False,p,148,Dr. Walber,47.3
+MA001032012,False,p,148,Dr. Alexandre,39.8
+MA001032012,False,p,148,NS/NR,12.9
+MA001032012,True,p,149,Dr. Walber,49.8
+MA001032012,True,p,149,Dr. Alexandre,41.8
+MA001032012,True,p,149,NS/NR,8.5
+MA003892012,True,p,150,Roberval Campelo,55.7
+MA003892012,True,p,150,Arnaldo Bezerra,38.3
+MA003892012,True,p,150,Evilasio,1.0
+MA003892012,True,p,150,Branco/Nulo,1.5
+MA003892012,True,p,150,NS/NR,3.5
+MA004952012,True,p,151,Valério,53.3
+MA004952012,True,p,151,Drª Jesus,38.7
+MA004952012,True,p,151,Branco/Nulo,2.3
+MA004952012,True,p,151,NS/NR,5.7
+MA011572016,True,p,152,Marfran Bringel,52.3
+MA011572016,True,p,152,Neidinha,41.3
+MA011572016,True,p,152,NS/NR,6.3
+MA001042012,False,p,153,Neto Carvalho,59.9
+MA001042012,False,p,153,Costa Junior,28.2
+MA001042012,False,p,153,NS/NR,11.9
+MA001042012,True,p,154,Neto Carvalho,61.9
+MA001042012,True,p,154,Costa Junior,29.2
+MA001042012,True,p,154,NS/NR,8.9
+MA000232012,False,p,155,Flávio Dino,20.1
+MA000232012,False,p,155,João Castelo,13.8
+MA000232012,False,p,155,Tadeu Palácio,9.1
+MA000232012,False,p,155,Edivaldo Holanda Jr,6.8
+MA000232012,False,p,155,Eliziane Gama,3.0
+MA000232012,False,p,155,Roberto Rocha,1.4
+MA000232012,False,p,155,Washington Oliveira,0.9
+MA000232012,False,p,155,Marcos Silva,0.6
+MA000232012,False,p,155,Luís Fernando,0.5
+MA000232012,False,p,155,Outros,0.4
+MA000232012,False,p,155,Ninguém,2.2
+MA000232012,False,p,155,NS/NR,41.2
+MA000232012,True,p,156,Flávio Dino,36.0
+MA000232012,True,p,156,João Castelo,18.1
+MA000232012,True,p,156,Tadeu Palácio,15.2
+MA000232012,True,p,156,Edivaldo Holanda Jr,10.9
+MA000232012,True,p,156,Eliziane Gama,7.7
+MA000232012,True,p,156,Roberto Rocha,1.3
+MA000232012,True,p,156,Marcos Silva,1.3
+MA000232012,True,p,156,Washington Oliveira,1.2
+MA000232012,True,p,156,Haroldo Sabóia,0.6
+MA000232012,True,p,156,Nenhum destes,5.4
+MA000232012,True,p,156,NS/NR,2.5
+MA000232012,True,p,157,Tadeu Palácio,21.3
+MA000232012,True,p,157,João Castelo,20.4
+MA000232012,True,p,157,Edivaldo Holanda Jr,17.9
+MA000232012,True,p,157,Roberto Rocha,5.3
+MA000232012,True,p,157,Washington Oliveira,2.5
+MA000232012,True,p,157,Marcos Silva,2.2
+MA000232012,True,p,157,Haroldo Sabóia,1.8
+MA000232012,True,p,157,Eliziane Gama,12.5
+MA000232012,True,p,157,Nenhum destes,12.3
+MA000232012,True,p,157,NS/NR,4.0
+MA000232012,True,p,158,Tadeu Palácio,24.3
+MA000232012,True,p,158,João Castelo,21.7
+MA000232012,True,p,158,Edivaldo Holanda Jr,21.7
+MA000232012,True,p,158,Marcos Silva,3.2
+MA000232012,True,p,158,Washington Oliveira,2.7
+MA000232012,True,p,158,Nenhum destes,18.9
+MA000232012,True,p,158,NS/NR,5.4
+MA000232012,True,p,158,Haroldo Sabóia,2.1
+MA000232012,True,p,159,Edivaldo Holanda Jr,26.3
+MA000232012,True,p,159,João Castelo,24.8
+MA000232012,True,p,159,Nenhum destes,27.0
+MA000232012,True,p,159,Marcos Silva,4.8
+MA000232012,True,p,159,Haroldo Sabóia,4.0
+MA000232012,True,p,159,Washington Oliveira,3.7
+MA000232012,True,p,159,NS/NR,9.5
+MA000232012,True,p,160,Tadeu Palácio,27.6
+MA000232012,True,p,160,João Castelo,25.6
+MA000232012,True,p,160,Nenhum destes,27.3
+MA000232012,True,p,160,"Washington Oliveira",4.6
+MA000232012,True,p,160,Marcos Silva,4.3
+MA000232012,True,p,160,Haroldo Sabóia,3.6
+MA000232012,True,p,160,NS/NR,7.0
+MA000232012,True,p,161,João Castelo,29.0
+MA000232012,True,p,161,Roberto Rocha,7.8
+MA000232012,True,p,161,Washington Oliveira,5.7
+MA000232012,True,p,161,Marcos Silva,5.7
+MA000232012,True,p,161,Haroldo Sabóia,4.9
+MA000232012,True,p,161,Nenhum destes,37.3
+MA000232012,True,p,161,NS/NR,9.6
+MA000232012,True,p,162,João Castelo,27.5
+MA000232012,True,p,162,Eliziane Gama,16.7
+MA000232012,True,p,162,Nenhum destes,31.1
+MA000232012,True,p,162,Marcos Silva,5.8
+MA000232012,True,p,162,Haroldo Sabóia,5.3
+MA000232012,True,p,162,Washington Oliveira,5.0
+MA000232012,True,p,162,NS/NR,8.6
+MA000672012,False,p,163,Vilson Andrade,51.6
+MA000672012,False,p,163,Dr. Tenório,30.3
+MA000672012,False,p,163,Tita Soares,0.3
+MA000672012,False,p,163,NS/NR,17.8
+MA000672012,True,p,164,Vilson Andrade,53.6
+MA000672012,True,p,164,Dr. Tenório,35.2
+MA000672012,True,p,164,Tita Soares,0.3
+MA000672012,True,p,164,NS/NR,10.9
+MA007242016,False,p,165,Wellington do Curso,19.1
+MA007242016,False,p,165,Eliziane Gama,10.5
+MA007242016,False,p,165,Edivaldo Holanda Jr.,29.1
+MA007242016,False,p,165,Eduardo Braide,2.6
+MA007242016,False,p,165,Fábio Câmara,2.5
+MA007242016,False,p,165,Rose Sales,1.3
+MA007242016,False,p,165,Zé Luis Lago,0.3
+MA007242016,False,p,165,Cláudia Durans,0.3
+MA007242016,False,p,165,Ninguém,10.3
+MA007242016,False,p,165,NS/NR,24.1
+MA007242016,True,p,166,Edivaldo Holanda Jr.,33.5
+MA007242016,True,p,166,Wellington do Curso,22.3
+MA007242016,True,p,166,Eliziane Gama,15.8
+MA007242016,True,p,166,Eduardo Braide,4.5
+MA007242016,True,p,166,Fábio Câmara,3.8
+MA007242016,True,p,166,Rose Sales,2.3
+MA007242016,True,p,166,Zé Luis Lago,1.0
+MA007242016,True,p,166,Cláudia Durans,0.5
+MA007242016,True,p,166,Valdeny Barros,0.1
+MA007242016,True,p,166,Nenhum deles,8.1
+MA007242016,True,p,166,NS/NR,8.3
+MA007242016,True,p,167,Edivaldo Holanda Jr.,45.5
+MA007242016,True,p,167,Eliziane Gama,23.9
+MA007242016,True,p,167,Nenhum deles,25.8
+MA007242016,True,p,167,NS/NR,4.9
+MA007242016,True,p,168,Edivaldo Holanda Jr.,42.0
+MA007242016,True,p,168,Wellington do Curso,40.0
+MA007242016,True,p,168,Nenhum deles,12.9
+MA007242016,True,p,168,NS/NR,5.1
+MA007242016,True,p,169,Wellington do Curso,50.1
+MA007242016,True,p,169,Eliziane Gama,25.4
+MA007242016,True,p,169,Nenhum deles,20.0
+MA007242016,True,p,169,NS/NR,4.5
+MA046332016,False,p,170,Neto Fortes,55.0
+MA046332016,False,p,170,Dr. Junior,38.0
+MA046332016,False,p,170,NS/NR,7.0
+MA046332016,True,p,171,Neto Fortes,56.3
+MA046332016,True,p,171,Dr. Junior,39.3
+MA046332016,True,p,171,Nenhum deles,1.3
+MA046332016,True,p,171,NS/NR,3.0
+MA003922012,True,p,172,Totonho Chicote,51.2
+MA003922012,True,p,172,Simplicio Araújo,29.6
+MA003922012,True,p,172,Ivaldo Lima,13.0
+MA003922012,True,p,172,Branco/Nulo,2.7
+MA003922012,True,p,172,NS/NR,3.7
+MA003222012,True,p,173,Eunélio,59.1
+MA003222012,True,p,173,Mousinho,29.6
+MA003222012,True,p,173,Jadiel França,4.0
+MA003222012,True,p,173,Branco/Nulo,2.0
+MA003222012,True,p,173,NS/NR,5.3
+MA001182012,False,p,174,Nilson Garcia,59.5
+MA001182012,False,p,174,Eliberto,26.5
+MA001182012,False,p,174,NS/NR,14.1
+MA001182012,True,p,175,Nilson Garcia,61.1
+MA001182012,True,p,175,Eliberto,27.8
+MA001182012,True,p,175,Nenhum destes,3.3
+MA001182012,True,p,175,NS/NR,7.8
+MA002342012,False,p,176,Irlahi,37.5
+MA002342012,False,p,176,Calvet Filho,19.9
+MA002342012,False,p,176,Willame Anceles,15.3
+MA002342012,False,p,176,Rosa do Sindicato,12.6
+MA002342012,False,p,176,NS/NR,14.6
+MA002342012,True,p,177,Irlahi,40.5
+MA002342012,True,p,177,Calvet Filho,21.3
+MA002342012,True,p,177,Willame Anceles,16.6
+MA002342012,True,p,177,Rosa do Sindicato,15.3
+MA002342012,True,p,177,NS/NR,6.3
+MA003882012,True,p,178,Fred Maia,51.7
+MA003882012,True,p,178,Acione Marata,38.3
+MA003882012,True,p,178,Branco/Nulo,4.0
+MA003882012,True,p,178,NS/NR,6.0
+MA002542012,False,p,179,Hélder Aragão,33.7
+MA002542012,False,p,179,Prof. Weliton,26.9
+MA002542012,False,p,179,Eduardo Castelo Branco,26.7
+MA002542012,False,p,179,NS/NR,12.6
+MA002542012,True,p,180,Hélder Aragão,34.5
+MA002542012,True,p,180,Prof. Weliton,27.3
+MA002542012,True,p,180,Eduardo Castelo Branco,26.9
+MA002542012,True,p,180,NS/NR,11.2
+MA002672012,False,p,181,Sebastião Madeira,44.3
+MA002672012,False,p,181,Rosangela,30.3
+MA002672012,False,p,181,Carlinhos Amorim,6.3
+MA002672012,False,p,181,Adalberto,1.7
+MA002672012,False,p,181,Justino Filho,0.8
+MA002672012,False,p,181,Aluísio Melo,0.4
+MA002672012,False,p,181,Major Melo,0.3
+MA002672012,False,p,181,Wilson Leite,0.3
+MA002672012,False,p,181,Kleber Miranda,0.1
+MA002672012,False,p,181,NS/NR,15.7
+MA002672012,True,p,182,Sebastião Madeira,45.2
+MA002672012,True,p,182,Rosangela,31.5
+MA002672012,True,p,182,Carlinhos Amorim,7.8
+MA002672012,True,p,182,Adalberto,2.2
+MA002672012,True,p,182,Justino Filho,0.8
+MA002672012,True,p,182,Aluísio Melo,0.5
+MA002672012,True,p,182,Wilson Leite,0.5
+MA002672012,True,p,182,Major Melo,0.4
+MA002672012,True,p,182,Kleber Miranda,0.1
+MA002672012,True,p,182,NS/NR,11.0
+MA001022012,False,p,183,Dr. Alberto,39.8
+MA001022012,False,p,183,Natim,32.8
+MA001022012,False,p,183,Zé Costa,12.0
+MA001022012,False,p,183,NS/NR,15.5
+MA001022012,True,p,184,Dr. Alberto,43.8
+MA001022012,True,p,184,Natim,33.3
+MA001022012,True,p,184,Zé Costa,13.8
+MA001022012,True,p,184,NS/NR,9.3
+MA000912012,False,p,185,Queiroz,47.5
+MA000912012,False,p,185,Jesiel Araujo,37.3
+MA000912012,False,p,185,Ninguém,1.7
+MA000912012,False,p,185,NS/NR,13.5
+MA000912012,True,p,186,Queiroz,49.8
+MA000912012,True,p,186,Jesiel Araújo,39.6
+MA000912012,True,p,186,Nenhum destes,2.3
+MA000912012,True,p,186,NS/NR,8.3
+MA051742016,False,p,187,Moíses do Ventura,38.0
+MA051742016,False,p,187,Abigail,33.3
+MA051742016,False,p,187,NS/NR,28.7
+MA051742016,True,p,188,Moíses do Ventura,47.2
+MA051742016,True,p,188,Abigail,42.2
+MA051742016,True,p,188,Nenhum deles,2.3
+MA051742016,True,p,188,NS/NR,8.3
+MA008262016,False,p,189,Léo Coutinho,23.9
+MA008262016,False,p,189,Fábio Gentil,18.2
+MA008262016,False,p,189,Paulo Marinho Jr,5.6
+MA008262016,False,p,189,Humberto Coutinho,0.3
+MA008262016,False,p,189,Candidato do PT,0.1
+MA008262016,False,p,189,Antônio Barros,0.1
+MA008262016,False,p,189,Nenhum deles,11.7
+MA008262016,False,p,189,NS/NR,40.2
+MA008262016,True,p,190,Léo Coutinho,36.3
+MA008262016,True,p,190,Fábio Gentil,26.3
+MA008262016,True,p,190,Paulo Marinho Jr,10.0
+MA008262016,True,p,190,Nenhum deles,10.5
+MA008262016,True,p,190,NS/NR,16.8
+MA008262016,True,p,191,Léo Coutinho,38.3
+MA008262016,True,p,191,Fábio Gentil,32.9
+MA008262016,True,p,191,Nenhum deles,12.9
+MA008262016,True,p,191,NS/NR,16.0
+MA003592012,True,p,192,Riba do Xerem,46.6
+MA003592012,True,p,192,Pedro Custódio,43.3
+MA003592012,True,p,192,Beta Coutinho,1.4
+MA003592012,True,p,192,Branco/Nulo,2.9
+MA003592012,True,p,192,NS/NR,5.8
+MA000552016,False,p,193,Dra. Vianey Bringel,66.8
+MA000552016,False,p,193,Drº Ribamar,9.0
+MA000552016,False,p,193,Dr. Valter Costa,3.8
+MA000552016,False,p,193,Ednalva,0.5
+MA000552016,False,p,193,Lindenberg Braga,0.3
+MA000552016,False,p,193,Ninguém,3.0
+MA000552016,False,p,193,NS/NR,16.8
+MA000552016,True,p,194,Dra. Vianey Bringel,73.3
+MA000552016,True,p,194,Drº Ribamar,10.0
+MA000552016,True,p,194,Dr. Valter Costa,5.0
+MA000552016,True,p,194,Lindenberg Braga,1.3
+MA000552016,True,p,194,Ednalva,0.5
+MA000552016,True,p,194,Nenhum deles,4.5
+MA000552016,True,p,194,NS/NR,5.5
+MA017062016,False,p,195,Iracy Weba,41.2
+MA017062016,False,p,195,Drª Rosa Cláudia,30.8
+MA017062016,False,p,195,Jorginaldo Filho,11.6
+MA017062016,False,p,195,Delmar,0.3
+MA017062016,False,p,195,Ninguém,0.8
+MA017062016,False,p,195,NS/NR,15.2
+MA017062016,True,p,196,Iracy Weba,45.0
+MA017062016,True,p,196,Drª Rosa Cláudia,33.9
+MA017062016,True,p,196,Jorginaldo Filho,12.9
+MA017062016,True,p,196,Nenhum deles,2.2
+MA017062016,True,p,196,NS/NR,6.0
+MA001442012,False,p,197,Luciano Leitoa,54.8
+MA001442012,False,p,197,Edivar Ribeiro,19.5
+MA001442012,False,p,197,Costa,0.5
+MA001442012,False,p,197,NS/NR,8.6
+MA001442012,True,p,198,Luciano Leitoa,55.8
+MA001442012,True,p,198,Edivar Ribeiro,20.0
+MA001442012,True,p,198,Costa,1.0
+MA001442012,True,p,198,NS/NR,6.7
+MA054572016,False,p,199,Filuca,33.8
+MA054572016,False,p,199,Luciano,27.7
+MA054572016,False,p,199,Dr. Leonardo Sá,21.5
+MA054572016,False,p,199,Antônio Américo,1.2
+MA054572016,False,p,199,Ninguém,1.2
+MA054572016,False,p,199,NS/NR,14.7
+MA054572016,True,p,200,Filuca,35.8
+MA054572016,True,p,200,Luciano,28.8
+MA054572016,True,p,200,Dr. Leonardo Sá,22.7
+MA054572016,True,p,200,Antônio Américo,1.2
+MA054572016,True,p,200,Kelson Vinícius,0.2
+MA054572016,True,p,200,Nenhum deles,1.2
+MA054572016,True,p,200,NS/NR,10.2
+MA001222012,False,p,201,Dr. Érik,42.3
+MA001222012,False,p,201,Rochinha,29.9
+MA001222012,False,p,201,Paulinho Fonseca,11.2
+MA001222012,False,p,201,Aparecida Cardoso,4.5
+MA001222012,False,p,201,Cel.Marcello,1.2
+MA001222012,False,p,201,NS/NR,10.9
+MA001222012,True,p,202,Dr. Érik,44.5
+MA001222012,True,p,202,Rochinha,32.6
+MA001222012,True,p,202,Paulinho Fonseca,11.2
+MA001222012,True,p,202,Aparecida Cardoso,3.7
+MA001222012,True,p,202,Cel.Marcello,1.7
+MA001222012,True,p,202,NS/NR,6.2
+MA0787916,False,p,203,Dr. Orlando,49.0
+MA0787916,False,p,203,Carneirinho,32.5
+MA0787916,False,p,203,Nenhum deles,2.5
+MA0787916,False,p,203,NS/NR,16.0
+MA0787916,True,p,204,Dr. Orlando,52.5
+MA0787916,True,p,204,Carneirinho,36.0
+MA0787916,True,p,204,Nenhum deles,2.5
+MA0787916,True,p,204,NS/NR,9.0
+MA072692016,False,p,205,Ildon Marques,22.2
+MA072692016,False,p,205,Rosangela Curado,21.6
+MA072692016,False,p,205,Delegado Assis,16.5
+MA072692016,False,p,205,Pastor Porto,4.3
+MA072692016,False,p,205,Ribinha Cunha,1.3
+MA072692016,False,p,205,Sebastião Madeira,0.7
+MA072692016,False,p,205,Marco Aurélio,0.3
+MA072692016,False,p,205,Edmilson Sanches,0.2
+MA072692016,False,p,205,Ninguém,4.1
+MA072692016,False,p,205,NS/NR,28.8
+MA072692016,True,p,206,Ildon Marques,27.7
+MA072692016,True,p,206,Rosangela Curado,25.4
+MA072692016,True,p,206,Delegado Assis,22.6
+MA072692016,True,p,206,Pastor Porto,7.1
+MA072692016,True,p,206,Ribinha Cunha,1.6
+MA072692016,True,p,206,Nenhum deles,5.8
+MA072692016,True,p,206,NS/NR,9.9
+MA072692016,True,p,207,Ildon Marques,28.5
+MA072692016,True,p,207,Rosangela Curado,26.4
+MA072692016,True,p,207,Delegado Assis,23.6
+MA072692016,True,p,207,Ribinha Cunha,2.1
+MA072692016,True,p,207,Nenhum deles,7.2
+MA072692016,True,p,207,NS/NR,12.2
+MA001472012,False,p,208,Júnior Franco,35.1
+MA001472012,False,p,208,Profª Rosinha,29.5
+MA001472012,False,p,208,Maria Rita,20.5
+MA001472012,False,p,208,NS/NR,14.9
+MA001472012,True,p,209,Júnior Franco,36.1
+MA001472012,True,p,209,Profª Rosinha,32.1
+MA001472012,True,p,209,Maria Rita,21.9
+MA001472012,True,p,209,NS/NR,9.9
+MA091992016,False,p,210,Edijacir Leite,49.0
+MA091992016,False,p,210,Cícero do Nena,30.3
+MA091992016,False,p,210,Francelino,0.7
+MA091992016,False,p,210,Ninguém,2.3
+MA091992016,False,p,210,NS/NR,17.7
+MA091992016,True,p,211,Edijacir Leite,52.0
+MA091992016,True,p,211,Cícero do Nena,31.3
+MA091992016,True,p,211,Francelino,1.3
+MA091992016,True,p,211,Nenhum deles,3.0
+MA091992016,True,p,211,NS/NR,12.3
+MA049742016,False,p,212,Éric Costa,51.2
+MA049742016,False,p,212,Júnior do Nenzin,35.4
+MA049742016,False,p,212,Selma Carvalho,0.2
+MA049742016,False,p,212,Ninguém,0.2
+MA049742016,False,p,212,NS/NR,13.0
+MA049742016,True,p,213,Éric Costa,53.8
+MA049742016,True,p,213,Júnior do Nenzin,38.0
+MA049742016,True,p,213,Selma Carvalho,0.4
+MA049742016,True,p,213,Nenhum deles,1.0
+MA049742016,True,p,213,NS/NR,6.8
+MA070102016,False,p,214,Éric Costa,44.6
+MA070102016,False,p,214,Júnior do Nenzim,32.6
+MA070102016,False,p,214,Ninguém,2.0
+MA070102016,False,p,214,NS/NR,20.8
+MA070102016,True,p,215,Éric Costa,52.8
+MA070102016,True,p,215,Júnior do Nenzim,38.0
+MA070102016,True,p,215,Nenhum deles,5.8
+MA070102016,True,p,215,NS/NR,3.4
+MA001702016,False,p,216,Ricardo,16.3
+MA001702016,False,p,216,Aleandro,12.0
+MA001702016,False,p,216,Nogueira,11.7
+MA001702016,False,p,216,Júnior,5.0
+MA001702016,False,p,216,Rui Arruda,4.0
+MA001702016,False,p,216,Neto Sá,2.3
+MA001702016,False,p,216,Catarina,0.3
+MA001702016,False,p,216,Ninguém,0.7
+MA001702016,False,p,216,NS/NR,47.7
+MA001702016,True,p,217,Ricardo,28.0
+MA001702016,True,p,217,Aleandro,19.7
+MA001702016,True,p,217,Nogueira,15.0
+MA001702016,True,p,217,Rui Arruda,13.0
+MA001702016,True,p,217,Júnior,7.3
+MA001702016,True,p,217,Nenhum deles,11.7
+MA001702016,True,p,217,NS/NR,5.3
+MA001702016,True,p,218,Ricardo,38.0
+MA001702016,True,p,218,Aleandro,24.7
+MA001702016,True,p,218,Nogueira,16.7
+MA001702016,True,p,218,Nenhum deles,15.0
+MA001702016,True,p,218,NS/NR,5.7
+MA001702016,True,p,219,Ricardo,41.3
+MA001702016,True,p,219,Nogueira,16.7
+MA001702016,True,p,219,Júnior,12.7
+MA001702016,True,p,219,Nenhum deles,21.0
+MA001702016,True,p,219,NS/NR,8.3
+MA001702016,True,p,220,Ricardo,46.7
+MA001702016,True,p,220,Nogueira,19.0
+MA001702016,True,p,220,Nenhum deles,26.3
+MA001702016,True,p,220,NS/NR,8.0
+MA001702016,True,p,221,Ricardo,40.3
+MA001702016,True,p,221,Aleandro,29.0
+MA001702016,True,p,221,Nenhum deles,23.7
+MA001702016,True,p,221,NS/NR,7.0
+MA001702016,True,p,222,Ricardo,44.7
+MA001702016,True,p,222,Júnior,15.7
+MA001702016,True,p,222,Nenhum deles,30.0
+MA001702016,True,p,222,NS/NR,9.7
+MA000572012,False,p,223,Chico Gomes,22.9
+MA000572012,False,p,223,Marcelo Santana,18.2
+MA000572012,False,p,223,Magrado,17.9
+MA000572012,False,p,223,Cand. do Prefeito,1.5
+MA000572012,False,p,223,Oliveira Júnior,1.5
+MA000572012,False,p,223,Ninguém,3.2
+MA000572012,False,p,223,Adriana,0.2
+MA000572012,False,p,223,NS/NR,34.6
+MA000572012,True,p,224,Chico Gomes,28.9
+MA000572012,True,p,224,Marcelo Santana,24.6
+MA000572012,True,p,224,Magrado,21.9
+MA000572012,True,p,224,Nenhum destes,9.2
+MA000572012,True,p,224,NS/NR,15.4
+MA024672016,False,p,225,Alan,46.7
+MA024672016,False,p,225,Fernanda Gonçalo,37.7
+MA024672016,False,p,225,Ninguém,4.7
+MA024672016,False,p,225,NS/NR,11.0
+MA024672016,True,p,226,Alan,47.3
+MA024672016,True,p,226,Fernanda Gonçalo,40.7
+MA024672016,True,p,226,Nenhum deles,4.7
+MA024672016,True,p,226,NS/NR,7.3
+MA056002016,False,p,227,Edivaldo Holanda Jr.,40.88
+MA056002016,False,p,227,Wellington do Curso,26.25
+MA056002016,False,p,227,Eliziane Gama,7.63
+MA056002016,False,p,227,Eduardo Braide,6.63
+MA056002016,False,p,227,Fábio Câmara,3.5
+MA056002016,False,p,227,Rose Sales,2.5
+MA056002016,False,p,227,Zé Luis Lago,0.75
+MA056002016,False,p,227,Valdeny Barros,0.5
+MA056002016,False,p,227,Cláudia Durans,0.38
+MA056002016,False,p,227,Ninguém,4.38
+MA056002016,False,p,227,NS/NR,6.63
+MA056002016,True,p,228,Edivaldo Holanda Jr.,41.5
+MA056002016,True,p,228,Wellington do Curso,27.5
+MA056002016,True,p,228,Eliziane Gama,8.38
+MA056002016,True,p,228,Eduardo Braide,7.25
+MA056002016,True,p,228,Fábio Câmara,4.0
+MA056002016,True,p,228,Rose Sales,2.75
+MA056002016,True,p,228,Zé Luis Lago,1.0
+MA056002016,True,p,228,Valdeny Barros,0.75
+MA056002016,True,p,228,Cláudia Durans,0.5
+MA056002016,True,p,228,Nenhum deles,2.63
+MA056002016,True,p,228,NS/NR,3.75
+MA056002016,True,p,229,Edivaldo Holanda Jr.,53.25
+MA056002016,True,p,229,Eliziane Gama,22.13
+MA056002016,True,p,229,Nenhum deles,11.75
+MA056002016,True,p,229,NS/NR,12.88
+MA056002016,True,p,230,Edivaldo Holanda Jr.,49.0
+MA056002016,True,p,230,Wellington do Curso,42.13
+MA056002016,True,p,230,Nenhum deles,3.88
+MA056002016,True,p,230,NS/NR,5.0
+MA056002016,True,p,231,Wellington do Curso,47.13
+MA056002016,True,p,231,Eliziane Gama,26.13
+MA056002016,True,p,231,Nenhum deles,11.75
+MA056002016,True,p,231,NS/NR,15.0
+MA004162012,True,p,232,Cicin,49.0
+MA004162012,True,p,232,Verbena Macedo,37.0
+MA004162012,True,p,232,Zeca Pereira,7.0
+MA004162012,True,p,232,Branco/Nulo,2.0
+MA004162012,True,p,232,NS/NR,5.0
+MA001502012,False,p,233,Zé Gomes,55.4
+MA001502012,False,p,233,Mansueto,29.2
+MA001502012,False,p,233,Didi,1.8
+MA001502012,False,p,233,NS/NR,13.6
+MA001502012,True,p,234,Zé Gomes,57.5
+MA001502012,True,p,234,Mansueto,30.4
+MA001502012,True,p,234,Didi,2.1
+MA001502012,True,p,234,NS/NR,9.9
+MA040242016,False,p,235,Gabriel Tenório,27.8
+MA040242016,False,p,235,Ninguém,1.4
+MA040242016,False,p,235,NS/NR,25.0
+MA040242016,True,p,236,Gabriel Tenório,31.2
+MA040242016,True,p,236,Nenhum deles,1.4
+MA040242016,True,p,236,NS/NR,11.2
+MA003552012,True,p,237,Dr. Erik,41.5
+MA003552012,True,p,237,Rochinha,37.1
+MA003552012,True,p,237,Paulinho Fonseca,10.9
+MA003552012,True,p,237,Coronel Marcelo,1.2
+MA003552012,True,p,237,"Aparecida Cardoso",1.0
+MA003552012,True,p,237,Branco/Nulo,1.7
+MA003552012,True,p,237,NS/NR,6.5
+MA001132012,False,p,238,Gil Cutrim,51.8
+MA001132012,False,p,238,Júlio Filho,7.3
+MA001132012,False,p,238,Colaço,1.5
+MA001132012,False,p,238,NS/NR,39.5
+MA001132012,True,p,239,Gil Cutrim,59.8
+MA001132012,True,p,239,Júlio Filho,11.5
+MA001132012,True,p,239,Colaço,3.5
+MA001132012,True,p,239,NS/NR,25.3
+MA001382012,False,p,240,Irlan Serra,53.2
+MA001382012,False,p,240,Maria do Rosário,32.0
+MA001382012,False,p,240,Iolanda,2.5
+MA001382012,False,p,240,NS/NR,12.3
+MA001382012,True,p,241,Irlan Serra,54.7
+MA001382012,True,p,241,Maria do Rosário,33.0
+MA001382012,True,p,241,Iolanda,3.9
+MA001382012,True,p,241,NS/NR,8.4
+MA000812012,False,p,242,Éric Costa,46.3
+MA000812012,False,p,242,Carlito Santos,37.0
+MA000812012,False,p,242,NS/NR,16.0
+MA000812012,False,p,242,Antônio Soares,0.3
+MA000812012,False,p,242,Chinês,0.3
+MA000812012,True,p,243,Éric Costa,47.3
+MA000812012,True,p,243,Carlito Santos,38.7
+MA000812012,True,p,243,Chinês,0.7
+MA000812012,True,p,243,Antônio Soares,0.3
+MA000812012,True,p,243,NS/NR,13.0
+MA000462012,False,p,244,Elinaldo Colaço,14.2
+MA000462012,False,p,244,Suely Pereira,51.4
+MA000462012,False,p,244,Dr. Abreu Neto,1.0
+MA000462012,False,p,244,Fernandes Coutinho,1.0
+MA000462012,False,p,244,Gilbertinho Tenório,0.5
+MA000462012,False,p,244,Ninguém,4.0
+MA000462012,False,p,244,NS/NR,27.9
+MA000462012,True,p,245,Suely Pereira,67.8
+MA000462012,True,p,245,Elinaldo Colaço,19.7
+MA000462012,True,p,245,Nenhum destes,5.0
+MA000462012,True,p,245,NS/NR,7.5
+MA013812016,False,p,246,Valmira Miranda,42.6
+MA013812016,False,p,246,Dr. Antônio Carlos,33.4
+MA013812016,False,p,246,Vinicius,1.0
+MA013812016,False,p,246,Ninguém,1.8
+MA013812016,False,p,246,NS/NR,21.2
+MA013812016,True,p,247,Valmira Miranda,46.2
+MA013812016,True,p,247,Dr. Antônio Carlos,36.6
+MA013812016,True,p,247,Vinicius,1.0
+MA013812016,True,p,247,Nenhum deles,8.8
+MA013812016,True,p,247,NS/NR,7.4
+MA004422012,True,p,248,Neto Teixeira,36.7
+MA004422012,True,p,248,Adauto Baratão,26.4
+MA004422012,True,p,248,Coronel Ventura,23.2
+MA004422012,True,p,248,Branco/Nulo,4.7
+MA004422012,True,p,248,NS/NR,9.0
+MA000042012,False,p,249,Hernando Macedo,25.2
+MA000042012,False,p,249,Arlene Costa,18.9
+MA000042012,False,p,249,Dr. Fabrício,7.0
+MA000042012,False,p,249,Ribamar,5.6
+MA000042012,False,p,249,Alexandre Costa,1.0
+MA000042012,False,p,249,Ninguém,0.7
+MA000042012,False,p,249,NS/NR,41.5
+MA000042012,True,p,250,Hernando Macedo,39.2
+MA000042012,True,p,250,Dr. Fabrício,27.2
+MA000042012,True,p,250,Arlene Costa,22.3
+MA000042012,True,p,250,Nenhum destes,8.0
+MA000042012,True,p,250,NS/NR,3.3
+MA000042012,True,p,251,Hernando Macedo,53.5
+MA000042012,True,p,251,Arlene Costa,29.2
+MA000042012,True,p,251,Nenhum destes,14.6
+MA000042012,True,p,251,NS/NR,2.7
+MA003842012,True,p,252,Teresa Murad,52.3
+MA003842012,True,p,252,Domingos Alberto,39.2
+MA003842012,True,p,252,Branco/Nulo,3.5
+MA003842012,True,p,252,NS/NR,5.0
+MA084002016,False,p,253,Zé Farias,30.9
+MA084002016,False,p,253,Olívia Caldas,18.4
+MA084002016,False,p,253,Padre Fábio,5.6
+MA084002016,False,p,253,Gó,4.9
+MA084002016,False,p,253,Idenilde,3.9
+MA084002016,False,p,253,Ninguém,5.6
+MA084002016,False,p,253,NS/NR,29.3
+MA084002016,False,p,253,Machado Neto,1.0
+MA084002016,False,p,253,Ildenor,0.3
+MA084002016,True,p,254,Zé Farias,42.1
+MA084002016,True,p,254,Olívia Caldas,22.7
+MA084002016,True,p,254,Padre Fábio,7.9
+MA084002016,True,p,254,Gó,7.2
+MA084002016,True,p,254,Idenilde,6.3
+MA084002016,True,p,254,Ildenor,1.0
+MA084002016,True,p,254,Machado Neto,1.0
+MA084002016,True,p,254,Nenhum deles,5.6
+MA084002016,True,p,254,NS/NR,6.3
+MA084002016,True,p,255,Zé Farias,43.8
+MA084002016,True,p,255,Olívia Caldas,23.4
+MA084002016,True,p,255,Gó,7.9
+MA084002016,True,p,255,Idenilde,6.6
+MA084002016,True,p,255,Ildenor,1.6
+MA084002016,True,p,255,Machado Neto,1.3
+MA084002016,True,p,255,Nenhum deles,7.9
+MA084002016,True,p,255,NS/NR,7.6
+MA084002016,True,p,256,Zé Farias,43.8
+MA084002016,True,p,256,Olívia Caldas,23.4
+MA084002016,True,p,256,Padre Fábio,8.9
+MA084002016,True,p,256,Idenilde,7.2
+MA084002016,True,p,256,Ildenor,1.6
+MA084002016,True,p,256,Machado Neto,1.0
+MA084002016,True,p,256,Nenhum deles,7.9
+MA084002016,True,p,256,NS/NR,6.3
+MA084002016,True,p,257,Zé Farias,49.0
+MA084002016,True,p,257,Olívia Caldas,26.6
+MA084002016,True,p,257,Nenhum deles,16.8
+MA084002016,True,p,257,NS/NR,7.6
+MA002922012,False,p,258,Dr. Jerry,54.7
+MA002922012,False,p,258,Raimunda Viana,35.0
+MA002922012,False,p,258,NS/NR,10.3
+MA002922012,True,p,259,Dr. Jerry,55.7
+MA002922012,True,p,259,NS/NR,8.9
+MA076942016,False,p,260,Alexandre Baquil,20.8
+MA076942016,False,p,260,Chico Canavieira,18.5
+MA076942016,False,p,260,Romildo do Hospital,16.8
+MA076942016,False,p,260,Francisco,0.8
+MA076942016,False,p,260,Ninguém,2.0
+MA076942016,False,p,260,NS/NR,41.3
+MA076942016,True,p,261,Romildo do Hospital,31.0
+MA076942016,True,p,261,Alexandre Baquil,29.3
+MA076942016,True,p,261,Chico Canavieira,26.5
+MA076942016,True,p,261,Nenhum deles,1.5
+MA076942016,True,p,261,NS/NR,11.8
+MA088452016,False,p,262,Gilberto Aroso,22.5
+MA088452016,False,p,262,Domingos Dutra,14.7
+MA088452016,False,p,262,Prefeito Josemar,7.7
+MA088452016,False,p,262,Inaldo Pereira,6.2
+MA088452016,False,p,262,Raimundo Filho,1.0
+MA088452016,False,p,262,Moraes Maninho,0.5
+MA088452016,False,p,262,Ninguém,5.8
+MA088452016,False,p,262,NS/NR,41.7
+MA088452016,True,p,263,Gilberto Aroso,30.7
+MA088452016,True,p,263,Domingos Dutra,23.8
+MA088452016,True,p,263,Prefeito Josemar,10.7
+MA088452016,True,p,263,Inaldo Pereira,8.7
+MA088452016,True,p,263,Raimundo Filho,3.3
+MA088452016,True,p,263,Moraes Maninho,1.5
+MA088452016,True,p,263,Nenhum deles,12.2
+MA088452016,True,p,263,NS/NR,9.2
+MA073902016,False,p,264,Nato da Nordestina,21.1
+MA073902016,False,p,264,Dr. Washington,16.2
+MA073902016,False,p,264,Dídima Coelho,14.9
+MA073902016,False,p,264,Lino Praseres,5.3
+MA073902016,False,p,264,Zé Mário,4.3
+MA073902016,False,p,264,Ninguém,3.0
+MA073902016,False,p,264,NS/NR,35.3
+MA073902016,True,p,265,Nato da Nordestina,28.1
+MA073902016,True,p,265,Dr. Washington,20.8
+MA073902016,True,p,265,Dídima Coelho,18.5
+MA073902016,True,p,265,Zé Mário,6.6
+MA073902016,True,p,265,Lino Praseres,6.3
+MA073902016,True,p,265,Nenhum deles,4.3
+MA073902016,True,p,265,NS/NR,15.5
+MA017432016,False,p,266,Jairo Madeira,46.7
+MA017432016,False,p,266,Dr. Enoque,18.5
+MA017432016,False,p,266,Dr. Samuel,6.3
+MA017432016,False,p,266,NS/NR,28.5
+MA017432016,True,p,267,Jairo Madeira,52.0
+MA017432016,True,p,267,Dr. Enoque,24.8
+MA017432016,True,p,267,Dr. Samuel,12.9
+MA017432016,True,p,267,Nenhum deles,2.0
+MA017432016,True,p,267,NS/NR,8.3
+MA017432016,True,p,268,Jairo Madeira,57.3
+MA017432016,True,p,268,Dr. Enoque,28.8
+MA017432016,True,p,268,Nenhum deles,5.6
+MA017432016,True,p,268,NS/NR,8.3
+MA017432016,True,p,269,Jairo Madeira,54.3
+MA017432016,True,p,269,Dr. Samuel,28.5
+MA017432016,True,p,269,Nenhum deles,8.3
+MA017432016,True,p,269,NS/NR,8.9
+MA000502012,False,p,270,Simplesmente Maria,37.9
+MA000502012,False,p,270,Djalma Melo,31.4
+MA000502012,False,p,270,Rui Filho,4.2
+MA000502012,False,p,270,Aurinete Freitas,3.2
+MA000502012,False,p,270,Totó Vale,1.6
+MA000502012,False,p,270,Dr. Israel,0.3
+MA000502012,False,p,270,Ninguém,2.3
+MA000502012,False,p,270,NS/NR,19.1
+MA000502012,True,p,271,Simplesmente Maria,42.7
+MA000502012,True,p,271,Djalma Melo,36.9
+MA000502012,True,p,271,Aurinete Freitas,4.9
+MA000502012,True,p,271,Totó Vale,2.9
+MA000502012,True,p,271,Nenhum destes,5.5
+MA000502012,True,p,271,NS/NR,7.1
+MA001932012,False,p,272,Alberico Filho,47.7
+MA001932012,False,p,272,Léo Costa,28.3
+MA001932012,False,p,272,Dr. Baial,10.0
+MA001932012,False,p,272,NS/NR,13.7
+MA001932012,False,p,272,Soraya Batista,0.3
+MA001932012,True,p,273,Alberico Filho,49.0
+MA001932012,True,p,273,Léo Costa,30.3
+MA001932012,True,p,273,Dr. Baial,11.7
+MA001932012,True,p,273,Soraya Batista,0.7
+MA001932012,True,p,273,André Costa,0.3
+MA001932012,True,p,273,NS/NR,8.0
+MA090672016,False,p,274,Miltinho Aragão,42.7
+MA090672016,False,p,274,Rovelio,32.7
+MA090672016,False,p,274,Genilson Alves,2.0
+MA090672016,False,p,274,Dr. Iriomar,1.0
+MA090672016,False,p,274,Ninguém,6.7
+MA090672016,False,p,274,NS/NR,15.0
+MA090672016,True,p,275,Miltinho Aragão,45.7
+MA090672016,True,p,275,Rovelio,39.3
+MA090672016,True,p,275,Genilson Alves,2.0
+MA090672016,True,p,275,Dr. Iriomar,1.0
+MA090672016,True,p,275,Rogerio Garcia,0.0
+MA090672016,True,p,275,Nenhum deles,5.3
+MA090672016,True,p,275,NS/NR,6.7
+MA003212012,True,p,276,Antônio Carlos,52.7
+MA003212012,True,p,276,Valmira Miranda,32.3
+MA003212012,True,p,276,Reinaldo Sousa,6.7
+MA003212012,True,p,276,Nina Melo,0.0
+MA003212012,True,p,276,Branco/Nulo,3.0
+MA003212012,True,p,276,NS/NR,5.3
+MA000482012,False,p,277,Soliney Silva,86.6
+MA000482012,False,p,277,Américo de Souza,9.3
+MA000482012,False,p,277,Doralise Santana,1.9
+MA000482012,False,p,277,NS/NR,2.2
+MA000482012,True,p,278,Soliney Silva,65.3
+MA000482012,True,p,278,Américo de Souza,11.2
+MA000482012,True,p,278,Doralice Santana,6.0
+MA000482012,True,p,278,Jardel Seles,1.5
+MA000482012,True,p,278,Nenhum destes,7.7
+MA000482012,True,p,278,NS/NR,8.4
+MA001192012,False,p,279,Vera,46.1
+MA001192012,False,p,279,Dr. Marcio,34.4
+MA001192012,False,p,279,Banga,7.5
+MA001192012,False,p,279,NS/NR,12.0
+MA001192012,True,p,280,Vera,48.7
+MA001192012,True,p,280,Dr. Marcio,36.0
+MA001192012,True,p,280,Banga,7.8
+MA001192012,True,p,280,NS/NR,7.5
+MA079832016,False,p,281,Edivaldo Holanda Jr,11.7
+MA079832016,False,p,281,Eliziane Gama,9.5
+MA079832016,False,p,281,Wellington do Curso,7.2
+MA079832016,False,p,281,Bira do Pindaré,2.0
+MA079832016,False,p,281,Rose Sales,1.7
+MA079832016,False,p,281,Fábio Câmara,1.6
+MA079832016,False,p,281,Eduardo Braide,1.4
+MA079832016,False,p,281,João Castelo,1.1
+MA079832016,False,p,281,Bentivi,1.0
+MA079832016,False,p,281,Tadeu Palácio,0.2
+MA079832016,False,p,281,Ninguém,5.8
+MA079832016,False,p,281,NS/NR,56.8
+MA079832016,True,p,282,Eliziane Gama,22.4
+MA079832016,True,p,282,Edivaldo Holanda Jr,20.8
+MA079832016,True,p,282,Wellington do Curso,17.5
+MA079832016,True,p,282,Bira do Pindaré,5.6
+MA079832016,True,p,282,Rose Sales,4.4
+MA079832016,True,p,282,Eduardo Braide,3.7
+MA079832016,True,p,282,Fábio Câmara,3.6
+MA079832016,True,p,282,Nenhum deles,11.6
+MA079832016,True,p,282,NS/NR,8.9
+MA079832016,True,p,282,Bentivi,1.5
+MA079832016,True,p,283,Eliziane Gama,23.6
+MA079832016,True,p,283,Edivaldo Holanda Jr,21.7
+MA079832016,True,p,283,Wellington do Curso,19.1
+MA079832016,True,p,283,Rose Sales,4.7
+MA079832016,True,p,283,Eduardo Braide,4.1
+MA079832016,True,p,283,Fábio Câmara,3.8
+MA079832016,True,p,283,Bentivi,2.0
+MA079832016,True,p,283,Nenhum deles,12.0
+MA079832016,True,p,283,NS/NR,9.0
+MA003192012,True,p,284,Gil Cutrim,62.0
+MA003192012,True,p,284,Julio Filho,22.1
+MA003192012,True,p,284,Colaço,5.5
+MA003192012,True,p,284,Branco/Nulo,4.7
+MA003192012,True,p,284,NS/NR,5.6
+MA000702012,False,p,285,Nono,39.9
+MA000702012,False,p,285,Dr. Ribamar,23.1
+MA000702012,False,p,285,Sirino,17.3
+MA000702012,False,p,285,NS/NR,18.4
+MA000702012,False,p,285,Ninguém,1.3
+MA000702012,True,p,286,Nono,42.9
+MA000702012,True,p,286,Dr. Ribamar,25.7
+MA000702012,True,p,286,Sirino,19.6
+MA000702012,True,p,286,Nenhum destes,2.7
+MA000702012,True,p,286,NS/NR,9.1
+MA017402016,False,p,287,Iracy Weba,46.3
+MA017402016,False,p,287,Dra. Rosa Claudia,24.3
+MA017402016,False,p,287,Jorginaldo Filho,8.3
+MA017402016,False,p,287,Ninguém,1.0
+MA017402016,False,p,287,NS/NR,20.0
+MA017402016,True,p,288,Iracy Weba,49.3
+MA017402016,True,p,288,Dra. Rosa Claudia,25.7
+MA017402016,True,p,288,Jorginaldo Filho,9.7
+MA017402016,True,p,288,Nenhum deles,1.3
+MA017402016,True,p,288,NS/NR,14.0
+MA064662016,False,p,289,Dr. David,42.0
+MA064662016,False,p,289,Raimundo Silveira,25.4
+MA064662016,False,p,289,Zé Henrique,15.1
+MA064662016,False,p,289,Toinho da Farmárcia,1.5
+MA064662016,False,p,289,Sarney,1.0
+MA064662016,False,p,289,Ninguém,1.0
+MA064662016,False,p,289,NS/NR,14.1
+MA064662016,True,p,290,Dr. David,43.9
+MA064662016,True,p,290,Raimundo Silveira,27.3
+MA064662016,True,p,290,Zé Henrique,20.0
+MA064662016,True,p,290,Toinho da Farmárcia,2.0
+MA064662016,True,p,290,Sarney,1.5
+MA064662016,True,p,290,Nenhum deles,2.9
+MA064662016,True,p,290,NS/NR,2.4
+MA001332012,False,p,291,Paulo Veloso,50.8
+MA001332012,False,p,291,Carlos do Biné,36.5
+MA001332012,False,p,291,Franzé,2.0
+MA001332012,False,p,291,NS/NR,10.6
+MA001332012,True,p,292,Paulo Veloso,51.5
+MA001332012,True,p,292,Carlos do Biné,38.5
+MA001332012,True,p,292,Franzé,2.3
+MA001332012,True,p,292,NS/NR,7.6
+MA004412012,True,p,293,Alberico Filho,51.0
+MA004412012,True,p,293,Leo Costa,38.7
+MA004412012,True,p,293,Dr. Baial,0.7
+MA004412012,True,p,293,Soraya Batista,0.7
+MA004412012,True,p,293,André Costa,0.3
+MA004412012,True,p,293,Padre Vale,0.3
+MA004412012,True,p,293,Branco/Nulo,2.7
+MA004412012,True,p,293,NS/NR,5.7
+MA024662016,False,p,294,Léo Coutinho,35.7
+MA024662016,False,p,294,Fábio Gentil,22.0
+MA024662016,False,p,294,Ninguém,1.2
+MA024662016,False,p,294,NS/NR,41.2
+MA024662016,True,p,295,Léo Coutinho,49.2
+MA024662016,True,p,295,Fábio Gentil,36.8
+MA024662016,True,p,295,Nenhum deles,2.0
+MA024662016,True,p,295,NS/NR,12.0
+MA002032012,False,p,296,Beto Pixuta,46.5
+MA002032012,False,p,296,Eldo Jorge,41.6
+MA002032012,False,p,296,NS/NR,11.9
+MA002032012,True,p,297,Beto Pixuta,49.5
+MA002032012,True,p,297,Eldo Jorge,42.6
+MA002032012,True,p,297,NS/NR,7.9
+MA000802012,False,p,298,Miltinho Aragão,63.0
+MA000802012,False,p,298,Genilson Alves,10.0
+MA000802012,False,p,298,Zé Maria,9.0
+MA000802012,False,p,298,NS/NR,18.0
+MA000802012,True,p,299,Miltinho Aragão,64.0
+MA000802012,True,p,299,Genilson Alves,12.0
+MA000802012,True,p,299,Zé Maria,10.3
+MA000802012,True,p,299,NS/NR,13.7
+MA011822016,False,p,300,Edivaldo Holanda Jr.,21.0
+MA011822016,False,p,300,Wellington do Curso,12.0
+MA011822016,False,p,300,Eliziane Gama,8.0
+MA011822016,False,p,300,Eduardo Braide,3.1
+MA011822016,False,p,300,Rose Sales,2.0
+MA011822016,False,p,300,Fábio Câmara,2.0
+MA011822016,False,p,300,Ninguém,12.0
+MA011822016,False,p,300,NS/NR,39.9
+MA011822016,True,p,301,Edivaldo Holanda Jr.,30.6
+MA011822016,True,p,301,Wellington do Curso,19.5
+MA011822016,True,p,301,Eliziane Gama,18.5
+MA011822016,True,p,301,Eduardo Braide,6.5
+MA011822016,True,p,301,Fábio Câmara,4.1
+MA011822016,True,p,301,Rose Sales,4.0
+MA011822016,True,p,301,Zé Luís Lago,1.0
+MA011822016,True,p,301,Cláudia Durans,0.0
+MA011822016,True,p,301,Valdeny Barros,0.0
+MA011822016,True,p,301,Nenhum deles,9.8
+MA011822016,True,p,301,NS/NR,6.0
+MA005422012,True,p,302,Edivaldo Holanda Jr.,46.3
+MA005422012,True,p,302,Castelo,41.6
+MA005422012,True,p,302,Branco/Nulo,4.3
+MA005422012,True,p,302,NS/NR,7.9
+MA001112012,False,p,303,Antônio Carlos,33.5
+MA001112012,False,p,303,Valmira Miranda,29.1
+MA001112012,False,p,303,Nina Melo,19.6
+MA001112012,False,p,303,Reinaldo Sousa,4.6
+MA001112012,False,p,303,NS/NR,13.2
+MA001112012,True,p,304,Antônio Carlos,35.9
+MA001112012,True,p,304,Valmira Miranda,28.9
+MA001112012,True,p,304,Nina Melo,21.2
+MA001112012,True,p,304,Reinaldo Sousa,5.0
+MA001112012,True,p,304,NS/NR,9.0
+MA004392012,True,p,305,Dunga,27.6
+MA004392012,True,p,305,Zezinho Matos,22.3
+MA004392012,True,p,305,Zequinha,16.9
+MA004392012,True,p,305,Paulo Matos,10.0
+MA004392012,True,p,305,Walace,9.6
+MA004392012,True,p,305,Juarezinho,3.7
+MA004392012,True,p,305,Branco/Nulo,2.7
+MA004392012,True,p,305,NS/NR,7.3
+MA004072012,True,p,306,Dr. Juran,51.0
+MA004072012,True,p,306,Raimundinho,42.0
+MA004072012,True,p,306,Orfileno Rapozão,0.8
+MA004072012,True,p,306,Priscylla,0.0
+MA004072012,True,p,306,Lima da Eletronorte,0.0
+MA004072012,True,p,306,Branco/Nulo,2.5
+MA004072012,True,p,306,NS/NR,3.8
+MA002192012,False,p,307,Dr. Juran,53.0
+MA002192012,False,p,307,Raimundinho,32.6
+MA002192012,False,p,307,Priscylla,2.5
+MA002192012,False,p,307,NS/NR,11.9
+MA002192012,True,p,308,Dr. Juran,53.7
+MA002192012,True,p,308,Raimundinho,33.8
+MA002192012,True,p,308,Priscylla,2.7
+MA002192012,True,p,308,Lima da Eletronorte,0.0
+MA002192012,True,p,308,Orfileno Rapozão,0.0
+MA002192012,True,p,308,NS/NR,9.7
+MA001202012,False,p,309,Glinoel,51.7
+MA001202012,False,p,309,Carmem Neto,34.8
+MA001202012,False,p,309,Besaliel,0.5
+MA001202012,False,p,309,NS/NR,12.9
+MA001202012,True,p,310,Glinoel,51.7
+MA001202012,True,p,310,Carmem Neto,35.8
+MA001202012,True,p,310,Besaliel,3.0
+MA001202012,True,p,310,NS/NR,9.5
+MA004442012,True,p,311,Luciano Leitoa,51.5
+MA004442012,True,p,311,Edivar Ribeiro,22.4
+MA004442012,True,p,311,"Alexandre Almeida",16.4
+MA004442012,True,p,311,Costa,2.2
+MA004442012,True,p,311,Branco/Nulo,1.7
+MA004442012,True,p,311,NS/NR,5.7
+MA003502012,True,p,312,Carmem Neto,45.9
+MA003502012,True,p,312,Glinoel,44.9
+MA003502012,True,p,312,Branco/Nulo,3.4
+MA003502012,True,p,312,NS/NR,5.9
+MA001452012,False,p,313,Leo Coutinho,49.5
+MA001452012,False,p,313,Paulinho,23.0
+MA001452012,False,p,313,Dr. Helton,5.8
+MA001452012,False,p,313,Mundico Teixeira,1.5
+MA001452012,False,p,313,Agostinho Neto,1.0
+MA001452012,False,p,313,NS/NR,19.3
+MA001452012,True,p,314,Leo Coutinho,52.5
+MA001452012,True,p,314,Paulinho,23.3
+MA001452012,True,p,314,Dr. Helton,9.3
+MA001452012,True,p,314,Mundico Teixeira,2.0
+MA001452012,True,p,314,Agostinho Neto,1.5
+MA001452012,True,p,314,Herbert Dete,1.0
+MA001452012,True,p,314,NS/NR,10.5
+MA000622012,False,p,315,João Castelo,27.5
+MA000622012,False,p,315,Tadeu Palácio,15.8
+MA000622012,False,p,315,Edvaldo Holanda Jr.,14.4
+MA000622012,False,p,315,Washington Oliveira,4.4
+MA000622012,False,p,315,Eliziane Gama,3.0
+MA000622012,False,p,315,Marcos Silva,2.3
+MA000622012,False,p,315,Haroldo Sabóia,1.6
+MA000622012,False,p,315,Flávio Dino,0.6
+MA000622012,False,p,315,Ninguém,6.6
+MA000622012,False,p,315,NS/NR,23.9
+MA000622012,True,p,316,João Castelo,33.5
+MA000622012,True,p,316,Tadeu Palácio,20.1
+MA000622012,True,p,316,Edvaldo Holanda Jr.,19.8
+MA000622012,True,p,316,Washington Oliveira,5.4
+MA000622012,True,p,316,Eliziane Gama,3.9
+MA000622012,True,p,316,Marcos Silva,2.4
+MA000622012,True,p,316,Haroldo Sabóia,2.0
+MA000622012,True,p,316,Nenhum destes,7.0
+MA000622012,True,p,316,NS/NR,5.5
+MA000622012,True,p,316,Ednaldo Neves,0.5
+MA013932016,False,p,317,João Castelo,5.2
+MA013932016,False,p,317,Bira do Pindaré,3.5
+MA013932016,False,p,317,Fábio Câmara,2.0
+MA013932016,False,p,317,Rose Sales,2.0
+MA013932016,False,p,317,Welington do Curso,1.6
+MA013932016,False,p,317,Andrea Murad,1.1
+MA013932016,False,p,317,Neto Evangelista,0.7
+MA013932016,False,p,317,Bentivi,0.3
+MA013932016,False,p,317,Luís Fernando,0.2
+MA013932016,False,p,317,Tadeu Palácio,0.1
+MA013932016,False,p,317,Edivaldo Holanda Jr.,11.1
+MA013932016,False,p,317,Eliziane Gama,8.8
+MA013932016,False,p,317,Ninguém,12.3
+MA013932016,False,p,317,NS/NR,51.1
+MA013932016,True,p,318,Eliziane Gama,21.9
+MA013932016,True,p,318,Edivaldo Holanda Jr.,16.3
+MA013932016,True,p,318,João Castelo,15.6
+MA013932016,True,p,318,Bira do Pindaré,8.1
+MA013932016,True,p,318,Rose Sales,6.5
+MA013932016,True,p,318,Fábio Câmara,5.7
+MA013932016,True,p,318,Welington do Curso,5.5
+MA013932016,True,p,318,Bentivi,0.8
+MA013932016,True,p,318,Nenhum deles,15.6
+MA013932016,True,p,318,NS/NR,4.1
+MA013932016,True,p,319,Eliziane Gama,22.1
+MA013932016,True,p,319,João Castelo,15.7
+MA013932016,True,p,319,Edivaldo Holanda Jr.,15.5
+MA013932016,True,p,319,Bira do Pindaré,8.6
+MA013932016,True,p,319,Rose Sales,7.0
+MA013932016,True,p,319,Welington do Curso,5.8
+MA013932016,True,p,319,Andrea Murad,3.7
+MA013932016,True,p,319,Bentivi,1.1
+MA013932016,True,p,319,Nenhum deles,16.4
+MA013932016,True,p,319,NS/NR,4.2
+MA013932016,True,p,320,Eliziane Gama,23.5
+MA013932016,True,p,320,Edivaldo Holanda Jr.,16.3
+MA013932016,True,p,320,Bira do Pindaré,8.7
+MA013932016,True,p,320,Rose Sales,7.2
+MA013932016,True,p,320,Wellington do Curso,6.6
+MA013932016,True,p,320,Fábio Câmara,6.0
+MA013932016,True,p,320,Neto Evangelista,3.7
+MA013932016,True,p,320,Bentivi,1.2
+MA013932016,True,p,320,Nenhum deles,23.1
+MA013932016,True,p,320,NS/NR,3.8
+MA013932016,True,p,321,Bira do Pindaré,8.5
+MA013932016,True,p,321,Rose Sales,7.6
+MA013932016,True,p,321,Wellington do Curso,7.3
+MA013932016,True,p,321,Eliziane Gama,23.9
+MA013932016,True,p,321,Edivaldo Holanda Jr.,16.3
+MA013932016,True,p,321,Andrea Murad,4.2
+MA013932016,True,p,321,Neto Evangelista,3.3
+MA013932016,True,p,321,Bentivi,1.4
+MA013932016,True,p,321,Nenhum deles,23.6
+MA013932016,True,p,321,NS/NR,4.0
+MA013932016,True,p,322,Eliziane Gama,26.0
+MA013932016,True,p,322,Edivaldo Holanda Jr.,16.9
+MA013932016,True,p,322,Welington do Curso,8.6
+MA013932016,True,p,322,Rose Sales,7.8
+MA013932016,True,p,322,Fábio Câmara,6.6
+MA013932016,True,p,322,Bentivi,1.6
+MA013932016,True,p,322,Nenhum deles,28.3
+MA013932016,True,p,322,NS/NR,4.3
+MA013932016,True,p,323,Eliziane Gama,26.4
+MA013932016,True,p,323,Edivaldo Holanda Jr.,16.9
+MA013932016,True,p,323,Rose Sales,8.8
+MA013932016,True,p,323,Welington do Curso,8.3
+MA013932016,True,p,323,Andrea Murad,3.8
+MA013932016,True,p,323,Bentivi,1.8
+MA013932016,True,p,323,Nenhum deles,29.8
+MA013932016,True,p,323,NS/NR,4.3
+MA003522012,True,p,324,Moreirão,45.6
+MA003522012,True,p,324,"Verônica do Assis Júnior",29.1
+MA003522012,True,p,324,Eliezer,17.0
+MA003522012,True,p,324,Branco/Nulo,2.4
+MA003522012,True,p,324,NS/NR,5.8
+MA002332012,False,p,325,Miltinho Aragão,63.1
+MA002332012,False,p,325,Genilson Alves,19.6
+MA002332012,False,p,325,Zé Maria,2.7
+MA002332012,False,p,325,NS/NR,14.6
+MA002332012,True,p,326,Miltinho Aragão,67.8
+MA002332012,True,p,326,Genilson Alves,21.6
+MA002332012,True,p,326,Zé Maria,4.0
+MA002332012,True,p,326,NS/NR,6.6
+MA002912012,False,p,327,Dr. Omar,54.2
+MA002912012,False,p,327,Zé Farias,26.4
+MA002912012,False,p,327,Gó,6.0
+MA002912012,False,p,327,Serjão Almeida,1.0
+MA002912012,False,p,327,NS/NR,12.4
+MA002912012,True,p,328,Dr. Omar,55.7
+MA002912012,True,p,328,Zé Farias,27.4
+MA002912012,True,p,328,Gó,7.0
+MA002912012,True,p,328,Serjão Almeida,1.0
+MA002912012,True,p,328,Machado Neto,0.0
+MA002912012,True,p,328,NS/NR,9.0
+MA004432012,True,p,329,Eric Costa,51.8
+MA004432012,True,p,329,Carlito Santos,40.2
+MA004432012,True,p,329,Chinês,0.0
+MA004432012,True,p,329,Antonio Soares,0.0
+MA004432012,True,p,329,Branco/Nulo,2.7
+MA004432012,True,p,329,NS/NR,5.3
+MA000222012,False,p,330,Mirian Rocha,37.7
+MA000222012,False,p,330,Zé Martinho,31.0
+MA000222012,False,p,330,Hildo Rocha,2.3
+MA000222012,False,p,330,Biran,2.0
+MA000222012,False,p,330,NS/NR,23.0
+MA000222012,False,p,330,Luis Filho,4.0
+MA000222012,True,p,331,Mirian Rocha,48.3
+MA000222012,True,p,331,Zé Martinho,33.3
+MA000222012,True,p,331,Luís Filho,7.7
+MA000222012,True,p,331,Biran,3.0
+MA000222012,True,p,331,Nenhum destes,2.7
+MA000222012,True,p,331,NS/NR,5.0
+MA000222012,True,p,332,Mirian Rocha,54.0
+MA000222012,True,p,332,Zé Martinho,33.3
+MA000222012,True,p,332,Nenhum destes,6.7
+MA000222012,True,p,332,NS/NR,6.0
+MA000222012,True,p,333,Luís Filho,45.0
+MA000222012,True,p,333,Zé Martinho,35.7
+MA000222012,True,p,333,Nenhum destes,14.0
+MA000222012,True,p,333,NS/NR,5.3
+MA000222012,True,p,334,Zé Martinho,38.7
+MA000222012,True,p,334,Biran,37.3
+MA000222012,True,p,334,Nenhum destes,17.7
+MA000222012,True,p,334,NS/NR,6.3
+MA014102016,False,p,335,Alexandre Almeida,30.2
+MA014102016,False,p,335,Luciano Leitoa,45.1
+MA014102016,False,p,335,Ninguém,8.5
+MA014102016,False,p,335,NS/NR,16.2
+MA014102016,True,p,336,Luciano Leitoa,52.1
+MA014102016,True,p,336,Alexandre Almeida,33.2
+MA014102016,True,p,336,Nenhum deles,6.2
+MA014102016,True,p,336,NS/NR,8.5
+MA003332012,True,p,337,Margareth Bringel,48.2
+MA003332012,True,p,337,Zé Leandro,45.2
+MA003332012,True,p,337,Branco/Nulo,2.7
+MA003332012,True,p,337,NS/NR,4.0
+MA004152012,True,p,338,Padre Jozias,53.5
+MA004152012,True,p,338,Joana da Amovelar,29.2
+MA004152012,True,p,338,Antônio Deco,9.9
+MA004152012,True,p,338,Branco/Nulo,2.5
+MA004152012,True,p,338,NS/NR,5.0
+MA002162012,False,p,339,Teresa Murad,51.9
+MA002162012,False,p,339,Domingos Alberto,37.7
+MA002162012,False,p,339,NS/NR,10.4
+MA002162012,True,p,340,Teresa Murad,52.5
+MA002162012,True,p,340,NS/NR,8.6
+MA001952012,False,p,341,Fred Maia,46.8
+MA001952012,False,p,341,Acione Marata,44.3
+MA001952012,False,p,341,NS/NR,8.9
+MA001952012,True,p,342,Fred Maia,48.3
+MA001952012,True,p,342,NS/NR,6.4
+MA002962012,False,p,343,Eduardo Amorim,51.6
+MA002962012,False,p,343,Amaury,39.2
+MA002962012,False,p,343,NS/NR,9.2
+MA002962012,True,p,344,Eduardo Amorim,52.6
+MA002962012,True,p,344,NS/NR,7.2
+MA055552016,False,p,345,George,45.6
+MA055552016,False,p,345,Alcidinho,25.4
+MA055552016,False,p,345,NS/NR,28.9
+MA055552016,True,p,346,George,55.4
+MA055552016,True,p,346,Alcidinho,36.9
+MA055552016,True,p,346,Vadilson Costa,0.7
+MA055552016,True,p,346,Nenhum deles,2.5
+MA055552016,True,p,346,NS/NR,4.5
+MA000772012,False,p,347,Irlahi,47.7
+MA000772012,False,p,347,Willame Anceles,21.0
+MA000772012,False,p,347,Rosa do Sindicato,11.0
+MA000772012,False,p,347,Calvet Filho,9.7
+MA000772012,False,p,347,Ninguém,4.3
+MA000772012,False,p,347,NS/NR,6.3
+MA000772012,True,p,348,Irlahi,48.7
+MA000772012,True,p,348,Willame Anceles,22.0
+MA000772012,True,p,348,Rosa do Sindicato,11.7
+MA000772012,True,p,348,Calvet Filho,9.7
+MA000772012,True,p,348,Nenhum destes,4.3
+MA000772012,True,p,348,NS/NR,3.7
+MA001322012,False,p,349,Sebastião Madeira,44.8
+MA001322012,False,p,349,Rosangela,22.3
+MA001322012,False,p,349,Carlinhos Amorim,5.3
+MA001322012,False,p,349,Justino Filho,2.8
+MA001322012,False,p,349,Wilson Leite,1.2
+MA001322012,False,p,349,Adalberto,0.8
+MA001322012,False,p,349,Kleber Miranda,0.8
+MA001322012,False,p,349,Major  Melo,0.3
+MA001322012,False,p,349,NS/NR,21.6
+MA001322012,True,p,350,Rosangela,25.5
+MA001322012,True,p,350,Sebastião Madeira,47.9
+MA001322012,True,p,350,Carlinhos Amorim,9.0
+MA001322012,True,p,350,Justino Filho,2.8
+MA001322012,True,p,350,Adalberto,1.0
+MA001322012,True,p,350,Wilson Leite,0.8
+MA001322012,True,p,350,Kleber Miranda,0.8
+MA001322012,True,p,350,Aluísio Melo,0.3
+MA001322012,True,p,350,Major  Melo,0.2
+MA001322012,True,p,350,NS/NR,11.6
+MA091982016,False,p,351,Edivaldo Holanda Jr.,16.9
+MA091982016,False,p,351,Eliziane Gama,11.2
+MA091982016,False,p,351,Wellington do Curso,10.7
+MA091982016,False,p,351,Rose Sales,3.1
+MA091982016,False,p,351,Eduardo Braide,2.3
+MA091982016,False,p,351,Fábio Câmara,1.6
+MA091982016,False,p,351,Ninguém,6.6
+MA091982016,False,p,351,NS/NR,47.6
+MA091982016,True,p,352,Edivaldo Holanda Jr.,25.2
+MA091982016,True,p,352,Eliziane Gama,21.8
+MA091982016,True,p,352,Wellington do Curso,18.7
+MA091982016,True,p,352,Rose Sales,6.6
+MA091982016,True,p,352,Eduardo Braide,4.9
+MA091982016,True,p,352,Fábio Câmara,4.3
+MA091982016,True,p,352,Cláudia Durans,0.4
+MA091982016,True,p,352,Valdeny Barros,0.1
+MA091982016,True,p,352,Nenhum deles,11.1
+MA091982016,True,p,352,NS/NR,6.9
+MA091982016,True,p,353,Edivaldo Holanda Jr.,25.7
+MA091982016,True,p,353,Eliziane Gama,22.7
+MA091982016,True,p,353,Wellington do Curso,20.1
+MA091982016,True,p,353,Eduardo Braide,5.1
+MA091982016,True,p,353,Fábio Câmara,4.9
+MA091982016,True,p,353,Cláudia Durans,0.5
+MA091982016,True,p,353,Valdeny Barros,0.3
+MA091982016,True,p,353,Nenhum deles,13.5
+MA091982016,True,p,353,NS/NR,7.2
+MA091982016,True,p,354,Edivaldo Holanda Jr.,25.6
+MA091982016,True,p,354,Eliziane Gama,23.2
+MA091982016,True,p,354,Wellington do Curso,21.1
+MA091982016,True,p,354,Eduardo Braide,6.6
+MA091982016,True,p,354,Cláudia Durans,0.5
+MA091982016,True,p,354,Valdeny Barros,0.5
+MA091982016,True,p,354,Nenhum deles,15.0
+MA091982016,True,p,354,NS/NR,7.5
+MA091982016,True,p,355,Edivaldo Holanda Jr,33.1
+MA091982016,True,p,355,Wellington do Curso,30.2
+MA091982016,True,p,355,Nenhum deles,26.6
+MA091982016,True,p,355,NS/NR,10.1
+MA091982016,True,p,356,Eliziane Gama,32.9
+MA091982016,True,p,356,Edivaldo Holanda Jr.,30.6
+MA091982016,True,p,356,Nenhum deles,26.2
+MA091982016,True,p,356,NS/NR,10.3
+MA091982016,True,p,357,Eliziane Gama,30.0
+MA091982016,True,p,357,Wellington do Curso,28.0
+MA091982016,True,p,357,Nenhum deles,30.7
+MA091982016,True,p,357,NS/NR,11.3
+MA070092016,False,p,358,Vianey Bringel,45.3
+MA070092016,False,p,358,Ribamar Alves,6.5
+MA070092016,False,p,358,Cirino,3.0
+MA070092016,False,p,358,Delegado Valter,2.8
+MA070092016,False,p,358,Sousa Neto,0.5
+MA070092016,False,p,358,Fernando Ipiranga,0.3
+MA070092016,False,p,358,Ninguém,1.5
+MA070092016,False,p,358,NS/NR,40.3
+MA070092016,True,p,359,Vianey Bringel,63.3
+MA070092016,True,p,359,Cirino,8.5
+MA070092016,True,p,359,Ribamar Alves,8.0
+MA070092016,True,p,359,Delegado Valter,6.0
+MA070092016,True,p,359,Sousa Neto,2.3
+MA070092016,True,p,359,Fernando Ipiranga,0.5
+MA070092016,True,p,359,Nenhum deles,5.0
+MA070092016,True,p,359,NS/NR,6.5
+MA070092016,True,p,360,Vianey Bringel,63.5
+MA070092016,True,p,360,Cirino,9.0
+MA070092016,True,p,360,Ribamar Alves,8.0
+MA070092016,True,p,360,Delegado Valter,3.0
+MA070092016,True,p,360,Nenhum deles,8.0
+MA070092016,True,p,360,NS/NR,8.5
+MA070092016,True,p,361,Vianey Bringel,73.5
+MA070092016,True,p,361,Ribamar Alves,7.0
+MA070092016,True,p,361,Nenhum deles,9.0
+MA070092016,True,p,361,NS/NR,10.5
+MA070092016,True,p,362,Vianey Bringel,70.8
+MA070092016,True,p,362,Cirino,14.0
+MA070092016,True,p,362,Nenhum deles,6.8
+MA070092016,True,p,362,NS/NR,8.5
+MA070092016,True,p,363,Vianey Bringel,72.8
+MA070092016,True,p,363,Delegado Valter,9.3
+MA070092016,True,p,363,Nenhum deles,9.5
+MA070092016,True,p,363,NS/NR,8.5
+MA070092016,True,p,364,Vianey Bringel,72.8
+MA070092016,True,p,364,Sousa Neto,8.3
+MA070092016,True,p,364,Nenhum deles,10.5
+MA070092016,True,p,364,NS/NR,8.5
+MA000872012,False,p,365,João Castelo,29.5
+MA000872012,False,p,365,Edvaldo Holanda Jr.,18.6
+MA000872012,False,p,365,Tadeu Palácio,13.4
+MA000872012,False,p,365,Washington Oliveira,4.3
+MA000872012,False,p,365,Eliziane Gama,3.9
+MA000872012,False,p,365,Haroldo Sabóia,1.9
+MA000872012,False,p,365,Marcos Silva,1.3
+MA000872012,False,p,365,Ninguém,5.9
+MA000872012,False,p,365,NS/NR,21.4
+MA000872012,True,p,366,João Castelo,32.6
+MA000872012,True,p,366,Edvaldo Holanda Jr.,21.6
+MA000872012,True,p,366,Tadeu Palácio,16.6
+MA000872012,True,p,366,Washington Oliveira,6.1
+MA000872012,True,p,366,Eliziane Gama,5.3
+MA000872012,True,p,366,Haroldo Sabóia,1.9
+MA000872012,True,p,366,Marcos Silva,1.4
+MA000872012,True,p,366,Ednaldo Neves,0.1
+MA000872012,True,p,366,Nenhum destes,4.5
+MA000872012,True,p,366,NS/NR,9.9
+MA049892016,True,p,367,Eric Costa,55.0
+MA049892016,True,p,367,Junior do Nenzin,39.3
+MA049892016,True,p,367,Selma Carvalho,0.0
+MA049892016,True,p,367,Nenhum deles,2.0
+MA049892016,True,p,367,NS/NR,3.8
+MA079392016,False,p,368,Nilda Barbalho,14.0
+MA079392016,False,p,368,Júnior do Nenzim,4.8
+MA079392016,False,p,368,Dr. Jerônimo Ferry,3.0
+MA079392016,False,p,368,Éric Costa,37.8
+MA079392016,False,p,368,Raimundo Carvalho,0.8
+MA079392016,False,p,368,Nenhum deles,0.4
+MA079392016,False,p,368,NS/NR,39.2
+MA079392016,True,p,369,Éric Costa,45.4
+MA079392016,True,p,369,Nilda Barbalho,19.4
+MA079392016,True,p,369,Júnior do Nenzim,10.4
+MA079392016,True,p,369,Dr. Jerônimo Ferry,6.6
+MA079392016,True,p,369,Raimundo Carvalho,2.8
+MA079392016,True,p,369,Nenhum deles,6.0
+MA079392016,True,p,369,NS/NR,9.4
+MA079392016,True,p,370,Éric Costa,46.8
+MA079392016,True,p,370,Nilda Barbalho,25.8
+MA079392016,True,p,370,Nenhum deles,11.2
+MA079392016,True,p,370,NS/NR,12.0
+MA079392016,True,p,370,Raimundo Carvalho,4.2
+MA079392016,True,p,371,Éric Costa,47.6
+MA079392016,True,p,371,Nilda Barbalho,28.0
+MA079392016,True,p,371,Nenhum deles,12.2
+MA079392016,True,p,371,NS/NR,12.2
+MA079392016,True,p,372,Éric Costa,50.0
+MA079392016,True,p,372,Dr. Jerônimo Ferry,20.2
+MA079392016,True,p,372,Nenhum deles,16.6
+MA079392016,True,p,372,NS/NR,13.2
+MA079392016,True,p,373,Éric Costa,51.0
+MA079392016,True,p,373,Júnior do Nenzim,21.8
+MA079392016,True,p,373,Nenhum deles,14.8
+MA079392016,True,p,373,NS/NR,12.4
+MA004982012,True,p,374,Dr. Raimundinho,49.5
+MA004982012,True,p,374,Aluizinho do Posto,46.0
+MA004982012,True,p,374,Branco/Nulo,2.0
+MA004982012,True,p,374,NS/NR,2.5
+MA001692012,False,p,375,Totonho Chicote,40.6
+MA001692012,False,p,375,Simplício Araújo,24.4
+MA001692012,False,p,375,Walber,18.5
+MA001692012,False,p,375,NS/NR,16.5
+MA001692012,True,p,376,Totonho Chicote,42.4
+MA001692012,True,p,376,Simplício Araújo,25.2
+MA001692012,True,p,376,Walber,20.9
+MA001692012,True,p,376,NS/NR,11.5
+MA000432012,False,p,377,Paulo Marinho Jr.,14.5
+MA000432012,False,p,377,Helton Mesquita,6.8
+MA000432012,False,p,377,Léo Coutinho,33.3
+MA000432012,False,p,377,Márcia Marinho,2.3
+MA000432012,False,p,377,Agostinho Neto,0.3
+MA000432012,False,p,377,Júnior Martins,0.3
+MA000432012,False,p,377,Ironaldo,0.3
+MA000432012,False,p,377,Dr. Flávio,0.3
+MA000432012,False,p,377,Ninguém,4.0
+MA000432012,False,p,377,NS/NR,38.3
+MA000432012,True,p,378,Léo Coutinho,46.3
+MA000432012,True,p,378,Paulo Marinho Jr.,24.0
+MA000432012,True,p,378,Helton Mesquita,14.8
+MA000432012,True,p,378,Agostinho Neto,2.8
+MA000432012,True,p,378,Mundico Teixeira,1.0
+MA000432012,True,p,378,Herbert Silva,0.8
+MA000432012,True,p,378,Nenhum destes,5.0
+MA000432012,True,p,378,NS/NR,5.5
+MA000742016,False,p,379,Talita Laci,26.7
+MA000742016,False,p,379,Eudes Barros,18.3
+MA000742016,False,p,379,Ocileia,18.0
+MA000742016,False,p,379,Mauricio Almeida,2.0
+MA000742016,False,p,379,Ninguém,2.3
+MA000742016,False,p,379,NS/NR,32.7
+MA000742016,True,p,380,Talita Laci,32.0
+MA000742016,True,p,380,Ocileia,22.3
+MA000742016,True,p,380,Eudes Barros,20.3
+MA000742016,True,p,380,Mauricio Almeida,3.0
+MA000742016,True,p,380,Nenhum deles,6.7
+MA000742016,True,p,380,NS/NR,15.7
+MA086902016,False,p,381,Luanna,45.8
+MA086902016,False,p,381,Zé Leandro,31.0
+MA086902016,False,p,381,Jusimar Rodrigues,11.2
+MA086902016,False,p,381,Cirineu Cutrim,0.6
+MA086902016,False,p,381,Hecio Noronha,0.2
+MA086902016,False,p,381,NS/NR,11.2
+MA086902016,True,p,382,Luanna,48.0
+MA086902016,True,p,382,Zé Leandro,31.4
+MA086902016,True,p,382,Jusimar Rodrigues,12.0
+MA086902016,True,p,382,Cirineu Cutrim,0.8
+MA086902016,True,p,382,Hecio Noronha,0.4
+MA086902016,True,p,382,Nenhum deles,0.8
+MA086902016,True,p,382,NS/NR,6.6
+MA002062012,False,p,383,Zé Alberto,43.0
+MA002062012,False,p,383,Zé Vieira,29.4
+MA002062012,False,p,383,Nonato Chaves,9.7
+MA002062012,False,p,383,NS/NR,17.9
+MA002062012,True,p,384,Zé Alberto,45.3
+MA002062012,True,p,384,Zé Vieira,32.8
+MA002062012,True,p,384,Nonato Chaves,11.7
+MA002062012,True,p,384,NS/NR,10.2
+MA001232012,False,p,385,Soliney Silva,57.3
+MA001232012,False,p,385,Américo de Sousa,19.0
+MA001232012,False,p,385,Doralice Santana,4.0
+MA001232012,False,p,385,Jardel Seles,1.3
+MA001232012,False,p,385,NS/NR,18.3
+MA001232012,True,p,386,Soliney Silva,60.3
+MA001232012,True,p,386,Américo de Sousa,20.7
+MA001232012,True,p,386,Doralice Santana,5.3
+MA001232012,True,p,386,Jardel Seles,2.0
+MA001232012,True,p,386,NS/NR,11.7
+MA0447816,False,p,387,Luciano Leitoa,50.3
+MA0447816,False,p,387,Alexandre Almeida,31.8
+MA0447816,False,p,387,Ninguém,2.3
+MA0447816,False,p,387,NS/NR,15.8
+MA0447816,True,p,388,Luciano Leitoa,52.0
+MA0447816,True,p,388,Alexandre Almeida,31.8
+MA0447816,True,p,388,Nenhum deles,2.3
+MA0447816,True,p,388,NS/NR,14.0
+MA010822016,False,p,389,Francisco Nagib,40.3
+MA010822016,False,p,389,Biné Figueiredo,32.0
+MA010822016,False,p,389,Pedro Belo,5.0
+MA010822016,False,p,389,Chiquinho,1.5
+MA010822016,False,p,389,Professor Rafael,1.0
+MA010822016,False,p,389,Ninguém,7.2
+MA010822016,False,p,389,NS/NR,13.0
+MA010822016,True,p,390,Francisco Nagib,43.5
+MA010822016,True,p,390,Biné Figueiredo,35.5
+MA010822016,True,p,390,Pedro Belo,8.0
+MA010822016,True,p,390,Chiquinho,3.0
+MA010822016,True,p,390,Professor Rafael,1.5
+MA010822016,True,p,390,Nenhum deles,2.8
+MA010822016,True,p,390,NS/NR,5.7
+MA002822012,False,p,391,Tonhão,27.7
+MA002822012,False,p,391,D. Socorro,9.4
+MA002822012,False,p,391,NS/NR,13.9
+MA002822012,True,p,392,"Francivaldo Vasconcelos",51.5
+MA002822012,True,p,392,Tonhão,28.2
+MA002822012,True,p,392,D. Socorro,10.4
+MA002822012,True,p,392,Dr. Celso,0.0
+MA002822012,True,p,392,NS/NR,9.9
+MA000022012,False,p,393,Paulo Marinho Jr.,10.3
+MA000022012,False,p,393,Léo Coutinho,27.7
+MA000022012,False,p,393,Helton Mesquita,3.7
+MA000022012,False,p,393,Cand. do Prefeito,2.3
+MA000022012,False,p,393,Márcia Marinho,2.0
+MA000022012,False,p,393,Catulé,1.3
+MA000022012,False,p,393,Júnior Martins,1.0
+MA000022012,False,p,393,Outros,4.3
+MA000022012,False,p,393,Ninguém,5.3
+MA000022012,False,p,393,NS/NR,42.0
+MA000022012,True,p,394,Léo Coutinho,41.0
+MA000022012,True,p,394,Paulo Marinho Jr,22.3
+MA000022012,True,p,394,Helton Mesquita,17.3
+MA000022012,True,p,394,Agostinho Neto,2.7
+MA000022012,True,p,394,Ney Jefferson do PT,2.3
+MA000022012,True,p,394,Nenhum destes,6.7
+MA000022012,True,p,394,NS/NR,7.7
+MA000022012,True,p,395,Léo Coutinho,45.7
+MA000022012,True,p,395,Helton Mesquita,26.7
+MA000022012,True,p,395,Agostinho Neto,4.7
+MA000022012,True,p,395,Ney Jefferson do PT,3.7
+MA000022012,True,p,395,Nenhum destes,9.7
+MA000022012,True,p,395,NS/NR,9.7
+MA000022012,True,p,396,Léo Coutinho,48.0
+MA000022012,True,p,396,Paulo Marinho Jr,24.7
+MA000022012,True,p,396,Agostinho Neto,4.7
+MA000022012,True,p,396,Ney Jefferson do PT,4.0
+MA000022012,True,p,396,Nenhum destes,8.7
+MA000022012,True,p,396,NS/NR,10.0
+MA026942016,False,p,397,Zé da Folha,30.4
+MA026942016,False,p,397,Edison do Totonho,5.0
+MA026942016,False,p,397,Horácio Neto,5.0
+MA026942016,False,p,397,Biscoito,4.8
+MA026942016,False,p,397,Tratorzão,3.6
+MA026942016,False,p,397,Fran Edson Cardoso,1.4
+MA026942016,False,p,397,Outros,1.8
+MA026942016,False,p,397,Nenhum deles,0.4
+MA026942016,False,p,397,NS/NR,47.6
+MA026942016,True,p,398,Zé da Folha,53.8
+MA026942016,True,p,398,Horácio Neto,19.4
+MA026942016,True,p,398,Biscoito,10.4
+MA026942016,True,p,398,Nenhum deles,9.8
+MA026942016,True,p,398,NS/NR,6.6
+MA026942016,True,p,399,Zé da Folha,53.0
+MA026942016,True,p,399,Edison do Totonho,22.6
+MA026942016,True,p,399,Nenhum deles,8.8
+MA026942016,True,p,399,Biscoito,8.4
+MA026942016,True,p,399,NS/NR,7.2
+MA026942016,True,p,400,Zé da Folha,54.8
+MA026942016,True,p,400,Fran Edson Cardoso,16.0
+MA026942016,True,p,400,Biscoito,10.8
+MA026942016,True,p,400,Nenhum deles,10.0
+MA026942016,True,p,400,NS/NR,8.4
+MA000492012,False,p,401,Biné Figueiredo,20.3
+MA000492012,False,p,401,Francsico Nagib,7.7
+MA000492012,False,p,401,Zito Rolim,39.8
+MA000492012,False,p,401,Zé Inácio,1.2
+MA000492012,False,p,401,Ricardo Archer,0.8
+MA000492012,False,p,401,Prof. Celso Moreira,0.4
+MA000492012,False,p,401,Dr. Zé Francisco,0.2
+MA000492012,False,p,401,Ninguém,1.4
+MA000492012,False,p,401,NS/NR,28.2
+MA000492012,True,p,402,Zito Rolim,42.4
+MA000492012,True,p,402,Biné Figueiredo,26.3
+MA000492012,True,p,402,Francisco Nagib,12.4
+MA000492012,True,p,402,Nenhum destes,4.4
+MA000492012,True,p,402,Zé Inácio,3.6
+MA000492012,True,p,402,Prof. Celso Moreira,1.6
+MA000492012,True,p,402,NS/NR,9.4
+MA003172012,True,p,403,Gleide Santos,44.9
+MA003172012,True,p,403,Elson Santos,40.5
+MA003172012,True,p,403,Profº Milton,7.2
+MA003172012,True,p,403,NS/NR,7.4
+MA000202012,False,p,404,Léo Coutinho,27.8
+MA000202012,False,p,404,Paulo Marinho Jr,9.5
+MA000202012,False,p,404,Dr. Helton Mesquita,4.0
+MA000202012,False,p,404,Ney Jefferson,0.5
+MA000202012,False,p,404,Pedro Amorim,0.3
+MA000202012,False,p,404,Fábio Gentil,0.5
+MA000202012,False,p,404,Ninguém,3.8
+MA000202012,False,p,404,NS/NR,53.8
+MA000202012,True,p,405,Léo Coutinho,41.0
+MA000202012,True,p,405,Paulo Marinho Jr.,28.5
+MA000202012,True,p,405,Dr. Helton  Mesquita,11.8
+MA000202012,True,p,405,Ney Jefferson,2.3
+MA000202012,True,p,405,Pedro  Amorim,1.8
+MA000202012,True,p,405,Zezinho Assunção,1.3
+MA000202012,True,p,405,Agostinho Neto,1.0
+MA000202012,True,p,405,Nenhum destes,8.3
+MA000202012,True,p,405,NS/NR,4.3
+MA000202012,True,p,406,Léo Coutinho,42.3
+MA000202012,True,p,406,Paulo Marinho Jr.,33.5
+MA000202012,True,p,406,Agostinho Neto,4.0
+MA000202012,True,p,406,Ney Jefferson,3.8
+MA000202012,True,p,406,Nenhum destes,12.0
+MA000202012,True,p,406,NS/NR,4.5
+MA000202012,True,p,407,Léo Coutinho,44.3
+MA000202012,True,p,407,Dr Helton Mesquita,19.8
+MA000202012,True,p,407,Agostinho Neto,2.8
+MA000202012,True,p,407,Ney Jefferson,2.3
+MA000202012,True,p,407,Nenhum destes,24.8
+MA000202012,True,p,407,NS/NR,6.3
+MA096412016,False,p,408,Dra. Camyla,45.0
+MA096412016,False,p,408,Padre Paulo,26.0
+MA096412016,False,p,408,Constancio de Bento,7.0
+MA096412016,False,p,408,Junior de Valdivino,4.0
+MA096412016,False,p,408,Ninguém,4.7
+MA096412016,False,p,408,NS/NR,13.3
+MA096412016,True,p,409,Dra. Camyla,46.3
+MA096412016,True,p,409,Padre Paulo,26.7
+MA096412016,True,p,409,Constancio de Bento,8.0
+MA096412016,True,p,409,Junior de Valdivino,5.0
+MA096412016,True,p,409,Tenente Eduardo,0.7
+MA096412016,True,p,409,Nenhum deles,4.0
+MA096412016,True,p,409,NS/NR,9.3
+MA000322012,False,p,410,"Zé Alberto, o Véio do Limão",38.7
+MA000322012,False,p,410,Rodrigo,25.5
+MA000322012,False,p,410,Alex,1.3
+MA000322012,False,p,410,Alvira,1.3
+MA000322012,False,p,410,Outros,1.0
+MA000322012,False,p,410,Ninguém,1.0
+MA000322012,False,p,410,NS/NR,31.1
+MA000322012,True,p,411,"Zé Alberto, o Véio do Limão",41.4
+MA000322012,True,p,411,Rodrigo,31.5
+MA000322012,True,p,411,Alvira,11.9
+MA000322012,True,p,411,Alex,4.0
+MA000322012,True,p,411,Lucinho,1.0
+MA000322012,True,p,411,Selma,0.3
+MA000322012,True,p,411,Nenhum destes,4.3
+MA000322012,True,p,411,NS/NR,5.6
+MA000322012,True,p,412,"Zé Alberto, o Véio do Limão",44.0
+MA000322012,True,p,412,Rodrigo,37.1
+MA000322012,True,p,412,Nenhum destes,7.9
+MA000322012,True,p,412,NS/NR,10.9
+MA000322012,True,p,413,Rodrigo,48.7
+MA000322012,True,p,413,Selma,9.3
+MA000322012,True,p,413,Nenhum destes,25.2
+MA000322012,True,p,413,NS/NR,16.9
+MA000322012,True,p,414,Rodrigo,40.7
+MA000322012,True,p,414,Alvira,34.8
+MA000322012,True,p,414,Nenhum destes,13.9
+MA000322012,True,p,414,NS/NR,10.6
+MA001122012,False,p,415,Alberico Filho,43.0
+MA001122012,False,p,415,Leo Costa,26.3
+MA001122012,False,p,415,Dr. Baial,16.3
+MA001122012,False,p,415,Padre Vale,1.0
+MA001122012,False,p,415,Soraya Batista,1.0
+MA001122012,False,p,415,André Costa,0.3
+MA001122012,False,p,415,NS/NR,12.0
+MA001122012,True,p,416,Alberico Filho,45.0
+MA001122012,True,p,416,Leo Costa,28.0
+MA001122012,True,p,416,Dr. Baial,16.0
+MA001122012,True,p,416,Padre Vale,1.0
+MA001122012,True,p,416,Soraya Batista,1.0
+MA001122012,True,p,416,Nenhum destes,2.0
+MA001122012,True,p,416,NS/NR,7.0
+MA030492016,False,p,417,Juscelino Oliveira,33.8
+MA030492016,False,p,417,Benjamin Oliveira,22.5
+MA030492016,False,p,417,Prof. Milton,3.5
+MA030492016,False,p,417,José Melgaço,2.0
+MA030492016,False,p,417,Ninguém,2.0
+MA030492016,False,p,417,NS/NR,36.3
+MA030492016,True,p,418,Juscelino Oliveira,42.3
+MA030492016,True,p,418,Benjamin Oliveira,29.0
+MA030492016,True,p,418,Prof. Milton,7.0
+MA030492016,True,p,418,José Melgaço,3.0
+MA030492016,True,p,418,Nenhum deles,5.3
+MA030492016,True,p,418,NS/NR,13.5
+MA020252016,False,p,419,Joice Marinho,45.3
+MA020252016,False,p,419,Dr. Gilson Bandeira,35.3
+MA020252016,False,p,419,Raimundinho Carlota,11.0
+MA020252016,False,p,419,Hilmar Viana,1.0
+MA020252016,False,p,419,NS/NR,7.3
+MA020252016,True,p,420,Joice Marinho,45.3
+MA020252016,True,p,420,Dr. Gilson Bandeira,35.7
+MA020252016,True,p,420,Raimundinho Carlota,12.3
+MA020252016,True,p,420,Hilmar Viana,1.3
+MA020252016,True,p,420,Nenhum deles,0.3
+MA020252016,True,p,420,NS/NR,5.0
+MA002212012,False,p,421,Luziane,52.2
+MA002212012,False,p,421,Zé Ernani,32.5
+MA002212012,False,p,421,NS/NR,15.3
+MA002212012,True,p,422,Luziane,53.7
+MA002212012,True,p,422,Zé Ernani,34.5
+MA002212012,True,p,422,NS/NR,11.8
+MA000842012,False,p,423,Zezildo Almeida,46.0
+MA000842012,False,p,423,Dr. Lobato,41.7
+MA000842012,False,p,423,NS/NR,12.3
+MA000842012,True,p,424,Zezildo Almeida,47.3
+MA000842012,True,p,424,Dr. Lobato,43.0
+MA000842012,True,p,424,NS/NR,9.7
+MA005932016,False,p,425,Mercial Arruda,52.8
+MA005932016,False,p,425,Simone Limeira,35.3
+MA005932016,False,p,425,Ezequiel Latão,2.5
+MA005932016,False,p,425,Adoan Sapucaia,2.3
+MA005932016,False,p,425,Ninguém,1.3
+MA005932016,False,p,425,NS/NR,6.0
+MA005932016,True,p,426,Mercial Arruda,54.0
+MA005932016,True,p,426,Simone Limeira,36.3
+MA005932016,True,p,426,Adoan Sapucaia,3.8
+MA005932016,True,p,426,Ezequiel Latão,2.5
+MA005932016,True,p,426,Nenhum deles,1.3
+MA005932016,True,p,426,NS/NR,2.3
+MA016362016,False,p,427,Zé Gomes,50.8
+MA016362016,False,p,427,Francisca Primo,42.5
+MA016362016,False,p,427,Ninguém,1.0
+MA016362016,False,p,427,NS/NR,5.8
+MA016362016,True,p,428,Zé Gomes,51.0
+MA016362016,True,p,428,Francisca Primo,43.3
+MA016362016,True,p,428,Nenhum deles,1.0
+MA016362016,True,p,428,NS/NR,4.8
+MA007792016,False,p,429,Ferdnando Coutinho,45.0
+MA007792016,False,p,429,Gabriel Tenório,20.4
+MA007792016,False,p,429,Elinaldo Colaço,0.8
+MA007792016,False,p,429,Ninguém,1.0
+MA007792016,False,p,429,NS/NR,32.8
+MA007792016,True,p,430,Ferdnando Coutinho,53.6
+MA007792016,True,p,430,Gabriel Tenório,28.2
+MA007792016,True,p,430,Nenhum deles,2.2
+MA007792016,True,p,430,NS/NR,16.0
+MA007792016,True,p,431,Ferdnando Coutinho,59.4
+MA007792016,True,p,431,Elinaldo Colaço,9.6
+MA007792016,True,p,431,Nenhum deles,13.0
+MA007792016,True,p,431,NS/NR,18.0
+MA007792016,True,p,432,Gabriel Tenório,48.0
+MA007792016,True,p,432,Elinado Colaço,7.0
+MA007792016,True,p,432,Nenhum deles,24.6
+MA007792016,True,p,432,NS/NR,20.4
+MA002812012,False,p,433,Dr. Raimundinho,48.8
+MA002812012,False,p,433,Aluizinho do Posto,36.8
+MA002812012,False,p,433,NS/NR,14.4
+MA002812012,True,p,434,Dr. Raimundinho,49.8
+MA002812012,True,p,434,NS/NR,12.4
+MA001142012,False,p,435,Prof. Josemar,40.0
+MA001142012,False,p,435,Gilberto,11.0
+MA001142012,False,p,435,Núbia Dutra,5.0
+MA001142012,False,p,435,Almeida,3.7
+MA001142012,False,p,435,Moraes Maninho,1.3
+MA001142012,False,p,435,NS/NR,39.0
+MA001142012,True,p,436,Prof. Josemar,44.0
+MA001142012,True,p,436,Gilberto,13.3
+MA001142012,True,p,436,Núbia Dutra,8.7
+MA001142012,True,p,436,Nenhum destes,15.3
+MA001142012,True,p,436,NS/NR,11.7
+MA001142012,True,p,436,Almeida,4.7
+MA001142012,True,p,436,Moraes Maninho,2.3
+MA002012012,False,p,437,"Dr. Emanoel Carvalho",59.2
+MA002012012,False,p,437,Dr. Junior,24.8
+MA002012012,False,p,437,Quinco,7.2
+MA002012012,False,p,437,NS/NR,8.9
+MA002012012,True,p,438,"Dr. Emanoel Carvalho",60.4
+MA002012012,True,p,438,Dr. Junior,25.2
+MA002012012,True,p,438,Quinco,7.7
+MA002012012,True,p,438,NS/NR,6.7
+MA002802012,False,p,439,Eudina,53.0
+MA002802012,False,p,439,Gerônimo,33.2
+MA002802012,False,p,439,NS/NR,13.9
+MA002802012,True,p,440,Eudina,55.4
+MA002802012,True,p,440,NS/NR,10.4
+MA002182012,False,p,441,Hernando Macedo,48.3
+MA002182012,False,p,441,Arlene Costa,33.3
+MA002182012,False,p,441,Dr. Fabrício,6.7
+MA002182012,False,p,441,NS/NR,11.7
+MA002182012,True,p,442,Hernando Macedo,49.7
+MA002182012,True,p,442,Arlene Costa,34.3
+MA002182012,True,p,442,Dr. Fabrício,7.3
+MA002182012,True,p,442,NS/NR,8.7
+MA002842012,False,p,443,Cláudio Cunha,46.8
+MA002842012,False,p,443,Cecé Monteiro,35.8
+MA002842012,False,p,443,Lourival,8.0
+MA002842012,False,p,443,NS/NR,9.5
+MA002842012,True,p,444,Cláudio Cunha,48.3
+MA002842012,True,p,444,Cecé Monteiro,36.8
+MA002842012,True,p,444,Lourival,9.0
+MA002842012,True,p,444,NS/NR,6.0

@@ -1,0 +1,1084 @@
+tse_id,estimulada,position,scenario,candidate,value
+BR015842018,False,pr,0,Jair Bolsonaro (PSL),32.0
+BR015842018,False,pr,0,Fernando Haddad (PT),17.0
+BR015842018,False,pr,0,Ciro Gomes (PDT),9.0
+BR015842018,False,pr,0,PT/ Candidato do PT/ 13,4.0
+BR015842018,False,pr,0,Geraldo Alckmin (PSDB),4.0
+BR015842018,False,pr,0,No 17,2.0
+BR015842018,False,pr,0,Joao Amoedo (NOVO),2.0
+BR015842018,False,pr,0,Candidato do Lula/ apoiado pelo Lula/ partido ,1.0
+BR015842018,False,pr,0,Henrique Meirelles (MDB),1.0
+BR015842018,False,pr,0,Cabo Daciolo (PATRI),1.0
+BR015842018,False,pr,0,Lula,1.0
+BR015842018,False,pr,0,Guilherme Boulos (PSOL),1.0
+BR015842018,False,pr,0,Alvaro Dias (PODE),0.0
+BR015842018,False,pr,0,Outras respostas,0.0
+BR015842018,False,pr,0,Em branco/ nulo/ nenhum,2.0
+BR015842018,False,pr,0,Nao sabe,5.0
+BR015842018,False,pr,0,Recusa,18.0
+BR015842018,False,pr,0,Total em %,0.0
+BR015842018,False,pr,0,Base ponderada,100.0
+BR015842018,False,pr,0,Total Nos. absolutos,19536.0
+BR025812018,False,pr,1,Jair Bolsonaro (PSL),31.0
+BR025812018,False,pr,1,Fernando Haddad (PT),17.0
+BR025812018,False,pr,1,Ciro Gomes (PDT),7.0
+BR025812018,False,pr,1,Geraldo Alckmin (PSDB),4.0
+BR025812018,False,pr,1,PT/ Candidato do PT/ 13,3.0
+BR025812018,False,pr,1,Joao Amoedo (NOVO),2.0
+BR025812018,False,pr,1,No 17,1.0
+BR025812018,False,pr,1,Candidato do Lula/ apoiado pelo Lula/ partido ,1.0
+BR025812018,False,pr,1,Marina Silva (REDE),1.0
+BR025812018,False,pr,1,Lula,1.0
+BR025812018,False,pr,1,Alvaro Dias (PODE),1.0
+BR025812018,False,pr,1,Cabo Daciolo (PATRI),1.0
+BR025812018,False,pr,1,Em branco/ nulo/ nenhum,1.0
+BR025812018,False,pr,1,Outras respostas,6.0
+BR025812018,False,pr,1,Nao sabe,2.0
+BR025812018,False,pr,1,Recusa,22.0
+BR025812018,False,pr,1,Total em %,1.0
+BR025812018,False,pr,1,Base ponderada,100.0
+BR025812018,False,pr,1,Total Nos. absolutos,10930.0
+BR055962018,False,pr,2,Jair Bolsonaro (PSL),22.0
+BR055962018,False,pr,2,Fernando Haddad (PT),8.0
+BR055962018,False,pr,2,Ciro Gomes (PDT),7.0
+BR055962018,False,pr,2,Lula,5.0
+BR055962018,False,pr,2,Geraldo Alckmin (PSDB),3.0
+BR055962018,False,pr,2,Marina Silva (REDE),3.0
+BR055962018,False,pr,2,Joao Amoedo (NOVO),2.0
+BR055962018,False,pr,2,Candidato do Lula/ apoiado pelo Lula/ partido ,1.0
+BR055962018,False,pr,2,Alvaro Dias (PODE),1.0
+BR055962018,False,pr,2,Henrique Meirelles (MDB),1.0
+BR055962018,False,pr,2,Em branco/ nulo/ nenhum,1.0
+BR055962018,False,pr,2,Outras respostas,12.0
+BR055962018,False,pr,2,Nao sabe,3.0
+BR055962018,False,pr,2,Total em %,32.0
+BR055962018,False,pr,2,Base ponderada,100.0
+BR055962018,False,pr,2,Total Nos. absolutos,2820.0
+BR086872018,False,pr,3,Jair Bolsonaro (PSL),25.0
+BR086872018,False,pr,3,Fernando Haddad (PT),17.0
+BR086872018,False,pr,3,Ciro Gomes (PDT),6.0
+BR086872018,False,pr,3,Geraldo Alckmin (PSDB),4.0
+BR086872018,False,pr,3,PT/ Candidato do PT/ 13,2.0
+BR086872018,False,pr,3,Joao Amoedo (NOVO),2.0
+BR086872018,False,pr,3,Lula,2.0
+BR086872018,False,pr,3,Candidato do Lula/ apoiado pelo Lula/ ,1.0
+BR086872018,False,pr,3,Henrique Meirelles (MDB),1.0
+BR086872018,False,pr,3,Alvaro Dias (PODE),1.0
+BR086872018,False,pr,3,Em branco/ nulo/ nenhum,1.0
+BR086872018,False,pr,3,Outras respostas,8.0
+BR086872018,False,pr,3,Nao sabe,3.0
+BR086872018,False,pr,3,Total em %,27.0
+BR086872018,False,pr,3,Base ponderada,100.0
+BR086872018,False,pr,3,Total Nos. absolutos,9000.0
+BR086872018,False,pr,4,Jair Bolsonaro (PSL),25.0
+BR086872018,False,pr,4,Fernando Haddad (PT),17.0
+BR086872018,False,pr,4,Ciro Gomes (PDT),6.0
+BR086872018,False,pr,4,Geraldo Alckmin (PSDB),4.0
+BR086872018,False,pr,4,PT/ Candidato do PT/ 13,2.0
+BR086872018,False,pr,4,Joao Amoedo (NOVO),2.0
+BR086872018,False,pr,4,Lula,2.0
+BR086872018,False,pr,4,Candidato do Lula/ apoiado pelo Lula/ partido ,1.0
+BR086872018,False,pr,4,Henrique Meirelles (MDB),1.0
+BR086872018,False,pr,4,Alvaro Dias (PODE),1.0
+BR086872018,False,pr,4,Em branco/ nulo/ nenhum,1.0
+BR086872018,False,pr,4,Outras respostas,8.0
+BR086872018,False,pr,4,Nao sabe,3.0
+BR086872018,False,pr,4,Total em %,27.0
+BR086872018,False,pr,4,Base ponderada,100.0
+BR086872018,False,pr,4,Total Nos. absolutos,9000.0
+DF030472018,False,g,5,Ibaneis (MDB),17.0
+DF030472018,False,g,5,Eliana Pedrosa (PROS),10.0
+DF030472018,False,g,5,Rodrigo Rollemberg (PSB),8.0
+DF030472018,False,g,5,Alberto Fraga (DEM),8.0
+DF030472018,False,g,5,Rogerio Rosso (PSD),5.0
+DF030472018,False,g,5,Julio Miragaya (PT),2.0
+DF030472018,False,g,5,Alexandre Guerra (NOVO),2.0
+DF030472018,False,g,5,General Paulo Chagas (PRP),1.0
+DF030472018,False,g,5,Fatima Sousa (PSOL),1.0
+DF030472018,False,g,5,PT/ Candidato do PT/ 13,1.0
+DF030472018,False,g,5,Outras respostas,4.0
+DF030472018,False,g,5,Em branco/ Nulo/ nenhum,11.0
+DF030472018,False,g,5,Nao sabe,31.0
+DF030472018,False,g,5,Total em %,100.0
+DF030472018,False,g,5,Base ponderada,1050.0
+DF030472018,False,g,5,Total Nos. absolutos,1050.0
+DF050892018,False,g,6,Eliana Pedrosa (PROS),11.0
+DF050892018,False,g,6,Alberto Fraga (DEM),10.0
+DF050892018,False,g,6,Rodrigo Rollemberg (PSB),8.0
+DF050892018,False,g,6,Ibaneis (MDB),7.0
+DF050892018,False,g,6,Rogerio Rosso (PSD),5.0
+DF050892018,False,g,6,Miragaya do PT (PT),2.0
+DF050892018,False,g,6,General Paulo Chagas (PRP),2.0
+DF050892018,False,g,6,Alexandre Guerra (NOVO),2.0
+DF050892018,False,g,6,Outras respostas,7.0
+DF050892018,False,g,6,Em branco/ Nulo/ nenhum,11.0
+DF050892018,False,g,6,Nao pretende votar,1.0
+DF050892018,False,g,6,Nao sabe,35.0
+DF050892018,False,g,6,Total em %,100.0
+DF050892018,False,g,6,Base ponderada,914.0
+DF050892018,False,g,6,Total Nos. absolutos,914.0
+DF051132018,False,g,7,Ibaneis (MDB),26.0
+DF051132018,False,g,7,Eliana Pedrosa (PROS),10.0
+DF051132018,False,g,7,Rodrigo Rollemberg (PSB),8.0
+DF051132018,False,g,7,Rogerio Rosso (PSD),6.0
+DF051132018,False,g,7,Alberto Fraga (DEM),6.0
+DF051132018,False,g,7,Outras respostas,4.0
+DF051132018,False,g,7,Fatima Sousa (PSOL),3.0
+DF051132018,False,g,7,General Paulo Chagas (PRP),2.0
+DF051132018,False,g,7,Julio Miragaya (PT),2.0
+DF051132018,False,g,7,Alexandre Guerra (NOVO),2.0
+DF051132018,False,g,7,Em branco/ Nulo/ nenhum,6.0
+DF051132018,False,g,7,Nao sabe,24.0
+DF051132018,False,g,7,Total em %,100.0
+DF051132018,False,g,7,Base ponderada,1512.0
+DF051132018,False,g,7,Total Nos. absolutos,1512.0
+DF061062018,False,g,8,Ibaneis (MDB),31.0
+DF061062018,False,g,8,Rodrigo Rollemberg (PSB),9.0
+DF061062018,False,g,8,Eliana Pedrosa (PROS),8.0
+DF061062018,False,g,8,Rogerio Rosso (PSD),6.0
+DF061062018,False,g,8,Alberto Fraga (DEM),5.0
+DF061062018,False,g,8,General Paulo Chagas (PRP),3.0
+DF061062018,False,g,8,Fatima Sousa (PSOL),2.0
+DF061062018,False,g,8,Julio Miragaya (PT),2.0
+DF061062018,False,g,8,Alexandre Guerra (NOVO),1.0
+DF061062018,False,g,8,Em branco/ Nulo/ nenhum,5.0
+DF061062018,False,g,8,Outras respostas,4.0
+DF061062018,False,g,8,Nao sabe,23.0
+DF061062018,False,g,8,Total em %,100.0
+DF061062018,False,g,8,Base ponderada,2089.0
+DF061062018,False,g,8,Total Nos. absolutos,2089.0
+DF061062018,False,s,9,Leila do Volei (PSB),29.0
+DF061062018,False,s,9,Izalci (PSDB),27.0
+DF061062018,False,s,9,Cristovam Buarque (PPS),23.0
+DF061062018,False,s,9,Chico Leite (REDE),27.0
+DF061062018,False,s,9,Wasny (PT),11.0
+DF061062018,False,s,9,Fadi Faraj (PRP),3.0
+DF061062018,False,s,9,Paulo Roque (NOVO),8.0
+DF061062018,False,s,9,Fernando Marques (SD),4.0
+DF061062018,False,s,9,Juiz Everardo Ribeiro (PMN),4.0
+DF061062018,False,s,9,Marivaldo Pereira (PSOL),1.0
+DF061062018,False,s,9,Marcelo Neves (PT),1.0
+DF061062018,False,s,9,Brigadeiro Atila Maia (PRTB),1.0
+DF061062018,False,s,9,Professora Amabile (PR),2.0
+DF061062018,False,s,9,Chico Sant'Anna (PSOL),1.0
+DF061062018,False,s,9,Joao Pedro Ferraz (PPL),1.0
+DF061062018,False,s,9,Helio Queiroz (PP),1.0
+DF061062018,False,s,9,Robson (PSTU),2.0
+DF061062018,False,s,9,Danilo Matoso (PCO),1.0
+DF061062018,False,s,9,Romilda Teixeira (PSDB),1.0
+DF061062018,False,s,9,Em branco/ nulo/ nenhum para primeira vaga,12.0
+DF061062018,False,s,9,Em branco/ nulo/ nenhum para segunda vaga,11.0
+DF061062018,False,s,9,Nao sabe para primeira vaga,12.0
+DF061062018,False,s,9,Nao sabe para segunda vaga,13.0
+MG020762018,False,g,10,Antonio Anastasia (PSDB),20.0
+MG020762018,False,g,10,Romeu Zema (NOVO),9.0
+MG020762018,False,g,10,Fernando Pimentel (PT),8.0
+MG020762018,False,g,10,Adalclever Lopes (MDB),1.0
+MG020762018,False,g,10,PT/ Candidato do PT/ 13,1.0
+MG020762018,False,g,10,Outras respostas,7.0
+MG020762018,False,g,10,Em branco/ nulo/ nenhum,12.0
+MG020762018,False,g,10,Nao sabe,42.0
+MG020762018,False,g,10,Total em %,100.0
+MG020762018,False,g,10,Base ponderada,1585.0
+MG020762018,False,g,10,Total Nos. absolutos,1585.0
+MG042892018,False,g,11,Antonio Anastasia (PSDB),15.0
+MG042892018,False,g,11,Fernando Pimentel (PT),7.0
+MG042892018,False,g,11,Romeu Zema (NOVO),3.0
+MG042892018,False,g,11,PT/ Candidato do PT/ 13,1.0
+MG042892018,False,g,11,Outras respostas,5.0
+MG042892018,False,g,11,Em branco/ nulo/ nenhum,15.0
+MG042892018,False,g,11,Nao sabe,53.0
+MG042892018,False,g,11,Total em %,100.0
+MG042892018,False,g,11,Base ponderada,1302.0
+MG042892018,False,g,11,Total Nos. absolutos,1302.0
+MG043472018,False,g,12,Antonio Anastasia (PSDB),17.0
+MG043472018,False,g,12,Fernando Pimentel (PT),7.0
+MG043472018,False,g,12,Romeu Zema (NOVO),5.0
+MG043472018,False,g,12,Adalclever Lopes (MDB),1.0
+MG043472018,False,g,12,PT/ Candidato do PT/ 13,1.0
+MG043472018,False,g,12,Outras respostas,6.0
+MG043472018,False,g,12,Em branco/ nulo/ nenhum,13.0
+MG043472018,False,g,12,Nao pretende votar,0.0
+MG043472018,False,g,12,Nao sabe,50.0
+MG043472018,False,g,12,Total em %,100.0
+MG043472018,False,g,12,Base ponderada,1384.0
+MG043472018,False,g,12,Total Nos. absolutos,1384.0
+PE030312018,False,g,13,Paulo Camara (PSB),19.0
+PE030312018,False,g,13,Armando Monteiro (PTB),15.0
+PE030312018,False,g,13,No atual Governador,2.0
+PE030312018,False,g,13,Candidato do Lula/ apoiado pelo Lula/ partido ,1.0
+PE030312018,False,g,13,Julio Lossio (REDE),1.0
+PE030312018,False,g,13,Dani Portela (PSOL),1.0
+PE030312018,False,g,13,Outras respostas,1.0
+PE030312018,False,g,13,Em branco/ nulo/ nenhum,5.0
+PE030312018,False,g,13,Nao vota,15.0
+PE030312018,False,g,13,Nao sabe,1.0
+PE030312018,False,g,13,Total em %,40.0
+PE030312018,False,g,13,Base ponderada,100.0
+PE030312018,False,g,13,Total Nos. absolutos,1302.0
+PE051002018,False,g,14,Paulo Camara (PSB),25.0
+PE051002018,False,g,14,Armando Monteiro (PTB),14.0
+PE051002018,False,g,14,No 40,2.0
+PE051002018,False,g,14,No 14,2.0
+PE051002018,False,g,14,Dani Portela (PSOL),1.0
+PE051002018,False,g,14,Julio Lossio (REDE),1.0
+PE051002018,False,g,14,Mauricio Rands (PROS),1.0
+PE051002018,False,g,14,Jarbas,1.0
+PE051002018,False,g,14,Candidato do Lula/ apoiado pelo Lula/ partido ,1.0
+PE051002018,False,g,14,Outras respostas,1.0
+PE051002018,False,g,14,Em branco/ nulo/ nenhum,4.0
+PE051002018,False,g,14,Nao sabe,17.0
+PE051002018,False,g,14,Total em %,30.0
+PE051002018,False,g,14,Base ponderada,100.0
+PE051002018,False,g,14,Total Nos. absolutos,1482.0
+PE051002018,False,g,15,Paulo Camara (PSB),25.0
+PE051002018,False,g,15,Armando Monteiro (PTB),15.0
+PE051002018,False,g,15,Dani Portela (PSOL),1.0
+PE051002018,False,g,15,Mauricio Rands (PROS),1.0
+PE051002018,False,g,15,Julio Lossio (REDE),1.0
+PE051002018,False,g,15,No 40,3.0
+PE051002018,False,g,15,No 14,2.0
+PE051002018,False,g,15,No atual Governador,1.0
+PE051002018,False,g,15,Outras respostas,6.0
+PE051002018,False,g,15,Em branco/ nulo/ nenhum,16.0
+PE051002018,False,g,15,Nao sabe,29.0
+PE051002018,False,g,15,Total em %,100.0
+PE051002018,False,g,15,Base ponderada,2674.0
+PE051002018,False,g,15,Total Nos. absolutos,2674.0
+PE093512018,False,g,16,Paulo Camara (PSB),19.0
+PE093512018,False,g,16,Armando Monteiro (PTB),13.0
+PE093512018,False,g,16,Candidato do Lula/ apoiado pelo Lula/ partido ,1.0
+PE093512018,False,g,16,Julio Lossio (REDE),1.0
+PE093512018,False,g,16,Outras respostas,1.0
+PE093512018,False,g,16,Em branco/ nulo/ nenhum,8.0
+PE093512018,False,g,16,Nao sabe,19.0
+PE093512018,False,g,16,Total em %,39.0
+PE093512018,False,g,16,Base ponderada,100.0
+PE093512018,False,g,16,Total Nos. absolutos,1232.0
+RJ009772018,False,g,17,Eduardo Paes (DEM),15.0
+RJ009772018,False,g,17,Garotinho (PRP),9.0
+RJ009772018,False,g,17,Romario (PODE),6.0
+RJ009772018,False,g,17,Indio (PSD),4.0
+RJ009772018,False,g,17,Tarcisio Motta (PSOL),3.0
+RJ009772018,False,g,17,Wilson Witzel (PSC),3.0
+RJ009772018,False,g,17,Marcia Tiburi (PT),1.0
+RJ009772018,False,g,17,Pedro Fernandes (PDT),1.0
+RJ009772018,False,g,17,Marcelo Trindade (NOVO),1.0
+RJ009772018,False,g,17,PT/ Candidato do PT/ 13,1.0
+RJ009772018,False,g,17,Outras respostas,5.0
+RJ009772018,False,g,17,Em branco/ nulo/ nenhum,15.0
+RJ009772018,False,g,17,Nao sabe,36.0
+RJ009772018,False,g,17,Total em %,100.0
+RJ009772018,False,g,17,Base ponderada,1414.0
+RJ009772018,False,g,17,Total Nos. absolutos,1414.0
+RJ021552018,False,g,18,Eduardo Paes (DEM),17.0
+RJ021552018,False,g,18,Wilson Witzel (PSC),7.0
+RJ021552018,False,g,18,Romario (PODE),7.0
+RJ021552018,False,g,18,Tarcisio Motta (PSOL),6.0
+RJ021552018,False,g,18,Indio (PSD),4.0
+RJ021552018,False,g,18,Pedro Fernandes (PDT),2.0
+RJ021552018,False,g,18,Marcia Tiburi (PT),2.0
+RJ021552018,False,g,18,No 20,1.0
+RJ021552018,False,g,18,PT/ Candidato do PT/ 13,1.0
+RJ021552018,False,g,18,Em branco/ nulo/ nenhum,10.0
+RJ021552018,False,g,18,Outras respostas,9.0
+RJ021552018,False,g,18,Nao sabe,34.0
+RJ021552018,False,g,18,Total em %,100.0
+RJ021552018,False,g,18,Base ponderada,1542.0
+RJ021552018,False,g,18,Total Nos. absolutos,1542.0
+SP042722018,False,g,19,Joao Doria (PSDB),15.0
+SP042722018,False,g,19,Paulo Skaf (MDB),13.0
+SP042722018,False,g,19,Marcio Franca (PSB),11.0
+SP042722018,False,g,19,Luiz Marinho (PT),3.0
+SP042722018,False,g,19,PT/ Candidato do PT/ 13,2.0
+SP042722018,False,g,19,Geraldo Alckimin,1.0
+SP042722018,False,g,19,Professora Lisete (PSOL),1.0
+SP042722018,False,g,19,Rogerio Chequer (NOVO),1.0
+SP042722018,False,g,19,Rodrigo Tavares (PRTB),1.0
+SP042722018,False,g,19,Major Costa e Silva (DC),0.0
+SP042722018,False,g,19,Outras respostas,8.0
+SP042722018,False,g,19,Em branco/ nulo/ nenhum,10.0
+SP042722018,False,g,19,Nao sabe,36.0
+SP042722018,False,g,19,Total em %,100.0
+SP042722018,False,g,19,Base ponderada,4506.0
+SP042722018,False,g,19,Total Nos. absolutos,4506.0
+SP050202018,False,g,20,Joao Doria (PSDB),13.0
+SP050202018,False,g,20,Paulo Skaf (MDB),12.0
+SP050202018,False,g,20,Marcio Franca (PSB),10.0
+SP050202018,False,g,20,Luiz Marinho (PT),4.0
+SP050202018,False,g,20,Geraldo Alckimin,2.0
+SP050202018,False,g,20,Professora Lisete (PSOL),1.0
+SP050202018,False,g,20,PT/ Candidato do PT/ 13,1.0
+SP050202018,False,g,20,Rogerio Chequer (NOVO),0.0
+SP050202018,False,g,20,Rodrigo Tavares (PRTB),0.0
+SP050202018,False,g,20,Em branco/ nulo/ nenhum,10.0
+SP050202018,False,g,20,Outras respostas,7.0
+SP050202018,False,g,20,Nao sabe,40.0
+SP050202018,False,g,20,Total em %,100.0
+SP050202018,False,g,20,Base ponderada,2597.0
+SP050202018,False,g,20,Total Nos. absolutos,2597.0
+SP072212018,False,g,21,Paulo Skaf (MDB),11.0
+SP072212018,False,g,21,Joao Doria (PSDB),11.0
+SP072212018,False,g,21,Marcio Franca (PSB),7.0
+SP072212018,False,g,21,Luiz Marinho (PT),2.0
+SP072212018,False,g,21,Geraldo Alckimin,2.0
+SP072212018,False,g,21,PT/ Candidato do PT/ 13,1.0
+SP072212018,False,g,21,Professora Lisete (PSOL),1.0
+SP072212018,False,g,21,Outras respostas,6.0
+SP072212018,False,g,21,Em branco/ nulo/ nenhum,13.0
+SP072212018,False,g,21,Nao sabe,45.0
+SP072212018,False,g,21,Total em %,100.0
+SP072212018,False,g,21,Base ponderada,2101.0
+SP072212018,False,g,21,Total Nos. absolutos,2101.0
+BR002142018,True,pr,22,Jair Bolsonaro (PSL),49.0
+BR002142018,True,pr,22,Fernando Haddad (PT),36.0
+BR002142018,True,pr,22,Em branco/ nulo/ nenhum,8.0
+BR002142018,True,pr,22,Nao sabe,6.0
+BR002142018,True,pr,22,Total em %,100.0
+BR002142018,True,pr,22,Base ponderada,3235.0
+BR002142018,True,pr,22,Total Nos. absolutos,3235.0
+BR015842018,True,pr,23,Jair Bolsonaro (PSL),36.0
+BR015842018,True,pr,23,Fernando Haddad (PT),22.0
+BR015842018,True,pr,23,Ciro Gomes (PDT),13.0
+BR015842018,True,pr,23,Geraldo Alckmin (PSDB),7.0
+BR015842018,True,pr,23,Marina Silva (REDE),3.0
+BR015842018,True,pr,23,Joao Amoedo (NOVO),3.0
+BR015842018,True,pr,23,Alvaro Dias (PODE),2.0
+BR015842018,True,pr,23,Henrique Meirelles (MDB),2.0
+BR015842018,True,pr,23,Cabo Daciolo (PATRI),1.0
+BR015842018,True,pr,23,Guilherme Boulos (PSOL),1.0
+BR015842018,True,pr,23,Vera (PSTU),0.0
+BR015842018,True,pr,23,Joao Goulart Filho (PPL),0.0
+BR015842018,True,pr,23,Eymael (DC),0.0
+BR015842018,True,pr,23,Em branco/ nulo/ nenhum,6.0
+BR015842018,True,pr,23,Nao sabe,4.0
+BR015842018,True,pr,23,Total em %,100.0
+BR015842018,True,pr,23,Base ponderada,19536.0
+BR015842018,True,pr,23,Total Nos. absolutos,19536.0
+BR025812018,True,pr,24,Jair Bolsonaro (PSL),35.0
+BR025812018,True,pr,24,Fernando Haddad (PT),22.0
+BR025812018,True,pr,24,Ciro Gomes (PDT),11.0
+BR025812018,True,pr,24,Geraldo Alckmin (PSDB),8.0
+BR025812018,True,pr,24,Marina Silva (REDE),4.0
+BR025812018,True,pr,24,Joao Amoedo (NOVO),3.0
+BR025812018,True,pr,24,Henrique Meirelles (MDB),2.0
+BR025812018,True,pr,24,Alvaro Dias (PODE),2.0
+BR025812018,True,pr,24,Cabo Daciolo (PATRI),1.0
+BR025812018,True,pr,24,Guilherme Boulos (PSOL),0.0
+BR025812018,True,pr,24,Vera (PSTU),0.0
+BR025812018,True,pr,24,Joao Goulart Filho (PPL),0.0
+BR025812018,True,pr,24,Eymael (DC),0.0
+BR025812018,True,pr,24,Em branco/ nulo/ nenhum,6.0
+BR025812018,True,pr,24,Nao sabe,5.0
+BR025812018,True,pr,24,Total em %,100.0
+BR025812018,True,pr,24,Base ponderada,10930.0
+BR025812018,True,pr,24,Total Nos. absolutos,10930.0
+BR055962018,True,pr,25,Jair Bolsonaro (PSL),26.0
+BR055962018,True,pr,25,Ciro Gomes (PDT),13.0
+BR055962018,True,pr,25,Fernando Haddad (PT),13.0
+BR055962018,True,pr,25,Geraldo Alckmin (PSDB),9.0
+BR055962018,True,pr,25,Marina Silva (REDE),8.0
+BR055962018,True,pr,25,Joao Amoedo (NOVO),3.0
+BR055962018,True,pr,25,Henrique Meirelles (MDB),3.0
+BR055962018,True,pr,25,Alvaro Dias (PODE),3.0
+BR055962018,True,pr,25,Cabo Daciolo (PATRI),1.0
+BR055962018,True,pr,25,Vera (PSTU),1.0
+BR055962018,True,pr,25,Guilherme Boulos (PSOL),1.0
+BR055962018,True,pr,25,Joao Goulart Filho (PPL),0.0
+BR055962018,True,pr,25,Eymael (DC),0.0
+BR055962018,True,pr,25,Em branco/ nulo/ nenhum,13.0
+BR055962018,True,pr,25,Nao sabe,6.0
+BR055962018,True,pr,25,Total em %,100.0
+BR055962018,True,pr,25,Base ponderada,2820.0
+BR055962018,True,pr,25,Total Nos. absolutos,2820.0
+BR057432018,True,pr,26,Jair Bolsonaro (PSL),48.0
+BR057432018,True,pr,26,Fernando Haddad (PT),38.0
+BR057432018,True,pr,26,Em branco/ nulo/ nenhum,8.0
+BR057432018,True,pr,26,Nao sabe,6.0
+BR057432018,True,pr,26,Total em %,100.0
+BR057432018,True,pr,26,Base ponderada,9173.0
+BR057432018,True,pr,26,Total Nos. absolutos,9173.0
+BR075282018,True,pr,27,Jair Bolsonaro (PSL),50.0
+BR075282018,True,pr,27,Fernando Haddad (PT),35.0
+BR075282018,True,pr,27,Em branco/ nulo/ nenhum,10.0
+BR075282018,True,pr,27,Nao sabe,5.0
+BR075282018,True,pr,27,Total em %,100.0
+BR075282018,True,pr,27,Base ponderada,9137.0
+BR075282018,True,pr,27,Total Nos. absolutos,9137.0
+BR086872018,True,pr,28,Jair Bolsonaro (PSL),28.0
+BR086872018,True,pr,28,Fernando Haddad (PT),22.0
+BR086872018,True,pr,28,Ciro Gomes (PDT),11.0
+BR086872018,True,pr,28,Geraldo Alckmin (PSDB),10.0
+BR086872018,True,pr,28,Marina Silva (REDE),5.0
+BR086872018,True,pr,28,Joao Amoedo (NOVO),3.0
+BR086872018,True,pr,28,Henrique Meirelles (MDB),2.0
+BR086872018,True,pr,28,Alvaro Dias (PODE),2.0
+BR086872018,True,pr,28,Cabo Daciolo (PATRI),1.0
+BR086872018,True,pr,28,Vera (PSTU),1.0
+BR086872018,True,pr,28,Guilherme Boulos (PSOL),1.0
+BR086872018,True,pr,28,Joao Goulart Filho (PPL),0.0
+BR086872018,True,pr,28,Eymael (DC),0.0
+BR086872018,True,pr,28,Em branco/ nulo/ nenhum,10.0
+BR086872018,True,pr,28,Nao sabe,5.0
+BR086872018,True,pr,28,Total em %,100.0
+BR086872018,True,pr,28,Base ponderada,9000.0
+BR086872018,True,pr,28,Total Nos. absolutos,9000.0
+DF030472018,True,g,29,Ibaneis (MDB),24.0
+DF030472018,True,g,29,Eliana Pedrosa (PROS),16.0
+DF030472018,True,g,29,Rodrigo Rollemberg (PSB),12.0
+DF030472018,True,g,29,Alberto Fraga (DEM),10.0
+DF030472018,True,g,29,Rogerio Rosso (PSD),8.0
+DF030472018,True,g,29,General Paulo Chagas (PRP),4.0
+DF030472018,True,g,29,Julio Miragaya (PT),3.0
+DF030472018,True,g,29,Alexandre Guerra (NOVO),3.0
+DF030472018,True,g,29,Fatima Sousa (PSOL),2.0
+DF030472018,True,g,29,Renan Rosa (PCO),0.0
+DF030472018,True,g,29,Guillen (PSTU),0.0
+DF030472018,True,g,29,Em branco/ nulo/ nenhum,13.0
+DF030472018,True,g,29,Nao sabe,5.0
+DF030472018,True,g,29,Total em %,100.0
+DF030472018,True,g,29,Base ponderada,1050.0
+DF030472018,True,g,29,Total Nos. absolutos,1050.0
+DF030472018,True,s,30,Leila do Volei (PSB),29.0
+DF030472018,True,s,30,Cristovam Buarque (PPS),23.0
+DF030472018,True,s,30,Izalci (PSDB),20.0
+DF030472018,True,s,30,Chico Leite (REDE),13.0
+DF030472018,True,s,30,Wasny (PT),13.0
+DF030472018,True,s,30,Fadi Faraj (PRP),6.0
+DF030472018,True,s,30,Paulo Roque (NOVO),4.0
+DF030472018,True,s,30,Marcelo Neves (PT),3.0
+DF030472018,True,s,30,Juiz Everardo Ribeiro (PMN),3.0
+DF030472018,True,s,30,Fernando Marques (SD),2.0
+DF030472018,True,s,30,Marivaldo Pereira (PSOL),2.0
+DF030472018,True,s,30,Brigadeiro Atila Maia (PRTB),2.0
+DF030472018,True,s,30,Helio Queiroz (PP),2.0
+DF030472018,True,s,30,Chico Sant'Anna (PSOL),1.0
+DF030472018,True,s,30,Danilo Matoso (PCO),1.0
+DF030472018,True,s,30,Professora Amabile (PR),1.0
+DF030472018,True,s,30,Robson (PSTU),1.0
+DF030472018,True,s,30,Joao Pedro Ferraz (PPL),1.0
+DF030472018,True,s,30,Romilda Teixeira (PSDB),0.0
+DF030472018,True,s,30,Em branco/ nulo/ nenhum para primeira vaga,17.0
+DF030472018,True,s,30,Em branco/ nulo/ nenhum para segunda vaga,24.0
+DF030472018,True,s,30,Nao sabe para primeira vaga,12.0
+DF030472018,True,s,30,Nao sabe para segunda vaga,19.0
+DF041632018,True,g,31,Ibaneis  (MDB),64.0
+DF041632018,True,g,31,Rodrigo Rollemberg (PSB),23.0
+DF041632018,True,g,31,Em branco/ nulo/ nenhum,9.0
+DF041632018,True,g,31,Nao sabe,5.0
+DF041632018,True,g,31,Total em %,100.0
+DF041632018,True,g,31,Base ponderada,1512.0
+DF041632018,True,g,31,Total Nos. absolutos,1512.0
+DF047982018,True,g,32,Ibaneis  (MDB),65.0
+DF047982018,True,g,32,Rodrigo Rollemberg (PSB),22.0
+DF047982018,True,g,32,Em branco/ nulo/ nenhum,8.0
+DF047982018,True,g,32,Nao sabe,5.0
+DF047982018,True,g,32,Total em %,100.0
+DF047982018,True,g,32,Base ponderada,1512.0
+DF047982018,True,g,32,Total Nos. absolutos,1512.0
+DF050892018,True,g,33,Eliana Pedrosa (PROS),20.0
+DF050892018,True,g,33,Alberto Fraga (DEM),14.0
+DF050892018,True,g,33,Ibaneis (MDB),13.0
+DF050892018,True,g,33,Rodrigo Rollemberg (PSB),12.0
+DF050892018,True,g,33,Rogerio Rosso (PSD),11.0
+DF050892018,True,g,33,General Paulo Chagas (PRP),5.0
+DF050892018,True,g,33,Miragaya do PT (PT),3.0
+DF050892018,True,g,33,Alexandre Guerra (NOVO),2.0
+DF050892018,True,g,33,Fatima Sousa (PSOL),2.0
+DF050892018,True,g,33,Guillen (PSTU),0.0
+DF050892018,True,g,33,Renan Rosa (PCO),0.0
+DF050892018,True,g,33,Em branco/ nulo/ nenhum,14.0
+DF050892018,True,g,33,Nao sabe,4.0
+DF050892018,True,g,33,Total em %,100.0
+DF050892018,True,g,33,Base ponderada,914.0
+DF050892018,True,g,33,Total Nos. absolutos,914.0
+DF050892018,True,s,34,Leila do Volei (PSB),31.0
+DF050892018,True,s,34,Cristovam Buarque (PPS),23.0
+DF050892018,True,s,34,Izalci (PSDB),18.0
+DF050892018,True,s,34,Chico Leite (REDE),16.0
+DF050892018,True,s,34,Wasny (PT),11.0
+DF050892018,True,s,34,Fadi Faraj (PRP),6.0
+DF050892018,True,s,34,Fernando Marques (SD),3.0
+DF050892018,True,s,34,Marcelo Neves (PT),2.0
+DF050892018,True,s,34,Paulo Roque (NOVO),2.0
+DF050892018,True,s,34,Helio Queiroz (PP),2.0
+DF050892018,True,s,34,Professora Amabile (PR),2.0
+DF050892018,True,s,34,Brigadeiro Atila Maia (PRTB),2.0
+DF050892018,True,s,34,Juiz Everardo Ribeiro (PMN),2.0
+DF050892018,True,s,34,Marivaldo Pereira (PSOL),2.0
+DF050892018,True,s,34,Chico Sant'Anna (PSOL),1.0
+DF050892018,True,s,34,Robson (PSTU),1.0
+DF050892018,True,s,34,Joao Pedro Ferraz (PPL),1.0
+DF050892018,True,s,34,Danilo Matoso (PCO),1.0
+DF050892018,True,s,34,Romilda Teixeira (PSDB),0.0
+DF050892018,True,s,34,Walisson Nascimento (PTB),0.0
+DF050892018,True,s,34,Em branco/ nulo/ nenhum para primeira vaga,19.0
+DF050892018,True,s,34,Em branco/ nulo/ nenhum para segunda vaga,25.0
+DF050892018,True,s,34,Nao sabe para primeira vaga,11.0
+DF050892018,True,s,34,Nao sabe para segunda vaga,19.0
+DF051132018,True,g,35,Ibaneis (MDB),32.0
+DF051132018,True,g,35,Eliana Pedrosa (PROS),14.0
+DF051132018,True,g,35,Rodrigo Rollemberg (PSB),11.0
+DF051132018,True,g,35,Rogerio Rosso (PSD),10.0
+DF051132018,True,g,35,Alberto Fraga (DEM),7.0
+DF051132018,True,g,35,Fatima Sousa (PSOL),5.0
+DF051132018,True,g,35,General Paulo Chagas (PRP),4.0
+DF051132018,True,g,35,Julio Miragaya (PT),3.0
+DF051132018,True,g,35,Alexandre Guerra (NOVO),3.0
+DF051132018,True,g,35,Renan Rosa (PCO),0.0
+DF051132018,True,g,35,Guillen (PSTU),0.0
+DF051132018,True,g,35,Em branco/ nulo/ nenhum,6.0
+DF051132018,True,g,35,Nao sabe,4.0
+DF051132018,True,g,35,Total em %,100.0
+DF051132018,True,g,35,Base ponderada,1512.0
+DF051132018,True,g,35,Total Nos. absolutos,1512.0
+DF051132018,True,s,36,Leila do Volei (PSB),29.0
+DF051132018,True,s,36,Izalci (PSDB),23.0
+DF051132018,True,s,36,Cristovam Buarque (PPS),22.0
+DF051132018,True,s,36,Chico Leite (REDE),15.0
+DF051132018,True,s,36,Wasny (PT),12.0
+DF051132018,True,s,36,Fadi Faraj (PRP),8.0
+DF051132018,True,s,36,Fernando Marques (SD),4.0
+DF051132018,True,s,36,Paulo Roque (NOVO),4.0
+DF051132018,True,s,36,Juiz Everardo Ribeiro (PMN),4.0
+DF051132018,True,s,36,Marcelo Neves (PT),3.0
+DF051132018,True,s,36,Marivaldo Pereira (PSOL),3.0
+DF051132018,True,s,36,Brigadeiro Atila Maia (PRTB),2.0
+DF051132018,True,s,36,Professora Amabile (PR),2.0
+DF051132018,True,s,36,Helio Queiroz (PP),2.0
+DF051132018,True,s,36,Joao Pedro Ferraz (PPL),2.0
+DF051132018,True,s,36,Chico Sant'Anna (PSOL),1.0
+DF051132018,True,s,36,Danilo Matoso (PCO),1.0
+DF051132018,True,s,36,Robson (PSTU),1.0
+DF051132018,True,s,36,Romilda Teixeira (PSDB),0.0
+DF051132018,True,s,36,Em branco/ nulo/ nenhum para primeira vaga,12.0
+DF051132018,True,s,36,Em branco/ nulo/ nenhum para segunda vaga,17.0
+DF051132018,True,s,36,Nao sabe para primeira vaga,13.0
+DF051132018,True,s,36,Nao sabe para segunda vaga,22.0
+DF061062018,True,g,37,Ibaneis (MDB),36.0
+DF061062018,True,g,37,Eliana Pedrosa (PROS),12.0
+DF061062018,True,g,37,Rodrigo Rollemberg (PSB),11.0
+DF061062018,True,g,37,Rogerio Rosso (PSD),9.0
+DF061062018,True,g,37,Alberto Fraga (DEM),8.0
+DF061062018,True,g,37,General Paulo Chagas (PRP),5.0
+DF061062018,True,g,37,Fatima Sousa (PSOL),4.0
+DF061062018,True,g,37,Julio Miragaya (PT),3.0
+DF061062018,True,g,37,Alexandre Guerra (NOVO),2.0
+DF061062018,True,g,37,Renan Rosa (PCO),0.0
+DF061062018,True,g,37,Guillen (PSTU),0.0
+DF061062018,True,g,37,Em branco/ nulo/ nenhum,6.0
+DF061062018,True,g,37,Nao sabe,4.0
+DF061062018,True,g,37,Total em %,100.0
+DF061062018,True,g,37,Base ponderada,2089.0
+DF061062018,True,g,37,Total Nos. absolutos,2089.0
+DF061062018,True,s,38,Brigadeiro Atila Maia (PRTB),2.0
+DF061062018,True,s,38,Chico Leite (REDE),11.0
+DF061062018,True,s,38,Chico Sant'Anna (PSOL),1.0
+DF061062018,True,s,38,Cristovam Buarque (PPS),15.0
+DF061062018,True,s,38,Danilo Matoso (PCO),0.0
+DF061062018,True,s,38,Fadi Faraj (PRP),6.0
+DF061062018,True,s,38,Fernando Marques (SD),3.0
+DF061062018,True,s,38,Helio Queiroz (PP),1.0
+DF061062018,True,s,38,Izalci (PSDB),17.0
+DF061062018,True,s,38,Joao Pedro Ferraz (PPL),1.0
+DF061062018,True,s,38,Juiz Everardo Ribeiro (PMN),3.0
+DF061062018,True,s,38,Leila do Volei (PSB),23.0
+DF061062018,True,s,38,Marcelo Neves (PT),2.0
+DF061062018,True,s,38,Marivaldo Pereira (PSOL),2.0
+DF061062018,True,s,38,Paulo Roque (NOVO),3.0
+DF061062018,True,s,38,Professora Amabile (PR),1.0
+DF061062018,True,s,38,Robson (PSTU),1.0
+DF061062018,True,s,38,Wasny (PT),8.0
+DF061062018,True,s,38,Romilda Teixeira (PSDB),0.0
+DF061062018,True,s,38,Total em %,100.0
+DF061062018,True,s,38,Base ponderada,2875.0
+DF061062018,True,s,38,Total Nos. absolutos,2934.0
+DF085792018,True,g,39,Ibaneis (MDB),62.0
+DF085792018,True,g,39,Rodrigo Rollemberg (PSB),26.0
+DF085792018,True,g,39,Em branco/ nulo/ nenhum,7.0
+DF085792018,True,g,39,Nao sabe,5.0
+DF085792018,True,g,39,Total em %,100.0
+DF085792018,True,g,39,Base ponderada,2153.0
+DF085792018,True,g,39,Total Nos. absolutos,2153.0
+MG020762018,True,g,40,Antonio Anastasia (PSDB),32.0
+MG020762018,True,g,40,Fernando Pimentel (PT),21.0
+MG020762018,True,g,40,Romeu Zema (NOVO),15.0
+MG020762018,True,g,40,Adalclever Lopes (MDB),5.0
+MG020762018,True,g,40,Joao Batista Mares Guia (REDE),2.0
+MG020762018,True,g,40,Dirlene Marques (PSOL),1.0
+MG020762018,True,g,40,Alexandre Flach (PCO),1.0
+MG020762018,True,g,40,Claudiney Dulim (AVANTE),1.0
+MG020762018,True,g,40,Jordano Metalurgico (PSTU),0.0
+MG020762018,True,g,40,Em branco/ nulo/ nenhum,13.0
+MG020762018,True,g,40,Nao sabe,9.0
+MG020762018,True,g,40,Total em %,100.0
+MG020762018,True,g,40,Base ponderada,1585.0
+MG020762018,True,g,40,Total Nos. absolutos,1585.0
+MG020762018,True,s,41,Dilma Rousseff (PT),27.0
+MG020762018,True,s,41,Rodrigo Pacheco (DEM),19.0
+MG020762018,True,s,41,Jornalista Carlos Viana (PHS),16.0
+MG020762018,True,s,41,Dinis Pinheiro (SD),15.0
+MG020762018,True,s,41,Fabio Cherem (PDT),13.0
+MG020762018,True,s,41,Rodrigo Paiva (NOVO),9.0
+MG020762018,True,s,41,Coronel Lacerda (PPL),5.0
+MG020762018,True,s,41,Bispo Damasceno (PPL),5.0
+MG020762018,True,s,41,Miguel Correa (PT),4.0
+MG020762018,True,s,41,Professor Tulio Lopes (PCB),4.0
+MG020762018,True,s,41,Professora Duda Salabert (PSOL),3.0
+MG020762018,True,s,41,Ana Alves (PCO),2.0
+MG020762018,True,s,41,Vanessa Portugal Barbosa (PSTU),2.0
+MG020762018,True,s,41,Edson Andre P (AVANTE),1.0
+MG020762018,True,s,41,Kaka Menezes (REDE),1.0
+MG020762018,True,s,41,Em branco/ nulo/ nenhum para primeira vaga,15.0
+MG020762018,True,s,41,Em branco/ nulo/ nenhum para segunda vaga,20.0
+MG020762018,True,s,41,Nao sabe para primeira vaga,15.0
+MG020762018,True,s,41,Nao sabe para segunda vaga,25.0
+MG035002018,True,g,42,Romeu Zema (NOVO),57.0
+MG035002018,True,g,42,Antonio Anastasia (PSDB),25.0
+MG035002018,True,g,42,Em branco/ nulo/ nenhum,9.0
+MG035002018,True,g,42,Nao sabe,8.0
+MG035002018,True,g,42,Total em %,100.0
+MG035002018,True,g,42,Base ponderada,2981.0
+MG035002018,True,g,42,Total Nos. absolutos,2981.0
+MG042892018,True,g,43,Antonio Anastasia (PSDB),33.0
+MG042892018,True,g,43,Fernando Pimentel (PT),23.0
+MG042892018,True,g,43,Romeu Zema (NOVO),7.0
+MG042892018,True,g,43,Joao Batista Mares Guia (REDE),3.0
+MG042892018,True,g,43,Adalclever Lopes (MDB),3.0
+MG042892018,True,g,43,Dirlene Marques (PSOL),2.0
+MG042892018,True,g,43,Jordano Metalurgico (PSTU),0.0
+MG042892018,True,g,43,Claudiney Dulim (AVANTE),0.0
+MG042892018,True,g,43,Em branco/ nulo/ nenhum,20.0
+MG042892018,True,g,43,Nao sabe,9.0
+MG042892018,True,g,43,Total em %,100.0
+MG042892018,True,g,43,Base ponderada,1302.0
+MG042892018,True,g,43,Total Nos. absolutos,1302.0
+MG042892018,True,s,44,Dilma Rousseff (PT),29.0
+MG042892018,True,s,44,Jornalista Carlos Viana (PHS),14.0
+MG042892018,True,s,44,Rodrigo Pacheco (DEM),13.0
+MG042892018,True,s,44,Dinis Pinheiro (SD),10.0
+MG042892018,True,s,44,Rodrigo Paiva (NOVO),7.0
+MG042892018,True,s,44,Fabio Cherem (PDT),7.0
+MG042892018,True,s,44,Coronel Lacerda (PPL),6.0
+MG042892018,True,s,44,Miguel Correa (PT),6.0
+MG042892018,True,s,44,Professor Tulio Lopes (PCB),5.0
+MG042892018,True,s,44,Vanessa Portugal Barbosa (PSTU),5.0
+MG042892018,True,s,44,Bispo Damasceno (PPL),5.0
+MG042892018,True,s,44,Kaka Menezes (REDE),2.0
+MG042892018,True,s,44,Edson Andre P (AVANTE),1.0
+MG042892018,True,s,44,Duda Salabert (PSOL),1.0
+MG042892018,True,s,44,Em branco/ nulo/ nenhum para primeira vaga,21.0
+MG042892018,True,s,44,Em branco/ nulo/ nenhum para segunda vaga,30.0
+MG042892018,True,s,44,Nao sabe para primeira vaga,14.0
+MG042892018,True,s,44,Nao sabe para segunda vaga,22.0
+MG043472018,True,g,45,Antonio Anastasia (PSDB),33.0
+MG043472018,True,g,45,Fernando Pimentel (PT),24.0
+MG043472018,True,g,45,Romeu Zema (NOVO),9.0
+MG043472018,True,g,45,Adalclever Lopes (MDB),4.0
+MG043472018,True,g,45,Joao Batista Mares Guia (REDE),1.0
+MG043472018,True,g,45,Dirlene Marques (PSOL),1.0
+MG043472018,True,g,45,Jordano Metalurgico (PSTU),1.0
+MG043472018,True,g,45,Alexandre Flach (PCO),0.0
+MG043472018,True,g,45,Claudiney Dulim (AVANTE),0.0
+MG043472018,True,g,45,Em branco/ nulo/ nenhum,17.0
+MG043472018,True,g,45,Nao sabe,9.0
+MG043472018,True,g,45,Total em %,100.0
+MG043472018,True,g,45,Base ponderada,1384.0
+MG043472018,True,g,45,Total Nos. absolutos,1384.0
+MG043472018,True,s,46,Dilma Rousseff (PT),28.0
+MG043472018,True,s,46,Rodrigo Pacheco (DEM),17.0
+MG043472018,True,s,46,Jornalista Carlos Viana (PHS),14.0
+MG043472018,True,s,46,Fabio Cherem (PDT),11.0
+MG043472018,True,s,46,Dinis Pinheiro (SD),10.0
+MG043472018,True,s,46,Rodrigo Paiva (NOVO),8.0
+MG043472018,True,s,46,Coronel Lacerda (PPL),6.0
+MG043472018,True,s,46,Bispo Damasceno (PPL),5.0
+MG043472018,True,s,46,Miguel Correa (PT),5.0
+MG043472018,True,s,46,Professor Tulio Lopes (PCB),4.0
+MG043472018,True,s,46,Professora Duda Salabert (PSOL),4.0
+MG043472018,True,s,46,Ana Alves (PCO),3.0
+MG043472018,True,s,46,Vanessa Portugal Barbosa (PSTU),3.0
+MG043472018,True,s,46,Kaka Menezes (REDE),2.0
+MG043472018,True,s,46,Edson Andre P (AVANTE),1.0
+MG043472018,True,s,46,Em branco/ nulo/ nenhum para primeira vaga,17.0
+MG043472018,True,s,46,Em branco/ nulo/ nenhum para segunda vaga,24.0
+MG043472018,True,s,46,Nao sabe para primeira vaga,14.0
+MG043472018,True,s,46,Nao sabe para segunda vaga,25.0
+MG046832018,True,g,47,Romeu Zema (NOVO),56.0
+MG046832018,True,g,47,Antonio Anastasia (PSDB),26.0
+MG046832018,True,g,47,Nao sabe,9.0
+MG046832018,True,g,47,Em branco/ nulo/ nenhum,8.0
+MG046832018,True,g,47,Total em %,100.0
+MG046832018,True,g,47,Base ponderada,1480.0
+MG046832018,True,g,47,Total Nos. absolutos,1480.0
+MG075522018,True,g,48,Romeu Zema (NOVO),58.0
+MG075522018,True,g,48,Antonio Anastasia (PSDB),24.0
+MG075522018,True,g,48,Em branco/ nulo/ nenhum,10.0
+MG075522018,True,g,48,Nao sabe,9.0
+MG075522018,True,g,48,Total em %,100.0
+MG075522018,True,g,48,Base ponderada,1473.0
+MG075522018,True,g,48,Total Nos. absolutos,1473.0
+PE030312018,True,g,49,Paulo Camara (PSB),38.0
+PE030312018,True,g,49,Armando Monteiro (PTB),30.0
+PE030312018,True,g,49,Mauricio Rands (PROS),3.0
+PE030312018,True,g,49,Julio Lossio (REDE),3.0
+PE030312018,True,g,49,Dani Portela (PSOL),2.0
+PE030312018,True,g,49,Ana Patricia Alves (PCO),1.0
+PE030312018,True,g,49,Simone Fontana (PSTU),1.0
+PE030312018,True,g,49,Em branco/ Nulo/ nenhum,16.0
+PE030312018,True,g,49,Nao sabe,6.0
+PE030312018,True,g,49,Total em %,100.0
+PE030312018,True,g,49,Base ponderada,1302.0
+PE030312018,True,g,49,Total Nos. absolutos,1302.0
+PE030312018,True,s,50,Jarbas (MDB),38.0
+PE030312018,True,s,50,Humberto Costa (PT),34.0
+PE030312018,True,s,50,Mendonca Filho (DEM),27.0
+PE030312018,True,s,50,Silvio Costa (AVANTE),11.0
+PE030312018,True,s,50,Bruno Araujo (PSDB),11.0
+PE030312018,True,s,50,Pastor Jairinho (REDE),5.0
+PE030312018,True,s,50,Adriana Rocha (REDE),3.0
+PE030312018,True,s,50,Eugenia (PSOL),1.0
+PE030312018,True,s,50,Alex Lima Rola (PCO),1.0
+PE030312018,True,s,50,Helio Cabral (PSTU),1.0
+PE030312018,True,s,50,Albanise (PSOL),1.0
+PE030312018,True,s,50,Lidia Brunes (PROS),1.0
+PE030312018,True,s,50,Em branco/ nulo/ nenhum para primeira vaga,18.0
+PE030312018,True,s,50,Em branco/ nulo/ nenhum para segunda vaga,27.0
+PE030312018,True,s,50,Nao sabe para primeira vaga,7.0
+PE030312018,True,s,50,Nao sabe para segunda vaga,12.0
+PE051002018,True,g,51,Paulo Camara (PSB),42.0
+PE051002018,True,g,51,Armando Monteiro (PTB),28.0
+PE051002018,True,g,51,Dani Portela (PSOL),3.0
+PE051002018,True,g,51,Julio Lossio (REDE),3.0
+PE051002018,True,g,51,Mauricio Rands (PROS),3.0
+PE051002018,True,g,51,Ana Patricia Alves (PCO),1.0
+PE051002018,True,g,51,Simone Fontana (PSTU),1.0
+PE051002018,True,g,51,Em branco/ Nulo/ nenhum,15.0
+PE051002018,True,g,51,Nao sabe,4.0
+PE051002018,True,g,51,Total em %,100.0
+PE051002018,True,g,51,Base ponderada,1482.0
+PE051002018,True,g,51,Total Nos. absolutos,1482.0
+PE051002018,True,g,52,Paulo Camara (PSB),42.0
+PE051002018,True,g,52,Armando Monteiro (PTB),28.0
+PE051002018,True,g,52,Dani Portela (PSOL),4.0
+PE051002018,True,g,52,Julio Lossio (REDE),3.0
+PE051002018,True,g,52,Mauricio Rands (PROS),3.0
+PE051002018,True,g,52,Ana Patricia Alves (PCO),1.0
+PE051002018,True,g,52,Simone Fontana (PSTU),1.0
+PE051002018,True,g,52,Em branco/ Nulo/ nenhum,14.0
+PE051002018,True,g,52,Nao sabe,4.0
+PE051002018,True,g,52,Total em %,100.0
+PE051002018,True,g,52,Base ponderada,2674.0
+PE051002018,True,g,52,Total Nos. absolutos,2674.0
+PE051002018,True,s,53,Jarbas (MDB),38.0
+PE051002018,True,s,53,Humberto Costa (PT),34.0
+PE051002018,True,s,53,Mendonca Filho (DEM),25.0
+PE051002018,True,s,53,Silvio Costa (AVANTE),14.0
+PE051002018,True,s,53,Bruno Araujo (PSDB),10.0
+PE051002018,True,s,53,Pastor Jairinho (REDE),6.0
+PE051002018,True,s,53,Adriana Rocha (REDE),3.0
+PE051002018,True,s,53,Eugenia (PSOL),2.0
+PE051002018,True,s,53,Helio Cabral (PSTU),2.0
+PE051002018,True,s,53,Albanise (PSOL),1.0
+PE051002018,True,s,53,Lidia Brunes (PROS),1.0
+PE051002018,True,s,53,Alex Lima Rola (PCO),1.0
+PE051002018,True,s,53,Em branco/ nulo/ nenhum para primeira vaga,19.0
+PE051002018,True,s,53,Em branco/ nulo/ nenhum para segunda vaga,26.0
+PE051002018,True,s,53,Nao sabe para primeira vaga,7.0
+PE051002018,True,s,53,Nao sabe para segunda vaga,11.0
+PE051002018,True,s,54,Humberto Costa (PT),36.0
+PE051002018,True,s,54,Jarbas (MDB),36.0
+PE051002018,True,s,54,Mendonca Filho (DEM),25.0
+PE051002018,True,s,54,Silvio Costa (AVANTE),14.0
+PE051002018,True,s,54,Bruno Araujo (PSDB),12.0
+PE051002018,True,s,54,Pastor Jairinho (REDE),5.0
+PE051002018,True,s,54,Adriana Rocha (REDE),3.0
+PE051002018,True,s,54,Eugenia (PSOL),2.0
+PE051002018,True,s,54,Helio Cabral (PSTU),1.0
+PE051002018,True,s,54,Albanise (PSOL),1.0
+PE051002018,True,s,54,Lidia Brunes (PROS),1.0
+PE051002018,True,s,54,Alex Lima Rola (PCO),1.0
+PE051002018,True,s,54,Em branco/ nulo/ nenhum para primeira vaga,19.0
+PE051002018,True,s,54,Em branco/ nulo/ nenhum para segunda vaga,26.0
+PE051002018,True,s,54,Nao sabe para primeira vaga,7.0
+PE051002018,True,s,54,Nao sabe para segunda vaga,12.0
+PE051002018,True,s,55,Humberto Costa (PT),27.0
+PE051002018,True,s,55,Jarbas (MDB),26.0
+PE051002018,True,s,55,Mendonca Filho (DEM),18.0
+PE051002018,True,s,55,Silvio Costa (AVANTE),10.0
+PE051002018,True,s,55,Bruno Araujo (PSDB),9.0
+PE051002018,True,s,55,Pastor Jairinho (REDE),4.0
+PE051002018,True,s,55,Adriana Rocha (REDE),2.0
+PE051002018,True,s,55,Eugenia (PSOL),1.0
+PE051002018,True,s,55,Helio Cabral (PSTU),1.0
+PE051002018,True,s,55,Albanise (PSOL),1.0
+PE051002018,True,s,55,Lidia Brunes (PROS),1.0
+PE051002018,True,s,55,Alex Lima Rola (PCO),0.0
+PE051002018,True,s,55,Total em %,100.0
+PE051002018,True,s,55,Base ponderada,3628.0
+PE051002018,True,s,55,Total Nos. absolutos,3646.0
+PE093512018,True,g,56,Paulo Camara (PSB),35.0
+PE093512018,True,g,56,Armando Monteiro (PTB),31.0
+PE093512018,True,g,56,Julio Lossio (REDE),3.0
+PE093512018,True,g,56,Mauricio Rands (PROS),2.0
+PE093512018,True,g,56,Ana Patricia Alves (PCO),2.0
+PE093512018,True,g,56,Dani Portela (PSOL),1.0
+PE093512018,True,g,56,Simone Fontana (PSTU),1.0
+PE093512018,True,g,56,Em branco/ Nulo/ nenhum,19.0
+PE093512018,True,g,56,Nao sabe,6.0
+PE093512018,True,g,56,Total em %,100.0
+PE093512018,True,g,56,Base ponderada,1232.0
+PE093512018,True,g,56,Total Nos. absolutos,1232.0
+PE093512018,True,s,57,Jarbas (MDB),36.0
+PE093512018,True,s,57,Mendonca Filho (DEM),31.0
+PE093512018,True,s,57,Humberto Costa (PT),30.0
+PE093512018,True,s,57,Bruno Araujo (PSDB),12.0
+PE093512018,True,s,57,Silvio Costa (AVANTE),11.0
+PE093512018,True,s,57,Pastor Jairinho (REDE),6.0
+PE093512018,True,s,57,Adriana Rocha (REDE),3.0
+PE093512018,True,s,57,Helio Cabral (PSTU),2.0
+PE093512018,True,s,57,Lidia Brunes (PROS),2.0
+PE093512018,True,s,57,Albanise (PSOL),1.0
+PE093512018,True,s,57,Alex Lima Rola (PCO),1.0
+PE093512018,True,s,57,Eugenia (PSOL),1.0
+PE093512018,True,s,57,Em branco/ nulo/ nenhum para primeira vaga,20.0
+PE093512018,True,s,57,Em branco/ nulo/ nenhum para segunda vaga,28.0
+PE093512018,True,s,57,Nao sabe para primeira vaga,6.0
+PE093512018,True,s,57,Nao sabe para segunda vaga,10.0
+RJ009772018,True,g,58,Eduardo Paes (DEM),25.0
+RJ009772018,True,g,58,Garotinho (PRP),15.0
+RJ009772018,True,g,58,Romario (PODE),14.0
+RJ009772018,True,g,58,Indio (PSD),8.0
+RJ009772018,True,g,58,Tarcisio Motta (PSOL),6.0
+RJ009772018,True,g,58,Wilson Witzel (PSC),4.0
+RJ009772018,True,g,58,Marcia Tiburi (PT),3.0
+RJ009772018,True,g,58,Pedro Fernandes (PDT),2.0
+RJ009772018,True,g,58,Marcelo Trindade (NOVO),1.0
+RJ009772018,True,g,58,Andre Monteiro (PRTB),1.0
+RJ009772018,True,g,58,Luiz Eugenio Honorato (PCO),1.0
+RJ009772018,True,g,58,Dayse Oliveira (PSTU),0.0
+RJ009772018,True,g,58,Em branco/ nulo/ nenhum,15.0
+RJ009772018,True,g,58,Nao sabe,4.0
+RJ009772018,True,g,58,Total em %,100.0
+RJ009772018,True,g,58,Base ponderada,1414.0
+RJ009772018,True,g,58,Total Nos. absolutos,1414.0
+RJ009772018,True,s,59,Cesar Maia (DEM),26.0
+RJ009772018,True,s,59,Flavio Bolsonaro (PSL),25.0
+RJ009772018,True,s,59,Lindbergh (PT),22.0
+RJ009772018,True,s,59,Chico Alencar (PSOL),14.0
+RJ009772018,True,s,59,Miro Teixeira (REDE),11.0
+RJ009772018,True,s,59,Arolde de Oliveira (PSD),9.0
+RJ009772018,True,s,59,Pastor Everaldo (PSC),6.0
+RJ009772018,True,s,59,Jose Bonifacio (PDT),5.0
+RJ009772018,True,s,59,Aspasia (PSDB),4.0
+RJ009772018,True,s,59,Senador Eduardo Lopes (PRB),4.0
+RJ009772018,True,s,59,Mattos Nascimento (PRTB),3.0
+RJ009772018,True,s,59,Cyro Garcia (PSTU),3.0
+RJ009772018,True,s,59,Marta Barcante (PCB),1.0
+RJ009772018,True,s,59,Samantha Guedes (PSTU),1.0
+RJ009772018,True,s,59,Fernando Fagundes Ribeiro (PCO),1.0
+RJ009772018,True,s,59,Gabrielle Burcci (PMB),0.0
+RJ009772018,True,s,59,Walter Cristie Silva Aguiar (PATRI),0.0
+RJ009772018,True,s,59,Em branco/ nulo/ nenhum para primeira vaga,15.0
+RJ009772018,True,s,59,Em branco/ nulo/ nenhum para segunda vaga,23.0
+RJ009772018,True,s,59,Nao sabe para primeira vaga,9.0
+RJ009772018,True,s,59,Nao sabe para segunda vaga,17.0
+RJ021552018,True,g,60,Eduardo Paes (DEM),25.0
+RJ021552018,True,g,60,Romario (PODE),14.0
+RJ021552018,True,g,60,Wilson Witzel (PSC),9.0
+RJ021552018,True,g,60,Indio (PSD),9.0
+RJ021552018,True,g,60,Tarcisio Motta (PSOL),9.0
+RJ021552018,True,g,60,Pedro Fernandes (PDT),5.0
+RJ021552018,True,g,60,Marcia Tiburi (PT),5.0
+RJ021552018,True,g,60,Marcelo Trindade (NOVO),1.0
+RJ021552018,True,g,60,Dayse Oliveira (PSTU),0.0
+RJ021552018,True,g,60,Andre Monteiro (PRTB),0.0
+RJ021552018,True,g,60,Luiz Eugenio Honorato (PCO),0.0
+RJ021552018,True,g,60,Em branco/ nulo/ nenhum,18.0
+RJ021552018,True,g,60,Nao sabe,5.0
+RJ021552018,True,g,60,Total em %,100.0
+RJ021552018,True,g,60,Base ponderada,1542.0
+RJ021552018,True,g,60,Total Nos. absolutos,1542.0
+RJ021552018,True,s,61,Flavio Bolsonaro (PSL),30.0
+RJ021552018,True,s,61,Cesar Maia (DEM),29.0
+RJ021552018,True,s,61,Lindbergh (PT),20.0
+RJ021552018,True,s,61,Chico Alencar (PSOL),15.0
+RJ021552018,True,s,61,Miro Teixeira (REDE),11.0
+RJ021552018,True,s,61,Arolde de Oliveira (PSD),11.0
+RJ021552018,True,s,61,Pastor Everaldo (PSC),7.0
+RJ021552018,True,s,61,Aspasia (PSDB),6.0
+RJ021552018,True,s,61,Jose Bonifacio (PDT),3.0
+RJ021552018,True,s,61,Senador Eduardo Lopes (PRB),3.0
+RJ021552018,True,s,61,Mattos Nascimento (PRTB),3.0
+RJ021552018,True,s,61,Cyro Garcia (PSTU),3.0
+RJ021552018,True,s,61,Marta Barcante (PCB),1.0
+RJ021552018,True,s,61,Samantha Guedes (PSTU),1.0
+RJ021552018,True,s,61,Fernando Fagundes Ribeiro (PCO),1.0
+RJ021552018,True,s,61,Gabrielle Burcci (PMB),0.0
+RJ021552018,True,s,61,Walter Cristie Silva Aguiar (PATRI),0.0
+RJ021552018,True,s,61,Em branco/ nulo/ nenhum para primeira vaga,12.0
+RJ021552018,True,s,61,Em branco/ nulo/ nenhum para segunda vaga,18.0
+RJ021552018,True,s,61,Nao sabe para primeira vaga,9.0
+RJ021552018,True,s,61,Nao sabe para segunda vaga,16.0
+RJ021552018,True,s,61,Base ponderada,1542.0
+RJ021552018,True,s,61,Total Nos. absolutos,1542.0
+RJ037852018,True,g,62,Wilson Witzel (PSC),47.0
+RJ037852018,True,g,62,Eduardo Paes (DEM),37.0
+RJ037852018,True,g,62,Em branco/ nulo/ nenhum,11.0
+RJ037852018,True,g,62,Nao sabe,6.0
+RJ037852018,True,g,62,Total em %,100.0
+RJ037852018,True,g,62,Base ponderada,1481.0
+RJ037852018,True,g,62,Total Nos. absolutos,1481.0
+RJ085822018,True,g,63,Wilson Witzel (PSC),44.0
+RJ085822018,True,g,63,Eduardo Paes (DEM),40.0
+RJ085822018,True,g,63,Em branco/ nulo/ nenhum,9.0
+RJ085822018,True,g,63,Nao sabe,7.0
+RJ085822018,True,g,63,Total em %,100.0
+RJ085822018,True,g,63,Base ponderada,3008.0
+RJ085822018,True,g,63,Total Nos. absolutos,3008.0
+SP024532018,True,g,64,Joao Doria (PSDB),43.0
+SP024532018,True,g,64,Marcio Franca (PSB),40.0
+SP024532018,True,g,64,Em branco/ nulo/ nenhum,9.0
+SP024532018,True,g,64,Nao sabe,8.0
+SP024532018,True,g,64,Total em %,100.0
+SP024532018,True,g,64,Base ponderada,2394.0
+SP024532018,True,g,64,Total Nos. absolutos,2394.0
+SP034172018,True,g,65,Marcio Franca (PSB),43.0
+SP034172018,True,g,65,Joao Doria (PSDB),42.0
+SP034172018,True,g,65,Em branco/ nulo/ nenhum,9.0
+SP034172018,True,g,65,Nao sabe,7.0
+SP034172018,True,g,65,Total em %,100.0
+SP034172018,True,g,65,Base ponderada,5093.0
+SP034172018,True,g,65,Total Nos. absolutos,5093.0
+SP042722018,True,g,66,Joao Doria (PSDB),27.0
+SP042722018,True,g,66,Paulo Skaf (MDB),21.0
+SP042722018,True,g,66,Marcio Franca (PSB),16.0
+SP042722018,True,g,66,Luiz Marinho (PT),6.0
+SP042722018,True,g,66,Major Costa e Silva (DC),4.0
+SP042722018,True,g,66,Professora Lisete (PSOL),2.0
+SP042722018,True,g,66,Rodrigo Tavares (PRTB),2.0
+SP042722018,True,g,66,Rogerio Chequer (NOVO),1.0
+SP042722018,True,g,66,Marcelo Candido (PDT),1.0
+SP042722018,True,g,66,Prof. Claudio Fernando (PMN),1.0
+SP042722018,True,g,66,Lilian Miranda (PCO),0.0
+SP042722018,True,g,66,Toninho Ferreira (PSTU),0.0
+SP042722018,True,g,66,Em branco/ nulo/ nenhum,10.0
+SP042722018,True,g,66,Nao sabe,8.0
+SP042722018,True,g,66,Total em %,100.0
+SP042722018,True,g,66,Base ponderada,4506.0
+SP042722018,True,g,66,Total Nos. absolutos,4506.0
+SP042722018,True,s,67,Eduardo Suplicy (PT),24.0
+SP042722018,True,s,67,Mara Gabrilli (PSDB),23.0
+SP042722018,True,s,67,Major Olimpio (PSL),20.0
+SP042722018,True,s,67,Tripoli (PSDB),12.0
+SP042722018,True,s,67,Mario Covas Neto (PODE),11.0
+SP042722018,True,s,67,Maurren Maggi (PSB),10.0
+SP042722018,True,s,67,Jilmar Tatto (PT),5.0
+SP042722018,True,s,67,Cidinha (MDB),5.0
+SP042722018,True,s,67,Professora Silvia Ferraro (PSOL),2.0
+SP042722018,True,s,67,Diogo da Luz (NOVO),2.0
+SP042722018,True,s,67,Antonio Neto (PDT),2.0
+SP042722018,True,s,67,Marcelo Barbieri (MDB),2.0
+SP042722018,True,s,67,Dra. Eliana Ferreira (PSTU),2.0
+SP042722018,True,s,67,Educador Daniel Cara (PSOL),1.0
+SP042722018,True,s,67,Jair Andreoni (PRTB),1.0
+SP042722018,True,s,67,Pedro Henrique de Cristo (REDE),1.0
+SP042722018,True,s,67,Mancha (PSTU),1.0
+SP042722018,True,s,67,Kaled (DC),1.0
+SP042722018,True,s,67,Nivaldo Orlandi (PCO),1.0
+SP042722018,True,s,67,Moira Lazaro Mandato Coletivo (REDE),0.0
+SP042722018,True,s,67,Em branco/ nulo/ nenhum para primeira vaga,13.0
+SP042722018,True,s,67,Em branco/ nulo/ nenhum para segunda vaga,19.0
+SP042722018,True,s,67,Nao sabe para primeira vaga,15.0
+SP042722018,True,s,67,Nao sabe para segunda vaga,29.0
+SP050202018,True,g,68,Joao Doria (PSDB),26.0
+SP050202018,True,g,68,Paulo Skaf (MDB),22.0
+SP050202018,True,g,68,Marcio Franca (PSB),16.0
+SP050202018,True,g,68,Luiz Marinho (PT),6.0
+SP050202018,True,g,68,Professora Lisete (PSOL),3.0
+SP050202018,True,g,68,Major Costa e Silva (DC),2.0
+SP050202018,True,g,68,Rodrigo Tavares (PRTB),2.0
+SP050202018,True,g,68,Marcelo Candido (PDT),1.0
+SP050202018,True,g,68,Toninho Ferreira (PSTU),1.0
+SP050202018,True,g,68,Rogerio Chequer (NOVO),1.0
+SP050202018,True,g,68,Prof. Claudio Fernando (PMN),1.0
+SP050202018,True,g,68,Lilian Miranda (PCO),1.0
+SP050202018,True,g,68,Em branco/ nulo/ nenhum,11.0
+SP050202018,True,g,68,Nao sabe,8.0
+SP050202018,True,g,68,Total em %,100.0
+SP050202018,True,g,68,Base ponderada,2597.0
+SP050202018,True,g,68,Total Nos. absolutos,2597.0
+SP050202018,True,s,69,Eduardo Suplicy (PT),25.0
+SP050202018,True,s,69,Mara Gabrilli (PSDB),21.0
+SP050202018,True,s,69,Major Olimpio (PSL),17.0
+SP050202018,True,s,69,Mario Covas Neto (PODE),12.0
+SP050202018,True,s,69,Tripoli (PSDB),11.0
+SP050202018,True,s,69,Maurren Maggi (PSB),10.0
+SP050202018,True,s,69,Cidinha (MDB),5.0
+SP050202018,True,s,69,Jilmar Tatto (PT),4.0
+SP050202018,True,s,69,Antonio Neto (PDT),3.0
+SP050202018,True,s,69,Professora Silvia Ferraro (PSOL),3.0
+SP050202018,True,s,69,Marcelo Barbieri (MDB),2.0
+SP050202018,True,s,69,Dra. Eliana Ferreira (PSTU),2.0
+SP050202018,True,s,69,Educador Daniel Cara (PSOL),2.0
+SP050202018,True,s,69,Diogo da Luz (NOVO),2.0
+SP050202018,True,s,69,Kaled (DC),1.0
+SP050202018,True,s,69,Jair Andreoni (PRTB),1.0
+SP050202018,True,s,69,Pedro Henrique de Cristo (REDE),1.0
+SP050202018,True,s,69,Mancha (PSTU),1.0
+SP050202018,True,s,69,Nivaldo Orlandi (PCO),0.0
+SP050202018,True,s,69,Moira Lazaro Mandato Coletivo (REDE),0.0
+SP050202018,True,s,69,Em branco/ nulo/ nenhum para primeira vaga,13.0
+SP050202018,True,s,69,Em branco/ nulo/ nenhum para segunda vaga,19.0
+SP050202018,True,s,69,Nao sabe para primeira vaga,15.0
+SP050202018,True,s,69,Nao sabe para segunda vaga,28.0
+SP050202018,True,s,69,Base ponderada,2597.0
+SP050202018,True,s,69,Total Nos. absolutos,2597.0
+SP069382018,True,g,70,Joao Doria (PSDB),44.0
+SP069382018,True,g,70,Marcio Franca (PSB),40.0
+SP069382018,True,g,70,Em branco/ nulo/ nenhum,9.0
+SP069382018,True,g,70,Nao sabe,7.0
+SP069382018,True,g,70,Total em %,100.0
+SP069382018,True,g,70,Base ponderada,2356.0
+SP069382018,True,g,70,Total Nos. absolutos,2356.0
+SP072212018,True,g,71,Joao Doria (PSDB),25.0
+SP072212018,True,g,71,Paulo Skaf (MDB),22.0
+SP072212018,True,g,71,Marcio Franca (PSB),14.0
+SP072212018,True,g,71,Luiz Marinho (PT),5.0
+SP072212018,True,g,71,Major Costa e Silva (DC),3.0
+SP072212018,True,g,71,Professora Lisete (PSOL),2.0
+SP072212018,True,g,71,Prof. Claudio Fernando (PMN),1.0
+SP072212018,True,g,71,Lilian Miranda (PCO),1.0
+SP072212018,True,g,71,Marcelo Candido (PDT),1.0
+SP072212018,True,g,71,Rogerio Chequer (NOVO),1.0
+SP072212018,True,g,71,Rodrigo Tavares (PRTB),1.0
+SP072212018,True,g,71,Toninho Ferreira (PSTU),1.0
+SP072212018,True,g,71,Em branco/ nulo/ nenhum,15.0
+SP072212018,True,g,71,Nao sabe,8.0
+SP072212018,True,g,71,Total em %,100.0
+SP072212018,True,g,71,Base ponderada,2101.0
+SP072212018,True,g,71,Total Nos. absolutos,2101.0
+SP072212018,True,s,72,Eduardo Suplicy (PT),26.0
+SP072212018,True,s,72,Mara Gabrilli (PSDB),17.0
+SP072212018,True,s,72,Mario Covas Neto (PODE),15.0
+SP072212018,True,s,72,Major Olimpio (PSL),14.0
+SP072212018,True,s,72,Maurren Maggi (PSB),10.0
+SP072212018,True,s,72,Tripoli (PSDB),9.0
+SP072212018,True,s,72,Cidinha (MDB),5.0
+SP072212018,True,s,72,Jilmar Tatto (PT),4.0
+SP072212018,True,s,72,Professora Silvia Ferraro (PSOL),3.0
+SP072212018,True,s,72,Marcelo Barbieri (MDB),3.0
+SP072212018,True,s,72,Dra. Eliana Ferreira (PSTU),2.0
+SP072212018,True,s,72,Antonio Neto (PDT),2.0
+SP072212018,True,s,72,Diogo da Luz (NOVO),2.0
+SP072212018,True,s,72,Pedro Henrique de Cristo (REDE),1.0
+SP072212018,True,s,72,Jair Andreoni (PRTB),1.0
+SP072212018,True,s,72,Educador Daniel Cara (PSOL),1.0
+SP072212018,True,s,72,Mancha (PSTU),1.0
+SP072212018,True,s,72,Kaled (DC),1.0
+SP072212018,True,s,72,Nivaldo Orlandi (PCO),0.0
+SP072212018,True,s,72,Moira Lazaro Mandato Coletivo (REDE),0.0
+SP072212018,True,s,72,Em branco/ nulo/ nenhum para primeira vaga,17.0
+SP072212018,True,s,72,Nao sabe para segunda vaga,27.0
+SP072212018,True,s,72,Em branco/ nulo/ nenhum para segunda vaga,23.0
+SP072212018,True,s,72,Nao sabe para primeira vaga,15.0

@@ -1,0 +1,70 @@
+tse_id,estimulada,position,scenario,candidate,value
+BA000132014,False,g,0,Nao sabe/ Nao respondeu,33.0
+BA000132014,False,g,0,Branco/ Nulo,19.0
+BA000132014,False,g,0,Outros,2.0
+BA000132014,False,g,0,Rui Costa,12.0
+BA000132014,False,g,0,Paulo Souto,28.0
+BA000132014,False,g,0,Lidice da Mata,6.0
+BA000132014,False,g,0,BASE,1008.0
+BA000132014,False,s,1,Nao sabe/ Nao respondeu,41.0
+BA000132014,False,s,1,Branco/ Nulo,22.0
+BA000132014,False,s,1,Outros,1.0
+BA000132014,False,s,1,Adson Gomes,1.0
+BA000132014,False,s,1,Otto Alencar,12.0
+BA000132014,False,s,1,Geddel Vieira Lima,21.0
+BA000132014,False,s,1,Eliana Calmon,2.0
+BA000132014,False,s,1,BASE,1008.0
+BR004332014,False,pr,2,Nao sabe/ Nao respondeu,18.0
+BR004332014,False,pr,2,Branco/ Nulo,13.0
+BR004332014,False,pr,2,Outros,1.0
+BR004332014,False,pr,2,Marina Silva,18.0
+BR004332014,False,pr,2,Pastor Everaldo,1.0
+BR004332014,False,pr,2,Dilma,41.0
+BR004332014,False,pr,2,Aecio Neves,9.0
+BR004332014,False,pr,2,BASE,1008.0
+BR011842014,False,pr,3,Nao sabe/ Nao respondeu,4.0
+BR011842014,False,pr,3,Branco/ Nulo,4.0
+BR011842014,False,pr,3,Citou outro nome,0.0
+BR011842014,False,pr,3,Dilma,72.0
+BR011842014,False,pr,3,Aecio Neves,20.0
+BR011842014,False,pr,3,BASE,1204.0
+CE000352014,False,g,4,Nao sabe/ Nao respondeu,10.0
+CE000352014,False,g,4,Branco/ Nulo,5.0
+CE000352014,False,g,4,Eunicio,41.0
+CE000352014,False,g,4,Camilo,44.0
+CE000352014,False,g,4,BASE,1204.0
+BA000132014,True,g,5,Nao sabe/ Nao respondeu,14.0
+BA000132014,True,g,5,Branco/ Nulo,16.0
+BA000132014,True,g,5,Rui Costa,15.0
+BA000132014,True,g,5,Renata Mallet,1.0
+BA000132014,True,g,5,Paulo Souto,44.0
+BA000132014,True,g,5,Marcos Mendes,0.0
+BA000132014,True,g,5,Lidice da Mata,9.0
+BA000132014,True,g,5,Da Luz,1.0
+BA000132014,True,g,5,BASE,1008.0
+BA000132014,True,s,6,Nao sabe/ Nao respondeu,21.0
+BA000132014,True,s,6,Branco/ Nulo,20.0
+BA000132014,True,s,6,Adson Gomes,1.0
+BA000132014,True,s,6,Otto Alencar,17.0
+BA000132014,True,s,6,Hamilton Assis,1.0
+BA000132014,True,s,6,Geddel Vieira Lima,35.0
+BA000132014,True,s,6,Eliana Calmon,4.0
+BA000132014,True,s,6,BASE,1008.0
+BR004332014,True,pr,7,Nao sabe/ Nao respondeu,8.0
+BR004332014,True,pr,7,Branco/ Nulo,10.0
+BR004332014,True,pr,7,Outros com menos de 1%,1.0
+BR004332014,True,pr,7,Marina Silva,23.0
+BR004332014,True,pr,7,Pastor Everaldo,1.0
+BR004332014,True,pr,7,Dilma,47.0
+BR004332014,True,pr,7,Aecio Neves,10.0
+BR004332014,True,pr,7,BASE,1008.0
+BR011842014,True,pr,8,Nao sabe/ Nao respondeu,2.0
+BR011842014,True,pr,8,Branco/ Nulo,3.0
+BR011842014,True,pr,8,Dilma,75.0
+BR011842014,True,pr,8,Aecio Neves,20.0
+BR011842014,True,pr,8,BASE,1204.0
+CE000352014,True,g,9,Nao sabe/ Nao respondeu,2.0
+CE000352014,True,g,9,Branco/ Nulo,5.0
+CE000352014,True,g,9,Eunicio,44.0
+CE000352014,True,g,9,Camilo,49.0
+CE000352014,True,g,9,BASE,1204.0

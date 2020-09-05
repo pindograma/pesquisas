@@ -1,0 +1,246 @@
+tse_id,estimulada,position,scenario,candidate,value
+MG010362016,False,p,0,Joao Leite (PSDB),15.0
+MG010362016,False,p,0,Kalil (PHS),11.0
+MG010362016,False,p,0,Reginaldo Lopes (PT),2.0
+MG010362016,False,p,0,Delio Malheiros (PSD),2.0
+MG010362016,False,p,0,Eros Biondini (PROS),2.0
+MG010362016,False,p,0,Luis Tibe (PTdoB),1.0
+MG010362016,False,p,0,Maria da Consolacao (PSOL),1.0
+MG010362016,False,p,0,Em branco/ nulo/ nenhum,15.0
+MG010362016,False,p,0,Outras respostas,5.0
+MG010362016,False,p,0,Nao sabe,47.0
+MG010362016,False,p,0,Total em %,100.0
+MG010362016,False,p,0,Base ponderada,812.0
+MG010362016,False,p,0,Total Nos. absolutos,812.0
+MG016862016,False,p,1,Joao Leite (PSDB),21.0
+MG016862016,False,p,1,Kalil (PHS),15.0
+MG016862016,False,p,1,Rodrigo Pacheco (PMDB),4.0
+MG016862016,False,p,1,Reginaldo Lopes (PT),4.0
+MG016862016,False,p,1,Delio Malheiros (PSD),3.0
+MG016862016,False,p,1,Eros Biondini (PROS),2.0
+MG016862016,False,p,1,Marcelo Alvaro Antonio (PR),2.0
+MG016862016,False,p,1,Sargento Rodrigues (PDT),1.0
+MG016862016,False,p,1,Maria da Consolacao (PSOL),1.0
+MG016862016,False,p,1,Luis Tibe (PTdoB),1.0
+MG016862016,False,p,1,Citou 13,1.0
+MG016862016,False,p,1,Outras respostas,5.0
+MG016862016,False,p,1,Em branco/ nulo/ nenhum,12.0
+MG016862016,False,p,1,Nao sabe,28.0
+MG016862016,False,p,1,Total em %,100.0
+MG016862016,False,p,1,Base ponderada,1751.0
+MG016862016,False,p,1,Total Nos. absolutos,1751.0
+MG038012016,False,p,2,Kalil (PHS),37.0
+MG038012016,False,p,2,Joao Leite (PSDB),34.0
+MG038012016,False,p,2,Em branco/ nulo/ nenhum,19.0
+MG038012016,False,p,2,Nao sabe,10.0
+MG038012016,False,p,2,Total em %,100.0
+MG038012016,False,p,2,Base ponderada,1973.0
+MG038012016,False,p,2,Total Nos. absolutos,1973.0
+PE084572016,False,p,3,Geraldo Julio (PSB),33.0
+PE084572016,False,p,3,Joao Paulo (PT),20.0
+PE084572016,False,p,3,Daniel Coelho (PSDB),12.0
+PE084572016,False,p,3,Priscila Krause (DEM),4.0
+PE084572016,False,p,3,Edilson Silva (PSOL),1.0
+PE084572016,False,p,3,Outras respostas,4.0
+PE084572016,False,p,3,Em branco/ nulo/ nenhum,8.0
+PE084572016,False,p,3,Nao sabe,18.0
+PE084572016,False,p,3,Total em %,100.0
+PE084572016,False,p,3,Base ponderada,1740.0
+PE084572016,False,p,3,Total Nos. absolutos,1740.0
+RJ004882016,False,p,4,Crivella (PRB),20.0
+RJ004882016,False,p,4,Marcelo Freixo (PSOL),12.0
+RJ004882016,False,p,4,Pedro Paulo (PMDB),8.0
+RJ004882016,False,p,4,Indio da Costa (PSD),6.0
+RJ004882016,False,p,4,Osorio (PSDB),5.0
+RJ004882016,False,p,4,Flavio Bolsonaro (PSC),5.0
+RJ004882016,False,p,4,Jandira Feghali (PCdoB),4.0
+RJ004882016,False,p,4,Alessandro Molon (REDE),2.0
+RJ004882016,False,p,4,Carmen Migueles (NOVO),1.0
+RJ004882016,False,p,4,Outras respostas,3.0
+RJ004882016,False,p,4,Em branco/ nulo/ nenhum,12.0
+RJ004882016,False,p,4,Nao sabe,25.0
+RJ004882016,False,p,4,Total em %,100.0
+RJ004882016,False,p,4,Base ponderada,2159.0
+RJ004882016,False,p,4,Total Nos. absolutos,2159.0
+RJ054592016,False,p,5,Crivella (PRB),15.0
+RJ054592016,False,p,5,Marcelo Freixo (PSOL),6.0
+RJ054592016,False,p,5,Pedro Paulo (PMDB),4.0
+RJ054592016,False,p,5,Flavio Bolsonaro (PSC),3.0
+RJ054592016,False,p,5,Jandira Feghali (PCdoB),3.0
+RJ054592016,False,p,5,Indio da Costa (PSD),3.0
+RJ054592016,False,p,5,Osorio (PSDB),2.0
+RJ054592016,False,p,5,Em branco/nulo/ nenhum,19.0
+RJ054592016,False,p,5,Outras respostas,3.0
+RJ054592016,False,p,5,Nao sabe,43.0
+RJ054592016,False,p,5,Total em %,100.0
+RJ054592016,False,p,5,Base ponderada,928.0
+RJ054592016,False,p,5,Total Nos. absolutos,928.0
+SP085142016,False,p,6,Joao Doria (PSDB),29.0
+SP085142016,False,p,6,Fernando Haddad (PT),12.0
+SP085142016,False,p,6,Celso Russomanno (PRB),10.0
+SP085142016,False,p,6,Marta (PMDB),8.0
+SP085142016,False,p,6,Luiza Erundina (PSOL),3.0
+SP085142016,False,p,6,Major Olimpio (SD),1.0
+SP085142016,False,p,6,Citou 45,1.0
+SP085142016,False,p,6,Outras respostas,3.0
+SP085142016,False,p,6,Em branco/ nulo/ nenhum,10.0
+SP085142016,False,p,6,Nao sabe,23.0
+SP085142016,False,p,6,Total em %,100.0
+SP085142016,False,p,6,Base ponderada,4022.0
+SP085142016,False,p,6,Total Nos. absolutos,4022.0
+MG010362016,True,p,7,Joao Leite (PSDB),30.0
+MG010362016,True,p,7,Kalil (PHS),19.0
+MG010362016,True,p,7,Delio Malheiros (PSD),4.0
+MG010362016,True,p,7,Reginaldo Lopes (PT),4.0
+MG010362016,True,p,7,Luis Tibe (PTdoB),3.0
+MG010362016,True,p,7,Eros Biondini (PROS),3.0
+MG010362016,True,p,7,Vanessa Portugal (PSTU),2.0
+MG010362016,True,p,7,Sargento Rodrigues (PDT),2.0
+MG010362016,True,p,7,Rodrigo Pacheco (PMDB),2.0
+MG010362016,True,p,7,Marcelo Alvaro Antonio (PR),2.0
+MG010362016,True,p,7,Maria da Consolacao (PSOL),1.0
+MG010362016,True,p,7,Em branco/nulo/ nenhum,16.0
+MG010362016,True,p,7,Nao sabe,11.0
+MG010362016,True,p,7,Total em %,100.0
+MG010362016,True,p,7,Base ponderada,812.0
+MG010362016,True,p,7,Total Nos. absolutos,812.0
+MG016862016,True,p,8,Joao Leite (PSDB),31.0
+MG016862016,True,p,8,Kalil (PHS),19.0
+MG016862016,True,p,8,Rodrigo Pacheco (PMDB),6.0
+MG016862016,True,p,8,Reginaldo Lopes (PT),6.0
+MG016862016,True,p,8,Delio Malheiros (PSD),5.0
+MG016862016,True,p,8,Eros Biondini (PROS),3.0
+MG016862016,True,p,8,Sargento Rodrigues (PDT),3.0
+MG016862016,True,p,8,Luis Tibe (PTdoB),2.0
+MG016862016,True,p,8,Maria da Consolacao (PSOL),2.0
+MG016862016,True,p,8,Marcelo Alvaro Antonio (PR),2.0
+MG016862016,True,p,8,Vanessa Portugal (PSTU),1.0
+MG016862016,True,p,8,Em branco/ nulo/ nenhum,12.0
+MG016862016,True,p,8,Nao sabe,7.0
+MG016862016,True,p,8,Total em %,100.0
+MG016862016,True,p,8,Base ponderada,1751.0
+MG016862016,True,p,8,Total Nos. absolutos,1751.0
+MG058552016,True,p,9,Kalil,34.0
+MG058552016,True,p,9,Joao Leite,31.0
+MG058552016,True,p,9,Em branco/ nulo/ nenhum,20.0
+MG058552016,True,p,9,Nao sabe,14.0
+MG058552016,True,p,9,Total em %,100.0
+MG058552016,True,p,9,Base ponderada,1119.0
+MG058552016,True,p,9,Total Nos. absolutos,1119.0
+MG087272016,True,p,10,Joao Leite,36.0
+MG087272016,True,p,10,Kalil,29.0
+MG087272016,True,p,10,Em branco/ nulo/ nenhum,22.0
+MG087272016,True,p,10,Nao sabe,13.0
+MG087272016,True,p,10,Total em %,100.0
+MG087272016,True,p,10,Base ponderada,1024.0
+MG087272016,True,p,10,Total Nos. absolutos,1024.0
+PE045782016,True,p,11,Geraldo Julio (PSB),51.0
+PE045782016,True,p,11,Joao Paulo (PT),35.0
+PE045782016,True,p,11,Em branco/ nulo/ nenhum,9.0
+PE045782016,True,p,11,Nao sabe,5.0
+PE045782016,True,p,11,Total em %,100.0
+PE045782016,True,p,11,Base ponderada,1748.0
+PE045782016,True,p,11,Total Nos. absolutos,1748.0
+PE054802016,True,p,12,Geraldo Julio (PSB),47.0
+PE054802016,True,p,12,Joao Paulo (PT),34.0
+PE054802016,True,p,12,Em branco/ nulo/ nenhum,13.0
+PE054802016,True,p,12,Nao sabe,6.0
+PE054802016,True,p,12,Total em %,100.0
+PE054802016,True,p,12,Base ponderada,1023.0
+PE054802016,True,p,12,Total Nos. absolutos,1023.0
+PE061062016,True,p,13,Geraldo Julio (PSB),50.0
+PE061062016,True,p,13,Joao Paulo (PT),34.0
+PE061062016,True,p,13,Em branco/ nulo/ nenhum,11.0
+PE061062016,True,p,13,Nao sabe,5.0
+PE061062016,True,p,13,Total em %,100.0
+PE061062016,True,p,13,Base ponderada,1024.0
+PE061062016,True,p,13,Total Nos. absolutos,1024.0
+PE084572016,True,p,14,Geraldo Julio (PSB),39.0
+PE084572016,True,p,14,Joao Paulo (PT),25.0
+PE084572016,True,p,14,Daniel Coelho (PSDB),15.0
+PE084572016,True,p,14,Priscila Krause (DEM),6.0
+PE084572016,True,p,14,Edilson Silva (PSOL),2.0
+PE084572016,True,p,14,Carlos Augusto (PV),0.0
+PE084572016,True,p,14,Simone Fontana (PSTU),0.0
+PE084572016,True,p,14,Pantaleao (PCO),0.0
+PE084572016,True,p,14,Em branco/ nulo/ nenhum,8.0
+PE084572016,True,p,14,Nao sabe,4.0
+PE084572016,True,p,14,Total em %,100.0
+PE084572016,True,p,14,Base ponderada,1740.0
+PE084572016,True,p,14,Total Nos. absolutos,1740.0
+RJ004882016,True,p,15,Crivella (PRB),27.0
+RJ004882016,True,p,15,Marcelo Freixo (PSOL),13.0
+RJ004882016,True,p,15,Pedro Paulo (PMDB),10.0
+RJ004882016,True,p,15,Indio da Costa (PSD),9.0
+RJ004882016,True,p,15,Osorio (PSDB),8.0
+RJ004882016,True,p,15,Flavio Bolsonaro (PSC),7.0
+RJ004882016,True,p,15,Jandira Feghali (PCdoB),6.0
+RJ004882016,True,p,15,Alessandro Molon (REDE),2.0
+RJ004882016,True,p,15,Carmen Migueles (NOVO),1.0
+RJ004882016,True,p,15,Cyro Garcia (PSTU),0.0
+RJ004882016,True,p,15,Thelma Bastos (PCO),0.0
+RJ004882016,True,p,15,Em branco/ nulo/ nenhum,12.0
+RJ004882016,True,p,15,Nao sabe,5.0
+RJ004882016,True,p,15,Total em %,100.0
+RJ004882016,True,p,15,Base ponderada,2159.0
+RJ004882016,True,p,15,Total Nos. absolutos,2159.0
+RJ010532016,True,p,16,Crivella (PRB),43.0
+RJ010532016,True,p,16,Marcelo Freixo (PSOL),30.0
+RJ010532016,True,p,16,Em branco/ nulo/ nenhum,19.0
+RJ010532016,True,p,16,Nao sabe,8.0
+RJ010532016,True,p,16,Total em %,100.0
+RJ010532016,True,p,16,Base ponderada,2384.0
+RJ010532016,True,p,16,Total Nos. absolutos,2384.0
+RJ033422016,True,p,17,Crivella (PRB),48.0
+RJ033422016,True,p,17,Marcelo Freixo (PSOL),25.0
+RJ033422016,True,p,17,Em branco/ nulo/ nenhum,19.0
+RJ033422016,True,p,17,Nao sabe,8.0
+RJ033422016,True,p,17,Total em %,100.0
+RJ033422016,True,p,17,Base ponderada,1152.0
+RJ033422016,True,p,17,Total Nos. absolutos,1152.0
+RJ034972016,True,p,18,Crivella (PRB),44.0
+RJ034972016,True,p,18,Marcelo Freixo (PSOL),27.0
+RJ034972016,True,p,18,Em branco/ nulo/ nenhum,18.0
+RJ034972016,True,p,18,Nao sabe,10.0
+RJ034972016,True,p,18,Total em %,100.0
+RJ034972016,True,p,18,Base ponderada,1151.0
+RJ034972016,True,p,18,Total Nos. absolutos,1151.0
+RJ054592016,True,p,19,Crivella (PRB),29.0
+RJ054592016,True,p,19,Marcelo Freixo (PSOL),11.0
+RJ054592016,True,p,19,Jandira Feghali (PCdoB),8.0
+RJ054592016,True,p,19,Pedro Paulo (PMDB),8.0
+RJ054592016,True,p,19,Flavio Bolsonaro (PSC),6.0
+RJ054592016,True,p,19,Indio da Costa (PSD),6.0
+RJ054592016,True,p,19,Osorio (PSDB),4.0
+RJ054592016,True,p,19,Alessandro Molon (REDE),1.0
+RJ054592016,True,p,19,Cyro Garcia (PSTU),0.0
+RJ054592016,True,p,19,Carmen Migueles (NOVO),0.0
+RJ054592016,True,p,19,Thelma Bastos (PCO),0.0
+RJ054592016,True,p,19,Em branco/nulo/ nenhum,19.0
+RJ054592016,True,p,19,Nao sabe,7.0
+RJ054592016,True,p,19,Total em %,100.0
+RJ054592016,True,p,19,Base ponderada,928.0
+RJ054592016,True,p,19,Total Nos. absolutos,928.0
+RJ090352016,True,p,20,Crivella (PRB),46.0
+RJ090352016,True,p,20,Marcelo Freixo (PSOL),27.0
+RJ090352016,True,p,20,Em branco/ nulo/ nenhum,19.0
+RJ090352016,True,p,20,Nao sabe,8.0
+RJ090352016,True,p,20,Total em %,100.0
+RJ090352016,True,p,20,Base ponderada,1280.0
+RJ090352016,True,p,20,Total Nos. absolutos,1280.0
+SP085142016,True,p,21,Joao Doria (PSDB),38.0
+SP085142016,True,p,21,Celso Russomanno (PRB),14.0
+SP085142016,True,p,21,Fernando Haddad (PT),14.0
+SP085142016,True,p,21,Marta (PMDB),12.0
+SP085142016,True,p,21,Luiza Erundina (PSOL),5.0
+SP085142016,True,p,21,Major Olimpio (SD),2.0
+SP085142016,True,p,21,Levy Fidelix (PRTB),1.0
+SP085142016,True,p,21,Ricardo Young (REDE),0.0
+SP085142016,True,p,21,Joao Bico (PSDC),0.0
+SP085142016,True,p,21,Henrique Areas (PCO),0.0
+SP085142016,True,p,21,Altino (PSTU),0.0
+SP085142016,True,p,21,Em branco/ nulo/ nenhum,10.0
+SP085142016,True,p,21,Nao sabe,4.0
+SP085142016,True,p,21,Total em %,100.0
+SP085142016,True,p,21,Base ponderada,4022.0
+SP085142016,True,p,21,Total Nos. absolutos,4022.0

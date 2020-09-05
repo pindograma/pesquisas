@@ -1,0 +1,120 @@
+tse_id,estimulada,position,scenario,candidate,value
+MG064212016,False,p,0,Ademir Lucas,11.0
+MG064212016,False,p,0,Carlin Moura,10.0
+MG064212016,False,p,0,Alex de Freitas,4.0
+MG064212016,False,p,0,Domingos de Castro,1.0
+MG064212016,False,p,0,Eduardo Ferreira,0.0
+MG064212016,False,p,0,Jander Filaretti,3.0
+MG064212016,False,p,0,Kaka Menezes,0.0
+MG064212016,False,p,0,Rodinei,2.0
+MG064212016,True,p,1,Ademir Lucas,22.0
+MG064212016,True,p,1,Alex de Freitas,13.0
+MG064212016,True,p,1,Carlin Moura,17.0
+MG064212016,True,p,1,Domingos de Castro,2.0
+MG064212016,True,p,1,Eduardo Ferreira,1.0
+MG064212016,True,p,1,Jander Filaretti,8.0
+MG064212016,True,p,1,Kaka Menezes,1.0
+MG064212016,True,p,1,Rodinei,4.0
+MG046082016,False,p,2,Delio Malheiros-PSD,2.0
+MG046082016,False,p,2,Eros Biodini-PROS,2.0
+MG046082016,False,p,2,Joao Leite-PSDB,13.0
+MG046082016,False,p,2,Kalil-PHS,10.0
+MG046082016,False,p,2,Luiz Tibe-PTdoB,3.0
+MG046082016,False,p,2,Marcelo Alvaro Antonio-PR,0.0
+MG046082016,False,p,2,Maria da Consolacao-PSOL,0.0
+MG046082016,False,p,2,Reginaldo Lopes-PT,2.0
+MG046082016,False,p,2,Rodrigo Pacheco-PMDB,0.0
+MG046082016,False,p,2,Sargento Rodrigues-PDT,1.0
+MG046082016,False,p,2,Vanessa Portugal-PSTU,0.0
+MG046082016,True,p,3,Delio Malheiros-PSD,6.0
+MG046082016,True,p,3,Eros Biodini-PROS,6.0
+MG046082016,True,p,3,Joao Leite-PSDB,27.0
+MG046082016,True,p,3,Kalil-PHS,16.0
+MG046082016,True,p,3,Luiz Tibe-PTdoB,5.0
+MG046082016,True,p,3,Marcelo Alvaro Antonio-PR,3.0
+MG046082016,True,p,3,Maria da Consolacao-PSOL,1.0
+MG046082016,True,p,3,Reginaldo Lopes-PT,4.0
+MG046082016,True,p,3,Rodrigo Pacheco-PMDB,2.0
+MG046082016,True,p,3,Sargento Rodrigues-PDT,4.0
+MG046082016,True,p,3,Vanessa Portugal-PSTU,2.0
+MG059302016,False,p,4,Arnaldo Celestino-PCdoB-65,1.0
+MG059302016,False,p,4,Leonardo Lopes-PTB-14,2.0
+MG059302016,False,p,4,Neider Moreira-PSD-55,34.0
+MG059302016,False,p,4,Osmando-PSDB-45,18.0
+MG059302016,False,p,4,Rosse Andrade-PROS-90,2.0
+MG059302016,True,p,5,Arnaldo Celestino-PCdoB-65,2.0
+MG059302016,True,p,5,Leonardo Lopes-PTB-14,3.0
+MG059302016,True,p,5,Neider Moreira-PSD-55,45.0
+MG059302016,True,p,5,Osmando-PSDB-45,23.0
+MG059302016,True,p,5,Rosse Andrade-PROS-90,4.0
+MG004302016,False,p,6,Dr.Celio-PDT-12,25.0
+MG004302016,False,p,6,Ivone Leite-PP-1,43.0
+MG004302016,True,p,7,Dr.Celio-PDT-12,31.0
+MG004302016,True,p,7,Ivone Leite-PP-1,54.0
+MG061042016,False,p,8,Adriano Alvarenga-PDT-12,43.0
+MG061042016,False,p,8,Neimar Vieira-SD-77,2.0
+MG061042016,False,p,8,Zeca-PR-22,30.0
+MG061042016,True,p,9,Adriano Alvarenga-PDT-12,50.0
+MG061042016,True,p,9,Neimar Vieira-SD-77,2.0
+MG061042016,True,p,9,Zeca-PR-22,35.0
+MG014462016,False,p,10,Cabral-13-PT,36.0
+MG014462016,False,p,10,Tiquim-15-,40.0
+MG014462016,True,p,11,Cabral-13-PT,39.0
+MG014462016,True,p,11,Tiquim-15-,45.0
+MG038352016,False,p,12,Dr.Mauricio Leao-PSB-40,0.0
+MG038352016,False,p,12,Edinho Mapa-PSDC - 27,6.0
+MG038352016,False,p,12,Gontijo-PP - 1,2.0
+MG038352016,False,p,12,Guilherme Beleza-PHS - 3,6.0
+MG038352016,False,p,12,Hamilton Flecha-PSOL - 50,0.0
+MG038352016,False,p,12,Helio-PSDB - 45,32.0
+MG038352016,False,p,12,Jurandir do Povo-PDT - 12,0.0
+MG038352016,False,p,12,Milane-PSL - 17,8.0
+MG038352016,False,p,12,Valeria-PC do B - 65,7.0
+MG038352016,True,p,13,Edinho Mapa-PSDC - 27,8.0
+MG038352016,True,p,13,Gontijo-PP - 1,3.0
+MG038352016,True,p,13,Guilherme Beleza-PHS - 3,8.0
+MG038352016,True,p,13,Hamilton Flecha-PSOL - 50,0.0
+MG038352016,True,p,13,Helio-PSDB - 45,38.0
+MG038352016,True,p,13,Jurandir do Povo-PDT - 12,2.0
+MG038352016,True,p,13,Milane-PSL - 17,13.0
+MG038352016,True,p,13,Valeria-PC do B - 65,9.0
+MG081102016,False,p,14,Dr. Alexandre Corradi-PSOL - 50,0.0
+MG081102016,False,p,14,Fantini - PMDB -15,22.0
+MG081102016,False,p,14,Michel Irrthum - PRB - 10,2.0
+MG081102016,False,p,14,Wander Borges - PSB - 40,40.0
+MG081102016,True,p,15,Fantini - PMDB -15,26.0
+MG081102016,True,p,15,Michel Irrthum - PRB - 10,3.0
+MG081102016,True,p,15,Wander Borges - PSB - 40,5.0
+MG068402016,False,p,16,Cristina Lopes-PT - 13,4.0
+MG068402016,False,p,16,Jania Costa-PSD - 55,4.0
+MG068402016,False,p,16,Nivaldo Andrade-PSL - 17,40.0
+MG068402016,False,p,16,Romulo Viegas-PSDB - 45,15.0
+MG068402016,True,p,17,Cristina Lopes-PT - 13,6.0
+MG068402016,True,p,17,Jania Costa-PSD - 55,8.0
+MG068402016,True,p,17,Jordano Metalurgico-PSTU - 16,2.0
+MG068402016,True,p,17,Nivaldo Andrade-PSL - 17,47.0
+MG068402016,True,p,17,Romulo Viegas-PSDB - 45,19.0
+MG054562016,False,p,18,Glaucia Eliana-PMB-35,0.0
+MG054562016,False,p,18,Humberto Souto-PPS-23,29.0
+MG054562016,False,p,18,Jairo-DEM-25,15.0
+MG054562016,False,p,18,Jessica Vianna-Psol-50,0.0
+MG054562016,False,p,18,Leninha-PT-13,6.0
+MG054562016,False,p,18,Ruy Muniz-PSB-40,25.0
+MG054562016,True,p,19,Humberto Souto-PPS-23,32.0
+MG054562016,True,p,19,Jairo-DEM-25,18.0
+MG054562016,True,p,19,Leninha-PT-13,7.0
+MG054562016,True,p,19,Ruy Muniz-PSB-40,27.0
+MG003692016,False,p,20,Joao Emilio-15-PMDB,18.0
+MG003692016,False,p,20,Roberto Botelho-45-PSDB,53.0
+MG003692016,False,p,20,"Nenhum, nulo ou branco:",3.0
+MG003692016,False,p,20,Indecisos ou nao responderam:,26.0
+MG003692016,True,p,21,Joao Emilio-15-PMDB,32.0
+MG003692016,True,p,21,Roberto Botelho-45-PSDB,60.0
+MG095132016,False,p,22,Joao Leite,30.0
+MG095132016,False,p,22,Kalil,33.0
+MG095132016,True,p,23,Joao Leite,36.0
+MG095132016,True,p,23,Kalil,43.0
+MG060612016,False,p,24,Humberto Souto-PPS-23,49.0
+MG060612016,False,p,24,Ruy Muniz-PSB-40,31.0
+MG060612016,True,p,25,Humberto Souto-PPS-23,58.0
+MG060612016,True,p,25,Ruy Muniz-PSB-40,35.0

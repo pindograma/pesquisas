@@ -1,0 +1,761 @@
+tse_id,estimulada,position,scenario,candidate,value
+BR028532018,True,pr,0,Não sabe,4.7
+BR028532018,True,pr,0,Nenhum,17.5
+BR028532018,True,pr,0,Jair Bolsonaro,20.5
+BR028532018,True,pr,0,Marina Silva,12.0
+BR028532018,True,pr,0,Joaquim Barbosa,11.0
+BR028532018,True,pr,0,Ciro Gomes,9.7
+BR028532018,True,pr,0,Geraldo Alckmin,8.1
+BR028532018,True,pr,0,Alvaro Dias,5.9
+BR028532018,True,pr,0,Fernando Haddad,2.7
+BR028532018,True,pr,0,Manuela D'Ávila,2.1
+BR028532018,True,pr,0,Michel Temer,1.7
+BR028532018,True,pr,0,Flávio Rocha,1.0
+BR028532018,True,pr,0,Outros nomes citados*,2.9
+BR028532018,True,pr,1,Não sabe,3.2
+BR028532018,True,pr,1,Nenhum,9.6
+BR028532018,True,pr,1,Lula,27.6
+BR028532018,True,pr,1,Jair Bolsonaro,19.5
+BR028532018,True,pr,1,Joaquim Barbosa,9.2
+BR028532018,True,pr,1,Marina Silva,7.7
+BR028532018,True,pr,1,Geraldo Alckmin,6.9
+BR028532018,True,pr,1,Ciro Gomes,5.5
+BR028532018,True,pr,1,Alvaro Dias,5.4
+BR028532018,True,pr,1,Manuela D'Ávila,1.2
+BR028532018,True,pr,1,Michel Temer,1.1
+BR028532018,True,pr,1,Outros nomes citados*,3.0
+BR028532018,True,pr,2,Não sabe,4.7
+BR028532018,True,pr,2,Nenhum,17.3
+BR028532018,True,pr,2,Jair Bolsonaro,20.7
+BR028532018,True,pr,2,Marina Silva,13.3
+BR028532018,True,pr,2,Joaquim Barbosa,11.2
+BR028532018,True,pr,2,Ciro Gomes,10.1
+BR028532018,True,pr,2,Geraldo Alckmin,8.4
+BR028532018,True,pr,2,Alvaro Dias,6.1
+BR028532018,True,pr,2,Manuela D'Ávila,2.1
+BR028532018,True,pr,2,Michel Temer,1.7
+BR028532018,True,pr,2,Flávio Rocha,1.0
+BR028532018,True,pr,2,Outros nomes citados*,3.3
+BR067852018,True,pr,3,Não sabe,3.9
+BR067852018,True,pr,3,Nenhum,8.6
+BR067852018,True,pr,3,Jair Bolsonaro,53.0
+BR067852018,True,pr,3,Fernando Haddad,34.4
+BR044462018,True,pr,4,Não sabe,3.8
+BR044462018,True,pr,4,Nenhum,9.4
+BR044462018,True,pr,4,Jair Bolsonaro,52.9
+BR044462018,True,pr,4,Fernando Haddad,33.9
+BR084372018,True,pr,5,Não sabe,4.6
+BR084372018,True,pr,5,Nenhum,10.1
+BR084372018,True,pr,5,Jair Bolsonaro,34.9
+BR084372018,True,pr,5,Fernando Haddad,21.8
+BR084372018,True,pr,5,Ciro Gomes,9.4
+BR084372018,True,pr,5,Geraldo Alckmin,7.4
+BR084372018,True,pr,5,Marina Silva,3.5
+BR084372018,True,pr,5,João Amoêdo,3.1
+BR084372018,True,pr,5,Henrique Meirelles,1.7
+BR084372018,True,pr,5,Alvaro Dias,1.4
+BR084372018,True,pr,5,Cabo Daciolo,1.0
+BR084372018,True,pr,5,Guilherme Boulos,0.6
+BR084372018,True,pr,5,Vera,0.5
+BR084372018,True,pr,5,Eymael,0.0
+BR084372018,True,pr,5,João Goulart Filho,0.0
+BR084372018,True,pr,6,Não sabe,3.3
+BR084372018,True,pr,6,Nenhum,11.5
+BR084372018,True,pr,6,Jair Bolsonaro,47.1
+BR084372018,True,pr,6,Fernando Haddad,38.1
+BR084372018,True,pr,7,Não sabe,3.3
+BR084372018,True,pr,7,Nenhum,11.5
+BR084372018,True,pr,7,Jair Bolsonaro,47.1
+BR084372018,True,pr,7,Fernando Haddad,38.1
+BR084372018,True,pr,8,Não sabe,3.2
+BR084372018,True,pr,8,Nenhum,10.1
+BR084372018,True,pr,8,Jair Bolsonaro,44.2
+BR084372018,True,pr,8,Ciro Gomes,42.5
+BR084372018,True,pr,9,Não sabe,3.2
+BR084372018,True,pr,9,Nenhum,10.1
+BR084372018,True,pr,9,Jair Bolsonaro,44.2
+BR084372018,True,pr,9,Ciro Gomes,42.5
+BR024102018,True,pr,10,Não sabe,5.8
+BR024102018,True,pr,10,Nenhum,16.0
+BR024102018,True,pr,10,Jair Bolsonaro,26.6
+BR024102018,True,pr,10,Ciro Gomes,11.9
+BR024102018,True,pr,10,Marina Silva,10.6
+BR024102018,True,pr,10,Geraldo Alckmin,8.7
+BR024102018,True,pr,10,Fernando Haddad,8.3
+BR024102018,True,pr,10,Alvaro Dias,3.7
+BR024102018,True,pr,10,João Amoêdo,3.3
+BR024102018,True,pr,10,Henrique Meirelles,2.4
+BR024102018,True,pr,10,Guilherme Boulos,0.8
+BR024102018,True,pr,10,Vera,0.7
+BR024102018,True,pr,10,Cabo Daciolo,0.6
+BR024102018,True,pr,10,João Goulart Filho,0.4
+BR024102018,True,pr,10,Eymael,0.2
+BR024102018,True,pr,11,Não sabe,6.5
+BR024102018,True,pr,11,Nenhum,17.4
+BR024102018,True,pr,11,Jair Bolsonaro,27.1
+BR024102018,True,pr,11,Ciro Gomes,14.5
+BR024102018,True,pr,11,Marina Silva,12.4
+BR024102018,True,pr,11,Geraldo Alckmin,8.9
+BR024102018,True,pr,11,Alvaro Dias,3.8
+BR024102018,True,pr,11,João Amoêdo,3.4
+BR024102018,True,pr,11,Henrique Meirelles,2.7
+BR024102018,True,pr,11,Guilherme Boulos,1.2
+BR024102018,True,pr,11,Vera,0.7
+BR024102018,True,pr,11,Cabo Daciolo,0.6
+BR024102018,True,pr,11,João Goulart Filho,0.4
+BR024102018,True,pr,11,Eymael,0.3
+BR035122018,True,pr,12,Não sabe,6.3
+BR035122018,True,pr,12,Nenhum,11.9
+BR035122018,True,pr,12,Jair Bolsonaro,31.2
+BR035122018,True,pr,12,Fernando Haddad,20.2
+BR035122018,True,pr,12,Ciro Gomes,10.1
+BR035122018,True,pr,12,Geraldo Alckmin,7.6
+BR035122018,True,pr,12,Marina Silva,4.3
+BR035122018,True,pr,12,João Amoêdo,3.8
+BR035122018,True,pr,12,Alvaro Dias,1.9
+BR035122018,True,pr,12,Henrique Meirelles,1.3
+BR035122018,True,pr,12,Guilherme Boulos,0.4
+BR035122018,True,pr,12,Cabo Daciolo,0.3
+BR035122018,True,pr,12,Vera,0.3
+BR035122018,True,pr,12,Eymael,0.1
+BR035122018,True,pr,12,João Goulart Filho,0.1
+BR035122018,True,pr,13,Não sabe,4.3
+BR035122018,True,pr,13,Nenhum,12.1
+BR035122018,True,pr,13,Jair Bolsonaro,44.3
+BR035122018,True,pr,13,Fernando Haddad,39.4
+BR035122018,True,pr,14,Não sabe,4.3
+BR035122018,True,pr,14,Nenhum,12.1
+BR035122018,True,pr,14,Jair Bolsonaro,44.3
+BR035122018,True,pr,14,Fernando Haddad,39.4
+BR035122018,True,pr,15,Não sabe,4.1
+BR035122018,True,pr,15,Nenhum,11.1
+BR035122018,True,pr,15,Ciro Gomes,43.2
+BR035122018,True,pr,15,Jair Bolsonaro,41.6
+BR035122018,True,pr,16,Não sabe,4.1
+BR035122018,True,pr,16,Nenhum,11.1
+BR035122018,True,pr,16,Ciro Gomes,43.2
+BR035122018,True,pr,16,Jair Bolsonaro,41.6
+BR035122018,True,pr,17,Não sabe,4.5
+BR035122018,True,pr,17,Nenhum,15.2
+BR035122018,True,pr,17,Jair Bolsonaro,42.1
+BR035122018,True,pr,17,Geraldo Alckmin,38.2
+BR035122018,True,pr,18,Não sabe,4.5
+BR035122018,True,pr,18,Nenhum,15.2
+BR035122018,True,pr,18,Jair Bolsonaro,42.1
+BR035122018,True,pr,18,Geraldo Alckmin,38.2
+BR035122018,True,pr,19,Não sabe,4.7
+BR035122018,True,pr,19,Nenhum,23.2
+BR035122018,True,pr,19,Fernando Haddad,36.3
+BR035122018,True,pr,19,Geraldo Alckmin,35.8
+BR035122018,True,pr,20,Não sabe,4.7
+BR035122018,True,pr,20,Nenhum,23.2
+BR035122018,True,pr,20,Fernando Haddad,36.3
+BR035122018,True,pr,20,Geraldo Alckmin,35.8
+BR035122018,True,pr,21,Não sabe,4.3
+BR035122018,True,pr,21,Nenhum,25.2
+BR035122018,True,pr,21,Ciro Gomes,38.2
+BR035122018,True,pr,21,Fernando Haddad,32.4
+BR035122018,True,pr,22,Não sabe,4.3
+BR035122018,True,pr,22,Nenhum,25.2
+BR035122018,True,pr,22,Ciro Gomes,38.2
+BR035122018,True,pr,22,Fernando Haddad,32.4
+DF001502018,True,g,23,Não sabe,5.3
+DF001502018,True,g,23,Nenhum,22.6
+DF001502018,True,g,23,Jofran Frejat,25.4
+DF001502018,True,g,23,Rodrigo Rollemberg,11.5
+DF001502018,True,g,23,Eliana Pedrosa,9.8
+DF001502018,True,g,23,General Paulo Chagas,5.1
+DF001502018,True,g,23,Chico Leite,4.9
+DF001502018,True,g,23,Izalci Lucas,4.4
+DF001502018,True,g,23,Alexandre Guerra,3.2
+DF001502018,True,g,23,Joe Valle,2.0
+DF001502018,True,g,23,Alírio Neto,1.8
+DF001502018,True,g,23,Wanderley Tavares,1.6
+DF001502018,True,g,23,Fátima de Souza,1.3
+DF001502018,True,g,23,Júlio Miragaya,1.1
+DF001502018,True,g,24,Não sabe,7.1
+DF001502018,True,g,24,Nenhum,25.5
+DF001502018,True,g,24,Jofran Frejat,27.0
+DF001502018,True,g,24,Rodrigo Rollemberg,12.3
+DF001502018,True,g,24,Eliana Pedrosa,11.1
+DF001502018,True,g,24,General Paulo Chagas,5.3
+DF001502018,True,g,24,Izalci Lucas,4.9
+DF001502018,True,g,24,Alexandre Guerra,3.4
+DF001502018,True,g,24,Fátima de Souza,1.8
+DF001502018,True,g,24,Júlio Miragaya,1.4
+BR063522018,True,pr,25,Não sabe,4.7
+BR063522018,True,pr,25,Nenhum,10.8
+BR063522018,True,pr,25,Jair Bolsonaro,62.9
+BR063522018,True,pr,25,Fernando Haddad,21.6
+DF041432018,True,g,26,Não sabe,5.3
+DF041432018,True,g,26,Nenhum,6.9
+DF041432018,True,g,26,Ibaneis,64.6
+DF041432018,True,g,26,Rodrigo Rollemberg,23.1
+DF001502018,True,s,27,Não sabe,6.1
+DF001502018,True,s,27,Nenhum,24.4
+DF001502018,True,s,27,Cristovam Buarque,28.6
+DF001502018,True,s,27,Chico Leite,14.7
+DF001502018,True,s,27,Paulo Octávio,13.2
+DF001502018,True,s,27,Alberto Fraga,10.9
+DF001502018,True,s,27,Rogério Rosso,10.1
+DF001502018,True,s,27,Joe Valle,6.2
+DF001502018,True,s,27,Wasny de Roure,5.8
+DF001502018,True,s,27,Fadi Faraj,4.9
+DF001502018,True,s,27,Paulo Roque,1.9
+DF001502018,True,s,27,Chico Machado,1.7
+DF001502018,True,s,27,Chico Sant'anna,1.3
+DF001502018,True,s,27,Marivaldo Pereira,1.1
+DF001502018,True,s,27,Leany Lemos,0.8
+MG094972018,True,g,28,Não sabe,6.2
+MG094972018,True,g,28,Nenhum,17.8
+MG094972018,True,g,28,Antonio Anastasia,25.9
+MG094972018,True,g,28,Fernando Pimentel,19.9
+MG094972018,True,g,28,Marcio Lacerda,11.3
+MG094972018,True,g,28,Dinis Pinheiro,4.3
+MG094972018,True,g,28,Sara Azevedo,4.0
+MG094972018,True,g,28,Rodrigo Pacheco,3.7
+MG094972018,True,g,28,Antônio Andrade,2.8
+MG094972018,True,g,28,Romeu Zema,1.9
+MG094972018,True,g,29,Não sabe,5.9
+MG094972018,True,g,29,Nenhum,19.9
+MG094972018,True,g,29,Antonio Anastasia,27.3
+MG094972018,True,g,29,Fernando Pimentel,20.8
+MG094972018,True,g,29,Marcio Lacerda,12.1
+MG094972018,True,g,29,Rodrigo Pacheco,4.7
+MG094972018,True,g,29,Sara Azevedo,4.6
+MG094972018,True,g,29,Romeu Zema,2.2
+MG094972018,True,g,30,Não sabe,5.7
+MG094972018,True,g,30,Nenhum,21.6
+MG094972018,True,g,30,Antonio Anastasia,28.1
+MG094972018,True,g,30,Fernando Pimentel,21.2
+MG094972018,True,g,30,Marcio Lacerda,12.5
+MG094972018,True,g,30,Sara Azevedo,5.5
+MG094972018,True,g,30,Romeu Zema,2.4
+BR093442018,True,pr,31,Não sabe,5.5
+BR093442018,True,pr,31,Nenhum,19.5
+BR093442018,True,pr,31,Jair Bolsonaro,25.6
+BR093442018,True,pr,31,Marina Silva,18.1
+BR093442018,True,pr,31,Ciro Gomes,10.7
+BR093442018,True,pr,31,Geraldo Alckmin,7.5
+BR093442018,True,pr,31,Alvaro Dias,3.8
+BR093442018,True,pr,31,Michel Temer,2.5
+BR093442018,True,pr,31,Fernando Haddad,2.1
+BR093442018,True,pr,31,Manuela D'Ávila,1.4
+BR093442018,True,pr,31,Flávio Rocha,1.1
+BR093442018,True,pr,31,João Amoêdo,1.1
+BR093442018,True,pr,31,Rodrigo Maia,0.9
+BR093442018,True,pr,31,Levy Fidelix,0.3
+BR093442018,True,pr,32,Não sabe,3.8
+BR093442018,True,pr,32,Nenhum,11.7
+BR093442018,True,pr,32,Lula,27.8
+BR093442018,True,pr,32,Jair Bolsonaro,23.4
+BR093442018,True,pr,32,Marina Silva,11.6
+BR093442018,True,pr,32,Ciro Gomes,7.5
+BR093442018,True,pr,32,Geraldo Alckmin,6.5
+BR093442018,True,pr,32,Alvaro Dias,3.6
+BR093442018,True,pr,32,Michel Temer,1.5
+BR093442018,True,pr,32,João Amoêdo,0.8
+BR093442018,True,pr,32,Flávio Rocha,0.6
+BR093442018,True,pr,32,Rodrigo Maia,0.6
+BR093442018,True,pr,32,Manuela D'Ávila,0.4
+BR093442018,True,pr,32,Levy Fidelix,0.2
+BR093442018,True,pr,33,Não sabe,5.6
+BR093442018,True,pr,33,Nenhum,20.1
+BR093442018,True,pr,33,Jair Bolsonaro,25.7
+BR093442018,True,pr,33,Marina Silva,18.8
+BR093442018,True,pr,33,Ciro Gomes,11.0
+BR093442018,True,pr,33,Geraldo Alckmin,7.7
+BR093442018,True,pr,33,Alvaro Dias,3.9
+BR093442018,True,pr,33,Henrique Meirelles,2.3
+BR093442018,True,pr,33,Flávio Rocha,1.1
+BR093442018,True,pr,33,João Amoêdo,1.0
+BR093442018,True,pr,33,Rodrigo Maia,1.0
+BR093442018,True,pr,33,Levy Fidelix,0.4
+BR093442018,True,pr,33,Manuela D'Ávila,1.5
+MG094972018,True,s,34,Não sabe,5.8
+MG094972018,True,s,34,Nenhum,18.6
+MG094972018,True,s,34,Dilma Rousseff,24.4
+MG094972018,True,s,34,Aécio Neves,21.0
+MG094972018,True,s,34,Mauro Tramonte,15.7
+MG094972018,True,s,34,Rodrigo Paiva,13.7
+MG094972018,True,s,34,Jô Moraes,11.9
+MG094972018,True,s,34,Carlos Viana,11.4
+MG094972018,True,s,34,Dinis Pinheiro,9.1
+MG094972018,True,s,34,Bruno Siqueira,8.5
+MG094972018,True,s,34,Jaime Martins,6.0
+BR072132018,True,pr,35,Não sabe,5.5
+BR072132018,True,pr,35,Nenhum,25.3
+BR072132018,True,pr,35,Jair Bolsonaro,25.2
+BR072132018,True,pr,35,Marina Silva,14.3
+BR072132018,True,pr,35,Ciro Gomes,10.5
+BR072132018,True,pr,35,Alvaro Dias,5.6
+BR072132018,True,pr,35,Geraldo Alckmin,4.3
+BR072132018,True,pr,35,Fernando Haddad,2.2
+BR072132018,True,pr,35,Manuela D'Ávila,2.1
+BR072132018,True,pr,35,Henrique Meirelles,1.8
+BR072132018,True,pr,35,João Amoêdo,1.1
+BR072132018,True,pr,35,Guilherme Boulos,0.8
+BR072132018,True,pr,35,Rodrigo Maia,0.8
+BR072132018,True,pr,35,Flávio Rocha,0.6
+BR072132018,True,pr,36,Não sabe,3.8
+BR072132018,True,pr,36,Nenhum,18.4
+BR072132018,True,pr,36,Jair Bolsonaro,24.3
+BR072132018,True,pr,36,Lula,21.0
+BR072132018,True,pr,36,Marina Silva,10.6
+BR072132018,True,pr,36,Ciro Gomes,6.9
+BR072132018,True,pr,36,Alvaro Dias,5.4
+BR072132018,True,pr,36,Geraldo Alckmin,3.7
+BR072132018,True,pr,36,Henrique Meirelles,1.7
+BR072132018,True,pr,36,Manuela D'Ávila,1.3
+BR072132018,True,pr,36,João Amoêdo,1.0
+BR072132018,True,pr,36,Guilherme Boulos,0.8
+BR072132018,True,pr,36,Rodrigo Maia,0.7
+BR072132018,True,pr,36,Flávio Rocha,0.5
+BR055992018,True,pr,37,Não sabe,5.1
+BR055992018,True,pr,37,Nenhum,25.4
+BR055992018,True,pr,37,Jair Bolsonaro,29.1
+BR055992018,True,pr,37,Marina Silva,15.2
+BR055992018,True,pr,37,Ciro Gomes,8.7
+BR055992018,True,pr,37,Geraldo Alckmin,4.0
+BR055992018,True,pr,37,Alvaro Dias,3.7
+BR055992018,True,pr,37,Rodrigo Maia,2.3
+BR055992018,True,pr,37,Manuela D'Ávila,1.9
+BR055992018,True,pr,37,Fernando Haddad,1.4
+BR055992018,True,pr,37,Henrique Meirelles,1.4
+BR055992018,True,pr,37,João Amoêdo,1.3
+BR055992018,True,pr,37,Guilherme Boulos,0.5
+BR055992018,True,pr,38,Não sabe,3.2
+BR055992018,True,pr,38,Nenhum,16.2
+BR055992018,True,pr,38,Jair Bolsonaro,26.6
+BR055992018,True,pr,38,Lula,25.5
+BR055992018,True,pr,38,Marina Silva,10.4
+BR055992018,True,pr,38,Ciro Gomes,6.1
+BR055992018,True,pr,38,Geraldo Alckmin,3.4
+BR055992018,True,pr,38,Alvaro Dias,3.1
+BR055992018,True,pr,38,Rodrigo Maia,1.5
+BR055992018,True,pr,38,Manuela D'Ávila,1.3
+BR055992018,True,pr,38,Henrique Meirelles,1.2
+BR055992018,True,pr,38,João Amoêdo,1.1
+BR055992018,True,pr,38,Guilherme Boulos,0.4
+RJ012962018,True,g,39,Não sabe,6.6
+RJ012962018,True,g,39,Nenhum,22.8
+RJ012962018,True,g,39,Romário Faria,18.3
+RJ012962018,True,g,39,Eduardo Paes,17.3
+RJ012962018,True,g,39,Anthony Garotinho,14.5
+RJ012962018,True,g,39,Indio,5.5
+RJ012962018,True,g,39,Tarcísio Motta,4.4
+RJ012962018,True,g,39,Pedro Fernandes,2.6
+RJ012962018,True,g,39,Wilson Ex Juiz Federal,2.3
+RJ012962018,True,g,39,Marcelo Trindade,1.7
+RJ012962018,True,g,39,Marcia Tiburi,1.7
+RJ012962018,True,g,39,André Monteiro,1.1
+RJ012962018,True,g,39,Dayse Oliveira,0.6
+RJ012962018,True,g,39,Luiz Eugenio,0.6
+BR038552018,True,pr,40,Não sabe,4.3
+BR038552018,True,pr,40,Nenhum,15.6
+BR038552018,True,pr,40,Jair Bolsonaro,28.0
+BR038552018,True,pr,40,Lula,26.3
+BR038552018,True,pr,40,Marina Silva,9.8
+BR038552018,True,pr,40,Ciro Gomes,5.7
+BR038552018,True,pr,40,Geraldo Alckmin,3.0
+BR038552018,True,pr,40,João Amoêdo,2.8
+BR038552018,True,pr,40,Alvaro Dias,1.9
+BR038552018,True,pr,40,Henrique Meirelles,0.7
+BR038552018,True,pr,40,Cabo Daciolo,0.5
+BR038552018,True,pr,40,Guilherme Boulos,0.5
+BR038552018,True,pr,40,Vera,0.5
+BR038552018,True,pr,40,João Goulart Filho,0.3
+BR038552018,True,pr,40,Eymael,0.1
+BR038552018,True,pr,41,Não sabe,5.8
+BR038552018,True,pr,41,Nenhum,20.4
+BR038552018,True,pr,41,Jair Bolsonaro,30.4
+BR038552018,True,pr,41,Marina Silva,15.3
+BR038552018,True,pr,41,Ciro Gomes,9.4
+BR038552018,True,pr,41,Fernando Haddad,5.4
+BR038552018,True,pr,41,Geraldo Alckmin,4.1
+BR038552018,True,pr,41,João Amoêdo,3.0
+BR038552018,True,pr,41,Alvaro Dias,2.5
+BR038552018,True,pr,41,Guilherme Boulos,0.9
+BR038552018,True,pr,41,Henrique Meirelles,0.9
+BR038552018,True,pr,41,Vera,0.8
+BR038552018,True,pr,41,Cabo Daciolo,0.5
+BR038552018,True,pr,41,João Goulart Filho,0.4
+BR038552018,True,pr,41,Eymael,0.2
+RJ012962018,True,s,42,Não sabe,10.8
+RJ012962018,True,s,42,Nenhum,23.4
+RJ012962018,True,s,42,Flávio Bolsonaro,19.7
+RJ012962018,True,s,42,Cesar Maia,15.7
+RJ012962018,True,s,42,Lindbergh,14.1
+RJ012962018,True,s,42,Chico Alencar,11.3
+RJ012962018,True,s,42,Miro Teixeira,8.5
+RJ012962018,True,s,42,Arolde de Oliveira,6.5
+RJ012962018,True,s,42,Pastor Everaldo,6.3
+RJ012962018,True,s,42,Senador Eduardo Lopes,4.1
+RJ012962018,True,s,42,Cyro Garcia,3.8
+RJ012962018,True,s,42,Mattos Nascimento,3.4
+RJ012962018,True,s,42,Aspasia,1.9
+RJ012962018,True,s,42,Jose Bonifacio,1.8
+RJ012962018,True,s,42,Marta Barçante,1.3
+RJ012962018,True,s,42,Samantha Guedes,1.2
+RJ012962018,True,s,42,Fernando Fagundes Ribeiro,0.8
+RJ091342018,True,g,43,Não sabe,4.9
+RJ091342018,True,g,43,Nenhum,15.2
+RJ091342018,True,g,43,Romário,24.8
+RJ091342018,True,g,43,Eduardo Paes,13.5
+RJ091342018,True,g,43,Garotinho,11.2
+RJ091342018,True,g,43,Índio da Costa,8.2
+RJ091342018,True,g,43,Bernardinho,6.3
+RJ091342018,True,g,43,Miro Texeira,5.9
+RJ091342018,True,g,43,Celso Amorim,3.4
+RJ091342018,True,g,43,Tarcísio Motta,3.0
+RJ091342018,True,g,43,Juiz Wilson Witzel,2.9
+RJ091342018,True,g,44,Não sabe,5.0
+RJ091342018,True,g,44,Nenhum,16.5
+RJ091342018,True,g,44,Romário,26.9
+RJ091342018,True,g,44,Eduardo Paes,14.1
+RJ091342018,True,g,44,Garotinho,11.6
+RJ091342018,True,g,44,Índio da Costa,8.8
+RJ091342018,True,g,44,Miro Texeira,6.2
+RJ091342018,True,g,44,Celso Amorim,3.6
+RJ091342018,True,g,44,Tarcísio Motta,3.1
+RJ091342018,True,g,44,"Rubem César 
+Fernandes",1.1
+RJ091342018,True,g,44,Juiz Wilson Witzel,3.2
+RJ091342018,True,g,45,Eduardo Paes,15.1
+RJ091342018,True,g,45,Juiz Wilson Witzel,3.6
+RJ091342018,True,g,45,Não sabe,5.3
+RJ091342018,True,g,45,Nenhum,20.5
+RJ091342018,True,g,45,Romário,30.5
+RJ091342018,True,g,45,Índio da Costa,9.5
+RJ091342018,True,g,45,Miro Texeira,6.7
+RJ091342018,True,g,45,Celso Amorim,3.9
+RJ091342018,True,g,45,Tarcísio Motta,3.7
+RJ091342018,True,g,45,"Rubem César 
+Fernandes",1.2
+RJ091342018,True,g,46,Não sabe,5.6
+RJ091342018,True,g,46,Nenhum,20.1
+RJ091342018,True,g,46,Romário,30.3
+RJ091342018,True,g,46,Garotinho,12.9
+RJ091342018,True,g,46,Índio da Costa,10.6
+RJ091342018,True,g,46,Miro Texeira,7.2
+RJ091342018,True,g,46,Celso Amorim,4.3
+RJ091342018,True,g,46,Tarcísio Motta,4.0
+RJ091342018,True,g,46,"Rubem César 
+Fernandes",1.5
+RJ091342018,True,g,46,Juiz Wilson Witzel,3.6
+RJ091342018,True,s,47,Não sabe,6.4
+RJ091342018,True,s,47,Nenhum,15.8
+RJ091342018,True,s,47,Flávio Bolsonaro,32.3
+RJ091342018,True,s,47,Cesar Maia,20.6
+RJ091342018,True,s,47,Martha Rocha,20.4
+RJ091342018,True,s,47,Chico Alencar,16.3
+RJ091342018,True,s,47,Lindberg Farias,15.5
+RJ091342018,True,s,47,Eduardo Lopes,6.4
+RJ091342018,True,s,47,Sérgio Zveiter,6.3
+RJ091342018,True,s,47,Omar Peres,2.4
+BR048382018,True,pr,48,Não sabe,5.2
+BR048382018,True,pr,48,Nenhum,17.1
+BR048382018,True,pr,48,Jair Bolsonaro,27.4
+BR048382018,True,pr,48,Marina Silva,13.0
+BR048382018,True,pr,48,Joaquim Barbosa,10.8
+BR048382018,True,pr,48,Ciro Gomes,9.9
+BR048382018,True,pr,48,Alvaro Dias,4.1
+BR048382018,True,pr,48,Geraldo Alckmin,3.5
+BR048382018,True,pr,48,Michel Temer,2.2
+BR048382018,True,pr,48,Rodrigo Maia,2.1
+BR048382018,True,pr,48,Fernando Haddad,1.6
+BR048382018,True,pr,48,Manuela D'Ávila,1.5
+BR048382018,True,pr,48,João Amoedo,1.1
+BR048382018,True,pr,48,Flávio Rocha,0.6
+BR048382018,True,pr,48,Paulo Rabello de Castro,0.1
+BR048382018,True,pr,49,Não sabe,3.7
+BR048382018,True,pr,49,Nenhum,11.3
+BR048382018,True,pr,49,Jair Bolsonaro,25.1
+BR048382018,True,pr,49,Lula,21.5
+BR048382018,True,pr,49,Marina Silva,9.7
+BR048382018,True,pr,49,Joaquim Barbosa,9.4
+BR048382018,True,pr,49,Ciro Gomes,7.0
+BR048382018,True,pr,49,Alvaro Dias,3.8
+BR048382018,True,pr,49,Geraldo Alckmin,3.1
+BR048382018,True,pr,49,Rodrigo Maia,1.4
+BR048382018,True,pr,49,Michel Temer,1.2
+BR048382018,True,pr,49,Manuela D'Ávila,1.1
+BR048382018,True,pr,49,João Amoêdo,1.0
+BR048382018,True,pr,49,Flávio Rocha,0.5
+BR048382018,True,pr,49,Paulo Rabello de Castro,0.1
+BR048382018,True,pr,50,Não sabe,5.0
+BR048382018,True,pr,50,Nenhum,17.9
+BR048382018,True,pr,50,Jair Bolsonaro,27.7
+BR048382018,True,pr,50,Marina Silva,13.4
+BR048382018,True,pr,50,Joaquim Barbosa,10.8
+BR048382018,True,pr,50,Ciro Gomes,10.3
+BR048382018,True,pr,50,Alvaro Dias,4.1
+BR048382018,True,pr,50,Geraldo Alckmin,3.7
+BR048382018,True,pr,50,Rodrigo Maia,2.1
+BR048382018,True,pr,50,Henrique Meirelles,1.6
+BR048382018,True,pr,50,Manuela D'Ávila,1.6
+BR048382018,True,pr,50,João Amoêdo,1.2
+BR048382018,True,pr,50,Flávio Rocha,0.7
+BR048382018,True,pr,50,Paulo Rabello de Castro,0.1
+BR006712018,True,pr,51,Não sabe,4.8
+BR006712018,True,pr,51,Nenhum,10.3
+BR006712018,True,pr,51,Jair Bolsonaro,60.1
+BR006712018,True,pr,51,Fernando Haddad,24.8
+RJ065462018,True,g,52,Não sabe,4.6
+RJ065462018,True,g,52,Nenhum,8.4
+RJ065462018,True,g,52,Wilson Witzel,59.0
+RJ065462018,True,g,52,Eduardo Paes,28.1
+RJ063042018,True,g,53,Não sabe,3.7
+RJ063042018,True,g,53,Nenhum,21.3
+RJ063042018,True,g,53,Romário,24.3
+RJ063042018,True,g,53,Eduardo Paes,15.1
+RJ063042018,True,g,53,Garotinho,13.5
+RJ063042018,True,g,53,Índio da Costa,7.2
+RJ063042018,True,g,53,Tarcísio Motta,3.8
+RJ063042018,True,g,53,Pedro Fernandes,2.7
+RJ063042018,True,g,53,Marcia Tiburi,2.1
+RJ063042018,True,g,53,Marcelo Trindade,2.0
+RJ063042018,True,g,53,Juiz Wilson Witzel,1.8
+RJ063042018,True,g,53,Marcelo Delaroli,1.0
+RJ063042018,True,g,53,Rubem César Fernandes,0.9
+RJ063042018,True,g,53,Leonardo Giordano,0.6
+RJ063042018,True,g,54,Não sabe,5.2
+RJ063042018,True,g,54,Nenhum,24.4
+RJ063042018,True,g,54,Romário,27.9
+RJ063042018,True,g,54,Eduardo Paes,18.0
+RJ063042018,True,g,54,Índio da Costa,8.5
+RJ063042018,True,g,54,Tarcísio Motta,4.1
+RJ063042018,True,g,54,Pedro Fernandes,3.1
+RJ063042018,True,g,54,Marcelo Trindade,2.6
+RJ063042018,True,g,54,Marcia Tiburi,2.4
+RJ063042018,True,g,54,Juiz Wilson Witzel,1.9
+RJ063042018,True,g,54,Rubem César Fernandes,1.1
+RJ063042018,True,g,54,Leonardo Giordano,0.9
+RJ063042018,True,g,55,Não sabe,5.3
+RJ063042018,True,g,55,Nenhum,25.3
+RJ063042018,True,g,55,Romário,28.5
+RJ063042018,True,g,55,Eduardo Paes,18.7
+RJ063042018,True,g,55,Índio da Costa,9.0
+RJ063042018,True,g,55,Tarcísio Motta,4.7
+RJ063042018,True,g,55,Pedro Fernandes,3.5
+RJ063042018,True,g,55,Marcia Tiburi,2.7
+RJ063042018,True,g,55,Leonardo Giordano,1.1
+RJ063042018,True,g,55,Rubem César Fernandes,1.1
+RJ063042018,True,s,56,Não sabe,5.6
+RJ063042018,True,s,56,Nenhum,21.9
+RJ063042018,True,s,56,Flávio Bolsonaro,29.6
+RJ063042018,True,s,56,Chico Alencar,21.7
+RJ063042018,True,s,56,Lindbergh Farias,20.4
+RJ063042018,True,s,56,Arolde de Oliveira,11.9
+RJ063042018,True,s,56,Eduardo Lopes,11.5
+RJ063042018,True,s,56,Aspásia Camargo,7.2
+RJ063042018,True,s,56,Sérgio Zveiter,6.5
+RJ063042018,True,s,56,Átila Alexandre Nunes,6.1
+RJ063042018,True,s,56,Vivaldo Barbosa,5.2
+BR002502018,True,pr,57,Não sabe,5.0
+BR002502018,True,pr,57,Nenhum,9.0
+BR002502018,True,pr,57,Jair Bolsonaro,59.5
+BR002502018,True,pr,57,Fernando Haddad,26.6
+SP002482018,True,g,58,Não sabe,5.4
+SP002482018,True,g,58,Nenhum,7.9
+SP002482018,True,g,58,João Doria,47.0
+SP002482018,True,g,58,Marcio França,39.8
+BR048582018,True,pr,59,Não sabe,4.0
+BR048582018,True,pr,59,Nenhum,9.2
+BR048582018,True,pr,59,Jair Bolsonaro,59.4
+BR048582018,True,pr,59,Fernando Haddad,27.4
+SP074602018,True,g,60,Não sabe,4.8
+SP074602018,True,g,60,Nenhum,7.8
+SP074602018,True,g,60,João Doria,47.9
+SP074602018,True,g,60,Marcio França,39.5
+SP044852018,True,g,61,Não sabe,8.6
+SP044852018,True,g,61,Nenhum,15.4
+SP044852018,True,g,61,João Doria,27.0
+SP044852018,True,g,61,Paulo Skaf,23.0
+SP044852018,True,g,61,Marcio França,12.2
+SP044852018,True,g,61,Luiz Marinho,5.8
+SP044852018,True,g,61,Major Costa e Silva,1.8
+SP044852018,True,g,61,Professora Lisete,1.8
+SP044852018,True,g,61,Toninho Ferreira,1.0
+SP044852018,True,g,61,Lilian Miranda,0.9
+SP044852018,True,g,61,Marcelo Candido,0.8
+SP044852018,True,g,61,Rogerio Chequer,0.6
+SP044852018,True,g,61,Prof. Claudio Fernando,0.4
+SP044852018,True,g,61,Rodrigo Tavares,0.4
+SP044852018,True,s,62,Não sabe,8.8
+SP044852018,True,s,62,Nenhum,16.4
+SP044852018,True,s,62,Eduardo Suplicy,31.0
+SP044852018,True,s,62,Mara Gabrilli,15.5
+SP044852018,True,s,62,Mario Covas Neto,13.8
+SP044852018,True,s,62,Major Olimpio,12.5
+SP044852018,True,s,62,Maurren Maggi,10.9
+SP044852018,True,s,62,Tripoli,8.9
+SP044852018,True,s,62,Cidinha,5.3
+SP044852018,True,s,62,Professora Silvia Ferraro,3.4
+SP044852018,True,s,62,Jilmar Tatto,2.9
+SP044852018,True,s,62,Antonio Neto,2.4
+SP044852018,True,s,62,Dra. Eliana Ferreira,2.2
+SP044852018,True,s,62,Marcelo Barbieri,1.4
+SP044852018,True,s,62,Diogo da Luz,1.2
+SP044852018,True,s,62,Educador Daniel Cara,1.2
+SP044852018,True,s,62,Kaled,1.0
+SP044852018,True,s,62,Pedro Henrique de Cristo,0.9
+SP044852018,True,s,62,Jair Andreoni,0.8
+SP044852018,True,s,62,Mancha,0.8
+SP044852018,True,s,62,Nivaldo Orlandi,0.5
+SP044852018,True,s,62,Moira Lázaro Mandato Coletivo,0.3
+BR084702018,True,pr,63,Não sabe,5.3
+BR084702018,True,pr,63,Nenhum,12.8
+BR084702018,True,pr,63,Jair Bolsonaro,21.9
+BR084702018,True,pr,63,Lula,21.8
+BR084702018,True,pr,63,Geraldo Alckmin,14.9
+BR084702018,True,pr,63,Marina Silva,7.8
+BR084702018,True,pr,63,Ciro Gomes,5.8
+BR084702018,True,pr,63,João Amoêdo,3.4
+BR084702018,True,pr,63,Alvaro Dias,3.3
+BR084702018,True,pr,63,Henrique Meirelles,1.0
+BR084702018,True,pr,63,Guilherme Boulos,0.6
+BR084702018,True,pr,63,Cabo Daciolo,0.4
+BR084702018,True,pr,63,João Goulart Filho,0.4
+BR084702018,True,pr,63,Vera,0.4
+BR084702018,True,pr,63,Eymael,0.3
+BR084702018,True,pr,64,Não sabe,6.6
+BR084702018,True,pr,64,Nenhum,17.0
+BR084702018,True,pr,64,Jair Bolsonaro,23.1
+BR084702018,True,pr,64,Geraldo Alckmin,17.0
+BR084702018,True,pr,64,Marina Silva,11.0
+BR084702018,True,pr,64,Fernando Haddad,7.3
+BR084702018,True,pr,64,Ciro Gomes,7.0
+BR084702018,True,pr,64,Alvaro Dias,3.5
+BR084702018,True,pr,64,João Amoêdo,3.5
+BR084702018,True,pr,64,Henrique Meirelles,1.3
+BR084702018,True,pr,64,Guilherme Boulos,0.8
+BR084702018,True,pr,64,Vera,0.8
+BR084702018,True,pr,64,João Goulart Filho,0.5
+BR084702018,True,pr,64,Cabo Daciolo,0.4
+BR084702018,True,pr,64,Eymael,0.3
+SP023782018,True,g,65,Não sabe,10.2
+SP023782018,True,g,65,Nenhum,19.1
+SP023782018,True,g,65,João Doria,27.7
+SP023782018,True,g,65,Paulo Skaf,22.1
+SP023782018,True,g,65,Márcio França,6.7
+SP023782018,True,g,65,Luiz Marinho,5.1
+SP023782018,True,g,65,Professora Lisete,2.3
+SP023782018,True,g,65,Toninho Ferreira,1.5
+SP023782018,True,g,65,Marcelo Candido,1.1
+SP023782018,True,g,65,Prof. Claudio Fernando,1.0
+SP023782018,True,g,65,Major Costa e Silva,0.9
+SP023782018,True,g,65,Rodrigo Tavares,0.9
+SP023782018,True,g,65,Edson Dorta,0.8
+SP023782018,True,g,65,Rogério Chequer,0.7
+BR040112018,True,pr,66,Não sabe,4.8
+BR040112018,True,pr,66,Nenhum,12.6
+BR040112018,True,pr,66,Jair Bolsonaro,35.7
+BR040112018,True,pr,66,Fernando Haddad,14.1
+BR040112018,True,pr,66,Geraldo Alckmin,12.6
+BR040112018,True,pr,66,Ciro Gomes,5.7
+BR040112018,True,pr,66,João Amoêdo,5.6
+BR040112018,True,pr,66,Marina Silva,3.7
+BR040112018,True,pr,66,Alvaro Dias,1.6
+BR040112018,True,pr,66,Henrique Meirelles,1.6
+BR040112018,True,pr,66,Cabo Daciolo,1.2
+BR040112018,True,pr,66,Guilherme Boulos,0.5
+BR040112018,True,pr,66,Vera,0.2
+BR040112018,True,pr,66,João Goulart Filho,0.1
+BR040112018,True,pr,66,Eymael,0.0
+SP013782018,True,g,67,Não sabe,7.8
+SP013782018,True,g,67,Nenhum,14.9
+SP013782018,True,g,67,João Doria,26.0
+SP013782018,True,g,67,Paulo Skaf,23.0
+SP013782018,True,g,67,Marcio França,14.4
+SP013782018,True,g,67,Luiz Marinho,5.6
+SP013782018,True,g,67,Major Costa e Silva,2.7
+SP013782018,True,g,67,Professora Lisete,1.6
+SP013782018,True,g,67,Rogerio Chequer,1.2
+SP013782018,True,g,67,Rodrigo Tavares,0.9
+SP013782018,True,g,67,Prof. Claudio Fernando,0.6
+SP013782018,True,g,67,Toninho Ferreira,0.6
+SP013782018,True,g,67,Lilian Miranda,0.3
+SP013782018,True,g,67,Marcelo Candido,0.3
+SP013782018,True,s,68,Não sabe,8.0
+SP013782018,True,s,68,Nenhum,15.2
+SP013782018,True,s,68,Eduardo Suplicy,25.4
+SP013782018,True,s,68,Mara Gabrilli,18.5
+SP013782018,True,s,68,Major Olimpio,17.7
+SP013782018,True,s,68,Maurren Maggi,13.0
+SP013782018,True,s,68,Mario Covas Neto,12.1
+SP013782018,True,s,68,Tripoli,9.0
+SP013782018,True,s,68,Cidinha,4.4
+SP013782018,True,s,68,Jilmar Tatto,2.7
+SP013782018,True,s,68,Professora Silvia Ferraro,1.7
+SP013782018,True,s,68,Marcelo Barbieri,1.6
+SP013782018,True,s,68,Antonio Neto,1.1
+SP013782018,True,s,68,Diogo da Luz,1.0
+SP013782018,True,s,68,Dra. Eliana Ferreira,1.0
+SP013782018,True,s,68,Educador Daniel Cara,0.9
+SP013782018,True,s,68,Jair Andreoni,0.9
+SP013782018,True,s,68,Pedro Henrique de Cristo,0.6
+SP013782018,True,s,68,Moira Lázaro Mandato Coletivo,0.5
+SP013782018,True,s,68,Kaled,0.4
+SP013782018,True,s,68,Mancha,0.3
+SP013782018,True,s,68,Nivaldo Orlandi,0.2
+SP023782018,True,s,69,Não sabe,13.9
+SP023782018,True,s,69,Nenhum,21.2
+SP023782018,True,s,69,Eduardo Suplicy,33.1
+SP023782018,True,s,69,Mário Covas,16.0
+SP023782018,True,s,69,Major Olimpio,12.7
+SP023782018,True,s,69,Cidinha,5.0
+SP023782018,True,s,69,Mara Gabrilli,4.1
+SP023782018,True,s,69,Maurren Maggi,4.0
+SP023782018,True,s,69,Tripoli,3.9
+SP023782018,True,s,69,Antonio Neto,3.5
+SP023782018,True,s,69,Dra. Eliana Ferreira,2.9
+SP023782018,True,s,69,Jilmar Tatto,2.7
+SP023782018,True,s,69,Professora Silvia Ferraro,2.4
+SP023782018,True,s,69,Marcelo Barbieri,2.0
+SP023782018,True,s,69,Jair Andreoni,1.8
+SP023782018,True,s,69,Educador Daniel Cara,1.5
+SP023782018,True,s,69,Mancha,1.4
+SP023782018,True,s,69,Nivaldo Orlandi,1.3
+SP023782018,True,s,69,Diogo da Luz,1.2
+SP023782018,True,s,69,Moira Lázaro Mandato Coletivo,0.8
+SP023782018,True,s,69,Pedro Henrique de Cristo,0.8
+BR024922018,True,pr,70,Não sabe,5.2
+BR024922018,True,pr,70,Nenhum,10.2
+BR024922018,True,pr,70,Jair Bolsonaro,59.1
+BR024922018,True,pr,70,Fernando Haddad,25.5
+SP061542018,True,g,71,Não sabe,5.8
+SP061542018,True,g,71,Nenhum,8.0
+SP061542018,True,g,71,João Doria,45.1
+SP061542018,True,g,71,Marcio França,41.1
+SP053412018,True,g,72,Não sabe,7.4
+SP053412018,True,g,72,Nenhum,21.5
+SP053412018,True,g,72,João Doria,31.1
+SP053412018,True,g,72,Paulo Skaf,21.1
+SP053412018,True,g,72,Márcio França,7.9
+SP053412018,True,g,72,Luiz Marinho,5.0
+SP053412018,True,g,72,Professora Lisete Arelaro,2.7
+SP053412018,True,g,72,Rogério Chequer,1.4
+SP053412018,True,g,72,Rodrigo Tavares,1.3
+SP053412018,True,g,72,Claudio Fernando,0.4
+SP053412018,True,g,72,Alexandre Zeitune,0.2
+SP053412018,True,g,73,Não sabe,7.4
+SP053412018,True,g,73,Nenhum,22.9
+SP053412018,True,g,73,João Doria,32.6
+SP053412018,True,g,73,Paulo Skaf,22.6
+SP053412018,True,g,73,Márcio França,8.6
+SP053412018,True,g,73,Luiz Marinho,5.9
+SP053412018,True,s,74,Não sabe,6.9
+SP053412018,True,s,74,Nenhum,21.7
+SP053412018,True,s,74,Eduardo Suplicy,36.7
+SP053412018,True,s,74,Marta,20.9
+SP053412018,True,s,74,Mario Covas Neto,14.5
+SP053412018,True,s,74,Major Olimpio,13.0
+SP053412018,True,s,74,Mara Gabrilli,4.2
+SP053412018,True,s,74,Joice Hasselmann,3.8
+SP053412018,True,s,74,Ricardo Tripoli,3.5
+SP053412018,True,s,74,Educador Daniel Cara,3.3
+SP053412018,True,s,74,Silvia Ferraro,2.7
+SP053412018,True,s,74,Christian Lohbauer,1.7
+SP053412018,True,s,74,Jair Andreoni,1.6
+SP053412018,True,s,74,Jilmar Tatto,1.6

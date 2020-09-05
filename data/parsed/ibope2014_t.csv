@@ -1,0 +1,50 @@
+tse_id,estimulada,position,scenario,candidate,value
+BR001542014,False,pr,0,Nao sabe/ Nao respondeu,39.0
+BR001542014,False,pr,0,Branco/ Nulo,17.0
+BR001542014,False,pr,0,Outros,3.0
+BR001542014,False,pr,0,Marina Silva,1.0
+BR001542014,False,pr,0,Lula,6.0
+BR001542014,False,pr,0,Jose Serra,1.0
+BR001542014,False,pr,0,Eduardo Campos,3.0
+BR001542014,False,pr,0,Dilma Rousseff,20.0
+BR001542014,False,pr,0,Jose Maria,1.0
+BR001542014,False,pr,0,Aecio Neves,10.0
+BR001542014,False,pr,0,BASE,2002.0
+BR001542014,True,pr,1,Nao sabe/ Nao respondeu,7.0
+BR001542014,True,pr,1,Branco/ Nulo,13.0
+BR001542014,True,pr,1,Outros com menos de 1%,1.0
+BR001542014,True,pr,1,Eduardo Jorge,1.0
+BR001542014,True,pr,1,Pastor Everaldo,3.0
+BR001542014,True,pr,1,Magno Malta,1.0
+BR001542014,True,pr,1,Jose Maria,1.0
+BR001542014,True,pr,1,Eduardo Campos,13.0
+BR001542014,True,pr,1,Dilma Rousseff,38.0
+BR001542014,True,pr,1,Aecio Neves,22.0
+BR001542014,True,pr,1,BASE,2002.0
+BR001542014,True,pr,2,Nao sabe/ Nao respondeu,6.0
+BR001542014,True,pr,2,Branco/ Nulo,19.0
+BR001542014,True,pr,2,Eduardo Campos,13.0
+BR001542014,True,pr,2,Dilma Rousseff,39.0
+BR001542014,True,pr,2,Aecio Neves,23.0
+BR001542014,True,pr,2,BASE,2002.0
+BR001542014,True,pr,3,BASE,2002.0
+BR001542014,True,pr,3,"Aecio Neves para presidente, com ",22.0
+BR001542014,True,pr,3,Michel Temer como vice,37.0
+BR001542014,True,pr,3,"Eduardo Campos para presidente, ",17.0
+BR001542014,True,pr,3,com Marina Silva como vice,17.0
+BR001542014,True,pr,3,Branco/ Nulo,6.0
+BR001542014,True,pr,4,BASE,2002.0
+BR001542014,True,pr,4,"Aecio Neves para presidente, com ",22.0
+BR001542014,True,pr,4,Michel Temer como vice,37.0
+BR001542014,True,pr,4,"Eduardo Campos para presidente, ",17.0
+BR001542014,True,pr,4,Nao sabe/ Nao respondeu,17.0
+BR001542014,True,pr,5,BASE,2002.0
+BR001542014,True,pr,5,"Aecio Neves para presidente, com ",22.0
+BR001542014,True,pr,5,Michel Temer como vice,37.0
+BR001542014,True,pr,5,"Eduardo Campos para presidente, ",18.0
+BR001542014,True,pr,5,Nao sabe/ Nao respondeu,17.0
+BR001542014,True,pr,6,BASE,2002.0
+BR001542014,True,pr,6,"Aecio Neves para presidente, com ",23.0
+BR001542014,True,pr,6,Michel Temer como vice,38.0
+BR001542014,True,pr,6,"Eduardo Campos para presidente, ",17.0
+BR001542014,True,pr,6,Nao sabe/ Nao respondeu,16.0

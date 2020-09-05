@@ -1,0 +1,616 @@
+tse_id,estimulada,position,scenario,candidate,value
+SE075212016,False,p,0,Não sabe,31.7
+SE075212016,False,p,0,Ninguém,9.2
+SE075212016,False,p,0,Edvaldo Nogueira,28.8
+SE075212016,False,p,0,Valadares Filho,17.9
+SE075212016,False,p,0,João Alves,6.3
+SE075212016,False,p,0,Dr. Emerson,2.6
+SE075212016,False,p,0,Joao Tarantella,1.4
+SE075212016,False,p,0,Sonia Meire,1.2
+SE075212016,False,p,0,Vera Lúcia,1.0
+SE075212016,True,p,1,Não sabe,6.3
+SE075212016,True,p,1,Nenhum,9.2
+SE075212016,True,p,1,Edvaldo Nogueira,38.0
+SE075212016,True,p,1,Valadares Filho,25.8
+SE075212016,True,p,1,João Alves,10.0
+SE075212016,True,p,1,Dr. Emerson,4.4
+SE075212016,True,p,1,Vera Lúcia,3.1
+SE075212016,True,p,1,Joao Tarantella,1.9
+SE075212016,True,p,1,Sonia Meire,1.3
+SE075182016,False,p,2,Não sabe,42.0
+SE075182016,False,p,2,Ninguém,13.0
+SE075182016,False,p,2,Edvaldo Nogueira,21.8
+SE075182016,False,p,2,Valadares Filho,11.3
+SE075182016,False,p,2,João Alves,5.9
+SE075182016,False,p,2,Dr. Emerson,3.3
+SE075182016,False,p,2,Sonia Meire,1.3
+SE075182016,False,p,2,Vera Lúcia,1.3
+SE075182016,False,p,2,João Tarantella,0.4
+SE075182016,True,p,3,Não sabe,6.0
+SE075182016,True,p,3,Nenhum,12.8
+SE075182016,True,p,3,Edvaldo Nogueira,36.3
+SE075182016,True,p,3,Valadares Filho,20.8
+SE075182016,True,p,3,João Alves,10.3
+SE075182016,True,p,3,Dr. Emerson,5.9
+SE075182016,True,p,3,Vera Lúcia,4.6
+SE075182016,True,p,3,Sonia Meire,2.8
+SE075182016,True,p,3,João Tarantella,0.8
+PA066382016,False,p,4,Não sabe,65.9
+PA066382016,False,p,4,Ninguém,6.9
+PA066382016,False,p,4,Edmilson Rodrigues,11.8
+PA066382016,False,p,4,Éder Mauro,7.7
+PA066382016,False,p,4,Zenaldo Coutinho,4.5
+PA066382016,False,p,4,Carlos Maneschy,1.3
+PA066382016,False,p,4,Úrsula Vidal,0.7
+PA066382016,False,p,4,Regina Barata,0.6
+PA066382016,False,p,4,Outros nomes citados,0.6
+PA066382016,True,p,5,Não sabe,7.3
+PA066382016,True,p,5,Nenhum,8.9
+PA066382016,True,p,5,Edmilson Rodrigues,36.1
+PA066382016,True,p,5,Éder Mauro,24.9
+PA066382016,True,p,5,Zenaldo Coutinho,13.0
+PA066382016,True,p,5,Úrsula Vidal,2.7
+PA066382016,True,p,5,Regina Barata,2.4
+PA066382016,True,p,5,Carlos Maneschy,2.3
+PA066382016,True,p,5,Lélio Costa,1.0
+PA066382016,True,p,5,Cleber Rabelo,0.4
+PA066382016,True,p,5,Luiz Menezes,0.4
+PA066382016,True,p,5,Ivanildo Gomes (Professor Ivanildo),0.7
+PA097362016,False,p,6,Não sabe,78.7
+PA097362016,False,p,6,Ninguém,6.8
+PA097362016,False,p,6,Edmilson Rodrigues,7.2
+PA097362016,False,p,6,Éder Mauro,4.4
+PA097362016,False,p,6,Zenaldo Coutinho,2.7
+PA097362016,False,p,6,Outros nomes citados,0.3
+PA097362016,True,p,7,Não sabe,8.2
+PA097362016,True,p,7,Nenhum,10.7
+PA097362016,True,p,7,Éder Mauro,33.9
+PA097362016,True,p,7,Edmilson Rodrigues,29.4
+PA097362016,True,p,7,Zenaldo Coutinho,8.6
+PA097362016,True,p,7,Arnaldo Jordy,4.1
+PA097362016,True,p,7,Regina Barata,2.7
+PA097362016,True,p,7,Carlos Maneschy,1.1
+PA097362016,True,p,7,Zé Carlos,1.1
+PA097362016,True,p,7,Lélio Costa,0.1
+PA061062016,False,p,8,Não sabe,25.4
+PA061062016,False,p,8,Ninguém,8.1
+PA061062016,False,p,8,Zenaldo Coutinho,35.0
+PA061062016,False,p,8,Edmilson,31.5
+PA061062016,True,p,9,Não sabe,4.6
+PA061062016,True,p,9,Nenhum,10.3
+PA061062016,True,p,9,Zenaldo Coutinho,53.0
+PA061062016,True,p,9,Edmilson,47.0
+PA088782016,False,p,10,Não sabe,36.2
+PA088782016,False,p,10,Ninguém,8.6
+PA088782016,False,p,10,Edmilson,24.9
+PA088782016,False,p,10,Zenaldo Coutinho,12.8
+PA088782016,False,p,10,Éder Mauro,11.1
+PA088782016,False,p,10,Professor Maneschy,4.5
+PA088782016,False,p,10,Outros nomes citados,1.8
+PA088782016,True,p,11,Não sabe,4.1
+PA088782016,True,p,11,Nenhum,7.3
+PA088782016,True,p,11,Edmilson,33.9
+PA088782016,True,p,11,Éder Mauro,21.3
+PA088782016,True,p,11,Zenaldo Coutinho,19.7
+PA088782016,True,p,11,Professor Maneschy,8.5
+PA088782016,True,p,11,Regina Barata,2.4
+PA088782016,True,p,11,Ursula Vidal,1.7
+PA088782016,True,p,11,Cleber Rabelo,0.7
+PA088782016,True,p,11,Lelio Costa,0.3
+PA088782016,True,p,11,Luis Menezes,0.1
+PA088782016,True,p,11,Professor Ivanildo,0.0
+MG035812016,False,p,12,Não sabe,28.2
+MG035812016,False,p,12,Ninguém,10.5
+MG035812016,False,p,12,João Leite,32.0
+MG035812016,False,p,12,Kalil,29.3
+MG035812016,True,p,13,Não sabe,4.2
+MG035812016,True,p,13,Ninguém,14.6
+MG035812016,True,p,13,João Leite,53.9
+MG035812016,True,p,13,Kalil,46.1
+MG064322016,False,p,14,Não sabe,21.9
+MG064322016,False,p,14,Ninguém,12.2
+MG064322016,False,p,14,Kalil,34.2
+MG064322016,False,p,14,João Leite,31.7
+MG064322016,True,p,15,Não sabe,4.2
+MG064322016,True,p,15,Nenhum,15.2
+MG064322016,True,p,15,Kalil,52.7
+MG064322016,True,p,15,João Leite,47.3
+MG034672016,False,p,16,Não sabe,67.8
+MG034672016,False,p,16,Ninguém,11.1
+MG034672016,False,p,16,João Leite,8.9
+MG034672016,False,p,16,Kalil,6.0
+MG034672016,False,p,16,Eros Biondini,1.7
+MG034672016,False,p,16,Délio Malheiros,1.0
+MG034672016,False,p,16,Outros nomes citados,3.5
+MG034672016,True,p,17,Não sabe,11.7
+MG034672016,True,p,17,Nenhum,15.4
+MG034672016,True,p,17,João Leite,30.0
+MG034672016,True,p,17,Kalil,14.8
+MG034672016,True,p,17,Eros Biondini,5.1
+MG034672016,True,p,17,Délio Malheiros,4.8
+MG034672016,True,p,17,Luis Tibe,4.5
+MG034672016,True,p,17,Vanessa Portugal,4.3
+MG034672016,True,p,17,Sargento Rodrigues,3.2
+MG034672016,True,p,17,Maria da Consolação,2.0
+MG034672016,True,p,17,Rodrigo Pacheco,1.6
+MG034672016,True,p,17,Marcelo Álvaro Antônio,1.5
+MG034672016,True,p,17,Reginaldo Lopes,1.3
+MG034662016,False,p,18,Não sabe,33.8
+MG034662016,False,p,18,Ninguém,9.2
+MG034662016,False,p,18,João Leite,32.5
+MG034662016,False,p,18,Kalil,24.6
+MG034662016,True,p,19,Não sabe,4.7
+MG034662016,True,p,19,Nenhum,14.9
+MG034662016,True,p,19,João Leite,47.1
+MG034662016,True,p,19,Kalil,33.3
+MG091402016,False,p,20,Não sabe,85.5
+MG091402016,False,p,20,Ninguém,6.5
+MG091402016,False,p,20,João Leite,1.7
+MG091402016,False,p,20,Antonio Anastasia,1.3
+MG091402016,False,p,20,Patrus Ananias,1.1
+MG091402016,False,p,20,Alexandre Kalil,1.0
+MG091402016,False,p,20,Leonardo Quintão,0.6
+MG091402016,False,p,20,Outros nomes citados,2.3
+MG091402016,True,p,21,Não sabe,6.8
+MG091402016,True,p,21,Luis Tibé,3.4
+MG091402016,True,p,21,Nenhum,11.8
+MG091402016,True,p,21,Délio Malheiros,3.2
+MG091402016,True,p,21,João Leite,20.6
+MG091402016,True,p,21,Paulo Lamac,3.0
+MG091402016,True,p,21,Patrus Ananias,13.5
+MG091402016,True,p,21,Marcelo Alvaro Antonio,2.3
+MG091402016,True,p,21,Leonardo Quintão,9.3
+MG091402016,True,p,21,Mário Henrique Caixa,2.3
+MG091402016,True,p,21,Alexandre Kalil,7.9
+MG091402016,True,p,21,Alberto Pinto Coelho,1.3
+MG091402016,True,p,21,Eros Biondini,5.6
+MG091402016,True,p,21,Gilberto Abramo,1.1
+MG091402016,True,p,21,Sargento Rodrigues,4.0
+MG091402016,True,p,21,Paulo Brandt,0.2
+MG091402016,True,p,21,Laudívio Carvalho,3.4
+BA008262016,False,p,22,Não sabe,64.9
+BA008262016,False,p,22,Ninguém,6.6
+BA008262016,False,p,22,Elinaldo,15.6
+BA008262016,False,p,22,Luiz Caetano,9.2
+BA008262016,False,p,22,José Tude,2.6
+BA008262016,False,p,22,Jailce Andrade,0.5
+BA008262016,False,p,22,Outros nomes citados,0.7
+BA008262016,True,p,23,Não sabe,6.7
+BA008262016,True,p,23,Nenhum,9.8
+BA008262016,True,p,23,Elinaldo,37.5
+BA008262016,True,p,23,Luiz Caetano,25.9
+BA008262016,True,p,23,José Tude,17.2
+BA008262016,True,p,23,Jailce Andrade,2.8
+RJ054802016,False,p,24,Não sabe,29.6
+RJ054802016,False,p,24,Ninguém,8.6
+RJ054802016,False,p,24,Dr. Chicão,26.3
+RJ054802016,False,p,24,Rafael Diniz,25.4
+RJ054802016,False,p,24,Caio Vianna,6.5
+RJ054802016,False,p,24,Nildo Cardoso,1.4
+RJ054802016,False,p,24,Pudim,1.1
+RJ054802016,False,p,24,Rogerio Matoso,1.0
+RJ054802016,False,p,24,Outros nomes citados,0.1
+RJ054802016,True,p,25,Não sabe,5.0
+RJ054802016,True,p,25,Nenhum,6.4
+RJ054802016,True,p,25,Rafael Diniz,37.8
+RJ054802016,True,p,25,Dr. Chicão,34.7
+RJ054802016,True,p,25,Caio Vianna,10.7
+RJ054802016,True,p,25,Pudim,2.2
+RJ054802016,True,p,25,Nildo Cardoso,1.9
+RJ054802016,True,p,25,Rogerio Matoso,1.3
+BA040922016,False,p,26,Não sabe,72.0
+BA040922016,False,p,26,Ninguém,7.2
+BA040922016,False,p,26,Jussara,13.7
+BA040922016,False,p,26,Alberto Castro,5.3
+BA040922016,False,p,26,Raimundinho da JR,1.7
+BA040922016,False,p,26,Outros nomes citados,0.2
+BA040922016,True,p,27,Não sabe,8.3
+BA040922016,True,p,27,Nenhum,10.7
+BA040922016,True,p,27,Jussara,36.3
+BA040922016,True,p,27,Alberto Castro,32.8
+BA040922016,True,p,27,Raimundinho da JR,11.8
+GO089472016,False,p,28,Não sabe,66.7
+GO089472016,False,p,28,Ninguém,6.4
+GO089472016,False,p,28,Iris Rezende,13.2
+GO089472016,False,p,28,Vanderlan Cardoso,5.6
+GO089472016,False,p,28,Delegado Waldir,5.2
+GO089472016,False,p,28,Adriana Accorsi,1.8
+GO089472016,False,p,28,Francisco Júnior,1.1
+GO089472016,False,p,28,Djalma Araújo,0.2
+GO089472016,True,p,29,Não sabe,7.9
+GO089472016,True,p,29,Nenhum,9.2
+GO089472016,True,p,29,Iris Rezende,33.3
+GO089472016,True,p,29,Delegado Waldir,20.2
+GO089472016,True,p,29,Vanderlan Cardoso,18.5
+GO089472016,True,p,29,Adriana Accorsi,7.4
+GO089472016,True,p,29,Francisco Júnior,2.4
+GO089472016,True,p,29,Djalma Araújo,0.8
+GO089472016,True,p,29,Flávio Sofiati,0.3
+GO014952016,False,p,30,Não sabe,81.8
+GO014952016,False,p,30,Ninguém,6.5
+GO014952016,False,p,30,Iris Rezende,5.4
+GO014952016,False,p,30,Delegado Waldir,2.3
+GO014952016,False,p,30,Vanderlan Cardoso,2.2
+GO014952016,False,p,30,Adriana Accorsi,0.6
+GO014952016,False,p,30,Paulo Garcia,0.3
+GO014952016,False,p,30,Outros nomes citados,0.9
+GO014952016,True,p,31,Não sabe,8.3
+GO014952016,True,p,31,Nenhum,9.4
+GO014952016,True,p,31,Delegado Waldir,27.4
+GO014952016,True,p,31,Iris Rezende,27.4
+GO014952016,True,p,31,Vanderlan Cardoso,12.5
+GO014952016,True,p,31,Adriana Accorsi,9.4
+GO014952016,True,p,31,Luiz Bittencourt,1.7
+GO014952016,True,p,31,Francisco Júnior,1.4
+GO014952016,True,p,31,Giuseppe Vecci,1.4
+GO014952016,True,p,31,Djalma Araújo,0.8
+GO014952016,True,p,31,Alexandre Magalhães,0.3
+GO014952016,True,p,31,Flávio Sofiati,0.2
+GO071822016,False,p,32,Não sabe,21.0
+GO071822016,False,p,32,Ninguém,9.6
+GO071822016,False,p,32,Iris Rezende,38.4
+GO071822016,False,p,32,Vanderlan,31.0
+GO071822016,True,p,33,Não sabe,4.6
+GO071822016,True,p,33,Nenhum,9.0
+GO071822016,True,p,33,Iris Rezende,53.8
+GO071822016,True,p,33,Vanderlan,46.2
+GO082172016,False,p,34,Não sabe,25.8
+GO082172016,False,p,34,Ninguém,9.5
+GO082172016,False,p,34,Iris Rezende,36.5
+GO082172016,False,p,34,Vanderlan,28.2
+GO082172016,True,p,35,Não sabe,4.5
+GO082172016,True,p,35,Nenhum,11.6
+GO082172016,True,p,35,Iris Rezende,55.4
+GO082172016,True,p,35,Vanderlan,44.6
+SP009362016,False,p,36,Não sabe,30.0
+SP009362016,False,p,36,Ninguém,11.0
+SP009362016,False,p,36,Guti,47.9
+SP009362016,False,p,36,Eli Correa Filho,11.1
+SP009362016,True,p,37,Não sabe,4.9
+SP009362016,True,p,37,Nenhum,15.1
+SP009362016,True,p,37,Guti,61.3
+SP009362016,True,p,37,Eli Correa Filho,18.8
+RJ077352016,False,p,38,Não sabe,39.7
+RJ077352016,False,p,38,Ninguém,9.7
+RJ077352016,False,p,38,Dr. Sadinoel,20.7
+RJ077352016,False,p,38,Cosme Salles,12.6
+RJ077352016,False,p,38,Sergio Soares,8.5
+RJ077352016,False,p,38,Alzenir,5.7
+RJ077352016,False,p,38,Helil Cardozo,2.5
+RJ077352016,False,p,38,Outros nomes citados,0.6
+RJ077352016,True,p,39,Não sabe,5.7
+RJ077352016,True,p,39,Nenhum,9.9
+RJ077352016,True,p,39,Dr. Sadinoel,34.0
+RJ077352016,True,p,39,Cosme Salles,22.9
+RJ077352016,True,p,39,Sergio Soares,13.8
+RJ077352016,True,p,39,Alzenir,9.0
+RJ077352016,True,p,39,Helil Cardozo,4.7
+AL056322016,False,p,40,Não sabe,22.7
+AL056322016,False,p,40,Ninguém,9.3
+AL056322016,False,p,40,Rui Palmeira,44.1
+AL056322016,False,p,40,Cicero Almeida,23.9
+AL056322016,True,p,41,Não sabe,4.4
+AL056322016,True,p,41,Nenhum,11.8
+AL056322016,True,p,41,Rui Palmeira,54.8
+AL056322016,True,p,41,Cicero Almeida,29.1
+AL064302016,False,p,42,Não sabe,18.6
+AL064302016,False,p,42,Ninguém,10.0
+AL064302016,False,p,42,Rui Palmeira,46.2
+AL064302016,False,p,42,Cicero Almeida,25.2
+AL064302016,True,p,43,Não sabe,4.1
+AL064302016,True,p,43,Nenhum,12.7
+AL064302016,True,p,43,Rui Palmeira,65.2
+AL064302016,True,p,43,Cicero Almeida,34.8
+AL099822016,False,p,44,Não sabe,27.8
+AL099822016,False,p,44,Ninguém,7.5
+AL099822016,False,p,44,Rui Palmeira,32.6
+AL099822016,False,p,44,Cicero Almeida,17.6
+AL099822016,False,p,44,JHC,11.7
+AL099822016,False,p,44,Paulão,1.8
+AL099822016,False,p,44,Outros nomes citados,1.0
+AL099822016,True,p,45,Não sabe,4.7
+AL099822016,True,p,45,Nenhum,9.4
+AL099822016,True,p,45,Rui Palmeira,40.2
+AL099822016,True,p,45,Cicero Almeida,23.0
+AL099822016,True,p,45,JHC,17.8
+AL099822016,True,p,45,Paulão,2.1
+AL099822016,True,p,45,Gustavo Pessoa,1.7
+AL099822016,True,p,45,Fernando do Village,1.0
+AL099822016,True,p,45,Paulo Memoria,0.2
+AL001142016,False,p,46,Não sabe,48.3
+AL001142016,False,p,46,Ninguém,10.5
+AL001142016,False,p,46,Rui Palmeira,17.4
+AL001142016,False,p,46,Cícero Almeida,17.3
+AL001142016,False,p,46,JHC,5.6
+AL001142016,False,p,46,Outros nomes citados,1.0
+AL001142016,True,p,47,Não sabe,5.8
+AL001142016,True,p,47,Nenhum,9.6
+AL001142016,True,p,47,Rui Palmeira,33.6
+AL001142016,True,p,47,Cícero Almeida,31.9
+AL001142016,True,p,47,JHC,15.5
+AL001142016,True,p,47,Paulão,2.0
+AL001142016,True,p,47,Gustavo Pessoa,0.9
+AL001142016,True,p,47,Fernando do Village,0.4
+AL001142016,True,p,47,Paulo Memória,0.4
+RJ000282016,False,p,48,Não sabe,28.1
+RJ000282016,False,p,48,Ninguém,12.9
+RJ000282016,False,p,48,Rodrigo Neves,37.4
+RJ000282016,False,p,48,Felipe,21.6
+RJ000282016,True,p,49,Não sabe,4.6
+RJ000282016,True,p,49,Nenhum,15.1
+RJ000282016,True,p,49,Rodrigo Neves,60.4
+RJ000282016,True,p,49,Felipe,39.6
+RJ069472016,False,p,50,Não sabe,23.9
+RJ069472016,False,p,50,Ninguém,11.1
+RJ069472016,False,p,50,Bernardo Rossi,32.8
+RJ069472016,False,p,50,Rubens Bomtempo,32.2
+RJ069472016,True,p,51,Não sabe,4.3
+RJ069472016,True,p,51,Nenhum,12.6
+RJ069472016,True,p,51,Bernardo Rossi,50.9
+RJ069472016,True,p,51,Rubens Bomtempo,49.1
+RS040012016,False,p,52,Não sabe,23.3
+RS040012016,False,p,52,Ninguém,16.3
+RS040012016,False,p,52,Nelson Marchezan Junior,38.3
+RS040012016,False,p,52,Sebastião Melo,22.1
+RS040012016,True,p,53,Não sabe,5.7
+RS040012016,True,p,53,Nenhum,14.0
+RS040012016,True,p,53,Nelson Marchezan Junior,62.2
+RS040012016,True,p,53,Sebastião Melo,37.8
+RS040582016,False,p,54,Não sabe,34.9
+RS040582016,False,p,54,Ninguém,9.3
+RS040582016,False,p,54,Nelson Marchezan Junior,38.0
+RS040582016,False,p,54,Sebastião Melo,17.9
+RS040582016,True,p,55,Não sabe,4.4
+RS040582016,True,p,55,Nenhum,15.9
+RS040582016,True,p,55,Nelson Marchezan Junior,67.4
+RS040582016,True,p,55,Sebastião Melo,32.6
+RJ000282016,False,p,56,Não sabe,24.4
+RJ000282016,False,p,56,Ninguém,14.6
+RJ000282016,False,p,56,Crivella,38.9
+RJ000282016,False,p,56,Marcelo Freixo,22.1
+RJ000282016,True,p,57,Não sabe,5.0
+RJ000282016,True,p,57,Nenhum,16.9
+RJ000282016,True,p,57,Crivella,62.9
+RJ000282016,True,p,57,Marcelo Freixo,37.1
+RJ013532016,False,p,58,Não sabe,24.8
+RJ013532016,False,p,58,Ninguém,12.2
+RJ013532016,False,p,58,Crivella,40.4
+RJ013532016,False,p,58,Marcelo Freixo,22.6
+RJ013532016,True,p,59,Não sabe,5.7
+RJ013532016,True,p,59,Nenhum,14.2
+RJ013532016,True,p,59,Crivella,64.2
+RJ013532016,True,p,59,Marcelo Freixo,35.8
+RJ033852016,False,p,60,Não sabe,23.6
+RJ033852016,False,p,60,Ninguém,15.6
+RJ033852016,False,p,60,Crivella,38.2
+RJ033852016,False,p,60,Marcelo Freixo,22.7
+RJ033852016,True,p,61,Não sabe,4.6
+RJ033852016,True,p,61,Nenhum,17.4
+RJ033852016,True,p,61,Crivella,62.0
+RJ033852016,True,p,61,Marcelo Freixo,38.0
+RJ097312016,False,p,62,Não sabe,74.0
+RJ097312016,False,p,62,Ninguém,11.1
+RJ097312016,False,p,62,Crivella,6.0
+RJ097312016,False,p,62,Marcelo Freixo,2.6
+RJ097312016,False,p,62,Flávio Bolsonaro,1.2
+RJ097312016,False,p,62,Osório,1.0
+RJ097312016,False,p,62,Jandira Feghali,0.7
+RJ097312016,False,p,62,Pedro Paulo,0.6
+RJ097312016,False,p,62,Outros nomes citados,2.9
+RJ097312016,True,p,63,Não sabe,7.7
+RJ097312016,True,p,63,Nenhum,12.6
+RJ097312016,True,p,63,Crivella,33.3
+RJ097312016,True,p,63,Marcelo Freixo,13.8
+RJ097312016,True,p,63,Flávio Bolsonaro,8.3
+RJ097312016,True,p,63,Jandira Feghali,7.9
+RJ097312016,True,p,63,Índio da Costa,4.8
+RJ097312016,True,p,63,Pedro Paulo,4.6
+RJ097312016,True,p,63,Osório,4.2
+RJ097312016,True,p,63,Alessandro Molon,2.9
+RJ053142016,False,p,64,Não sabe,28.9
+RJ053142016,False,p,64,Ninguém,10.2
+RJ053142016,False,p,64,Crivella,38.8
+RJ053142016,False,p,64,Marcelo Freixo,22.1
+RJ053142016,True,p,65,Não sabe,6.3
+RJ053142016,True,p,65,Nenhum,12.4
+RJ053142016,True,p,65,Crivella,62.8
+RJ053142016,True,p,65,Marcelo Freixo,37.2
+RJ083852016,False,p,66,Não sabe,56.8
+RJ083852016,False,p,66,Jandira Feghali,2.6
+RJ083852016,False,p,66,Ninguém,12.1
+RJ083852016,False,p,66,Osório,1.7
+RJ083852016,False,p,66,Crivella,11.5
+RJ083852016,False,p,66,Índio da Costa,1.3
+RJ083852016,False,p,66,Marcelo Freixo,4.6
+RJ083852016,False,p,66,Alessandro Molon,0.9
+RJ083852016,False,p,66,Flávio Bolsonaro,4.4
+RJ083852016,False,p,66,Carmem Migueles,0.3
+RJ083852016,False,p,66,Pedro Paulo,3.6
+RJ083852016,False,p,66,Outros nomes citados,0.3
+RJ083852016,True,p,67,Não sabe,7.1
+RJ083852016,True,p,67,Índio da Costa,5.7
+RJ083852016,True,p,67,Nenhum,12.2
+RJ083852016,True,p,67,Osório,3.5
+RJ083852016,True,p,67,Crivella,33.4
+RJ083852016,True,p,67,Alessandro Molon,1.8
+RJ083852016,True,p,67,Marcelo Freixo,10.4
+RJ083852016,True,p,67,Cyro Garcia,0.6
+RJ083852016,True,p,67,Pedro Paulo,8.6
+RJ083852016,True,p,67,Carmem Migueles,0.4
+RJ083852016,True,p,67,Flávio Bolsonaro,8.3
+RJ083852016,True,p,67,Thelma Bastos,0.1
+RJ083852016,True,p,67,Jandira Feghali,7.7
+RJ045392016,False,p,68,Não sabe,80.3
+RJ045392016,False,p,68,Ninguém,8.8
+RJ045392016,False,p,68,Crivella,4.3
+RJ045392016,False,p,68,Romário,1.6
+RJ045392016,False,p,68,Marcelo Freixo,1.2
+RJ045392016,False,p,68,Eduardo Paes,0.9
+RJ045392016,False,p,68,Flávio Bolsonaro,0.8
+RJ045392016,False,p,68,Pedro Paulo,0.6
+RJ045392016,False,p,68,Outros nomes citados,1.6
+RJ045392016,True,p,69,Não sabe,9.2
+RJ045392016,True,p,69,Nenhum,13.0
+RJ045392016,True,p,69,Crivella,38.1
+RJ045392016,True,p,69,Marcelo Freixo,11.4
+RJ045392016,True,p,69,Flávio Bolsonaro,8.1
+RJ045392016,True,p,69,Jandira Feghali,7.0
+RJ045392016,True,p,69,Pedro Paulo,4.4
+RJ045392016,True,p,69,Alessandro Molon,3.0
+RJ045392016,True,p,69,Indio da Costa,2.2
+RJ045392016,True,p,69,Osório,1.4
+RJ045392016,True,p,69,Cyro Garcia,1.3
+RJ045392016,True,p,69,Hugo Leal,0.7
+BA072722016,False,p,70,Não sabe,45.7
+BA072722016,False,p,70,Ninguém,6.1
+BA072722016,False,p,70,ACM Neto,43.3
+BA072722016,False,p,70,Alice Portugal,2.1
+BA072722016,False,p,70,Pastor Sargento Isidório,1.8
+BA072722016,False,p,70,Outros nomes citados,1.1
+BA072722016,True,p,71,Não sabe,6.7
+BA072722016,True,p,71,Nenhum,7.5
+BA072722016,True,p,71,ACM Neto,68.8
+BA072722016,True,p,71,Alice Portugal,7.9
+BA072722016,True,p,71,Pastor Sargento Isidório,6.4
+BA072722016,True,p,71,Célia Sacramento,1.3
+BA072722016,True,p,71,Fábio Nogueira,0.7
+BA072722016,True,p,71,Da Luz,0.5
+BA072722016,True,p,71,Claudio Silva,0.1
+BA035222016,False,p,72,Não sabe,59.5
+BA035222016,False,p,72,Ninguém,6.2
+BA035222016,False,p,72,ACM Neto,33.0
+BA035222016,False,p,72,Alice Portugal,0.5
+BA035222016,False,p,72,Lídice da Mata,0.3
+BA035222016,False,p,72,Outros nomes citados,0.5
+BA035222016,True,p,73,Não sabe,7.5
+BA035222016,True,p,73,Nenhum,9.9
+BA035222016,True,p,73,ACM Neto,66.1
+BA035222016,True,p,73,Lídice da Mata,7.1
+BA035222016,True,p,73,Sargento Isidório,4.7
+BA035222016,True,p,73,Alice Portugal,4.2
+BA035222016,True,p,73,Fábio Nogueira,0.3
+BA035222016,True,p,73,Renata Mallet,0.3
+SP008222016,False,p,74,Não sabe,32.1
+SP008222016,False,p,74,Ninguém,9.4
+SP008222016,False,p,74,Paulo Serra,40.0
+SP008222016,False,p,74,Carlos Grana,18.5
+SP008222016,True,p,75,Não sabe,4.9
+SP008222016,True,p,75,Nenhum,12.0
+SP008222016,True,p,75,Paulo Serra,57.6
+SP008222016,True,p,75,Carlos Grana,25.5
+SP015792016,False,p,76,Não sabe,73.1
+SP015792016,False,p,76,Ninguém,7.2
+SP015792016,False,p,76,Alex Manente,6.6
+SP015792016,False,p,76,Orlando Morando,5.8
+SP015792016,False,p,76,Tarcísio Secoli,2.3
+SP015792016,False,p,76,Maurício Soares,1.9
+SP015792016,False,p,76,Professor Aldo Santos,1.3
+SP015792016,False,p,76,Evandro de Lima,0.8
+SP015792016,False,p,76,Marcelo Lima,0.8
+SP015792016,False,p,76,Outros nomes citados,0.3
+SP015792016,True,p,77,Não sabe,7.2
+SP015792016,True,p,77,Nenhum,11.9
+SP015792016,True,p,77,Alex Manente,31.3
+SP015792016,True,p,77,Orlando Morando,25.8
+SP015792016,True,p,77,Maurício Soares,8.6
+SP015792016,True,p,77,Tarcísio Secoli,6.3
+SP015792016,True,p,77,Professor Aldo Santos,4.8
+SP015792016,True,p,77,Marcelo Lima,3.4
+SP015792016,True,p,77,Evandro de Lima,0.8
+SP060442016,False,p,78,Não sabe,33.8
+SP060442016,False,p,78,Ninguém,12.1
+SP060442016,False,p,78,Orlando Morando,34.8
+SP060442016,False,p,78,Alex Manente,19.4
+SP060442016,True,p,79,Não sabe,4.4
+SP060442016,True,p,79,Nenhum,14.4
+SP060442016,True,p,79,Orlando Morando,61.2
+SP060442016,True,p,79,Alex Manente,38.8
+SP017992016,False,p,80,Não sabe,70.1
+SP017992016,False,p,80,Ninguém,8.9
+SP017992016,False,p,80,Celso Russomanno,6.9
+SP017992016,False,p,80,Fernando Haddad,5.8
+SP017992016,False,p,80,Marta Suplicy,3.2
+SP017992016,False,p,80,João Doria Jr,1.0
+SP017992016,False,p,80,Luiza Erundina,0.8
+SP017992016,False,p,80,Andrea Matarazzo,0.7
+SP017992016,False,p,80,Outros nomes citados,2.6
+SP017992016,True,p,81,Não sabe,6.3
+SP017992016,True,p,81,Marco Feliciano,3.1
+SP017992016,True,p,81,Nenhum,11.8
+SP017992016,True,p,81,Delegado Olim,2.6
+SP017992016,True,p,81,Celso Russomanno,32.6
+SP017992016,True,p,81,Levy Fidelix,1.6
+SP017992016,True,p,81,Marta Suplicy,12.9
+SP017992016,True,p,81,Major Olímpio,1.5
+SP017992016,True,p,81,Fernando Haddad,11.1
+SP017992016,True,p,81,Roberto Tripoli,1.3
+SP017992016,True,p,81,Luiza Erundina,6.6
+SP017992016,True,p,81,Laércio Benko,0.5
+SP017992016,True,p,81,João Doria Jr,4.0
+SP017992016,True,p,81,Marlene Campos Machado,0.2
+SP017992016,True,p,81,Andrea Matarazzo,3.7
+SP017992016,True,p,81,Ricardo Young,0.2
+SP098932016,False,p,82,Não sabe,42.8
+SP098932016,False,p,82,Ninguém,11.6
+SP098932016,False,p,82,João Doria,12.3
+SP098932016,False,p,82,Marta,9.5
+SP098932016,False,p,82,Celso Russomanno,14.8
+SP098932016,False,p,82,Fernando Haddad,5.1
+SP098932016,False,p,82,Luiza Erundina,2.4
+SP098932016,False,p,82,Outros nomes citados,1.7
+SP098932016,True,p,83,Celso Russomanno,27.7
+SP098932016,True,p,83,Altino,0.3
+SP098932016,True,p,83,Não sabe,5.1
+SP098932016,True,p,83,Major Olimpio,1.5
+SP098932016,True,p,83,Nenhum,9.9
+SP098932016,True,p,83,Levy Fidelix,0.9
+SP098932016,True,p,83,João Doria,21.2
+SP098932016,True,p,83,Henrique Áreas,0.2
+SP098932016,True,p,83,Marta,19.5
+SP098932016,True,p,83,João Bico,0.2
+SP098932016,True,p,83,Fernando Haddad,8.5
+SP098932016,True,p,83,Ricardo Young,0.2
+SP098932016,True,p,83,Luiza Erundina,4.9
+SP052752016,False,p,84,Não sabe,34.5
+SP052752016,False,p,84,Ninguém,9.1
+SP052752016,False,p,84,João Doria,23.2
+SP052752016,False,p,84,Celso Russomanno,12.9
+SP052752016,False,p,84,Marta,8.7
+SP052752016,False,p,84,Fernando Haddad,7.5
+SP052752016,False,p,84,Luiza Erundina,2.3
+SP052752016,False,p,84,Outros nomes citados,1.7
+SP052752016,True,p,85,Não sabe,4.9
+SP052752016,True,p,85,Levy Fidelix,1.1
+SP052752016,True,p,85,Nenhum,7.7
+SP052752016,True,p,85,Major Olimpio,1.1
+SP052752016,True,p,85,João Doria,33.5
+SP052752016,True,p,85,João Bico,0.3
+SP052752016,True,p,85,Celso Russomanno,19.7
+SP052752016,True,p,85,Ricardo Young,0.3
+SP052752016,True,p,85,Marta,14.7
+SP052752016,True,p,85,Altino,0.2
+SP052752016,True,p,85,Fernando Haddad,12.1
+SP052752016,True,p,85,Henrique Áreas,0.1
+SP052752016,True,p,85,Luiza Erundina,4.3
+SP090712016,False,p,86,Não sabe,54.7
+SP090712016,False,p,86,Ninguém,14.2
+SP090712016,False,p,86,Celso Russomanno,13.1
+SP090712016,False,p,86,João Doria,5.8
+SP090712016,False,p,86,Marta,4.9
+SP090712016,False,p,86,Fernando Haddad,3.2
+SP090712016,False,p,86,Luiza Erundina,2.8
+SP090712016,False,p,86,Major Olímpio,0.6
+SP090712016,False,p,86,Outros nomes citados,0.8
+SP090712016,True,p,87,Celso Russomanno,32.1
+SP090712016,True,p,87,Ricardo Young,0.8
+SP090712016,True,p,87,Não sabe,6.8
+SP090712016,True,p,87,Major Olímpio,2.1
+SP090712016,True,p,87,Nenhum,12.7
+SP090712016,True,p,87,Levy Fidelix,1.0
+SP090712016,True,p,87,Marta,15.8
+SP090712016,True,p,87,João Bico,0.6
+SP090712016,True,p,87,João Doria,13.7
+SP090712016,True,p,87,Altino,0.5
+SP090712016,True,p,87,Luiza Erundina,7.1
+SP090712016,True,p,87,Henrique Áreas,0.0
+SP090712016,True,p,87,Fernando Haddad,7.0
