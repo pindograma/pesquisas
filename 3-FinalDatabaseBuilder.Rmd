@@ -109,21 +109,37 @@ pdf_polls = read_csv('output/raw_pindograma_automatic_polls.csv') %>%
 And now, let's match everything with a single line:
 
 ```{r}
-manual_matches = match_polls_with_candidates(manual_tse)
+manual_matches_ = match_polls_with_candidates(manual_tse)
 ```
 
 Now, it's time to apply everything we've done with the manual dataset so far to
 the polls that are parsed automatically from pollster PDFs:
 
 ```{r}
-pdf_matches = match_polls_with_candidates(pdf_polls, F)
+pdf_matches_ = match_polls_with_candidates(pdf_polls, F)
 ```
 
 Let's do the same with the Poder360 polls:
 
 ```{r}
 p3_polls = read_csv('output/pindograma_poder360_polls.csv')
-p3_matched = match_polls_with_candidates(p3_polls)
+p3_matched_ = match_polls_with_candidates(p3_polls)
+```
+
+Before we proceed, let's remove the bad matches from these polls:
+
+```{r}
+pedro_corr = read_csv('data/manual-data/pedro_correcao_algoritmo.csv') %>%
+  filter(!is.na(bad))
+
+manual_matches = manual_matches_ %>%
+  anti_join(pedro_corr, by = c('NM_UE', 'candidate'))
+
+pdf_matches = pdf_matches_ %>%
+  anti_join(pedro_corr, by = c('NM_UE', 'candidate'))
+
+p3_matched = p3_matched_ %>%
+  anti_join(pedro_corr, by = c('NM_UE', 'candidate'))
 ```
 
 Now, let's join everything. We take the following order of precedence:
@@ -167,7 +183,7 @@ all_polls__ = bind_rows(
   p3_without_pindograma_polls
 ) %>%
   distinct(year, NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, CD_CARGO,
-           estimulada, NUMERO_CANDIDATO, result, DT_FIM_PESQUISA, vv, turno,
+           estimulada, NUMERO_CANDIDATO, NOME_CANDIDATO, result, DT_FIM_PESQUISA, vv, turno,
            is_fluxo, is_phone, self_hired, QT_ENTREVISTADOS, main_source, source, scenario_id, is_complete) %>%
   left_join(ambito, by = c('NR_IDENTIFICACAO_PESQUISA' = 'id')) %>%
   mutate(polled_UE = ifelse(!is.na(polled_UE), polled_UE, SG_UE)) %>%

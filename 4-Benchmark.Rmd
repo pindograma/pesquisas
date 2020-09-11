@@ -4,13 +4,13 @@ polls_without_scenarios = polls %>%
 
 shared = p3_matched %>%
   filter(!multiple_scenarios) %>%
-  filter(position != 's') %>%
+  filter(CD_CARGO != 5) %>%
   inner_join(polls_without_scenarios, by = c(
-    'raw_nr' = 'NR_IDENTIFICACAO_PESQUISA',
+    'NR_IDENTIFICACAO_PESQUISA' = 'NR_IDENTIFICACAO_PESQUISA',
     'estimulada' = 'estimulada',
-    'position' = 'position',
+    'CD_CARGO' = 'CD_CARGO',
     'vv' = 'vv',
     'NUMERO_CANDIDATO' = 'NUMERO_CANDIDATO'
   )) %>%
-  mutate(agree = abs(result - percentual) <= 0.2)
+  mutate(agree = abs(result.x - result.y) <= 0.2)
 ```

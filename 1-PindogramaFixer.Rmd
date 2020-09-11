@@ -543,9 +543,9 @@ but they still need to be crossed with the TSE's polling database. This is
 what we do:
 
 ```{r}
-pdf_parsed = map_dfr(list.files('./data/parsed', full.names = T), function(x) {
+pdf_parsed = map_dfr(list.files('./data/parsed', pattern = '*.csv', full.names = T), function(x) {
   read_csv(x, col_types = cols(
-    'value' = col_double()
+    'value' = col_character()
   )) %>%
     mutate(fname = basename(x)) %>%
     mutate(cnpj = case_when(
@@ -557,6 +557,7 @@ pdf_parsed = map_dfr(list.files('./data/parsed', full.names = T), function(x) {
       T ~ NA_character_
     ))
 }) %>%
+  mutate(value = str_to_dbl(value)) %>%
   mutate(candidate = normalize_cand_2(candidate)) %>%
   mutate(joinid = row_number()) %>%
   rename(result = value) %>%

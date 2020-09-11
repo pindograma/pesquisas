@@ -152,11 +152,16 @@ early_polls = no_vv_polls %>%
   filter(estimulada == 0) %>%
   get_final_poll_list()
 
+# URGENT FIXME: This removes polls with "Lula scenarios" in the 2018 presidential
+# election. We do this so as not to make the polling average inconsistent while
+# we think about how the user should interact with these scenarios.
 late_polls = no_vv_polls %>%
   left_join(election_dates, 'year') %>%
   filter(DT_FIM_PESQUISA > candidate_registry_date) %>%
   group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, CD_CARGO, vv) %>%
   filter(n_distinct(estimulada) == 1 | estimulada == 1) %>%
+  group_by(scenario_id, .add = T) %>%
+  filter(!any(NOME_CANDIDATO == 'LUIZ INACIO LULA SILVA')) %>% # URGENT FIXME: [see above]
   ungroup() %>%
   get_final_poll_list()
 

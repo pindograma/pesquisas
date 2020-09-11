@@ -238,7 +238,8 @@ p360_joined %>%
   select(year, NR_IDENTIFICACAO_PESQUISA, SG_UE, NM_UE, CD_CARGO, estimulada, scenario_id, vv,
          candidate, result, DT_INICIO_PESQUISA, DT_FIM_PESQUISA, DT_REGISTRO,
          NR_CNPJ_EMPRESA, QT_ENTREVISTADOS, cmp_ue, norm_est, est_id, is_fluxo, is_phone, self_hired, partisan,
-         first_round_date, second_round_date, turno, main_source, source, candidate_without_title) %>%
+         first_round_date, second_round_date, turno, main_source, source, candidate_without_title,
+         multiple_scenarios) %>%
   write.csv('output/pindograma_poder360_polls.csv', row.names = F)
 ```
 
