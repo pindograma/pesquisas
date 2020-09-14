@@ -14,6 +14,8 @@ AGORASEI,Agorasei Pesquisa
 LONDON,London Pesquisas
 AMPLACE,Ampla Pesquisa (CE)
 TDL,TDL Pesquisa
+ANGULO,Ângulo Pesquisas
+TENDENCIAMS,Tendência Pesquisa (MS)
 "07630546000175",Datafolha
 "68802370000186",Ibope
 "81908345000140",Paraná Pesquisas
@@ -93,7 +95,7 @@ TDL,TDL Pesquisa
 "14888537000144",Instituto Vope
 "86951993000100",Jornal Stylo
 "10501739000130",Folha Capital
-"08210871000141",Âncora Pesquisa
+"08210871000141",Âncora Pesquisa (Salvador/BA)
 "04061427000150",Folha Regional (Livramento)
 "10335763000147",Práxis Pesquisa
 "11100635000187",MT Dados
@@ -146,7 +148,6 @@ TDL,TDL Pesquisa
 "11716486000185",Captavox
 "14853122000135",Ebrap
 "07871966000143",AP Pesquisas
-"04996040000196",Ângulo Pesquisas
 "15293191000102",W J Mendes
 "94908951000107",Dirceu F M Gomes
 "10905523000130",Atual Pesquisas
@@ -178,7 +179,6 @@ TDL,TDL Pesquisa
 "05488856000171",INPE
 "24436087000102",Opiniun Pesquisa
 "17988811000145",Tendência Pesquisa (SC)
-"03490620000144",Tendência Pesquisa (MS)
 "15836399000112",Axioma
 "14543481000196",Flemming Pesquisas
 "09470150000133",IPAT
@@ -355,3 +355,49 @@ TDL,TDL Pesquisa
 "36633930000120",V2 Data
 "37025897000118",Jornal O+Positivo
 "37293913000153",Folha de Caiaponia
+"01191743000159",Decisão Pesquisa
+"03348102000190",Brâmane Comunicação
+"04116046000121",Statsol
+"05949626000162",IBEL
+"07277330000178",Ipersena Publicidades
+"07854132000120",Strategya Publicidades
+"08210871000222",Âncora Pesquisa (Irecê/BA)
+"08337378000197",Dominiun Filmes
+"09255395000148",Quallity Serviços Inteligente
+"10175843000182",Instituto Perfil (ES)
+"11604837000166",Global Consulting
+"12537338000166",Rádio Maracu
+"13006073000132",Sistema Centro Norte
+"13663840000186",Ipopes
+"14209994000165",Mesquita Produções
+"14255299000130",Compope
+"14602960000136",Solução Treinamento
+"15426716000122",ICAPES
+"15692490000101",Datamédia
+"16176992000142",Terra Viva
+"16945085000110",IMMAPEQ
+"19548987000101",Play Comunicação
+"19738088000171",Plural Assessoria
+"20128172000152",RF Consultoria
+"20592128000107",Malujoa Comunicaçõs
+"20917622000196",Instituto Cristão Brasileiro
+"22946223000189",Attitude Consultoria
+"23723322000164",Morais & Dias
+"24357977000129",Jornal O Coletivo
+"26757039000141",Instituto Lupa
+"31367504000178",Instituto Idealize
+"32626743000168",Instituto EMET
+"33000681000147",Laura Aparecida do Amaral
+"33303114000160",ABC Dados
+"33509397000109",Fernandes Consultoria
+"33661095000143",Studio 4
+"34402034000124",EAS Consultoria
+"35703538000147",CEPRAJUR
+"35830530000141",Exata GO
+"36143137000142",Instituto Vision Survey
+"36241367000144",Editora Azul
+"36757932000120",Perspectiva Mercado e Opinião
+"37606745000109",Conectar
+"37609944000170",Instituto Qualitativa
+"66996380000174",Paulista Júnior Consultoria
+"88332580000165",AELBRA
