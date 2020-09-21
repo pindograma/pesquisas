@@ -1,7 +1,7 @@
 library(tidyverse)
 library(stringi)
 
-df2020 = read_csv('data/tse/df2020_12sep.csv') %>%
+df2020 = read_csv('data/tse/df2020_18sep.csv') %>%
   mutate(norm_met = tolower(normalize_simple(txt_method))) %>%
   mutate(norm_pa = tolower(normalize_simple(txt_plan))) %>%
   mutate(is_fluxo = as.vector(!is.na(str_match(norm_met, 'fluxo')) | !is.na(str_match(norm_pa, 'fluxo')))) %>%
@@ -27,7 +27,15 @@ df2020 = read_csv('data/tse/df2020_12sep.csv') %>%
    -confidence_interval, -confidence_interval_met,
    -error, -error_met)
 
-names_correction = read_csv('data/manual-data/normalized_names_2020_2.csv')
+names_correction_1 = read_csv('data/manual-data/normalized_names_2020_2.csv')
+names_correction_2 = read_csv('data/manual-data/normalized_names_2020_3.csv')
+names_correction_3 = read_csv('data/manual-data/normalized_names_2020_4.csv')
+
+names_correction = bind_rows(
+  names_correction_3,
+  names_correction_2 %>% filter(!(info_muni %in% names_correction_3$info_muni)),
+  names_correction_1 %>% filter(!(info_muni %in% names_correction_2$info_muni))
+)
 
 leva1 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva1_2020_orig.csv', col_types = rtypes)
 leva2 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva2_2020_orig.csv', col_types = rtypes)
@@ -35,8 +43,10 @@ leva3 = read_csv('data/manual-data/manual-2020/pedro_leva3_2020.csv', col_types 
 leva3_ex = read_csv('data/manual-data/manual-2020/pedro_leva_3_extra_.csv', col_types = rtypes)
 leva4 = read_csv('data/manual-data/manual-2020/pedro_leva4_2020.csv', col_types = rtypes)
 leva5 = read_csv('data/manual-data/manual-2020/pedro_leva5_2020.csv', col_types = rtypes)
+leva6 = read_csv('data/manual-data/manual-2020/pedro_leva6_2020.csv', col_types = rtypes)
+leva7 = read_csv('data/manual-data/manual-2020/pedro_leva7_2020.csv', col_types = rtypes)
 
-X2020 = bind_rows(leva1, leva2, leva3, leva4, leva5)
+X2020 = bind_rows(leva1, leva2, leva3, leva4, leva5, leva6, leva7)
 
 X2020_2 = X2020 %>%
   select(-contains('unnamed')) %>%
@@ -97,7 +107,8 @@ manual = inner_join(lhs, rhs, by = c(
   select(-matches('\\.y')) %>%
   rename_at(vars(matches('\\.x')), function(x) { str_sub(x, end = -3) }) %>%
   left_join(names_correction, by = c('info_muni', 'candidate')) %>%
-  mutate(candidate = ifelse(is.na(correction), candidate, correction))
+  mutate(candidate = ifelse(is.na(correction), candidate, correction)) %>%
+  mutate(tse_id = ifelse(is.na(tse_id), id_pesq, tse_id))
 
 manual_tse = manual %>%
   left_join(df2020, by = c('tse_id' = 'id_pesq', 'info_muni')) %>%
