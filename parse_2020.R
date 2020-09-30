@@ -1,7 +1,7 @@
 library(tidyverse)
 library(stringi)
 
-df2020 = read_csv('data/tse/df2020_18sep.csv') %>%
+df2020 = read_csv('data/tse/df2020_29sep.csv') %>%
   mutate(norm_met = tolower(normalize_simple(txt_method))) %>%
   mutate(norm_pa = tolower(normalize_simple(txt_plan))) %>%
   mutate(is_fluxo = as.vector(!is.na(str_match(norm_met, 'fluxo')) | !is.na(str_match(norm_pa, 'fluxo')))) %>%
@@ -30,9 +30,15 @@ df2020 = read_csv('data/tse/df2020_18sep.csv') %>%
 names_correction_1 = read_csv('data/manual-data/normalized_names_2020_2.csv')
 names_correction_2 = read_csv('data/manual-data/normalized_names_2020_3.csv')
 names_correction_3 = read_csv('data/manual-data/normalized_names_2020_4.csv')
+names_correction_4 = read_csv('data/manual-data/normalized_names_2020_5.csv')
+names_correction_5 = read_csv('data/manual-data/normalized_names_2020_6.csv')
+names_correction_6 = read_csv('data/manual-data/normalized_names_2020_7.csv')
 
 names_correction = bind_rows(
-  names_correction_3,
+  names_correction_6,
+  names_correction_5 %>% filter(!(info_muni %in% names_correction_6$info_muni)),
+  names_correction_4 %>% filter(!(info_muni %in% names_correction_5$info_muni)),
+  names_correction_3 %>% filter(!(info_muni %in% names_correction_4$info_muni)),
   names_correction_2 %>% filter(!(info_muni %in% names_correction_3$info_muni)),
   names_correction_1 %>% filter(!(info_muni %in% names_correction_2$info_muni))
 )
@@ -45,8 +51,11 @@ leva4 = read_csv('data/manual-data/manual-2020/pedro_leva4_2020.csv', col_types 
 leva5 = read_csv('data/manual-data/manual-2020/pedro_leva5_2020.csv', col_types = rtypes)
 leva6 = read_csv('data/manual-data/manual-2020/pedro_leva6_2020.csv', col_types = rtypes)
 leva7 = read_csv('data/manual-data/manual-2020/pedro_leva7_2020.csv', col_types = rtypes)
+leva8 = read_csv('data/manual-data/manual-2020/pedro_leva8_2020.csv', col_types = rtypes)
+leva9 = read_csv('data/manual-data/manual-2020/pedro_leva9_2020.csv', col_types = rtypes)
+leva10 = read_csv('data/manual-data/manual-2020/pedro_leva10_2020.csv', col_types = rtypes)
 
-X2020 = bind_rows(leva1, leva2, leva3, leva4, leva5, leva6, leva7)
+X2020 = bind_rows(leva1, leva2, leva3, leva4, leva5, leva6, leva7, leva8, leva9, leva10)
 
 X2020_2 = X2020 %>%
   select(-contains('unnamed')) %>%
