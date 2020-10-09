@@ -37,6 +37,9 @@ Let's define some helpers:
 
 ```{r}
 rtypes = cols(
+  'util' = col_number(),
+  'estimulada' = col_number(),
+  'vv' = col_number(),
   'resul1' = col_character(),
   'resul2' = col_character(),
   'resul3' = col_character(),

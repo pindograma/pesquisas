@@ -63,16 +63,22 @@ select_closest = function(vec1, vec2, val) {
       abs(vec1 - val) < abs(vec2 - val), vec1, vec2)))
 }
 
-load_poll_registry_data = function(path = './data/tse', estatisticos_ids) {
-  X2012 <- open_tse_file(paste0(path, '/tse_2012.csv'))
-  X2014 <- open_tse_file(paste0(path, '/tse_2014.csv'))
-  X2016 <- open_tse_file(paste0(path, '/tse_2016.csv'))
-  X2018 <- open_tse_file(paste0(path, '/tse_2018.csv'))
-  
-  df1 = rbind(X2012, X2014)
-  df2 = rbind(X2016, X2018) %>% rename(NR_IDENTIFICACAO_PESQUISA = NR_PROTOCOLO_REGISTRO)
-  df_orig = rbind(df1, df2) %>% select(-DT_GERACAO, -HH_GERACAO)
-  rm(X2012, X2014, X2016, X2018, df1, df2)
+load_poll_registry_data = function(path = './data/tse', estatisticos_ids, old = T) {
+  if (old) {
+    X2012 <- open_tse_file(paste0(path, '/tse_2012.csv'))
+    X2014 <- open_tse_file(paste0(path, '/tse_2014.csv'))
+    X2016 <- open_tse_file(paste0(path, '/tse_2016.csv'))
+    X2018 <- open_tse_file(paste0(path, '/tse_2018.csv'))
+    
+    df1 = rbind(X2012, X2014)
+    df2 = rbind(X2016, X2018) %>% rename(NR_IDENTIFICACAO_PESQUISA = NR_PROTOCOLO_REGISTRO)
+    df_orig = rbind(df1, df2) %>% select(-DT_GERACAO, -HH_GERACAO)
+    rm(X2012, X2014, X2016, X2018, df1, df2)
+  } else {
+    df_orig = open_tse_file(paste0(path, '/tse_2020.csv')) %>%
+      rename(NR_IDENTIFICACAO_PESQUISA = NR_PROTOCOLO_REGISTRO) %>%
+      select(-DT_GERACAO, -HH_GERACAO)
+  }
   
   df_orig %>%
     distinct() %>%
