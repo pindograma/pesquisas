@@ -15,7 +15,9 @@ LONDON,London Pesquisas
 AMPLACE,Ampla Pesquisa (CE)
 TDL,TDL Pesquisa
 ANGULO,Ângulo Pesquisas
+SUDOESTE,Jornal Sudoeste (BA)
 TENDENCIAMS,Tendência Pesquisa (MS)
+GAUSS,Instituto Gauss
 "07630546000175",Datafolha
 "68802370000186",Ibope
 "81908345000140",Paraná Pesquisas
@@ -23,7 +25,7 @@ TENDENCIAMS,Tendência Pesquisa (MS)
 "07317438000147",Doxa
 "40808743000107",Perfil Pesquisas Técnicas (RN)
 "28500023000184",Enquet Pesquisas
-"06270812000133",Instituto de Pesquisa Resultado
+"06270812000133",Instituto de Pesquisa Resultado (MS)
 "05833992000151",Data M
 "06271706000174",Access
 "07596217000155",Fonte Real
@@ -113,7 +115,6 @@ TENDENCIAMS,Tendência Pesquisa (MS)
 "11400305000107",Voice Pesquisas (MT)
 "07268073000108",Sebram
 "10956929000142",Datavox (PB)
-"11535761000164",Jornal Sudoeste
 "03688568000135",Tecnodados
 "03846350000161",Alternativa Dados
 "19217115000160",Pro 4 Pesquisa
@@ -152,8 +153,7 @@ TENDENCIAMS,Tendência Pesquisa (MS)
 "94908951000107",Dirceu F M Gomes
 "10905523000130",Atual Pesquisas
 "13483729000108",Foco Pesquisas
-"61466926000161",Sudoeste do Estado
-"01338700000153",Instituto Gauss
+"61466926000161",Sudoeste do Estado (SP)
 "09334545000109",Andreia Rafael Publicidade
 "09472061000126",Desttaq
 "09328809000111",Instituto LJM
@@ -317,7 +317,7 @@ TENDENCIAMS,Tendência Pesquisa (MS)
 "11661310000173",Compasso Consultoria
 "12282147000109",Palpe Pesquisas
 "12843917000137",AGRJPEL
-"14293213000163",Agora Pesquisa
+"14293213000163",Agora Pesquisa (BA)
 "14861123000121",Naipes Marketing
 "15271808000180",IPP
 "15444186000145",Foco Pesquisa
@@ -412,3 +412,25 @@ TENDENCIAMS,Tendência Pesquisa (MS)
 "38302245000146",Premier Pesquisas
 "31062676000133",CBP Pesquisa e Hotelaria
 "09269398000130",Instituto Peixoto de Alencar
+"35728961000100",INOR
+"20815824000127",Inteligence Serviços
+"14030361000195",Bis Comunicação
+"28504695000168",Brand Consultoria
+"34351657000115",Meta Soluções
+"17121731000198",Instituto Work
+"29648898000190",Destake Pesquisas
+"23960141000151",M. L. Ximenes Consultoria
+"07241393000174",Resultado Pesquisa (MG)
+"14606822000125",Construtora Pinheiros
+"14048123000107",E. Tormes & Cia.
+"35442968000152",Instituto Regnum
+"26269731000120",Instituto GP1
+"19557018000117",Ágora Pesquisa (RJ)
+"03480760000131",ONG Vida Brasil
+"19259002000128",Nervera
+"30226551000139",IAPP
+"36373743000154",Yes Pesquisas
+"26049818000192",Instituto Ceasp
+"29669927000109",RPP Logística
+"36189437000162",FC Pesquisas
+"37658984000102",Publi.QC Pesquisas
