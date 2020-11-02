@@ -18,6 +18,8 @@ ANGULO,Ângulo Pesquisas
 SUDOESTE,Jornal Sudoeste (BA)
 TENDENCIAMS,Tendência Pesquisa (MS)
 GAUSS,Instituto Gauss
+ALVO,Alvo Marketing
+VOGA,Voga Pesquisas
 "07630546000175",Datafolha
 "68802370000186",Ibope
 "81908345000140",Paraná Pesquisas
@@ -37,7 +39,6 @@ GAUSS,Instituto Gauss
 "22675543000141",Estimativa
 "39253182000148",GPP
 "84480946000192",D M Duarte
-"84480946000192",The Voice Pesquisa (AM)
 "10783981000144",Instituto Seta
 "86849395000117",Sensus
 "73988917000110",Instituto Opinião (SP)
@@ -84,7 +85,6 @@ GAUSS,Instituto Gauss
 "08438497000136",BR Marketing
 "33403221000160",Dados Folha (GO)
 "13102873000157",Vale Consultoria
-"04216356000118",Alvo Marketing
 "04717077000138",Acertar
 "14614894000114",Pontual Pesquisas
 "10599874000160",Top Midia News
@@ -127,7 +127,6 @@ GAUSS,Instituto Gauss
 "25999377000127",Foccus
 "09028982000102",Ver Pesquisa
 "24314181000199",Valle Pesquisas
-"05281052000105",Voga Pesquisas
 "96508015000134",Limite Pesquisas
 "10713151000140",Contatus Comunicações
 "04453641000152",Datasonda
@@ -138,7 +137,6 @@ GAUSS,Instituto Gauss
 "06859792000130",Pop Pesquisas
 "18237296000124",Incope
 "08716449000162",Memento
-"13098271000173",Paulo Ricardo Dal Pozo Gomes
 "13098271000173",Polo Pesquisas
 "10892795000143",Escutec
 "11047803000118",Sinfor
@@ -326,7 +324,7 @@ GAUSS,Instituto Gauss
 "17442390000152",Simplex Consultoria
 "18372420000164",Interativa Pesquisas
 "19306841000150",Jornal Correio Continental
-"19442446000102",IPEC
+"19442446000102",IPEC (MT)
 "19731315000137",Tulipa Pesquisas
 "23340485000168",Vox Opinião Pública (SP)
 "24374946000186",Seculus Consultoria
@@ -376,10 +374,10 @@ GAUSS,Instituto Gauss
 "15692490000101",Datamédia
 "16176992000142",Terra Viva
 "16945085000110",IMMAPEQ
-"19548987000101",Play Comunicação
+"19548987000101",Play Comunicação (PR)
 "19738088000171",Plural Assessoria
 "20128172000152",RF Consultoria
-"20592128000107",Malujoa Comunicaçõs
+"20592128000107",Malujoa Comunicações
 "20917622000196",Instituto Cristão Brasileiro
 "22946223000189",Attitude Consultoria
 "23723322000164",Morais & Dias
@@ -446,3 +444,47 @@ GAUSS,Instituto Gauss
 "34686514000164",CTAS Tecnologia
 "35851783000100",Infornews
 "29280171000101",Kadoshi Pesquisa
+"13159802000190",CEDMP
+"36896958000150",Assertiva Pesquisa
+"28127189000105",Ampla Serviços (MG)
+"17172585000120",Ecodatta
+"10224388000168",Rogério de Mello Bonilha
+"35932087000110",Épico Pesquisas
+"37524035000130",IGAPE
+"59177907000173",APPC
+"24428494000178",IABR
+"04583866000123",Dataqualy
+"13273587000154",Instituto Gasparetto de Pesquisas
+"00095024000171",TC Multimidia
+"38310948000116",Play Consultoria (GO)
+"08713180000160",C. R. Carraro
+"10587479000168",QI Assessoria
+"08097343000128",M. C. F. Chaves
+"22745325000136",Jornal dos Municípios
+"38061259000115",TS2 Soluções
+"30877802000145",Strapasson e Araújo
+"29380522000148",Dimensão Pesquisa
+"27359974000112",Instituto Padrão
+"09263232000107",Grupo Jet
+"32654392000107",Pesquisa Viva Voz
+"34998869000199",Send Pesquisas
+"37603286000100",IPPEC (PR)
+"21216859000102",Civita Inteligência
+"29533384000190",Goiás Pesquisas
+"21365064000166",Equatorial Pesquisa
+"09242998000105",Meta Publicidade e Pesquisa
+"35374772000178",Instituto Indicador
+"12188752000107",Gomes Comunicação
+"03427023000175",Pirâmide Pesquisas
+"31564117000121",Instituto Veredas
+"08894976000167",INPAC
+"11108359000365",GMT Dados
+"32088661000107",Gold Solution
+"20972537000120",Certifica Consultoria
+"28166921000148",Data Qualyt
+"31887889000102",Instituto Premier
+"32664597000165",Exitus Comunicação
+"32245527000172",Colectta Consultoria
+"30256631000137",Porte Edição
+"28053655000147",Apraico Pesquisas
+"69944171000175",Arpel IPEC (PE)

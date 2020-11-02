@@ -50,8 +50,17 @@ leva11_ex = read_csv('data/manual-data/manual-2020/pedro_review_zeros.csv', col_
 leva12_ex = read_csv('data/manual-data/manual-2020/pedro_leva12_extra.csv', col_types = rtypes)
 leva12_ex2 = read_csv('data/manual-data/manual-2020/pedro_leva12_extra2.csv', col_types = rtypes)
 leva13 = read_csv('data/manual-data/manual-2020/pedro_leva13.csv', col_types = rtypes)
+leva14 = read_csv('data/manual-data/manual-2020/pedro_leva14_2020.csv', col_types = rtypes)
+leva15 = read_csv('data/manual-data/manual-2020/pedro_leva15_2020.csv', col_types = rtypes)
+leva16 = read_csv('data/manual-data/manual-2020/pedro_leva16_2020.csv', col_types = rtypes)
+leva17 = read_csv('data/manual-data/manual-2020/pedro_leva17_2020.csv', col_types = rtypes)
+leva18 = read_csv('data/manual-data/manual-2020/pedro_leva18_2020.csv', col_types = rtypes)
+leva19 = read_csv('data/manual-data/manual-2020/pedro_leva19_2020.csv', col_types = rtypes)
+leva19_ex = read_csv('data/manual-data/manual-2020/pedro_leva19_2020_extra.csv', col_types = rtypes)
 
-X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9, leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13)
+X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
+                  leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
+                  leva16, leva17, leva18, leva19, leva19_ex)
 
 X2020_2 = X2020 %>%
   select(-contains('unnamed')) %>%
@@ -138,10 +147,13 @@ manual_tse = manual %>%
     NR_CNPJ_EMPRESA %in% c('03490620000144', '32980640000100') ~ 'TENDENCIAMS',
     NR_CNPJ_EMPRESA %in% c('36607622000120', '11535761000164') ~ 'SUDOESTE',
     NR_CNPJ_EMPRESA %in% c('02291216000189', '01338700000153') ~ 'GAUSS',
+    NR_CNPJ_EMPRESA %in% c('22913911000142', '04216356000118') ~ 'ALVO',
+    NR_CNPJ_EMPRESA %in% c('05281052000105', '28158617000159') ~ 'VOGA',
     T ~ NR_CNPJ_EMPRESA
   )) %>%
   mutate(turno = 1) %>%
-  mutate(candidate_without_title = normalize_cand_rm_titles(candidate))
+  mutate(candidate_without_title = normalize_cand_rm_titles(candidate)) %>%
+  mutate(candidate = ifelse(SG_UE == '90670' & grepl('ABILIO', candidate), 'ABILIO', candidate)) # FIXME
 
 manual_matches = match_polls_with_candidates(manual_tse)
 
@@ -151,7 +163,7 @@ all_polls = manual_matches %>%
   distinct(year, NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, CD_CARGO, company_id, suspensa,
            estimulada, NUMERO_CANDIDATO, NOME_URNA_CANDIDATO, result, DT_FIM_PESQUISA, vv, turno,
            is_fluxo, is_phone, self_hired, QT_ENTREVISTADOS, main_source, source, scenario_id, is_complete,
-           DT_INICIO_PESQUISA, hirer, confidence_interval_final, error_final, candidate) %>%
+           DT_INICIO_PESQUISA, hirer, confidence_interval_final, error_final, candidate, partisan) %>%
   left_join(company_names, 'company_id') %>%
   mutate(polled_UE = SG_UE) %>%
   group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, CD_CARGO, estimulada, scenario_id) %>%
@@ -205,3 +217,8 @@ cands %>%
   filter(CODIGO_CARGO %in% c(1, 3, 11)) %>%
   distinct(SIGLA_UE, NUM_TURNO, CODIGO_CARGO, ANO_ELEICAO, NUMERO_CANDIDATO, NOME_URNA_CANDIDATO) %>%
   write.csv('output/pindograma_candlist_2020.csv', row.names = F)
+
+df_for_merge %>%
+  distinct(SG_UF, SG_UE, str_to_title(NM_UE)) %>%
+  mutate(final_name = paste0(`str_to_title(NM_UE)`, ' (', SG_UF, ')')) %>%
+  write.csv('output/cities_2020.csv', row.names = F)
