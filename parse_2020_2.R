@@ -32,7 +32,14 @@ cands = read_csv2('data/tse/consulta_cand_2020_BRASIL.csv', locale = locale(enco
 estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
 
 df = load_poll_registry_data(estatisticos_ids = estatisticos_ids, old = F)
-df_for_merge = get_poll_registry_for_merge(df)
+df_for_merge_prelim = get_poll_registry_for_merge(df)
+
+extra1 = read_csv('data/tse/2020_11_11_html_sp_pe.csv')
+
+df_for_merge = bind_rows(
+  df_for_merge_prelim,
+  translate_html_parser_output(extra1)
+)
 
 leva1 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva1_2020_orig.csv', col_types = rtypes)
 leva2 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva2_2020_orig.csv', col_types = rtypes)

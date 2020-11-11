@@ -142,3 +142,40 @@ get_poll_registry_for_merge = function(df) {
     summarize(hirer = paste(NM_CONTRATANTE, collapse = '/')) %>%
     ungroup()
 }
+
+translate_html_parser_output = function(df) {
+  df %>%
+    mutate(NR_IDENTIFICACAO_PESQUISA = str_replace_all(id_pesq, '[\\-\\/]', '')) %>%
+    rename(f_id = id_pesq) %>%
+    rename(NM_UE = info_muni) %>%
+    rename(NR_CNPJ_EMPRESA = comp_cnpj) %>%
+    rename(SG_UE = id_muni) %>%
+    rename(DT_INICIO_PESQUISA = dt_start, DT_FIM_PESQUISA = dt_end) %>%
+    rename(QT_ENTREVISTADOS = pesq_n) %>%
+    mutate(self_hired = ifelse(comp_contract_same == 'Sim', T, F)) %>%
+    mutate(hirer = word(word(pesq_contractors, 2, sep = ' - '), 1, sep = 'Origem|\\(')) %>%
+    mutate(norm_met = tolower(normalize_simple(txt_method))) %>%
+    mutate(norm_pa = tolower(normalize_simple(txt_plan))) %>%
+    mutate(is_fluxo = as.vector(!is.na(str_match(norm_met, 'fluxo')) | !is.na(str_match(norm_pa, 'fluxo')))) %>%
+    mutate(is_phone = text_is_phone(norm_met) | text_is_phone(norm_pa)) %>%
+    mutate(partisan = grepl(party_pattern, normalize_simple(pesq_contractors))) %>%
+    mutate(confidence_interval_1 = get_quantity_1(norm_pa, rgx_confidence, 95)) %>%
+    mutate(confidence_interval_1_met = get_quantity_1(norm_met, rgx_confidence, 95)) %>%
+    mutate(confidence_interval_2 = get_quantity_2(norm_pa, 'confian.a|confiabilidade', '.*?%|.*?cento', 95)) %>%
+    mutate(confidence_interval_2_met = get_quantity_2(norm_met, 'confian.a|confiabilidade', '.*?%|.*?cento', 95)) %>%
+    mutate(error_1 = get_quantity_1(norm_pa, rgx_error, 4)) %>%
+    mutate(error_1_met = get_quantity_1(norm_met, rgx_error, 4)) %>%
+    mutate(error_2 = get_quantity_2(norm_pa, 'erro', '.*?%|.*?cento|.*?pontos|.*?p.*?p', 4)) %>%
+    mutate(error_2_met = get_quantity_2(norm_met, 'erro', '.*?%|.*?cento|.*?pontos|.*?p.*?p', 4)) %>%
+    mutate(confidence_interval = select_closest(confidence_interval_1, confidence_interval_2, 95)) %>%
+    mutate(confidence_interval_met = select_closest(confidence_interval_1_met, confidence_interval_2_met, 95)) %>%
+    mutate(error = select_closest(error_1, error_2, 4)) %>%
+    mutate(error_met = select_closest(error_1_met, error_2_met, 4)) %>%
+    mutate(confidence_interval_final = select_closest(confidence_interval, confidence_interval_met, 95)) %>%
+    mutate(error_final = select_closest(error, error_met, 4)) %>%
+    select(-confidence_interval_1, -confidence_interval_1_met,
+     -confidence_interval_2, -confidence_interval_2_met,
+     -error_1, -error_1_met, -error_2, -error_2_met,
+     -confidence_interval, -confidence_interval_met,
+     -error, -error_met)
+}
