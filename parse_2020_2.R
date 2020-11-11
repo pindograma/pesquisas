@@ -57,10 +57,13 @@ leva17 = read_csv('data/manual-data/manual-2020/pedro_leva17_2020.csv', col_type
 leva18 = read_csv('data/manual-data/manual-2020/pedro_leva18_2020.csv', col_types = rtypes)
 leva19 = read_csv('data/manual-data/manual-2020/pedro_leva19_2020.csv', col_types = rtypes)
 leva19_ex = read_csv('data/manual-data/manual-2020/pedro_leva19_2020_extra.csv', col_types = rtypes)
+leva20 = read_csv('data/manual-data/manual-2020/pedro_leva20_2020.csv', col_types = rtypes)
+leva21 = read_csv('data/manual-data/manual-2020/pedro_leva21_2020_part1.csv', col_types = rtypes)
+leva22 = read_csv('data/manual-data/manual-2020/pedro_leva22_2020.csv', col_types = rtypes)
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
-                  leva16, leva17, leva18, leva19, leva19_ex)
+                  leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22)
 
 X2020_2 = X2020 %>%
   select(-contains('unnamed')) %>%
@@ -148,7 +151,7 @@ manual_tse = manual %>%
     NR_CNPJ_EMPRESA %in% c('36607622000120', '11535761000164') ~ 'SUDOESTE',
     NR_CNPJ_EMPRESA %in% c('02291216000189', '01338700000153') ~ 'GAUSS',
     NR_CNPJ_EMPRESA %in% c('22913911000142', '04216356000118') ~ 'ALVO',
-    NR_CNPJ_EMPRESA %in% c('05281052000105', '28158617000159') ~ 'VOGA',
+    NR_CNPJ_EMPRESA %in% c('05281052000105', '28158617000159', '00961694000123') ~ 'VOGA',
     T ~ NR_CNPJ_EMPRESA
   )) %>%
   mutate(turno = 1) %>%

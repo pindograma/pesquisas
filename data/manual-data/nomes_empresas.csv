@@ -18,7 +18,7 @@ ANGULO,Ângulo Pesquisas
 SUDOESTE,Jornal Sudoeste (BA)
 TENDENCIAMS,Tendência Pesquisa (MS)
 GAUSS,Instituto Gauss
-ALVO,Alvo Marketing
+ALVO,Alvo Marketing (PA)
 VOGA,Voga Pesquisas
 "07630546000175",Datafolha
 "68802370000186",Ibope
@@ -108,7 +108,7 @@ VOGA,Voga Pesquisas
 "20252668000133",Directa Pesquisa
 "03079221000195",DMP
 "15602816000162",Dataform
-"03830371000199",Imagem Comunicação
+"03830371000199",Imagem Comunicação (Ipatinga)
 "05234994000124",Leia Tudo
 "00905916000190",MBO
 "06183431000117",Interpreta
@@ -150,7 +150,7 @@ VOGA,Voga Pesquisas
 "15293191000102",W J Mendes
 "94908951000107",Dirceu F M Gomes
 "10905523000130",Atual Pesquisas
-"13483729000108",Foco Pesquisas
+"13483729000108",Foco Pesquisas (SC)
 "61466926000161",Sudoeste do Estado (SP)
 "09334545000109",Andreia Rafael Publicidade
 "09472061000126",Desttaq
@@ -318,7 +318,7 @@ VOGA,Voga Pesquisas
 "14293213000163",Agora Pesquisa (BA)
 "14861123000121",Naipes Marketing
 "15271808000180",IPP
-"15444186000145",Foco Pesquisa
+"15444186000145",Foco Pesquisa (BA)
 "15514430000107",Sensor Pesquisas
 "17159578000198",Instituto Datasensus
 "17442390000152",Simplex Consultoria
@@ -488,3 +488,45 @@ VOGA,Voga Pesquisas
 "30256631000137",Porte Edição
 "28053655000147",Apraico Pesquisas
 "69944171000175",Arpel IPEC (PE)
+"09635819000108",Instituto Epicensus
+"24156526000123",Multiplier Assessoria
+"34535741000199",Data Verus Pesquisa
+"17417139000138",AGESP
+"09585604000111",E. M. Produções
+"23297294000160",Instituto Panorama
+"00794068000190",Virtú Análise e Estratégia
+"11572949000182",BZN Pesquisa
+"31044220000140",Ideia Pesquisas
+"29160690000128",Instituto Alvo (SE)
+"61709838000143",IOPPM
+"25291235000100",Imagem Pesquisa (Contagem)
+"06968064000167",P R Barbosa Mídia e Publicidade
+"33059942000102",Editora Zen
+"25348249000113",Alexandre Sócrates Naviskas
+"24700209000126",Datacidad Consultoria
+"04960987000147",Inove Consultoria
+"23963726000125",Criattiva Pesquisa
+"15612495000187",IDEP Brasil
+"15444655000126",Maria Aparecida dos Santos
+"28492188000151",Data Dados
+"07631467000189",Accontece Publicidade
+"15793324000100",Ética Pesquisa
+"08286287000170",Análise Pesquisa
+"36901612000100",Instituto Barcelos
+"26184021000106",RCondoru Pesquisa
+"26807519000170",Foco Consultoria (PI)
+"11954546000106",IPV6 Comunicação
+"28102228000101",RFP Pesquisas
+"06116089000132",Jornal do Grande Rio
+"30669011000120",Mappa Geopolítico
+"19729593000150",Foca Comunicação (RS)
+"16572314000107",Instituto Customers
+"09271490000135",R Mix Eventos
+"29653247000199",Plugin Publicidade
+"02603313000160",Síntese Pesquisa
+"36895820000136",Joch Consultoria
+"17266035000170",A.S. Instituto de Planejamento
+"66990367000108",Instituto Datapress
+"02789166000164",M R Comunicação
+"22438783000122",Instituto Murici
+"19074650000100",Excelência Pesquisa
