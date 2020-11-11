@@ -9,6 +9,7 @@ from msrest.authentication import CognitiveServicesCredentials
 from pprint import pprint
 import time
 import csv
+import traceback
 
 with open('gapi-key-oscar.txt', 'r') as f:
     with open('bing_input.txt', 'r') as inp:
@@ -43,7 +44,7 @@ with open('gapi-key-oscar.txt', 'r') as f:
                             })
                 
                 except Exception as e:
-                    print(e)
+                    traceback.print_exc()
                     break
                         
             with open('bing_output.csv', 'w', newline='\n', encoding='utf-8') as oup:
