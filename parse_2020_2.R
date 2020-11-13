@@ -34,12 +34,15 @@ estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
 df = load_poll_registry_data(estatisticos_ids = estatisticos_ids, old = F)
 df_for_merge_prelim = get_poll_registry_for_merge(df)
 
-extra1 = read_csv('data/tse/2020_11_11_html_sp_pe.csv')
+#extra1 = read_csv('data/tse/2020_11_11_html_sp_pe.csv', col_types = cols(id_muni = col_character()))
+#extra2 = read_csv('data/tse/2020_11_11_html_ma_mt_pb_rn.csv', col_types = cols(id_muni = col_character()))
 
-df_for_merge = bind_rows(
-  df_for_merge_prelim,
-  translate_html_parser_output(extra1)
-)
+#df_for_merge = bind_rows(
+#  df_for_merge_prelim,
+#  translate_html_parser_output(extra1),
+#  translate_html_parser_output(extra2)
+#)
+df_for_merge = df_for_merge_prelim
 
 leva1 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva1_2020_orig.csv', col_types = rtypes)
 leva2 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva2_2020_orig.csv', col_types = rtypes)
@@ -67,10 +70,14 @@ leva19_ex = read_csv('data/manual-data/manual-2020/pedro_leva19_2020_extra.csv',
 leva20 = read_csv('data/manual-data/manual-2020/pedro_leva20_2020.csv', col_types = rtypes)
 leva21 = read_csv('data/manual-data/manual-2020/pedro_leva21_2020_part1.csv', col_types = rtypes)
 leva22 = read_csv('data/manual-data/manual-2020/pedro_leva22_2020.csv', col_types = rtypes)
+leva22_bizarre = read_csv('data/manual-data/manual-2020/pedro_leva22_2020_bizarre.csv', col_types = rtypes)
+leva23 = read_csv('data/manual-data/manual-2020/pedro_leva23_2020.csv', col_types = rtypes) %>%
+  mutate(util = ifelse(is.na(util), 0, util))
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
-                  leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22)
+                  leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22,
+                  leva22_bizarre, leva23)
 
 X2020_2 = X2020 %>%
   select(-contains('unnamed')) %>%

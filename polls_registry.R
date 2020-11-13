@@ -150,7 +150,7 @@ translate_html_parser_output = function(df) {
     rename(NM_UE = info_muni) %>%
     rename(NR_CNPJ_EMPRESA = comp_cnpj) %>%
     rename(SG_UE = id_muni) %>%
-    rename(DT_INICIO_PESQUISA = dt_start, DT_FIM_PESQUISA = dt_end) %>%
+    rename(DT_REGISTRO = dt_reg, DT_INICIO_PESQUISA = dt_start, DT_FIM_PESQUISA = dt_end) %>%
     rename(QT_ENTREVISTADOS = pesq_n) %>%
     mutate(self_hired = ifelse(comp_contract_same == 'Sim', T, F)) %>%
     mutate(hirer = word(word(pesq_contractors, 2, sep = ' - '), 1, sep = 'Origem|\\(')) %>%
