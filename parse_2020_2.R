@@ -73,11 +73,12 @@ leva22 = read_csv('data/manual-data/manual-2020/pedro_leva22_2020.csv', col_type
 leva22_bizarre = read_csv('data/manual-data/manual-2020/pedro_leva22_2020_bizarre.csv', col_types = rtypes)
 leva23 = read_csv('data/manual-data/manual-2020/pedro_leva23_2020.csv', col_types = rtypes) %>%
   mutate(util = ifelse(is.na(util), 0, util))
+leva23_extra = read_csv('data/manual-data/manual-2020/pedro_leva23_extra_2020.csv', col_types = rtypes)
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
                   leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22,
-                  leva22_bizarre, leva23)
+                  leva22_bizarre, leva23, leva23_extra)
 
 X2020_2 = X2020 %>%
   select(-contains('unnamed')) %>%
