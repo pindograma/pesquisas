@@ -2,7 +2,6 @@
 # (c) 2020 CincoNoveSeis Jornalismo Ltda.
 
 # MUST VERIFY:
-# - dup_polls
 # - multiple scenarios
 # - total and relation to vv
 
@@ -44,6 +43,25 @@ df_for_merge_prelim = get_poll_registry_for_merge(df)
 #)
 df_for_merge = df_for_merge_prelim
 
+normalize_input = function(x) {
+  x %>%
+    select(-contains('unnamed')) %>%
+    mutate_at(vars(matches('resul')), str_to_dbl) %>%
+    filter(util == 1 & !is.na(cand1) & !is.na(cand2)) %>%
+    mutate(position = tolower(position)) %>%
+    rowwise() %>%
+    mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
+    ungroup() %>%
+    mutate_at(vars(matches('cand')), normalize_cand) %>%
+    mutate_at(vars(matches('resul')), function(x, t) {
+      case_when(
+        x < 1 ~ ifelse(t <= 1, x * 100, x),
+        T ~ x
+      )
+    }, .$total) %>%
+    mutate(year = 2020)
+}
+
 leva1 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva1_2020_orig.csv', col_types = rtypes)
 leva2 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva2_2020_orig.csv', col_types = rtypes)
 leva3 = read_csv('data/manual-data/manual-2020/pedro_leva3_2020.csv', col_types = rtypes)
@@ -74,30 +92,17 @@ leva22_bizarre = read_csv('data/manual-data/manual-2020/pedro_leva22_2020_bizarr
 leva23 = read_csv('data/manual-data/manual-2020/pedro_leva23_2020.csv', col_types = rtypes) %>%
   mutate(util = ifelse(is.na(util), 0, util))
 leva23_extra = read_csv('data/manual-data/manual-2020/pedro_leva23_extra_2020.csv', col_types = rtypes)
+leva24 = read_csv('data/manual-data/manual-2020/pedro_leva24_2020.csv', col_types = rtypes)
+leva24_extra = read_csv('data/manual-data/manual-2020/pedro_2020_patch1.csv', col_types = rtypes)
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
                   leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22,
-                  leva22_bizarre, leva23, leva23_extra)
+                  leva22_bizarre, leva23, leva23_extra, leva24, leva24_extra)
 
-X2020_2 = X2020 %>%
-  select(-contains('unnamed')) %>%
-  mutate_at(vars(matches('resul')), str_to_dbl) %>%
-  filter(util == 1 & !is.na(cand1)) %>%
-  mutate(position = tolower(position)) %>%
-  rowwise() %>%
-  mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
-  ungroup() %>%
-  mutate_at(vars(matches('cand')), normalize_cand) %>%
-  mutate_at(vars(matches('resul')), function(x, t) {
-    case_when(
-      x < 1 ~ ifelse(t <= 1, x * 100, x),
-      T ~ x
-    )
-  }, .$total) %>%
-  mutate(year = 2020)
+X2020_2 = normalize_input(X2020)
 
-cur = X2020_2 %>%
+cur_0 = X2020_2 %>%
   mutate(scenario_id = row_number()) %>%
   rowwise() %>%
   mutate(total = sum(c_across(contains('resul')), na.rm = T)) %>%
@@ -105,12 +110,25 @@ cur = X2020_2 %>%
   ungroup()
 
 patch_1 = read_csv('data/manual-data/manual-2020/patch_1_2020.csv')
+patch_2 = read_csv('data/manual-data/manual-2020/pedro_patch2_2020.csv', col_types = rtypes) %>%
+  select(tse_id:resul15, NM_UE.x) %>%
+  rename(NM_UE = NM_UE.x) %>%
+  normalize_input()
+patch_3 = read_csv('data/manual-data/manual-2020/pedro_patch3_2020.csv', col_types = rtypes) %>%
+  select(tse_id:resul15, NM_UE) %>%
+  normalize_input()
 
-cur = bind_rows(
-  cur %>% filter(!for_patch),
-  patch_1
+cur_1 = bind_rows(
+  cur_0 %>% filter(!for_patch),
+  patch_1,
+  patch_3
 ) %>%
   mutate(scenario_id = row_number())
+
+cur = bind_rows(
+  cur_1 %>% filter(!(tse_id %in% patch_2$tse_id)),
+  patch_2
+)
 
 lhs = cur %>%
   pivot_longer(cols = starts_with('cand'),
@@ -135,10 +153,11 @@ manual = inner_join(lhs, rhs, by = c(
   select(-matches('\\.y')) %>%
   rename_at(vars(matches('\\.x')), function(x) { str_sub(x, end = -3) }) %>%
   mutate(tse_id = ifelse(is.na(tse_id), id_pesq, tse_id)) %>%
-  mutate(NM_UE = ifelse(is.na(NM_UE), info_muni, NM_UE))
+  mutate(NM_UE = ifelse(is.na(NM_UE), info_muni, NM_UE)) %>%
+  mutate(tse_id = str_replace(tse_id, '\\/2019', '\\/2020'))
 
 manual_tse = manual %>%
-  left_join(df_for_merge, by = c('tse_id' = 'f_id', 'NM_UE' = 'NM_UE')) %>%
+  left_join(df_for_merge, by = c('tse_id' = 'f_id')) %>%
   mutate(main_source = 'Pindograma-Manual') %>%
   rename(source = url) %>%
   mutate(CD_CARGO = recode(position,
@@ -167,6 +186,7 @@ manual_tse = manual %>%
     NR_CNPJ_EMPRESA %in% c('02291216000189', '01338700000153') ~ 'GAUSS',
     NR_CNPJ_EMPRESA %in% c('22913911000142', '04216356000118') ~ 'ALVO',
     NR_CNPJ_EMPRESA %in% c('05281052000105', '28158617000159', '00961694000123') ~ 'VOGA',
+    NR_CNPJ_EMPRESA %in% c('09415165000107', '73988917000110') ~ 'NILTON',
     T ~ NR_CNPJ_EMPRESA
   )) %>%
   mutate(turno = 1) %>%
