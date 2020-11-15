@@ -94,11 +94,12 @@ leva23 = read_csv('data/manual-data/manual-2020/pedro_leva23_2020.csv', col_type
 leva23_extra = read_csv('data/manual-data/manual-2020/pedro_leva23_extra_2020.csv', col_types = rtypes)
 leva24 = read_csv('data/manual-data/manual-2020/pedro_leva24_2020.csv', col_types = rtypes)
 leva24_extra = read_csv('data/manual-data/manual-2020/pedro_2020_patch1.csv', col_types = rtypes)
+leva25 = read_csv('data/manual-data/manual-2020/pedro_leva25_2020.csv', col_types = rtypes)
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
                   leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22,
-                  leva22_bizarre, leva23, leva23_extra, leva24, leva24_extra)
+                  leva22_bizarre, leva23, leva23_extra, leva24, leva24_extra, leva25)
 
 X2020_2 = normalize_input(X2020)
 
@@ -193,7 +194,12 @@ manual_tse = manual %>%
   mutate(candidate_without_title = normalize_cand_rm_titles(candidate)) %>%
   mutate(candidate = ifelse(SG_UE == '90670' & grepl('ABILIO', candidate), 'ABILIO', candidate)) # FIXME
 
-manual_matches = match_polls_with_candidates(manual_tse)
+corr = read_csv('data/manual-data/pedro_corr_cands_2020.csv') %>%
+  filter(wrong)
+
+manual_matches_ = match_polls_with_candidates(manual_tse)
+manual_matches = manual_matches_ %>%
+  anti_join(corr, by = c('candidate', 'NOME_CANDIDATO', 'NOME_URNA_CANDIDATO'))
 
 company_names = read_csv('data/manual-data/nomes_empresas.csv')
 
