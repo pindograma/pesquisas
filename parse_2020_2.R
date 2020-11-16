@@ -18,7 +18,10 @@ Rcpp::sourceCpp('src/wordmatch.cpp')
 source('polling_utils.R')
 source('poll_to_candidate_matcher.R')
 
-cands = read_csv2('data/tse/consulta_cand_2020_BRASIL.csv', locale = locale(encoding = 'ISO-8859-1')) %>%
+cands_ = read_csv2('data/tse/consulta_cand_2020_BRASIL.csv', locale = locale(encoding = 'ISO-8859-1')) %>%
+  filter(CD_CARGO == 11)
+
+cands = cands_ %>%
   rename(NOME_CANDIDATO = NM_CANDIDATO, NOME_URNA_CANDIDATO = NM_URNA_CANDIDATO,
          CODIGO_CARGO = CD_CARGO, SIGLA_UE = SG_UE, NUMERO_CANDIDATO = NR_CANDIDATO,
          NUM_TURNO = NR_TURNO) %>%
@@ -26,7 +29,9 @@ cands = read_csv2('data/tse/consulta_cand_2020_BRASIL.csv', locale = locale(enco
   mutate(NOME_CANDIDATO = normalize_cand(NOME_CANDIDATO)) %>%
   mutate(NOME_URNA_CANDIDATO = normalize_cand(NOME_URNA_CANDIDATO)) %>%
   mutate(CODIGO_CARGO = ifelse(CODIGO_CARGO == 8, 7, CODIGO_CARGO)) %>%
-  mutate(SIGLA_UF = NA)
+  mutate(SIGLA_UF = NA) %>%
+  distinct() %>%
+  distinct(NOME_CANDIDATO, NOME_URNA_CANDIDATO, .keep_all = T)
 
 estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
 
@@ -116,10 +121,12 @@ patch_1 = read_csv('data/manual-data/manual-2020/patch_1_2020.csv')
 patch_2 = read_csv('data/manual-data/manual-2020/pedro_patch2_2020.csv', col_types = rtypes) %>%
   select(tse_id:resul15, NM_UE.x) %>%
   rename(NM_UE = NM_UE.x) %>%
-  normalize_input()
+  normalize_input() %>%
+  mutate(scenario_id = row_number() + 10000)
 patch_3 = read_csv('data/manual-data/manual-2020/pedro_patch3_2020.csv', col_types = rtypes) %>%
   select(tse_id:resul15, NM_UE) %>%
-  normalize_input()
+  normalize_input() %>%
+  mutate(scenario_id = row_number() + 20000)
 
 cur_1 = bind_rows(
   cur_0 %>% filter(!for_patch),
@@ -194,7 +201,8 @@ manual_tse = manual %>%
   )) %>%
   mutate(turno = 1) %>%
   mutate(candidate_without_title = normalize_cand_rm_titles(candidate)) %>%
-  mutate(candidate = ifelse(SG_UE == '90670' & grepl('ABILIO', candidate), 'ABILIO', candidate)) # FIXME
+  mutate(candidate = ifelse(SG_UE == '90670' & grepl('ABILIO', candidate), 'ABILIO', candidate)) %>%
+  mutate(candidate = ifelse(SG_UE == '09210' & grepl('BIRA', candidate), 'BIRA', candidate))
 
 corr = read_csv('data/manual-data/pedro_corr_cands_2020.csv') %>%
   filter(wrong)
