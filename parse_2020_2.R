@@ -21,7 +21,7 @@ source('poll_to_candidate_matcher.R')
 cands_ = read_csv2('data/tse/consulta_cand_2020_BRASIL.csv', locale = locale(encoding = 'ISO-8859-1')) %>%
   filter(CD_CARGO == 11)
 
-cands = cands_ %>%
+cands_2 = cands_ %>%
   rename(NOME_CANDIDATO = NM_CANDIDATO, NOME_URNA_CANDIDATO = NM_URNA_CANDIDATO,
          CODIGO_CARGO = CD_CARGO, SIGLA_UE = SG_UE, NUMERO_CANDIDATO = NR_CANDIDATO,
          NUM_TURNO = NR_TURNO) %>%
@@ -32,6 +32,9 @@ cands = cands_ %>%
   mutate(SIGLA_UF = NA) %>%
   distinct() %>%
   distinct(NOME_CANDIDATO, NOME_URNA_CANDIDATO, .keep_all = T)
+
+cands = bind_rows(cands_2, cands_2) %>%
+  mutate(NUM_TURNO = c(rep(1, nrow(cands_2)), rep(2, nrow(cands_2))))
 
 estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
 
@@ -101,12 +104,14 @@ leva24 = read_csv('data/manual-data/manual-2020/pedro_leva24_2020.csv', col_type
 leva24_extra = read_csv('data/manual-data/manual-2020/pedro_2020_patch1.csv', col_types = rtypes)
 leva25 = read_csv('data/manual-data/manual-2020/pedro_leva25_2020.csv', col_types = rtypes)
 leva26 = read_csv('data/manual-data/manual-2020/pedro_leva26_2020.csv', col_types = rtypes)
+leva27 = read_csv('data/manual-data/manual-2020/pedro_leva27_2020.csv', col_types = rtypes)
+leva28 = read_csv('data/manual-data/manual-2020/pedro_leva28_2020.csv', col_types = rtypes)
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
                   leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22,
                   leva22_bizarre, leva23, leva23_extra, leva24, leva24_extra, leva25,
-                  leva26)
+                  leva26, leva27, leva28)
 
 X2020_2 = normalize_input(X2020)
 
@@ -167,7 +172,7 @@ manual = inner_join(lhs, rhs, by = c(
   mutate(tse_id = str_replace(tse_id, '\\/2019', '\\/2020'))
 
 manual_tse = manual %>%
-  left_join(df_for_merge, by = c('tse_id' = 'f_id')) %>%
+  inner_join(df_for_merge, by = c('tse_id' = 'f_id')) %>%
   mutate(main_source = 'Pindograma-Manual') %>%
   rename(source = url) %>%
   mutate(CD_CARGO = recode(position,
@@ -199,7 +204,7 @@ manual_tse = manual %>%
     NR_CNPJ_EMPRESA %in% c('09415165000107', '73988917000110') ~ 'NILTON',
     T ~ NR_CNPJ_EMPRESA
   )) %>%
-  mutate(turno = 1) %>%
+  mutate(turno = ifelse(DT_FIM_PESQUISA <= make_date(2020, 11, 15), 1, 2)) %>%
   mutate(candidate_without_title = normalize_cand_rm_titles(candidate)) %>%
   mutate(candidate = ifelse(SG_UE == '90670' & grepl('ABILIO', candidate), 'ABILIO', candidate)) %>%
   mutate(candidate = ifelse(SG_UE == '09210' & grepl('BIRA', candidate), 'BIRA', candidate))
@@ -242,6 +247,8 @@ all_polls_3 = all_polls_2 %>%
   group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, estimulada, CD_CARGO, vv, group_digest) %>%
   filter(scenario_id == first(scenario_id)) %>%
   ungroup()
+
+saveRDS(all_polls_3, 'all_polls_2020.rda')
 
 no_vv_polls = all_polls_3 %>%
   filter(is.na(vv)) %>%
