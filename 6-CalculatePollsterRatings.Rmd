@@ -47,7 +47,10 @@ model_polls = late_polls %>%
            SG_UE, polled_UE, CD_CARGO, estimulada, vv, scenario_id, source,
            DT_FIM_PESQUISA, self_hired, is_phone, is_fluxo, QT_ENTREVISTADOS,
            non_partisan, first_round_date, second_round_date, is_complete, state) %>%
-  summarize(mm3 = pop.sd(valid_result - pct), undecided = first(undecided)) %>%
+  arrange(desc(valid_result), .by_group = T) %>%
+  summarize(mm3 = pop.sd(valid_result - pct), undecided = first(undecided),
+            correct_result = order(pct, decreasing = T)[1] == 1,
+            correct_second = order(pct, decreasing = T)[2] == 2) %>%
   ungroup() %>%
   mutate(election_type = case_when(
     polled_UE == 'BR' ~ 1,
@@ -72,8 +75,8 @@ model_polls = late_polls %>%
   mutate(n_adj = 1 / sqrt(pmin(QT_ENTREVISTADOS, 6000))) %>%
   dummy_cols(select_columns = c('state'))
 
-fit = lm(mm3 ~ undecided + days_apart + election_type_3 + election_type_2 + n_adj +
-           state_AC + state_AL + state_AP + state_BA + state_CE + state_DF + state_ES +
+fit = lm(mm3 ~ undecided + days_apart + n_adj + election_type_3 + election_type_2 +
+           state_AC + state_AL + state_BA + state_CE + state_ES + state_DF + state_AP +
            state_GO + state_MA + state_MG + state_MS + state_MT + state_PA + state_PB +
            state_PE + state_PI + state_PR + state_RJ + state_RN + state_RO + state_RR +
            state_RS + state_SC + state_SE + state_SP + state_TO + first_round,
@@ -93,14 +96,15 @@ model_polls_2 = model_polls %>%
     relative_plus_minus == 0,
     simple_plus_minus,
     ((n_empresas_cmp * relative_plus_minus) + (3 * simple_plus_minus)) / (n_empresas_cmp + 3)
-  ))
+  )) %>%
+  filter(!is.na(weighted_pm)) # NOTE: This is due to the late Macapá 2020 election
 
 simple_rating_0 = model_polls_2 %>%
   mutate(joinid = row_number()) %>%
-  left_join(reg_conre, by = c('NR_CNPJ_EMPRESA' = 'cnpj')) %>%
+  left_join(reg_conre, by = c('company_id' = 'cnpj')) %>%
   distinct(joinid, .keep_all = T) %>%
   mutate(has_conre = !is.na(conre)) %>%
-  left_join(reg_abep, by = c('NR_CNPJ_EMPRESA' = 'cnpj')) %>%
+  left_join(reg_abep, by = c('company_id' = 'cnpj')) %>%
   mutate(has_abep = !is.na(abep)) %>%
   select(-joinid, -conre, -abep) %>%
   group_by(pretty_name, company_id, has_abep, has_conre) %>%
@@ -123,10 +127,11 @@ non_conre_abep_mean = simple_rating_0 %>%
 simple_rating = simple_rating_0 %>%
   mutate(rev_mean = ifelse(has_abep | has_conre, conre_abep_mean, non_conre_abep_mean)) %>%
   mutate(pred_pm = rev_mean + (weighted_pm - rev_mean) * (n / (n + 30))) %>%
+  mutate(pred_pm_alt = mean(weighted_pm) + (weighted_pm - mean(weighted_pm)) * (n / (n + 30))) %>%
   mutate_if(is.double, round, 3) %>%
   filter(n >= 5) %>%
   mutate(bin = .bincode(pred_pm, hist(pred_pm, plot = F)$breaks)) %>%
-  mutate(grade = recode(bin, `1` = 'A', `2` = 'B+', `3` = 'B', `4` = 'B-', `5` = 'C', `6` = 'D'))
+  mutate(grade = recode(bin, `1` = 'A', `2` = 'A', `3` = 'B+', `4` = 'B', `5` = 'B-', `6` = 'C', `7` = 'D'))
 
 simple_rating %>%
   write.csv('output/pollster_rating_2020_final.csv', row.names = F)

@@ -40,15 +40,6 @@ estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
 
 df = load_poll_registry_data(estatisticos_ids = estatisticos_ids, old = F)
 df_for_merge_prelim = get_poll_registry_for_merge(df)
-
-#extra1 = read_csv('data/tse/2020_11_11_html_sp_pe.csv', col_types = cols(id_muni = col_character()))
-#extra2 = read_csv('data/tse/2020_11_11_html_ma_mt_pb_rn.csv', col_types = cols(id_muni = col_character()))
-
-#df_for_merge = bind_rows(
-#  df_for_merge_prelim,
-#  translate_html_parser_output(extra1),
-#  translate_html_parser_output(extra2)
-#)
 df_for_merge = df_for_merge_prelim
 
 normalize_input = function(x) {

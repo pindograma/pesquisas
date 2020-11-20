@@ -13,6 +13,12 @@ It is licensed under the GNU General Public License, version 3.
 Let's start by getting the votes:
 
 ```{r}
+library(cepespR)
+library(tidyverse)
+
+source('polls_registry.R')
+source('polling_utils.R')
+
 pvotes = get_votes(
   year = '2016, 2012',
   position = 'Prefeito',
@@ -67,7 +73,12 @@ pres_votes_natl = get_votes(
     tibble() %>%
     mutate(SIGLA_UE = 'BR')
 
-votes = bind_rows(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, gov_votes_city) %>%
+pref_votes_2020 = read_csv('data/resultados_eleicao_2020.csv', locale = locale(decimal_mark = ',')) %>%
+  rename(SIGLA_UE = codigo_tse, NUMERO_CANDIDATO = numero, QTDE_VOTOS = votos_validos) %>%
+  mutate(ANO_ELEICAO = 2020, CODIGO_CARGO = 11, NUM_TURNO = 1) %>%
+  select(ANO_ELEICAO, SIGLA_UE, CODIGO_CARGO, NUMERO_CANDIDATO, NUM_TURNO, QTDE_VOTOS)
+
+votes = bind_rows(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, gov_votes_city, pref_votes_2020) %>%
   filter(NUMERO_CANDIDATO != 95 & NUMERO_CANDIDATO != 96) %>%
   group_by(ANO_ELEICAO, NUM_TURNO, SIGLA_UE, CODIGO_CARGO) %>%
   mutate(qtde_all_valid = sum(QTDE_VOTOS)) %>%
@@ -77,10 +88,30 @@ votes = bind_rows(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, go
 rm(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, gov_votes_city)
 ```
 
+```{r}
+estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
+
+#dfold = load_poll_registry_data(estatisticos_ids = estatisticos_ids)
+#dfold_for_merge = get_poll_registry_data(dfold)
+load('df_with_ci.Rdata')
+dfold_for_merge = df_for_merge
+rm(df_for_merge)
+```
+
+
 Now, let's clean our polls by removing all sorts of bizarre things that we got
 in our database.
 
 ```{r}
+all_polls = bind_rows(
+  read_csv('output/pindograma_polls.csv') %>%
+    left_join(dfold_for_merge %>% select(NR_CNPJ_EMPRESA, NR_IDENTIFICACAO_PESQUISA,
+                                      partisan, DT_INICIO_PESQUISA, hirer,
+                                      confidence_interval_final, error_final),
+              by = c('NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA', 'NR_IDENTIFICACAO_PESQUISA' = 'NR_IDENTIFICACAO_PESQUISA')),
+  readRDS('all_polls_2020.rda')
+)
+
 cleaned_polls = all_polls %>%
   filter(CD_CARGO %in% c(1, 3, 11)) %>%
   group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, estimulada, CD_CARGO, vv, scenario_id) %>%
@@ -95,7 +126,7 @@ cleaned_polls = all_polls %>%
   filter(result >= 1)
 
 no_vv_polls = cleaned_polls %>%
-  filter(!vv)
+  filter(!vv | is.na(vv))
 ```
 
 Now, let's get a dataset of "early polls" and one of "late polls". Early polls
@@ -129,20 +160,21 @@ get_final_poll_list = function(p) {
       'CD_CARGO' = 'CODIGO_CARGO',
       'NUMERO_CANDIDATO' = 'NUMERO_CANDIDATO'
     )) %>%
-    left_join(df_for_merge %>% select(NR_CNPJ_EMPRESA, NR_IDENTIFICACAO_PESQUISA,
-                                      partisan, DT_INICIO_PESQUISA, hirer,
-                                      confidence_interval_final, error_final),
-              by = c('NR_CNPJ_EMPRESA' = 'NR_CNPJ_EMPRESA', 'NR_IDENTIFICACAO_PESQUISA' = 'NR_IDENTIFICACAO_PESQUISA')) %>%
+    mutate(state = case_when(
+      polled_UE == 'BR' ~ 'BR',
+      nchar(polled_UE) == 2 ~ polled_UE,
+      T ~ str_sub(NR_IDENTIFICACAO_PESQUISA, start = 1, end = 2)
+    )) %>%
     mutate(non_partisan = !partisan & !self_hired) %>%
     group_by(year, turno,
              NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, CD_CARGO, estimulada, vv, scenario_id, source,
              DT_INICIO_PESQUISA, DT_FIM_PESQUISA, self_hired, is_phone, is_fluxo, QT_ENTREVISTADOS,
              non_partisan, first_round_date, second_round_date, is_complete, state,
              hirer, confidence_interval_final, error_final) %>%
-    mutate(valid_result = ifelse(vv, result, result / sum(result) * 100)) %>%
+    mutate(valid_result = result / sum(result) * 100) %>%
     mutate(pct = QTDE_VOTOS / sum(QTDE_VOTOS) * 100) %>%
     filter(sum(QTDE_VOTOS) >= 0.90 * qtde_all_valid) %>%
-    mutate(undecided = ifelse(vv, NA, 100 - sum(result))) %>%
+    mutate(undecided = 100 - sum(result)) %>%
     ungroup()
 }
 
@@ -161,13 +193,16 @@ late_polls = no_vv_polls %>%
   group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, polled_UE, CD_CARGO, vv) %>%
   filter(n_distinct(estimulada) == 1 | estimulada == 1) %>%
   group_by(scenario_id, .add = T) %>%
-  filter(!any(NOME_CANDIDATO == 'LUIZ INACIO LULA SILVA')) %>% # URGENT FIXME: [see above]
+  filter(year != 2018 | !any(NOME_CANDIDATO == 'LUIZ INACIO LULA SILVA')) %>% # URGENT FIXME: [see above]
   ungroup() %>%
   get_final_poll_list()
+```
 
+```{r}
 early_polls %>%
   write.csv('output/early_polls.csv', row.names = F)
 
 late_polls %>%
   write.csv('output/late_polls.csv', row.names = F)
 ```
+
