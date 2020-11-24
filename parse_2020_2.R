@@ -36,6 +36,8 @@ cands_2 = cands_ %>%
 cands = bind_rows(cands_2, cands_2) %>%
   mutate(NUM_TURNO = c(rep(1, nrow(cands_2)), rep(2, nrow(cands_2))))
 
+rm(cands_, cands_2)
+
 estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
 
 df = load_poll_registry_data(estatisticos_ids = estatisticos_ids, old = F)
@@ -97,12 +99,15 @@ leva25 = read_csv('data/manual-data/manual-2020/pedro_leva25_2020.csv', col_type
 leva26 = read_csv('data/manual-data/manual-2020/pedro_leva26_2020.csv', col_types = rtypes)
 leva27 = read_csv('data/manual-data/manual-2020/pedro_leva27_2020.csv', col_types = rtypes)
 leva28 = read_csv('data/manual-data/manual-2020/pedro_leva28_2020.csv', col_types = rtypes)
+leva30 = read_csv('data/manual-data/manual-2020/pedro_leva30_2020.csv', col_types = rtypes)
+leva31_ex = read_csv('data/manual-data/manual-2020/pedro_leva31_extra_2020.csv', col_types = rtypes)
+leva31 = read_csv('data/manual-data/manual-2020/pedro_leva31_2020.csv', col_types = rtypes)
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
                   leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22,
                   leva22_bizarre, leva23, leva23_extra, leva24, leva24_extra, leva25,
-                  leva26, leva27, leva28)
+                  leva26, leva27, leva28, leva30, leva31_ex, leva31)
 
 X2020_2 = normalize_input(X2020)
 
@@ -274,3 +279,4 @@ df_for_merge %>%
   distinct(SG_UF, SG_UE, str_to_title(NM_UE)) %>%
   mutate(final_name = paste0(`str_to_title(NM_UE)`, ' (', SG_UF, ')')) %>%
   write.csv('output/cities_2020.csv', row.names = F)
+
