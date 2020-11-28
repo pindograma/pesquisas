@@ -102,12 +102,16 @@ leva28 = read_csv('data/manual-data/manual-2020/pedro_leva28_2020.csv', col_type
 leva30 = read_csv('data/manual-data/manual-2020/pedro_leva30_2020.csv', col_types = rtypes)
 leva31_ex = read_csv('data/manual-data/manual-2020/pedro_leva31_extra_2020.csv', col_types = rtypes)
 leva31 = read_csv('data/manual-data/manual-2020/pedro_leva31_2020.csv', col_types = rtypes)
+leva32 = read_csv('data/manual-data/manual-2020/pedro_leva32_2020.csv', col_types = rtypes)
+leva33 = read_csv('data/manual-data/manual-2020/pedro_leva33_2020.csv', col_types = rtypes)
+leva34 = read_csv('data/manual-data/manual-2020/pedro_leva34_2020.csv', col_types = rtypes)
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
                   leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22,
                   leva22_bizarre, leva23, leva23_extra, leva24, leva24_extra, leva25,
-                  leva26, leva27, leva28, leva30, leva31_ex, leva31)
+                  leva26, leva27, leva28, leva30, leva31_ex, leva31, leva32, leva33,
+                  leva34)
 
 X2020_2 = normalize_input(X2020)
 
