@@ -17,6 +17,7 @@ options('sqldf.dll' = paste0(getwd(), '/', 'spellfix.so'))
 Rcpp::sourceCpp('src/wordmatch.cpp')
 source('polling_utils.R')
 source('poll_to_candidate_matcher.R')
+source('polls_registry.R')
 
 cands_ = read_csv2('data/tse/consulta_cand_2020_BRASIL.csv', locale = locale(encoding = 'ISO-8859-1')) %>%
   filter(CD_CARGO == 11)
@@ -105,13 +106,16 @@ leva31 = read_csv('data/manual-data/manual-2020/pedro_leva31_2020.csv', col_type
 leva32 = read_csv('data/manual-data/manual-2020/pedro_leva32_2020.csv', col_types = rtypes)
 leva33 = read_csv('data/manual-data/manual-2020/pedro_leva33_2020.csv', col_types = rtypes)
 leva34 = read_csv('data/manual-data/manual-2020/pedro_leva34_2020.csv', col_types = rtypes)
+leva35 = read_csv('data/manual-data/manual-2020/pedro_leva35_2020.csv', col_types = rtypes)
+leva36 = read_csv('data/manual-data/manual-2020/pedro_leva36_2020.csv', col_types = rtypes)
+#leva37 = read_csv('data/manual-data/manual-2020/faltantes_2020.csv', col_types = rtypes)
 
 X2020 = bind_rows(leva1, leva2, leva3, leva3_ex, leva4, leva5, leva6, leva7, leva8, leva9,
                   leva10, leva11, leva11_ex, leva12_ex, leva12_ex2, leva13, leva14, leva15,
                   leva16, leva17, leva18, leva19, leva19_ex, leva20, leva21, leva22,
                   leva22_bizarre, leva23, leva23_extra, leva24, leva24_extra, leva25,
                   leva26, leva27, leva28, leva30, leva31_ex, leva31, leva32, leva33,
-                  leva34)
+                  leva34, leva35, leva36)#, leva37)
 
 X2020_2 = normalize_input(X2020)
 
@@ -122,7 +126,8 @@ cur_0 = X2020_2 %>%
   mutate(for_patch = (total > 98 & is.na(vv)) | (total < 98 & !is.na(vv)) | total > 102) %>%
   ungroup()
 
-patch_1 = read_csv('data/manual-data/manual-2020/patch_1_2020.csv')
+patch_1 = read_csv('data/manual-data/manual-2020/patch_1_2020.csv') %>%
+  mutate(year = 2020)
 patch_2 = read_csv('data/manual-data/manual-2020/pedro_patch2_2020.csv', col_types = rtypes) %>%
   select(tse_id:resul15, NM_UE.x) %>%
   rename(NM_UE = NM_UE.x) %>%
@@ -178,7 +183,41 @@ manual_tse = manual %>%
   mutate(CD_CARGO = recode(position,
     `p` = 11,
     `v` = 13,
+  ))
+
+p3_2020 = read_csv2('data/poder360/consulta_2020.csv') %>%
+  mutate(reg = str_replace_all(normalize_simple(num_registro), '[\\s\\.\\-\\/]', '')) %>%
+  anti_join(manual_tse, c('reg' = 'NR_IDENTIFICACAO_PESQUISA')) %>%
+  filter(cargo == 'Prefeito') %>%
+  mutate(reg = ifelse(reg == 'P042832020', 'SP042832020', reg)) %>%
+  mutate(cmp_ue = normalize_simple(cidade)) %>% left_join(election_dates, by = c('ano' = 'year')) %>%
+  mutate(turno_realizacao = ifelse(data_pesquisa <= first_round_date, 1, 2)) %>%
+  mutate(position = 'p') %>%
+  mutate(CD_CARGO = recode(position,
+    `p` = 11,
+    `pr` = 1,
+    `g` = 3,
+    `s` = 5
   )) %>%
+  mutate(estimulada = tipo_id == 2) %>%
+  mutate(raw_cand = normalize_cand(candidato)) %>%
+  mutate(candidate_without_title = normalize_cand_rm_titles(raw_cand)) %>%
+  filter(turno_realizacao == turno) %>%
+  mutate(norm_cenario_desc = normalize_simple(cenario_descricao)) %>%
+  filter(tipo_id != 3 & !grepl('REJEICAO', norm_cenario_desc)) %>%
+  filter(ambito != 'RE') %>%
+  filter(percentual != 0) %>%
+  filter(condicao == 0 & !grepl('EM BRANCO|NULO|NENHUM|BASE|TOTAL|OUTROS|OUTRAS|NAO SABE|NAO RESPOND|RECUSA|NS\\/NR|CITOU OUTRO', raw_cand)) %>%
+  inner_join(df_for_merge, by = c('reg' = 'NR_IDENTIFICACAO_PESQUISA')) %>%
+  group_by(reg, estimulada, voto_tipo) %>%
+  filter(n_distinct(cenario_id) == 1) %>%
+  ungroup() %>%
+  mutate(main_source = 'Poder360', source = NA) %>%
+  rename(NR_IDENTIFICACAO_PESQUISA = reg, year = ano, candidate = raw_cand, result = percentual) %>%
+  mutate(result = str_to_dbl(result)) %>%
+  mutate(scenario_id = 50000 + row_number())
+
+manual_p3_merged = bind_rows(manual_tse, p3_2020) %>%
   mutate(company_id = case_when(
     NR_CNPJ_EMPRESA %in% c('24776969000117', '07742623000189', '67662494000140', '14931054000185', '26195312000191') ~ 'REALIDADE',
     NR_CNPJ_EMPRESA %in% c('23254436000102', '00852438000106', '00852501000104') ~ 'VOX POPULI',
@@ -210,9 +249,9 @@ manual_tse = manual %>%
   mutate(candidate = ifelse(SG_UE == '09210' & grepl('BIRA', candidate), 'BIRA', candidate))
 
 corr = read_csv('data/manual-data/pedro_corr_cands_2020.csv') %>%
-  filter(wrong)
+  filter(wrong == 1)
 
-manual_matches_ = match_polls_with_candidates(manual_tse)
+manual_matches_ = match_polls_with_candidates(manual_p3_merged)
 manual_matches = manual_matches_ %>%
   anti_join(corr, by = c('candidate', 'NOME_CANDIDATO', 'NOME_URNA_CANDIDATO'))
 

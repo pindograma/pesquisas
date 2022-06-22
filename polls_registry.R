@@ -75,7 +75,7 @@ load_poll_registry_data = function(path = './data/tse', estatisticos_ids, old = 
     df_orig = rbind(df1, df2) %>% select(-DT_GERACAO, -HH_GERACAO)
     rm(X2012, X2014, X2016, X2018, df1, df2)
   } else {
-    df_orig = open_tse_file(paste0(path, '/tse_2020.csv')) %>%
+    df_orig = open_tse_file(paste0(path, '/tse_2020_atualizado_2022.csv')) %>%
       rename(NR_IDENTIFICACAO_PESQUISA = NR_PROTOCOLO_REGISTRO) %>%
       select(-DT_GERACAO, -HH_GERACAO)
   }

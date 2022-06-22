@@ -15,87 +15,54 @@ Let's start by getting the votes:
 ```{r}
 library(cepespR)
 library(tidyverse)
+library(lubridate)
 
 source('polls_registry.R')
 source('polling_utils.R')
 
-pvotes = get_votes(
-  year = '2016, 2012',
-  position = 'Prefeito',
-  blank_votes = T,
-  null_votes = T,
-  regional_aggregation = 'Municipality',
-  columns_list = list('ANO_ELEICAO', 'SIGLA_UE', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
-  cache = T) %>%
-    tibble()
+pvotes = read_csv('data/cepespdata/TSE_PREFEITO_MUNICIPIO_CANDIDATO_2016_2012.csv') %>%
+  mutate(SIGLA_UE = COD_MUN_TSE) %>%
+  select(-COD_MUN_TSE)
 
-gov_votes_city = get_votes(
-  year = '2018, 2014',
-  position = 'Governor',
-  blank_votes = T,
-  null_votes = T,
-  regional_aggregation = 'Municipality',
-  columns_list = list('ANO_ELEICAO', 'COD_MUN_TSE', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
-  cache = T) %>%
-    rename(SIGLA_UE = COD_MUN_TSE) %>%
-    tibble()
+gov_votes_state = read_csv('data/cepespdata/TSE_GOVERNADOR_UF_CANDIDATO_2018_2014.csv') %>%
+  rename(SIGLA_UE = UF)
 
-gov_votes_state = get_votes(
-  year = '2018, 2014',
-  position = 'Governor',
-  blank_votes = T,
-  null_votes = T,
-  columns_list = list('ANO_ELEICAO', 'UF', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
-  regional_aggregation = 'State',
-  cache = T) %>%
-    tibble() %>%
-    rename(SIGLA_UE = UF)
+pres_votes_state = read_csv('data/cepespdata/TSE_PRESIDENTE_UF_CANDIDATO_2018_2014.csv') %>%
+  rename(SIGLA_UE = UF)
 
-pres_votes_state = get_votes(
-  year = '2018, 2014',
-  position = 'President',
-  blank_votes = T,
-  null_votes = T,
-  columns_list = list('ANO_ELEICAO', 'UF', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
-  regional_aggregation = 'State',
-  cache = T) %>%
-    tibble() %>%
-    rename(SIGLA_UE = UF)
+pres_votes_natl = read_csv('data/cepespdata/TSE_PRESIDENTE_BR_CANDIDATO_2018_2014.csv') %>%
+  mutate(SIGLA_UE = 'BR')
 
-pres_votes_natl = get_votes(
-  year = "2018, 2014",
-  position = 'Presidente',
-  blank_votes = T,
-  null_votes = T,
-  regional_aggregation = 'Brazil',
-  columns_list = list('ANO_ELEICAO', 'CODIGO_CARGO', 'NUMERO_CANDIDATO', 'QTDE_VOTOS', 'NUM_TURNO'),
-  cache = T) %>%
-    tibble() %>%
-    mutate(SIGLA_UE = 'BR')
-
-pref_votes_2020 = read_csv('data/resultados_eleicao_2020.csv', locale = locale(decimal_mark = ',')) %>%
+pref_votes_2020_1t = read_csv('data/resultados_eleicao_2020.csv', locale = locale(decimal_mark = ',')) %>%
   rename(SIGLA_UE = codigo_tse, NUMERO_CANDIDATO = numero, QTDE_VOTOS = votos_validos) %>%
   mutate(ANO_ELEICAO = 2020, CODIGO_CARGO = 11, NUM_TURNO = 1) %>%
   select(ANO_ELEICAO, SIGLA_UE, CODIGO_CARGO, NUMERO_CANDIDATO, NUM_TURNO, QTDE_VOTOS)
 
-votes = bind_rows(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, gov_votes_city, pref_votes_2020) %>%
+pref_votes_2020_2t = read_csv('data/resultados-2t.csv', locale = locale(decimal_mark = ',')) %>%
+  rename(SIGLA_UE = codigo_tse, NUMERO_CANDIDATO = numero, QTDE_VOTOS = votos_validos) %>%
+  mutate(ANO_ELEICAO = 2020, CODIGO_CARGO = 11, NUM_TURNO = 2) %>%
+  select(ANO_ELEICAO, SIGLA_UE, CODIGO_CARGO, NUMERO_CANDIDATO, NUM_TURNO, QTDE_VOTOS)
+
+pref_votes_2020 = bind_rows(pref_votes_2020_1t, pref_votes_2020_2t)
+
+votes = bind_rows(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, pref_votes_2020) %>%
   filter(NUMERO_CANDIDATO != 95 & NUMERO_CANDIDATO != 96) %>%
   group_by(ANO_ELEICAO, NUM_TURNO, SIGLA_UE, CODIGO_CARGO) %>%
   mutate(qtde_all_valid = sum(QTDE_VOTOS)) %>%
   arrange(desc(QTDE_VOTOS), .by_group = T) %>%
   ungroup()
 
-rm(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state, gov_votes_city)
+rm(pvotes, pres_votes_state, pres_votes_natl, gov_votes_state)
 ```
 
 ```{r}
 estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
 
-#dfold = load_poll_registry_data(estatisticos_ids = estatisticos_ids)
-#dfold_for_merge = get_poll_registry_data(dfold)
-load('df_with_ci.Rdata')
-dfold_for_merge = df_for_merge
-rm(df_for_merge)
+dfold = load_poll_registry_data(estatisticos_ids = estatisticos_ids)
+dfold_for_merge = get_poll_registry_for_merge(dfold)
+#load('df_with_ci.Rdata')
+#dfold_for_merge = df_for_merge
+#rm(df_for_merge)
 ```
 
 
