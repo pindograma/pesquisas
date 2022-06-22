@@ -32,7 +32,7 @@ rpm_mean = function(cur_cnpj, cur_mm3, mm3, cnpj) {
 Now, let's import some useful data:
 
 ```{r}
-reg_conre = read_csv('data/manual-data/reg_conre.csv') %>%
+reg_conre = read_csv('data/manual-data/reg_conre_atualizado.csv') %>%
   mutate(cnpj = str_replace_all(cnpj, '[\\.\\/\\-]', ''))
 
 reg_abep = read_csv('data/manual-data/reg_abep.csv')
@@ -42,15 +42,18 @@ late_polls = read_csv('output/late_polls.csv')
 
 ```{r}
 model_polls = late_polls %>%
+  filter(pct != 0) %>%
+  mutate(p_pct = pct/100, p_valid_result = valid_result/100) %>%
   group_by(year, turno,
            NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, company_id, pretty_name,
            SG_UE, polled_UE, CD_CARGO, estimulada, vv, scenario_id, source,
            DT_FIM_PESQUISA, self_hired, is_phone, is_fluxo, QT_ENTREVISTADOS,
            non_partisan, first_round_date, second_round_date, is_complete, state) %>%
   arrange(desc(valid_result), .by_group = T) %>%
-  summarize(mm3 = pop.sd(valid_result - pct), undecided = first(undecided),
-            correct_result = order(pct, decreasing = T)[1] == 1,
-            correct_second = order(pct, decreasing = T)[2] == 2) %>%
+  summarize(mm3 = mean(abs(valid_result - pct)),
+            stdev = pop.sd(valid_result - pct),
+            arzev_bw = weighted.mean(abs(log((p_pct / (1 - p_pct)) * ((1 - p_valid_result) / p_valid_result))), valid_result),
+            undecided = first(undecided)) %>%
   ungroup() %>%
   mutate(election_type = case_when(
     polled_UE == 'BR' ~ 1,
@@ -126,12 +129,11 @@ non_conre_abep_mean = simple_rating_0 %>%
 
 simple_rating = simple_rating_0 %>%
   mutate(rev_mean = ifelse(has_abep | has_conre, conre_abep_mean, non_conre_abep_mean)) %>%
-  mutate(pred_pm = rev_mean + (weighted_pm - rev_mean) * (n / (n + 30))) %>%
-  mutate(pred_pm_alt = mean(weighted_pm) + (weighted_pm - mean(weighted_pm)) * (n / (n + 30))) %>%
+  mutate(pred_pm = rev_mean + (weighted_pm - rev_mean) * (n / (n + 15))) %>%
   mutate_if(is.double, round, 3) %>%
   filter(n >= 5) %>%
-  mutate(bin = .bincode(pred_pm, hist(pred_pm, plot = F)$breaks)) %>%
-  mutate(grade = recode(bin, `1` = 'A', `2` = 'A', `3` = 'B+', `4` = 'B', `5` = 'B-', `6` = 'C', `7` = 'D'))
+  mutate(quant_bin = .bincode(pred_pm, c(-1, -0.57, 0, 0.5, 1.05, 1.54, 3))) %>%
+  mutate(grade = recode(quant_bin, `1` = 'A', `2` = 'B+', `3` = 'B', `4` = 'B-', `5` = 'C', `6` = 'D')) 
 
 simple_rating %>%
   write.csv('output/pollster_rating_2020_final.csv', row.names = F)
