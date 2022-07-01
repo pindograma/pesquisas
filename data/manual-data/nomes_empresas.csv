@@ -21,8 +21,12 @@ GAUSS,Instituto Gauss
 ALVO,Alvo Marketing (PA)
 VOGA,Voga Pesquisas
 NILTON,Govnet/Instituto Opinião (SP)
+REAL TIME,Real Time Big Data
+IDEIA,Ideia Big Data
+ESCUTEC,Escutec
+IPECIBOPE,Ipec (antigo Ibope)
+LAURAAMARAL,Instituto Brasileiro de Pesquisa (MS)
 "07630546000175",Datafolha
-"68802370000186",Ibope
 "81908345000140",Paraná Pesquisas
 "00654576000172",Veritá
 "07317438000147",Doxa
@@ -53,7 +57,6 @@ NILTON,Govnet/Instituto Opinião (SP)
 "11267907000138",Regional Mídias
 "15563771000164",Instituto Credibilidade
 "10175063000132",IRG Consultoria
-"29842579000111",Real Time Big Data
 "04843093000177",Consult Pesquisa (RN)
 "04942645000102",J. J. Coelho
 "19812752000185",Brasil Dados
@@ -61,7 +64,7 @@ NILTON,Govnet/Instituto Opinião (SP)
 "02678167000131",Serpes
 "03127619000150",Certus
 "02943355000140",Ibrape (MS)
-"11159115000140",Instituto Econométrica
+ECONOMETRICA,Instituto Econométrica
 "22642565000105",CP2 Pesquisa
 "04967411000101",IBPS
 "07608537000188",Instituto Galaxy
@@ -126,7 +129,6 @@ NILTON,Govnet/Instituto Opinião (SP)
 "14717260000197",Prever Pesquisas
 "25999377000127",Foccus
 "09028982000102",Ver Pesquisa
-"24314181000199",Valle Pesquisas
 "96508015000134",Limite Pesquisas
 "10713151000140",Contatus Comunicações
 "04453641000152",Datasonda
@@ -138,7 +140,6 @@ NILTON,Govnet/Instituto Opinião (SP)
 "18237296000124",Incope
 "08716449000162",Memento
 "13098271000173",Polo Pesquisas
-"10892795000143",Escutec
 "11047803000118",Sinfor
 "10383383000188",Sensor Pesquisas
 "03896981000195",Cooperfil
@@ -286,7 +287,6 @@ NILTON,Govnet/Instituto Opinião (SP)
 "01269029000136",Boas e Boas
 "09045102000106",Cipec
 "10595124000110",Ibrape (AL)
-"13475743000160",Ideia Big Data
 "13845495000100",IFT.com
 "22267969000166",Projeta Pesquisa
 "09078962000138",Instituto Signates
@@ -384,7 +384,6 @@ NILTON,Govnet/Instituto Opinião (SP)
 "26757039000141",Instituto Lupa
 "31367504000178",Instituto Idealize
 "32626743000168",Instituto EMET
-"33000681000147",Laura Aparecida do Amaral
 "33303114000160",ABC Dados
 "33509397000109",Fernandes Consultoria
 "33661095000143",Studio 4
@@ -603,3 +602,17 @@ NILTON,Govnet/Instituto Opinião (SP)
 "04083399000172",Machado Publicidade
 "10544202000158",Percent Pesquisa
 "29438634000102",Doop Consultoria
+44338241000110,Perfil Pesquisas (RO)
+00444924000187,Centro Brasileiro de Pesquisas de Mercado
+09409427000112,Instituto Opnus
+11740674000149,MPE Consultoria
+42532542000155,Datatempo
+18431026000150,CM7 Comunicação
+16578382000175,Orizzonte Pesquisas
+41296892000105,Instituto Mais (MT)
+49875610000128,Brasmarket
+33375311000194,ICEPAM
+11642489000111,Amazônia TI
+39293002000151,Prefab Future
+35308356000171,Invox Brasil
+42532542000155,Datatempo

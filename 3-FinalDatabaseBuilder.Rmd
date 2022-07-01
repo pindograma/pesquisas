@@ -202,6 +202,8 @@ all_polls_ = all_polls__ %>%
   filter(scenario_id == first(scenario_id)) %>%
   ungroup()
 
+# NOTE: This classification is out-of-date. All `company_id`s defined here will be OVERWRITTEN
+# in 5-SelectedPollsExport.Rmd or elsewhere.
 all_polls = all_polls_ %>%
   mutate(company_id = case_when(
     NR_CNPJ_EMPRESA %in% c('24776969000117', '07742623000189', '67662494000140', '14931054000185', '26195312000191') ~ 'REALIDADE',

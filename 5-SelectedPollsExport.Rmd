@@ -13,7 +13,6 @@ It is licensed under the GNU General Public License, version 3.
 Let's start by getting the votes:
 
 ```{r}
-library(cepespR)
 library(tidyverse)
 library(lubridate)
 
@@ -79,6 +78,9 @@ all_polls = bind_rows(
   readRDS('all_polls_2020.rda')
 )
 
+company_names = read_csv('data/manual-data/nomes_empresas.csv')
+company_corr = read_csv('data/manual-data/empresas_multiplos_cnpjs.csv')
+
 cleaned_polls = all_polls %>%
   filter(CD_CARGO %in% c(1, 3, 11)) %>%
   group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, estimulada, CD_CARGO, vv, scenario_id) %>%
@@ -90,7 +92,11 @@ cleaned_polls = all_polls %>%
   group_by(unique_poll, NUMERO_CANDIDATO) %>%
   filter(all(n() == 1)) %>% # TODO: Manual candidate matching
   ungroup() %>%
-  filter(result >= 1)
+  filter(result >= 1) %>%
+  select(-company_id, -pretty_name) %>%
+  left_join(company_corr, 'NR_CNPJ_EMPRESA') %>%
+  mutate(company_id = ifelse(is.na(company_id), NR_CNPJ_EMPRESA, company_id)) %>%
+  left_join(company_names, 'company_id')
 
 no_vv_polls = cleaned_polls %>%
   filter(!vv | is.na(vv))

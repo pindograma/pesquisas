@@ -217,6 +217,10 @@ p3_2020 = read_csv2('data/poder360/consulta_2020.csv') %>%
   mutate(result = str_to_dbl(result)) %>%
   mutate(scenario_id = 50000 + row_number())
 
+# NOTE: This classification is out-of-date. All `company_id`s defined here will be OVERWRITTEN
+# in 5-SelectedPollsExport.Rmd for pollster rating purposes. For aggregation purposes, this
+# is not yet done below, but we won't be updating these 2020 poll CSVs anyway, so it doesn't
+# matter.
 manual_p3_merged = bind_rows(manual_tse, p3_2020) %>%
   mutate(company_id = case_when(
     NR_CNPJ_EMPRESA %in% c('24776969000117', '07742623000189', '67662494000140', '14931054000185', '26195312000191') ~ 'REALIDADE',
