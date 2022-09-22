@@ -26,6 +26,7 @@ IDEIA,Ideia Big Data
 ESCUTEC,Escutec
 IPECIBOPE,Ipec (antigo Ibope)
 LAURAAMARAL,Instituto Brasileiro de Pesquisa (MS)
+IBRAPE,Ibrape
 "07630546000175",Datafolha
 "81908345000140",Paraná Pesquisas
 "00654576000172",Veritá
@@ -63,7 +64,6 @@ LAURAAMARAL,Instituto Brasileiro de Pesquisa (MS)
 "00853528000103",Instituto Methodus
 "02678167000131",Serpes
 "03127619000150",Certus
-"02943355000140",Ibrape (MS)
 ECONOMETRICA,Instituto Econométrica
 "22642565000105",CP2 Pesquisa
 "04967411000101",IBPS
@@ -242,7 +242,7 @@ ECONOMETRICA,Instituto Econométrica
 "09282211000139",Datavox (AL)
 "04362689000155",ST Pesquisa
 "07661823000107",Brasil Data
-"11077560000160",IPRI
+"11077560000160",FSB Pesquisa
 "10307514000148",Item Pesquisas
 "05266474000101",Souza Lopes
 "03781208000183",Perspectiva Pesquisa
@@ -286,7 +286,6 @@ ECONOMETRICA,Instituto Econométrica
 "23529695000107",Data Basee
 "01269029000136",Boas e Boas
 "09045102000106",Cipec
-"10595124000110",Ibrape (AL)
 "13845495000100",IFT.com
 "22267969000166",Projeta Pesquisa
 "09078962000138",Instituto Signates
@@ -312,7 +311,7 @@ ECONOMETRICA,Instituto Econométrica
 "11134397000120",Jornal O Eco
 "11460605000181",Zaak Consultoria
 "11661310000173",Compasso Consultoria
-"12282147000109",Palpe Pesquisas
+"12282147000109",Falpe Pesquisas
 "12843917000137",AGRJPEL
 "14293213000163",Agora Pesquisa (BA)
 "14861123000121",Naipes Marketing
@@ -423,7 +422,7 @@ ECONOMETRICA,Instituto Econométrica
 "26269731000120",Instituto GP1
 "19557018000117",Ágora Pesquisa (RJ)
 "03480760000131",ONG Vida Brasil
-"19259002000128",Atlas Político
+"19259002000128",AtlasIntel
 "30226551000139",IAPP
 "36373743000154",Yes Pesquisas
 "26049818000192",Instituto Ceasp
@@ -616,3 +615,14 @@ ECONOMETRICA,Instituto Econométrica
 39293002000151,Prefab Future
 35308356000171,Invox Brasil
 42532542000155,Datatempo
+26528386000100,Instituto Opus
+43941908000102,Datavero
+19976273000102,Equilíbrio Brasil
+47408342000109,Vox Pesquisas (SE)
+24302422000180,Opp Pesquisa de Mercado
+03084715000168,A Executiva
+17541189000122,HC7 Consultoria
+44826961000125,Direct Pesquisas (GO)
+12449880000167,Fundepes
+41658934000100,Favela Diz Pesquisas
+37810811000168,Direta Consultoria (ES)
