@@ -129,3 +129,22 @@ rtypes = cols(
   'resul42' = col_character(),
   'resul43' = col_character()
 )
+
+normalize_input = function(x, year__ = 2020) {
+  x %>%
+    select(-contains('unnamed')) %>%
+    mutate_at(vars(matches('resul')), str_to_dbl) %>%
+    filter(util == 1 & !is.na(cand1) & !is.na(cand2)) %>%
+    mutate(position = tolower(position)) %>%
+    rowwise() %>%
+    mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
+    ungroup() %>%
+    mutate_at(vars(matches('cand')), normalize_cand) %>%
+    mutate_at(vars(matches('resul')), function(x, t) {
+      case_when(
+        x < 1 ~ ifelse(t <= 1, x * 100, x),
+        T ~ x
+      )
+    }, .$total) %>%
+    mutate(year = year__)
+}

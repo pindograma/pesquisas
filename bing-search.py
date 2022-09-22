@@ -32,6 +32,7 @@ with open('gapi-key-oscar.txt', 'r') as f:
                     web_data = client.web.search(
                         query = '{}'.format(tse_id),
                         count = 10,
+                        mkt = 'pt-BR',
                         responseFilter = 'Webpages')
 
                     if hasattr(web_data.web_pages, 'value'):

@@ -63,7 +63,7 @@ select_closest = function(vec1, vec2, val) {
       abs(vec1 - val) < abs(vec2 - val), vec1, vec2)))
 }
 
-load_poll_registry_data = function(path = './data/tse', estatisticos_ids, old = T) {
+load_poll_registry_data = function(path = './data/tse', estatisticos_ids, old = T, year__ = 2020) {
   if (old) {
     X2012 <- open_tse_file(paste0(path, '/tse_2012.csv'))
     X2014 <- open_tse_file(paste0(path, '/tse_2014.csv'))
@@ -75,9 +75,16 @@ load_poll_registry_data = function(path = './data/tse', estatisticos_ids, old = 
     df_orig = rbind(df1, df2) %>% select(-DT_GERACAO, -HH_GERACAO)
     rm(X2012, X2014, X2016, X2018, df1, df2)
   } else {
-    df_orig = open_tse_file(paste0(path, '/tse_2020_atualizado_2022.csv')) %>%
-      rename(NR_IDENTIFICACAO_PESQUISA = NR_PROTOCOLO_REGISTRO) %>%
-      select(-DT_GERACAO, -HH_GERACAO)
+    if (year__ == 2020) {
+      df_orig = open_tse_file(paste0(path, '/tse_2020_atualizado_2022.csv')) %>%
+        rename(NR_IDENTIFICACAO_PESQUISA = NR_PROTOCOLO_REGISTRO) %>%
+        select(-DT_GERACAO, -HH_GERACAO)
+    } else {
+      df_orig = open_tse_file(paste0(path, '/tse_2022.csv')) %>%
+        rename(NR_IDENTIFICACAO_PESQUISA = NR_PROTOCOLO_REGISTRO) %>%
+        select(-DT_GERACAO, -HH_GERACAO) %>%
+        rename(VR_PESQUISA = `VR_PESQUISA...21`)
+    }
   }
   
   df_orig %>%
@@ -109,12 +116,12 @@ load_poll_registry_data = function(path = './data/tse', estatisticos_ids, old = 
     mutate(norm_pa = tolower(normalize_simple(DS_PLANO_AMOSTRAL))) %>%
     mutate(is_fluxo = as.vector(!is.na(str_match(norm_met, 'fluxo')) | !is.na(str_match(norm_pa, 'fluxo')))) %>%
     mutate(is_phone = text_is_phone(norm_met) | text_is_phone(norm_pa)) %>%
-    mutate(self_hired = (
-      normalize_company(NM_CONTRATANTE) == normalize_company(NM_EMPRESA) |
-      NR_CPF_CNPJ_CONTRATANTE == NR_CNPJ_EMPRESA |
-      grepl('PROPRIO|PROPRIA', normalize_simple(NM_CONTRATANTE))
-    )) %>%
-    mutate(partisan = grepl(party_pattern, normalize_simple(NM_CONTRATANTE))) %>%
+   # mutate(self_hired = (
+   #   normalize_company(NM_CONTRATANTE) == normalize_company(NM_EMPRESA) |
+   #   NR_CPF_CNPJ_CONTRATANTE == NR_CNPJ_EMPRESA |
+   #   grepl('PROPRIO|PROPRIA', normalize_simple(NM_CONTRATANTE))
+   # )) %>%
+   # mutate(partisan = grepl(party_pattern, normalize_simple(NM_CONTRATANTE))) %>%
     mutate(confidence_interval_1 = get_quantity_1(norm_pa, rgx_confidence, 95)) %>%
     mutate(confidence_interval_1_met = get_quantity_1(norm_met, rgx_confidence, 95)) %>%
     mutate(confidence_interval_2 = get_quantity_2(norm_pa, 'confian.a|confiabilidade', '.*?%|.*?cento', 95)) %>%

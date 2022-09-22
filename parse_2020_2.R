@@ -45,25 +45,6 @@ df = load_poll_registry_data(estatisticos_ids = estatisticos_ids, old = F)
 df_for_merge_prelim = get_poll_registry_for_merge(df)
 df_for_merge = df_for_merge_prelim
 
-normalize_input = function(x) {
-  x %>%
-    select(-contains('unnamed')) %>%
-    mutate_at(vars(matches('resul')), str_to_dbl) %>%
-    filter(util == 1 & !is.na(cand1) & !is.na(cand2)) %>%
-    mutate(position = tolower(position)) %>%
-    rowwise() %>%
-    mutate(total = sum(c_across(matches('resul')), na.rm = T)) %>%
-    ungroup() %>%
-    mutate_at(vars(matches('cand')), normalize_cand) %>%
-    mutate_at(vars(matches('resul')), function(x, t) {
-      case_when(
-        x < 1 ~ ifelse(t <= 1, x * 100, x),
-        T ~ x
-      )
-    }, .$total) %>%
-    mutate(year = 2020)
-}
-
 leva1 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva1_2020_orig.csv', col_types = rtypes)
 leva2 = read_csv('data/manual-data/manual-2020/pedro-fixed-pedro_leva2_2020_orig.csv', col_types = rtypes)
 leva3 = read_csv('data/manual-data/manual-2020/pedro_leva3_2020.csv', col_types = rtypes)

@@ -30,7 +30,9 @@ name_match = function(l, key, candkey = 'candidate', threshold = 0) {
         return(tibble())
       }
       
-      w = spread_list(word_match(str_split(x[[candkey]], ' '), d[[key]], threshold))
+      wm = word_match(str_split(x[[candkey]], ' '), d[[key]], threshold)
+      w = spread_list(wm)
+      
       if (nrow(w) == 0) {
         return(tibble())
       }
@@ -39,10 +41,10 @@ name_match = function(l, key, candkey = 'candidate', threshold = 0) {
         inner_join(d, by = c('rhs' = 'rn')) %>%
         group_by(rn) %>%
         filter(n() == 1) %>%
-        ungroup()
+        ungroup() %>%
+        select(-rhs, -ANO_ELEICAO, -NUM_TURNO, -SIGLA_UF, -SIGLA_UE, -CODIGO_CARGO)
     }) %>%
-    ungroup() %>%
-    select(-rhs, -ANO_ELEICAO, -NUM_TURNO, -SIGLA_UF, -SIGLA_UE, -CODIGO_CARGO)
+    ungroup()
 }
 
 match_polls_with_candidates = function(data, use_sql = T) {

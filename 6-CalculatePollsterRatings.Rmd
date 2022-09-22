@@ -36,6 +36,8 @@ reg_conre = read_csv('data/manual-data/reg_conre_atualizado.csv') %>%
   mutate(cnpj = str_replace_all(cnpj, '[\\.\\/\\-]', ''))
 
 reg_abep = read_csv('data/manual-data/reg_abep.csv')
+company_names = read_csv('data/manual-data/nomes_empresas.csv')
+company_corr = read_csv('data/manual-data/empresas_multiplos_cnpjs.csv')
 
 late_polls = read_csv('output/late_polls.csv')
 ```
