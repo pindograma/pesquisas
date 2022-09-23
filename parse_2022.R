@@ -15,6 +15,28 @@ source('polling_utils.R')
 source('poll_to_candidate_matcher.R')
 source('polls_registry.R')
 
+cands_ = read_csv2('data/tse/consulta_cand_2022_BRASIL.csv', locale = locale(encoding = 'ISO-8859-1')) %>%
+  filter(CD_CARGO %in% c(1, 3, 5))
+fake_cands = read_csv('data/fake_cands_atlas.csv')
+
+cands_2 = cands_ %>%
+  rename(NOME_CANDIDATO = NM_CANDIDATO, NOME_URNA_CANDIDATO = NM_URNA_CANDIDATO,
+         CODIGO_CARGO = CD_CARGO, SIGLA_UE = SG_UE, NUMERO_CANDIDATO = NR_CANDIDATO,
+         NUM_TURNO = NR_TURNO) %>%
+  select(NOME_CANDIDATO, NOME_URNA_CANDIDATO, CODIGO_CARGO, SIGLA_UE, NUMERO_CANDIDATO, NUM_TURNO, ANO_ELEICAO) %>%
+  mutate(NOME_CANDIDATO = normalize_cand(NOME_CANDIDATO)) %>%
+  mutate(NOME_URNA_CANDIDATO = normalize_cand(NOME_URNA_CANDIDATO)) %>%
+  mutate(CODIGO_CARGO = ifelse(CODIGO_CARGO == 8, 7, CODIGO_CARGO)) %>%
+  mutate(SIGLA_UF = NA) %>%
+  distinct() %>%
+  distinct(NOME_CANDIDATO, NOME_URNA_CANDIDATO, .keep_all = T) %>%
+  bind_rows(fake_cands)
+
+cands = bind_rows(cands_2, cands_2) %>%
+  mutate(NUM_TURNO = c(rep(1, nrow(cands_2)), rep(2, nrow(cands_2))))
+
+rm(cands_, cands_2)
+
 estatisticos_ids = read_csv('data/manual-data/estatisticos_ids.csv')
 df_2022 = load_poll_registry_data(estatisticos_ids = estatisticos_ids, old = F, year__ = 2022)
 
@@ -74,32 +96,10 @@ manual_tse = manual %>%
   left_join(correction_of_candidate_name, 'candidate') %>%
   mutate(candidate = ifelse(is.na(corrected_candidate), candidate, corrected_candidate)) %>%
   select(-corrected_candidate) %>%
-  mutate(candidate_without_title = normalize_cand_rm_titles(candidate))
-
-# -- Candidates
-cands_ = read_csv2('data/tse/consulta_cand_2022_BRASIL.csv', locale = locale(encoding = 'ISO-8859-1')) %>%
-  filter(CD_CARGO %in% c(1, 3, 5))
-
-fake_cands = read_csv('data/fake_cands_atlas.csv')
-
-cands_2 = cands_ %>%
-  rename(NOME_CANDIDATO = NM_CANDIDATO, NOME_URNA_CANDIDATO = NM_URNA_CANDIDATO,
-         CODIGO_CARGO = CD_CARGO, SIGLA_UE = SG_UE, NUMERO_CANDIDATO = NR_CANDIDATO,
-         NUM_TURNO = NR_TURNO) %>%
-  select(NOME_CANDIDATO, NOME_URNA_CANDIDATO, CODIGO_CARGO, SIGLA_UE, NUMERO_CANDIDATO, NUM_TURNO, ANO_ELEICAO) %>%
-  mutate(NOME_CANDIDATO = normalize_cand(NOME_CANDIDATO)) %>%
-  mutate(NOME_URNA_CANDIDATO = normalize_cand(NOME_URNA_CANDIDATO)) %>%
-  mutate(CODIGO_CARGO = ifelse(CODIGO_CARGO == 8, 7, CODIGO_CARGO)) %>%
-  mutate(SIGLA_UF = NA) %>%
-  distinct() %>%
-  distinct(NOME_CANDIDATO, NOME_URNA_CANDIDATO, .keep_all = T) %>%
-  bind_rows(fake_cands)
-
-cands = bind_rows(cands_2, cands_2) %>%
-  mutate(NUM_TURNO = c(rep(1, nrow(cands_2)), rep(2, nrow(cands_2))))
-
-rm(cands_, cands_2)
-#-- End Canddates
+  mutate(candidate_without_title = normalize_cand_rm_titles(candidate)) %>%
+  group_by(NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, CD_CARGO, estimulada, scenario_id) %>%
+  mutate(undecided_before_cand_match = 100 - sum(result)) %>%
+  ungroup()
 
 rm(lhs, rhs)
 manual_matches = match_polls_with_candidates(manual_tse)
@@ -114,7 +114,8 @@ all_polls = manual_matches %>%
   distinct(year, NR_IDENTIFICACAO_PESQUISA, NR_CNPJ_EMPRESA, SG_UE, CD_CARGO, company_id, suspensa,
            estimulada, NUMERO_CANDIDATO, NOME_URNA_CANDIDATO, result, DT_FIM_PESQUISA, vv, turno,
            is_fluxo, is_phone, QT_ENTREVISTADO, main_source, source, scenario_id, is_complete,
-           DT_INICIO_PESQUISA, confidence_interval_final, error_final, candidate, ambito) %>%
+           DT_INICIO_PESQUISA, confidence_interval_final, error_final, candidate, ambito,
+           undecided_before_cand_match) %>%
   left_join(company_names, 'company_id') %>%
   rename(polled_UE = ambito) %>%
   mutate(polled_UE = toupper(polled_UE)) %>%
